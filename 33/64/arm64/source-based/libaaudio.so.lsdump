@@ -446,9 +446,6 @@
    "name" : "AAudioStreamBuilder_setSampleRate"
   },
   {
-   "name" : "AAudioStreamBuilder_setSamplesPerFrame"
-  },
-  {
    "name" : "AAudioStreamBuilder_setSessionId"
   },
   {
@@ -510,9 +507,6 @@
   },
   {
    "name" : "AAudioStream_getSampleRate"
-  },
-  {
-   "name" : "AAudioStream_getSamplesPerFrame"
   },
   {
    "name" : "AAudioStream_getSessionId"
@@ -11696,21 +11690,6 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
-   "function_name" : "AAudioStreamBuilder_setSamplesPerFrame",
-   "linker_set_key" : "AAudioStreamBuilder_setSamplesPerFrame",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP25AAudioStreamBuilderStruct"
-    },
-    {
-     "referenced_type" : "_ZTIi"
-    }
-   ],
-   "return_type" : "_ZTIv",
-   "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
-  },
-  {
    "function_name" : "AAudioStreamBuilder_setSessionId",
    "linker_set_key" : "AAudioStreamBuilder_setSessionId",
    "parameters" :
@@ -11965,18 +11944,6 @@
   {
    "function_name" : "AAudioStream_getSampleRate",
    "linker_set_key" : "AAudioStream_getSampleRate",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP18AAudioStreamStruct"
-    }
-   ],
-   "return_type" : "_ZTIi",
-   "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
-  },
-  {
-   "function_name" : "AAudioStream_getSamplesPerFrame",
-   "linker_set_key" : "AAudioStream_getSamplesPerFrame",
    "parameters" :
    [
     {
@@ -19881,6 +19848,10 @@
     {
      "is_pure" : true,
      "mangled_component_name" : "_ZN7android5media25IAudioPolicyServiceClient16onRoutingUpdatedEv"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android5media25IAudioPolicyServiceClient24onVolumeRangeInitRequestEv"
     },
     {
      "mangled_component_name" : "_ZN7android11BnInterfaceINS_5media25IAudioPolicyServiceClientEE19queryLocalInterfaceERKNS_8String16E"
