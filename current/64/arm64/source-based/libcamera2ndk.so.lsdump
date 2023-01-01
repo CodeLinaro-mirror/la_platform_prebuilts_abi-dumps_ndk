@@ -1076,6 +1076,26 @@
     },
     {
      "enum_field_value" : 262150,
+     "name" : "ACAMERA_FLASH_STRENGTH_LEVEL"
+    },
+    {
+     "enum_field_value" : 262151,
+     "name" : "ACAMERA_FLASH_SINGLE_STRENGTH_MAX_LEVEL"
+    },
+    {
+     "enum_field_value" : 262152,
+     "name" : "ACAMERA_FLASH_SINGLE_STRENGTH_DEFAULT_LEVEL"
+    },
+    {
+     "enum_field_value" : 262153,
+     "name" : "ACAMERA_FLASH_TORCH_STRENGTH_MAX_LEVEL"
+    },
+    {
+     "enum_field_value" : 262154,
+     "name" : "ACAMERA_FLASH_TORCH_STRENGTH_DEFAULT_LEVEL"
+    },
+    {
+     "enum_field_value" : 262155,
      "name" : "ACAMERA_FLASH_END"
     },
     {
@@ -3232,6 +3252,39 @@
    [
     {
      "enum_field_value" : 0,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_CATEGORY_DEFAULT"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_CATEGORY_NO_PREFERENCE"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_CATEGORY_LOW"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_CATEGORY_NORMAL"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_CATEGORY_HIGH"
+    }
+   ],
+   "linker_set_key" : "_ZTI42$ANATIVEWINDOW_FRAME_RATE_CATEGORY_DEFAULT",
+   "name" : "(unnamed)",
+   "referenced_type" : "_ZTI42$ANATIVEWINDOW_FRAME_RATE_CATEGORY_DEFAULT",
+   "self_type" : "_ZTI42$ANATIVEWINDOW_FRAME_RATE_CATEGORY_DEFAULT",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
      "name" : "ACAMERA_CONTROL_MODE_OFF"
     },
     {
@@ -4893,6 +4946,27 @@
    "self_type" : "_ZTI61acamera_metadata_enum_acamera_lens_optical_stabilization_mode",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_SELF"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_OVERRIDE_CHILDREN"
+    }
+   ],
+   "linker_set_key" : "_ZTI62$ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_OVERRIDE_CHILDREN",
+   "name" : "(unnamed)",
+   "referenced_type" : "_ZTI62$ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_OVERRIDE_CHILDREN",
+   "self_type" : "_ZTI62$ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_OVERRIDE_CHILDREN",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h",
    "underlying_type" : "_ZTIj"
   },
   {

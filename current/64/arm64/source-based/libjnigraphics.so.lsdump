@@ -188,7 +188,7 @@
    "referenced_type" : "_ZTI11skcms_Curve",
    "self_type" : "_ZTIA3_11skcms_Curve",
    "size" : 96,
-   "source_file" : "external/skia/modules/skcms/skcms.h"
+   "source_file" : "external/skia/modules/skcms/src/skcms_public.h"
   },
   {
    "alignment" : 4,
@@ -197,7 +197,7 @@
    "referenced_type" : "_ZTIA3_f",
    "self_type" : "_ZTIA3_A3_f",
    "size" : 36,
-   "source_file" : "external/skia/modules/skcms/skcms.h"
+   "source_file" : "external/skia/modules/skcms/src/skcms_public.h"
   },
   {
    "alignment" : 4,
@@ -206,7 +206,7 @@
    "referenced_type" : "_ZTIA4_f",
    "self_type" : "_ZTIA3_A4_f",
    "size" : 48,
-   "source_file" : "external/skia/modules/skcms/skcms.h"
+   "source_file" : "external/skia/modules/skcms/src/skcms_public.h"
   },
   {
    "alignment" : 4,
@@ -215,7 +215,7 @@
    "referenced_type" : "_ZTIf",
    "self_type" : "_ZTIA3_f",
    "size" : 12,
-   "source_file" : "external/skia/modules/skcms/skcms.h"
+   "source_file" : "external/skia/modules/skcms/src/skcms_public.h"
   },
   {
    "alignment" : 4,
@@ -269,7 +269,7 @@
    "referenced_type" : "_ZTI11skcms_Curve",
    "self_type" : "_ZTIA4_11skcms_Curve",
    "size" : 128,
-   "source_file" : "external/skia/modules/skcms/skcms.h"
+   "source_file" : "external/skia/modules/skcms/src/skcms_public.h"
   },
   {
    "alignment" : 8,
@@ -1008,27 +1008,27 @@
     },
     {
      "enum_field_value" : 7,
-     "name" : "kBGR_888x_SkColorType"
-    },
-    {
-     "enum_field_value" : 8,
      "name" : "kRGBA_1010102_SkColorType"
     },
     {
-     "enum_field_value" : 9,
+     "enum_field_value" : 8,
      "name" : "kBGRA_1010102_SkColorType"
     },
     {
-     "enum_field_value" : 10,
+     "enum_field_value" : 9,
      "name" : "kRGB_101010x_SkColorType"
     },
     {
-     "enum_field_value" : 11,
+     "enum_field_value" : 10,
      "name" : "kBGR_101010x_SkColorType"
     },
     {
-     "enum_field_value" : 12,
+     "enum_field_value" : 11,
      "name" : "kBGR_101010x_XR_SkColorType"
+    },
+    {
+     "enum_field_value" : 12,
+     "name" : "kRGBA_10x6_SkColorType"
     },
     {
      "enum_field_value" : 13,
@@ -1179,7 +1179,7 @@
    "referenced_type" : "_ZTI12skcms_TFType",
    "self_type" : "_ZTI12skcms_TFType",
    "size" : 4,
-   "source_file" : "external/skia/modules/skcms/skcms.h",
+   "source_file" : "external/skia/modules/skcms/src/skcms_public.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -1450,7 +1450,7 @@
    "referenced_type" : "_ZTI17skcms_AlphaFormat",
    "self_type" : "_ZTI17skcms_AlphaFormat",
    "size" : 4,
-   "source_file" : "external/skia/modules/skcms/skcms.h",
+   "source_file" : "external/skia/modules/skcms/src/skcms_public.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -1475,146 +1475,138 @@
     },
     {
      "enum_field_value" : 4,
-     "name" : "skcms_PixelFormat_RGBA_8888_Palette8"
-    },
-    {
-     "enum_field_value" : 5,
-     "name" : "skcms_PixelFormat_BGRA_8888_Palette8"
-    },
-    {
-     "enum_field_value" : 6,
      "name" : "skcms_PixelFormat_RGB_565"
     },
     {
-     "enum_field_value" : 7,
+     "enum_field_value" : 5,
      "name" : "skcms_PixelFormat_BGR_565"
     },
     {
-     "enum_field_value" : 8,
+     "enum_field_value" : 6,
      "name" : "skcms_PixelFormat_ABGR_4444"
     },
     {
-     "enum_field_value" : 9,
+     "enum_field_value" : 7,
      "name" : "skcms_PixelFormat_ARGB_4444"
     },
     {
-     "enum_field_value" : 10,
+     "enum_field_value" : 8,
      "name" : "skcms_PixelFormat_RGB_888"
     },
     {
-     "enum_field_value" : 11,
+     "enum_field_value" : 9,
      "name" : "skcms_PixelFormat_BGR_888"
     },
     {
-     "enum_field_value" : 12,
+     "enum_field_value" : 10,
      "name" : "skcms_PixelFormat_RGBA_8888"
     },
     {
-     "enum_field_value" : 13,
+     "enum_field_value" : 11,
      "name" : "skcms_PixelFormat_BGRA_8888"
     },
     {
-     "enum_field_value" : 14,
+     "enum_field_value" : 12,
      "name" : "skcms_PixelFormat_RGBA_8888_sRGB"
     },
     {
-     "enum_field_value" : 15,
+     "enum_field_value" : 13,
      "name" : "skcms_PixelFormat_BGRA_8888_sRGB"
     },
     {
-     "enum_field_value" : 16,
+     "enum_field_value" : 14,
      "name" : "skcms_PixelFormat_RGBA_1010102"
     },
     {
-     "enum_field_value" : 17,
+     "enum_field_value" : 15,
      "name" : "skcms_PixelFormat_BGRA_1010102"
     },
     {
-     "enum_field_value" : 18,
+     "enum_field_value" : 16,
      "name" : "skcms_PixelFormat_RGB_161616LE"
     },
     {
-     "enum_field_value" : 19,
+     "enum_field_value" : 17,
      "name" : "skcms_PixelFormat_BGR_161616LE"
     },
     {
-     "enum_field_value" : 20,
+     "enum_field_value" : 18,
      "name" : "skcms_PixelFormat_RGBA_16161616LE"
     },
     {
-     "enum_field_value" : 21,
+     "enum_field_value" : 19,
      "name" : "skcms_PixelFormat_BGRA_16161616LE"
     },
     {
-     "enum_field_value" : 22,
+     "enum_field_value" : 20,
      "name" : "skcms_PixelFormat_RGB_161616BE"
     },
     {
-     "enum_field_value" : 23,
+     "enum_field_value" : 21,
      "name" : "skcms_PixelFormat_BGR_161616BE"
     },
     {
-     "enum_field_value" : 24,
+     "enum_field_value" : 22,
      "name" : "skcms_PixelFormat_RGBA_16161616BE"
     },
     {
-     "enum_field_value" : 25,
+     "enum_field_value" : 23,
      "name" : "skcms_PixelFormat_BGRA_16161616BE"
     },
     {
-     "enum_field_value" : 26,
+     "enum_field_value" : 24,
      "name" : "skcms_PixelFormat_RGB_hhh_Norm"
     },
     {
-     "enum_field_value" : 27,
+     "enum_field_value" : 25,
      "name" : "skcms_PixelFormat_BGR_hhh_Norm"
     },
     {
-     "enum_field_value" : 28,
+     "enum_field_value" : 26,
      "name" : "skcms_PixelFormat_RGBA_hhhh_Norm"
     },
     {
-     "enum_field_value" : 29,
+     "enum_field_value" : 27,
      "name" : "skcms_PixelFormat_BGRA_hhhh_Norm"
     },
     {
-     "enum_field_value" : 30,
+     "enum_field_value" : 28,
      "name" : "skcms_PixelFormat_RGB_hhh"
     },
     {
-     "enum_field_value" : 31,
+     "enum_field_value" : 29,
      "name" : "skcms_PixelFormat_BGR_hhh"
     },
     {
-     "enum_field_value" : 32,
+     "enum_field_value" : 30,
      "name" : "skcms_PixelFormat_RGBA_hhhh"
     },
     {
-     "enum_field_value" : 33,
+     "enum_field_value" : 31,
      "name" : "skcms_PixelFormat_BGRA_hhhh"
     },
     {
-     "enum_field_value" : 34,
+     "enum_field_value" : 32,
      "name" : "skcms_PixelFormat_RGB_fff"
     },
     {
-     "enum_field_value" : 35,
+     "enum_field_value" : 33,
      "name" : "skcms_PixelFormat_BGR_fff"
     },
     {
-     "enum_field_value" : 36,
+     "enum_field_value" : 34,
      "name" : "skcms_PixelFormat_RGBA_ffff"
     },
     {
-     "enum_field_value" : 37,
+     "enum_field_value" : 35,
      "name" : "skcms_PixelFormat_BGRA_ffff"
     },
     {
-     "enum_field_value" : 38,
+     "enum_field_value" : 36,
      "name" : "skcms_PixelFormat_RGB_101010x_XR"
     },
     {
-     "enum_field_value" : 39,
+     "enum_field_value" : 37,
      "name" : "skcms_PixelFormat_BGR_101010x_XR"
     }
    ],
@@ -1623,7 +1615,7 @@
    "referenced_type" : "_ZTI17skcms_PixelFormat",
    "self_type" : "_ZTI17skcms_PixelFormat",
    "size" : 4,
-   "source_file" : "external/skia/modules/skcms/skcms.h",
+   "source_file" : "external/skia/modules/skcms/src/skcms_public.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -2315,7 +2307,7 @@
    "referenced_type" : "_ZTI21$skcms_Signature_CMYK",
    "self_type" : "_ZTI21$skcms_Signature_CMYK",
    "size" : 4,
-   "source_file" : "external/skia/modules/skcms/skcms.h",
+   "source_file" : "external/skia/modules/skcms/src/skcms_public.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -2994,6 +2986,31 @@
    "size" : 4,
    "source_file" : "frameworks/native/include/android/bitmap.h",
    "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 8,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 18446744073709551615,
+     "name" : "BIONIC_MULTIBYTE_RESULT_ILLEGAL_SEQUENCE"
+    },
+    {
+     "enum_field_value" : 18446744073709551614,
+     "name" : "BIONIC_MULTIBYTE_RESULT_INCOMPLETE_SEQUENCE"
+    },
+    {
+     "enum_field_value" : 18446744073709551613,
+     "name" : "BIONIC_MULTIBYTE_RESULT_NO_BYTES_CONSUMED"
+    }
+   ],
+   "linker_set_key" : "_ZTI41$BIONIC_MULTIBYTE_RESULT_ILLEGAL_SEQUENCE",
+   "name" : "(unnamed)",
+   "referenced_type" : "_ZTI41$BIONIC_MULTIBYTE_RESULT_ILLEGAL_SEQUENCE",
+   "self_type" : "_ZTI41$BIONIC_MULTIBYTE_RESULT_ILLEGAL_SEQUENCE",
+   "size" : 8,
+   "source_file" : "bionic/libc/include/bits/bionic_multibyte_result.h",
+   "underlying_type" : "_ZTIm"
   },
   {
    "alignment" : 4,
@@ -10497,7 +10514,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__112__tuple_leafILm0EiLb0EEE",
-   "name" : "const std::__tuple_leaf<0, int, false> &",
+   "name" : "const std::__tuple_leaf<0, int> &",
    "referenced_type" : "_ZTIKNSt3__112__tuple_leafILm0EiLb0EEE",
    "self_type" : "_ZTIRKNSt3__112__tuple_leafILm0EiLb0EEE",
    "size" : 8,
@@ -10506,7 +10523,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__112__tuple_leafILm1EiLb0EEE",
-   "name" : "const std::__tuple_leaf<1, int, false> &",
+   "name" : "const std::__tuple_leaf<1, int> &",
    "referenced_type" : "_ZTIKNSt3__112__tuple_leafILm1EiLb0EEE",
    "self_type" : "_ZTIRKNSt3__112__tuple_leafILm1EiLb0EEE",
    "size" : 8,
@@ -10954,7 +10971,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__122__compressed_pair_elemIP12SkFILEStreamLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<SkFILEStream *, 0, false> &",
+   "name" : "const std::__compressed_pair_elem<SkFILEStream *, 0> &",
    "referenced_type" : "_ZTIKNSt3__122__compressed_pair_elemIP12SkFILEStreamLi0ELb0EEE",
    "self_type" : "_ZTIRKNSt3__122__compressed_pair_elemIP12SkFILEStreamLi0ELb0EEE",
    "size" : 8,
@@ -10963,7 +10980,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__122__compressed_pair_elemIP13SkStreamAssetLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<SkStreamAsset *, 0, false> &",
+   "name" : "const std::__compressed_pair_elem<SkStreamAsset *, 0> &",
    "referenced_type" : "_ZTIKNSt3__122__compressed_pair_elemIP13SkStreamAssetLi0ELb0EEE",
    "self_type" : "_ZTIRKNSt3__122__compressed_pair_elemIP13SkStreamAssetLi0ELb0EEE",
    "size" : 8,
@@ -10972,7 +10989,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__122__compressed_pair_elemIP14SkAndroidCodecLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<SkAndroidCodec *, 0, false> &",
+   "name" : "const std::__compressed_pair_elem<SkAndroidCodec *, 0> &",
    "referenced_type" : "_ZTIKNSt3__122__compressed_pair_elemIP14SkAndroidCodecLi0ELb0EEE",
    "self_type" : "_ZTIRKNSt3__122__compressed_pair_elemIP14SkAndroidCodecLi0ELb0EEE",
    "size" : 8,
@@ -10981,7 +10998,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__122__compressed_pair_elemIP14SkMemoryStreamLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<SkMemoryStream *, 0, false> &",
+   "name" : "const std::__compressed_pair_elem<SkMemoryStream *, 0> &",
    "referenced_type" : "_ZTIKNSt3__122__compressed_pair_elemIP14SkMemoryStreamLi0ELb0EEE",
    "self_type" : "_ZTIRKNSt3__122__compressed_pair_elemIP14SkMemoryStreamLi0ELb0EEE",
    "size" : 8,
@@ -10990,7 +11007,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__122__compressed_pair_elemIP14SkStreamMemoryLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<SkStreamMemory *, 0, false> &",
+   "name" : "const std::__compressed_pair_elem<SkStreamMemory *, 0> &",
    "referenced_type" : "_ZTIKNSt3__122__compressed_pair_elemIP14SkStreamMemoryLi0ELb0EEE",
    "self_type" : "_ZTIRKNSt3__122__compressed_pair_elemIP14SkStreamMemoryLi0ELb0EEE",
    "size" : 8,
@@ -10999,7 +11016,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__122__compressed_pair_elemIP16SkStreamSeekableLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<SkStreamSeekable *, 0, false> &",
+   "name" : "const std::__compressed_pair_elem<SkStreamSeekable *, 0> &",
    "referenced_type" : "_ZTIKNSt3__122__compressed_pair_elemIP16SkStreamSeekableLi0ELb0EEE",
    "self_type" : "_ZTIRKNSt3__122__compressed_pair_elemIP16SkStreamSeekableLi0ELb0EEE",
    "size" : 8,
@@ -11008,7 +11025,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__122__compressed_pair_elemIP18SkStreamRewindableLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<SkStreamRewindable *, 0, false> &",
+   "name" : "const std::__compressed_pair_elem<SkStreamRewindable *, 0> &",
    "referenced_type" : "_ZTIKNSt3__122__compressed_pair_elemIP18SkStreamRewindableLi0ELb0EEE",
    "self_type" : "_ZTIRKNSt3__122__compressed_pair_elemIP18SkStreamRewindableLi0ELb0EEE",
    "size" : 8,
@@ -11017,7 +11034,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__122__compressed_pair_elemIP19AAssetStreamAdaptorLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<AAssetStreamAdaptor *, 0, false> &",
+   "name" : "const std::__compressed_pair_elem<AAssetStreamAdaptor *, 0> &",
    "referenced_type" : "_ZTIKNSt3__122__compressed_pair_elemIP19AAssetStreamAdaptorLi0ELb0EEE",
    "self_type" : "_ZTIRKNSt3__122__compressed_pair_elemIP19AAssetStreamAdaptorLi0ELb0EEE",
    "size" : 8,
@@ -11026,7 +11043,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__122__compressed_pair_elemIP7SkCodecLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<SkCodec *, 0, false> &",
+   "name" : "const std::__compressed_pair_elem<SkCodec *, 0> &",
    "referenced_type" : "_ZTIKNSt3__122__compressed_pair_elemIP7SkCodecLi0ELb0EEE",
    "self_type" : "_ZTIRKNSt3__122__compressed_pair_elemIP7SkCodecLi0ELb0EEE",
    "size" : 8,
@@ -11035,7 +11052,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__122__compressed_pair_elemIP8SkStreamLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<SkStream *, 0, false> &",
+   "name" : "const std::__compressed_pair_elem<SkStream *, 0> &",
    "referenced_type" : "_ZTIKNSt3__122__compressed_pair_elemIP8SkStreamLi0ELb0EEE",
    "self_type" : "_ZTIRKNSt3__122__compressed_pair_elemIP8SkStreamLi0ELb0EEE",
    "size" : 8,
@@ -11760,7 +11777,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIRNSt3__122__compressed_pair_elemIP12SkFILEStreamLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<SkFILEStream *, 0, false> &",
+   "name" : "std::__compressed_pair_elem<SkFILEStream *, 0> &",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP12SkFILEStreamLi0ELb0EEE",
    "self_type" : "_ZTIRNSt3__122__compressed_pair_elemIP12SkFILEStreamLi0ELb0EEE",
    "size" : 8,
@@ -11769,7 +11786,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIRNSt3__122__compressed_pair_elemIP13SkStreamAssetLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<SkStreamAsset *, 0, false> &",
+   "name" : "std::__compressed_pair_elem<SkStreamAsset *, 0> &",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP13SkStreamAssetLi0ELb0EEE",
    "self_type" : "_ZTIRNSt3__122__compressed_pair_elemIP13SkStreamAssetLi0ELb0EEE",
    "size" : 8,
@@ -11778,7 +11795,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIRNSt3__122__compressed_pair_elemIP14SkAndroidCodecLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<SkAndroidCodec *, 0, false> &",
+   "name" : "std::__compressed_pair_elem<SkAndroidCodec *, 0> &",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP14SkAndroidCodecLi0ELb0EEE",
    "self_type" : "_ZTIRNSt3__122__compressed_pair_elemIP14SkAndroidCodecLi0ELb0EEE",
    "size" : 8,
@@ -11787,7 +11804,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIRNSt3__122__compressed_pair_elemIP14SkMemoryStreamLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<SkMemoryStream *, 0, false> &",
+   "name" : "std::__compressed_pair_elem<SkMemoryStream *, 0> &",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP14SkMemoryStreamLi0ELb0EEE",
    "self_type" : "_ZTIRNSt3__122__compressed_pair_elemIP14SkMemoryStreamLi0ELb0EEE",
    "size" : 8,
@@ -11796,7 +11813,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIRNSt3__122__compressed_pair_elemIP14SkStreamMemoryLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<SkStreamMemory *, 0, false> &",
+   "name" : "std::__compressed_pair_elem<SkStreamMemory *, 0> &",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP14SkStreamMemoryLi0ELb0EEE",
    "self_type" : "_ZTIRNSt3__122__compressed_pair_elemIP14SkStreamMemoryLi0ELb0EEE",
    "size" : 8,
@@ -11805,7 +11822,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIRNSt3__122__compressed_pair_elemIP16SkStreamSeekableLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<SkStreamSeekable *, 0, false> &",
+   "name" : "std::__compressed_pair_elem<SkStreamSeekable *, 0> &",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP16SkStreamSeekableLi0ELb0EEE",
    "self_type" : "_ZTIRNSt3__122__compressed_pair_elemIP16SkStreamSeekableLi0ELb0EEE",
    "size" : 8,
@@ -11814,7 +11831,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIRNSt3__122__compressed_pair_elemIP18SkStreamRewindableLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<SkStreamRewindable *, 0, false> &",
+   "name" : "std::__compressed_pair_elem<SkStreamRewindable *, 0> &",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP18SkStreamRewindableLi0ELb0EEE",
    "self_type" : "_ZTIRNSt3__122__compressed_pair_elemIP18SkStreamRewindableLi0ELb0EEE",
    "size" : 8,
@@ -11823,7 +11840,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIRNSt3__122__compressed_pair_elemIP19AAssetStreamAdaptorLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<AAssetStreamAdaptor *, 0, false> &",
+   "name" : "std::__compressed_pair_elem<AAssetStreamAdaptor *, 0> &",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP19AAssetStreamAdaptorLi0ELb0EEE",
    "self_type" : "_ZTIRNSt3__122__compressed_pair_elemIP19AAssetStreamAdaptorLi0ELb0EEE",
    "size" : 8,
@@ -11832,7 +11849,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIRNSt3__122__compressed_pair_elemIP7SkCodecLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<SkCodec *, 0, false> &",
+   "name" : "std::__compressed_pair_elem<SkCodec *, 0> &",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP7SkCodecLi0ELb0EEE",
    "self_type" : "_ZTIRNSt3__122__compressed_pair_elemIP7SkCodecLi0ELb0EEE",
    "size" : 8,
@@ -11841,7 +11858,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIRNSt3__122__compressed_pair_elemIP8SkStreamLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<SkStream *, 0, false> &",
+   "name" : "std::__compressed_pair_elem<SkStream *, 0> &",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP8SkStreamLi0ELb0EEE",
    "self_type" : "_ZTIRNSt3__122__compressed_pair_elemIP8SkStreamLi0ELb0EEE",
    "size" : 8,
@@ -15453,7 +15470,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPKNSt3__113__scalar_hashIdLm1EEE",
-   "name" : "const std::__scalar_hash<double, 1> *",
+   "name" : "const std::__scalar_hash<double> *",
    "referenced_type" : "_ZTIKNSt3__113__scalar_hashIdLm1EEE",
    "self_type" : "_ZTIPKNSt3__113__scalar_hashIdLm1EEE",
    "size" : 8,
@@ -15462,7 +15479,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPKNSt3__113__scalar_hashIeLm2EEE",
-   "name" : "const std::__scalar_hash<long double, 2> *",
+   "name" : "const std::__scalar_hash<long double> *",
    "referenced_type" : "_ZTIKNSt3__113__scalar_hashIeLm2EEE",
    "self_type" : "_ZTIPKNSt3__113__scalar_hashIeLm2EEE",
    "size" : 8,
@@ -15471,7 +15488,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPKNSt3__113__scalar_hashIfLm0EEE",
-   "name" : "const std::__scalar_hash<float, 0> *",
+   "name" : "const std::__scalar_hash<float> *",
    "referenced_type" : "_ZTIKNSt3__113__scalar_hashIfLm0EEE",
    "self_type" : "_ZTIPKNSt3__113__scalar_hashIfLm0EEE",
    "size" : 8,
@@ -15930,7 +15947,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPKNSt3__122__compressed_pair_elemIP12SkFILEStreamLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<SkFILEStream *, 0, false> *",
+   "name" : "const std::__compressed_pair_elem<SkFILEStream *, 0> *",
    "referenced_type" : "_ZTIKNSt3__122__compressed_pair_elemIP12SkFILEStreamLi0ELb0EEE",
    "self_type" : "_ZTIPKNSt3__122__compressed_pair_elemIP12SkFILEStreamLi0ELb0EEE",
    "size" : 8,
@@ -15939,7 +15956,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPKNSt3__122__compressed_pair_elemIP13SkStreamAssetLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<SkStreamAsset *, 0, false> *",
+   "name" : "const std::__compressed_pair_elem<SkStreamAsset *, 0> *",
    "referenced_type" : "_ZTIKNSt3__122__compressed_pair_elemIP13SkStreamAssetLi0ELb0EEE",
    "self_type" : "_ZTIPKNSt3__122__compressed_pair_elemIP13SkStreamAssetLi0ELb0EEE",
    "size" : 8,
@@ -15948,7 +15965,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPKNSt3__122__compressed_pair_elemIP14SkAndroidCodecLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<SkAndroidCodec *, 0, false> *",
+   "name" : "const std::__compressed_pair_elem<SkAndroidCodec *, 0> *",
    "referenced_type" : "_ZTIKNSt3__122__compressed_pair_elemIP14SkAndroidCodecLi0ELb0EEE",
    "self_type" : "_ZTIPKNSt3__122__compressed_pair_elemIP14SkAndroidCodecLi0ELb0EEE",
    "size" : 8,
@@ -15957,7 +15974,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPKNSt3__122__compressed_pair_elemIP14SkMemoryStreamLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<SkMemoryStream *, 0, false> *",
+   "name" : "const std::__compressed_pair_elem<SkMemoryStream *, 0> *",
    "referenced_type" : "_ZTIKNSt3__122__compressed_pair_elemIP14SkMemoryStreamLi0ELb0EEE",
    "self_type" : "_ZTIPKNSt3__122__compressed_pair_elemIP14SkMemoryStreamLi0ELb0EEE",
    "size" : 8,
@@ -15966,7 +15983,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPKNSt3__122__compressed_pair_elemIP14SkStreamMemoryLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<SkStreamMemory *, 0, false> *",
+   "name" : "const std::__compressed_pair_elem<SkStreamMemory *, 0> *",
    "referenced_type" : "_ZTIKNSt3__122__compressed_pair_elemIP14SkStreamMemoryLi0ELb0EEE",
    "self_type" : "_ZTIPKNSt3__122__compressed_pair_elemIP14SkStreamMemoryLi0ELb0EEE",
    "size" : 8,
@@ -15975,7 +15992,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPKNSt3__122__compressed_pair_elemIP16SkStreamSeekableLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<SkStreamSeekable *, 0, false> *",
+   "name" : "const std::__compressed_pair_elem<SkStreamSeekable *, 0> *",
    "referenced_type" : "_ZTIKNSt3__122__compressed_pair_elemIP16SkStreamSeekableLi0ELb0EEE",
    "self_type" : "_ZTIPKNSt3__122__compressed_pair_elemIP16SkStreamSeekableLi0ELb0EEE",
    "size" : 8,
@@ -15984,7 +16001,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPKNSt3__122__compressed_pair_elemIP18SkStreamRewindableLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<SkStreamRewindable *, 0, false> *",
+   "name" : "const std::__compressed_pair_elem<SkStreamRewindable *, 0> *",
    "referenced_type" : "_ZTIKNSt3__122__compressed_pair_elemIP18SkStreamRewindableLi0ELb0EEE",
    "self_type" : "_ZTIPKNSt3__122__compressed_pair_elemIP18SkStreamRewindableLi0ELb0EEE",
    "size" : 8,
@@ -15993,7 +16010,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPKNSt3__122__compressed_pair_elemIP19AAssetStreamAdaptorLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<AAssetStreamAdaptor *, 0, false> *",
+   "name" : "const std::__compressed_pair_elem<AAssetStreamAdaptor *, 0> *",
    "referenced_type" : "_ZTIKNSt3__122__compressed_pair_elemIP19AAssetStreamAdaptorLi0ELb0EEE",
    "self_type" : "_ZTIPKNSt3__122__compressed_pair_elemIP19AAssetStreamAdaptorLi0ELb0EEE",
    "size" : 8,
@@ -16002,7 +16019,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPKNSt3__122__compressed_pair_elemIP7SkCodecLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<SkCodec *, 0, false> *",
+   "name" : "const std::__compressed_pair_elem<SkCodec *, 0> *",
    "referenced_type" : "_ZTIKNSt3__122__compressed_pair_elemIP7SkCodecLi0ELb0EEE",
    "self_type" : "_ZTIPKNSt3__122__compressed_pair_elemIP7SkCodecLi0ELb0EEE",
    "size" : 8,
@@ -16011,7 +16028,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPKNSt3__122__compressed_pair_elemIP8SkStreamLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<SkStream *, 0, false> *",
+   "name" : "const std::__compressed_pair_elem<SkStream *, 0> *",
    "referenced_type" : "_ZTIKNSt3__122__compressed_pair_elemIP8SkStreamLi0ELb0EEE",
    "self_type" : "_ZTIPKNSt3__122__compressed_pair_elemIP8SkStreamLi0ELb0EEE",
    "size" : 8,
@@ -16029,7 +16046,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPKNSt3__123__optional_storage_baseI15SkEncodedOriginLb0EEE",
-   "name" : "const std::__optional_storage_base<SkEncodedOrigin, false> *",
+   "name" : "const std::__optional_storage_base<SkEncodedOrigin> *",
    "referenced_type" : "_ZTIKNSt3__123__optional_storage_baseI15SkEncodedOriginLb0EEE",
    "self_type" : "_ZTIPKNSt3__123__optional_storage_baseI15SkEncodedOriginLb0EEE",
    "size" : 8,
@@ -16704,7 +16721,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__112__tuple_leafILm0EiLb0EEE",
-   "name" : "std::__tuple_leaf<0, int, false> *",
+   "name" : "std::__tuple_leaf<0, int> *",
    "referenced_type" : "_ZTINSt3__112__tuple_leafILm0EiLb0EEE",
    "self_type" : "_ZTIPNSt3__112__tuple_leafILm0EiLb0EEE",
    "size" : 8,
@@ -16713,7 +16730,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__112__tuple_leafILm1EiLb0EEE",
-   "name" : "std::__tuple_leaf<1, int, false> *",
+   "name" : "std::__tuple_leaf<1, int> *",
    "referenced_type" : "_ZTINSt3__112__tuple_leafILm1EiLb0EEE",
    "self_type" : "_ZTIPNSt3__112__tuple_leafILm1EiLb0EEE",
    "size" : 8,
@@ -16767,7 +16784,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__113__atomic_baseIhLb1EEE",
-   "name" : "std::__atomic_base<unsigned char, true> *",
+   "name" : "std::__atomic_base<unsigned char> *",
    "referenced_type" : "_ZTINSt3__113__atomic_baseIhLb1EEE",
    "self_type" : "_ZTIPNSt3__113__atomic_baseIhLb1EEE",
    "size" : 8,
@@ -16785,7 +16802,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__113__atomic_baseIiLb1EEE",
-   "name" : "std::__atomic_base<int, true> *",
+   "name" : "std::__atomic_base<int> *",
    "referenced_type" : "_ZTINSt3__113__atomic_baseIiLb1EEE",
    "self_type" : "_ZTIPNSt3__113__atomic_baseIiLb1EEE",
    "size" : 8,
@@ -17199,7 +17216,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__121__murmur2_or_cityhashImLm64EEE",
-   "name" : "std::__murmur2_or_cityhash<unsigned long, 64> *",
+   "name" : "std::__murmur2_or_cityhash<unsigned long> *",
    "referenced_type" : "_ZTINSt3__121__murmur2_or_cityhashImLm64EEE",
    "self_type" : "_ZTIPNSt3__121__murmur2_or_cityhashImLm64EEE",
    "size" : 8,
@@ -17379,7 +17396,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__122__compressed_pair_elemIP12SkFILEStreamLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<SkFILEStream *, 0, false> *",
+   "name" : "std::__compressed_pair_elem<SkFILEStream *, 0> *",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP12SkFILEStreamLi0ELb0EEE",
    "self_type" : "_ZTIPNSt3__122__compressed_pair_elemIP12SkFILEStreamLi0ELb0EEE",
    "size" : 8,
@@ -17388,7 +17405,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__122__compressed_pair_elemIP13SkStreamAssetLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<SkStreamAsset *, 0, false> *",
+   "name" : "std::__compressed_pair_elem<SkStreamAsset *, 0> *",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP13SkStreamAssetLi0ELb0EEE",
    "self_type" : "_ZTIPNSt3__122__compressed_pair_elemIP13SkStreamAssetLi0ELb0EEE",
    "size" : 8,
@@ -17397,7 +17414,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__122__compressed_pair_elemIP14SkAndroidCodecLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<SkAndroidCodec *, 0, false> *",
+   "name" : "std::__compressed_pair_elem<SkAndroidCodec *, 0> *",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP14SkAndroidCodecLi0ELb0EEE",
    "self_type" : "_ZTIPNSt3__122__compressed_pair_elemIP14SkAndroidCodecLi0ELb0EEE",
    "size" : 8,
@@ -17406,7 +17423,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__122__compressed_pair_elemIP14SkMemoryStreamLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<SkMemoryStream *, 0, false> *",
+   "name" : "std::__compressed_pair_elem<SkMemoryStream *, 0> *",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP14SkMemoryStreamLi0ELb0EEE",
    "self_type" : "_ZTIPNSt3__122__compressed_pair_elemIP14SkMemoryStreamLi0ELb0EEE",
    "size" : 8,
@@ -17415,7 +17432,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__122__compressed_pair_elemIP14SkStreamMemoryLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<SkStreamMemory *, 0, false> *",
+   "name" : "std::__compressed_pair_elem<SkStreamMemory *, 0> *",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP14SkStreamMemoryLi0ELb0EEE",
    "self_type" : "_ZTIPNSt3__122__compressed_pair_elemIP14SkStreamMemoryLi0ELb0EEE",
    "size" : 8,
@@ -17424,7 +17441,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__122__compressed_pair_elemIP16SkStreamSeekableLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<SkStreamSeekable *, 0, false> *",
+   "name" : "std::__compressed_pair_elem<SkStreamSeekable *, 0> *",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP16SkStreamSeekableLi0ELb0EEE",
    "self_type" : "_ZTIPNSt3__122__compressed_pair_elemIP16SkStreamSeekableLi0ELb0EEE",
    "size" : 8,
@@ -17433,7 +17450,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__122__compressed_pair_elemIP18SkStreamRewindableLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<SkStreamRewindable *, 0, false> *",
+   "name" : "std::__compressed_pair_elem<SkStreamRewindable *, 0> *",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP18SkStreamRewindableLi0ELb0EEE",
    "self_type" : "_ZTIPNSt3__122__compressed_pair_elemIP18SkStreamRewindableLi0ELb0EEE",
    "size" : 8,
@@ -17442,7 +17459,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__122__compressed_pair_elemIP19AAssetStreamAdaptorLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<AAssetStreamAdaptor *, 0, false> *",
+   "name" : "std::__compressed_pair_elem<AAssetStreamAdaptor *, 0> *",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP19AAssetStreamAdaptorLi0ELb0EEE",
    "self_type" : "_ZTIPNSt3__122__compressed_pair_elemIP19AAssetStreamAdaptorLi0ELb0EEE",
    "size" : 8,
@@ -17451,7 +17468,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__122__compressed_pair_elemIP7SkCodecLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<SkCodec *, 0, false> *",
+   "name" : "std::__compressed_pair_elem<SkCodec *, 0> *",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP7SkCodecLi0ELb0EEE",
    "self_type" : "_ZTIPNSt3__122__compressed_pair_elemIP7SkCodecLi0ELb0EEE",
    "size" : 8,
@@ -17460,7 +17477,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__122__compressed_pair_elemIP8SkStreamLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<SkStream *, 0, false> *",
+   "name" : "std::__compressed_pair_elem<SkStream *, 0> *",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP8SkStreamLi0ELb0EEE",
    "self_type" : "_ZTIPNSt3__122__compressed_pair_elemIP8SkStreamLi0ELb0EEE",
    "size" : 8,
@@ -18760,7 +18777,7 @@
    "alignment" : 4,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__112__tuple_leafILm0EiLb0EEE",
-   "name" : "const std::__tuple_leaf<0, int, false>",
+   "name" : "const std::__tuple_leaf<0, int>",
    "referenced_type" : "_ZTINSt3__112__tuple_leafILm0EiLb0EEE",
    "self_type" : "_ZTIKNSt3__112__tuple_leafILm0EiLb0EEE",
    "size" : 4,
@@ -18770,7 +18787,7 @@
    "alignment" : 4,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__112__tuple_leafILm1EiLb0EEE",
-   "name" : "const std::__tuple_leaf<1, int, false>",
+   "name" : "const std::__tuple_leaf<1, int>",
    "referenced_type" : "_ZTINSt3__112__tuple_leafILm1EiLb0EEE",
    "self_type" : "_ZTIKNSt3__112__tuple_leafILm1EiLb0EEE",
    "size" : 4,
@@ -18980,7 +18997,7 @@
    "alignment" : 1,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__113__scalar_hashIdLm1EEE",
-   "name" : "const std::__scalar_hash<double, 1>",
+   "name" : "const std::__scalar_hash<double>",
    "referenced_type" : "_ZTINSt3__113__scalar_hashIdLm1EEE",
    "self_type" : "_ZTIKNSt3__113__scalar_hashIdLm1EEE",
    "size" : 1,
@@ -18990,7 +19007,7 @@
    "alignment" : 1,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__113__scalar_hashIeLm2EEE",
-   "name" : "const std::__scalar_hash<long double, 2>",
+   "name" : "const std::__scalar_hash<long double>",
    "referenced_type" : "_ZTINSt3__113__scalar_hashIeLm2EEE",
    "self_type" : "_ZTIKNSt3__113__scalar_hashIeLm2EEE",
    "size" : 1,
@@ -19000,7 +19017,7 @@
    "alignment" : 1,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__113__scalar_hashIfLm0EEE",
-   "name" : "const std::__scalar_hash<float, 0>",
+   "name" : "const std::__scalar_hash<float>",
    "referenced_type" : "_ZTINSt3__113__scalar_hashIfLm0EEE",
    "self_type" : "_ZTIKNSt3__113__scalar_hashIfLm0EEE",
    "size" : 1,
@@ -19668,7 +19685,7 @@
    "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__122__compressed_pair_elemIP12SkFILEStreamLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<SkFILEStream *, 0, false>",
+   "name" : "const std::__compressed_pair_elem<SkFILEStream *, 0>",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP12SkFILEStreamLi0ELb0EEE",
    "self_type" : "_ZTIKNSt3__122__compressed_pair_elemIP12SkFILEStreamLi0ELb0EEE",
    "size" : 8,
@@ -19678,7 +19695,7 @@
    "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__122__compressed_pair_elemIP13SkStreamAssetLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<SkStreamAsset *, 0, false>",
+   "name" : "const std::__compressed_pair_elem<SkStreamAsset *, 0>",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP13SkStreamAssetLi0ELb0EEE",
    "self_type" : "_ZTIKNSt3__122__compressed_pair_elemIP13SkStreamAssetLi0ELb0EEE",
    "size" : 8,
@@ -19688,7 +19705,7 @@
    "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__122__compressed_pair_elemIP14SkAndroidCodecLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<SkAndroidCodec *, 0, false>",
+   "name" : "const std::__compressed_pair_elem<SkAndroidCodec *, 0>",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP14SkAndroidCodecLi0ELb0EEE",
    "self_type" : "_ZTIKNSt3__122__compressed_pair_elemIP14SkAndroidCodecLi0ELb0EEE",
    "size" : 8,
@@ -19698,7 +19715,7 @@
    "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__122__compressed_pair_elemIP14SkMemoryStreamLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<SkMemoryStream *, 0, false>",
+   "name" : "const std::__compressed_pair_elem<SkMemoryStream *, 0>",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP14SkMemoryStreamLi0ELb0EEE",
    "self_type" : "_ZTIKNSt3__122__compressed_pair_elemIP14SkMemoryStreamLi0ELb0EEE",
    "size" : 8,
@@ -19708,7 +19725,7 @@
    "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__122__compressed_pair_elemIP14SkStreamMemoryLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<SkStreamMemory *, 0, false>",
+   "name" : "const std::__compressed_pair_elem<SkStreamMemory *, 0>",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP14SkStreamMemoryLi0ELb0EEE",
    "self_type" : "_ZTIKNSt3__122__compressed_pair_elemIP14SkStreamMemoryLi0ELb0EEE",
    "size" : 8,
@@ -19718,7 +19735,7 @@
    "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__122__compressed_pair_elemIP16SkStreamSeekableLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<SkStreamSeekable *, 0, false>",
+   "name" : "const std::__compressed_pair_elem<SkStreamSeekable *, 0>",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP16SkStreamSeekableLi0ELb0EEE",
    "self_type" : "_ZTIKNSt3__122__compressed_pair_elemIP16SkStreamSeekableLi0ELb0EEE",
    "size" : 8,
@@ -19728,7 +19745,7 @@
    "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__122__compressed_pair_elemIP18SkStreamRewindableLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<SkStreamRewindable *, 0, false>",
+   "name" : "const std::__compressed_pair_elem<SkStreamRewindable *, 0>",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP18SkStreamRewindableLi0ELb0EEE",
    "self_type" : "_ZTIKNSt3__122__compressed_pair_elemIP18SkStreamRewindableLi0ELb0EEE",
    "size" : 8,
@@ -19738,7 +19755,7 @@
    "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__122__compressed_pair_elemIP19AAssetStreamAdaptorLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<AAssetStreamAdaptor *, 0, false>",
+   "name" : "const std::__compressed_pair_elem<AAssetStreamAdaptor *, 0>",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP19AAssetStreamAdaptorLi0ELb0EEE",
    "self_type" : "_ZTIKNSt3__122__compressed_pair_elemIP19AAssetStreamAdaptorLi0ELb0EEE",
    "size" : 8,
@@ -19748,7 +19765,7 @@
    "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__122__compressed_pair_elemIP7SkCodecLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<SkCodec *, 0, false>",
+   "name" : "const std::__compressed_pair_elem<SkCodec *, 0>",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP7SkCodecLi0ELb0EEE",
    "self_type" : "_ZTIKNSt3__122__compressed_pair_elemIP7SkCodecLi0ELb0EEE",
    "size" : 8,
@@ -19758,7 +19775,7 @@
    "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__122__compressed_pair_elemIP8SkStreamLi0ELb0EEE",
-   "name" : "const std::__compressed_pair_elem<SkStream *, 0, false>",
+   "name" : "const std::__compressed_pair_elem<SkStream *, 0>",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP8SkStreamLi0ELb0EEE",
    "self_type" : "_ZTIKNSt3__122__compressed_pair_elemIP8SkStreamLi0ELb0EEE",
    "size" : 8,
@@ -19778,7 +19795,7 @@
    "alignment" : 4,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__123__optional_storage_baseI15SkEncodedOriginLb0EEE",
-   "name" : "const std::__optional_storage_base<SkEncodedOrigin, false>",
+   "name" : "const std::__optional_storage_base<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__123__optional_storage_baseI15SkEncodedOriginLb0EEE",
    "self_type" : "_ZTIKNSt3__123__optional_storage_baseI15SkEncodedOriginLb0EEE",
    "size" : 8,
@@ -20438,7 +20455,7 @@
    "referenced_type" : "_ZTIl",
    "self_type" : "_ZTIKl",
    "size" : 8,
-   "source_file" : "external/skia/include/private/base/SkMath.h"
+   "source_file" : "external/libcxx/include/limits"
   },
   {
    "alignment" : 8,
@@ -20874,7 +20891,7 @@
    "referenced_type" : "_ZTI10skcms_CICP",
    "self_type" : "_ZTI10skcms_CICP",
    "size" : 4,
-   "source_file" : "external/skia/modules/skcms/skcms.h"
+   "source_file" : "external/skia/modules/skcms/src/skcms_public.h"
   },
   {
    "alignment" : 4,
@@ -21176,7 +21193,7 @@
    "referenced_type" : "_ZTI11skcms_Curve",
    "self_type" : "_ZTI11skcms_Curve",
    "size" : 32,
-   "source_file" : "external/skia/modules/skcms/skcms.h"
+   "source_file" : "external/skia/modules/skcms/src/skcms_public.h"
   },
   {
    "alignment" : 4,
@@ -22426,7 +22443,7 @@
    "referenced_type" : "_ZTI15skcms_Matrix3x3",
    "self_type" : "_ZTI15skcms_Matrix3x3",
    "size" : 36,
-   "source_file" : "external/skia/modules/skcms/skcms.h"
+   "source_file" : "external/skia/modules/skcms/src/skcms_public.h"
   },
   {
    "alignment" : 4,
@@ -22442,7 +22459,7 @@
    "referenced_type" : "_ZTI15skcms_Matrix3x4",
    "self_type" : "_ZTI15skcms_Matrix3x4",
    "size" : 48,
-   "source_file" : "external/skia/modules/skcms/skcms.h"
+   "source_file" : "external/skia/modules/skcms/src/skcms_public.h"
   },
   {
    "alignment" : 8,
@@ -22796,7 +22813,7 @@
    "referenced_type" : "_ZTI16skcms_ICCProfile",
    "self_type" : "_ZTI16skcms_ICCProfile",
    "size" : 1016,
-   "source_file" : "external/skia/modules/skcms/skcms.h"
+   "source_file" : "external/skia/modules/skcms/src/skcms_public.h"
   },
   {
    "alignment" : 8,
@@ -24794,7 +24811,7 @@
    "referenced_type" : "_ZTI22skcms_TransferFunction",
    "self_type" : "_ZTI22skcms_TransferFunction",
    "size" : 28,
-   "source_file" : "external/skia/modules/skcms/skcms.h"
+   "source_file" : "external/skia/modules/skcms/src/skcms_public.h"
   },
   {
    "alignment" : 4,
@@ -26861,7 +26878,7 @@
    "referenced_type" : "_ZTI9skcms_A2B",
    "self_type" : "_ZTI9skcms_A2B",
    "size" : 416,
-   "source_file" : "external/skia/modules/skcms/skcms.h"
+   "source_file" : "external/skia/modules/skcms/src/skcms_public.h"
   },
   {
    "alignment" : 8,
@@ -26922,7 +26939,7 @@
    "referenced_type" : "_ZTI9skcms_B2A",
    "self_type" : "_ZTI9skcms_B2A",
    "size" : 408,
-   "source_file" : "external/skia/modules/skcms/skcms.h"
+   "source_file" : "external/skia/modules/skcms/src/skcms_public.h"
   },
   {
    "alignment" : 8,
@@ -27269,7 +27286,7 @@
    "referenced_type" : "_ZTIN11skcms_CurveUt0_E",
    "self_type" : "_ZTIN11skcms_CurveUt0_E",
    "size" : 24,
-   "source_file" : "external/skia/modules/skcms/skcms.h"
+   "source_file" : "external/skia/modules/skcms/src/skcms_public.h"
   },
   {
    "alignment" : 4,
@@ -27291,7 +27308,7 @@
    "referenced_type" : "_ZTIN11skcms_CurveUt_E",
    "self_type" : "_ZTIN11skcms_CurveUt_E",
    "size" : 32,
-   "source_file" : "external/skia/modules/skcms/skcms.h"
+   "source_file" : "external/skia/modules/skcms/src/skcms_public.h"
   },
   {
    "alignment" : 8,
@@ -28503,7 +28520,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__110less_equalIvEE",
-   "name" : "std::less_equal<>",
+   "name" : "std::less_equal<void>",
    "referenced_type" : "_ZTINSt3__110less_equalIvEE",
    "self_type" : "_ZTINSt3__110less_equalIvEE",
    "size" : 1,
@@ -28516,7 +28533,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__110logical_orIvEE",
-   "name" : "std::logical_or<>",
+   "name" : "std::logical_or<void>",
    "referenced_type" : "_ZTINSt3__110logical_orIvEE",
    "self_type" : "_ZTINSt3__110logical_orIvEE",
    "size" : 1,
@@ -28529,7 +28546,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__110multipliesIvEE",
-   "name" : "std::multiplies<>",
+   "name" : "std::multiplies<void>",
    "referenced_type" : "_ZTINSt3__110multipliesIvEE",
    "self_type" : "_ZTINSt3__110multipliesIvEE",
    "size" : 1,
@@ -28542,7 +28559,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__110owner_lessIvEE",
-   "name" : "std::owner_less<>",
+   "name" : "std::owner_less<void>",
    "referenced_type" : "_ZTINSt3__110owner_lessIvEE",
    "self_type" : "_ZTINSt3__110owner_lessIvEE",
    "size" : 1,
@@ -28855,7 +28872,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__111__add_constI15SkEncodedOriginLb0EEE",
-   "name" : "std::__add_const<SkEncodedOrigin, false>",
+   "name" : "std::__add_const<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__111__add_constI15SkEncodedOriginLb0EEE",
    "self_type" : "_ZTINSt3__111__add_constI15SkEncodedOriginLb0EEE",
    "size" : 1,
@@ -28868,7 +28885,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__111__add_constI7SkIRectLb0EEE",
-   "name" : "std::__add_const<SkIRect, false>",
+   "name" : "std::__add_const<SkIRect>",
    "referenced_type" : "_ZTINSt3__111__add_constI7SkIRectLb0EEE",
    "self_type" : "_ZTINSt3__111__add_constI7SkIRectLb0EEE",
    "size" : 1,
@@ -28881,7 +28898,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__111__add_constIiLb0EEE",
-   "name" : "std::__add_const<int, false>",
+   "name" : "std::__add_const<int>",
    "referenced_type" : "_ZTINSt3__111__add_constIiLb0EEE",
    "self_type" : "_ZTINSt3__111__add_constIiLb0EEE",
    "size" : 1,
@@ -28894,7 +28911,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__111__add_constImLb0EEE",
-   "name" : "std::__add_const<unsigned long, false>",
+   "name" : "std::__add_const<unsigned long>",
    "referenced_type" : "_ZTINSt3__111__add_constImLb0EEE",
    "self_type" : "_ZTINSt3__111__add_constImLb0EEE",
    "size" : 1,
@@ -34564,7 +34581,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__111logical_andIvEE",
-   "name" : "std::logical_and<>",
+   "name" : "std::logical_and<void>",
    "referenced_type" : "_ZTINSt3__111logical_andIvEE",
    "self_type" : "_ZTINSt3__111logical_andIvEE",
    "size" : 1,
@@ -34577,7 +34594,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__111logical_notIvEE",
-   "name" : "std::logical_not<>",
+   "name" : "std::logical_not<void>",
    "referenced_type" : "_ZTINSt3__111logical_notIvEE",
    "self_type" : "_ZTINSt3__111logical_notIvEE",
    "size" : 1,
@@ -34888,7 +34905,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__112__tuple_leafILm0EiLb0EEE",
-   "name" : "std::__tuple_leaf<0, int, false>",
+   "name" : "std::__tuple_leaf<0, int>",
    "record_kind" : "class",
    "referenced_type" : "_ZTINSt3__112__tuple_leafILm0EiLb0EEE",
    "self_type" : "_ZTINSt3__112__tuple_leafILm0EiLb0EEE",
@@ -34910,7 +34927,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__112__tuple_leafILm1EiLb0EEE",
-   "name" : "std::__tuple_leaf<1, int, false>",
+   "name" : "std::__tuple_leaf<1, int>",
    "record_kind" : "class",
    "referenced_type" : "_ZTINSt3__112__tuple_leafILm1EiLb0EEE",
    "self_type" : "_ZTINSt3__112__tuple_leafILm1EiLb0EEE",
@@ -38092,7 +38109,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__112not_equal_toIvEE",
-   "name" : "std::not_equal_to<>",
+   "name" : "std::not_equal_to<void>",
    "referenced_type" : "_ZTINSt3__112not_equal_toIvEE",
    "self_type" : "_ZTINSt3__112not_equal_toIvEE",
    "size" : 1,
@@ -40217,7 +40234,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__113__atomic_baseIhLb1EEE",
-   "name" : "std::__atomic_base<unsigned char, true>",
+   "name" : "std::__atomic_base<unsigned char>",
    "referenced_type" : "_ZTINSt3__113__atomic_baseIhLb1EEE",
    "self_type" : "_ZTINSt3__113__atomic_baseIhLb1EEE",
    "size" : 1,
@@ -40256,7 +40273,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__113__atomic_baseIiLb1EEE",
-   "name" : "std::__atomic_base<int, true>",
+   "name" : "std::__atomic_base<int>",
    "referenced_type" : "_ZTINSt3__113__atomic_baseIiLb1EEE",
    "self_type" : "_ZTINSt3__113__atomic_baseIiLb1EEE",
    "size" : 4,
@@ -40426,7 +40443,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__113__promote_impIfffLb1EEE",
-   "name" : "std::__promote_imp<float, float, float, true>",
+   "name" : "std::__promote_imp<float, float, float>",
    "record_kind" : "class",
    "referenced_type" : "_ZTINSt3__113__promote_impIfffLb1EEE",
    "self_type" : "_ZTINSt3__113__promote_impIfffLb1EEE",
@@ -40442,7 +40459,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__113__promote_impIffvLb1EEE",
-   "name" : "std::__promote_imp<float, float, void, true>",
+   "name" : "std::__promote_imp<float, float>",
    "record_kind" : "class",
    "referenced_type" : "_ZTINSt3__113__promote_impIffvLb1EEE",
    "self_type" : "_ZTINSt3__113__promote_impIffvLb1EEE",
@@ -40458,7 +40475,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__113__promote_impIfvvLb1EEE",
-   "name" : "std::__promote_imp<float, void, void, true>",
+   "name" : "std::__promote_imp<float>",
    "record_kind" : "class",
    "referenced_type" : "_ZTINSt3__113__promote_impIfvvLb1EEE",
    "self_type" : "_ZTINSt3__113__promote_impIfvvLb1EEE",
@@ -40499,7 +40516,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__113__scalar_hashIdLm1EEE",
-   "name" : "std::__scalar_hash<double, 1>",
+   "name" : "std::__scalar_hash<double>",
    "referenced_type" : "_ZTINSt3__113__scalar_hashIdLm1EEE",
    "self_type" : "_ZTINSt3__113__scalar_hashIdLm1EEE",
    "size" : 1,
@@ -40518,7 +40535,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__113__scalar_hashIeLm2EEE",
-   "name" : "std::__scalar_hash<long double, 2>",
+   "name" : "std::__scalar_hash<long double>",
    "referenced_type" : "_ZTINSt3__113__scalar_hashIeLm2EEE",
    "self_type" : "_ZTINSt3__113__scalar_hashIeLm2EEE",
    "size" : 1,
@@ -40537,7 +40554,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__113__scalar_hashIfLm0EEE",
-   "name" : "std::__scalar_hash<float, 0>",
+   "name" : "std::__scalar_hash<float>",
    "referenced_type" : "_ZTINSt3__113__scalar_hashIfLm0EEE",
    "self_type" : "_ZTINSt3__113__scalar_hashIfLm0EEE",
    "size" : 1,
@@ -40556,7 +40573,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__113__scalar_hashInLm2EEE",
-   "name" : "std::__scalar_hash<__int128, 2>",
+   "name" : "std::__scalar_hash<__int128>",
    "referenced_type" : "_ZTINSt3__113__scalar_hashInLm2EEE",
    "self_type" : "_ZTINSt3__113__scalar_hashInLm2EEE",
    "size" : 1,
@@ -40575,7 +40592,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__113__scalar_hashIoLm2EEE",
-   "name" : "std::__scalar_hash<unsigned __int128, 2>",
+   "name" : "std::__scalar_hash<unsigned __int128>",
    "referenced_type" : "_ZTINSt3__113__scalar_hashIoLm2EEE",
    "self_type" : "_ZTINSt3__113__scalar_hashIoLm2EEE",
    "size" : 1,
@@ -40594,7 +40611,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__113__scalar_hashIxLm1EEE",
-   "name" : "std::__scalar_hash<long long, 1>",
+   "name" : "std::__scalar_hash<long long>",
    "referenced_type" : "_ZTINSt3__113__scalar_hashIxLm1EEE",
    "self_type" : "_ZTINSt3__113__scalar_hashIxLm1EEE",
    "size" : 1,
@@ -40613,7 +40630,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__113__scalar_hashIyLm1EEE",
-   "name" : "std::__scalar_hash<unsigned long long, 1>",
+   "name" : "std::__scalar_hash<unsigned long long>",
    "referenced_type" : "_ZTINSt3__113__scalar_hashIyLm1EEE",
    "self_type" : "_ZTINSt3__113__scalar_hashIyLm1EEE",
    "size" : 1,
@@ -40644,7 +40661,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__113greater_equalIvEE",
-   "name" : "std::greater_equal<>",
+   "name" : "std::greater_equal<void>",
    "referenced_type" : "_ZTINSt3__113greater_equalIvEE",
    "self_type" : "_ZTINSt3__113greater_equalIvEE",
    "size" : 1,
@@ -46424,7 +46441,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__115__lazy_and_implILb0EJNS_16is_constructibleIiJNS_12__tuple_leafILm0EiLb0EEEEEEEEE",
-   "name" : "std::__lazy_and_impl<false, is_constructible<int, __tuple_leaf<0, int, false>>>",
+   "name" : "std::__lazy_and_impl<false, is_constructible<int, __tuple_leaf<0, int>>>",
    "referenced_type" : "_ZTINSt3__115__lazy_and_implILb0EJNS_16is_constructibleIiJNS_12__tuple_leafILm0EiLb0EEEEEEEEE",
    "self_type" : "_ZTINSt3__115__lazy_and_implILb0EJNS_16is_constructibleIiJNS_12__tuple_leafILm0EiLb0EEEEEEEEE",
    "size" : 1,
@@ -46439,7 +46456,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__115__lazy_and_implILb0EJNS_16is_constructibleIiJNS_12__tuple_leafILm1EiLb0EEEEEEEEE",
-   "name" : "std::__lazy_and_impl<false, is_constructible<int, __tuple_leaf<1, int, false>>>",
+   "name" : "std::__lazy_and_impl<false, is_constructible<int, __tuple_leaf<1, int>>>",
    "referenced_type" : "_ZTINSt3__115__lazy_and_implILb0EJNS_16is_constructibleIiJNS_12__tuple_leafILm1EiLb0EEEEEEEEE",
    "self_type" : "_ZTINSt3__115__lazy_and_implILb0EJNS_16is_constructibleIiJNS_12__tuple_leafILm1EiLb0EEEEEEEEE",
    "size" : 1,
@@ -46454,7 +46471,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__115__lazy_and_implILb0EJNS_16is_constructibleIiJRKNS_12__tuple_leafILm0EiLb0EEEEEEEEE",
-   "name" : "std::__lazy_and_impl<false, is_constructible<int, const __tuple_leaf<0, int, false> &>>",
+   "name" : "std::__lazy_and_impl<false, is_constructible<int, const __tuple_leaf<0, int> &>>",
    "referenced_type" : "_ZTINSt3__115__lazy_and_implILb0EJNS_16is_constructibleIiJRKNS_12__tuple_leafILm0EiLb0EEEEEEEEE",
    "self_type" : "_ZTINSt3__115__lazy_and_implILb0EJNS_16is_constructibleIiJRKNS_12__tuple_leafILm0EiLb0EEEEEEEEE",
    "size" : 1,
@@ -46469,7 +46486,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__115__lazy_and_implILb0EJNS_16is_constructibleIiJRKNS_12__tuple_leafILm1EiLb0EEEEEEEEE",
-   "name" : "std::__lazy_and_impl<false, is_constructible<int, const __tuple_leaf<1, int, false> &>>",
+   "name" : "std::__lazy_and_impl<false, is_constructible<int, const __tuple_leaf<1, int> &>>",
    "referenced_type" : "_ZTINSt3__115__lazy_and_implILb0EJNS_16is_constructibleIiJRKNS_12__tuple_leafILm1EiLb0EEEEEEEEE",
    "self_type" : "_ZTINSt3__115__lazy_and_implILb0EJNS_16is_constructibleIiJRKNS_12__tuple_leafILm1EiLb0EEEEEEEEE",
    "size" : 1,
@@ -46683,7 +46700,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__115aligned_storageILm24ELm16EE4typeE",
-   "name" : "std::aligned_storage<24, 16>::type",
+   "name" : "std::aligned_storage<24>::type",
    "referenced_type" : "_ZTINSt3__115aligned_storageILm24ELm16EE4typeE",
    "self_type" : "_ZTINSt3__115aligned_storageILm24ELm16EE4typeE",
    "size" : 32,
@@ -46692,7 +46709,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__115aligned_storageILm24ELm16EEE",
-   "name" : "std::aligned_storage<24, 16>",
+   "name" : "std::aligned_storage<24>",
    "referenced_type" : "_ZTINSt3__115aligned_storageILm24ELm16EEE",
    "self_type" : "_ZTINSt3__115aligned_storageILm24ELm16EEE",
    "size" : 1,
@@ -46708,7 +46725,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__115aligned_storageILm32ELm16EE4typeE",
-   "name" : "std::aligned_storage<32, 16>::type",
+   "name" : "std::aligned_storage<32>::type",
    "referenced_type" : "_ZTINSt3__115aligned_storageILm32ELm16EE4typeE",
    "self_type" : "_ZTINSt3__115aligned_storageILm32ELm16EE4typeE",
    "size" : 32,
@@ -46717,7 +46734,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__115aligned_storageILm32ELm16EEE",
-   "name" : "std::aligned_storage<32, 16>",
+   "name" : "std::aligned_storage<32>",
    "referenced_type" : "_ZTINSt3__115aligned_storageILm32ELm16EEE",
    "self_type" : "_ZTINSt3__115aligned_storageILm32ELm16EEE",
    "size" : 1,
@@ -55381,7 +55398,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__118__add_pointer_implI15SkEncodedOriginLb1EEE",
-   "name" : "std::__add_pointer_impl<SkEncodedOrigin, true>",
+   "name" : "std::__add_pointer_impl<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__118__add_pointer_implI15SkEncodedOriginLb1EEE",
    "self_type" : "_ZTINSt3__118__add_pointer_implI15SkEncodedOriginLb1EEE",
    "size" : 1,
@@ -55394,7 +55411,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__118__add_pointer_implI7SkIRectLb1EEE",
-   "name" : "std::__add_pointer_impl<SkIRect, true>",
+   "name" : "std::__add_pointer_impl<SkIRect>",
    "referenced_type" : "_ZTINSt3__118__add_pointer_implI7SkIRectLb1EEE",
    "self_type" : "_ZTINSt3__118__add_pointer_implI7SkIRectLb1EEE",
    "size" : 1,
@@ -55407,7 +55424,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__118__add_pointer_implIDnLb1EEE",
-   "name" : "std::__add_pointer_impl<std::nullptr_t, true>",
+   "name" : "std::__add_pointer_impl<std::nullptr_t>",
    "referenced_type" : "_ZTINSt3__118__add_pointer_implIDnLb1EEE",
    "self_type" : "_ZTINSt3__118__add_pointer_implIDnLb1EEE",
    "size" : 1,
@@ -55420,7 +55437,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__118__add_pointer_implIK11SkImageInfoLb1EEE",
-   "name" : "std::__add_pointer_impl<const SkImageInfo, true>",
+   "name" : "std::__add_pointer_impl<const SkImageInfo>",
    "referenced_type" : "_ZTINSt3__118__add_pointer_implIK11SkImageInfoLb1EEE",
    "self_type" : "_ZTINSt3__118__add_pointer_implIK11SkImageInfoLb1EEE",
    "size" : 1,
@@ -55433,7 +55450,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__118__add_pointer_implIK15SkEncodedOriginLb1EEE",
-   "name" : "std::__add_pointer_impl<const SkEncodedOrigin, true>",
+   "name" : "std::__add_pointer_impl<const SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__118__add_pointer_implIK15SkEncodedOriginLb1EEE",
    "self_type" : "_ZTINSt3__118__add_pointer_implIK15SkEncodedOriginLb1EEE",
    "size" : 1,
@@ -55446,7 +55463,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__118__add_pointer_implIK7SkIRectLb1EEE",
-   "name" : "std::__add_pointer_impl<const SkIRect, true>",
+   "name" : "std::__add_pointer_impl<const SkIRect>",
    "referenced_type" : "_ZTINSt3__118__add_pointer_implIK7SkIRectLb1EEE",
    "self_type" : "_ZTINSt3__118__add_pointer_implIK7SkIRectLb1EEE",
    "size" : 1,
@@ -56473,7 +56490,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__118__add_pointer_implIP12SkFILEStreamLb1EEE",
-   "name" : "std::__add_pointer_impl<SkFILEStream *, true>",
+   "name" : "std::__add_pointer_impl<SkFILEStream *>",
    "referenced_type" : "_ZTINSt3__118__add_pointer_implIP12SkFILEStreamLb1EEE",
    "self_type" : "_ZTINSt3__118__add_pointer_implIP12SkFILEStreamLb1EEE",
    "size" : 1,
@@ -56486,7 +56503,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__118__add_pointer_implIP13SkStreamAssetLb1EEE",
-   "name" : "std::__add_pointer_impl<SkStreamAsset *, true>",
+   "name" : "std::__add_pointer_impl<SkStreamAsset *>",
    "referenced_type" : "_ZTINSt3__118__add_pointer_implIP13SkStreamAssetLb1EEE",
    "self_type" : "_ZTINSt3__118__add_pointer_implIP13SkStreamAssetLb1EEE",
    "size" : 1,
@@ -56499,7 +56516,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__118__add_pointer_implIP14SkAndroidCodecLb1EEE",
-   "name" : "std::__add_pointer_impl<SkAndroidCodec *, true>",
+   "name" : "std::__add_pointer_impl<SkAndroidCodec *>",
    "referenced_type" : "_ZTINSt3__118__add_pointer_implIP14SkAndroidCodecLb1EEE",
    "self_type" : "_ZTINSt3__118__add_pointer_implIP14SkAndroidCodecLb1EEE",
    "size" : 1,
@@ -56512,7 +56529,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__118__add_pointer_implIP14SkMemoryStreamLb1EEE",
-   "name" : "std::__add_pointer_impl<SkMemoryStream *, true>",
+   "name" : "std::__add_pointer_impl<SkMemoryStream *>",
    "referenced_type" : "_ZTINSt3__118__add_pointer_implIP14SkMemoryStreamLb1EEE",
    "self_type" : "_ZTINSt3__118__add_pointer_implIP14SkMemoryStreamLb1EEE",
    "size" : 1,
@@ -56525,7 +56542,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__118__add_pointer_implIP14SkStreamMemoryLb1EEE",
-   "name" : "std::__add_pointer_impl<SkStreamMemory *, true>",
+   "name" : "std::__add_pointer_impl<SkStreamMemory *>",
    "referenced_type" : "_ZTINSt3__118__add_pointer_implIP14SkStreamMemoryLb1EEE",
    "self_type" : "_ZTINSt3__118__add_pointer_implIP14SkStreamMemoryLb1EEE",
    "size" : 1,
@@ -56538,7 +56555,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__118__add_pointer_implIP16SkStreamSeekableLb1EEE",
-   "name" : "std::__add_pointer_impl<SkStreamSeekable *, true>",
+   "name" : "std::__add_pointer_impl<SkStreamSeekable *>",
    "referenced_type" : "_ZTINSt3__118__add_pointer_implIP16SkStreamSeekableLb1EEE",
    "self_type" : "_ZTINSt3__118__add_pointer_implIP16SkStreamSeekableLb1EEE",
    "size" : 1,
@@ -56551,7 +56568,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__118__add_pointer_implIP18SkStreamRewindableLb1EEE",
-   "name" : "std::__add_pointer_impl<SkStreamRewindable *, true>",
+   "name" : "std::__add_pointer_impl<SkStreamRewindable *>",
    "referenced_type" : "_ZTINSt3__118__add_pointer_implIP18SkStreamRewindableLb1EEE",
    "self_type" : "_ZTINSt3__118__add_pointer_implIP18SkStreamRewindableLb1EEE",
    "size" : 1,
@@ -56564,7 +56581,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__118__add_pointer_implIP19AAssetStreamAdaptorLb1EEE",
-   "name" : "std::__add_pointer_impl<AAssetStreamAdaptor *, true>",
+   "name" : "std::__add_pointer_impl<AAssetStreamAdaptor *>",
    "referenced_type" : "_ZTINSt3__118__add_pointer_implIP19AAssetStreamAdaptorLb1EEE",
    "self_type" : "_ZTINSt3__118__add_pointer_implIP19AAssetStreamAdaptorLb1EEE",
    "size" : 1,
@@ -56577,7 +56594,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__118__add_pointer_implIP7SkCodecLb1EEE",
-   "name" : "std::__add_pointer_impl<SkCodec *, true>",
+   "name" : "std::__add_pointer_impl<SkCodec *>",
    "referenced_type" : "_ZTINSt3__118__add_pointer_implIP7SkCodecLb1EEE",
    "self_type" : "_ZTINSt3__118__add_pointer_implIP7SkCodecLb1EEE",
    "size" : 1,
@@ -56590,7 +56607,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__118__add_pointer_implIP8SkStreamLb1EEE",
-   "name" : "std::__add_pointer_impl<SkStream *, true>",
+   "name" : "std::__add_pointer_impl<SkStream *>",
    "referenced_type" : "_ZTINSt3__118__add_pointer_implIP8SkStreamLb1EEE",
    "self_type" : "_ZTINSt3__118__add_pointer_implIP8SkStreamLb1EEE",
    "size" : 1,
@@ -59220,7 +59237,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__118__libcpp_is_signedIiLb1EEE",
-   "name" : "std::__libcpp_is_signed<int, true>",
+   "name" : "std::__libcpp_is_signed<int>",
    "referenced_type" : "_ZTINSt3__118__libcpp_is_signedIiLb1EEE",
    "self_type" : "_ZTINSt3__118__libcpp_is_signedIiLb1EEE",
    "size" : 1,
@@ -59239,7 +59256,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__118__libcpp_is_signedIlLb1EEE",
-   "name" : "std::__libcpp_is_signed<long, true>",
+   "name" : "std::__libcpp_is_signed<long>",
    "referenced_type" : "_ZTINSt3__118__libcpp_is_signedIlLb1EEE",
    "self_type" : "_ZTINSt3__118__libcpp_is_signedIlLb1EEE",
    "size" : 1,
@@ -59258,7 +59275,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__118__libcpp_is_signedImLb1EEE",
-   "name" : "std::__libcpp_is_signed<unsigned long, true>",
+   "name" : "std::__libcpp_is_signed<unsigned long>",
    "referenced_type" : "_ZTINSt3__118__libcpp_is_signedImLb1EEE",
    "self_type" : "_ZTINSt3__118__libcpp_is_signedImLb1EEE",
    "size" : 1,
@@ -59912,7 +59929,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__119__is_assignable_impIR15SkEncodedOriginOS1_Lb0EEE",
-   "name" : "std::__is_assignable_imp<SkEncodedOrigin &, SkEncodedOrigin &&, false>",
+   "name" : "std::__is_assignable_imp<SkEncodedOrigin &, SkEncodedOrigin &&>",
    "referenced_type" : "_ZTINSt3__119__is_assignable_impIR15SkEncodedOriginOS1_Lb0EEE",
    "self_type" : "_ZTINSt3__119__is_assignable_impIR15SkEncodedOriginOS1_Lb0EEE",
    "size" : 1,
@@ -59932,7 +59949,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__119__is_assignable_impIR15SkEncodedOriginRKS1_Lb0EEE",
-   "name" : "std::__is_assignable_imp<SkEncodedOrigin &, const SkEncodedOrigin &, false>",
+   "name" : "std::__is_assignable_imp<SkEncodedOrigin &, const SkEncodedOrigin &>",
    "referenced_type" : "_ZTINSt3__119__is_assignable_impIR15SkEncodedOriginRKS1_Lb0EEE",
    "self_type" : "_ZTINSt3__119__is_assignable_impIR15SkEncodedOriginRKS1_Lb0EEE",
    "size" : 1,
@@ -59952,7 +59969,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__119__is_assignable_impIR7SkIRectOS1_Lb0EEE",
-   "name" : "std::__is_assignable_imp<SkIRect &, SkIRect &&, false>",
+   "name" : "std::__is_assignable_imp<SkIRect &, SkIRect &&>",
    "referenced_type" : "_ZTINSt3__119__is_assignable_impIR7SkIRectOS1_Lb0EEE",
    "self_type" : "_ZTINSt3__119__is_assignable_impIR7SkIRectOS1_Lb0EEE",
    "size" : 1,
@@ -59972,7 +59989,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__119__is_assignable_impIR7SkIRectRKS1_Lb0EEE",
-   "name" : "std::__is_assignable_imp<SkIRect &, const SkIRect &, false>",
+   "name" : "std::__is_assignable_imp<SkIRect &, const SkIRect &>",
    "referenced_type" : "_ZTINSt3__119__is_assignable_impIR7SkIRectRKS1_Lb0EEE",
    "self_type" : "_ZTINSt3__119__is_assignable_impIR7SkIRectRKS1_Lb0EEE",
    "size" : 1,
@@ -60052,7 +60069,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__119__is_assignable_impIRfOfLb0EEE",
-   "name" : "std::__is_assignable_imp<float &, float &&, false>",
+   "name" : "std::__is_assignable_imp<float &, float &&>",
    "referenced_type" : "_ZTINSt3__119__is_assignable_impIRfOfLb0EEE",
    "self_type" : "_ZTINSt3__119__is_assignable_impIRfOfLb0EEE",
    "size" : 1,
@@ -60072,7 +60089,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__119__is_assignable_impIRiOiLb0EEE",
-   "name" : "std::__is_assignable_imp<int &, int &&, false>",
+   "name" : "std::__is_assignable_imp<int &, int &&>",
    "referenced_type" : "_ZTINSt3__119__is_assignable_impIRiOiLb0EEE",
    "self_type" : "_ZTINSt3__119__is_assignable_impIRiOiLb0EEE",
    "size" : 1,
@@ -60092,7 +60109,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__119__is_assignable_impIRiRKiLb0EEE",
-   "name" : "std::__is_assignable_imp<int &, const int &, false>",
+   "name" : "std::__is_assignable_imp<int &, const int &>",
    "referenced_type" : "_ZTINSt3__119__is_assignable_impIRiRKiLb0EEE",
    "self_type" : "_ZTINSt3__119__is_assignable_impIRiRKiLb0EEE",
    "size" : 1,
@@ -60112,7 +60129,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__119__is_assignable_impIRmOmLb0EEE",
-   "name" : "std::__is_assignable_imp<unsigned long &, unsigned long &&, false>",
+   "name" : "std::__is_assignable_imp<unsigned long &, unsigned long &&>",
    "referenced_type" : "_ZTINSt3__119__is_assignable_impIRmOmLb0EEE",
    "self_type" : "_ZTINSt3__119__is_assignable_impIRmOmLb0EEE",
    "size" : 1,
@@ -60132,7 +60149,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__119__is_assignable_impIRmRKmLb0EEE",
-   "name" : "std::__is_assignable_imp<unsigned long &, const unsigned long &, false>",
+   "name" : "std::__is_assignable_imp<unsigned long &, const unsigned long &>",
    "referenced_type" : "_ZTINSt3__119__is_assignable_impIRmRKmLb0EEE",
    "self_type" : "_ZTINSt3__119__is_assignable_impIRmRKmLb0EEE",
    "size" : 1,
@@ -62289,7 +62306,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionI12SkFILEStreamLb1EEE",
-   "name" : "std::__libcpp_is_function<SkFILEStream, true>",
+   "name" : "std::__libcpp_is_function<SkFILEStream>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_functionI12SkFILEStreamLb1EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_functionI12SkFILEStreamLb1EEE",
    "size" : 1,
@@ -62308,7 +62325,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionI13SkStreamAssetLb1EEE",
-   "name" : "std::__libcpp_is_function<SkStreamAsset, true>",
+   "name" : "std::__libcpp_is_function<SkStreamAsset>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_functionI13SkStreamAssetLb1EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_functionI13SkStreamAssetLb1EEE",
    "size" : 1,
@@ -62327,7 +62344,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionI14SkAndroidCodecLb1EEE",
-   "name" : "std::__libcpp_is_function<SkAndroidCodec, true>",
+   "name" : "std::__libcpp_is_function<SkAndroidCodec>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_functionI14SkAndroidCodecLb1EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_functionI14SkAndroidCodecLb1EEE",
    "size" : 1,
@@ -62346,7 +62363,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionI14SkMemoryStreamLb1EEE",
-   "name" : "std::__libcpp_is_function<SkMemoryStream, true>",
+   "name" : "std::__libcpp_is_function<SkMemoryStream>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_functionI14SkMemoryStreamLb1EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_functionI14SkMemoryStreamLb1EEE",
    "size" : 1,
@@ -62365,7 +62382,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionI14SkStreamMemoryLb1EEE",
-   "name" : "std::__libcpp_is_function<SkStreamMemory, true>",
+   "name" : "std::__libcpp_is_function<SkStreamMemory>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_functionI14SkStreamMemoryLb1EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_functionI14SkStreamMemoryLb1EEE",
    "size" : 1,
@@ -62384,7 +62401,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionI15SkEncodedOriginLb0EEE",
-   "name" : "std::__libcpp_is_function<SkEncodedOrigin, false>",
+   "name" : "std::__libcpp_is_function<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_functionI15SkEncodedOriginLb0EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_functionI15SkEncodedOriginLb0EEE",
    "size" : 1,
@@ -62403,7 +62420,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionI16SkStreamSeekableLb1EEE",
-   "name" : "std::__libcpp_is_function<SkStreamSeekable, true>",
+   "name" : "std::__libcpp_is_function<SkStreamSeekable>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_functionI16SkStreamSeekableLb1EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_functionI16SkStreamSeekableLb1EEE",
    "size" : 1,
@@ -62422,7 +62439,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionI18SkStreamRewindableLb1EEE",
-   "name" : "std::__libcpp_is_function<SkStreamRewindable, true>",
+   "name" : "std::__libcpp_is_function<SkStreamRewindable>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_functionI18SkStreamRewindableLb1EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_functionI18SkStreamRewindableLb1EEE",
    "size" : 1,
@@ -62441,7 +62458,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionI19AAssetStreamAdaptorLb1EEE",
-   "name" : "std::__libcpp_is_function<AAssetStreamAdaptor, true>",
+   "name" : "std::__libcpp_is_function<AAssetStreamAdaptor>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_functionI19AAssetStreamAdaptorLb1EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_functionI19AAssetStreamAdaptorLb1EEE",
    "size" : 1,
@@ -62460,7 +62477,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionI7SkCodecLb1EEE",
-   "name" : "std::__libcpp_is_function<SkCodec, true>",
+   "name" : "std::__libcpp_is_function<SkCodec>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_functionI7SkCodecLb1EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_functionI7SkCodecLb1EEE",
    "size" : 1,
@@ -62479,7 +62496,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionI7SkIRectLb1EEE",
-   "name" : "std::__libcpp_is_function<SkIRect, true>",
+   "name" : "std::__libcpp_is_function<SkIRect>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_functionI7SkIRectLb1EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_functionI7SkIRectLb1EEE",
    "size" : 1,
@@ -62498,7 +62515,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionI8SkStreamLb1EEE",
-   "name" : "std::__libcpp_is_function<SkStream, true>",
+   "name" : "std::__libcpp_is_function<SkStream>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_functionI8SkStreamLb1EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_functionI8SkStreamLb1EEE",
    "size" : 1,
@@ -62517,7 +62534,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionIDnLb1EEE",
-   "name" : "std::__libcpp_is_function<std::nullptr_t, true>",
+   "name" : "std::__libcpp_is_function<std::nullptr_t>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_functionIDnLb1EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_functionIDnLb1EEE",
    "size" : 1,
@@ -62536,7 +62553,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionIK11SkImageInfoLb1EEE",
-   "name" : "std::__libcpp_is_function<const SkImageInfo, true>",
+   "name" : "std::__libcpp_is_function<const SkImageInfo>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_functionIK11SkImageInfoLb1EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_functionIK11SkImageInfoLb1EEE",
    "size" : 1,
@@ -64056,7 +64073,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionIP12SkFILEStreamLb0EEE",
-   "name" : "std::__libcpp_is_function<SkFILEStream *, false>",
+   "name" : "std::__libcpp_is_function<SkFILEStream *>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_functionIP12SkFILEStreamLb0EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_functionIP12SkFILEStreamLb0EEE",
    "size" : 1,
@@ -64075,7 +64092,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionIP13SkStreamAssetLb0EEE",
-   "name" : "std::__libcpp_is_function<SkStreamAsset *, false>",
+   "name" : "std::__libcpp_is_function<SkStreamAsset *>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_functionIP13SkStreamAssetLb0EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_functionIP13SkStreamAssetLb0EEE",
    "size" : 1,
@@ -64094,7 +64111,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionIP14SkAndroidCodecLb0EEE",
-   "name" : "std::__libcpp_is_function<SkAndroidCodec *, false>",
+   "name" : "std::__libcpp_is_function<SkAndroidCodec *>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_functionIP14SkAndroidCodecLb0EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_functionIP14SkAndroidCodecLb0EEE",
    "size" : 1,
@@ -64113,7 +64130,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionIP14SkMemoryStreamLb0EEE",
-   "name" : "std::__libcpp_is_function<SkMemoryStream *, false>",
+   "name" : "std::__libcpp_is_function<SkMemoryStream *>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_functionIP14SkMemoryStreamLb0EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_functionIP14SkMemoryStreamLb0EEE",
    "size" : 1,
@@ -64132,7 +64149,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionIP14SkStreamMemoryLb0EEE",
-   "name" : "std::__libcpp_is_function<SkStreamMemory *, false>",
+   "name" : "std::__libcpp_is_function<SkStreamMemory *>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_functionIP14SkStreamMemoryLb0EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_functionIP14SkStreamMemoryLb0EEE",
    "size" : 1,
@@ -64151,7 +64168,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionIP16SkStreamSeekableLb0EEE",
-   "name" : "std::__libcpp_is_function<SkStreamSeekable *, false>",
+   "name" : "std::__libcpp_is_function<SkStreamSeekable *>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_functionIP16SkStreamSeekableLb0EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_functionIP16SkStreamSeekableLb0EEE",
    "size" : 1,
@@ -64170,7 +64187,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionIP18SkStreamRewindableLb0EEE",
-   "name" : "std::__libcpp_is_function<SkStreamRewindable *, false>",
+   "name" : "std::__libcpp_is_function<SkStreamRewindable *>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_functionIP18SkStreamRewindableLb0EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_functionIP18SkStreamRewindableLb0EEE",
    "size" : 1,
@@ -64189,7 +64206,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionIP19AAssetStreamAdaptorLb0EEE",
-   "name" : "std::__libcpp_is_function<AAssetStreamAdaptor *, false>",
+   "name" : "std::__libcpp_is_function<AAssetStreamAdaptor *>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_functionIP19AAssetStreamAdaptorLb0EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_functionIP19AAssetStreamAdaptorLb0EEE",
    "size" : 1,
@@ -64208,7 +64225,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionIP7SkCodecLb0EEE",
-   "name" : "std::__libcpp_is_function<SkCodec *, false>",
+   "name" : "std::__libcpp_is_function<SkCodec *>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_functionIP7SkCodecLb0EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_functionIP7SkCodecLb0EEE",
    "size" : 1,
@@ -64227,7 +64244,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionIP8SkStreamLb0EEE",
-   "name" : "std::__libcpp_is_function<SkStream *, false>",
+   "name" : "std::__libcpp_is_function<SkStream *>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_functionIP8SkStreamLb0EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_functionIP8SkStreamLb0EEE",
    "size" : 1,
@@ -64265,7 +64282,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionIiLb0EEE",
-   "name" : "std::__libcpp_is_function<int, false>",
+   "name" : "std::__libcpp_is_function<int>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_functionIiLb0EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_functionIiLb0EEE",
    "size" : 1,
@@ -64284,7 +64301,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionImLb0EEE",
-   "name" : "std::__libcpp_is_function<unsigned long, false>",
+   "name" : "std::__libcpp_is_function<unsigned long>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_functionImLb0EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_functionImLb0EEE",
    "size" : 1,
@@ -64721,7 +64738,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_unsignedIiLb1EEE",
-   "name" : "std::__libcpp_is_unsigned<int, true>",
+   "name" : "std::__libcpp_is_unsigned<int>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_unsignedIiLb1EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_unsignedIiLb1EEE",
    "size" : 1,
@@ -64740,7 +64757,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_unsignedIlLb1EEE",
-   "name" : "std::__libcpp_is_unsigned<long, true>",
+   "name" : "std::__libcpp_is_unsigned<long>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_unsignedIlLb1EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_unsignedIlLb1EEE",
    "size" : 1,
@@ -64759,7 +64776,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_unsignedImLb1EEE",
-   "name" : "std::__libcpp_is_unsigned<unsigned long, true>",
+   "name" : "std::__libcpp_is_unsigned<unsigned long>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_unsignedImLb1EEE",
    "self_type" : "_ZTINSt3__120__libcpp_is_unsignedImLb1EEE",
    "size" : 1,
@@ -64796,7 +64813,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__optional_copy_baseI15SkEncodedOriginLb1EEE",
-   "name" : "std::__optional_copy_base<SkEncodedOrigin, true>",
+   "name" : "std::__optional_copy_base<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__120__optional_copy_baseI15SkEncodedOriginLb1EEE",
    "self_type" : "_ZTINSt3__120__optional_copy_baseI15SkEncodedOriginLb1EEE",
    "size" : 8,
@@ -64815,7 +64832,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__optional_copy_baseI7SkIRectLb1EEE",
-   "name" : "std::__optional_copy_base<SkIRect, true>",
+   "name" : "std::__optional_copy_base<SkIRect>",
    "referenced_type" : "_ZTINSt3__120__optional_copy_baseI7SkIRectLb1EEE",
    "self_type" : "_ZTINSt3__120__optional_copy_baseI7SkIRectLb1EEE",
    "size" : 20,
@@ -64834,7 +64851,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__optional_move_baseI15SkEncodedOriginLb1EEE",
-   "name" : "std::__optional_move_base<SkEncodedOrigin, true>",
+   "name" : "std::__optional_move_base<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__120__optional_move_baseI15SkEncodedOriginLb1EEE",
    "self_type" : "_ZTINSt3__120__optional_move_baseI15SkEncodedOriginLb1EEE",
    "size" : 8,
@@ -64853,7 +64870,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__120__optional_move_baseI7SkIRectLb1EEE",
-   "name" : "std::__optional_move_base<SkIRect, true>",
+   "name" : "std::__optional_move_base<SkIRect>",
    "referenced_type" : "_ZTINSt3__120__optional_move_baseI7SkIRectLb1EEE",
    "self_type" : "_ZTINSt3__120__optional_move_baseI7SkIRectLb1EEE",
    "size" : 20,
@@ -65491,7 +65508,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__121__murmur2_or_cityhashImLm64EEE",
-   "name" : "std::__murmur2_or_cityhash<unsigned long, 64>",
+   "name" : "std::__murmur2_or_cityhash<unsigned long>",
    "referenced_type" : "_ZTINSt3__121__murmur2_or_cityhashImLm64EEE",
    "self_type" : "_ZTINSt3__121__murmur2_or_cityhashImLm64EEE",
    "size" : 1,
@@ -66148,7 +66165,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__122__compressed_pair_elemIP12SkFILEStreamLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<SkFILEStream *, 0, false>",
+   "name" : "std::__compressed_pair_elem<SkFILEStream *, 0>",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP12SkFILEStreamLi0ELb0EEE",
    "self_type" : "_ZTINSt3__122__compressed_pair_elemIP12SkFILEStreamLi0ELb0EEE",
    "size" : 8,
@@ -66169,7 +66186,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__122__compressed_pair_elemIP13SkStreamAssetLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<SkStreamAsset *, 0, false>",
+   "name" : "std::__compressed_pair_elem<SkStreamAsset *, 0>",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP13SkStreamAssetLi0ELb0EEE",
    "self_type" : "_ZTINSt3__122__compressed_pair_elemIP13SkStreamAssetLi0ELb0EEE",
    "size" : 8,
@@ -66190,7 +66207,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__122__compressed_pair_elemIP14SkAndroidCodecLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<SkAndroidCodec *, 0, false>",
+   "name" : "std::__compressed_pair_elem<SkAndroidCodec *, 0>",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP14SkAndroidCodecLi0ELb0EEE",
    "self_type" : "_ZTINSt3__122__compressed_pair_elemIP14SkAndroidCodecLi0ELb0EEE",
    "size" : 8,
@@ -66211,7 +66228,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__122__compressed_pair_elemIP14SkMemoryStreamLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<SkMemoryStream *, 0, false>",
+   "name" : "std::__compressed_pair_elem<SkMemoryStream *, 0>",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP14SkMemoryStreamLi0ELb0EEE",
    "self_type" : "_ZTINSt3__122__compressed_pair_elemIP14SkMemoryStreamLi0ELb0EEE",
    "size" : 8,
@@ -66232,7 +66249,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__122__compressed_pair_elemIP14SkStreamMemoryLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<SkStreamMemory *, 0, false>",
+   "name" : "std::__compressed_pair_elem<SkStreamMemory *, 0>",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP14SkStreamMemoryLi0ELb0EEE",
    "self_type" : "_ZTINSt3__122__compressed_pair_elemIP14SkStreamMemoryLi0ELb0EEE",
    "size" : 8,
@@ -66253,7 +66270,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__122__compressed_pair_elemIP16SkStreamSeekableLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<SkStreamSeekable *, 0, false>",
+   "name" : "std::__compressed_pair_elem<SkStreamSeekable *, 0>",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP16SkStreamSeekableLi0ELb0EEE",
    "self_type" : "_ZTINSt3__122__compressed_pair_elemIP16SkStreamSeekableLi0ELb0EEE",
    "size" : 8,
@@ -66274,7 +66291,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__122__compressed_pair_elemIP18SkStreamRewindableLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<SkStreamRewindable *, 0, false>",
+   "name" : "std::__compressed_pair_elem<SkStreamRewindable *, 0>",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP18SkStreamRewindableLi0ELb0EEE",
    "self_type" : "_ZTINSt3__122__compressed_pair_elemIP18SkStreamRewindableLi0ELb0EEE",
    "size" : 8,
@@ -66295,7 +66312,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__122__compressed_pair_elemIP19AAssetStreamAdaptorLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<AAssetStreamAdaptor *, 0, false>",
+   "name" : "std::__compressed_pair_elem<AAssetStreamAdaptor *, 0>",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP19AAssetStreamAdaptorLi0ELb0EEE",
    "self_type" : "_ZTINSt3__122__compressed_pair_elemIP19AAssetStreamAdaptorLi0ELb0EEE",
    "size" : 8,
@@ -66316,7 +66333,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__122__compressed_pair_elemIP7SkCodecLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<SkCodec *, 0, false>",
+   "name" : "std::__compressed_pair_elem<SkCodec *, 0>",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP7SkCodecLi0ELb0EEE",
    "self_type" : "_ZTINSt3__122__compressed_pair_elemIP7SkCodecLi0ELb0EEE",
    "size" : 8,
@@ -66337,7 +66354,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__122__compressed_pair_elemIP8SkStreamLi0ELb0EEE",
-   "name" : "std::__compressed_pair_elem<SkStream *, 0, false>",
+   "name" : "std::__compressed_pair_elem<SkStream *, 0>",
    "referenced_type" : "_ZTINSt3__122__compressed_pair_elemIP8SkStreamLi0ELb0EEE",
    "self_type" : "_ZTINSt3__122__compressed_pair_elemIP8SkStreamLi0ELb0EEE",
    "size" : 8,
@@ -66521,7 +66538,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__123__libcpp_is_signed_implIiLb1EEE",
-   "name" : "std::__libcpp_is_signed_impl<int, true>",
+   "name" : "std::__libcpp_is_signed_impl<int>",
    "referenced_type" : "_ZTINSt3__123__libcpp_is_signed_implIiLb1EEE",
    "self_type" : "_ZTINSt3__123__libcpp_is_signed_implIiLb1EEE",
    "size" : 1,
@@ -66540,7 +66557,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__123__libcpp_is_signed_implIlLb1EEE",
-   "name" : "std::__libcpp_is_signed_impl<long, true>",
+   "name" : "std::__libcpp_is_signed_impl<long>",
    "referenced_type" : "_ZTINSt3__123__libcpp_is_signed_implIlLb1EEE",
    "self_type" : "_ZTINSt3__123__libcpp_is_signed_implIlLb1EEE",
    "size" : 1,
@@ -66559,7 +66576,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__123__libcpp_is_signed_implImLb1EEE",
-   "name" : "std::__libcpp_is_signed_impl<unsigned long, true>",
+   "name" : "std::__libcpp_is_signed_impl<unsigned long>",
    "referenced_type" : "_ZTINSt3__123__libcpp_is_signed_implImLb1EEE",
    "self_type" : "_ZTINSt3__123__libcpp_is_signed_implImLb1EEE",
    "size" : 1,
@@ -66628,7 +66645,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__123__libcpp_numeric_limitsIiLb1EEE",
-   "name" : "std::__libcpp_numeric_limits<int, true>",
+   "name" : "std::__libcpp_numeric_limits<int>",
    "record_kind" : "class",
    "referenced_type" : "_ZTINSt3__123__libcpp_numeric_limitsIiLb1EEE",
    "self_type" : "_ZTINSt3__123__libcpp_numeric_limitsIiLb1EEE",
@@ -66642,7 +66659,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__123__libcpp_numeric_limitsIlLb1EEE",
-   "name" : "std::__libcpp_numeric_limits<long, true>",
+   "name" : "std::__libcpp_numeric_limits<long>",
    "record_kind" : "class",
    "referenced_type" : "_ZTINSt3__123__libcpp_numeric_limitsIlLb1EEE",
    "self_type" : "_ZTINSt3__123__libcpp_numeric_limitsIlLb1EEE",
@@ -66656,7 +66673,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__123__libcpp_numeric_limitsImLb1EEE",
-   "name" : "std::__libcpp_numeric_limits<unsigned long, true>",
+   "name" : "std::__libcpp_numeric_limits<unsigned long>",
    "record_kind" : "class",
    "referenced_type" : "_ZTINSt3__123__libcpp_numeric_limitsImLb1EEE",
    "self_type" : "_ZTINSt3__123__libcpp_numeric_limitsImLb1EEE",
@@ -66676,7 +66693,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__123__optional_storage_baseI15SkEncodedOriginLb0EEE",
-   "name" : "std::__optional_storage_base<SkEncodedOrigin, false>",
+   "name" : "std::__optional_storage_base<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__123__optional_storage_baseI15SkEncodedOriginLb0EEE",
    "self_type" : "_ZTINSt3__123__optional_storage_baseI15SkEncodedOriginLb0EEE",
    "size" : 8,
@@ -66695,7 +66712,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__123__optional_storage_baseI7SkIRectLb0EEE",
-   "name" : "std::__optional_storage_base<SkIRect, false>",
+   "name" : "std::__optional_storage_base<SkIRect>",
    "referenced_type" : "_ZTINSt3__123__optional_storage_baseI7SkIRectLb0EEE",
    "self_type" : "_ZTINSt3__123__optional_storage_baseI7SkIRectLb0EEE",
    "size" : 20,
@@ -66888,7 +66905,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__124__optional_destruct_baseI15SkEncodedOriginLb1EEE",
-   "name" : "std::__optional_destruct_base<SkEncodedOrigin, true>",
+   "name" : "std::__optional_destruct_base<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__124__optional_destruct_baseI15SkEncodedOriginLb1EEE",
    "self_type" : "_ZTINSt3__124__optional_destruct_baseI15SkEncodedOriginLb1EEE",
    "size" : 8,
@@ -66913,7 +66930,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTINSt3__124__optional_destruct_baseI15SkEncodedOriginLb1EEUt_E",
-   "name" : "std::__optional_destruct_base<SkEncodedOrigin, true>::(anonymous)",
+   "name" : "std::__optional_destruct_base<SkEncodedOrigin>::(anonymous)",
    "record_kind" : "union",
    "referenced_type" : "_ZTINSt3__124__optional_destruct_baseI15SkEncodedOriginLb1EEUt_E",
    "self_type" : "_ZTINSt3__124__optional_destruct_baseI15SkEncodedOriginLb1EEUt_E",
@@ -66934,7 +66951,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__124__optional_destruct_baseI7SkIRectLb1EEE",
-   "name" : "std::__optional_destruct_base<SkIRect, true>",
+   "name" : "std::__optional_destruct_base<SkIRect>",
    "referenced_type" : "_ZTINSt3__124__optional_destruct_baseI7SkIRectLb1EEE",
    "self_type" : "_ZTINSt3__124__optional_destruct_baseI7SkIRectLb1EEE",
    "size" : 20,
@@ -66959,7 +66976,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTINSt3__124__optional_destruct_baseI7SkIRectLb1EEUt_E",
-   "name" : "std::__optional_destruct_base<SkIRect, true>::(anonymous)",
+   "name" : "std::__optional_destruct_base<SkIRect>::(anonymous)",
    "record_kind" : "union",
    "referenced_type" : "_ZTINSt3__124__optional_destruct_baseI7SkIRectLb1EEUt_E",
    "self_type" : "_ZTINSt3__124__optional_destruct_baseI7SkIRectLb1EEUt_E",
@@ -67458,7 +67475,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__125__libcpp_is_unsigned_implIiLb1EEE",
-   "name" : "std::__libcpp_is_unsigned_impl<int, true>",
+   "name" : "std::__libcpp_is_unsigned_impl<int>",
    "referenced_type" : "_ZTINSt3__125__libcpp_is_unsigned_implIiLb1EEE",
    "self_type" : "_ZTINSt3__125__libcpp_is_unsigned_implIiLb1EEE",
    "size" : 1,
@@ -67477,7 +67494,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__125__libcpp_is_unsigned_implIlLb1EEE",
-   "name" : "std::__libcpp_is_unsigned_impl<long, true>",
+   "name" : "std::__libcpp_is_unsigned_impl<long>",
    "referenced_type" : "_ZTINSt3__125__libcpp_is_unsigned_implIlLb1EEE",
    "self_type" : "_ZTINSt3__125__libcpp_is_unsigned_implIlLb1EEE",
    "size" : 1,
@@ -67496,7 +67513,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__125__libcpp_is_unsigned_implImLb1EEE",
-   "name" : "std::__libcpp_is_unsigned_impl<unsigned long, true>",
+   "name" : "std::__libcpp_is_unsigned_impl<unsigned long>",
    "referenced_type" : "_ZTINSt3__125__libcpp_is_unsigned_implImLb1EEE",
    "self_type" : "_ZTINSt3__125__libcpp_is_unsigned_implImLb1EEE",
    "size" : 1,
@@ -67973,7 +67990,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__127__add_lvalue_reference_implI12SkFILEStreamLb1EEE",
-   "name" : "std::__add_lvalue_reference_impl<SkFILEStream, true>",
+   "name" : "std::__add_lvalue_reference_impl<SkFILEStream>",
    "referenced_type" : "_ZTINSt3__127__add_lvalue_reference_implI12SkFILEStreamLb1EEE",
    "self_type" : "_ZTINSt3__127__add_lvalue_reference_implI12SkFILEStreamLb1EEE",
    "size" : 1,
@@ -67986,7 +68003,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__127__add_lvalue_reference_implI13SkStreamAssetLb1EEE",
-   "name" : "std::__add_lvalue_reference_impl<SkStreamAsset, true>",
+   "name" : "std::__add_lvalue_reference_impl<SkStreamAsset>",
    "referenced_type" : "_ZTINSt3__127__add_lvalue_reference_implI13SkStreamAssetLb1EEE",
    "self_type" : "_ZTINSt3__127__add_lvalue_reference_implI13SkStreamAssetLb1EEE",
    "size" : 1,
@@ -67999,7 +68016,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__127__add_lvalue_reference_implI14SkAndroidCodecLb1EEE",
-   "name" : "std::__add_lvalue_reference_impl<SkAndroidCodec, true>",
+   "name" : "std::__add_lvalue_reference_impl<SkAndroidCodec>",
    "referenced_type" : "_ZTINSt3__127__add_lvalue_reference_implI14SkAndroidCodecLb1EEE",
    "self_type" : "_ZTINSt3__127__add_lvalue_reference_implI14SkAndroidCodecLb1EEE",
    "size" : 1,
@@ -68012,7 +68029,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__127__add_lvalue_reference_implI14SkMemoryStreamLb1EEE",
-   "name" : "std::__add_lvalue_reference_impl<SkMemoryStream, true>",
+   "name" : "std::__add_lvalue_reference_impl<SkMemoryStream>",
    "referenced_type" : "_ZTINSt3__127__add_lvalue_reference_implI14SkMemoryStreamLb1EEE",
    "self_type" : "_ZTINSt3__127__add_lvalue_reference_implI14SkMemoryStreamLb1EEE",
    "size" : 1,
@@ -68025,7 +68042,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__127__add_lvalue_reference_implI14SkStreamMemoryLb1EEE",
-   "name" : "std::__add_lvalue_reference_impl<SkStreamMemory, true>",
+   "name" : "std::__add_lvalue_reference_impl<SkStreamMemory>",
    "referenced_type" : "_ZTINSt3__127__add_lvalue_reference_implI14SkStreamMemoryLb1EEE",
    "self_type" : "_ZTINSt3__127__add_lvalue_reference_implI14SkStreamMemoryLb1EEE",
    "size" : 1,
@@ -68038,7 +68055,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__127__add_lvalue_reference_implI15SkEncodedOriginLb1EEE",
-   "name" : "std::__add_lvalue_reference_impl<SkEncodedOrigin, true>",
+   "name" : "std::__add_lvalue_reference_impl<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__127__add_lvalue_reference_implI15SkEncodedOriginLb1EEE",
    "self_type" : "_ZTINSt3__127__add_lvalue_reference_implI15SkEncodedOriginLb1EEE",
    "size" : 1,
@@ -68051,7 +68068,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__127__add_lvalue_reference_implI16SkStreamSeekableLb1EEE",
-   "name" : "std::__add_lvalue_reference_impl<SkStreamSeekable, true>",
+   "name" : "std::__add_lvalue_reference_impl<SkStreamSeekable>",
    "referenced_type" : "_ZTINSt3__127__add_lvalue_reference_implI16SkStreamSeekableLb1EEE",
    "self_type" : "_ZTINSt3__127__add_lvalue_reference_implI16SkStreamSeekableLb1EEE",
    "size" : 1,
@@ -68064,7 +68081,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__127__add_lvalue_reference_implI18SkStreamRewindableLb1EEE",
-   "name" : "std::__add_lvalue_reference_impl<SkStreamRewindable, true>",
+   "name" : "std::__add_lvalue_reference_impl<SkStreamRewindable>",
    "referenced_type" : "_ZTINSt3__127__add_lvalue_reference_implI18SkStreamRewindableLb1EEE",
    "self_type" : "_ZTINSt3__127__add_lvalue_reference_implI18SkStreamRewindableLb1EEE",
    "size" : 1,
@@ -68077,7 +68094,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__127__add_lvalue_reference_implI19AAssetStreamAdaptorLb1EEE",
-   "name" : "std::__add_lvalue_reference_impl<AAssetStreamAdaptor, true>",
+   "name" : "std::__add_lvalue_reference_impl<AAssetStreamAdaptor>",
    "referenced_type" : "_ZTINSt3__127__add_lvalue_reference_implI19AAssetStreamAdaptorLb1EEE",
    "self_type" : "_ZTINSt3__127__add_lvalue_reference_implI19AAssetStreamAdaptorLb1EEE",
    "size" : 1,
@@ -68090,7 +68107,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__127__add_lvalue_reference_implI7SkCodecLb1EEE",
-   "name" : "std::__add_lvalue_reference_impl<SkCodec, true>",
+   "name" : "std::__add_lvalue_reference_impl<SkCodec>",
    "referenced_type" : "_ZTINSt3__127__add_lvalue_reference_implI7SkCodecLb1EEE",
    "self_type" : "_ZTINSt3__127__add_lvalue_reference_implI7SkCodecLb1EEE",
    "size" : 1,
@@ -68103,7 +68120,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__127__add_lvalue_reference_implI7SkIRectLb1EEE",
-   "name" : "std::__add_lvalue_reference_impl<SkIRect, true>",
+   "name" : "std::__add_lvalue_reference_impl<SkIRect>",
    "referenced_type" : "_ZTINSt3__127__add_lvalue_reference_implI7SkIRectLb1EEE",
    "self_type" : "_ZTINSt3__127__add_lvalue_reference_implI7SkIRectLb1EEE",
    "size" : 1,
@@ -68116,7 +68133,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__127__add_lvalue_reference_implI7__sFILELb1EEE",
-   "name" : "std::__add_lvalue_reference_impl<__sFILE, true>",
+   "name" : "std::__add_lvalue_reference_impl<__sFILE>",
    "referenced_type" : "_ZTINSt3__127__add_lvalue_reference_implI7__sFILELb1EEE",
    "self_type" : "_ZTINSt3__127__add_lvalue_reference_implI7__sFILELb1EEE",
    "size" : 1,
@@ -68129,7 +68146,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__127__add_lvalue_reference_implI8SkStreamLb1EEE",
-   "name" : "std::__add_lvalue_reference_impl<SkStream, true>",
+   "name" : "std::__add_lvalue_reference_impl<SkStream>",
    "referenced_type" : "_ZTINSt3__127__add_lvalue_reference_implI8SkStreamLb1EEE",
    "self_type" : "_ZTINSt3__127__add_lvalue_reference_implI8SkStreamLb1EEE",
    "size" : 1,
@@ -68142,7 +68159,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__127__add_lvalue_reference_implIK15SkEncodedOriginLb1EEE",
-   "name" : "std::__add_lvalue_reference_impl<const SkEncodedOrigin, true>",
+   "name" : "std::__add_lvalue_reference_impl<const SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__127__add_lvalue_reference_implIK15SkEncodedOriginLb1EEE",
    "self_type" : "_ZTINSt3__127__add_lvalue_reference_implIK15SkEncodedOriginLb1EEE",
    "size" : 1,
@@ -68155,7 +68172,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__127__add_lvalue_reference_implIK7SkIRectLb1EEE",
-   "name" : "std::__add_lvalue_reference_impl<const SkIRect, true>",
+   "name" : "std::__add_lvalue_reference_impl<const SkIRect>",
    "referenced_type" : "_ZTINSt3__127__add_lvalue_reference_implIK7SkIRectLb1EEE",
    "self_type" : "_ZTINSt3__127__add_lvalue_reference_implIK7SkIRectLb1EEE",
    "size" : 1,
@@ -68168,7 +68185,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__127__add_lvalue_reference_implIKiLb1EEE",
-   "name" : "std::__add_lvalue_reference_impl<const int, true>",
+   "name" : "std::__add_lvalue_reference_impl<const int>",
    "referenced_type" : "_ZTINSt3__127__add_lvalue_reference_implIKiLb1EEE",
    "self_type" : "_ZTINSt3__127__add_lvalue_reference_implIKiLb1EEE",
    "size" : 1,
@@ -68181,7 +68198,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__127__add_lvalue_reference_implIKmLb1EEE",
-   "name" : "std::__add_lvalue_reference_impl<const unsigned long, true>",
+   "name" : "std::__add_lvalue_reference_impl<const unsigned long>",
    "referenced_type" : "_ZTINSt3__127__add_lvalue_reference_implIKmLb1EEE",
    "self_type" : "_ZTINSt3__127__add_lvalue_reference_implIKmLb1EEE",
    "size" : 1,
@@ -68207,7 +68224,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__127__add_lvalue_reference_implIfLb1EEE",
-   "name" : "std::__add_lvalue_reference_impl<float, true>",
+   "name" : "std::__add_lvalue_reference_impl<float>",
    "referenced_type" : "_ZTINSt3__127__add_lvalue_reference_implIfLb1EEE",
    "self_type" : "_ZTINSt3__127__add_lvalue_reference_implIfLb1EEE",
    "size" : 1,
@@ -68220,7 +68237,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__127__add_lvalue_reference_implIiLb1EEE",
-   "name" : "std::__add_lvalue_reference_impl<int, true>",
+   "name" : "std::__add_lvalue_reference_impl<int>",
    "referenced_type" : "_ZTINSt3__127__add_lvalue_reference_implIiLb1EEE",
    "self_type" : "_ZTINSt3__127__add_lvalue_reference_implIiLb1EEE",
    "size" : 1,
@@ -68233,7 +68250,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__127__add_lvalue_reference_implImLb1EEE",
-   "name" : "std::__add_lvalue_reference_impl<unsigned long, true>",
+   "name" : "std::__add_lvalue_reference_impl<unsigned long>",
    "referenced_type" : "_ZTINSt3__127__add_lvalue_reference_implImLb1EEE",
    "self_type" : "_ZTINSt3__127__add_lvalue_reference_implImLb1EEE",
    "size" : 1,
@@ -68246,7 +68263,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__127__add_rvalue_reference_implI15SkEncodedOriginLb1EEE",
-   "name" : "std::__add_rvalue_reference_impl<SkEncodedOrigin, true>",
+   "name" : "std::__add_rvalue_reference_impl<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__127__add_rvalue_reference_implI15SkEncodedOriginLb1EEE",
    "self_type" : "_ZTINSt3__127__add_rvalue_reference_implI15SkEncodedOriginLb1EEE",
    "size" : 1,
@@ -68259,7 +68276,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__127__add_rvalue_reference_implI7SkIRectLb1EEE",
-   "name" : "std::__add_rvalue_reference_impl<SkIRect, true>",
+   "name" : "std::__add_rvalue_reference_impl<SkIRect>",
    "referenced_type" : "_ZTINSt3__127__add_rvalue_reference_implI7SkIRectLb1EEE",
    "self_type" : "_ZTINSt3__127__add_rvalue_reference_implI7SkIRectLb1EEE",
    "size" : 1,
@@ -68272,7 +68289,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__127__add_rvalue_reference_implIfLb1EEE",
-   "name" : "std::__add_rvalue_reference_impl<float, true>",
+   "name" : "std::__add_rvalue_reference_impl<float>",
    "referenced_type" : "_ZTINSt3__127__add_rvalue_reference_implIfLb1EEE",
    "self_type" : "_ZTINSt3__127__add_rvalue_reference_implIfLb1EEE",
    "size" : 1,
@@ -68285,7 +68302,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__127__add_rvalue_reference_implIiLb1EEE",
-   "name" : "std::__add_rvalue_reference_impl<int, true>",
+   "name" : "std::__add_rvalue_reference_impl<int>",
    "referenced_type" : "_ZTINSt3__127__add_rvalue_reference_implIiLb1EEE",
    "self_type" : "_ZTINSt3__127__add_rvalue_reference_implIiLb1EEE",
    "size" : 1,
@@ -68298,7 +68315,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__127__add_rvalue_reference_implImLb1EEE",
-   "name" : "std::__add_rvalue_reference_impl<unsigned long, true>",
+   "name" : "std::__add_rvalue_reference_impl<unsigned long>",
    "referenced_type" : "_ZTINSt3__127__add_rvalue_reference_implImLb1EEE",
    "self_type" : "_ZTINSt3__127__add_rvalue_reference_implImLb1EEE",
    "size" : 1,
@@ -68349,7 +68366,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__127__optional_copy_assign_baseI15SkEncodedOriginLb1EEE",
-   "name" : "std::__optional_copy_assign_base<SkEncodedOrigin, true>",
+   "name" : "std::__optional_copy_assign_base<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__127__optional_copy_assign_baseI15SkEncodedOriginLb1EEE",
    "self_type" : "_ZTINSt3__127__optional_copy_assign_baseI15SkEncodedOriginLb1EEE",
    "size" : 8,
@@ -68368,7 +68385,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__127__optional_copy_assign_baseI7SkIRectLb1EEE",
-   "name" : "std::__optional_copy_assign_base<SkIRect, true>",
+   "name" : "std::__optional_copy_assign_base<SkIRect>",
    "referenced_type" : "_ZTINSt3__127__optional_copy_assign_baseI7SkIRectLb1EEE",
    "self_type" : "_ZTINSt3__127__optional_copy_assign_baseI7SkIRectLb1EEE",
    "size" : 20,
@@ -68387,7 +68404,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__127__optional_move_assign_baseI15SkEncodedOriginLb1EEE",
-   "name" : "std::__optional_move_assign_base<SkEncodedOrigin, true>",
+   "name" : "std::__optional_move_assign_base<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__127__optional_move_assign_baseI15SkEncodedOriginLb1EEE",
    "self_type" : "_ZTINSt3__127__optional_move_assign_baseI15SkEncodedOriginLb1EEE",
    "size" : 8,
@@ -68406,7 +68423,7 @@
     }
    ],
    "linker_set_key" : "_ZTINSt3__127__optional_move_assign_baseI7SkIRectLb1EEE",
-   "name" : "std::__optional_move_assign_base<SkIRect, true>",
+   "name" : "std::__optional_move_assign_base<SkIRect>",
    "referenced_type" : "_ZTINSt3__127__optional_move_assign_baseI7SkIRectLb1EEE",
    "self_type" : "_ZTINSt3__127__optional_move_assign_baseI7SkIRectLb1EEE",
    "size" : 20,
@@ -69761,7 +69778,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__14lessIvEE",
-   "name" : "std::less<>",
+   "name" : "std::less<void>",
    "referenced_type" : "_ZTINSt3__14lessIvEE",
    "self_type" : "_ZTINSt3__14lessIvEE",
    "size" : 1,
@@ -69809,7 +69826,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__14plusIvEE",
-   "name" : "std::plus<>",
+   "name" : "std::plus<void>",
    "referenced_type" : "_ZTINSt3__14plusIvEE",
    "self_type" : "_ZTINSt3__14plusIvEE",
    "size" : 1,
@@ -71186,7 +71203,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__15minusIvEE",
-   "name" : "std::minus<>",
+   "name" : "std::minus<void>",
    "referenced_type" : "_ZTINSt3__15minusIvEE",
    "self_type" : "_ZTINSt3__15minusIvEE",
    "size" : 1,
@@ -71343,7 +71360,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__16bit_orIvEE",
-   "name" : "std::bit_or<>",
+   "name" : "std::bit_or<void>",
    "referenced_type" : "_ZTINSt3__16bit_orIvEE",
    "self_type" : "_ZTINSt3__16bit_orIvEE",
    "size" : 1,
@@ -71373,7 +71390,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__16negateIvEE",
-   "name" : "std::negate<>",
+   "name" : "std::negate<void>",
    "referenced_type" : "_ZTINSt3__16negateIvEE",
    "self_type" : "_ZTINSt3__16negateIvEE",
    "size" : 1,
@@ -72569,7 +72586,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__17bit_andIvEE",
-   "name" : "std::bit_and<>",
+   "name" : "std::bit_and<void>",
    "referenced_type" : "_ZTINSt3__17bit_andIvEE",
    "self_type" : "_ZTINSt3__17bit_andIvEE",
    "size" : 1,
@@ -72582,7 +72599,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__17bit_notIvEE",
-   "name" : "std::bit_not<>",
+   "name" : "std::bit_not<void>",
    "referenced_type" : "_ZTINSt3__17bit_notIvEE",
    "self_type" : "_ZTINSt3__17bit_notIvEE",
    "size" : 1,
@@ -72595,7 +72612,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__17bit_xorIvEE",
-   "name" : "std::bit_xor<>",
+   "name" : "std::bit_xor<void>",
    "referenced_type" : "_ZTINSt3__17bit_xorIvEE",
    "self_type" : "_ZTINSt3__17bit_xorIvEE",
    "size" : 1,
@@ -72608,7 +72625,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__17dividesIvEE",
-   "name" : "std::divides<>",
+   "name" : "std::divides<void>",
    "referenced_type" : "_ZTINSt3__17dividesIvEE",
    "self_type" : "_ZTINSt3__17dividesIvEE",
    "size" : 1,
@@ -72621,7 +72638,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__17greaterIvEE",
-   "name" : "std::greater<>",
+   "name" : "std::greater<void>",
    "referenced_type" : "_ZTINSt3__17greaterIvEE",
    "self_type" : "_ZTINSt3__17greaterIvEE",
    "size" : 1,
@@ -80938,7 +80955,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__17modulusIvEE",
-   "name" : "std::modulus<>",
+   "name" : "std::modulus<void>",
    "referenced_type" : "_ZTINSt3__17modulusIvEE",
    "self_type" : "_ZTINSt3__17modulusIvEE",
    "size" : 1,
@@ -81192,7 +81209,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__18equal_toIvEE",
-   "name" : "std::equal_to<>",
+   "name" : "std::equal_to<void>",
    "referenced_type" : "_ZTINSt3__18equal_toIvEE",
    "self_type" : "_ZTINSt3__18equal_toIvEE",
    "size" : 1,
@@ -81205,7 +81222,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__18functionIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS1_7OptionsEiEE10__callableIDnLb0EEE",
-   "name" : "std::function<Result (const SkImageInfo &, void *, unsigned long, const Options &, int)>::__callable<std::nullptr_t, false>",
+   "name" : "std::function<Result (const SkImageInfo &, void *, unsigned long, const Options &, int)>::__callable<std::nullptr_t>",
    "referenced_type" : "_ZTINSt3__18functionIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS1_7OptionsEiEE10__callableIDnLb0EEE",
    "self_type" : "_ZTINSt3__18functionIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS1_7OptionsEiEE10__callableIDnLb0EEE",
    "size" : 1,
@@ -91485,7 +91502,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIONSt3__112__tuple_leafILm0EiLb0EEE",
-   "name" : "std::__tuple_leaf<0, int, false> &&",
+   "name" : "std::__tuple_leaf<0, int> &&",
    "referenced_type" : "_ZTINSt3__112__tuple_leafILm0EiLb0EEE",
    "self_type" : "_ZTIONSt3__112__tuple_leafILm0EiLb0EEE",
    "size" : 8,
@@ -91494,7 +91511,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIONSt3__112__tuple_leafILm1EiLb0EEE",
-   "name" : "std::__tuple_leaf<1, int, false> &&",
+   "name" : "std::__tuple_leaf<1, int> &&",
    "referenced_type" : "_ZTINSt3__112__tuple_leafILm1EiLb0EEE",
    "self_type" : "_ZTIONSt3__112__tuple_leafILm1EiLb0EEE",
    "size" : 8,
