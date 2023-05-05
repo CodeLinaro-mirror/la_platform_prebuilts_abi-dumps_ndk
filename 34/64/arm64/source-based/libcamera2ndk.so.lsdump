@@ -1,0 +1,233 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "name" : "ACameraCaptureSession_abortCaptures"
+  },
+  {
+   "name" : "ACameraCaptureSession_capture"
+  },
+  {
+   "name" : "ACameraCaptureSession_captureV2"
+  },
+  {
+   "name" : "ACameraCaptureSession_close"
+  },
+  {
+   "name" : "ACameraCaptureSession_getDevice"
+  },
+  {
+   "name" : "ACameraCaptureSession_logicalCamera_capture"
+  },
+  {
+   "name" : "ACameraCaptureSession_logicalCamera_captureV2"
+  },
+  {
+   "name" : "ACameraCaptureSession_logicalCamera_setRepeatingRequest"
+  },
+  {
+   "name" : "ACameraCaptureSession_logicalCamera_setRepeatingRequestV2"
+  },
+  {
+   "name" : "ACameraCaptureSession_prepareWindow"
+  },
+  {
+   "name" : "ACameraCaptureSession_setRepeatingRequest"
+  },
+  {
+   "name" : "ACameraCaptureSession_setRepeatingRequestV2"
+  },
+  {
+   "name" : "ACameraCaptureSession_setWindowPreparedCallback"
+  },
+  {
+   "name" : "ACameraCaptureSession_stopRepeating"
+  },
+  {
+   "name" : "ACameraCaptureSession_updateSharedOutput"
+  },
+  {
+   "name" : "ACameraDevice_close"
+  },
+  {
+   "name" : "ACameraDevice_createCaptureRequest"
+  },
+  {
+   "name" : "ACameraDevice_createCaptureRequest_withPhysicalIds"
+  },
+  {
+   "name" : "ACameraDevice_createCaptureSession"
+  },
+  {
+   "name" : "ACameraDevice_createCaptureSessionWithSessionParameters"
+  },
+  {
+   "name" : "ACameraDevice_getId"
+  },
+  {
+   "name" : "ACameraDevice_isSessionConfigurationSupported"
+  },
+  {
+   "name" : "ACameraManager_create"
+  },
+  {
+   "name" : "ACameraManager_delete"
+  },
+  {
+   "name" : "ACameraManager_deleteCameraIdList"
+  },
+  {
+   "name" : "ACameraManager_getCameraCharacteristics"
+  },
+  {
+   "name" : "ACameraManager_getCameraIdList"
+  },
+  {
+   "name" : "ACameraManager_openCamera"
+  },
+  {
+   "name" : "ACameraManager_registerAvailabilityCallback"
+  },
+  {
+   "name" : "ACameraManager_registerExtendedAvailabilityCallback"
+  },
+  {
+   "name" : "ACameraManager_unregisterAvailabilityCallback"
+  },
+  {
+   "name" : "ACameraManager_unregisterExtendedAvailabilityCallback"
+  },
+  {
+   "name" : "ACameraMetadata_copy"
+  },
+  {
+   "name" : "ACameraMetadata_free"
+  },
+  {
+   "name" : "ACameraMetadata_fromCameraMetadata"
+  },
+  {
+   "name" : "ACameraMetadata_getAllTags"
+  },
+  {
+   "name" : "ACameraMetadata_getConstEntry"
+  },
+  {
+   "name" : "ACameraMetadata_isLogicalMultiCamera"
+  },
+  {
+   "name" : "ACameraOutputTarget_create"
+  },
+  {
+   "name" : "ACameraOutputTarget_free"
+  },
+  {
+   "name" : "ACaptureRequest_addTarget"
+  },
+  {
+   "name" : "ACaptureRequest_copy"
+  },
+  {
+   "name" : "ACaptureRequest_free"
+  },
+  {
+   "name" : "ACaptureRequest_getAllTags"
+  },
+  {
+   "name" : "ACaptureRequest_getConstEntry"
+  },
+  {
+   "name" : "ACaptureRequest_getConstEntry_physicalCamera"
+  },
+  {
+   "name" : "ACaptureRequest_getUserContext"
+  },
+  {
+   "name" : "ACaptureRequest_removeTarget"
+  },
+  {
+   "name" : "ACaptureRequest_setEntry_double"
+  },
+  {
+   "name" : "ACaptureRequest_setEntry_float"
+  },
+  {
+   "name" : "ACaptureRequest_setEntry_i32"
+  },
+  {
+   "name" : "ACaptureRequest_setEntry_i64"
+  },
+  {
+   "name" : "ACaptureRequest_setEntry_physicalCamera_double"
+  },
+  {
+   "name" : "ACaptureRequest_setEntry_physicalCamera_float"
+  },
+  {
+   "name" : "ACaptureRequest_setEntry_physicalCamera_i32"
+  },
+  {
+   "name" : "ACaptureRequest_setEntry_physicalCamera_i64"
+  },
+  {
+   "name" : "ACaptureRequest_setEntry_physicalCamera_rational"
+  },
+  {
+   "name" : "ACaptureRequest_setEntry_physicalCamera_u8"
+  },
+  {
+   "name" : "ACaptureRequest_setEntry_rational"
+  },
+  {
+   "name" : "ACaptureRequest_setEntry_u8"
+  },
+  {
+   "name" : "ACaptureRequest_setUserContext"
+  },
+  {
+   "name" : "ACaptureSessionOutputContainer_add"
+  },
+  {
+   "name" : "ACaptureSessionOutputContainer_create"
+  },
+  {
+   "name" : "ACaptureSessionOutputContainer_free"
+  },
+  {
+   "name" : "ACaptureSessionOutputContainer_remove"
+  },
+  {
+   "name" : "ACaptureSessionOutput_create"
+  },
+  {
+   "name" : "ACaptureSessionOutput_free"
+  },
+  {
+   "name" : "ACaptureSessionPhysicalOutput_create"
+  },
+  {
+   "name" : "ACaptureSessionSharedOutput_add"
+  },
+  {
+   "name" : "ACaptureSessionSharedOutput_create"
+  },
+  {
+   "name" : "ACaptureSessionSharedOutput_remove"
+  },
+  {
+   "name" : "__cfi_check"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}
