@@ -1,0 +1,2555 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "name" : "glActiveShaderProgram"
+  },
+  {
+   "name" : "glActiveShaderProgramEXT"
+  },
+  {
+   "name" : "glActiveTexture"
+  },
+  {
+   "name" : "glAlphaFuncQCOM"
+  },
+  {
+   "name" : "glApplyFramebufferAttachmentCMAAINTEL"
+  },
+  {
+   "name" : "glAttachShader"
+  },
+  {
+   "name" : "glBeginConditionalRenderNV"
+  },
+  {
+   "name" : "glBeginPerfMonitorAMD"
+  },
+  {
+   "name" : "glBeginPerfQueryINTEL"
+  },
+  {
+   "name" : "glBeginQuery"
+  },
+  {
+   "name" : "glBeginQueryEXT"
+  },
+  {
+   "name" : "glBeginTransformFeedback"
+  },
+  {
+   "name" : "glBindAttribLocation"
+  },
+  {
+   "name" : "glBindBuffer"
+  },
+  {
+   "name" : "glBindBufferBase"
+  },
+  {
+   "name" : "glBindBufferRange"
+  },
+  {
+   "name" : "glBindFragDataLocationEXT"
+  },
+  {
+   "name" : "glBindFragDataLocationIndexedEXT"
+  },
+  {
+   "name" : "glBindFramebuffer"
+  },
+  {
+   "name" : "glBindImageTexture"
+  },
+  {
+   "name" : "glBindProgramPipeline"
+  },
+  {
+   "name" : "glBindProgramPipelineEXT"
+  },
+  {
+   "name" : "glBindRenderbuffer"
+  },
+  {
+   "name" : "glBindSampler"
+  },
+  {
+   "name" : "glBindTexture"
+  },
+  {
+   "name" : "glBindTransformFeedback"
+  },
+  {
+   "name" : "glBindVertexArray"
+  },
+  {
+   "name" : "glBindVertexArrayOES"
+  },
+  {
+   "name" : "glBindVertexBuffer"
+  },
+  {
+   "name" : "glBlendBarrier"
+  },
+  {
+   "name" : "glBlendBarrierKHR"
+  },
+  {
+   "name" : "glBlendBarrierNV"
+  },
+  {
+   "name" : "glBlendColor"
+  },
+  {
+   "name" : "glBlendEquation"
+  },
+  {
+   "name" : "glBlendEquationSeparate"
+  },
+  {
+   "name" : "glBlendEquationSeparatei"
+  },
+  {
+   "name" : "glBlendEquationSeparateiEXT"
+  },
+  {
+   "name" : "glBlendEquationSeparateiOES"
+  },
+  {
+   "name" : "glBlendEquationi"
+  },
+  {
+   "name" : "glBlendEquationiEXT"
+  },
+  {
+   "name" : "glBlendEquationiOES"
+  },
+  {
+   "name" : "glBlendFunc"
+  },
+  {
+   "name" : "glBlendFuncSeparate"
+  },
+  {
+   "name" : "glBlendFuncSeparatei"
+  },
+  {
+   "name" : "glBlendFuncSeparateiEXT"
+  },
+  {
+   "name" : "glBlendFuncSeparateiOES"
+  },
+  {
+   "name" : "glBlendFunci"
+  },
+  {
+   "name" : "glBlendFunciEXT"
+  },
+  {
+   "name" : "glBlendFunciOES"
+  },
+  {
+   "name" : "glBlendParameteriNV"
+  },
+  {
+   "name" : "glBlitFramebuffer"
+  },
+  {
+   "name" : "glBlitFramebufferANGLE"
+  },
+  {
+   "name" : "glBlitFramebufferNV"
+  },
+  {
+   "name" : "glBufferData"
+  },
+  {
+   "name" : "glBufferStorageEXT"
+  },
+  {
+   "name" : "glBufferStorageExternalEXT"
+  },
+  {
+   "name" : "glBufferStorageMemEXT"
+  },
+  {
+   "name" : "glBufferSubData"
+  },
+  {
+   "name" : "glCheckFramebufferStatus"
+  },
+  {
+   "name" : "glClear"
+  },
+  {
+   "name" : "glClearBufferfi"
+  },
+  {
+   "name" : "glClearBufferfv"
+  },
+  {
+   "name" : "glClearBufferiv"
+  },
+  {
+   "name" : "glClearBufferuiv"
+  },
+  {
+   "name" : "glClearColor"
+  },
+  {
+   "name" : "glClearDepthf"
+  },
+  {
+   "name" : "glClearPixelLocalStorageuiEXT"
+  },
+  {
+   "name" : "glClearStencil"
+  },
+  {
+   "name" : "glClearTexImageEXT"
+  },
+  {
+   "name" : "glClearTexSubImageEXT"
+  },
+  {
+   "name" : "glClientWaitSync"
+  },
+  {
+   "name" : "glClientWaitSyncAPPLE"
+  },
+  {
+   "name" : "glClipControlEXT"
+  },
+  {
+   "name" : "glColorMask"
+  },
+  {
+   "name" : "glColorMaski"
+  },
+  {
+   "name" : "glColorMaskiEXT"
+  },
+  {
+   "name" : "glColorMaskiOES"
+  },
+  {
+   "name" : "glCompileShader"
+  },
+  {
+   "name" : "glCompressedTexImage2D"
+  },
+  {
+   "name" : "glCompressedTexImage3D"
+  },
+  {
+   "name" : "glCompressedTexImage3DOES"
+  },
+  {
+   "name" : "glCompressedTexSubImage2D"
+  },
+  {
+   "name" : "glCompressedTexSubImage3D"
+  },
+  {
+   "name" : "glCompressedTexSubImage3DOES"
+  },
+  {
+   "name" : "glConservativeRasterParameteriNV"
+  },
+  {
+   "name" : "glCopyBufferSubData"
+  },
+  {
+   "name" : "glCopyBufferSubDataNV"
+  },
+  {
+   "name" : "glCopyImageSubData"
+  },
+  {
+   "name" : "glCopyImageSubDataEXT"
+  },
+  {
+   "name" : "glCopyImageSubDataOES"
+  },
+  {
+   "name" : "glCopyPathNV"
+  },
+  {
+   "name" : "glCopyTexImage2D"
+  },
+  {
+   "name" : "glCopyTexSubImage2D"
+  },
+  {
+   "name" : "glCopyTexSubImage3D"
+  },
+  {
+   "name" : "glCopyTexSubImage3DOES"
+  },
+  {
+   "name" : "glCopyTextureLevelsAPPLE"
+  },
+  {
+   "name" : "glCoverFillPathInstancedNV"
+  },
+  {
+   "name" : "glCoverFillPathNV"
+  },
+  {
+   "name" : "glCoverStrokePathInstancedNV"
+  },
+  {
+   "name" : "glCoverStrokePathNV"
+  },
+  {
+   "name" : "glCoverageMaskNV"
+  },
+  {
+   "name" : "glCoverageModulationNV"
+  },
+  {
+   "name" : "glCoverageModulationTableNV"
+  },
+  {
+   "name" : "glCoverageOperationNV"
+  },
+  {
+   "name" : "glCreateMemoryObjectsEXT"
+  },
+  {
+   "name" : "glCreatePerfQueryINTEL"
+  },
+  {
+   "name" : "glCreateProgram"
+  },
+  {
+   "name" : "glCreateShader"
+  },
+  {
+   "name" : "glCreateShaderProgramv"
+  },
+  {
+   "name" : "glCreateShaderProgramvEXT"
+  },
+  {
+   "name" : "glCullFace"
+  },
+  {
+   "name" : "glDebugMessageCallback"
+  },
+  {
+   "name" : "glDebugMessageCallbackKHR"
+  },
+  {
+   "name" : "glDebugMessageControl"
+  },
+  {
+   "name" : "glDebugMessageControlKHR"
+  },
+  {
+   "name" : "glDebugMessageInsert"
+  },
+  {
+   "name" : "glDebugMessageInsertKHR"
+  },
+  {
+   "name" : "glDeleteBuffers"
+  },
+  {
+   "name" : "glDeleteFencesNV"
+  },
+  {
+   "name" : "glDeleteFramebuffers"
+  },
+  {
+   "name" : "glDeleteMemoryObjectsEXT"
+  },
+  {
+   "name" : "glDeletePathsNV"
+  },
+  {
+   "name" : "glDeletePerfMonitorsAMD"
+  },
+  {
+   "name" : "glDeletePerfQueryINTEL"
+  },
+  {
+   "name" : "glDeleteProgram"
+  },
+  {
+   "name" : "glDeleteProgramPipelines"
+  },
+  {
+   "name" : "glDeleteProgramPipelinesEXT"
+  },
+  {
+   "name" : "glDeleteQueries"
+  },
+  {
+   "name" : "glDeleteQueriesEXT"
+  },
+  {
+   "name" : "glDeleteRenderbuffers"
+  },
+  {
+   "name" : "glDeleteSamplers"
+  },
+  {
+   "name" : "glDeleteSemaphoresEXT"
+  },
+  {
+   "name" : "glDeleteShader"
+  },
+  {
+   "name" : "glDeleteSync"
+  },
+  {
+   "name" : "glDeleteSyncAPPLE"
+  },
+  {
+   "name" : "glDeleteTextures"
+  },
+  {
+   "name" : "glDeleteTransformFeedbacks"
+  },
+  {
+   "name" : "glDeleteVertexArrays"
+  },
+  {
+   "name" : "glDeleteVertexArraysOES"
+  },
+  {
+   "name" : "glDepthFunc"
+  },
+  {
+   "name" : "glDepthMask"
+  },
+  {
+   "name" : "glDepthRangeArrayfvNV"
+  },
+  {
+   "name" : "glDepthRangeArrayfvOES"
+  },
+  {
+   "name" : "glDepthRangeIndexedfNV"
+  },
+  {
+   "name" : "glDepthRangeIndexedfOES"
+  },
+  {
+   "name" : "glDepthRangef"
+  },
+  {
+   "name" : "glDetachShader"
+  },
+  {
+   "name" : "glDisable"
+  },
+  {
+   "name" : "glDisableDriverControlQCOM"
+  },
+  {
+   "name" : "glDisableVertexAttribArray"
+  },
+  {
+   "name" : "glDisablei"
+  },
+  {
+   "name" : "glDisableiEXT"
+  },
+  {
+   "name" : "glDisableiNV"
+  },
+  {
+   "name" : "glDisableiOES"
+  },
+  {
+   "name" : "glDiscardFramebufferEXT"
+  },
+  {
+   "name" : "glDispatchCompute"
+  },
+  {
+   "name" : "glDispatchComputeIndirect"
+  },
+  {
+   "name" : "glDrawArrays"
+  },
+  {
+   "name" : "glDrawArraysIndirect"
+  },
+  {
+   "name" : "glDrawArraysInstanced"
+  },
+  {
+   "name" : "glDrawArraysInstancedANGLE"
+  },
+  {
+   "name" : "glDrawArraysInstancedBaseInstanceEXT"
+  },
+  {
+   "name" : "glDrawArraysInstancedEXT"
+  },
+  {
+   "name" : "glDrawArraysInstancedNV"
+  },
+  {
+   "name" : "glDrawBuffers"
+  },
+  {
+   "name" : "glDrawBuffersEXT"
+  },
+  {
+   "name" : "glDrawBuffersIndexedEXT"
+  },
+  {
+   "name" : "glDrawBuffersNV"
+  },
+  {
+   "name" : "glDrawElements"
+  },
+  {
+   "name" : "glDrawElementsBaseVertex"
+  },
+  {
+   "name" : "glDrawElementsBaseVertexEXT"
+  },
+  {
+   "name" : "glDrawElementsBaseVertexOES"
+  },
+  {
+   "name" : "glDrawElementsIndirect"
+  },
+  {
+   "name" : "glDrawElementsInstanced"
+  },
+  {
+   "name" : "glDrawElementsInstancedANGLE"
+  },
+  {
+   "name" : "glDrawElementsInstancedBaseInstanceEXT"
+  },
+  {
+   "name" : "glDrawElementsInstancedBaseVertex"
+  },
+  {
+   "name" : "glDrawElementsInstancedBaseVertexBaseInstanceEXT"
+  },
+  {
+   "name" : "glDrawElementsInstancedBaseVertexEXT"
+  },
+  {
+   "name" : "glDrawElementsInstancedBaseVertexOES"
+  },
+  {
+   "name" : "glDrawElementsInstancedEXT"
+  },
+  {
+   "name" : "glDrawElementsInstancedNV"
+  },
+  {
+   "name" : "glDrawRangeElements"
+  },
+  {
+   "name" : "glDrawRangeElementsBaseVertex"
+  },
+  {
+   "name" : "glDrawRangeElementsBaseVertexEXT"
+  },
+  {
+   "name" : "glDrawRangeElementsBaseVertexOES"
+  },
+  {
+   "name" : "glDrawTransformFeedbackEXT"
+  },
+  {
+   "name" : "glDrawTransformFeedbackInstancedEXT"
+  },
+  {
+   "name" : "glDrawVkImageNV"
+  },
+  {
+   "name" : "glEGLImageTargetRenderbufferStorageOES"
+  },
+  {
+   "name" : "glEGLImageTargetTexStorageEXT"
+  },
+  {
+   "name" : "glEGLImageTargetTexture2DOES"
+  },
+  {
+   "name" : "glEGLImageTargetTextureStorageEXT"
+  },
+  {
+   "name" : "glEnable"
+  },
+  {
+   "name" : "glEnableDriverControlQCOM"
+  },
+  {
+   "name" : "glEnableVertexAttribArray"
+  },
+  {
+   "name" : "glEnablei"
+  },
+  {
+   "name" : "glEnableiEXT"
+  },
+  {
+   "name" : "glEnableiNV"
+  },
+  {
+   "name" : "glEnableiOES"
+  },
+  {
+   "name" : "glEndConditionalRenderNV"
+  },
+  {
+   "name" : "glEndPerfMonitorAMD"
+  },
+  {
+   "name" : "glEndPerfQueryINTEL"
+  },
+  {
+   "name" : "glEndQuery"
+  },
+  {
+   "name" : "glEndQueryEXT"
+  },
+  {
+   "name" : "glEndTilingQCOM"
+  },
+  {
+   "name" : "glEndTransformFeedback"
+  },
+  {
+   "name" : "glExtGetBufferPointervQCOM"
+  },
+  {
+   "name" : "glExtGetBuffersQCOM"
+  },
+  {
+   "name" : "glExtGetFramebuffersQCOM"
+  },
+  {
+   "name" : "glExtGetProgramBinarySourceQCOM"
+  },
+  {
+   "name" : "glExtGetProgramsQCOM"
+  },
+  {
+   "name" : "glExtGetRenderbuffersQCOM"
+  },
+  {
+   "name" : "glExtGetShadersQCOM"
+  },
+  {
+   "name" : "glExtGetTexLevelParameterivQCOM"
+  },
+  {
+   "name" : "glExtGetTexSubImageQCOM"
+  },
+  {
+   "name" : "glExtGetTexturesQCOM"
+  },
+  {
+   "name" : "glExtIsProgramBinaryQCOM"
+  },
+  {
+   "name" : "glExtTexObjectStateOverrideiQCOM"
+  },
+  {
+   "name" : "glFenceSync"
+  },
+  {
+   "name" : "glFenceSyncAPPLE"
+  },
+  {
+   "name" : "glFinish"
+  },
+  {
+   "name" : "glFinishFenceNV"
+  },
+  {
+   "name" : "glFlush"
+  },
+  {
+   "name" : "glFlushMappedBufferRange"
+  },
+  {
+   "name" : "glFlushMappedBufferRangeEXT"
+  },
+  {
+   "name" : "glFragmentCoverageColorNV"
+  },
+  {
+   "name" : "glFramebufferFetchBarrierEXT"
+  },
+  {
+   "name" : "glFramebufferFetchBarrierQCOM"
+  },
+  {
+   "name" : "glFramebufferFoveationConfigQCOM"
+  },
+  {
+   "name" : "glFramebufferFoveationParametersQCOM"
+  },
+  {
+   "name" : "glFramebufferParameteri"
+  },
+  {
+   "name" : "glFramebufferPixelLocalStorageSizeEXT"
+  },
+  {
+   "name" : "glFramebufferRenderbuffer"
+  },
+  {
+   "name" : "glFramebufferSampleLocationsfvNV"
+  },
+  {
+   "name" : "glFramebufferTexture"
+  },
+  {
+   "name" : "glFramebufferTexture2D"
+  },
+  {
+   "name" : "glFramebufferTexture2DDownsampleIMG"
+  },
+  {
+   "name" : "glFramebufferTexture2DMultisampleEXT"
+  },
+  {
+   "name" : "glFramebufferTexture2DMultisampleIMG"
+  },
+  {
+   "name" : "glFramebufferTexture3DOES"
+  },
+  {
+   "name" : "glFramebufferTextureEXT"
+  },
+  {
+   "name" : "glFramebufferTextureLayer"
+  },
+  {
+   "name" : "glFramebufferTextureLayerDownsampleIMG"
+  },
+  {
+   "name" : "glFramebufferTextureMultisampleMultiviewOVR"
+  },
+  {
+   "name" : "glFramebufferTextureMultiviewOVR"
+  },
+  {
+   "name" : "glFramebufferTextureOES"
+  },
+  {
+   "name" : "glFrontFace"
+  },
+  {
+   "name" : "glGenBuffers"
+  },
+  {
+   "name" : "glGenFencesNV"
+  },
+  {
+   "name" : "glGenFramebuffers"
+  },
+  {
+   "name" : "glGenPathsNV"
+  },
+  {
+   "name" : "glGenPerfMonitorsAMD"
+  },
+  {
+   "name" : "glGenProgramPipelines"
+  },
+  {
+   "name" : "glGenProgramPipelinesEXT"
+  },
+  {
+   "name" : "glGenQueries"
+  },
+  {
+   "name" : "glGenQueriesEXT"
+  },
+  {
+   "name" : "glGenRenderbuffers"
+  },
+  {
+   "name" : "glGenSamplers"
+  },
+  {
+   "name" : "glGenSemaphoresEXT"
+  },
+  {
+   "name" : "glGenTextures"
+  },
+  {
+   "name" : "glGenTransformFeedbacks"
+  },
+  {
+   "name" : "glGenVertexArrays"
+  },
+  {
+   "name" : "glGenVertexArraysOES"
+  },
+  {
+   "name" : "glGenerateMipmap"
+  },
+  {
+   "name" : "glGetActiveAttrib"
+  },
+  {
+   "name" : "glGetActiveUniform"
+  },
+  {
+   "name" : "glGetActiveUniformBlockName"
+  },
+  {
+   "name" : "glGetActiveUniformBlockiv"
+  },
+  {
+   "name" : "glGetActiveUniformsiv"
+  },
+  {
+   "name" : "glGetAttachedShaders"
+  },
+  {
+   "name" : "glGetAttribLocation"
+  },
+  {
+   "name" : "glGetBooleani_v"
+  },
+  {
+   "name" : "glGetBooleanv"
+  },
+  {
+   "name" : "glGetBufferParameteri64v"
+  },
+  {
+   "name" : "glGetBufferParameteriv"
+  },
+  {
+   "name" : "glGetBufferPointerv"
+  },
+  {
+   "name" : "glGetBufferPointervOES"
+  },
+  {
+   "name" : "glGetCoverageModulationTableNV"
+  },
+  {
+   "name" : "glGetDebugMessageLog"
+  },
+  {
+   "name" : "glGetDebugMessageLogKHR"
+  },
+  {
+   "name" : "glGetDriverControlStringQCOM"
+  },
+  {
+   "name" : "glGetDriverControlsQCOM"
+  },
+  {
+   "name" : "glGetError"
+  },
+  {
+   "name" : "glGetFenceivNV"
+  },
+  {
+   "name" : "glGetFirstPerfQueryIdINTEL"
+  },
+  {
+   "name" : "glGetFloati_vNV"
+  },
+  {
+   "name" : "glGetFloati_vOES"
+  },
+  {
+   "name" : "glGetFloatv"
+  },
+  {
+   "name" : "glGetFragDataIndexEXT"
+  },
+  {
+   "name" : "glGetFragDataLocation"
+  },
+  {
+   "name" : "glGetFramebufferAttachmentParameteriv"
+  },
+  {
+   "name" : "glGetFramebufferParameteriv"
+  },
+  {
+   "name" : "glGetFramebufferPixelLocalStorageSizeEXT"
+  },
+  {
+   "name" : "glGetGraphicsResetStatus"
+  },
+  {
+   "name" : "glGetGraphicsResetStatusEXT"
+  },
+  {
+   "name" : "glGetGraphicsResetStatusKHR"
+  },
+  {
+   "name" : "glGetImageHandleNV"
+  },
+  {
+   "name" : "glGetInteger64i_v"
+  },
+  {
+   "name" : "glGetInteger64v"
+  },
+  {
+   "name" : "glGetInteger64vAPPLE"
+  },
+  {
+   "name" : "glGetIntegeri_v"
+  },
+  {
+   "name" : "glGetIntegeri_vEXT"
+  },
+  {
+   "name" : "glGetIntegerv"
+  },
+  {
+   "name" : "glGetInternalformatSampleivNV"
+  },
+  {
+   "name" : "glGetInternalformativ"
+  },
+  {
+   "name" : "glGetMemoryObjectParameterivEXT"
+  },
+  {
+   "name" : "glGetMultisamplefv"
+  },
+  {
+   "name" : "glGetNextPerfQueryIdINTEL"
+  },
+  {
+   "name" : "glGetObjectLabel"
+  },
+  {
+   "name" : "glGetObjectLabelEXT"
+  },
+  {
+   "name" : "glGetObjectLabelKHR"
+  },
+  {
+   "name" : "glGetObjectPtrLabel"
+  },
+  {
+   "name" : "glGetObjectPtrLabelKHR"
+  },
+  {
+   "name" : "glGetPathCommandsNV"
+  },
+  {
+   "name" : "glGetPathCoordsNV"
+  },
+  {
+   "name" : "glGetPathDashArrayNV"
+  },
+  {
+   "name" : "glGetPathLengthNV"
+  },
+  {
+   "name" : "glGetPathMetricRangeNV"
+  },
+  {
+   "name" : "glGetPathMetricsNV"
+  },
+  {
+   "name" : "glGetPathParameterfvNV"
+  },
+  {
+   "name" : "glGetPathParameterivNV"
+  },
+  {
+   "name" : "glGetPathSpacingNV"
+  },
+  {
+   "name" : "glGetPerfCounterInfoINTEL"
+  },
+  {
+   "name" : "glGetPerfMonitorCounterDataAMD"
+  },
+  {
+   "name" : "glGetPerfMonitorCounterInfoAMD"
+  },
+  {
+   "name" : "glGetPerfMonitorCounterStringAMD"
+  },
+  {
+   "name" : "glGetPerfMonitorCountersAMD"
+  },
+  {
+   "name" : "glGetPerfMonitorGroupStringAMD"
+  },
+  {
+   "name" : "glGetPerfMonitorGroupsAMD"
+  },
+  {
+   "name" : "glGetPerfQueryDataINTEL"
+  },
+  {
+   "name" : "glGetPerfQueryIdByNameINTEL"
+  },
+  {
+   "name" : "glGetPerfQueryInfoINTEL"
+  },
+  {
+   "name" : "glGetPointerv"
+  },
+  {
+   "name" : "glGetPointervKHR"
+  },
+  {
+   "name" : "glGetProgramBinary"
+  },
+  {
+   "name" : "glGetProgramBinaryOES"
+  },
+  {
+   "name" : "glGetProgramInfoLog"
+  },
+  {
+   "name" : "glGetProgramInterfaceiv"
+  },
+  {
+   "name" : "glGetProgramPipelineInfoLog"
+  },
+  {
+   "name" : "glGetProgramPipelineInfoLogEXT"
+  },
+  {
+   "name" : "glGetProgramPipelineiv"
+  },
+  {
+   "name" : "glGetProgramPipelineivEXT"
+  },
+  {
+   "name" : "glGetProgramResourceIndex"
+  },
+  {
+   "name" : "glGetProgramResourceLocation"
+  },
+  {
+   "name" : "glGetProgramResourceLocationIndexEXT"
+  },
+  {
+   "name" : "glGetProgramResourceName"
+  },
+  {
+   "name" : "glGetProgramResourcefvNV"
+  },
+  {
+   "name" : "glGetProgramResourceiv"
+  },
+  {
+   "name" : "glGetProgramiv"
+  },
+  {
+   "name" : "glGetQueryObjecti64vEXT"
+  },
+  {
+   "name" : "glGetQueryObjectivEXT"
+  },
+  {
+   "name" : "glGetQueryObjectui64vEXT"
+  },
+  {
+   "name" : "glGetQueryObjectuiv"
+  },
+  {
+   "name" : "glGetQueryObjectuivEXT"
+  },
+  {
+   "name" : "glGetQueryiv"
+  },
+  {
+   "name" : "glGetQueryivEXT"
+  },
+  {
+   "name" : "glGetRenderbufferParameteriv"
+  },
+  {
+   "name" : "glGetSamplerParameterIiv"
+  },
+  {
+   "name" : "glGetSamplerParameterIivEXT"
+  },
+  {
+   "name" : "glGetSamplerParameterIivOES"
+  },
+  {
+   "name" : "glGetSamplerParameterIuiv"
+  },
+  {
+   "name" : "glGetSamplerParameterIuivEXT"
+  },
+  {
+   "name" : "glGetSamplerParameterIuivOES"
+  },
+  {
+   "name" : "glGetSamplerParameterfv"
+  },
+  {
+   "name" : "glGetSamplerParameteriv"
+  },
+  {
+   "name" : "glGetSemaphoreParameterui64vEXT"
+  },
+  {
+   "name" : "glGetShaderInfoLog"
+  },
+  {
+   "name" : "glGetShaderPrecisionFormat"
+  },
+  {
+   "name" : "glGetShaderSource"
+  },
+  {
+   "name" : "glGetShaderiv"
+  },
+  {
+   "name" : "glGetString"
+  },
+  {
+   "name" : "glGetStringi"
+  },
+  {
+   "name" : "glGetSynciv"
+  },
+  {
+   "name" : "glGetSyncivAPPLE"
+  },
+  {
+   "name" : "glGetTexLevelParameterfv"
+  },
+  {
+   "name" : "glGetTexLevelParameteriv"
+  },
+  {
+   "name" : "glGetTexParameterIiv"
+  },
+  {
+   "name" : "glGetTexParameterIivEXT"
+  },
+  {
+   "name" : "glGetTexParameterIivOES"
+  },
+  {
+   "name" : "glGetTexParameterIuiv"
+  },
+  {
+   "name" : "glGetTexParameterIuivEXT"
+  },
+  {
+   "name" : "glGetTexParameterIuivOES"
+  },
+  {
+   "name" : "glGetTexParameterfv"
+  },
+  {
+   "name" : "glGetTexParameteriv"
+  },
+  {
+   "name" : "glGetTextureHandleIMG"
+  },
+  {
+   "name" : "glGetTextureHandleNV"
+  },
+  {
+   "name" : "glGetTextureSamplerHandleIMG"
+  },
+  {
+   "name" : "glGetTextureSamplerHandleNV"
+  },
+  {
+   "name" : "glGetTransformFeedbackVarying"
+  },
+  {
+   "name" : "glGetTranslatedShaderSourceANGLE"
+  },
+  {
+   "name" : "glGetUniformBlockIndex"
+  },
+  {
+   "name" : "glGetUniformIndices"
+  },
+  {
+   "name" : "glGetUniformLocation"
+  },
+  {
+   "name" : "glGetUniformfv"
+  },
+  {
+   "name" : "glGetUniformi64vNV"
+  },
+  {
+   "name" : "glGetUniformiv"
+  },
+  {
+   "name" : "glGetUniformuiv"
+  },
+  {
+   "name" : "glGetUnsignedBytei_vEXT"
+  },
+  {
+   "name" : "glGetUnsignedBytevEXT"
+  },
+  {
+   "name" : "glGetVertexAttribIiv"
+  },
+  {
+   "name" : "glGetVertexAttribIuiv"
+  },
+  {
+   "name" : "glGetVertexAttribPointerv"
+  },
+  {
+   "name" : "glGetVertexAttribfv"
+  },
+  {
+   "name" : "glGetVertexAttribiv"
+  },
+  {
+   "name" : "glGetVkProcAddrNV"
+  },
+  {
+   "name" : "glGetnUniformfv"
+  },
+  {
+   "name" : "glGetnUniformfvEXT"
+  },
+  {
+   "name" : "glGetnUniformfvKHR"
+  },
+  {
+   "name" : "glGetnUniformiv"
+  },
+  {
+   "name" : "glGetnUniformivEXT"
+  },
+  {
+   "name" : "glGetnUniformivKHR"
+  },
+  {
+   "name" : "glGetnUniformuiv"
+  },
+  {
+   "name" : "glGetnUniformuivKHR"
+  },
+  {
+   "name" : "glHint"
+  },
+  {
+   "name" : "glImportMemoryFdEXT"
+  },
+  {
+   "name" : "glImportSemaphoreFdEXT"
+  },
+  {
+   "name" : "glInsertEventMarkerEXT"
+  },
+  {
+   "name" : "glInterpolatePathsNV"
+  },
+  {
+   "name" : "glInvalidateFramebuffer"
+  },
+  {
+   "name" : "glInvalidateSubFramebuffer"
+  },
+  {
+   "name" : "glIsBuffer"
+  },
+  {
+   "name" : "glIsEnabled"
+  },
+  {
+   "name" : "glIsEnabledi"
+  },
+  {
+   "name" : "glIsEnablediEXT"
+  },
+  {
+   "name" : "glIsEnablediNV"
+  },
+  {
+   "name" : "glIsEnablediOES"
+  },
+  {
+   "name" : "glIsFenceNV"
+  },
+  {
+   "name" : "glIsFramebuffer"
+  },
+  {
+   "name" : "glIsImageHandleResidentNV"
+  },
+  {
+   "name" : "glIsMemoryObjectEXT"
+  },
+  {
+   "name" : "glIsPathNV"
+  },
+  {
+   "name" : "glIsPointInFillPathNV"
+  },
+  {
+   "name" : "glIsPointInStrokePathNV"
+  },
+  {
+   "name" : "glIsProgram"
+  },
+  {
+   "name" : "glIsProgramPipeline"
+  },
+  {
+   "name" : "glIsProgramPipelineEXT"
+  },
+  {
+   "name" : "glIsQuery"
+  },
+  {
+   "name" : "glIsQueryEXT"
+  },
+  {
+   "name" : "glIsRenderbuffer"
+  },
+  {
+   "name" : "glIsSampler"
+  },
+  {
+   "name" : "glIsSemaphoreEXT"
+  },
+  {
+   "name" : "glIsShader"
+  },
+  {
+   "name" : "glIsSync"
+  },
+  {
+   "name" : "glIsSyncAPPLE"
+  },
+  {
+   "name" : "glIsTexture"
+  },
+  {
+   "name" : "glIsTextureHandleResidentNV"
+  },
+  {
+   "name" : "glIsTransformFeedback"
+  },
+  {
+   "name" : "glIsVertexArray"
+  },
+  {
+   "name" : "glIsVertexArrayOES"
+  },
+  {
+   "name" : "glLabelObjectEXT"
+  },
+  {
+   "name" : "glLineWidth"
+  },
+  {
+   "name" : "glLinkProgram"
+  },
+  {
+   "name" : "glMakeImageHandleNonResidentNV"
+  },
+  {
+   "name" : "glMakeImageHandleResidentNV"
+  },
+  {
+   "name" : "glMakeTextureHandleNonResidentNV"
+  },
+  {
+   "name" : "glMakeTextureHandleResidentNV"
+  },
+  {
+   "name" : "glMapBufferOES"
+  },
+  {
+   "name" : "glMapBufferRange"
+  },
+  {
+   "name" : "glMapBufferRangeEXT"
+  },
+  {
+   "name" : "glMatrixFrustumEXT"
+  },
+  {
+   "name" : "glMatrixLoad3x2fNV"
+  },
+  {
+   "name" : "glMatrixLoad3x3fNV"
+  },
+  {
+   "name" : "glMatrixLoadIdentityEXT"
+  },
+  {
+   "name" : "glMatrixLoadTranspose3x3fNV"
+  },
+  {
+   "name" : "glMatrixLoadTransposedEXT"
+  },
+  {
+   "name" : "glMatrixLoadTransposefEXT"
+  },
+  {
+   "name" : "glMatrixLoaddEXT"
+  },
+  {
+   "name" : "glMatrixLoadfEXT"
+  },
+  {
+   "name" : "glMatrixMult3x2fNV"
+  },
+  {
+   "name" : "glMatrixMult3x3fNV"
+  },
+  {
+   "name" : "glMatrixMultTranspose3x3fNV"
+  },
+  {
+   "name" : "glMatrixMultTransposedEXT"
+  },
+  {
+   "name" : "glMatrixMultTransposefEXT"
+  },
+  {
+   "name" : "glMatrixMultdEXT"
+  },
+  {
+   "name" : "glMatrixMultfEXT"
+  },
+  {
+   "name" : "glMatrixOrthoEXT"
+  },
+  {
+   "name" : "glMatrixPopEXT"
+  },
+  {
+   "name" : "glMatrixPushEXT"
+  },
+  {
+   "name" : "glMatrixRotatedEXT"
+  },
+  {
+   "name" : "glMatrixRotatefEXT"
+  },
+  {
+   "name" : "glMatrixScaledEXT"
+  },
+  {
+   "name" : "glMatrixScalefEXT"
+  },
+  {
+   "name" : "glMatrixTranslatedEXT"
+  },
+  {
+   "name" : "glMatrixTranslatefEXT"
+  },
+  {
+   "name" : "glMaxShaderCompilerThreadsKHR"
+  },
+  {
+   "name" : "glMemoryBarrier"
+  },
+  {
+   "name" : "glMemoryBarrierByRegion"
+  },
+  {
+   "name" : "glMemoryObjectParameterivEXT"
+  },
+  {
+   "name" : "glMinSampleShading"
+  },
+  {
+   "name" : "glMinSampleShadingOES"
+  },
+  {
+   "name" : "glMultiDrawArraysEXT"
+  },
+  {
+   "name" : "glMultiDrawArraysIndirectEXT"
+  },
+  {
+   "name" : "glMultiDrawElementsBaseVertexEXT"
+  },
+  {
+   "name" : "glMultiDrawElementsEXT"
+  },
+  {
+   "name" : "glMultiDrawElementsIndirectEXT"
+  },
+  {
+   "name" : "glNamedBufferStorageExternalEXT"
+  },
+  {
+   "name" : "glNamedBufferStorageMemEXT"
+  },
+  {
+   "name" : "glNamedFramebufferSampleLocationsfvNV"
+  },
+  {
+   "name" : "glObjectLabel"
+  },
+  {
+   "name" : "glObjectLabelKHR"
+  },
+  {
+   "name" : "glObjectPtrLabel"
+  },
+  {
+   "name" : "glObjectPtrLabelKHR"
+  },
+  {
+   "name" : "glPatchParameteri"
+  },
+  {
+   "name" : "glPatchParameteriEXT"
+  },
+  {
+   "name" : "glPatchParameteriOES"
+  },
+  {
+   "name" : "glPathCommandsNV"
+  },
+  {
+   "name" : "glPathCoordsNV"
+  },
+  {
+   "name" : "glPathCoverDepthFuncNV"
+  },
+  {
+   "name" : "glPathDashArrayNV"
+  },
+  {
+   "name" : "glPathGlyphIndexArrayNV"
+  },
+  {
+   "name" : "glPathGlyphIndexRangeNV"
+  },
+  {
+   "name" : "glPathGlyphRangeNV"
+  },
+  {
+   "name" : "glPathGlyphsNV"
+  },
+  {
+   "name" : "glPathMemoryGlyphIndexArrayNV"
+  },
+  {
+   "name" : "glPathParameterfNV"
+  },
+  {
+   "name" : "glPathParameterfvNV"
+  },
+  {
+   "name" : "glPathParameteriNV"
+  },
+  {
+   "name" : "glPathParameterivNV"
+  },
+  {
+   "name" : "glPathStencilDepthOffsetNV"
+  },
+  {
+   "name" : "glPathStencilFuncNV"
+  },
+  {
+   "name" : "glPathStringNV"
+  },
+  {
+   "name" : "glPathSubCommandsNV"
+  },
+  {
+   "name" : "glPathSubCoordsNV"
+  },
+  {
+   "name" : "glPauseTransformFeedback"
+  },
+  {
+   "name" : "glPixelStorei"
+  },
+  {
+   "name" : "glPointAlongPathNV"
+  },
+  {
+   "name" : "glPolygonModeNV"
+  },
+  {
+   "name" : "glPolygonOffset"
+  },
+  {
+   "name" : "glPolygonOffsetClampEXT"
+  },
+  {
+   "name" : "glPopDebugGroup"
+  },
+  {
+   "name" : "glPopDebugGroupKHR"
+  },
+  {
+   "name" : "glPopGroupMarkerEXT"
+  },
+  {
+   "name" : "glPrimitiveBoundingBox"
+  },
+  {
+   "name" : "glPrimitiveBoundingBoxEXT"
+  },
+  {
+   "name" : "glPrimitiveBoundingBoxOES"
+  },
+  {
+   "name" : "glProgramBinary"
+  },
+  {
+   "name" : "glProgramBinaryOES"
+  },
+  {
+   "name" : "glProgramParameteri"
+  },
+  {
+   "name" : "glProgramParameteriEXT"
+  },
+  {
+   "name" : "glProgramPathFragmentInputGenNV"
+  },
+  {
+   "name" : "glProgramUniform1f"
+  },
+  {
+   "name" : "glProgramUniform1fEXT"
+  },
+  {
+   "name" : "glProgramUniform1fv"
+  },
+  {
+   "name" : "glProgramUniform1fvEXT"
+  },
+  {
+   "name" : "glProgramUniform1i"
+  },
+  {
+   "name" : "glProgramUniform1i64NV"
+  },
+  {
+   "name" : "glProgramUniform1i64vNV"
+  },
+  {
+   "name" : "glProgramUniform1iEXT"
+  },
+  {
+   "name" : "glProgramUniform1iv"
+  },
+  {
+   "name" : "glProgramUniform1ivEXT"
+  },
+  {
+   "name" : "glProgramUniform1ui"
+  },
+  {
+   "name" : "glProgramUniform1ui64NV"
+  },
+  {
+   "name" : "glProgramUniform1ui64vNV"
+  },
+  {
+   "name" : "glProgramUniform1uiEXT"
+  },
+  {
+   "name" : "glProgramUniform1uiv"
+  },
+  {
+   "name" : "glProgramUniform1uivEXT"
+  },
+  {
+   "name" : "glProgramUniform2f"
+  },
+  {
+   "name" : "glProgramUniform2fEXT"
+  },
+  {
+   "name" : "glProgramUniform2fv"
+  },
+  {
+   "name" : "glProgramUniform2fvEXT"
+  },
+  {
+   "name" : "glProgramUniform2i"
+  },
+  {
+   "name" : "glProgramUniform2i64NV"
+  },
+  {
+   "name" : "glProgramUniform2i64vNV"
+  },
+  {
+   "name" : "glProgramUniform2iEXT"
+  },
+  {
+   "name" : "glProgramUniform2iv"
+  },
+  {
+   "name" : "glProgramUniform2ivEXT"
+  },
+  {
+   "name" : "glProgramUniform2ui"
+  },
+  {
+   "name" : "glProgramUniform2ui64NV"
+  },
+  {
+   "name" : "glProgramUniform2ui64vNV"
+  },
+  {
+   "name" : "glProgramUniform2uiEXT"
+  },
+  {
+   "name" : "glProgramUniform2uiv"
+  },
+  {
+   "name" : "glProgramUniform2uivEXT"
+  },
+  {
+   "name" : "glProgramUniform3f"
+  },
+  {
+   "name" : "glProgramUniform3fEXT"
+  },
+  {
+   "name" : "glProgramUniform3fv"
+  },
+  {
+   "name" : "glProgramUniform3fvEXT"
+  },
+  {
+   "name" : "glProgramUniform3i"
+  },
+  {
+   "name" : "glProgramUniform3i64NV"
+  },
+  {
+   "name" : "glProgramUniform3i64vNV"
+  },
+  {
+   "name" : "glProgramUniform3iEXT"
+  },
+  {
+   "name" : "glProgramUniform3iv"
+  },
+  {
+   "name" : "glProgramUniform3ivEXT"
+  },
+  {
+   "name" : "glProgramUniform3ui"
+  },
+  {
+   "name" : "glProgramUniform3ui64NV"
+  },
+  {
+   "name" : "glProgramUniform3ui64vNV"
+  },
+  {
+   "name" : "glProgramUniform3uiEXT"
+  },
+  {
+   "name" : "glProgramUniform3uiv"
+  },
+  {
+   "name" : "glProgramUniform3uivEXT"
+  },
+  {
+   "name" : "glProgramUniform4f"
+  },
+  {
+   "name" : "glProgramUniform4fEXT"
+  },
+  {
+   "name" : "glProgramUniform4fv"
+  },
+  {
+   "name" : "glProgramUniform4fvEXT"
+  },
+  {
+   "name" : "glProgramUniform4i"
+  },
+  {
+   "name" : "glProgramUniform4i64NV"
+  },
+  {
+   "name" : "glProgramUniform4i64vNV"
+  },
+  {
+   "name" : "glProgramUniform4iEXT"
+  },
+  {
+   "name" : "glProgramUniform4iv"
+  },
+  {
+   "name" : "glProgramUniform4ivEXT"
+  },
+  {
+   "name" : "glProgramUniform4ui"
+  },
+  {
+   "name" : "glProgramUniform4ui64NV"
+  },
+  {
+   "name" : "glProgramUniform4ui64vNV"
+  },
+  {
+   "name" : "glProgramUniform4uiEXT"
+  },
+  {
+   "name" : "glProgramUniform4uiv"
+  },
+  {
+   "name" : "glProgramUniform4uivEXT"
+  },
+  {
+   "name" : "glProgramUniformHandleui64IMG"
+  },
+  {
+   "name" : "glProgramUniformHandleui64NV"
+  },
+  {
+   "name" : "glProgramUniformHandleui64vIMG"
+  },
+  {
+   "name" : "glProgramUniformHandleui64vNV"
+  },
+  {
+   "name" : "glProgramUniformMatrix2fv"
+  },
+  {
+   "name" : "glProgramUniformMatrix2fvEXT"
+  },
+  {
+   "name" : "glProgramUniformMatrix2x3fv"
+  },
+  {
+   "name" : "glProgramUniformMatrix2x3fvEXT"
+  },
+  {
+   "name" : "glProgramUniformMatrix2x4fv"
+  },
+  {
+   "name" : "glProgramUniformMatrix2x4fvEXT"
+  },
+  {
+   "name" : "glProgramUniformMatrix3fv"
+  },
+  {
+   "name" : "glProgramUniformMatrix3fvEXT"
+  },
+  {
+   "name" : "glProgramUniformMatrix3x2fv"
+  },
+  {
+   "name" : "glProgramUniformMatrix3x2fvEXT"
+  },
+  {
+   "name" : "glProgramUniformMatrix3x4fv"
+  },
+  {
+   "name" : "glProgramUniformMatrix3x4fvEXT"
+  },
+  {
+   "name" : "glProgramUniformMatrix4fv"
+  },
+  {
+   "name" : "glProgramUniformMatrix4fvEXT"
+  },
+  {
+   "name" : "glProgramUniformMatrix4x2fv"
+  },
+  {
+   "name" : "glProgramUniformMatrix4x2fvEXT"
+  },
+  {
+   "name" : "glProgramUniformMatrix4x3fv"
+  },
+  {
+   "name" : "glProgramUniformMatrix4x3fvEXT"
+  },
+  {
+   "name" : "glPushDebugGroup"
+  },
+  {
+   "name" : "glPushDebugGroupKHR"
+  },
+  {
+   "name" : "glPushGroupMarkerEXT"
+  },
+  {
+   "name" : "glQueryCounterEXT"
+  },
+  {
+   "name" : "glRasterSamplesEXT"
+  },
+  {
+   "name" : "glReadBuffer"
+  },
+  {
+   "name" : "glReadBufferIndexedEXT"
+  },
+  {
+   "name" : "glReadBufferNV"
+  },
+  {
+   "name" : "glReadPixels"
+  },
+  {
+   "name" : "glReadnPixels"
+  },
+  {
+   "name" : "glReadnPixelsEXT"
+  },
+  {
+   "name" : "glReadnPixelsKHR"
+  },
+  {
+   "name" : "glReleaseShaderCompiler"
+  },
+  {
+   "name" : "glRenderbufferStorage"
+  },
+  {
+   "name" : "glRenderbufferStorageMultisample"
+  },
+  {
+   "name" : "glRenderbufferStorageMultisampleANGLE"
+  },
+  {
+   "name" : "glRenderbufferStorageMultisampleAPPLE"
+  },
+  {
+   "name" : "glRenderbufferStorageMultisampleEXT"
+  },
+  {
+   "name" : "glRenderbufferStorageMultisampleIMG"
+  },
+  {
+   "name" : "glRenderbufferStorageMultisampleNV"
+  },
+  {
+   "name" : "glResolveDepthValuesNV"
+  },
+  {
+   "name" : "glResolveMultisampleFramebufferAPPLE"
+  },
+  {
+   "name" : "glResumeTransformFeedback"
+  },
+  {
+   "name" : "glSampleCoverage"
+  },
+  {
+   "name" : "glSampleMaski"
+  },
+  {
+   "name" : "glSamplerParameterIiv"
+  },
+  {
+   "name" : "glSamplerParameterIivEXT"
+  },
+  {
+   "name" : "glSamplerParameterIivOES"
+  },
+  {
+   "name" : "glSamplerParameterIuiv"
+  },
+  {
+   "name" : "glSamplerParameterIuivEXT"
+  },
+  {
+   "name" : "glSamplerParameterIuivOES"
+  },
+  {
+   "name" : "glSamplerParameterf"
+  },
+  {
+   "name" : "glSamplerParameterfv"
+  },
+  {
+   "name" : "glSamplerParameteri"
+  },
+  {
+   "name" : "glSamplerParameteriv"
+  },
+  {
+   "name" : "glScissor"
+  },
+  {
+   "name" : "glScissorArrayvNV"
+  },
+  {
+   "name" : "glScissorArrayvOES"
+  },
+  {
+   "name" : "glScissorIndexedNV"
+  },
+  {
+   "name" : "glScissorIndexedOES"
+  },
+  {
+   "name" : "glScissorIndexedvNV"
+  },
+  {
+   "name" : "glScissorIndexedvOES"
+  },
+  {
+   "name" : "glSelectPerfMonitorCountersAMD"
+  },
+  {
+   "name" : "glSemaphoreParameterui64vEXT"
+  },
+  {
+   "name" : "glSetFenceNV"
+  },
+  {
+   "name" : "glShaderBinary"
+  },
+  {
+   "name" : "glShaderSource"
+  },
+  {
+   "name" : "glSignalSemaphoreEXT"
+  },
+  {
+   "name" : "glSignalVkFenceNV"
+  },
+  {
+   "name" : "glSignalVkSemaphoreNV"
+  },
+  {
+   "name" : "glStartTilingQCOM"
+  },
+  {
+   "name" : "glStencilFillPathInstancedNV"
+  },
+  {
+   "name" : "glStencilFillPathNV"
+  },
+  {
+   "name" : "glStencilFunc"
+  },
+  {
+   "name" : "glStencilFuncSeparate"
+  },
+  {
+   "name" : "glStencilMask"
+  },
+  {
+   "name" : "glStencilMaskSeparate"
+  },
+  {
+   "name" : "glStencilOp"
+  },
+  {
+   "name" : "glStencilOpSeparate"
+  },
+  {
+   "name" : "glStencilStrokePathInstancedNV"
+  },
+  {
+   "name" : "glStencilStrokePathNV"
+  },
+  {
+   "name" : "glStencilThenCoverFillPathInstancedNV"
+  },
+  {
+   "name" : "glStencilThenCoverFillPathNV"
+  },
+  {
+   "name" : "glStencilThenCoverStrokePathInstancedNV"
+  },
+  {
+   "name" : "glStencilThenCoverStrokePathNV"
+  },
+  {
+   "name" : "glSubpixelPrecisionBiasNV"
+  },
+  {
+   "name" : "glTestFenceNV"
+  },
+  {
+   "name" : "glTexBuffer"
+  },
+  {
+   "name" : "glTexBufferEXT"
+  },
+  {
+   "name" : "glTexBufferOES"
+  },
+  {
+   "name" : "glTexBufferRange"
+  },
+  {
+   "name" : "glTexBufferRangeEXT"
+  },
+  {
+   "name" : "glTexBufferRangeOES"
+  },
+  {
+   "name" : "glTexImage2D"
+  },
+  {
+   "name" : "glTexImage3D"
+  },
+  {
+   "name" : "glTexImage3DOES"
+  },
+  {
+   "name" : "glTexPageCommitmentEXT"
+  },
+  {
+   "name" : "glTexParameterIiv"
+  },
+  {
+   "name" : "glTexParameterIivEXT"
+  },
+  {
+   "name" : "glTexParameterIivOES"
+  },
+  {
+   "name" : "glTexParameterIuiv"
+  },
+  {
+   "name" : "glTexParameterIuivEXT"
+  },
+  {
+   "name" : "glTexParameterIuivOES"
+  },
+  {
+   "name" : "glTexParameterf"
+  },
+  {
+   "name" : "glTexParameterfv"
+  },
+  {
+   "name" : "glTexParameteri"
+  },
+  {
+   "name" : "glTexParameteriv"
+  },
+  {
+   "name" : "glTexStorage1DEXT"
+  },
+  {
+   "name" : "glTexStorage2D"
+  },
+  {
+   "name" : "glTexStorage2DEXT"
+  },
+  {
+   "name" : "glTexStorage2DMultisample"
+  },
+  {
+   "name" : "glTexStorage3D"
+  },
+  {
+   "name" : "glTexStorage3DEXT"
+  },
+  {
+   "name" : "glTexStorage3DMultisample"
+  },
+  {
+   "name" : "glTexStorage3DMultisampleOES"
+  },
+  {
+   "name" : "glTexStorageMem2DEXT"
+  },
+  {
+   "name" : "glTexStorageMem2DMultisampleEXT"
+  },
+  {
+   "name" : "glTexStorageMem3DEXT"
+  },
+  {
+   "name" : "glTexStorageMem3DMultisampleEXT"
+  },
+  {
+   "name" : "glTexSubImage2D"
+  },
+  {
+   "name" : "glTexSubImage3D"
+  },
+  {
+   "name" : "glTexSubImage3DOES"
+  },
+  {
+   "name" : "glTextureFoveationParametersQCOM"
+  },
+  {
+   "name" : "glTextureStorage1DEXT"
+  },
+  {
+   "name" : "glTextureStorage2DEXT"
+  },
+  {
+   "name" : "glTextureStorage3DEXT"
+  },
+  {
+   "name" : "glTextureStorageMem2DEXT"
+  },
+  {
+   "name" : "glTextureStorageMem2DMultisampleEXT"
+  },
+  {
+   "name" : "glTextureStorageMem3DEXT"
+  },
+  {
+   "name" : "glTextureStorageMem3DMultisampleEXT"
+  },
+  {
+   "name" : "glTextureViewEXT"
+  },
+  {
+   "name" : "glTextureViewOES"
+  },
+  {
+   "name" : "glTransformFeedbackVaryings"
+  },
+  {
+   "name" : "glTransformPathNV"
+  },
+  {
+   "name" : "glUniform1f"
+  },
+  {
+   "name" : "glUniform1fv"
+  },
+  {
+   "name" : "glUniform1i"
+  },
+  {
+   "name" : "glUniform1i64NV"
+  },
+  {
+   "name" : "glUniform1i64vNV"
+  },
+  {
+   "name" : "glUniform1iv"
+  },
+  {
+   "name" : "glUniform1ui"
+  },
+  {
+   "name" : "glUniform1ui64NV"
+  },
+  {
+   "name" : "glUniform1ui64vNV"
+  },
+  {
+   "name" : "glUniform1uiv"
+  },
+  {
+   "name" : "glUniform2f"
+  },
+  {
+   "name" : "glUniform2fv"
+  },
+  {
+   "name" : "glUniform2i"
+  },
+  {
+   "name" : "glUniform2i64NV"
+  },
+  {
+   "name" : "glUniform2i64vNV"
+  },
+  {
+   "name" : "glUniform2iv"
+  },
+  {
+   "name" : "glUniform2ui"
+  },
+  {
+   "name" : "glUniform2ui64NV"
+  },
+  {
+   "name" : "glUniform2ui64vNV"
+  },
+  {
+   "name" : "glUniform2uiv"
+  },
+  {
+   "name" : "glUniform3f"
+  },
+  {
+   "name" : "glUniform3fv"
+  },
+  {
+   "name" : "glUniform3i"
+  },
+  {
+   "name" : "glUniform3i64NV"
+  },
+  {
+   "name" : "glUniform3i64vNV"
+  },
+  {
+   "name" : "glUniform3iv"
+  },
+  {
+   "name" : "glUniform3ui"
+  },
+  {
+   "name" : "glUniform3ui64NV"
+  },
+  {
+   "name" : "glUniform3ui64vNV"
+  },
+  {
+   "name" : "glUniform3uiv"
+  },
+  {
+   "name" : "glUniform4f"
+  },
+  {
+   "name" : "glUniform4fv"
+  },
+  {
+   "name" : "glUniform4i"
+  },
+  {
+   "name" : "glUniform4i64NV"
+  },
+  {
+   "name" : "glUniform4i64vNV"
+  },
+  {
+   "name" : "glUniform4iv"
+  },
+  {
+   "name" : "glUniform4ui"
+  },
+  {
+   "name" : "glUniform4ui64NV"
+  },
+  {
+   "name" : "glUniform4ui64vNV"
+  },
+  {
+   "name" : "glUniform4uiv"
+  },
+  {
+   "name" : "glUniformBlockBinding"
+  },
+  {
+   "name" : "glUniformHandleui64IMG"
+  },
+  {
+   "name" : "glUniformHandleui64NV"
+  },
+  {
+   "name" : "glUniformHandleui64vIMG"
+  },
+  {
+   "name" : "glUniformHandleui64vNV"
+  },
+  {
+   "name" : "glUniformMatrix2fv"
+  },
+  {
+   "name" : "glUniformMatrix2x3fv"
+  },
+  {
+   "name" : "glUniformMatrix2x3fvNV"
+  },
+  {
+   "name" : "glUniformMatrix2x4fv"
+  },
+  {
+   "name" : "glUniformMatrix2x4fvNV"
+  },
+  {
+   "name" : "glUniformMatrix3fv"
+  },
+  {
+   "name" : "glUniformMatrix3x2fv"
+  },
+  {
+   "name" : "glUniformMatrix3x2fvNV"
+  },
+  {
+   "name" : "glUniformMatrix3x4fv"
+  },
+  {
+   "name" : "glUniformMatrix3x4fvNV"
+  },
+  {
+   "name" : "glUniformMatrix4fv"
+  },
+  {
+   "name" : "glUniformMatrix4x2fv"
+  },
+  {
+   "name" : "glUniformMatrix4x2fvNV"
+  },
+  {
+   "name" : "glUniformMatrix4x3fv"
+  },
+  {
+   "name" : "glUniformMatrix4x3fvNV"
+  },
+  {
+   "name" : "glUnmapBuffer"
+  },
+  {
+   "name" : "glUnmapBufferOES"
+  },
+  {
+   "name" : "glUseProgram"
+  },
+  {
+   "name" : "glUseProgramStages"
+  },
+  {
+   "name" : "glUseProgramStagesEXT"
+  },
+  {
+   "name" : "glValidateProgram"
+  },
+  {
+   "name" : "glValidateProgramPipeline"
+  },
+  {
+   "name" : "glValidateProgramPipelineEXT"
+  },
+  {
+   "name" : "glVertexAttrib1f"
+  },
+  {
+   "name" : "glVertexAttrib1fv"
+  },
+  {
+   "name" : "glVertexAttrib2f"
+  },
+  {
+   "name" : "glVertexAttrib2fv"
+  },
+  {
+   "name" : "glVertexAttrib3f"
+  },
+  {
+   "name" : "glVertexAttrib3fv"
+  },
+  {
+   "name" : "glVertexAttrib4f"
+  },
+  {
+   "name" : "glVertexAttrib4fv"
+  },
+  {
+   "name" : "glVertexAttribBinding"
+  },
+  {
+   "name" : "glVertexAttribDivisor"
+  },
+  {
+   "name" : "glVertexAttribDivisorANGLE"
+  },
+  {
+   "name" : "glVertexAttribDivisorEXT"
+  },
+  {
+   "name" : "glVertexAttribDivisorNV"
+  },
+  {
+   "name" : "glVertexAttribFormat"
+  },
+  {
+   "name" : "glVertexAttribI4i"
+  },
+  {
+   "name" : "glVertexAttribI4iv"
+  },
+  {
+   "name" : "glVertexAttribI4ui"
+  },
+  {
+   "name" : "glVertexAttribI4uiv"
+  },
+  {
+   "name" : "glVertexAttribIFormat"
+  },
+  {
+   "name" : "glVertexAttribIPointer"
+  },
+  {
+   "name" : "glVertexAttribPointer"
+  },
+  {
+   "name" : "glVertexBindingDivisor"
+  },
+  {
+   "name" : "glViewport"
+  },
+  {
+   "name" : "glViewportArrayvNV"
+  },
+  {
+   "name" : "glViewportArrayvOES"
+  },
+  {
+   "name" : "glViewportIndexedfNV"
+  },
+  {
+   "name" : "glViewportIndexedfOES"
+  },
+  {
+   "name" : "glViewportIndexedfvNV"
+  },
+  {
+   "name" : "glViewportIndexedfvOES"
+  },
+  {
+   "name" : "glViewportPositionWScaleNV"
+  },
+  {
+   "name" : "glViewportSwizzleNV"
+  },
+  {
+   "name" : "glWaitSemaphoreEXT"
+  },
+  {
+   "name" : "glWaitSync"
+  },
+  {
+   "name" : "glWaitSyncAPPLE"
+  },
+  {
+   "name" : "glWaitVkSemaphoreNV"
+  },
+  {
+   "name" : "glWeightPathsNV"
+  },
+  {
+   "name" : "glWindowRectanglesEXT"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

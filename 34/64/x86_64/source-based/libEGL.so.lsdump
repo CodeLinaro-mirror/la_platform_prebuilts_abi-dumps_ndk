@@ -1,0 +1,1172 @@
+{
+ "array_types" :
+ [
+  {
+   "alignment" : 2,
+   "linker_set_key" : "_ZTIA3_t",
+   "name" : "unsigned short[3]",
+   "referenced_type" : "_ZTIt",
+   "self_type" : "_ZTIA3_t",
+   "size" : 6,
+   "source_file" : "frameworks/native/opengl/libs/EGL/BlobCache.h"
+  },
+  {
+   "linker_set_key" : "_ZTIA_c",
+   "name" : "char[]",
+   "referenced_type" : "_ZTIc",
+   "self_type" : "_ZTIA_c",
+   "source_file" : "frameworks/native/opengl/libs/EGL/BlobCache.h"
+  },
+  {
+   "linker_set_key" : "_ZTIA_h",
+   "name" : "unsigned char[]",
+   "referenced_type" : "_ZTIh",
+   "self_type" : "_ZTIA_h",
+   "source_file" : "frameworks/native/opengl/libs/EGL/BlobCache.h"
+  }
+ ],
+ "builtin_types" :
+ [
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIb",
+   "name" : "bool",
+   "referenced_type" : "_ZTIb",
+   "self_type" : "_ZTIb",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIc",
+   "name" : "char",
+   "referenced_type" : "_ZTIc",
+   "self_type" : "_ZTIc",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIh",
+   "name" : "unsigned char",
+   "referenced_type" : "_ZTIh",
+   "self_type" : "_ZTIh",
+   "size" : 1
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIi",
+   "name" : "int",
+   "referenced_type" : "_ZTIi",
+   "self_type" : "_ZTIi",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIj",
+   "name" : "unsigned int",
+   "referenced_type" : "_ZTIj",
+   "self_type" : "_ZTIj",
+   "size" : 4
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIl",
+   "name" : "long",
+   "referenced_type" : "_ZTIl",
+   "self_type" : "_ZTIl",
+   "size" : 8
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIm",
+   "name" : "unsigned long",
+   "referenced_type" : "_ZTIm",
+   "self_type" : "_ZTIm",
+   "size" : 8
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIt",
+   "name" : "unsigned short",
+   "referenced_type" : "_ZTIt",
+   "self_type" : "_ZTIt",
+   "size" : 2
+  },
+  {
+   "linker_set_key" : "_ZTIv",
+   "name" : "void",
+   "referenced_type" : "_ZTIv",
+   "self_type" : "_ZTIv"
+  }
+ ],
+ "elf_functions" :
+ [
+  {
+   "name" : "eglBindAPI"
+  },
+  {
+   "name" : "eglBindTexImage"
+  },
+  {
+   "name" : "eglChooseConfig"
+  },
+  {
+   "name" : "eglClientWaitSync"
+  },
+  {
+   "name" : "eglClientWaitSyncKHR"
+  },
+  {
+   "name" : "eglCopyBuffers"
+  },
+  {
+   "name" : "eglCreateContext"
+  },
+  {
+   "name" : "eglCreateImage"
+  },
+  {
+   "name" : "eglCreateImageKHR"
+  },
+  {
+   "name" : "eglCreatePbufferFromClientBuffer"
+  },
+  {
+   "name" : "eglCreatePbufferSurface"
+  },
+  {
+   "name" : "eglCreatePixmapSurface"
+  },
+  {
+   "name" : "eglCreatePlatformPixmapSurface"
+  },
+  {
+   "name" : "eglCreatePlatformWindowSurface"
+  },
+  {
+   "name" : "eglCreateStreamFromFileDescriptorKHR"
+  },
+  {
+   "name" : "eglCreateStreamKHR"
+  },
+  {
+   "name" : "eglCreateStreamProducerSurfaceKHR"
+  },
+  {
+   "name" : "eglCreateSync"
+  },
+  {
+   "name" : "eglCreateSyncKHR"
+  },
+  {
+   "name" : "eglCreateWindowSurface"
+  },
+  {
+   "name" : "eglDestroyContext"
+  },
+  {
+   "name" : "eglDestroyImage"
+  },
+  {
+   "name" : "eglDestroyImageKHR"
+  },
+  {
+   "name" : "eglDestroyStreamKHR"
+  },
+  {
+   "name" : "eglDestroySurface"
+  },
+  {
+   "name" : "eglDestroySync"
+  },
+  {
+   "name" : "eglDestroySyncKHR"
+  },
+  {
+   "name" : "eglDupNativeFenceFDANDROID"
+  },
+  {
+   "name" : "eglGetConfigAttrib"
+  },
+  {
+   "name" : "eglGetConfigs"
+  },
+  {
+   "name" : "eglGetCurrentContext"
+  },
+  {
+   "name" : "eglGetCurrentDisplay"
+  },
+  {
+   "name" : "eglGetCurrentSurface"
+  },
+  {
+   "name" : "eglGetDisplay"
+  },
+  {
+   "name" : "eglGetError"
+  },
+  {
+   "name" : "eglGetNativeClientBufferANDROID"
+  },
+  {
+   "name" : "eglGetPlatformDisplay"
+  },
+  {
+   "name" : "eglGetProcAddress"
+  },
+  {
+   "name" : "eglGetStreamFileDescriptorKHR"
+  },
+  {
+   "name" : "eglGetSyncAttrib"
+  },
+  {
+   "name" : "eglGetSyncAttribKHR"
+  },
+  {
+   "name" : "eglGetSystemTimeFrequencyNV"
+  },
+  {
+   "name" : "eglGetSystemTimeNV"
+  },
+  {
+   "name" : "eglInitialize"
+  },
+  {
+   "name" : "eglLockSurfaceKHR"
+  },
+  {
+   "name" : "eglMakeCurrent"
+  },
+  {
+   "name" : "eglPresentationTimeANDROID"
+  },
+  {
+   "name" : "eglQueryAPI"
+  },
+  {
+   "name" : "eglQueryContext"
+  },
+  {
+   "name" : "eglQueryStreamKHR"
+  },
+  {
+   "name" : "eglQueryStreamTimeKHR"
+  },
+  {
+   "name" : "eglQueryStreamu64KHR"
+  },
+  {
+   "name" : "eglQueryString"
+  },
+  {
+   "name" : "eglQueryStringImplementationANDROID"
+  },
+  {
+   "name" : "eglQuerySurface"
+  },
+  {
+   "name" : "eglReleaseTexImage"
+  },
+  {
+   "name" : "eglReleaseThread"
+  },
+  {
+   "name" : "eglSetDamageRegionKHR"
+  },
+  {
+   "name" : "eglSignalSyncKHR"
+  },
+  {
+   "name" : "eglStreamAttribKHR"
+  },
+  {
+   "name" : "eglStreamConsumerAcquireKHR"
+  },
+  {
+   "name" : "eglStreamConsumerGLTextureExternalKHR"
+  },
+  {
+   "name" : "eglStreamConsumerReleaseKHR"
+  },
+  {
+   "name" : "eglSurfaceAttrib"
+  },
+  {
+   "name" : "eglSwapBuffers"
+  },
+  {
+   "name" : "eglSwapBuffersWithDamageKHR"
+  },
+  {
+   "name" : "eglSwapInterval"
+  },
+  {
+   "name" : "eglTerminate"
+  },
+  {
+   "name" : "eglUnlockSurfaceKHR"
+  },
+  {
+   "name" : "eglWaitClient"
+  },
+  {
+   "name" : "eglWaitGL"
+  },
+  {
+   "name" : "eglWaitNative"
+  },
+  {
+   "name" : "eglWaitSync"
+  },
+  {
+   "name" : "eglWaitSyncKHR"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" :
+ [
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::TaskCommand::Invalid"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "android::TaskCommand::WriteToDisk"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "android::TaskCommand::Exit"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android11TaskCommandE",
+   "name" : "android::TaskCommand",
+   "referenced_type" : "_ZTIN7android11TaskCommandE",
+   "self_type" : "_ZTIN7android11TaskCommandE",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/libs/EGL/MultifileBlobCache.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::BlobCache::InsertResult::kKeyTooBig"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "android::BlobCache::InsertResult::kValueTooBig"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "android::BlobCache::InsertResult::kCombinedTooBig"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "android::BlobCache::InsertResult::kInvalidKeySize"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "android::BlobCache::InsertResult::kInvalidValueSize"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "android::BlobCache::InsertResult::kNotEnoughSpace"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "android::BlobCache::InsertResult::kDidClean"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "android::BlobCache::InsertResult::kInserted"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android9BlobCache12InsertResultE",
+   "name" : "android::BlobCache::InsertResult",
+   "referenced_type" : "_ZTIN7android9BlobCache12InsertResultE",
+   "self_type" : "_ZTIN7android9BlobCache12InsertResultE",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/libs/EGL/BlobCache.h",
+   "underlying_type" : "_ZTIi"
+  }
+ ],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" :
+ [
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKN7android9BlobCache10CacheEntryE",
+   "name" : "const android::BlobCache::CacheEntry &",
+   "referenced_type" : "_ZTIKN7android9BlobCache10CacheEntryE",
+   "self_type" : "_ZTIRKN7android9BlobCache10CacheEntryE",
+   "size" : 8,
+   "source_file" : "frameworks/native/opengl/libs/EGL/BlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKN7android9BlobCache4BlobE",
+   "name" : "const android::BlobCache::Blob &",
+   "referenced_type" : "_ZTIKN7android9BlobCache4BlobE",
+   "self_type" : "_ZTIRKN7android9BlobCache4BlobE",
+   "size" : 8,
+   "source_file" : "frameworks/native/opengl/libs/EGL/BlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKNSt3__110shared_ptrIN7android9BlobCache4BlobEEE",
+   "name" : "const std::shared_ptr<android::BlobCache::Blob> &",
+   "referenced_type" : "_ZTIKNSt3__110shared_ptrIN7android9BlobCache4BlobEEE",
+   "self_type" : "_ZTIRKNSt3__110shared_ptrIN7android9BlobCache4BlobEEE",
+   "size" : 8,
+   "source_file" : "frameworks/native/opengl/libs/EGL/BlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char>> &",
+   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "size" : 8,
+   "source_file" : "frameworks/native/opengl/libs/EGL/FileBlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRN7android12DeferredTaskE",
+   "name" : "android::DeferredTask &",
+   "referenced_type" : "_ZTIN7android12DeferredTaskE",
+   "self_type" : "_ZTIRN7android12DeferredTaskE",
+   "size" : 8,
+   "source_file" : "frameworks/native/opengl/libs/EGL/MultifileBlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "name" : "std::basic_string<char, std::char_traits<char>, std::allocator<char>> &",
+   "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "self_type" : "_ZTIRNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "size" : 8,
+   "source_file" : "frameworks/native/opengl/libs/EGL/MultifileBlobCache.h"
+  }
+ ],
+ "pointer_types" :
+ [
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKN7android18MultifileBlobCacheE",
+   "name" : "const android::MultifileBlobCache *",
+   "referenced_type" : "_ZTIKN7android18MultifileBlobCacheE",
+   "self_type" : "_ZTIPKN7android18MultifileBlobCacheE",
+   "size" : 8,
+   "source_file" : "frameworks/native/opengl/libs/EGL/MultifileBlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKN7android9BlobCache10CacheEntryE",
+   "name" : "const android::BlobCache::CacheEntry *",
+   "referenced_type" : "_ZTIKN7android9BlobCache10CacheEntryE",
+   "self_type" : "_ZTIPKN7android9BlobCache10CacheEntryE",
+   "size" : 8,
+   "source_file" : "frameworks/native/opengl/libs/EGL/BlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKN7android9BlobCache4BlobE",
+   "name" : "const android::BlobCache::Blob *",
+   "referenced_type" : "_ZTIKN7android9BlobCache4BlobE",
+   "self_type" : "_ZTIPKN7android9BlobCache4BlobE",
+   "size" : 8,
+   "source_file" : "frameworks/native/opengl/libs/EGL/BlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKN7android9BlobCacheE",
+   "name" : "const android::BlobCache *",
+   "referenced_type" : "_ZTIKN7android9BlobCacheE",
+   "self_type" : "_ZTIPKN7android9BlobCacheE",
+   "size" : 8,
+   "source_file" : "frameworks/native/opengl/libs/EGL/BlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKh",
+   "name" : "const unsigned char *",
+   "referenced_type" : "_ZTIKh",
+   "self_type" : "_ZTIPKh",
+   "size" : 8,
+   "source_file" : "frameworks/native/opengl/libs/EGL/FileBlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKv",
+   "name" : "const void *",
+   "referenced_type" : "_ZTIKv",
+   "self_type" : "_ZTIPKv",
+   "size" : 8,
+   "source_file" : "frameworks/native/opengl/libs/EGL/BlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN7android12DeferredTaskE",
+   "name" : "android::DeferredTask *",
+   "referenced_type" : "_ZTIN7android12DeferredTaskE",
+   "self_type" : "_ZTIPN7android12DeferredTaskE",
+   "size" : 8,
+   "source_file" : "frameworks/native/opengl/libs/EGL/MultifileBlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN7android13FileBlobCacheE",
+   "name" : "android::FileBlobCache *",
+   "referenced_type" : "_ZTIN7android13FileBlobCacheE",
+   "self_type" : "_ZTIPN7android13FileBlobCacheE",
+   "size" : 8,
+   "source_file" : "frameworks/native/opengl/libs/EGL/FileBlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN7android18MultifileBlobCacheE",
+   "name" : "android::MultifileBlobCache *",
+   "referenced_type" : "_ZTIN7android18MultifileBlobCacheE",
+   "self_type" : "_ZTIPN7android18MultifileBlobCacheE",
+   "size" : 8,
+   "source_file" : "frameworks/native/opengl/libs/EGL/MultifileBlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN7android9BlobCache10CacheEntryE",
+   "name" : "android::BlobCache::CacheEntry *",
+   "referenced_type" : "_ZTIN7android9BlobCache10CacheEntryE",
+   "self_type" : "_ZTIPN7android9BlobCache10CacheEntryE",
+   "size" : 8,
+   "source_file" : "frameworks/native/opengl/libs/EGL/BlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN7android9BlobCache4BlobE",
+   "name" : "android::BlobCache::Blob *",
+   "referenced_type" : "_ZTIN7android9BlobCache4BlobE",
+   "self_type" : "_ZTIPN7android9BlobCache4BlobE",
+   "size" : 8,
+   "source_file" : "frameworks/native/opengl/libs/EGL/BlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN7android9BlobCacheE",
+   "name" : "android::BlobCache *",
+   "referenced_type" : "_ZTIN7android9BlobCacheE",
+   "self_type" : "_ZTIPN7android9BlobCacheE",
+   "size" : 8,
+   "source_file" : "frameworks/native/opengl/libs/EGL/BlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPb",
+   "name" : "bool *",
+   "referenced_type" : "_ZTIb",
+   "self_type" : "_ZTIPb",
+   "size" : 8,
+   "source_file" : "frameworks/native/opengl/libs/EGL/MultifileBlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPh",
+   "name" : "unsigned char *",
+   "referenced_type" : "_ZTIh",
+   "self_type" : "_ZTIPh",
+   "size" : 8,
+   "source_file" : "frameworks/native/opengl/libs/EGL/MultifileBlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPv",
+   "name" : "void *",
+   "referenced_type" : "_ZTIv",
+   "self_type" : "_ZTIPv",
+   "size" : 8,
+   "source_file" : "frameworks/native/opengl/libs/EGL/BlobCache.h"
+  }
+ ],
+ "qualified_types" :
+ [
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android18MultifileBlobCacheE",
+   "name" : "const android::MultifileBlobCache",
+   "referenced_type" : "_ZTIN7android18MultifileBlobCacheE",
+   "self_type" : "_ZTIKN7android18MultifileBlobCacheE",
+   "size" : 472,
+   "source_file" : "frameworks/native/opengl/libs/EGL/MultifileBlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android9BlobCache10CacheEntryE",
+   "name" : "const android::BlobCache::CacheEntry",
+   "referenced_type" : "_ZTIN7android9BlobCache10CacheEntryE",
+   "self_type" : "_ZTIKN7android9BlobCache10CacheEntryE",
+   "size" : 32,
+   "source_file" : "frameworks/native/opengl/libs/EGL/BlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android9BlobCache4BlobE",
+   "name" : "const android::BlobCache::Blob",
+   "referenced_type" : "_ZTIN7android9BlobCache4BlobE",
+   "self_type" : "_ZTIKN7android9BlobCache4BlobE",
+   "size" : 24,
+   "source_file" : "frameworks/native/opengl/libs/EGL/BlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android9BlobCacheE",
+   "name" : "const android::BlobCache",
+   "referenced_type" : "_ZTIN7android9BlobCacheE",
+   "self_type" : "_ZTIKN7android9BlobCacheE",
+   "size" : 64,
+   "source_file" : "frameworks/native/opengl/libs/EGL/BlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__110shared_ptrIN7android9BlobCache4BlobEEE",
+   "name" : "const std::shared_ptr<android::BlobCache::Blob>",
+   "referenced_type" : "_ZTINSt3__110shared_ptrIN7android9BlobCache4BlobEEE",
+   "self_type" : "_ZTIKNSt3__110shared_ptrIN7android9BlobCache4BlobEEE",
+   "size" : 16,
+   "source_file" : "frameworks/native/opengl/libs/EGL/BlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char>>",
+   "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "self_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "size" : 24,
+   "source_file" : "frameworks/native/opengl/libs/EGL/FileBlobCache.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKh",
+   "name" : "const unsigned char",
+   "referenced_type" : "_ZTIh",
+   "self_type" : "_ZTIKh",
+   "size" : 1,
+   "source_file" : "frameworks/native/opengl/libs/EGL/FileBlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKm",
+   "name" : "const unsigned long",
+   "referenced_type" : "_ZTIm",
+   "self_type" : "_ZTIKm",
+   "size" : 8,
+   "source_file" : "frameworks/native/opengl/libs/EGL/BlobCache.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKv",
+   "name" : "const void",
+   "referenced_type" : "_ZTIv",
+   "self_type" : "_ZTIKv",
+   "source_file" : "frameworks/native/opengl/libs/EGL/BlobCache.h"
+  }
+ ],
+ "record_types" :
+ [
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mCommand",
+     "referenced_type" : "_ZTIN7android11TaskCommandE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mEntryHash",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mFullPath",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mBuffer",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mBufferSize",
+     "field_offset" : 320,
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android12DeferredTaskE",
+   "name" : "android::DeferredTask",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android12DeferredTaskE",
+   "self_type" : "_ZTIN7android12DeferredTaskE",
+   "size" : 48,
+   "source_file" : "frameworks/native/opengl/libs/EGL/MultifileBlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTIN7android9BlobCacheE"
+    }
+   ],
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mFilename",
+     "field_offset" : 512,
+     "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android13FileBlobCacheE",
+   "name" : "android::FileBlobCache",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android13FileBlobCacheE",
+   "self_type" : "_ZTIN7android13FileBlobCacheE",
+   "size" : 88,
+   "source_file" : "frameworks/native/opengl/libs/EGL/FileBlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "magic",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "crc",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "keySize",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIl"
+    },
+    {
+     "field_name" : "valueSize",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIl"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android15MultifileHeaderE",
+   "name" : "android::MultifileHeader",
+   "referenced_type" : "_ZTIN7android15MultifileHeaderE",
+   "self_type" : "_ZTIN7android15MultifileHeaderE",
+   "size" : 24,
+   "source_file" : "frameworks/native/opengl/libs/EGL/MultifileBlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "entryFd",
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "entryBuffer",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "field_name" : "entrySize",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android17MultifileHotCacheE",
+   "name" : "android::MultifileHotCache",
+   "referenced_type" : "_ZTIN7android17MultifileHotCacheE",
+   "self_type" : "_ZTIN7android17MultifileHotCacheE",
+   "size" : 24,
+   "source_file" : "frameworks/native/opengl/libs/EGL/MultifileBlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mInitialized",
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mMultifileDirName",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mEntries",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTINSt3__113unordered_setIjNS_4hashIjEENS_8equal_toIjEENS_9allocatorIjEEEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mEntryStats",
+     "field_offset" : 576,
+     "referenced_type" : "_ZTINSt3__113unordered_mapIjN7android19MultifileEntryStatsENS_4hashIjEENS_8equal_toIjEENS_9allocatorINS_4pairIKjS2_EEEEEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mHotCache",
+     "field_offset" : 896,
+     "referenced_type" : "_ZTINSt3__113unordered_mapIjN7android17MultifileHotCacheENS_4hashIjEENS_8equal_toIjEENS_9allocatorINS_4pairIKjS2_EEEEEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mMaxKeySize",
+     "field_offset" : 1216,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mMaxValueSize",
+     "field_offset" : 1280,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mMaxTotalSize",
+     "field_offset" : 1344,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mTotalCacheSize",
+     "field_offset" : 1408,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mHotCacheLimit",
+     "field_offset" : 1472,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mHotCacheEntryLimit",
+     "field_offset" : 1536,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mHotCacheSize",
+     "field_offset" : 1600,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mDeferredWriteStatusMutex",
+     "field_offset" : 1664,
+     "referenced_type" : "_ZTINSt3__15mutexE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mDeferredWrites",
+     "field_offset" : 1984,
+     "referenced_type" : "_ZTINSt3__18multimapIjPhNS_4lessIjEENS_9allocatorINS_4pairIKjS1_EEEEEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mTaskThread",
+     "field_offset" : 2176,
+     "referenced_type" : "_ZTINSt3__16threadE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mTasks",
+     "field_offset" : 2240,
+     "referenced_type" : "_ZTINSt3__15queueIN7android12DeferredTaskENS_5dequeIS2_NS_9allocatorIS2_EEEEEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mWorkerMutex",
+     "field_offset" : 2624,
+     "referenced_type" : "_ZTINSt3__15mutexE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mWorkAvailableCondition",
+     "field_offset" : 2944,
+     "referenced_type" : "_ZTINSt3__118condition_variableE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mWorkerIdleCondition",
+     "field_offset" : 3328,
+     "referenced_type" : "_ZTINSt3__118condition_variableE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mWorkerThreadIdle",
+     "field_offset" : 3712,
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18MultifileBlobCacheE",
+   "name" : "android::MultifileBlobCache",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android18MultifileBlobCacheE",
+   "self_type" : "_ZTIN7android18MultifileBlobCacheE",
+   "size" : 472,
+   "source_file" : "frameworks/native/opengl/libs/EGL/MultifileBlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "valueSize",
+     "referenced_type" : "_ZTIl"
+    },
+    {
+     "field_name" : "fileSize",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "field_name" : "accessTime",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIl"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android19MultifileEntryStatsE",
+   "name" : "android::MultifileEntryStats",
+   "referenced_type" : "_ZTIN7android19MultifileEntryStatsE",
+   "self_type" : "_ZTIN7android19MultifileEntryStatsE",
+   "size" : 24,
+   "source_file" : "frameworks/native/opengl/libs/EGL/MultifileBlobCache.h"
+  },
+  {
+   "access" : "private",
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mKey",
+     "referenced_type" : "_ZTINSt3__110shared_ptrIN7android9BlobCache4BlobEEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mValue",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTINSt3__110shared_ptrIN7android9BlobCache4BlobEEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android9BlobCache10CacheEntryE",
+   "name" : "android::BlobCache::CacheEntry",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android9BlobCache10CacheEntryE",
+   "self_type" : "_ZTIN7android9BlobCache10CacheEntryE",
+   "size" : 32,
+   "source_file" : "frameworks/native/opengl/libs/EGL/BlobCache.h"
+  },
+  {
+   "access" : "private",
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "mKeySize",
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "field_name" : "mValueSize",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "field_name" : "mData",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIA_h"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android9BlobCache11EntryHeaderE",
+   "name" : "android::BlobCache::EntryHeader",
+   "referenced_type" : "_ZTIN7android9BlobCache11EntryHeaderE",
+   "self_type" : "_ZTIN7android9BlobCache11EntryHeaderE",
+   "size" : 16,
+   "source_file" : "frameworks/native/opengl/libs/EGL/BlobCache.h"
+  },
+  {
+   "access" : "private",
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mData",
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mSize",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mOwnsData",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android9BlobCache4BlobE",
+   "name" : "android::BlobCache::Blob",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android9BlobCache4BlobE",
+   "self_type" : "_ZTIN7android9BlobCache4BlobE",
+   "size" : 24,
+   "source_file" : "frameworks/native/opengl/libs/EGL/BlobCache.h"
+  },
+  {
+   "access" : "private",
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "mMagicNumber",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "mBlobCacheVersion",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "mDeviceVersion",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "mNumEntries",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "field_name" : "mBuildIdLength",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "mBuildId",
+     "field_offset" : 224,
+     "referenced_type" : "_ZTIA_c"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android9BlobCache6HeaderE",
+   "name" : "android::BlobCache::Header",
+   "referenced_type" : "_ZTIN7android9BlobCache6HeaderE",
+   "self_type" : "_ZTIN7android9BlobCache6HeaderE",
+   "size" : 32,
+   "source_file" : "frameworks/native/opengl/libs/EGL/BlobCache.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "access" : "protected",
+     "field_name" : "mMaxTotalSize",
+     "referenced_type" : "_ZTIKm"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mMaxKeySize",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIKm"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mMaxValueSize",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIKm"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mTotalSize",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mRandState",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTIA3_t"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mCacheEntries",
+     "field_offset" : 320,
+     "referenced_type" : "_ZTINSt3__16vectorIN7android9BlobCache10CacheEntryENS_9allocatorIS3_EEEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android9BlobCacheE",
+   "name" : "android::BlobCache",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android9BlobCacheE",
+   "self_type" : "_ZTIN7android9BlobCacheE",
+   "size" : 64,
+   "source_file" : "frameworks/native/opengl/libs/EGL/BlobCache.h"
+  }
+ ],
+ "rvalue_reference_types" :
+ [
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTION7android12DeferredTaskE",
+   "name" : "android::DeferredTask &&",
+   "referenced_type" : "_ZTIN7android12DeferredTaskE",
+   "self_type" : "_ZTION7android12DeferredTaskE",
+   "size" : 8,
+   "source_file" : "frameworks/native/opengl/libs/EGL/MultifileBlobCache.h"
+  }
+ ]
+}

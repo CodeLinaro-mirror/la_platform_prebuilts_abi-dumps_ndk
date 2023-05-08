@@ -1,0 +1,1028 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "name" : "AActivityManager_addUidImportanceListener"
+  },
+  {
+   "name" : "AActivityManager_getUidImportance"
+  },
+  {
+   "name" : "AActivityManager_isUidActive"
+  },
+  {
+   "name" : "AActivityManager_removeUidImportanceListener"
+  },
+  {
+   "name" : "AAssetDir_close"
+  },
+  {
+   "name" : "AAssetDir_getNextFileName"
+  },
+  {
+   "name" : "AAssetDir_rewind"
+  },
+  {
+   "name" : "AAssetManager_fromJava"
+  },
+  {
+   "name" : "AAssetManager_open"
+  },
+  {
+   "name" : "AAssetManager_openDir"
+  },
+  {
+   "name" : "AAsset_close"
+  },
+  {
+   "name" : "AAsset_getBuffer"
+  },
+  {
+   "name" : "AAsset_getLength"
+  },
+  {
+   "name" : "AAsset_getLength64"
+  },
+  {
+   "name" : "AAsset_getRemainingLength"
+  },
+  {
+   "name" : "AAsset_getRemainingLength64"
+  },
+  {
+   "name" : "AAsset_isAllocated"
+  },
+  {
+   "name" : "AAsset_openFileDescriptor"
+  },
+  {
+   "name" : "AAsset_openFileDescriptor64"
+  },
+  {
+   "name" : "AAsset_read"
+  },
+  {
+   "name" : "AAsset_seek"
+  },
+  {
+   "name" : "AAsset_seek64"
+  },
+  {
+   "name" : "AChoreographerFrameCallbackData_getFrameTimeNanos"
+  },
+  {
+   "name" : "AChoreographerFrameCallbackData_getFrameTimelineDeadlineNanos"
+  },
+  {
+   "name" : "AChoreographerFrameCallbackData_getFrameTimelineExpectedPresentationTimeNanos"
+  },
+  {
+   "name" : "AChoreographerFrameCallbackData_getFrameTimelineVsyncId"
+  },
+  {
+   "name" : "AChoreographerFrameCallbackData_getFrameTimelinesLength"
+  },
+  {
+   "name" : "AChoreographerFrameCallbackData_getPreferredFrameTimelineIndex"
+  },
+  {
+   "name" : "AChoreographer_getInstance"
+  },
+  {
+   "name" : "AChoreographer_postFrameCallback"
+  },
+  {
+   "name" : "AChoreographer_postFrameCallback64"
+  },
+  {
+   "name" : "AChoreographer_postFrameCallbackDelayed"
+  },
+  {
+   "name" : "AChoreographer_postFrameCallbackDelayed64"
+  },
+  {
+   "name" : "AChoreographer_postVsyncCallback"
+  },
+  {
+   "name" : "AChoreographer_registerRefreshRateCallback"
+  },
+  {
+   "name" : "AChoreographer_unregisterRefreshRateCallback"
+  },
+  {
+   "name" : "AConfiguration_copy"
+  },
+  {
+   "name" : "AConfiguration_delete"
+  },
+  {
+   "name" : "AConfiguration_diff"
+  },
+  {
+   "name" : "AConfiguration_fromAssetManager"
+  },
+  {
+   "name" : "AConfiguration_getCountry"
+  },
+  {
+   "name" : "AConfiguration_getDensity"
+  },
+  {
+   "name" : "AConfiguration_getGrammaticalGender"
+  },
+  {
+   "name" : "AConfiguration_getKeyboard"
+  },
+  {
+   "name" : "AConfiguration_getKeysHidden"
+  },
+  {
+   "name" : "AConfiguration_getLanguage"
+  },
+  {
+   "name" : "AConfiguration_getLayoutDirection"
+  },
+  {
+   "name" : "AConfiguration_getMcc"
+  },
+  {
+   "name" : "AConfiguration_getMnc"
+  },
+  {
+   "name" : "AConfiguration_getNavHidden"
+  },
+  {
+   "name" : "AConfiguration_getNavigation"
+  },
+  {
+   "name" : "AConfiguration_getOrientation"
+  },
+  {
+   "name" : "AConfiguration_getScreenHeightDp"
+  },
+  {
+   "name" : "AConfiguration_getScreenLong"
+  },
+  {
+   "name" : "AConfiguration_getScreenRound"
+  },
+  {
+   "name" : "AConfiguration_getScreenSize"
+  },
+  {
+   "name" : "AConfiguration_getScreenWidthDp"
+  },
+  {
+   "name" : "AConfiguration_getSdkVersion"
+  },
+  {
+   "name" : "AConfiguration_getSmallestScreenWidthDp"
+  },
+  {
+   "name" : "AConfiguration_getTouchscreen"
+  },
+  {
+   "name" : "AConfiguration_getUiModeNight"
+  },
+  {
+   "name" : "AConfiguration_getUiModeType"
+  },
+  {
+   "name" : "AConfiguration_isBetterThan"
+  },
+  {
+   "name" : "AConfiguration_match"
+  },
+  {
+   "name" : "AConfiguration_new"
+  },
+  {
+   "name" : "AConfiguration_setCountry"
+  },
+  {
+   "name" : "AConfiguration_setDensity"
+  },
+  {
+   "name" : "AConfiguration_setGrammaticalGender"
+  },
+  {
+   "name" : "AConfiguration_setKeyboard"
+  },
+  {
+   "name" : "AConfiguration_setKeysHidden"
+  },
+  {
+   "name" : "AConfiguration_setLanguage"
+  },
+  {
+   "name" : "AConfiguration_setLayoutDirection"
+  },
+  {
+   "name" : "AConfiguration_setMcc"
+  },
+  {
+   "name" : "AConfiguration_setMnc"
+  },
+  {
+   "name" : "AConfiguration_setNavHidden"
+  },
+  {
+   "name" : "AConfiguration_setNavigation"
+  },
+  {
+   "name" : "AConfiguration_setOrientation"
+  },
+  {
+   "name" : "AConfiguration_setScreenHeightDp"
+  },
+  {
+   "name" : "AConfiguration_setScreenLong"
+  },
+  {
+   "name" : "AConfiguration_setScreenSize"
+  },
+  {
+   "name" : "AConfiguration_setScreenWidthDp"
+  },
+  {
+   "name" : "AConfiguration_setSdkVersion"
+  },
+  {
+   "name" : "AConfiguration_setSmallestScreenWidthDp"
+  },
+  {
+   "name" : "AConfiguration_setTouchscreen"
+  },
+  {
+   "name" : "AConfiguration_setUiModeNight"
+  },
+  {
+   "name" : "AConfiguration_setUiModeType"
+  },
+  {
+   "name" : "AFontMatcher_create"
+  },
+  {
+   "name" : "AFontMatcher_destroy"
+  },
+  {
+   "name" : "AFontMatcher_match"
+  },
+  {
+   "name" : "AFontMatcher_setFamilyVariant"
+  },
+  {
+   "name" : "AFontMatcher_setLocales"
+  },
+  {
+   "name" : "AFontMatcher_setStyle"
+  },
+  {
+   "name" : "AFont_close"
+  },
+  {
+   "name" : "AFont_getAxisCount"
+  },
+  {
+   "name" : "AFont_getAxisTag"
+  },
+  {
+   "name" : "AFont_getAxisValue"
+  },
+  {
+   "name" : "AFont_getCollectionIndex"
+  },
+  {
+   "name" : "AFont_getFontFilePath"
+  },
+  {
+   "name" : "AFont_getLocale"
+  },
+  {
+   "name" : "AFont_getWeight"
+  },
+  {
+   "name" : "AFont_isItalic"
+  },
+  {
+   "name" : "AHardwareBuffer_acquire"
+  },
+  {
+   "name" : "AHardwareBuffer_allocate"
+  },
+  {
+   "name" : "AHardwareBuffer_describe"
+  },
+  {
+   "name" : "AHardwareBuffer_fromHardwareBuffer"
+  },
+  {
+   "name" : "AHardwareBuffer_getId"
+  },
+  {
+   "name" : "AHardwareBuffer_getNativeHandle"
+  },
+  {
+   "name" : "AHardwareBuffer_isSupported"
+  },
+  {
+   "name" : "AHardwareBuffer_lock"
+  },
+  {
+   "name" : "AHardwareBuffer_lockAndGetInfo"
+  },
+  {
+   "name" : "AHardwareBuffer_lockPlanes"
+  },
+  {
+   "name" : "AHardwareBuffer_recvHandleFromUnixSocket"
+  },
+  {
+   "name" : "AHardwareBuffer_release"
+  },
+  {
+   "name" : "AHardwareBuffer_sendHandleToUnixSocket"
+  },
+  {
+   "name" : "AHardwareBuffer_toHardwareBuffer"
+  },
+  {
+   "name" : "AHardwareBuffer_unlock"
+  },
+  {
+   "name" : "AInputEvent_getDeviceId"
+  },
+  {
+   "name" : "AInputEvent_getSource"
+  },
+  {
+   "name" : "AInputEvent_getType"
+  },
+  {
+   "name" : "AInputEvent_release"
+  },
+  {
+   "name" : "AInputQueue_attachLooper"
+  },
+  {
+   "name" : "AInputQueue_detachLooper"
+  },
+  {
+   "name" : "AInputQueue_finishEvent"
+  },
+  {
+   "name" : "AInputQueue_fromJava"
+  },
+  {
+   "name" : "AInputQueue_getEvent"
+  },
+  {
+   "name" : "AInputQueue_hasEvents"
+  },
+  {
+   "name" : "AInputQueue_preDispatchEvent"
+  },
+  {
+   "name" : "AKeyEvent_fromJava"
+  },
+  {
+   "name" : "AKeyEvent_getAction"
+  },
+  {
+   "name" : "AKeyEvent_getDownTime"
+  },
+  {
+   "name" : "AKeyEvent_getEventTime"
+  },
+  {
+   "name" : "AKeyEvent_getFlags"
+  },
+  {
+   "name" : "AKeyEvent_getKeyCode"
+  },
+  {
+   "name" : "AKeyEvent_getMetaState"
+  },
+  {
+   "name" : "AKeyEvent_getRepeatCount"
+  },
+  {
+   "name" : "AKeyEvent_getScanCode"
+  },
+  {
+   "name" : "ALooper_acquire"
+  },
+  {
+   "name" : "ALooper_addFd"
+  },
+  {
+   "name" : "ALooper_forThread"
+  },
+  {
+   "name" : "ALooper_pollAll"
+  },
+  {
+   "name" : "ALooper_pollOnce"
+  },
+  {
+   "name" : "ALooper_prepare"
+  },
+  {
+   "name" : "ALooper_release"
+  },
+  {
+   "name" : "ALooper_removeFd"
+  },
+  {
+   "name" : "ALooper_wake"
+  },
+  {
+   "name" : "AMotionEvent_fromJava"
+  },
+  {
+   "name" : "AMotionEvent_getAction"
+  },
+  {
+   "name" : "AMotionEvent_getActionButton"
+  },
+  {
+   "name" : "AMotionEvent_getAxisValue"
+  },
+  {
+   "name" : "AMotionEvent_getButtonState"
+  },
+  {
+   "name" : "AMotionEvent_getClassification"
+  },
+  {
+   "name" : "AMotionEvent_getDownTime"
+  },
+  {
+   "name" : "AMotionEvent_getEdgeFlags"
+  },
+  {
+   "name" : "AMotionEvent_getEventTime"
+  },
+  {
+   "name" : "AMotionEvent_getFlags"
+  },
+  {
+   "name" : "AMotionEvent_getHistoricalAxisValue"
+  },
+  {
+   "name" : "AMotionEvent_getHistoricalEventTime"
+  },
+  {
+   "name" : "AMotionEvent_getHistoricalOrientation"
+  },
+  {
+   "name" : "AMotionEvent_getHistoricalPressure"
+  },
+  {
+   "name" : "AMotionEvent_getHistoricalRawX"
+  },
+  {
+   "name" : "AMotionEvent_getHistoricalRawY"
+  },
+  {
+   "name" : "AMotionEvent_getHistoricalSize"
+  },
+  {
+   "name" : "AMotionEvent_getHistoricalToolMajor"
+  },
+  {
+   "name" : "AMotionEvent_getHistoricalToolMinor"
+  },
+  {
+   "name" : "AMotionEvent_getHistoricalTouchMajor"
+  },
+  {
+   "name" : "AMotionEvent_getHistoricalTouchMinor"
+  },
+  {
+   "name" : "AMotionEvent_getHistoricalX"
+  },
+  {
+   "name" : "AMotionEvent_getHistoricalY"
+  },
+  {
+   "name" : "AMotionEvent_getHistorySize"
+  },
+  {
+   "name" : "AMotionEvent_getMetaState"
+  },
+  {
+   "name" : "AMotionEvent_getOrientation"
+  },
+  {
+   "name" : "AMotionEvent_getPointerCount"
+  },
+  {
+   "name" : "AMotionEvent_getPointerId"
+  },
+  {
+   "name" : "AMotionEvent_getPressure"
+  },
+  {
+   "name" : "AMotionEvent_getRawX"
+  },
+  {
+   "name" : "AMotionEvent_getRawY"
+  },
+  {
+   "name" : "AMotionEvent_getSize"
+  },
+  {
+   "name" : "AMotionEvent_getToolMajor"
+  },
+  {
+   "name" : "AMotionEvent_getToolMinor"
+  },
+  {
+   "name" : "AMotionEvent_getToolType"
+  },
+  {
+   "name" : "AMotionEvent_getTouchMajor"
+  },
+  {
+   "name" : "AMotionEvent_getTouchMinor"
+  },
+  {
+   "name" : "AMotionEvent_getX"
+  },
+  {
+   "name" : "AMotionEvent_getXOffset"
+  },
+  {
+   "name" : "AMotionEvent_getXPrecision"
+  },
+  {
+   "name" : "AMotionEvent_getY"
+  },
+  {
+   "name" : "AMotionEvent_getYOffset"
+  },
+  {
+   "name" : "AMotionEvent_getYPrecision"
+  },
+  {
+   "name" : "ANativeActivity_finish"
+  },
+  {
+   "name" : "ANativeActivity_hideSoftInput"
+  },
+  {
+   "name" : "ANativeActivity_setWindowFlags"
+  },
+  {
+   "name" : "ANativeActivity_setWindowFormat"
+  },
+  {
+   "name" : "ANativeActivity_showSoftInput"
+  },
+  {
+   "name" : "ANativeWindow_acquire"
+  },
+  {
+   "name" : "ANativeWindow_fromSurface"
+  },
+  {
+   "name" : "ANativeWindow_getFormat"
+  },
+  {
+   "name" : "ANativeWindow_getHeight"
+  },
+  {
+   "name" : "ANativeWindow_getWidth"
+  },
+  {
+   "name" : "ANativeWindow_lock"
+  },
+  {
+   "name" : "ANativeWindow_release"
+  },
+  {
+   "name" : "ANativeWindow_setBuffersGeometry"
+  },
+  {
+   "name" : "ANativeWindow_toSurface"
+  },
+  {
+   "name" : "ANativeWindow_unlockAndPost"
+  },
+  {
+   "name" : "AObbInfo_delete"
+  },
+  {
+   "name" : "AObbInfo_getFlags"
+  },
+  {
+   "name" : "AObbInfo_getPackageName"
+  },
+  {
+   "name" : "AObbInfo_getVersion"
+  },
+  {
+   "name" : "AObbScanner_getObbInfo"
+  },
+  {
+   "name" : "APerformanceHint_closeSession"
+  },
+  {
+   "name" : "APerformanceHint_createSession"
+  },
+  {
+   "name" : "APerformanceHint_getManager"
+  },
+  {
+   "name" : "APerformanceHint_getPreferredUpdateRateNanos"
+  },
+  {
+   "name" : "APerformanceHint_getThreadIds"
+  },
+  {
+   "name" : "APerformanceHint_reportActualWorkDuration"
+  },
+  {
+   "name" : "APerformanceHint_sendHint"
+  },
+  {
+   "name" : "APerformanceHint_setIHintManagerForTesting"
+  },
+  {
+   "name" : "APerformanceHint_setThreads"
+  },
+  {
+   "name" : "APerformanceHint_updateTargetWorkDuration"
+  },
+  {
+   "name" : "APermissionManager_checkPermission"
+  },
+  {
+   "name" : "ASensorEventQueue_disableSensor"
+  },
+  {
+   "name" : "ASensorEventQueue_enableSensor"
+  },
+  {
+   "name" : "ASensorEventQueue_getEvents"
+  },
+  {
+   "name" : "ASensorEventQueue_hasEvents"
+  },
+  {
+   "name" : "ASensorEventQueue_registerSensor"
+  },
+  {
+   "name" : "ASensorEventQueue_requestAdditionalInfoEvents"
+  },
+  {
+   "name" : "ASensorEventQueue_setEventRate"
+  },
+  {
+   "name" : "ASensorManager_configureDirectReport"
+  },
+  {
+   "name" : "ASensorManager_createEventQueue"
+  },
+  {
+   "name" : "ASensorManager_createHardwareBufferDirectChannel"
+  },
+  {
+   "name" : "ASensorManager_createSharedMemoryDirectChannel"
+  },
+  {
+   "name" : "ASensorManager_destroyDirectChannel"
+  },
+  {
+   "name" : "ASensorManager_destroyEventQueue"
+  },
+  {
+   "name" : "ASensorManager_getDefaultSensor"
+  },
+  {
+   "name" : "ASensorManager_getDefaultSensorEx"
+  },
+  {
+   "name" : "ASensorManager_getDynamicSensorList"
+  },
+  {
+   "name" : "ASensorManager_getInstance"
+  },
+  {
+   "name" : "ASensorManager_getInstanceForPackage"
+  },
+  {
+   "name" : "ASensorManager_getSensorList"
+  },
+  {
+   "name" : "ASensor_getFifoMaxEventCount"
+  },
+  {
+   "name" : "ASensor_getFifoReservedEventCount"
+  },
+  {
+   "name" : "ASensor_getHandle"
+  },
+  {
+   "name" : "ASensor_getHighestDirectReportRateLevel"
+  },
+  {
+   "name" : "ASensor_getMinDelay"
+  },
+  {
+   "name" : "ASensor_getName"
+  },
+  {
+   "name" : "ASensor_getReportingMode"
+  },
+  {
+   "name" : "ASensor_getResolution"
+  },
+  {
+   "name" : "ASensor_getStringType"
+  },
+  {
+   "name" : "ASensor_getType"
+  },
+  {
+   "name" : "ASensor_getVendor"
+  },
+  {
+   "name" : "ASensor_isDirectChannelTypeSupported"
+  },
+  {
+   "name" : "ASensor_isWakeUpSensor"
+  },
+  {
+   "name" : "ASharedMemory_create"
+  },
+  {
+   "name" : "ASharedMemory_dupFromJava"
+  },
+  {
+   "name" : "ASharedMemory_getSize"
+  },
+  {
+   "name" : "ASharedMemory_setProt"
+  },
+  {
+   "name" : "AStorageManager_delete"
+  },
+  {
+   "name" : "AStorageManager_getMountedObbPath"
+  },
+  {
+   "name" : "AStorageManager_isObbMounted"
+  },
+  {
+   "name" : "AStorageManager_mountObb"
+  },
+  {
+   "name" : "AStorageManager_new"
+  },
+  {
+   "name" : "AStorageManager_unmountObb"
+  },
+  {
+   "name" : "ASurfaceControl_acquire"
+  },
+  {
+   "name" : "ASurfaceControl_create"
+  },
+  {
+   "name" : "ASurfaceControl_createFromWindow"
+  },
+  {
+   "name" : "ASurfaceControl_fromJava"
+  },
+  {
+   "name" : "ASurfaceControl_release"
+  },
+  {
+   "name" : "ASurfaceTexture_acquireANativeWindow"
+  },
+  {
+   "name" : "ASurfaceTexture_attachToGLContext"
+  },
+  {
+   "name" : "ASurfaceTexture_detachFromGLContext"
+  },
+  {
+   "name" : "ASurfaceTexture_fromSurfaceTexture"
+  },
+  {
+   "name" : "ASurfaceTexture_getTimestamp"
+  },
+  {
+   "name" : "ASurfaceTexture_getTransformMatrix"
+  },
+  {
+   "name" : "ASurfaceTexture_release"
+  },
+  {
+   "name" : "ASurfaceTexture_updateTexImage"
+  },
+  {
+   "name" : "ASurfaceTransactionStats_getASurfaceControls"
+  },
+  {
+   "name" : "ASurfaceTransactionStats_getAcquireTime"
+  },
+  {
+   "name" : "ASurfaceTransactionStats_getLatchTime"
+  },
+  {
+   "name" : "ASurfaceTransactionStats_getPresentFenceFd"
+  },
+  {
+   "name" : "ASurfaceTransactionStats_getPreviousReleaseFenceFd"
+  },
+  {
+   "name" : "ASurfaceTransactionStats_releaseASurfaceControls"
+  },
+  {
+   "name" : "ASurfaceTransaction_apply"
+  },
+  {
+   "name" : "ASurfaceTransaction_clearFrameRate"
+  },
+  {
+   "name" : "ASurfaceTransaction_create"
+  },
+  {
+   "name" : "ASurfaceTransaction_delete"
+  },
+  {
+   "name" : "ASurfaceTransaction_fromJava"
+  },
+  {
+   "name" : "ASurfaceTransaction_reparent"
+  },
+  {
+   "name" : "ASurfaceTransaction_setBuffer"
+  },
+  {
+   "name" : "ASurfaceTransaction_setBufferAlpha"
+  },
+  {
+   "name" : "ASurfaceTransaction_setBufferDataSpace"
+  },
+  {
+   "name" : "ASurfaceTransaction_setBufferTransform"
+  },
+  {
+   "name" : "ASurfaceTransaction_setBufferTransparency"
+  },
+  {
+   "name" : "ASurfaceTransaction_setColor"
+  },
+  {
+   "name" : "ASurfaceTransaction_setCrop"
+  },
+  {
+   "name" : "ASurfaceTransaction_setDamageRegion"
+  },
+  {
+   "name" : "ASurfaceTransaction_setDesiredPresentTime"
+  },
+  {
+   "name" : "ASurfaceTransaction_setEnableBackPressure"
+  },
+  {
+   "name" : "ASurfaceTransaction_setExtendedRangeBrightness"
+  },
+  {
+   "name" : "ASurfaceTransaction_setFrameRate"
+  },
+  {
+   "name" : "ASurfaceTransaction_setFrameRateWithChangeStrategy"
+  },
+  {
+   "name" : "ASurfaceTransaction_setFrameTimeline"
+  },
+  {
+   "name" : "ASurfaceTransaction_setGeometry"
+  },
+  {
+   "name" : "ASurfaceTransaction_setHdrMetadata_cta861_3"
+  },
+  {
+   "name" : "ASurfaceTransaction_setHdrMetadata_smpte2086"
+  },
+  {
+   "name" : "ASurfaceTransaction_setOnCommit"
+  },
+  {
+   "name" : "ASurfaceTransaction_setOnComplete"
+  },
+  {
+   "name" : "ASurfaceTransaction_setPosition"
+  },
+  {
+   "name" : "ASurfaceTransaction_setScale"
+  },
+  {
+   "name" : "ASurfaceTransaction_setVisibility"
+  },
+  {
+   "name" : "ASurfaceTransaction_setZOrder"
+  },
+  {
+   "name" : "ASystemFontIterator_close"
+  },
+  {
+   "name" : "ASystemFontIterator_next"
+  },
+  {
+   "name" : "ASystemFontIterator_open"
+  },
+  {
+   "name" : "AThermal_acquireManager"
+  },
+  {
+   "name" : "AThermal_getCurrentThermalStatus"
+  },
+  {
+   "name" : "AThermal_getThermalHeadroom"
+  },
+  {
+   "name" : "AThermal_registerThermalStatusListener"
+  },
+  {
+   "name" : "AThermal_releaseManager"
+  },
+  {
+   "name" : "AThermal_unregisterThermalStatusListener"
+  },
+  {
+   "name" : "ATrace_beginAsyncSection"
+  },
+  {
+   "name" : "ATrace_beginSection"
+  },
+  {
+   "name" : "ATrace_endAsyncSection"
+  },
+  {
+   "name" : "ATrace_endSection"
+  },
+  {
+   "name" : "ATrace_isEnabled"
+  },
+  {
+   "name" : "ATrace_setCounter"
+  },
+  {
+   "name" : "android_getaddrinfofornetwork"
+  },
+  {
+   "name" : "android_getprocdns"
+  },
+  {
+   "name" : "android_getprocnetwork"
+  },
+  {
+   "name" : "android_res_cancel"
+  },
+  {
+   "name" : "android_res_nquery"
+  },
+  {
+   "name" : "android_res_nresult"
+  },
+  {
+   "name" : "android_res_nsend"
+  },
+  {
+   "name" : "android_setprocdns"
+  },
+  {
+   "name" : "android_setprocnetwork"
+  },
+  {
+   "name" : "android_setsocknetwork"
+  },
+  {
+   "name" : "android_tag_socket"
+  },
+  {
+   "name" : "android_tag_socket_with_uid"
+  },
+  {
+   "name" : "android_untag_socket"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}
