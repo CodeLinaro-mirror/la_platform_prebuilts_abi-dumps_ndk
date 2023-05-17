@@ -497,6 +497,7 @@
    "source_file" : "external/skia/include/core/SkMatrix.h"
   },
   {
+   "is_of_unknown_bound" : true,
    "linker_set_key" : "_ZTIA_PFvRK8SkMatrixP7SkPointPKS2_iE",
    "name" : "void (*[])(const SkMatrix &, SkPoint *, const SkPoint *, int)",
    "referenced_type" : "_ZTIPFvRK8SkMatrixP7SkPointPKS2_iE",
@@ -504,6 +505,7 @@
    "source_file" : "external/skia/include/core/SkMatrix.h"
   },
   {
+   "is_of_unknown_bound" : true,
    "linker_set_key" : "_ZTIA_PFvRK8SkMatrixffP7SkPointE",
    "name" : "void (*[])(const SkMatrix &, float, float, SkPoint *)",
    "referenced_type" : "_ZTIPFvRK8SkMatrixffP7SkPointE",
@@ -511,6 +513,7 @@
    "source_file" : "external/skia/include/core/SkMatrix.h"
   },
   {
+   "is_of_unknown_bound" : true,
    "linker_set_key" : "_ZTIA_Pc",
    "name" : "char *[]",
    "referenced_type" : "_ZTIPc",
@@ -518,6 +521,7 @@
    "source_file" : "bionic/libc/include/time.h"
   },
   {
+   "is_of_unknown_bound" : true,
    "linker_set_key" : "_ZTIA_f",
    "name" : "float[]",
    "referenced_type" : "_ZTIf",

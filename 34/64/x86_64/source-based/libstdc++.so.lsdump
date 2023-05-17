@@ -1069,6 +1069,15 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIP13__va_list_tag",
+   "name" : "__va_list_tag *",
+   "referenced_type" : "_ZTI13__va_list_tag",
+   "self_type" : "_ZTIP13__va_list_tag",
+   "size" : 8,
+   "source_file" : "bionic/libc/async_safe/include/async_safe/log.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP13_libc_fpstate",
    "name" : "_libc_fpstate *",
    "referenced_type" : "_ZTI13_libc_fpstate",

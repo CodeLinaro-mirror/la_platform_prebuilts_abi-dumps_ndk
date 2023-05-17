@@ -443,6 +443,7 @@
    "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/k_rem_pio2.c"
   },
   {
+   "is_of_unknown_bound" : true,
    "linker_set_key" : "_ZTIA_g",
    "name" : "long double[]",
    "referenced_type" : "_ZTIg",
@@ -450,6 +451,7 @@
    "source_file" : "bionic/libm/upstream-freebsd/lib/msun/ld128/invtrig.h"
   },
   {
+   "is_of_unknown_bound" : true,
    "linker_set_key" : "_ZTIA_j",
    "name" : "unsigned int[]",
    "referenced_type" : "_ZTIj",
