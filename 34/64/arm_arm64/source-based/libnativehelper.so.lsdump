@@ -15,6 +15,16 @@
    "alignment" : 1,
    "is_integral" : true,
    "is_unsigned" : true,
+   "linker_set_key" : "_ZTIb",
+   "name" : "bool",
+   "referenced_type" : "_ZTIb",
+   "self_type" : "_ZTIb",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
    "linker_set_key" : "_ZTIc",
    "name" : "char",
    "referenced_type" : "_ZTIc",
@@ -3644,6 +3654,51 @@
  "functions" :
  [
   {
+   "function_name" : "AFileDescriptor_create",
+   "linker_set_key" : "AFileDescriptor_create",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPPK18JNINativeInterface"
+    }
+   ],
+   "return_type" : "_ZTIPv",
+   "source_file" : "libnativehelper/include/android/file_descriptor_jni.h"
+  },
+  {
+   "function_name" : "AFileDescriptor_getFd",
+   "linker_set_key" : "AFileDescriptor_getFd",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPPK18JNINativeInterface"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "libnativehelper/include/android/file_descriptor_jni.h"
+  },
+  {
+   "function_name" : "AFileDescriptor_setFd",
+   "linker_set_key" : "AFileDescriptor_setFd",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPPK18JNINativeInterface"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "libnativehelper/include/android/file_descriptor_jni.h"
+  },
+  {
    "function_name" : "JNI_CreateJavaVM",
    "linker_set_key" : "JNI_CreateJavaVM",
    "parameters" :
@@ -3690,6 +3745,123 @@
    ],
    "return_type" : "_ZTIi",
    "source_file" : "libnativehelper/include_jni/jni.h"
+  },
+  {
+   "function_name" : "JniInvocationCreate",
+   "linker_set_key" : "JniInvocationCreate",
+   "return_type" : "_ZTIP17JniInvocationImpl",
+   "source_file" : "libnativehelper/include_platform/nativehelper/JniInvocation.h"
+  },
+  {
+   "function_name" : "JniInvocationDestroy",
+   "linker_set_key" : "JniInvocationDestroy",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP17JniInvocationImpl"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "libnativehelper/include_platform/nativehelper/JniInvocation.h"
+  },
+  {
+   "function_name" : "JniInvocationGetLibrary",
+   "linker_set_key" : "JniInvocationGetLibrary",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPc"
+    }
+   ],
+   "return_type" : "_ZTIPKc",
+   "source_file" : "libnativehelper/include_platform/nativehelper/JniInvocation.h"
+  },
+  {
+   "function_name" : "JniInvocationInit",
+   "linker_set_key" : "JniInvocationInit",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP17JniInvocationImpl"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "libnativehelper/include_platform/nativehelper/JniInvocation.h"
+  },
+  {
+   "function_name" : "jniGetNioBufferBaseArray",
+   "linker_set_key" : "jniGetNioBufferBaseArray",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPPK18JNINativeInterface"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIPv",
+   "source_file" : "libnativehelper/include_platform/nativehelper/JNIPlatformHelp.h"
+  },
+  {
+   "function_name" : "jniGetNioBufferBaseArrayOffset",
+   "linker_set_key" : "jniGetNioBufferBaseArrayOffset",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPPK18JNINativeInterface"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "libnativehelper/include_platform/nativehelper/JNIPlatformHelp.h"
+  },
+  {
+   "function_name" : "jniGetNioBufferFields",
+   "linker_set_key" : "jniGetNioBufferFields",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPPK18JNINativeInterface"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIx",
+   "source_file" : "libnativehelper/include_platform/nativehelper/JNIPlatformHelp.h"
+  },
+  {
+   "function_name" : "jniGetNioBufferPointer",
+   "linker_set_key" : "jniGetNioBufferPointer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPPK18JNINativeInterface"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIx",
+   "source_file" : "libnativehelper/include_platform/nativehelper/JNIPlatformHelp.h"
   }
  ],
  "global_vars" : [],
@@ -3713,6 +3885,15 @@
    "self_type" : "_ZTIP12JavaVMOption",
    "size" : 4,
    "source_file" : "libnativehelper/include_jni/jni.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP17JniInvocationImpl",
+   "name" : "JniInvocationImpl *",
+   "referenced_type" : "_ZTI17JniInvocationImpl",
+   "self_type" : "_ZTIP17JniInvocationImpl",
+   "size" : 4,
+   "source_file" : "libnativehelper/include_platform/nativehelper/JniInvocation.h"
   },
   {
    "alignment" : 4,

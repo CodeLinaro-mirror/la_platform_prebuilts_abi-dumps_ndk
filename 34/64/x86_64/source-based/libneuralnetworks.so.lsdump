@@ -4,10 +4,10 @@
  [
   {
    "alignment" : 2,
-   "linker_set_key" : "_ZTIDh",
-   "name" : "__fp16",
-   "referenced_type" : "_ZTIDh",
-   "self_type" : "_ZTIDh",
+   "linker_set_key" : "_ZTIDF16_",
+   "name" : "_Float16",
+   "referenced_type" : "_ZTIDF16_",
+   "self_type" : "_ZTIDF16_",
    "size" : 2
   },
   {
@@ -1311,6 +1311,35 @@
    "size" : 4,
    "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworksTypes.h",
    "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::procpartition::Partition::UNKNOWN"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "android::procpartition::Partition::SYSTEM"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "android::procpartition::Partition::VENDOR"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "android::procpartition::Partition::ODM"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android13procpartition9PartitionE",
+   "name" : "android::procpartition::Partition",
+   "referenced_type" : "_ZTIN7android13procpartition9PartitionE",
+   "self_type" : "_ZTIN7android13procpartition9PartitionE",
+   "size" : 4,
+   "source_file" : "frameworks/native/cmds/lshal/libprocpartition/include/procpartition/procpartition.h",
+   "underlying_type" : "_ZTIi"
   }
  ],
  "function_types" : [],
@@ -2560,7 +2589,27 @@
   }
  ],
  "global_vars" : [],
- "lvalue_reference_types" : [],
+ "lvalue_reference_types" :
+ [
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char>> &",
+   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "size" : 8,
+   "source_file" : "frameworks/native/cmds/lshal/libprocpartition/include/procpartition/procpartition.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRNSt3__113basic_ostreamIcNS_11char_traitsIcEEEE",
+   "name" : "std::basic_ostream<char, std::char_traits<char>> &",
+   "referenced_type" : "_ZTINSt3__113basic_ostreamIcNS_11char_traitsIcEEEE",
+   "self_type" : "_ZTIRNSt3__113basic_ostreamIcNS_11char_traitsIcEEEE",
+   "size" : 8,
+   "source_file" : "frameworks/native/cmds/lshal/libprocpartition/include/procpartition/procpartition.h"
+  }
+ ],
  "pointer_types" :
  [
   {
@@ -3009,6 +3058,16 @@
    "self_type" : "_ZTIK40ANeuralNetworksSymmPerChannelQuantParams",
    "size" : 16,
    "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char>>",
+   "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "self_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "size" : 24,
+   "source_file" : "frameworks/native/cmds/lshal/libprocpartition/include/procpartition/procpartition.h"
   },
   {
    "alignment" : 8,

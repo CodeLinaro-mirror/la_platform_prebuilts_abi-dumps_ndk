@@ -182,6 +182,7 @@
    "source_file" : "external/zlib/deflate.h"
   },
   {
+   "is_of_unknown_bound" : true,
    "linker_set_key" : "_ZTIA_h",
    "name" : "unsigned char[]",
    "referenced_type" : "_ZTIh",
