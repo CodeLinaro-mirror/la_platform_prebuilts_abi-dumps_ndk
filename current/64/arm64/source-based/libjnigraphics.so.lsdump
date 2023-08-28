@@ -1008,74 +1008,78 @@
     },
     {
      "enum_field_value" : 7,
-     "name" : "kRGBA_1010102_SkColorType"
+     "name" : "kBGR_888x_SkColorType"
     },
     {
      "enum_field_value" : 8,
-     "name" : "kBGRA_1010102_SkColorType"
+     "name" : "kRGBA_1010102_SkColorType"
     },
     {
      "enum_field_value" : 9,
-     "name" : "kRGB_101010x_SkColorType"
+     "name" : "kBGRA_1010102_SkColorType"
     },
     {
      "enum_field_value" : 10,
-     "name" : "kBGR_101010x_SkColorType"
+     "name" : "kRGB_101010x_SkColorType"
     },
     {
      "enum_field_value" : 11,
-     "name" : "kBGR_101010x_XR_SkColorType"
+     "name" : "kBGR_101010x_SkColorType"
     },
     {
      "enum_field_value" : 12,
-     "name" : "kGray_8_SkColorType"
+     "name" : "kBGR_101010x_XR_SkColorType"
     },
     {
      "enum_field_value" : 13,
-     "name" : "kRGBA_F16Norm_SkColorType"
+     "name" : "kGray_8_SkColorType"
     },
     {
      "enum_field_value" : 14,
-     "name" : "kRGBA_F16_SkColorType"
+     "name" : "kRGBA_F16Norm_SkColorType"
     },
     {
      "enum_field_value" : 15,
-     "name" : "kRGBA_F32_SkColorType"
+     "name" : "kRGBA_F16_SkColorType"
     },
     {
      "enum_field_value" : 16,
-     "name" : "kR8G8_unorm_SkColorType"
+     "name" : "kRGBA_F32_SkColorType"
     },
     {
      "enum_field_value" : 17,
-     "name" : "kA16_float_SkColorType"
+     "name" : "kR8G8_unorm_SkColorType"
     },
     {
      "enum_field_value" : 18,
-     "name" : "kR16G16_float_SkColorType"
+     "name" : "kA16_float_SkColorType"
     },
     {
      "enum_field_value" : 19,
-     "name" : "kA16_unorm_SkColorType"
+     "name" : "kR16G16_float_SkColorType"
     },
     {
      "enum_field_value" : 20,
-     "name" : "kR16G16_unorm_SkColorType"
+     "name" : "kA16_unorm_SkColorType"
     },
     {
      "enum_field_value" : 21,
-     "name" : "kR16G16B16A16_unorm_SkColorType"
+     "name" : "kR16G16_unorm_SkColorType"
     },
     {
      "enum_field_value" : 22,
+     "name" : "kR16G16B16A16_unorm_SkColorType"
+    },
+    {
+     "enum_field_value" : 23,
      "name" : "kSRGBA_8888_SkColorType"
     },
     {
-     "enum_field_value" : 23,
+     "enum_field_value" : 24,
      "name" : "kR8_unorm_SkColorType"
     },
     {
-     "enum_field_value" : 23,
+     "enum_field_value" : 24,
      "name" : "kLastEnum_SkColorType"
     },
     {
@@ -2225,7 +2229,7 @@
    "referenced_type" : "_ZTI20SkEncodedImageFormat",
    "self_type" : "_ZTI20SkEncodedImageFormat",
    "size" : 4,
-   "source_file" : "external/skia/include/core/SkEncodedImageFormat.h",
+   "source_file" : "external/skia/include/codec/SkEncodedImageFormat.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -3633,103 +3637,103 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : -769226,
+     "enum_field_value" : 4294198070,
      "name" : "android::uirenderer::Color::Red_500"
     },
     {
-     "enum_field_value" : -1499549,
+     "enum_field_value" : 4293467747,
      "name" : "android::uirenderer::Color::Pink_500"
     },
     {
-     "enum_field_value" : -6543440,
+     "enum_field_value" : 4288423856,
      "name" : "android::uirenderer::Color::Purple_500"
     },
     {
-     "enum_field_value" : -10011977,
+     "enum_field_value" : 4284955319,
      "name" : "android::uirenderer::Color::DeepPurple_500"
     },
     {
-     "enum_field_value" : -12627531,
+     "enum_field_value" : 4282339765,
      "name" : "android::uirenderer::Color::Indigo_500"
     },
     {
-     "enum_field_value" : -14575885,
+     "enum_field_value" : 4280391411,
      "name" : "android::uirenderer::Color::Blue_500"
     },
     {
-     "enum_field_value" : -11549705,
+     "enum_field_value" : 4283417591,
      "name" : "android::uirenderer::Color::LightBlue_300"
     },
     {
-     "enum_field_value" : -16537100,
+     "enum_field_value" : 4278430196,
      "name" : "android::uirenderer::Color::LightBlue_500"
     },
     {
-     "enum_field_value" : -16728876,
+     "enum_field_value" : 4278238420,
      "name" : "android::uirenderer::Color::Cyan_500"
     },
     {
-     "enum_field_value" : -16743049,
+     "enum_field_value" : 4278224247,
      "name" : "android::uirenderer::Color::Teal_500"
     },
     {
-     "enum_field_value" : -16746133,
+     "enum_field_value" : 4278221163,
      "name" : "android::uirenderer::Color::Teal_700"
     },
     {
-     "enum_field_value" : -11751600,
+     "enum_field_value" : 4283215696,
      "name" : "android::uirenderer::Color::Green_500"
     },
     {
-     "enum_field_value" : -13070788,
+     "enum_field_value" : 4281896508,
      "name" : "android::uirenderer::Color::Green_700"
     },
     {
-     "enum_field_value" : -7617718,
+     "enum_field_value" : 4287349578,
      "name" : "android::uirenderer::Color::LightGreen_500"
     },
     {
-     "enum_field_value" : -9920712,
+     "enum_field_value" : 4285046584,
      "name" : "android::uirenderer::Color::LightGreen_700"
     },
     {
-     "enum_field_value" : -3285959,
+     "enum_field_value" : 4291681337,
      "name" : "android::uirenderer::Color::Lime_500"
     },
     {
-     "enum_field_value" : -5317,
+     "enum_field_value" : 4294961979,
      "name" : "android::uirenderer::Color::Yellow_500"
     },
     {
-     "enum_field_value" : -16121,
+     "enum_field_value" : 4294951175,
      "name" : "android::uirenderer::Color::Amber_500"
     },
     {
-     "enum_field_value" : -26624,
+     "enum_field_value" : 4294940672,
      "name" : "android::uirenderer::Color::Orange_500"
     },
     {
-     "enum_field_value" : -43230,
+     "enum_field_value" : 4294924066,
      "name" : "android::uirenderer::Color::DeepOrange_500"
     },
     {
-     "enum_field_value" : -8825528,
+     "enum_field_value" : 4286141768,
      "name" : "android::uirenderer::Color::Brown_500"
     },
     {
-     "enum_field_value" : -1118482,
+     "enum_field_value" : 4293848814,
      "name" : "android::uirenderer::Color::Grey_200"
     },
     {
-     "enum_field_value" : -6381922,
+     "enum_field_value" : 4288585374,
      "name" : "android::uirenderer::Color::Grey_500"
     },
     {
-     "enum_field_value" : -10395295,
+     "enum_field_value" : 4284572001,
      "name" : "android::uirenderer::Color::Grey_700"
     },
     {
-     "enum_field_value" : -10453621,
+     "enum_field_value" : 4284513675,
      "name" : "android::uirenderer::Color::BlueGrey_500"
     },
     {
@@ -3737,11 +3741,11 @@
      "name" : "android::uirenderer::Color::Transparent"
     },
     {
-     "enum_field_value" : -16777216,
+     "enum_field_value" : 4278190080,
      "name" : "android::uirenderer::Color::Black"
     },
     {
-     "enum_field_value" : -1,
+     "enum_field_value" : 4294967295,
      "name" : "android::uirenderer::Color::White"
     }
    ],
@@ -4221,6 +4225,54 @@
    "return_type" : "_ZTI14jobjectRefType",
    "self_type" : "_ZTIF14jobjectRefTypeP7_JNIEnvP8_jobjectE",
    "source_file" : "libnativehelper/include_jni/jni.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS_7OptionsEiE",
+   "name" : "SkCodec::Result (const SkImageInfo &, void *, unsigned long, const SkCodec::Options &, int)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIRK11SkImageInfo"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIRKN7SkCodec7OptionsE"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "referenced_type" : "_ZTIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS_7OptionsEiE",
+   "return_type" : "_ZTIN7SkCodec6ResultE",
+   "self_type" : "_ZTIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS_7OptionsEiE",
+   "source_file" : "external/libcxx/include/functional"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFNSt3__110unique_ptrI7SkCodecNS_14default_deleteIS1_EEEENS0_I8SkStreamNS2_IS5_EEEEPNS1_6ResultEPvE",
+   "name" : "std::unique_ptr<SkCodec> (std::unique_ptr<SkStream>, SkCodec::Result *, void *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__110unique_ptrI8SkStreamNS_14default_deleteIS1_EEEE"
+    },
+    {
+     "referenced_type" : "_ZTIPN7SkCodec6ResultE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "referenced_type" : "_ZTIFNSt3__110unique_ptrI7SkCodecNS_14default_deleteIS1_EEEENS0_I8SkStreamNS2_IS5_EEEEPNS1_6ResultEPvE",
+   "return_type" : "_ZTINSt3__110unique_ptrI7SkCodecNS_14default_deleteIS1_EEEE",
+   "self_type" : "_ZTIFNSt3__110unique_ptrI7SkCodecNS_14default_deleteIS1_EEEENS0_I8SkStreamNS2_IS5_EEEEPNS1_6ResultEPvE",
+   "source_file" : "external/skia/include/codec/SkCodec.h"
   },
   {
    "alignment" : 4,
@@ -5574,6 +5626,24 @@
    "return_type" : "_ZTIa",
    "self_type" : "_ZTIFaP7_JNIEnvP8_jobjectP9_jfieldIDE",
    "source_file" : "libnativehelper/include_jni/jni.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFbPKvmE",
+   "name" : "bool (const void *, unsigned long)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "referenced_type" : "_ZTIFbPKvmE",
+   "return_type" : "_ZTIb",
+   "self_type" : "_ZTIFbPKvmE",
+   "source_file" : "external/skia/include/codec/SkCodec.h"
   },
   {
    "alignment" : 4,
@@ -10125,7 +10195,7 @@
    "referenced_type" : "_ZTI7SkPoint",
    "self_type" : "_ZTIR7SkPoint",
    "size" : 8,
-   "source_file" : "external/skia/include/core/SkPoint.h"
+   "source_file" : "external/skia/include/private/base/SkPoint_impl.h"
   },
   {
    "alignment" : 8,
@@ -10165,6 +10235,15 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIRDn",
+   "name" : "std::nullptr_t &",
+   "referenced_type" : "_ZTIDn",
+   "self_type" : "_ZTIRDn",
+   "size" : 8,
+   "source_file" : "external/libcxx/include/type_traits"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRDs",
    "name" : "char16_t &",
    "referenced_type" : "_ZTIDs",
@@ -10197,7 +10276,7 @@
    "referenced_type" : "_ZTIK11SkImageInfo",
    "self_type" : "_ZTIRK11SkImageInfo",
    "size" : 8,
-   "source_file" : "external/libcxx/include/array"
+   "source_file" : "external/libcxx/include/type_traits"
   },
   {
    "alignment" : 8,
@@ -10305,7 +10384,7 @@
    "referenced_type" : "_ZTIK7SkPoint",
    "self_type" : "_ZTIRK7SkPoint",
    "size" : 8,
-   "source_file" : "external/skia/include/core/SkPoint.h"
+   "source_file" : "external/skia/include/private/base/SkPoint_impl.h"
   },
   {
    "alignment" : 8,
@@ -10314,7 +10393,7 @@
    "referenced_type" : "_ZTIK8SkIPoint",
    "self_type" : "_ZTIRK8SkIPoint",
    "size" : 8,
-   "source_file" : "external/skia/include/core/SkPoint.h"
+   "source_file" : "external/skia/include/private/base/SkPoint_impl.h"
   },
   {
    "alignment" : 8,
@@ -10333,15 +10412,6 @@
    "self_type" : "_ZTIRK8SkPixmap",
    "size" : 8,
    "source_file" : "external/libcxx/include/array"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRK8SkRGBA4fIL11SkAlphaType3EE",
-   "name" : "const SkRGBA4f<kUnpremul_SkAlphaType> &",
-   "referenced_type" : "_ZTIK8SkRGBA4fIL11SkAlphaType3EE",
-   "self_type" : "_ZTIRK8SkRGBA4fIL11SkAlphaType3EE",
-   "size" : 8,
-   "source_file" : "external/skia/include/core/SkPixmap.h"
   },
   {
    "alignment" : 8,
@@ -10395,7 +10465,7 @@
    "referenced_type" : "_ZTIKN7SkCodec7OptionsE",
    "self_type" : "_ZTIRKN7SkCodec7OptionsE",
    "size" : 8,
-   "source_file" : "external/skia/include/codec/SkCodec.h"
+   "source_file" : "external/libcxx/include/type_traits"
   },
   {
    "alignment" : 8,
@@ -10476,7 +10546,7 @@
    "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "size" : 8,
-   "source_file" : "external/libcxx/include/stdexcept"
+   "source_file" : "external/libcxx/include/type_traits"
   },
   {
    "alignment" : 8,
@@ -12507,7 +12577,7 @@
    "referenced_type" : "_ZTI7SkPoint",
    "self_type" : "_ZTIP7SkPoint",
    "size" : 8,
-   "source_file" : "external/skia/include/core/SkPoint.h"
+   "source_file" : "external/skia/include/private/base/SkPoint_impl.h"
   },
   {
    "alignment" : 8,
@@ -12570,7 +12640,7 @@
    "referenced_type" : "_ZTI8SkIPoint",
    "self_type" : "_ZTIP8SkIPoint",
    "size" : 8,
-   "source_file" : "external/skia/include/core/SkPoint.h"
+   "source_file" : "external/skia/include/private/base/SkPoint_impl.h"
   },
   {
    "alignment" : 8,
@@ -12673,6 +12743,15 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIPDn",
+   "name" : "std::nullptr_t *",
+   "referenced_type" : "_ZTIDn",
+   "self_type" : "_ZTIPDn",
+   "size" : 8,
+   "source_file" : "external/libcxx/include/type_traits"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPDs",
    "name" : "char16_t *",
    "referenced_type" : "_ZTIDs",
@@ -12688,6 +12767,15 @@
    "self_type" : "_ZTIPF14jobjectRefTypeP7_JNIEnvP8_jobjectE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPFNSt3__110unique_ptrI7SkCodecNS_14default_deleteIS1_EEEENS0_I8SkStreamNS2_IS5_EEEEPNS1_6ResultEPvE",
+   "name" : "std::unique_ptr<SkCodec> (*)(std::unique_ptr<SkStream>, SkCodec::Result *, void *)",
+   "referenced_type" : "_ZTIFNSt3__110unique_ptrI7SkCodecNS_14default_deleteIS1_EEEENS0_I8SkStreamNS2_IS5_EEEEPNS1_6ResultEPvE",
+   "self_type" : "_ZTIPFNSt3__110unique_ptrI7SkCodecNS_14default_deleteIS1_EEEENS0_I8SkStreamNS2_IS5_EEEEPNS1_6ResultEPvE",
+   "size" : 8,
+   "source_file" : "external/skia/include/codec/SkCodec.h"
   },
   {
    "alignment" : 8,
@@ -13264,6 +13352,15 @@
    "self_type" : "_ZTIPFaP7_JNIEnvP8_jobjectP9_jfieldIDE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPFbPKvmE",
+   "name" : "bool (*)(const void *, unsigned long)",
+   "referenced_type" : "_ZTIFbPKvmE",
+   "self_type" : "_ZTIPFbPKvmE",
+   "size" : 8,
+   "source_file" : "external/skia/include/codec/SkCodec.h"
   },
   {
    "alignment" : 8,
@@ -14802,7 +14899,7 @@
    "referenced_type" : "_ZTIK11SkImageInfo",
    "self_type" : "_ZTIPK11SkImageInfo",
    "size" : 8,
-   "source_file" : "external/skia/include/core/SkImageInfo.h"
+   "source_file" : "external/libcxx/include/type_traits"
   },
   {
    "alignment" : 8,
@@ -15126,7 +15223,7 @@
    "referenced_type" : "_ZTIK7SkPoint",
    "self_type" : "_ZTIPK7SkPoint",
    "size" : 8,
-   "source_file" : "external/skia/include/core/SkPoint.h"
+   "source_file" : "external/skia/include/private/base/SkPoint_impl.h"
   },
   {
    "alignment" : 8,
@@ -15135,7 +15232,7 @@
    "referenced_type" : "_ZTIK8SkIPoint",
    "self_type" : "_ZTIPK8SkIPoint",
    "size" : 8,
-   "source_file" : "external/skia/include/core/SkPoint.h"
+   "source_file" : "external/skia/include/private/base/SkPoint_impl.h"
   },
   {
    "alignment" : 8,
@@ -16417,6 +16514,15 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIPN7SkCodec6ResultE",
+   "name" : "SkCodec::Result *",
+   "referenced_type" : "_ZTIN7SkCodec6ResultE",
+   "self_type" : "_ZTIPN7SkCodec6ResultE",
+   "size" : 8,
+   "source_file" : "external/skia/include/codec/SkCodec.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN7SkCodec7OptionsE",
    "name" : "SkCodec::Options *",
    "referenced_type" : "_ZTIN7SkCodec7OptionsE",
@@ -16450,6 +16556,15 @@
    "self_type" : "_ZTIPN7android8graphics6BitmapE",
    "size" : 8,
    "source_file" : "frameworks/base/libs/hwui/apex/include/android/graphics/bitmap.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPNSt3__110__function6__baseIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS2_7OptionsEiEEE",
+   "name" : "std::__function::__base<Result (const SkImageInfo &, void *, unsigned long, const Options &, int)> *",
+   "referenced_type" : "_ZTINSt3__110__function6__baseIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS2_7OptionsEiEEE",
+   "self_type" : "_ZTIPNSt3__110__function6__baseIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS2_7OptionsEiEEE",
+   "size" : 8,
+   "source_file" : "external/libcxx/include/functional"
   },
   {
    "alignment" : 8,
@@ -17889,7 +18004,7 @@
    "referenced_type" : "_ZTIv",
    "self_type" : "_ZTIPv",
    "size" : 8,
-   "source_file" : "bionic/libc/include/bits/pthread_types.h"
+   "source_file" : "external/libcxx/include/type_traits"
   },
   {
    "alignment" : 8,
@@ -17987,7 +18102,7 @@
    "referenced_type" : "_ZTI11SkImageInfo",
    "self_type" : "_ZTIK11SkImageInfo",
    "size" : 24,
-   "source_file" : "external/libcxx/include/array"
+   "source_file" : "external/libcxx/include/type_traits"
   },
   {
    "alignment" : 4,
@@ -18399,7 +18514,7 @@
    "referenced_type" : "_ZTI7SkPoint",
    "self_type" : "_ZTIK7SkPoint",
    "size" : 8,
-   "source_file" : "external/skia/include/core/SkPoint.h"
+   "source_file" : "external/skia/include/private/base/SkPoint_impl.h"
   },
   {
    "alignment" : 4,
@@ -18409,7 +18524,7 @@
    "referenced_type" : "_ZTI8SkIPoint",
    "self_type" : "_ZTIK8SkIPoint",
    "size" : 8,
-   "source_file" : "external/skia/include/core/SkPoint.h"
+   "source_file" : "external/skia/include/private/base/SkPoint_impl.h"
   },
   {
    "alignment" : 4,
@@ -18519,7 +18634,7 @@
    "referenced_type" : "_ZTIN7SkCodec7OptionsE",
    "self_type" : "_ZTIKN7SkCodec7OptionsE",
    "size" : 24,
-   "source_file" : "external/skia/include/codec/SkCodec.h"
+   "source_file" : "external/libcxx/include/type_traits"
   },
   {
    "alignment" : 8,
@@ -18719,7 +18834,7 @@
    "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "self_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "size" : 24,
-   "source_file" : "external/libcxx/include/stdexcept"
+   "source_file" : "external/libcxx/include/type_traits"
   },
   {
    "alignment" : 8,
@@ -20788,6 +20903,32 @@
    "source_file" : "bionic/libc/kernel/uapi/asm-arm64/asm/sigcontext.h"
   },
   {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "head",
+     "referenced_type" : "_ZTI12_aarch64_ctx"
+    },
+    {
+     "field_name" : "nregs",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIt"
+    },
+    {
+     "field_name" : "__reserved",
+     "field_offset" : 80,
+     "referenced_type" : "_ZTIA3_t"
+    }
+   ],
+   "linker_set_key" : "_ZTI10zt_context",
+   "name" : "zt_context",
+   "referenced_type" : "_ZTI10zt_context",
+   "self_type" : "_ZTI10zt_context",
+   "size" : 16,
+   "source_file" : "bionic/libc/kernel/uapi/asm-arm64/asm/sigcontext.h"
+  },
+  {
    "alignment" : 8,
    "fields" :
    [
@@ -22160,6 +22301,27 @@
    "fields" :
    [
     {
+     "field_name" : "head",
+     "referenced_type" : "_ZTI12_aarch64_ctx"
+    },
+    {
+     "field_name" : "tpidr2",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIy"
+    }
+   ],
+   "linker_set_key" : "_ZTI14tpidr2_context",
+   "name" : "tpidr2_context",
+   "referenced_type" : "_ZTI14tpidr2_context",
+   "self_type" : "_ZTI14tpidr2_context",
+   "size" : 16,
+   "source_file" : "bionic/libc/kernel/uapi/asm-arm64/asm/sigcontext.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
      "field_name" : "name",
      "referenced_type" : "_ZTIPKc"
     },
@@ -22369,7 +22531,7 @@
    "referenced_type" : "_ZTI16SkPngChunkReader",
    "self_type" : "_ZTI16SkPngChunkReader",
    "size" : 16,
-   "source_file" : "external/skia/include/core/SkPngChunkReader.h",
+   "source_file" : "external/skia/include/codec/SkPngChunkReader.h",
    "vtable_components" :
    [
     {
@@ -25593,7 +25755,7 @@
     },
     {
      "access" : "private",
-     "field_name" : "fAndroidCodecHandlesFrameIndex",
+     "field_name" : "fUsingCallbackForHandleFrameIndex",
      "field_offset" : 9160,
      "referenced_type" : "_ZTIb"
     }
@@ -25766,7 +25928,7 @@
    "referenced_type" : "_ZTI7SkPoint",
    "self_type" : "_ZTI7SkPoint",
    "size" : 8,
-   "source_file" : "external/skia/include/core/SkPoint.h"
+   "source_file" : "external/skia/include/private/base/SkPoint_impl.h"
   },
   {
    "alignment" : 8,
@@ -25944,7 +26106,7 @@
    "referenced_type" : "_ZTI8SkIPoint",
    "self_type" : "_ZTI8SkIPoint",
    "size" : 8,
-   "source_file" : "external/skia/include/core/SkPoint.h"
+   "source_file" : "external/skia/include/private/base/SkPoint_impl.h"
   },
   {
    "alignment" : 4,
@@ -27480,6 +27642,32 @@
    "fields" :
    [
     {
+     "field_name" : "id",
+     "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+     "field_name" : "isFormat",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIPFbPKvmE"
+    },
+    {
+     "field_name" : "makeFromStream",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTIPFNSt3__110unique_ptrI7SkCodecNS_14default_deleteIS1_EEEENS0_I8SkStreamNS2_IS5_EEEEPNS1_6ResultEPvE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN8SkCodecs7DecoderE",
+   "name" : "SkCodecs::Decoder",
+   "referenced_type" : "_ZTIN8SkCodecs7DecoderE",
+   "self_type" : "_ZTIN8SkCodecs7DecoderE",
+   "size" : 40,
+   "source_file" : "external/skia/include/codec/SkCodec.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
      "field_name" : "_pad",
      "referenced_type" : "_ZTIA12_i"
     },
@@ -27568,6 +27756,34 @@
    "source_file" : "bionic/libc/include/bits/signal_types.h"
   },
   {
+   "alignment" : 16,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "__buf_",
+     "referenced_type" : "_ZTINSt3__115aligned_storageILm24ELm16EE4typeE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "__f_",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTIPNSt3__110__function6__baseIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS2_7OptionsEiEEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__110__function12__value_funcIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS2_7OptionsEiEEE",
+   "name" : "std::__function::__value_func<Result (const SkImageInfo &, void *, unsigned long, const Options &, int)>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTINSt3__110__function12__value_funcIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS2_7OptionsEiEEE",
+   "self_type" : "_ZTINSt3__110__function12__value_funcIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS2_7OptionsEiEEE",
+   "size" : 48,
+   "source_file" : "external/libcxx/include/functional",
+   "template_args" :
+   [
+    "_ZTIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS_7OptionsEiE"
+   ]
+  },
+  {
    "alignment" : 8,
    "fields" :
    [
@@ -27587,6 +27803,32 @@
    "self_type" : "_ZTINSt3__110__function16__policy_storageE",
    "size" : 16,
    "source_file" : "external/libcxx/include/functional"
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__110__function34__maybe_derive_from_unary_functionIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS2_7OptionsEiEEE",
+   "name" : "std::__function::__maybe_derive_from_unary_function<Result (const SkImageInfo &, void *, unsigned long, const Options &, int)>",
+   "referenced_type" : "_ZTINSt3__110__function34__maybe_derive_from_unary_functionIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS2_7OptionsEiEEE",
+   "self_type" : "_ZTINSt3__110__function34__maybe_derive_from_unary_functionIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS2_7OptionsEiEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/functional",
+   "template_args" :
+   [
+    "_ZTIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS_7OptionsEiE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__110__function35__maybe_derive_from_binary_functionIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS2_7OptionsEiEEE",
+   "name" : "std::__function::__maybe_derive_from_binary_function<Result (const SkImageInfo &, void *, unsigned long, const Options &, int)>",
+   "referenced_type" : "_ZTINSt3__110__function35__maybe_derive_from_binary_functionIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS2_7OptionsEiEEE",
+   "self_type" : "_ZTINSt3__110__function35__maybe_derive_from_binary_functionIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS2_7OptionsEiEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/functional",
+   "template_args" :
+   [
+    "_ZTIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS_7OptionsEiE"
+   ]
   },
   {
    "alignment" : 8,
@@ -27867,6 +28109,25 @@
    "template_args" :
    [
     "_ZTINSt3__110__lazy_notINS_7is_sameINS_12__tuple_leafILm1EiLb0EEES3_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__115__lazy_and_implILb1EJNS_13__invokable_rIvRDnJRK11SkImageInfoPvmRKN7SkCodec7OptionsEiEEEEEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__110__lazy_andINS_17integral_constantIbLb1EEEJNS_13__invokable_rIvRDnJRK11SkImageInfoPvmRKN7SkCodec7OptionsEiEEEEEE",
+   "name" : "std::__lazy_and<std::integral_constant<bool, true>, __invokable_r<void, std::nullptr_t &, const SkImageInfo &, void *, unsigned long, const Options &, int>>",
+   "referenced_type" : "_ZTINSt3__110__lazy_andINS_17integral_constantIbLb1EEEJNS_13__invokable_rIvRDnJRK11SkImageInfoPvmRKN7SkCodec7OptionsEiEEEEEE",
+   "self_type" : "_ZTINSt3__110__lazy_andINS_17integral_constantIbLb1EEEJNS_13__invokable_rIvRDnJRK11SkImageInfoPvmRKN7SkCodec7OptionsEiEEEEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTINSt3__117integral_constantIbLb1EEE"
    ]
   },
   {
@@ -28777,6 +29038,32 @@
    "template_args" :
    [
     "_ZTI7SkIRect"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__111add_pointerIDnEE",
+   "name" : "std::add_pointer<std::nullptr_t>",
+   "referenced_type" : "_ZTINSt3__111add_pointerIDnEE",
+   "self_type" : "_ZTINSt3__111add_pointerIDnEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIDn"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__111add_pointerIK11SkImageInfoEE",
+   "name" : "std::add_pointer<const SkImageInfo>",
+   "referenced_type" : "_ZTINSt3__111add_pointerIK11SkImageInfoEE",
+   "self_type" : "_ZTINSt3__111add_pointerIK11SkImageInfoEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIK11SkImageInfo"
    ]
   },
   {
@@ -30088,6 +30375,20 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__111conditionalILb0ENS_17integral_constantIbLb1EEENS1_IbLb0EEEEE",
+   "name" : "std::conditional<false, std::integral_constant<bool, true>, std::integral_constant<bool, false>>",
+   "referenced_type" : "_ZTINSt3__111conditionalILb0ENS_17integral_constantIbLb1EEENS1_IbLb0EEEEE",
+   "self_type" : "_ZTINSt3__111conditionalILb0ENS_17integral_constantIbLb1EEENS1_IbLb0EEEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTINSt3__117integral_constantIbLb1EEE",
+    "_ZTINSt3__117integral_constantIbLb0EEE"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__111conditionalILb0ENS_21__bit_const_referenceINS_8__bitsetILm0ELm0EEEEENS_15__bit_referenceIS3_Lb1EEEEE",
    "name" : "std::conditional<false, std::__bit_const_reference<std::__bitset<0, 0>>, std::__bit_reference<std::__bitset<0, 0>, true>>",
    "referenced_type" : "_ZTINSt3__111conditionalILb0ENS_21__bit_const_referenceINS_8__bitsetILm0ELm0EEEEENS_15__bit_referenceIS3_Lb1EEEEE",
@@ -30112,6 +30413,34 @@
    [
     "_ZTINSt3__14pairImmE26_CheckTupleLikeConstructorE",
     "_ZTINSt3__130__check_tuple_constructor_failE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__111conditionalILb0EPDnDnEE",
+   "name" : "std::conditional<false, std::nullptr_t *, std::nullptr_t>",
+   "referenced_type" : "_ZTINSt3__111conditionalILb0EPDnDnEE",
+   "self_type" : "_ZTINSt3__111conditionalILb0EPDnDnEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIPDn",
+    "_ZTIDn"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__111conditionalILb0EPK11SkImageInfoS1_EE",
+   "name" : "std::conditional<false, const SkImageInfo *, SkImageInfo>",
+   "referenced_type" : "_ZTINSt3__111conditionalILb0EPK11SkImageInfoS1_EE",
+   "self_type" : "_ZTINSt3__111conditionalILb0EPK11SkImageInfoS1_EE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIPK11SkImageInfo",
+    "_ZTI11SkImageInfo"
    ]
   },
   {
@@ -31376,6 +31705,20 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__111conditionalILb1ENS_17integral_constantIbLb1EEENS_14is_convertibleINS_5__natEvEEEE",
+   "name" : "std::conditional<true, std::integral_constant<bool, true>, std::is_convertible<std::__nat, void>>",
+   "referenced_type" : "_ZTINSt3__111conditionalILb1ENS_17integral_constantIbLb1EEENS_14is_convertibleINS_5__natEvEEEE",
+   "self_type" : "_ZTINSt3__111conditionalILb1ENS_17integral_constantIbLb1EEENS_14is_convertibleINS_5__natEvEEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTINSt3__117integral_constantIbLb1EEE",
+    "_ZTINSt3__114is_convertibleINS_5__natEvEE"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__111conditionalILb1ENS_21__bit_const_referenceINS_8__bitsetILm0ELm0EEEEENS_15__bit_referenceIS3_Lb1EEEEE",
    "name" : "std::conditional<true, std::__bit_const_reference<std::__bitset<0, 0>>, std::__bit_reference<std::__bitset<0, 0>, true>>",
    "referenced_type" : "_ZTINSt3__111conditionalILb1ENS_21__bit_const_referenceINS_8__bitsetILm0ELm0EEEEENS_15__bit_referenceIS3_Lb1EEEEE",
@@ -32202,6 +32545,44 @@
    "template_args" :
    [
     "_ZTI8SkStream"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__120__libcpp_is_functionIDnLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__111is_functionIDnEE",
+   "name" : "std::is_function<std::nullptr_t>",
+   "referenced_type" : "_ZTINSt3__111is_functionIDnEE",
+   "self_type" : "_ZTINSt3__111is_functionIDnEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIDn"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__120__libcpp_is_functionIK11SkImageInfoLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__111is_functionIK11SkImageInfoEE",
+   "name" : "std::is_function<const SkImageInfo>",
+   "referenced_type" : "_ZTINSt3__111is_functionIK11SkImageInfoEE",
+   "self_type" : "_ZTINSt3__111is_functionIK11SkImageInfoEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIK11SkImageInfo"
    ]
   },
   {
@@ -35816,6 +36197,44 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
+   "linker_set_key" : "_ZTINSt3__112is_referenceIDnEE",
+   "name" : "std::is_reference<std::nullptr_t>",
+   "referenced_type" : "_ZTINSt3__112is_referenceIDnEE",
+   "self_type" : "_ZTINSt3__112is_referenceIDnEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIDn"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__112is_referenceIK11SkImageInfoEE",
+   "name" : "std::is_reference<const SkImageInfo>",
+   "referenced_type" : "_ZTINSt3__112is_referenceIK11SkImageInfoEE",
+   "self_type" : "_ZTINSt3__112is_referenceIK11SkImageInfoEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIK11SkImageInfo"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
    "linker_set_key" : "_ZTINSt3__112is_referenceIKNS_17__compressed_pairIP12SkFILEStreamNS_14default_deleteIS2_EEEEEE",
    "name" : "std::is_reference<const std::__compressed_pair<SkFILEStream *, std::default_delete<SkFILEStream>>>",
    "referenced_type" : "_ZTINSt3__112is_referenceIKNS_17__compressed_pairIP12SkFILEStreamNS_14default_deleteIS2_EEEEEE",
@@ -37775,6 +38194,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__112remove_constI11SkImageInfoEE",
+   "name" : "std::remove_const<SkImageInfo>",
+   "referenced_type" : "_ZTINSt3__112remove_constI11SkImageInfoEE",
+   "self_type" : "_ZTINSt3__112remove_constI11SkImageInfoEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkImageInfo"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__112remove_constI12SkFILEStreamEE",
    "name" : "std::remove_const<SkFILEStream>",
    "referenced_type" : "_ZTINSt3__112remove_constI12SkFILEStreamEE",
@@ -37944,6 +38376,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__112remove_constIDnEE",
+   "name" : "std::remove_const<std::nullptr_t>",
+   "referenced_type" : "_ZTINSt3__112remove_constIDnEE",
+   "self_type" : "_ZTINSt3__112remove_constIDnEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIDn"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__112remove_constIDsEE",
    "name" : "std::remove_const<char16_t>",
    "referenced_type" : "_ZTINSt3__112remove_constIDsEE",
@@ -37953,6 +38398,19 @@
    "template_args" :
    [
     "_ZTIDs"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__112remove_constIK11SkImageInfoEE",
+   "name" : "std::remove_const<const SkImageInfo>",
+   "referenced_type" : "_ZTINSt3__112remove_constIK11SkImageInfoEE",
+   "self_type" : "_ZTINSt3__112remove_constIK11SkImageInfoEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIK11SkImageInfo"
    ]
   },
   {
@@ -39634,6 +40092,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__112remove_constIvEE",
+   "name" : "std::remove_const<void>",
+   "referenced_type" : "_ZTINSt3__112remove_constIvEE",
+   "self_type" : "_ZTINSt3__112remove_constIvEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIv"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__112remove_constIwEE",
    "name" : "std::remove_const<wchar_t>",
    "referenced_type" : "_ZTINSt3__112remove_constIwEE",
@@ -39797,6 +40268,20 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__113__invokable_rIvRDnJRK11SkImageInfoPvmRKN7SkCodec7OptionsEiEEE",
+   "name" : "std::__invokable_r<void, std::nullptr_t &, const SkImageInfo &, void *, unsigned long, const Options &, int>",
+   "referenced_type" : "_ZTINSt3__113__invokable_rIvRDnJRK11SkImageInfoPvmRKN7SkCodec7OptionsEiEEE",
+   "self_type" : "_ZTINSt3__113__invokable_rIvRDnJRK11SkImageInfoPvmRKN7SkCodec7OptionsEiEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIv",
+    "_ZTIRDn"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__113__make_signedIbLb1EEE",
    "name" : "std::__make_signed<bool, true>",
    "referenced_type" : "_ZTINSt3__113__make_signedIbLb1EEE",
@@ -39936,6 +40421,54 @@
    "template_args" :
    [
     "_ZTIy"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__113__promote_impIfffLb1EEE",
+   "name" : "std::__promote_imp<float, float, float, true>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTINSt3__113__promote_impIfffLb1EEE",
+   "self_type" : "_ZTINSt3__113__promote_impIfffLb1EEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIf",
+    "_ZTIf",
+    "_ZTIf"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__113__promote_impIffvLb1EEE",
+   "name" : "std::__promote_imp<float, float, void, true>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTINSt3__113__promote_impIffvLb1EEE",
+   "self_type" : "_ZTINSt3__113__promote_impIffvLb1EEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIf",
+    "_ZTIf",
+    "_ZTIv"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__113__promote_impIfvvLb1EEE",
+   "name" : "std::__promote_imp<float, void, void, true>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTINSt3__113__promote_impIfvvLb1EEE",
+   "self_type" : "_ZTINSt3__113__promote_impIfvvLb1EEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIf",
+    "_ZTIv",
+    "_ZTIv"
    ]
   },
   {
@@ -40157,6 +40690,44 @@
    "template_args" :
    [
     "_ZTI7SkIRect"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__113is_arithmeticIdEE",
+   "name" : "std::is_arithmetic<double>",
+   "referenced_type" : "_ZTINSt3__113is_arithmeticIdEE",
+   "self_type" : "_ZTINSt3__113is_arithmeticIdEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTId"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__113is_arithmeticIfEE",
+   "name" : "std::is_arithmetic<float>",
+   "referenced_type" : "_ZTINSt3__113is_arithmeticIfEE",
+   "self_type" : "_ZTINSt3__113is_arithmeticIfEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIf"
    ]
   },
   {
@@ -40454,6 +41025,32 @@
    [
     "_ZTIRm",
     "_ZTIRKm"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__113remove_extentIDnEE",
+   "name" : "std::remove_extent<std::nullptr_t>",
+   "referenced_type" : "_ZTINSt3__113remove_extentIDnEE",
+   "self_type" : "_ZTINSt3__113remove_extentIDnEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIDn"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__113remove_extentIK11SkImageInfoEE",
+   "name" : "std::remove_extent<const SkImageInfo>",
+   "referenced_type" : "_ZTINSt3__113remove_extentIK11SkImageInfoEE",
+   "self_type" : "_ZTINSt3__113remove_extentIK11SkImageInfoEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIK11SkImageInfo"
    ]
   },
   {
@@ -42064,6 +42661,44 @@
    "template_args" :
    [
     "_ZTI8SkStream"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__119__is_nullptr_t_implIDnEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__114__is_nullptr_tIDnEE",
+   "name" : "std::__is_nullptr_t<std::nullptr_t>",
+   "referenced_type" : "_ZTINSt3__114__is_nullptr_tIDnEE",
+   "self_type" : "_ZTINSt3__114__is_nullptr_tIDnEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIDn"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__119__is_nullptr_t_implI11SkImageInfoEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__114__is_nullptr_tIK11SkImageInfoEE",
+   "name" : "std::__is_nullptr_t<const SkImageInfo>",
+   "referenced_type" : "_ZTINSt3__114__is_nullptr_tIK11SkImageInfoEE",
+   "self_type" : "_ZTINSt3__114__is_nullptr_tIK11SkImageInfoEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIK11SkImageInfo"
    ]
   },
   {
@@ -43831,6 +44466,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__114__numeric_typeIfEE",
+   "name" : "std::__numeric_type<float>",
+   "referenced_type" : "_ZTINSt3__114__numeric_typeIfEE",
+   "self_type" : "_ZTINSt3__114__numeric_typeIfEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIf"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__114__numeric_typeIvEE",
    "name" : "std::__numeric_type<void>",
    "referenced_type" : "_ZTINSt3__114__numeric_typeIvEE",
@@ -44886,6 +45534,46 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
     }
    ],
+   "linker_set_key" : "_ZTINSt3__114is_convertibleIRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_17basic_string_viewIcS3_EEEE",
+   "name" : "std::is_convertible<const std::basic_string<char, std::char_traits<char>, std::allocator<char>> &, std::basic_string_view<char, std::char_traits<char>>>",
+   "referenced_type" : "_ZTINSt3__114is_convertibleIRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_17basic_string_viewIcS3_EEEE",
+   "self_type" : "_ZTINSt3__114is_convertibleIRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_17basic_string_viewIcS3_EEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+    "_ZTINSt3__117basic_string_viewIcNS_11char_traitsIcEEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__114is_convertibleIRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPKcEE",
+   "name" : "std::is_convertible<const std::basic_string<char, std::char_traits<char>, std::allocator<char>> &, const char *>",
+   "referenced_type" : "_ZTINSt3__114is_convertibleIRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPKcEE",
+   "self_type" : "_ZTINSt3__114is_convertibleIRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPKcEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+    "_ZTIPKc"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
    "linker_set_key" : "_ZTINSt3__114is_convertibleIRKPKDiNS_17basic_string_viewIDiNS_11char_traitsIDiEEEEEE",
    "name" : "std::is_convertible<const char32_t *const &, std::basic_string_view<char32_t, std::char_traits<char32_t>>>",
    "referenced_type" : "_ZTINSt3__114is_convertibleIRKPKDiNS_17basic_string_viewIDiNS_11char_traitsIDiEEEEEE",
@@ -45076,6 +45764,48 @@
    [
     "_ZTIm",
     "_ZTIm"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "access" : "private",
+     "referenced_type" : "_ZTINSt3__123__libcpp_numeric_limitsIdLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__114numeric_limitsIdEE",
+   "name" : "std::numeric_limits<double>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTINSt3__114numeric_limitsIdEE",
+   "self_type" : "_ZTINSt3__114numeric_limitsIdEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/limits",
+   "template_args" :
+   [
+    "_ZTId"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "access" : "private",
+     "referenced_type" : "_ZTINSt3__123__libcpp_numeric_limitsIfLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__114numeric_limitsIfEE",
+   "name" : "std::numeric_limits<float>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTINSt3__114numeric_limitsIfEE",
+   "self_type" : "_ZTINSt3__114numeric_limitsIfEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/limits",
+   "template_args" :
+   [
+    "_ZTIf"
    ]
   },
   {
@@ -45762,6 +46492,21 @@
   },
   {
    "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__115__lazy_and_implILb1EJNS_13__invokable_rIvRDnJRK11SkImageInfoPvmRKN7SkCodec7OptionsEiEEEEEE",
+   "name" : "std::__lazy_and_impl<true, __invokable_r<void, std::nullptr_t &, const SkImageInfo &, void *, unsigned long, const Options &, int>>",
+   "referenced_type" : "_ZTINSt3__115__lazy_and_implILb1EJNS_13__invokable_rIvRDnJRK11SkImageInfoPvmRKN7SkCodec7OptionsEiEEEEEE",
+   "self_type" : "_ZTINSt3__115__lazy_and_implILb1EJNS_13__invokable_rIvRDnJRK11SkImageInfoPvmRKN7SkCodec7OptionsEiEEEEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits"
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__115__make_unsignedIbLb1EEE",
    "name" : "std::__make_unsigned<bool, true>",
    "referenced_type" : "_ZTINSt3__115__make_unsignedIbLb1EEE",
@@ -46046,6 +46791,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__115remove_volatileI11SkImageInfoEE",
+   "name" : "std::remove_volatile<SkImageInfo>",
+   "referenced_type" : "_ZTINSt3__115remove_volatileI11SkImageInfoEE",
+   "self_type" : "_ZTINSt3__115remove_volatileI11SkImageInfoEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkImageInfo"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__115remove_volatileI12SkFILEStreamEE",
    "name" : "std::remove_volatile<SkFILEStream>",
    "referenced_type" : "_ZTINSt3__115remove_volatileI12SkFILEStreamEE",
@@ -46211,6 +46969,19 @@
    "template_args" :
    [
     "_ZTIDi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__115remove_volatileIDnEE",
+   "name" : "std::remove_volatile<std::nullptr_t>",
+   "referenced_type" : "_ZTINSt3__115remove_volatileIDnEE",
+   "self_type" : "_ZTINSt3__115remove_volatileIDnEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIDn"
    ]
   },
   {
@@ -47463,6 +48234,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__115remove_volatileIvEE",
+   "name" : "std::remove_volatile<void>",
+   "referenced_type" : "_ZTINSt3__115remove_volatileIvEE",
+   "self_type" : "_ZTINSt3__115remove_volatileIvEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIv"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__115remove_volatileIwEE",
    "name" : "std::remove_volatile<wchar_t>",
    "referenced_type" : "_ZTINSt3__115remove_volatileIwEE",
@@ -48217,6 +49001,51 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__116__lazy_enable_ifILb1ENS_9__promoteIfffEEEE",
+   "name" : "std::__lazy_enable_if<true, std::__promote<float, float, float>>",
+   "referenced_type" : "_ZTINSt3__116__lazy_enable_ifILb1ENS_9__promoteIfffEEEE",
+   "self_type" : "_ZTINSt3__116__lazy_enable_ifILb1ENS_9__promoteIfffEEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTINSt3__19__promoteIfffEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__116__lazy_enable_ifILb1ENS_9__promoteIffvEEEE",
+   "name" : "std::__lazy_enable_if<true, std::__promote<float, float, void>>",
+   "referenced_type" : "_ZTINSt3__116__lazy_enable_ifILb1ENS_9__promoteIffvEEEE",
+   "self_type" : "_ZTINSt3__116__lazy_enable_ifILb1ENS_9__promoteIffvEEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTINSt3__19__promoteIffvEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__116__libcpp_is_voidI11SkImageInfoEE",
+   "name" : "std::__libcpp_is_void<SkImageInfo>",
+   "referenced_type" : "_ZTINSt3__116__libcpp_is_voidI11SkImageInfoEE",
+   "self_type" : "_ZTINSt3__116__libcpp_is_voidI11SkImageInfoEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkImageInfo"
+   ]
+  },
+  {
+   "alignment" : 1,
    "base_specifiers" :
    [
     {
@@ -48460,6 +49289,25 @@
    "template_args" :
    [
     "_ZTIDi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__116__libcpp_is_voidIDnEE",
+   "name" : "std::__libcpp_is_void<std::nullptr_t>",
+   "referenced_type" : "_ZTINSt3__116__libcpp_is_voidIDnEE",
+   "self_type" : "_ZTINSt3__116__libcpp_is_voidIDnEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIDn"
    ]
   },
   {
@@ -50724,6 +51572,32 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__116remove_referenceIDnEE",
+   "name" : "std::remove_reference<std::nullptr_t>",
+   "referenced_type" : "_ZTINSt3__116remove_referenceIDnEE",
+   "self_type" : "_ZTINSt3__116remove_referenceIDnEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIDn"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__116remove_referenceIK11SkImageInfoEE",
+   "name" : "std::remove_reference<const SkImageInfo>",
+   "referenced_type" : "_ZTINSt3__116remove_referenceIK11SkImageInfoEE",
+   "self_type" : "_ZTINSt3__116remove_referenceIK11SkImageInfoEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIK11SkImageInfo"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__116remove_referenceIK15SkEncodedOriginEE",
    "name" : "std::remove_reference<const SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__116remove_referenceIK15SkEncodedOriginEE",
@@ -52063,6 +52937,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__116remove_referenceIPvEE",
+   "name" : "std::remove_reference<void *>",
+   "referenced_type" : "_ZTINSt3__116remove_referenceIPvEE",
+   "self_type" : "_ZTINSt3__116remove_referenceIPvEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIPv"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__116remove_referenceIR11SkColorInfoEE",
    "name" : "std::remove_reference<SkColorInfo &>",
    "referenced_type" : "_ZTINSt3__116remove_referenceIR11SkColorInfoEE",
@@ -52085,6 +52972,45 @@
    "template_args" :
    [
     "_ZTIR5sk_spI12SkColorSpaceE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__116remove_referenceIRDnEE",
+   "name" : "std::remove_reference<std::nullptr_t &>",
+   "referenced_type" : "_ZTINSt3__116remove_referenceIRDnEE",
+   "self_type" : "_ZTINSt3__116remove_referenceIRDnEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIRDn"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__116remove_referenceIRK11SkImageInfoEE",
+   "name" : "std::remove_reference<const SkImageInfo &>",
+   "referenced_type" : "_ZTINSt3__116remove_referenceIRK11SkImageInfoEE",
+   "self_type" : "_ZTINSt3__116remove_referenceIRK11SkImageInfoEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIRK11SkImageInfo"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__116remove_referenceIRKN7SkCodec7OptionsEEE",
+   "name" : "std::remove_reference<const SkCodec::Options &>",
+   "referenced_type" : "_ZTINSt3__116remove_referenceIRKN7SkCodec7OptionsEEE",
+   "self_type" : "_ZTINSt3__116remove_referenceIRKN7SkCodec7OptionsEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIRKN7SkCodec7OptionsE"
    ]
   },
   {
@@ -52917,6 +53843,19 @@
    "template_args" :
    [
     "_ZTIRm"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__116remove_referenceIiEE",
+   "name" : "std::remove_reference<int>",
+   "referenced_type" : "_ZTINSt3__116remove_referenceIiEE",
+   "self_type" : "_ZTINSt3__116remove_referenceIiEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIi"
    ]
   },
   {
@@ -54311,6 +55250,44 @@
    "base_specifiers" :
    [
     {
+     "referenced_type" : "_ZTINSt3__126__libcpp_is_floating_pointIdEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__117is_floating_pointIdEE",
+   "name" : "std::is_floating_point<double>",
+   "referenced_type" : "_ZTINSt3__117is_floating_pointIdEE",
+   "self_type" : "_ZTINSt3__117is_floating_pointIdEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTId"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__126__libcpp_is_floating_pointIfEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__117is_floating_pointIfEE",
+   "name" : "std::is_floating_point<float>",
+   "referenced_type" : "_ZTINSt3__117is_floating_pointIfEE",
+   "self_type" : "_ZTINSt3__117is_floating_pointIfEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIf"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
      "referenced_type" : "_ZTINSt3__126__libcpp_is_floating_pointIiEE"
     }
    ],
@@ -54425,6 +55402,32 @@
    "template_args" :
    [
     "_ZTI7SkIRect"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__118__add_pointer_implIDnLb1EEE",
+   "name" : "std::__add_pointer_impl<std::nullptr_t, true>",
+   "referenced_type" : "_ZTINSt3__118__add_pointer_implIDnLb1EEE",
+   "self_type" : "_ZTINSt3__118__add_pointer_implIDnLb1EEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIDn"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__118__add_pointer_implIK11SkImageInfoLb1EEE",
+   "name" : "std::__add_pointer_impl<const SkImageInfo, true>",
+   "referenced_type" : "_ZTINSt3__118__add_pointer_implIK11SkImageInfoLb1EEE",
+   "self_type" : "_ZTINSt3__118__add_pointer_implIK11SkImageInfoLb1EEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIK11SkImageInfo"
    ]
   },
   {
@@ -56325,6 +57328,44 @@
    "template_args" :
    [
     "_ZTI8SkStream"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__118__is_referenceableIDnEE",
+   "name" : "std::__is_referenceable<std::nullptr_t>",
+   "referenced_type" : "_ZTINSt3__118__is_referenceableIDnEE",
+   "self_type" : "_ZTINSt3__118__is_referenceableIDnEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIDn"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__118__is_referenceableIK11SkImageInfoEE",
+   "name" : "std::__is_referenceable<const SkImageInfo>",
+   "referenced_type" : "_ZTINSt3__118__is_referenceableIK11SkImageInfoEE",
+   "self_type" : "_ZTINSt3__118__is_referenceableIK11SkImageInfoEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIK11SkImageInfo"
    ]
   },
   {
@@ -59110,6 +60151,25 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
+   "linker_set_key" : "_ZTINSt3__119__is_nullptr_t_implI11SkImageInfoEE",
+   "name" : "std::__is_nullptr_t_impl<SkImageInfo>",
+   "referenced_type" : "_ZTINSt3__119__is_nullptr_t_implI11SkImageInfoEE",
+   "self_type" : "_ZTINSt3__119__is_nullptr_t_implI11SkImageInfoEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkImageInfo"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
    "linker_set_key" : "_ZTINSt3__119__is_nullptr_t_implI12SkFILEStreamEE",
    "name" : "std::__is_nullptr_t_impl<SkFILEStream>",
    "referenced_type" : "_ZTINSt3__119__is_nullptr_t_implI12SkFILEStreamEE",
@@ -61456,6 +62516,44 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
+   "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionIDnLb1EEE",
+   "name" : "std::__libcpp_is_function<std::nullptr_t, true>",
+   "referenced_type" : "_ZTINSt3__120__libcpp_is_functionIDnLb1EEE",
+   "self_type" : "_ZTINSt3__120__libcpp_is_functionIDnLb1EEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIDn"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionIK11SkImageInfoLb1EEE",
+   "name" : "std::__libcpp_is_function<const SkImageInfo, true>",
+   "referenced_type" : "_ZTINSt3__120__libcpp_is_functionIK11SkImageInfoLb1EEE",
+   "self_type" : "_ZTINSt3__120__libcpp_is_functionIK11SkImageInfoLb1EEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIK11SkImageInfo"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionIKNS_17__compressed_pairIP12SkFILEStreamNS_14default_deleteIS2_EEEELb1EEE",
    "name" : "std::__libcpp_is_function<const std::__compressed_pair<SkFILEStream *, std::default_delete<SkFILEStream>>, true>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_functionIKNS_17__compressed_pairIP12SkFILEStreamNS_14default_deleteIS2_EEEELb1EEE",
@@ -63674,7 +64772,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__120__make_tuple_indicesILm0ELm0EEE",
-   "name" : "std::__make_tuple_indices<0, 0>",
+   "name" : "std::__make_tuple_indices<0>",
    "referenced_type" : "_ZTINSt3__120__make_tuple_indicesILm0ELm0EEE",
    "self_type" : "_ZTINSt3__120__make_tuple_indicesILm0ELm0EEE",
    "size" : 1,
@@ -63683,7 +64781,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__120__make_tuple_indicesILm2ELm0EEE",
-   "name" : "std::__make_tuple_indices<2, 0>",
+   "name" : "std::__make_tuple_indices<2>",
    "referenced_type" : "_ZTINSt3__120__make_tuple_indicesILm2ELm0EEE",
    "self_type" : "_ZTINSt3__120__make_tuple_indicesILm2ELm0EEE",
    "size" : 1,
@@ -65366,6 +66464,25 @@
   },
   {
    "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__127__is_reference_wrapper_implI11SkImageInfoEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__122__is_reference_wrapperI11SkImageInfoEE",
+   "name" : "std::__is_reference_wrapper<SkImageInfo>",
+   "referenced_type" : "_ZTINSt3__122__is_reference_wrapperI11SkImageInfoEE",
+   "self_type" : "_ZTINSt3__122__is_reference_wrapperI11SkImageInfoEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkImageInfo"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__123__extract_key_first_tagE",
    "name" : "std::__extract_key_first_tag",
    "referenced_type" : "_ZTINSt3__123__extract_key_first_tagE",
@@ -66691,6 +67808,25 @@
    "base_specifiers" :
    [
     {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__126is_member_function_pointerIDnEE",
+   "name" : "std::is_member_function_pointer<std::nullptr_t>",
+   "referenced_type" : "_ZTINSt3__126is_member_function_pointerIDnEE",
+   "self_type" : "_ZTINSt3__126is_member_function_pointerIDnEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIDn"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
      "referenced_type" : "_ZTINSt3__121is_nothrow_assignableIRfOfEE"
     }
    ],
@@ -67170,6 +68306,38 @@
    "template_args" :
    [
     "_ZTIm"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__127__is_reference_wrapper_implI11SkImageInfoEE",
+   "name" : "std::__is_reference_wrapper_impl<SkImageInfo>",
+   "referenced_type" : "_ZTINSt3__127__is_reference_wrapper_implI11SkImageInfoEE",
+   "self_type" : "_ZTINSt3__127__is_reference_wrapper_implI11SkImageInfoEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkImageInfo"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__127__member_pointer_class_typeIDnEE",
+   "name" : "std::__member_pointer_class_type<std::nullptr_t>",
+   "referenced_type" : "_ZTINSt3__127__member_pointer_class_typeIDnEE",
+   "self_type" : "_ZTINSt3__127__member_pointer_class_typeIDnEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIDn"
    ]
   },
   {
@@ -67694,6 +68862,27 @@
    "base_specifiers" :
    [
     {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__133__can_be_converted_to_string_viewIcNS_11char_traitsIcEENS_12basic_stringIcS2_NS_9allocatorIcEEEEEE",
+   "name" : "std::__can_be_converted_to_string_view<char, std::char_traits<char>, std::basic_string<char, std::char_traits<char>, std::allocator<char>>>",
+   "referenced_type" : "_ZTINSt3__133__can_be_converted_to_string_viewIcNS_11char_traitsIcEENS_12basic_stringIcS2_NS_9allocatorIcEEEEEE",
+   "self_type" : "_ZTINSt3__133__can_be_converted_to_string_viewIcNS_11char_traitsIcEENS_12basic_stringIcS2_NS_9allocatorIcEEEEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/string",
+   "template_args" :
+   [
+    "_ZTIc",
+    "_ZTINSt3__111char_traitsIcEE",
+    "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
@@ -67885,6 +69074,25 @@
    "template_args" :
    [
     "_ZTIm"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__135__libcpp_is_member_function_pointerIDnEE",
+   "name" : "std::__libcpp_is_member_function_pointer<std::nullptr_t>",
+   "referenced_type" : "_ZTINSt3__135__libcpp_is_member_function_pointerIDnEE",
+   "self_type" : "_ZTINSt3__135__libcpp_is_member_function_pointerIDnEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIDn"
    ]
   },
   {
@@ -69301,6 +70509,32 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__15decayIRDnEE",
+   "name" : "std::decay<std::nullptr_t &>",
+   "referenced_type" : "_ZTINSt3__15decayIRDnEE",
+   "self_type" : "_ZTINSt3__15decayIRDnEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIRDn"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__15decayIRK11SkImageInfoEE",
+   "name" : "std::decay<const SkImageInfo &>",
+   "referenced_type" : "_ZTINSt3__15decayIRK11SkImageInfoEE",
+   "self_type" : "_ZTINSt3__15decayIRK11SkImageInfoEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIRK11SkImageInfo"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__15decayIRKNS_17__compressed_pairIP12SkFILEStreamNS_14default_deleteIS2_EEEEEE",
    "name" : "std::decay<const std::__compressed_pair<SkFILEStream *, std::default_delete<SkFILEStream>> &>",
    "referenced_type" : "_ZTINSt3__15decayIRKNS_17__compressed_pairIP12SkFILEStreamNS_14default_deleteIS2_EEEEEE",
@@ -70147,6 +71381,32 @@
    "template_args" :
    [
     "_ZTIv"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__17__decayIDnLb1EEE",
+   "name" : "std::__decay<std::nullptr_t, true>",
+   "referenced_type" : "_ZTINSt3__17__decayIDnLb1EEE",
+   "self_type" : "_ZTINSt3__17__decayIDnLb1EEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIDn"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__17__decayIK11SkImageInfoLb1EEE",
+   "name" : "std::__decay<const SkImageInfo, true>",
+   "referenced_type" : "_ZTINSt3__17__decayIK11SkImageInfoLb1EEE",
+   "self_type" : "_ZTINSt3__17__decayIK11SkImageInfoLb1EEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIK11SkImageInfo"
    ]
   },
   {
@@ -71474,6 +72734,26 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
+   "linker_set_key" : "_ZTINSt3__17is_sameI11SkImageInfovEE",
+   "name" : "std::is_same<SkImageInfo, void>",
+   "referenced_type" : "_ZTINSt3__17is_sameI11SkImageInfovEE",
+   "self_type" : "_ZTINSt3__17is_sameI11SkImageInfovEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkImageInfo",
+    "_ZTIv"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
    "linker_set_key" : "_ZTINSt3__17is_sameI15SkEncodedOriginNS_10in_place_tEEE",
    "name" : "std::is_same<SkEncodedOrigin, std::in_place_t>",
    "referenced_type" : "_ZTINSt3__17is_sameI15SkEncodedOriginNS_10in_place_tEEE",
@@ -71604,6 +72884,46 @@
    [
     "_ZTIDi",
     "_ZTIDi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__17is_sameIDnNS_8functionIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS2_7OptionsEiEEEEE",
+   "name" : "std::is_same<std::nullptr_t, std::function<Result (const SkImageInfo &, void *, unsigned long, const Options &, int)>>",
+   "referenced_type" : "_ZTINSt3__17is_sameIDnNS_8functionIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS2_7OptionsEiEEEEE",
+   "self_type" : "_ZTINSt3__17is_sameIDnNS_8functionIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS2_7OptionsEiEEEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIDn",
+    "_ZTINSt3__18functionIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS1_7OptionsEiEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__17is_sameIDnvEE",
+   "name" : "std::is_same<std::nullptr_t, void>",
+   "referenced_type" : "_ZTINSt3__17is_sameIDnvEE",
+   "self_type" : "_ZTINSt3__17is_sameIDnvEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIDn",
+    "_ZTIv"
    ]
   },
   {
@@ -74151,6 +75471,26 @@
    "base_specifiers" :
    [
     {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__17is_sameINS_5__natES1_EE",
+   "name" : "std::is_same<std::__nat, std::__nat>",
+   "referenced_type" : "_ZTINSt3__17is_sameINS_5__natES1_EE",
+   "self_type" : "_ZTINSt3__17is_sameINS_5__natES1_EE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTINSt3__15__natE",
+    "_ZTINSt3__15__natE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
@@ -75023,6 +76363,46 @@
    "template_args" :
    [
     "_ZTIR8SkStream",
+    "_ZTINSt3__15__twoE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__17is_sameIRDnNS_5__twoEEE",
+   "name" : "std::is_same<std::nullptr_t &, std::__two>",
+   "referenced_type" : "_ZTINSt3__17is_sameIRDnNS_5__twoEEE",
+   "self_type" : "_ZTINSt3__17is_sameIRDnNS_5__twoEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIRDn",
+    "_ZTINSt3__15__twoE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__17is_sameIRK11SkImageInfoNS_5__twoEEE",
+   "name" : "std::is_same<const SkImageInfo &, std::__two>",
+   "referenced_type" : "_ZTINSt3__17is_sameIRK11SkImageInfoNS_5__twoEEE",
+   "self_type" : "_ZTINSt3__17is_sameIRK11SkImageInfoNS_5__twoEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIRK11SkImageInfo",
     "_ZTINSt3__15__twoE"
    ]
   },
@@ -76994,6 +78374,26 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
+   "linker_set_key" : "_ZTINSt3__17is_sameIfvEE",
+   "name" : "std::is_same<float, void>",
+   "referenced_type" : "_ZTINSt3__17is_sameIfvEE",
+   "self_type" : "_ZTINSt3__17is_sameIfvEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIf",
+    "_ZTIv"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
    "linker_set_key" : "_ZTINSt3__17is_sameIhbEE",
    "name" : "std::is_same<unsigned char, bool>",
    "referenced_type" : "_ZTINSt3__17is_sameIhbEE",
@@ -77298,6 +78698,25 @@
    "base_specifiers" :
    [
     {
+     "referenced_type" : "_ZTINSt3__116__libcpp_is_voidIDnEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__17is_voidIDnEE",
+   "name" : "std::is_void<std::nullptr_t>",
+   "referenced_type" : "_ZTINSt3__17is_voidIDnEE",
+   "self_type" : "_ZTINSt3__17is_voidIDnEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIDn"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
      "referenced_type" : "_ZTINSt3__116__libcpp_is_voidIDsEE"
     }
    ],
@@ -77310,6 +78729,25 @@
    "template_args" :
    [
     "_ZTIDs"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__116__libcpp_is_voidI11SkImageInfoEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__17is_voidIK11SkImageInfoEE",
+   "name" : "std::is_void<const SkImageInfo>",
+   "referenced_type" : "_ZTINSt3__17is_voidIK11SkImageInfoEE",
+   "self_type" : "_ZTINSt3__17is_voidIK11SkImageInfoEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIK11SkImageInfo"
    ]
   },
   {
@@ -79464,6 +80902,25 @@
    "base_specifiers" :
    [
     {
+     "referenced_type" : "_ZTINSt3__116__libcpp_is_voidIvEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__17is_voidIvEE",
+   "name" : "std::is_void<void>",
+   "referenced_type" : "_ZTINSt3__17is_voidIvEE",
+   "self_type" : "_ZTINSt3__17is_voidIvEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIv"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
      "referenced_type" : "_ZTINSt3__116__libcpp_is_voidIwEE"
     }
    ],
@@ -79747,6 +81204,50 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__18functionIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS1_7OptionsEiEE10__callableIDnLb0EEE",
+   "name" : "std::function<Result (const SkImageInfo &, void *, unsigned long, const Options &, int)>::__callable<std::nullptr_t, false>",
+   "referenced_type" : "_ZTINSt3__18functionIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS1_7OptionsEiEE10__callableIDnLb0EEE",
+   "self_type" : "_ZTINSt3__18functionIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS1_7OptionsEiEE10__callableIDnLb0EEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/functional",
+   "template_args" :
+   [
+    "_ZTIDn"
+   ]
+  },
+  {
+   "alignment" : 16,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__110__function34__maybe_derive_from_unary_functionIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS2_7OptionsEiEEE"
+    },
+    {
+     "referenced_type" : "_ZTINSt3__110__function35__maybe_derive_from_binary_functionIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS2_7OptionsEiEEE"
+    }
+   ],
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "__f_",
+     "referenced_type" : "_ZTINSt3__110__function12__value_funcIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS2_7OptionsEiEEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__18functionIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS1_7OptionsEiEEE",
+   "name" : "std::function<Result (const SkImageInfo &, void *, unsigned long, const Options &, int)>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTINSt3__18functionIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS1_7OptionsEiEEE",
+   "self_type" : "_ZTINSt3__18functionIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS1_7OptionsEiEEE",
+   "size" : 48,
+   "source_file" : "external/libcxx/include/functional",
+   "template_args" :
+   [
+    "_ZTIFN7SkCodec6ResultERK11SkImageInfoPvmRKNS_7OptionsEiE"
+   ]
+  },
+  {
+   "alignment" : 1,
    "base_specifiers" :
    [
     {
@@ -79924,6 +81425,25 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
+   "linker_set_key" : "_ZTINSt3__18is_arrayIDnEE",
+   "name" : "std::is_array<std::nullptr_t>",
+   "referenced_type" : "_ZTINSt3__18is_arrayIDnEE",
+   "self_type" : "_ZTINSt3__18is_arrayIDnEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIDn"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
    "linker_set_key" : "_ZTINSt3__18is_arrayIDsEE",
    "name" : "std::is_array<char16_t>",
    "referenced_type" : "_ZTINSt3__18is_arrayIDsEE",
@@ -79933,6 +81453,25 @@
    "template_args" :
    [
     "_ZTIDs"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__18is_arrayIK11SkImageInfoEE",
+   "name" : "std::is_array<const SkImageInfo>",
+   "referenced_type" : "_ZTINSt3__18is_arrayIK11SkImageInfoEE",
+   "self_type" : "_ZTINSt3__18is_arrayIK11SkImageInfoEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIK11SkImageInfo"
    ]
   },
   {
@@ -81909,6 +83448,44 @@
    "template_args" :
    [
     "_ZTI8SkStream"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__18is_classIDnEE",
+   "name" : "std::is_class<std::nullptr_t>",
+   "referenced_type" : "_ZTINSt3__18is_classIDnEE",
+   "self_type" : "_ZTINSt3__18is_classIDnEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIDn"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__18is_classIK11SkImageInfoEE",
+   "name" : "std::is_class<const SkImageInfo>",
+   "referenced_type" : "_ZTINSt3__18is_classIK11SkImageInfoEE",
+   "self_type" : "_ZTINSt3__18is_classIK11SkImageInfoEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIK11SkImageInfo"
    ]
   },
   {
@@ -84560,6 +86137,44 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
+   "linker_set_key" : "_ZTINSt3__18is_unionIDnEE",
+   "name" : "std::is_union<std::nullptr_t>",
+   "referenced_type" : "_ZTINSt3__18is_unionIDnEE",
+   "self_type" : "_ZTINSt3__18is_unionIDnEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIDn"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__18is_unionIK11SkImageInfoEE",
+   "name" : "std::is_union<const SkImageInfo>",
+   "referenced_type" : "_ZTINSt3__18is_unionIK11SkImageInfoEE",
+   "self_type" : "_ZTINSt3__18is_unionIK11SkImageInfoEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIK11SkImageInfo"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
    "linker_set_key" : "_ZTINSt3__18is_unionIKNS_17__compressed_pairIP12SkFILEStreamNS_14default_deleteIS2_EEEEEE",
    "name" : "std::is_union<const std::__compressed_pair<SkFILEStream *, std::default_delete<SkFILEStream>>>",
    "referenced_type" : "_ZTINSt3__18is_unionIKNS_17__compressed_pairIP12SkFILEStreamNS_14default_deleteIS2_EEEEEE",
@@ -86377,6 +87992,50 @@
   },
   {
    "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__113__promote_impIfffLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__19__promoteIfffEE",
+   "name" : "std::__promote<float, float, float>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTINSt3__19__promoteIfffEE",
+   "self_type" : "_ZTINSt3__19__promoteIfffEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIf",
+    "_ZTIf",
+    "_ZTIf"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__113__promote_impIffvLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__19__promoteIffvEE",
+   "name" : "std::__promote<float, float>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTINSt3__19__promoteIffvEE",
+   "self_type" : "_ZTINSt3__19__promoteIffvEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIf",
+    "_ZTIf",
+    "_ZTIv"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__19__uncvrefI15SkEncodedOriginEE",
    "name" : "std::__uncvref<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__19__uncvrefI15SkEncodedOriginEE",
@@ -86399,6 +88058,19 @@
    "template_args" :
    [
     "_ZTI7SkIRect"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__19__uncvrefIDnEE",
+   "name" : "std::__uncvref<std::nullptr_t>",
+   "referenced_type" : "_ZTINSt3__19__uncvrefIDnEE",
+   "self_type" : "_ZTINSt3__19__uncvrefIDnEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIDn"
    ]
   },
   {
@@ -86905,6 +88577,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__19remove_cvI11SkImageInfoEE",
+   "name" : "std::remove_cv<SkImageInfo>",
+   "referenced_type" : "_ZTINSt3__19remove_cvI11SkImageInfoEE",
+   "self_type" : "_ZTINSt3__19remove_cvI11SkImageInfoEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkImageInfo"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__19remove_cvI12SkFILEStreamEE",
    "name" : "std::remove_cv<SkFILEStream>",
    "referenced_type" : "_ZTINSt3__19remove_cvI12SkFILEStreamEE",
@@ -87074,6 +88759,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__19remove_cvIDnEE",
+   "name" : "std::remove_cv<std::nullptr_t>",
+   "referenced_type" : "_ZTINSt3__19remove_cvIDnEE",
+   "self_type" : "_ZTINSt3__19remove_cvIDnEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIDn"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__19remove_cvIDsEE",
    "name" : "std::remove_cv<char16_t>",
    "referenced_type" : "_ZTINSt3__19remove_cvIDsEE",
@@ -87083,6 +88781,19 @@
    "template_args" :
    [
     "_ZTIDs"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__19remove_cvIK11SkImageInfoEE",
+   "name" : "std::remove_cv<const SkImageInfo>",
+   "referenced_type" : "_ZTINSt3__19remove_cvIK11SkImageInfoEE",
+   "self_type" : "_ZTINSt3__19remove_cvIK11SkImageInfoEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIK11SkImageInfo"
    ]
   },
   {
@@ -88760,6 +90471,19 @@
    "template_args" :
    [
     "_ZTIm"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__19remove_cvIvEE",
+   "name" : "std::remove_cv<void>",
+   "referenced_type" : "_ZTINSt3__19remove_cvIvEE",
+   "self_type" : "_ZTINSt3__19remove_cvIvEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIv"
    ]
   },
   {

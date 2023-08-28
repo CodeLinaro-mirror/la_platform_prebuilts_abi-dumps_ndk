@@ -2222,6 +2222,9 @@
    "name" : "localtime_r"
   },
   {
+   "name" : "localtime_rz"
+  },
+  {
    "name" : "lockf"
   },
   {
@@ -2314,6 +2317,9 @@
   },
   {
    "name" : "mbsrtowcs"
+  },
+  {
+   "name" : "mbsrtowcs_l"
   },
   {
    "name" : "mbstowcs"
@@ -2410,6 +2416,9 @@
   },
   {
    "name" : "mktime"
+  },
+  {
+   "name" : "mktime_z"
   },
   {
    "name" : "mlock"
@@ -4128,6 +4137,12 @@
    "name" : "twalk"
   },
   {
+   "name" : "tzalloc"
+  },
+  {
+   "name" : "tzfree"
+  },
+  {
    "name" : "tzset"
   },
   {
@@ -4349,6 +4364,9 @@
   },
   {
    "name" : "wcsrtombs"
+  },
+  {
+   "name" : "wcsrtombs_l"
   },
   {
    "name" : "wcsspn"
