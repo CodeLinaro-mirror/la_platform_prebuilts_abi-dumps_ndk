@@ -24,7 +24,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIA100_c",
    "size" : 100,
-   "source_file" : "hardware/libhardware/include/hardware/power.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/power.h"
   },
   {
    "alignment" : 1,
@@ -42,7 +42,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIA12_j",
    "size" : 48,
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -168,7 +168,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIA25_j",
    "size" : 100,
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 2,
@@ -1541,7 +1541,7 @@
    "referenced_type" : "_ZTI12power_hint_t",
    "self_type" : "_ZTI12power_hint_t",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/power.h",
+   "source_file" : "hardware/libhardware/include_all/hardware/power.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -7265,6 +7265,39 @@
    "enum_fields" :
    [
     {
+     "enum_field_value" : 0,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_CATEGORY_DEFAULT"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_CATEGORY_NO_PREFERENCE"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_CATEGORY_LOW"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_CATEGORY_NORMAL"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_CATEGORY_HIGH"
+    }
+   ],
+   "linker_set_key" : "_ZTI42$ANATIVEWINDOW_FRAME_RATE_CATEGORY_DEFAULT",
+   "name" : "(unnamed)",
+   "referenced_type" : "_ZTI42$ANATIVEWINDOW_FRAME_RATE_CATEGORY_DEFAULT",
+   "self_type" : "_ZTI42$ANATIVEWINDOW_FRAME_RATE_CATEGORY_DEFAULT",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
      "enum_field_value" : 1,
      "name" : "FCC_1"
     },
@@ -7299,6 +7332,27 @@
    "self_type" : "_ZTI6$FCC_1",
    "size" : 4,
    "source_file" : "system/media/audio/include/system/audio.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_SELF"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_OVERRIDE_CHILDREN"
+    }
+   ],
+   "linker_set_key" : "_ZTI62$ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_OVERRIDE_CHILDREN",
+   "name" : "(unnamed)",
+   "referenced_type" : "_ZTI62$ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_OVERRIDE_CHILDREN",
+   "self_type" : "_ZTI62$ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_OVERRIDE_CHILDREN",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -7372,7 +7426,7 @@
    "referenced_type" : "_ZTI9feature_t",
    "self_type" : "_ZTI9feature_t",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/power.h",
+   "source_file" : "hardware/libhardware/include_all/hardware/power.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -12232,6 +12286,10 @@
     {
      "enum_field_value" : 73,
      "name" : "android::AudioFlingerServerAdapter::Delegate::TransactionCode::GET_AUDIO_POLICY_CONFIG"
+    },
+    {
+     "enum_field_value" : 74,
+     "name" : "android::AudioFlingerServerAdapter::Delegate::TransactionCode::GET_AUDIO_MIX_PORT"
     }
    ],
    "linker_set_key" : "_ZTIN7android25AudioFlingerServerAdapter8Delegate15TransactionCodeE",
@@ -24131,7 +24189,7 @@
    "referenced_type" : "_ZTIFiP11hw_device_tE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiP11hw_device_tE",
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -24146,7 +24204,7 @@
    "referenced_type" : "_ZTIFiP12power_moduleE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiP12power_moduleE",
-   "source_file" : "hardware/libhardware/include/hardware/power.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/power.h"
   },
   {
    "alignment" : 4,
@@ -24164,7 +24222,7 @@
    "referenced_type" : "_ZTIFiP12power_moduleP34power_state_platform_sleep_state_tE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiP12power_moduleP34power_state_platform_sleep_state_tE",
-   "source_file" : "hardware/libhardware/include/hardware/power.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/power.h"
   },
   {
    "alignment" : 4,
@@ -24182,7 +24240,7 @@
    "referenced_type" : "_ZTIFiP12power_modulePjE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiP12power_modulePjE",
-   "source_file" : "hardware/libhardware/include/hardware/power.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/power.h"
   },
   {
    "alignment" : 4,
@@ -24842,7 +24900,7 @@
    "referenced_type" : "_ZTIFiPK11hw_module_tPKcPP11hw_device_tE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiPK11hw_module_tPKcPP11hw_device_tE",
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -34088,7 +34146,7 @@
    "referenced_type" : "_ZTIFvP12power_module12power_hint_tPvE",
    "return_type" : "_ZTIv",
    "self_type" : "_ZTIFvP12power_module12power_hint_tPvE",
-   "source_file" : "hardware/libhardware/include/hardware/power.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/power.h"
   },
   {
    "alignment" : 4,
@@ -34109,7 +34167,7 @@
    "referenced_type" : "_ZTIFvP12power_module9feature_tiE",
    "return_type" : "_ZTIv",
    "self_type" : "_ZTIFvP12power_module9feature_tiE",
-   "source_file" : "hardware/libhardware/include/hardware/power.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/power.h"
   },
   {
    "alignment" : 4,
@@ -34124,7 +34182,7 @@
    "referenced_type" : "_ZTIFvP12power_moduleE",
    "return_type" : "_ZTIv",
    "self_type" : "_ZTIFvP12power_moduleE",
-   "source_file" : "hardware/libhardware/include/hardware/power.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/power.h"
   },
   {
    "alignment" : 4,
@@ -34142,7 +34200,7 @@
    "referenced_type" : "_ZTIFvP12power_moduleiE",
    "return_type" : "_ZTIv",
    "self_type" : "_ZTIFvP12power_moduleiE",
-   "source_file" : "hardware/libhardware/include/hardware/power.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/power.h"
   },
   {
    "alignment" : 4,
@@ -38001,6 +38059,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN7android5media10ISoundDose19AudioDeviceCategoryE",
+   "name" : "const android::media::ISoundDose::AudioDeviceCategory &",
+   "referenced_type" : "_ZTIKN7android5media10ISoundDose19AudioDeviceCategoryE",
+   "self_type" : "_ZTIRKN7android5media10ISoundDose19AudioDeviceCategoryE",
+   "size" : 4,
+   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/audioflinger-aidl-cpp-source/gen/include/android/media/ISoundDose.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRKN7android5media11AudioClientE",
    "name" : "const android::media::AudioClient &",
    "referenced_type" : "_ZTIKN7android5media11AudioClientE",
@@ -39450,6 +39517,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRKNSt3__16vectorIN7android5media10ISoundDose19AudioDeviceCategoryENS_9allocatorIS4_EEEE",
+   "name" : "const std::vector<android::media::ISoundDose::AudioDeviceCategory, std::allocator<android::media::ISoundDose::AudioDeviceCategory>> &",
+   "referenced_type" : "_ZTIKNSt3__16vectorIN7android5media10ISoundDose19AudioDeviceCategoryENS_9allocatorIS4_EEEE",
+   "self_type" : "_ZTIRKNSt3__16vectorIN7android5media10ISoundDose19AudioDeviceCategoryENS_9allocatorIS4_EEEE",
+   "size" : 4,
+   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/audioflinger-aidl-cpp-source/gen/include/android/media/ISoundDose.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRKNSt3__16vectorIN7android5media12AudioGainSysENS_9allocatorIS3_EEEE",
    "name" : "const std::vector<android::media::AudioGainSys, std::allocator<android::media::AudioGainSys>> &",
    "referenced_type" : "_ZTIKNSt3__16vectorIN7android5media12AudioGainSysENS_9allocatorIS3_EEEE",
@@ -40557,24 +40633,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIRPKv",
-   "name" : "const void *&",
-   "referenced_type" : "_ZTIPKv",
-   "self_type" : "_ZTIRPKv",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRPv",
-   "name" : "void *&",
-   "referenced_type" : "_ZTIPv",
-   "self_type" : "_ZTIRPv",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIRd",
    "name" : "double &",
    "referenced_type" : "_ZTId",
@@ -40599,15 +40657,6 @@
    "self_type" : "_ZTIRi",
    "size" : 4,
    "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRj",
-   "name" : "unsigned int &",
-   "referenced_type" : "_ZTIj",
-   "self_type" : "_ZTIRj",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
   },
   {
    "alignment" : 4,
@@ -40700,7 +40749,7 @@
    "referenced_type" : "_ZTI11hw_device_t",
    "self_type" : "_ZTIP11hw_device_t",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -40709,7 +40758,7 @@
    "referenced_type" : "_ZTI11hw_module_t",
    "self_type" : "_ZTIP11hw_module_t",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -40754,7 +40803,7 @@
    "referenced_type" : "_ZTI12power_module",
    "self_type" : "_ZTIP12power_module",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/power.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/power.h"
   },
   {
    "alignment" : 4,
@@ -41015,7 +41064,7 @@
    "referenced_type" : "_ZTI19hw_module_methods_t",
    "self_type" : "_ZTIP19hw_module_methods_t",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -41024,7 +41073,7 @@
    "referenced_type" : "_ZTI19power_state_voter_t",
    "self_type" : "_ZTIP19power_state_voter_t",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/power.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/power.h"
   },
   {
    "alignment" : 4,
@@ -41231,7 +41280,7 @@
    "referenced_type" : "_ZTI34power_state_platform_sleep_state_t",
    "self_type" : "_ZTIP34power_state_platform_sleep_state_t",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/power.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/power.h"
   },
   {
    "alignment" : 4,
@@ -42284,7 +42333,7 @@
    "referenced_type" : "_ZTIFiP11hw_device_tE",
    "self_type" : "_ZTIPFiP11hw_device_tE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -42293,7 +42342,7 @@
    "referenced_type" : "_ZTIFiP12power_moduleE",
    "self_type" : "_ZTIPFiP12power_moduleE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/power.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/power.h"
   },
   {
    "alignment" : 4,
@@ -42302,7 +42351,7 @@
    "referenced_type" : "_ZTIFiP12power_moduleP34power_state_platform_sleep_state_tE",
    "self_type" : "_ZTIPFiP12power_moduleP34power_state_platform_sleep_state_tE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/power.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/power.h"
   },
   {
    "alignment" : 4,
@@ -42311,7 +42360,7 @@
    "referenced_type" : "_ZTIFiP12power_modulePjE",
    "self_type" : "_ZTIPFiP12power_modulePjE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/power.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/power.h"
   },
   {
    "alignment" : 4,
@@ -42599,7 +42648,7 @@
    "referenced_type" : "_ZTIFiPK11hw_module_tPKcPP11hw_device_tE",
    "self_type" : "_ZTIPFiPK11hw_module_tPKcPP11hw_device_tE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -46550,7 +46599,7 @@
    "referenced_type" : "_ZTIFvP12power_module12power_hint_tPvE",
    "self_type" : "_ZTIPFvP12power_module12power_hint_tPvE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/power.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/power.h"
   },
   {
    "alignment" : 4,
@@ -46559,7 +46608,7 @@
    "referenced_type" : "_ZTIFvP12power_module9feature_tiE",
    "self_type" : "_ZTIPFvP12power_module9feature_tiE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/power.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/power.h"
   },
   {
    "alignment" : 4,
@@ -46568,7 +46617,7 @@
    "referenced_type" : "_ZTIFvP12power_moduleE",
    "self_type" : "_ZTIPFvP12power_moduleE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/power.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/power.h"
   },
   {
    "alignment" : 4,
@@ -46577,7 +46626,7 @@
    "referenced_type" : "_ZTIFvP12power_moduleiE",
    "self_type" : "_ZTIPFvP12power_moduleiE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/power.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/power.h"
   },
   {
    "alignment" : 4,
@@ -47639,7 +47688,7 @@
    "referenced_type" : "_ZTIK11hw_module_t",
    "self_type" : "_ZTIPK11hw_module_t",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -49368,6 +49417,15 @@
    "self_type" : "_ZTIPKN7android5media10AudioRouteE",
    "size" : 4,
    "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/audioclient-types-aidl-cpp-source/gen/include/android/media/AudioRoute.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android5media10ISoundDose19AudioDeviceCategoryE",
+   "name" : "const android::media::ISoundDose::AudioDeviceCategory *",
+   "referenced_type" : "_ZTIKN7android5media10ISoundDose19AudioDeviceCategoryE",
+   "self_type" : "_ZTIPKN7android5media10ISoundDose19AudioDeviceCategoryE",
+   "size" : 4,
+   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/audioflinger-aidl-cpp-source/gen/include/android/media/ISoundDose.h"
   },
   {
    "alignment" : 4,
@@ -53030,7 +53088,7 @@
    "referenced_type" : "_ZTIN7android5media14IPlayerDefaultE",
    "self_type" : "_ZTIPN7android5media14IPlayerDefaultE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/libaudioclient/android_x86_silvermont_static_cfi/gen/aidl/android/media/IPlayer.h"
+   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/libaudioclient/android_x86_silvermont_static_cfi/e560d7b19ebf7276b3e850d3d346dec8/gen/aidl/android/media/IPlayer.h"
   },
   {
    "alignment" : 4,
@@ -53066,7 +53124,7 @@
    "referenced_type" : "_ZTIN7android5media16IPlayerDelegatorE",
    "self_type" : "_ZTIPN7android5media16IPlayerDelegatorE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/libaudioclient/android_x86_silvermont_static_cfi/gen/aidl/android/media/BnPlayer.h"
+   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/libaudioclient/android_x86_silvermont_static_cfi/e560d7b19ebf7276b3e850d3d346dec8/gen/aidl/android/media/BnPlayer.h"
   },
   {
    "alignment" : 4,
@@ -54317,7 +54375,7 @@
    "referenced_type" : "_ZTIP11hw_device_t",
    "self_type" : "_ZTIPP11hw_device_t",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -55259,7 +55317,7 @@
    "referenced_type" : "_ZTI11hw_module_t",
    "self_type" : "_ZTIK11hw_module_t",
    "size" : 128,
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -56626,7 +56684,7 @@
    "name" : "const android::AudioTrack",
    "referenced_type" : "_ZTIN7android10AudioTrackE",
    "self_type" : "_ZTIKN7android10AudioTrackE",
-   "size" : 1008,
+   "size" : 1016,
    "source_file" : "frameworks/av/media/libaudioclient/include/media/AudioTrack.h"
   },
   {
@@ -56666,7 +56724,7 @@
    "name" : "const android::AudioEffect",
    "referenced_type" : "_ZTIN7android11AudioEffectE",
    "self_type" : "_ZTIKN7android11AudioEffectE",
-   "size" : 316,
+   "size" : 320,
    "source_file" : "frameworks/av/media/libaudioclient/include/media/AudioEffect.h"
   },
   {
@@ -57107,7 +57165,7 @@
    "referenced_type" : "_ZTIN7android14StaticString16ILj45EEE",
    "self_type" : "_ZTIKN7android14StaticString16ILj45EEE",
    "size" : 100,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioPlaybackRate.h"
+   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/audioflinger-aidl-cpp-source/gen/include/android/media/ISoundDose.h"
   },
   {
    "alignment" : 4,
@@ -57818,11 +57876,21 @@
   {
    "alignment" : 4,
    "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android5media10ISoundDose19AudioDeviceCategoryE",
+   "name" : "const android::media::ISoundDose::AudioDeviceCategory",
+   "referenced_type" : "_ZTIN7android5media10ISoundDose19AudioDeviceCategoryE",
+   "self_type" : "_ZTIKN7android5media10ISoundDose19AudioDeviceCategoryE",
+   "size" : 24,
+   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/audioflinger-aidl-cpp-source/gen/include/android/media/ISoundDose.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
    "linker_set_key" : "_ZTIKN7android5media11AudioClientE",
    "name" : "const android::media::AudioClient",
    "referenced_type" : "_ZTIN7android5media11AudioClientE",
    "self_type" : "_ZTIKN7android5media11AudioClientE",
-   "size" : 84,
+   "size" : 88,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
@@ -58162,7 +58230,7 @@
    "name" : "const android::media::CreateTrackRequest",
    "referenced_type" : "_ZTIN7android5media18CreateTrackRequestE",
    "self_type" : "_ZTIKN7android5media18CreateTrackRequestE",
-   "size" : 348,
+   "size" : 352,
    "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/audioflinger-aidl-cpp-source/gen/include/android/media/CreateTrackRequest.h"
   },
   {
@@ -58192,7 +58260,7 @@
    "name" : "const android::media::CreateEffectRequest",
    "referenced_type" : "_ZTIN7android5media19CreateEffectRequestE",
    "self_type" : "_ZTIKN7android5media19CreateEffectRequestE",
-   "size" : 252,
+   "size" : 256,
    "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/audioflinger-aidl-cpp-source/gen/include/android/media/CreateEffectRequest.h"
   },
   {
@@ -58202,7 +58270,7 @@
    "name" : "const android::media::CreateRecordRequest",
    "referenced_type" : "_ZTIN7android5media19CreateRecordRequestE",
    "self_type" : "_ZTIKN7android5media19CreateRecordRequestE",
-   "size" : 196,
+   "size" : 200,
    "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/audioflinger-aidl-cpp-source/gen/include/android/media/CreateRecordRequest.h"
   },
   {
@@ -58212,7 +58280,7 @@
    "name" : "const android::media::CreateTrackResponse",
    "referenced_type" : "_ZTIN7android5media19CreateTrackResponseE",
    "self_type" : "_ZTIKN7android5media19CreateTrackResponseE",
-   "size" : 100,
+   "size" : 104,
    "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/audioflinger-aidl-cpp-source/gen/include/android/media/CreateTrackResponse.h"
   },
   {
@@ -58302,7 +58370,7 @@
    "name" : "const android::media::AudioTimestampInternal",
    "referenced_type" : "_ZTIN7android5media22AudioTimestampInternalE",
    "self_type" : "_ZTIKN7android5media22AudioTimestampInternalE",
-   "size" : 20,
+   "size" : 24,
    "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/audioclient-types-aidl-cpp-source/gen/include/android/media/AudioTimestampInternal.h"
   },
   {
@@ -59100,7 +59168,7 @@
    "name" : "const android::content::AttributionSourceState",
    "referenced_type" : "_ZTIN7android7content22AttributionSourceStateE",
    "self_type" : "_ZTIKN7android7content22AttributionSourceStateE",
-   "size" : 76,
+   "size" : 80,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
@@ -60092,6 +60160,14 @@
    "self_type" : "_ZTIKNSt3__16vectorIN7android5media10AudioRouteENS_9allocatorIS3_EEEE",
    "size" : 12,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__16vectorIN7android5media10ISoundDose19AudioDeviceCategoryENS_9allocatorIS4_EEEE",
+   "name" : "const std::vector<android::media::ISoundDose::AudioDeviceCategory, std::allocator<android::media::ISoundDose::AudioDeviceCategory>>",
+   "referenced_type" : "_ZTINSt3__16vectorIN7android5media10ISoundDose19AudioDeviceCategoryENS_9allocatorIS4_EEEE",
+   "self_type" : "_ZTIKNSt3__16vectorIN7android5media10ISoundDose19AudioDeviceCategoryENS_9allocatorIS4_EEEE",
+   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/audioflinger-aidl-cpp-source/gen/include/android/media/ISoundDose.h"
   },
   {
    "alignment" : 4,
@@ -62611,7 +62687,7 @@
    "referenced_type" : "_ZTI11hw_device_t",
    "self_type" : "_ZTI11hw_device_t",
    "size" : 64,
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -62667,7 +62743,7 @@
    "referenced_type" : "_ZTI11hw_module_t",
    "self_type" : "_ZTI11hw_module_t",
    "size" : 128,
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -63578,7 +63654,7 @@
    "referenced_type" : "_ZTI12power_module",
    "self_type" : "_ZTI12power_module",
    "size" : 156,
-   "source_file" : "hardware/libhardware/include/hardware/power.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/power.h"
   },
   {
    "alignment" : 4,
@@ -67952,7 +68028,7 @@
    "referenced_type" : "_ZTI19hw_module_methods_t",
    "self_type" : "_ZTI19hw_module_methods_t",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -67978,7 +68054,7 @@
    "referenced_type" : "_ZTI19power_state_voter_t",
    "self_type" : "_ZTI19power_state_voter_t",
    "size" : 116,
-   "source_file" : "hardware/libhardware/include/hardware/power.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/power.h"
   },
   {
    "alignment" : 4,
@@ -71024,6 +71100,52 @@
    "fields" :
    [
     {
+     "field_name" : "frameNumber",
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "frameTimelineVsyncId",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIx"
+    },
+    {
+     "field_name" : "inputEventId",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "startTimeNanos",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTIx"
+    },
+    {
+     "field_name" : "useForRefreshRateSelection",
+     "field_offset" : 224,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "skippedFrameVsyncId",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTIx"
+    },
+    {
+     "field_name" : "skippedFrameStartTimeNanos",
+     "field_offset" : 320,
+     "referenced_type" : "_ZTIx"
+    }
+   ],
+   "linker_set_key" : "_ZTI30ANativeWindowFrameTimelineInfo",
+   "name" : "ANativeWindowFrameTimelineInfo",
+   "referenced_type" : "_ZTI30ANativeWindowFrameTimelineInfo",
+   "self_type" : "_ZTI30ANativeWindowFrameTimelineInfo",
+   "size" : 48,
+   "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
      "field_name" : "Enqueue",
      "referenced_type" : "_ZTIPFjPKPK30SLAndroidSimpleBufferQueueItf_PKvjE"
     },
@@ -71708,7 +71830,7 @@
    "referenced_type" : "_ZTI34power_state_platform_sleep_state_t",
    "self_type" : "_ZTI34power_state_platform_sleep_state_t",
    "size" : 128,
-   "source_file" : "hardware/libhardware/include/hardware/power.h"
+   "source_file" : "hardware/libhardware/include_all/hardware/power.h"
   },
   {
    "alignment" : 4,
@@ -73363,22 +73485,22 @@
     },
     {
      "field_name" : "pAttributes",
-     "field_offset" : 1056,
+     "field_offset" : 1088,
      "referenced_type" : "_ZTIPK18audio_attributes_t"
     },
     {
      "field_name" : "doNotReconnect",
-     "field_offset" : 1088,
+     "field_offset" : 1120,
      "referenced_type" : "_ZTIb"
     },
     {
      "field_name" : "maxRequiredSpeed",
-     "field_offset" : 1120,
+     "field_offset" : 1152,
      "referenced_type" : "_ZTIf"
     },
     {
      "field_name" : "selectedDeviceId",
-     "field_offset" : 1152,
+     "field_offset" : 1184,
      "referenced_type" : "_ZTIi"
     }
    ],
@@ -73386,7 +73508,7 @@
    "name" : "android::AudioTrack::SetParams",
    "referenced_type" : "_ZTIN7android10AudioTrack9SetParamsE",
    "self_type" : "_ZTIN7android10AudioTrack9SetParamsE",
-   "size" : 148,
+   "size" : 152,
    "source_file" : "frameworks/av/media/libaudioclient/include/media/AudioTrack.h"
   },
   {
@@ -73527,44 +73649,50 @@
     },
     {
      "access" : "protected",
-     "field_name" : "mFormat",
+     "field_name" : "mAfTrackFlags",
      "field_offset" : 832,
+     "referenced_type" : "_ZTI20audio_output_flags_t"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "mFormat",
+     "field_offset" : 864,
      "referenced_type" : "_ZTI14audio_format_t"
     },
     {
      "access" : "protected",
      "field_name" : "mOriginalStreamType",
-     "field_offset" : 864,
-     "referenced_type" : "_ZTI19audio_stream_type_t"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "mStreamType",
      "field_offset" : 896,
      "referenced_type" : "_ZTI19audio_stream_type_t"
     },
     {
      "access" : "protected",
-     "field_name" : "mChannelCount",
+     "field_name" : "mStreamType",
      "field_offset" : 928,
+     "referenced_type" : "_ZTI19audio_stream_type_t"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "mChannelCount",
+     "field_offset" : 960,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "protected",
      "field_name" : "mChannelMask",
-     "field_offset" : 960,
+     "field_offset" : 992,
      "referenced_type" : "_ZTI20audio_channel_mask_t"
     },
     {
      "access" : "protected",
      "field_name" : "mSharedBuffer",
-     "field_offset" : 992,
+     "field_offset" : 1024,
      "referenced_type" : "_ZTIN7android2spINS_7IMemoryEEE"
     },
     {
      "access" : "protected",
      "field_name" : "mTransfer",
-     "field_offset" : 1024,
+     "field_offset" : 1056,
      "referenced_type" : "_ZTIN7android10AudioTrack13transfer_typeE"
     },
     {
@@ -73978,49 +74106,49 @@
     {
      "access" : "private",
      "field_name" : "mDeviceCallback",
-     "field_offset" : 7584,
+     "field_offset" : 7616,
      "referenced_type" : "_ZTIN7android2wpINS_11AudioSystem19AudioDeviceCallbackEEE"
     },
     {
      "access" : "private",
      "field_name" : "mDualMonoMode",
-     "field_offset" : 7648,
+     "field_offset" : 7680,
      "referenced_type" : "_ZTI22audio_dual_mono_mode_t"
     },
     {
      "access" : "private",
      "field_name" : "mAudioDescriptionMixLeveldB",
-     "field_offset" : 7680,
+     "field_offset" : 7712,
      "referenced_type" : "_ZTIf"
     },
     {
      "access" : "private",
      "field_name" : "mMediaMetrics",
-     "field_offset" : 7712,
+     "field_offset" : 7744,
      "referenced_type" : "_ZTIN7android10AudioTrack12MediaMetricsE"
     },
     {
      "access" : "private",
      "field_name" : "mMetricsId",
-     "field_offset" : 7744,
+     "field_offset" : 7776,
      "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
     },
     {
      "access" : "private",
      "field_name" : "mCallerName",
-     "field_offset" : 7840,
+     "field_offset" : 7872,
      "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
     },
     {
      "access" : "private",
      "field_name" : "mTrackOffloaded",
-     "field_offset" : 7936,
+     "field_offset" : 7968,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "private",
      "field_name" : "mAudioTrackCallback",
-     "field_offset" : 7968,
+     "field_offset" : 8000,
      "referenced_type" : "_ZTIN7android2spINS_10AudioTrack18AudioTrackCallbackEEE"
     }
    ],
@@ -74029,12 +74157,12 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN7android10AudioTrackE",
    "self_type" : "_ZTIN7android10AudioTrackE",
-   "size" : 1008,
+   "size" : 1016,
    "source_file" : "frameworks/av/media/libaudioclient/include/media/AudioTrack.h",
    "vtable_components" :
    [
     {
-     "component_value" : 1000,
+     "component_value" : 1004,
      "kind" : "vbase_offset"
     },
     {
@@ -74068,15 +74196,15 @@
      "kind" : "vcall_offset"
     },
     {
-     "component_value" : -1000,
+     "component_value" : -1004,
      "kind" : "vcall_offset"
     },
     {
-     "component_value" : -1000,
+     "component_value" : -1004,
      "kind" : "vcall_offset"
     },
     {
-     "component_value" : -1000,
+     "component_value" : -1004,
      "kind" : "offset_to_top"
     },
     {
@@ -74840,7 +74968,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN7android11AudioClientE",
    "self_type" : "_ZTIN7android11AudioClientE",
-   "size" : 80,
+   "size" : 84,
    "source_file" : "frameworks/av/media/libaudioclient/include/media/AudioClient.h"
   },
   {
@@ -75171,85 +75299,85 @@
     {
      "access" : "protected",
      "field_name" : "mEnabled",
-     "field_offset" : 640,
+     "field_offset" : 672,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "protected",
      "field_name" : "mSessionId",
-     "field_offset" : 672,
+     "field_offset" : 704,
      "referenced_type" : "_ZTI15audio_session_t"
     },
     {
      "access" : "protected",
      "field_name" : "mPriority",
-     "field_offset" : 704,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "mStatus",
      "field_offset" : 736,
      "referenced_type" : "_ZTIi"
     },
     {
      "access" : "protected",
-     "field_name" : "mProbe",
+     "field_name" : "mStatus",
      "field_offset" : 768,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "mProbe",
+     "field_offset" : 800,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "protected",
      "field_name" : "mCallback",
-     "field_offset" : 800,
+     "field_offset" : 832,
      "referenced_type" : "_ZTIN7android2wpINS_11AudioEffect20IAudioEffectCallbackEEE"
     },
     {
      "access" : "protected",
      "field_name" : "mLegacyWrapper",
-     "field_offset" : 864,
+     "field_offset" : 896,
      "referenced_type" : "_ZTIN7android2spINS_11AudioEffect20IAudioEffectCallbackEEE"
     },
     {
      "access" : "protected",
      "field_name" : "mDescriptor",
-     "field_offset" : 896,
+     "field_offset" : 928,
      "referenced_type" : "_ZTI19effect_descriptor_s"
     },
     {
      "access" : "protected",
      "field_name" : "mId",
-     "field_offset" : 2272,
+     "field_offset" : 2304,
      "referenced_type" : "_ZTIi"
     },
     {
      "access" : "protected",
      "field_name" : "mLock",
-     "field_offset" : 2304,
+     "field_offset" : 2336,
      "referenced_type" : "_ZTIN7android5MutexE"
     },
     {
      "access" : "private",
      "field_name" : "mIEffect",
-     "field_offset" : 2336,
+     "field_offset" : 2368,
      "referenced_type" : "_ZTIN7android2spINS_5media7IEffectEEE"
     },
     {
      "access" : "private",
      "field_name" : "mIEffectClient",
-     "field_offset" : 2368,
+     "field_offset" : 2400,
      "referenced_type" : "_ZTIN7android2spINS_11AudioEffect12EffectClientEEE"
     },
     {
      "access" : "private",
      "field_name" : "mCblkMemory",
-     "field_offset" : 2400,
+     "field_offset" : 2432,
      "referenced_type" : "_ZTIN7android2spINS_7IMemoryEEE"
     },
     {
      "access" : "private",
      "field_name" : "mCblk",
-     "field_offset" : 2432,
+     "field_offset" : 2464,
      "referenced_type" : "_ZTIPN7android19effect_param_cblk_tE"
     }
    ],
@@ -75258,12 +75386,12 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN7android11AudioEffectE",
    "self_type" : "_ZTIN7android11AudioEffectE",
-   "size" : 316,
+   "size" : 320,
    "source_file" : "frameworks/av/media/libaudioclient/include/media/AudioEffect.h",
    "vtable_components" :
    [
     {
-     "component_value" : 308,
+     "component_value" : 312,
      "kind" : "vbase_offset"
     },
     {
@@ -75327,11 +75455,11 @@
      "kind" : "vcall_offset"
     },
     {
-     "component_value" : -308,
+     "component_value" : -312,
      "kind" : "vcall_offset"
     },
     {
-     "component_value" : -308,
+     "component_value" : -312,
      "kind" : "offset_to_top"
     },
     {
@@ -75932,157 +76060,157 @@
     {
      "access" : "private",
      "field_name" : "mFrameCount",
-     "field_offset" : 1248,
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "access" : "private",
-     "field_name" : "mReqFrameCount",
      "field_offset" : 1280,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "private",
-     "field_name" : "mFramesRead",
+     "field_name" : "mReqFrameCount",
      "field_offset" : 1312,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mFramesRead",
+     "field_offset" : 1344,
      "referenced_type" : "_ZTIx"
     },
     {
      "access" : "private",
      "field_name" : "mFramesReadServerOffset",
-     "field_offset" : 1376,
+     "field_offset" : 1408,
      "referenced_type" : "_ZTIx"
     },
     {
      "access" : "private",
      "field_name" : "mSampleRate",
-     "field_offset" : 1440,
+     "field_offset" : 1472,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "private",
      "field_name" : "mFormat",
-     "field_offset" : 1472,
+     "field_offset" : 1504,
      "referenced_type" : "_ZTI14audio_format_t"
     },
     {
      "access" : "private",
      "field_name" : "mChannelCount",
-     "field_offset" : 1504,
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "access" : "private",
-     "field_name" : "mFrameSize",
      "field_offset" : 1536,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "private",
-     "field_name" : "mLatency",
+     "field_name" : "mFrameSize",
      "field_offset" : 1568,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "private",
-     "field_name" : "mChannelMask",
+     "field_name" : "mLatency",
      "field_offset" : 1600,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mChannelMask",
+     "field_offset" : 1632,
      "referenced_type" : "_ZTI20audio_channel_mask_t"
     },
     {
      "access" : "private",
      "field_name" : "mFlags",
-     "field_offset" : 1632,
-     "referenced_type" : "_ZTI19audio_input_flags_t"
-    },
-    {
-     "access" : "private",
-     "field_name" : "mOrigFlags",
      "field_offset" : 1664,
      "referenced_type" : "_ZTI19audio_input_flags_t"
     },
     {
      "access" : "private",
-     "field_name" : "mSessionId",
+     "field_name" : "mOrigFlags",
      "field_offset" : 1696,
+     "referenced_type" : "_ZTI19audio_input_flags_t"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mSessionId",
+     "field_offset" : 1728,
      "referenced_type" : "_ZTI15audio_session_t"
     },
     {
      "access" : "private",
      "field_name" : "mPortId",
-     "field_offset" : 1728,
+     "field_offset" : 1760,
      "referenced_type" : "_ZTIi"
     },
     {
      "access" : "private",
      "field_name" : "mLogSessionId",
-     "field_offset" : 1760,
+     "field_offset" : 1792,
      "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
     },
     {
      "access" : "private",
      "field_name" : "mTransfer",
-     "field_offset" : 1856,
+     "field_offset" : 1888,
      "referenced_type" : "_ZTIN7android11AudioRecord13transfer_typeE"
     },
     {
      "access" : "private",
      "field_name" : "mAudioRecord",
-     "field_offset" : 1888,
+     "field_offset" : 1920,
      "referenced_type" : "_ZTIN7android2spINS_5media12IAudioRecordEEE"
     },
     {
      "access" : "private",
      "field_name" : "mCblkMemory",
-     "field_offset" : 1920,
+     "field_offset" : 1952,
      "referenced_type" : "_ZTIN7android2spINS_7IMemoryEEE"
     },
     {
      "access" : "private",
      "field_name" : "mCblk",
-     "field_offset" : 1952,
+     "field_offset" : 1984,
      "referenced_type" : "_ZTIPN7android18audio_track_cblk_tE"
     },
     {
      "access" : "private",
      "field_name" : "mBufferMemory",
-     "field_offset" : 1984,
+     "field_offset" : 2016,
      "referenced_type" : "_ZTIN7android2spINS_7IMemoryEEE"
     },
     {
      "access" : "private",
      "field_name" : "mInput",
-     "field_offset" : 2016,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "access" : "private",
-     "field_name" : "mPreviousPriority",
      "field_offset" : 2048,
      "referenced_type" : "_ZTIi"
     },
     {
      "access" : "private",
-     "field_name" : "mPreviousSchedulingGroup",
+     "field_name" : "mPreviousPriority",
      "field_offset" : 2080,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mPreviousSchedulingGroup",
+     "field_offset" : 2112,
      "referenced_type" : "_ZTI11SchedPolicy"
     },
     {
      "access" : "private",
      "field_name" : "mAwaitBoost",
-     "field_offset" : 2112,
+     "field_offset" : 2144,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "private",
      "field_name" : "mProxy",
-     "field_offset" : 2144,
+     "field_offset" : 2176,
      "referenced_type" : "_ZTIN7android2spINS_22AudioRecordClientProxyEEE"
     },
     {
      "access" : "private",
      "field_name" : "mInOverrun",
-     "field_offset" : 2176,
+     "field_offset" : 2208,
      "referenced_type" : "_ZTIb"
     },
     {
@@ -78934,6 +79062,14 @@
     },
     {
      "is_pure" : true,
+     "mangled_component_name" : "_ZN7android5media10ISoundDose31initCachedAudioDeviceCategoriesERKNSt3__16vectorINS1_19AudioDeviceCategoryENS2_9allocatorIS4_EEEE"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android5media10ISoundDose22setAudioDeviceCategoryERKNS1_19AudioDeviceCategoryE"
+    },
+    {
+     "is_pure" : true,
      "mangled_component_name" : "_ZN7android5media10ISoundDose22getOutputRs2UpperBoundEPf"
     },
     {
@@ -80096,6 +80232,10 @@
      "mangled_component_name" : "_ZN7android5media20IAudioFlingerService20getAudioPolicyConfigEPNS0_17AudioPolicyConfigE"
     },
     {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android5media20IAudioFlingerService15getAudioMixPortERKNS0_11AudioPortFwES4_PS2_"
+    },
+    {
      "mangled_component_name" : "_ZN7android11BnInterfaceINS_5media20IAudioFlingerServiceEE19queryLocalInterfaceERKNS_8String16E"
     },
     {
@@ -81100,6 +81240,10 @@
      "mangled_component_name" : "_ZN7android5media20IAudioFlingerService20getAudioPolicyConfigEPNS0_17AudioPolicyConfigE"
     },
     {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android5media20IAudioFlingerService15getAudioMixPortERKNS0_11AudioPortFwES4_PS2_"
+    },
+    {
      "component_value" : 16,
      "kind" : "vbase_offset"
     },
@@ -81531,16 +81675,16 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN7android11MediaPlayerE",
    "self_type" : "_ZTIN7android11MediaPlayerE",
-   "size" : 216,
+   "size" : 220,
    "source_file" : "frameworks/av/media/libmedia/include/media/mediaplayer.h",
    "vtable_components" :
    [
     {
-     "component_value" : 212,
+     "component_value" : 216,
      "kind" : "vbase_offset"
     },
     {
-     "component_value" : 204,
+     "component_value" : 208,
      "kind" : "vbase_offset"
     },
     {
@@ -81583,7 +81727,7 @@
      "mangled_component_name" : "_ZN7android11MediaPlayer5pauseEv"
     },
     {
-     "component_value" : 200,
+     "component_value" : 204,
      "kind" : "vbase_offset"
     },
     {
@@ -81660,11 +81804,11 @@
      "kind" : "vcall_offset"
     },
     {
-     "component_value" : -204,
+     "component_value" : -208,
      "kind" : "vcall_offset"
     },
     {
-     "component_value" : -204,
+     "component_value" : -208,
      "kind" : "offset_to_top"
     },
     {
@@ -81692,11 +81836,11 @@
      "mangled_component_name" : "_ZN7android7RefBase13onLastWeakRefEPKv"
     },
     {
-     "component_value" : -212,
+     "component_value" : -216,
      "kind" : "vcall_offset"
     },
     {
-     "component_value" : -212,
+     "component_value" : -216,
      "kind" : "vcall_offset"
     },
     {
@@ -81704,7 +81848,7 @@
      "kind" : "vbase_offset"
     },
     {
-     "component_value" : -212,
+     "component_value" : -216,
      "kind" : "offset_to_top"
     },
     {
@@ -83558,47 +83702,47 @@
     },
     {
      "field_name" : "sharedBuffer",
-     "field_offset" : 3520,
+     "field_offset" : 3552,
      "referenced_type" : "_ZTIN7android2spINS_7IMemoryEEE"
     },
     {
      "field_name" : "notificationsPerBuffer",
-     "field_offset" : 3552,
+     "field_offset" : 3584,
      "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "speed",
-     "field_offset" : 3584,
+     "field_offset" : 3616,
      "referenced_type" : "_ZTIf"
     },
     {
      "field_name" : "audioTrackCallback",
-     "field_offset" : 3616,
+     "field_offset" : 3648,
      "referenced_type" : "_ZTIN7android2spINS_5media19IAudioTrackCallbackEEE"
     },
     {
      "field_name" : "flags",
-     "field_offset" : 3648,
+     "field_offset" : 3680,
      "referenced_type" : "_ZTI20audio_output_flags_t"
     },
     {
      "field_name" : "frameCount",
-     "field_offset" : 3680,
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "notificationFrameCount",
      "field_offset" : 3712,
      "referenced_type" : "_ZTIj"
     },
     {
-     "field_name" : "selectedDeviceId",
+     "field_name" : "notificationFrameCount",
      "field_offset" : 3744,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "selectedDeviceId",
+     "field_offset" : 3776,
      "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "sessionId",
-     "field_offset" : 3776,
+     "field_offset" : 3808,
      "referenced_type" : "_ZTI15audio_session_t"
     }
    ],
@@ -83630,37 +83774,37 @@
     },
     {
      "field_name" : "riid",
-     "field_offset" : 2912,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "maxSharedAudioHistoryMs",
      "field_offset" : 2944,
      "referenced_type" : "_ZTIi"
     },
     {
-     "field_name" : "flags",
+     "field_name" : "maxSharedAudioHistoryMs",
      "field_offset" : 2976,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "flags",
+     "field_offset" : 3008,
      "referenced_type" : "_ZTI19audio_input_flags_t"
     },
     {
      "field_name" : "frameCount",
-     "field_offset" : 3008,
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "notificationFrameCount",
      "field_offset" : 3040,
      "referenced_type" : "_ZTIj"
     },
     {
-     "field_name" : "selectedDeviceId",
+     "field_name" : "notificationFrameCount",
      "field_offset" : 3072,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "selectedDeviceId",
+     "field_offset" : 3104,
      "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "sessionId",
-     "field_offset" : 3104,
+     "field_offset" : 3136,
      "referenced_type" : "_ZTI15audio_session_t"
     }
    ],
@@ -83669,7 +83813,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN7android13IAudioFlinger17CreateRecordInputE",
    "self_type" : "_ZTIN7android13IAudioFlinger17CreateRecordInputE",
-   "size" : 392,
+   "size" : 396,
    "source_file" : "frameworks/av/media/libaudioclient/include/media/IAudioFlinger.h"
   },
   {
@@ -83736,18 +83880,23 @@
      "referenced_type" : "_ZTI14audio_format_t"
     },
     {
-     "field_name" : "outputId",
+     "field_name" : "afTrackFlags",
      "field_offset" : 384,
-     "referenced_type" : "_ZTIi"
+     "referenced_type" : "_ZTI20audio_output_flags_t"
     },
     {
-     "field_name" : "portId",
+     "field_name" : "outputId",
      "field_offset" : 416,
      "referenced_type" : "_ZTIi"
     },
     {
-     "field_name" : "audioTrack",
+     "field_name" : "portId",
      "field_offset" : 448,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "audioTrack",
+     "field_offset" : 480,
      "referenced_type" : "_ZTIN7android2spINS_5media11IAudioTrackEEE"
     }
    ],
@@ -83756,7 +83905,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN7android13IAudioFlinger17CreateTrackOutputE",
    "self_type" : "_ZTIN7android13IAudioFlinger17CreateTrackOutputE",
-   "size" : 60,
+   "size" : 64,
    "source_file" : "frameworks/av/media/libaudioclient/include/media/IAudioFlinger.h"
   },
   {
@@ -84051,11 +84200,11 @@
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN7android13IAudioFlinger28getPrimaryOutputSamplingRateEv"
+     "mangled_component_name" : "_ZNK7android13IAudioFlinger28getPrimaryOutputSamplingRateEv"
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN7android13IAudioFlinger26getPrimaryOutputFrameCountEv"
+     "mangled_component_name" : "_ZNK7android13IAudioFlinger26getPrimaryOutputFrameCountEv"
     },
     {
      "is_pure" : true,
@@ -84063,7 +84212,7 @@
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN7android13IAudioFlinger12getAudioPortEP13audio_port_v7"
+     "mangled_component_name" : "_ZNK7android13IAudioFlinger12getAudioPortEP13audio_port_v7"
     },
     {
      "is_pure" : true,
@@ -84075,7 +84224,7 @@
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN7android13IAudioFlinger16listAudioPatchesEPjP11audio_patch"
+     "mangled_component_name" : "_ZNK7android13IAudioFlinger16listAudioPatchesEPjP11audio_patch"
     },
     {
      "is_pure" : true,
@@ -84099,7 +84248,7 @@
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN7android13IAudioFlinger14getMicrophonesEPNSt3__16vectorINS_5media16MicrophoneInfoFwENS1_9allocatorIS4_EEEE"
+     "mangled_component_name" : "_ZNK7android13IAudioFlinger14getMicrophonesEPNSt3__16vectorINS_5media16MicrophoneInfoFwENS1_9allocatorIS4_EEEE"
     },
     {
      "is_pure" : true,
@@ -84119,11 +84268,11 @@
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN7android13IAudioFlinger24getAAudioMixerBurstCountEv"
+     "mangled_component_name" : "_ZNK7android13IAudioFlinger24getAAudioMixerBurstCountEv"
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN7android13IAudioFlinger29getAAudioHardwareBurstMinUsecEv"
+     "mangled_component_name" : "_ZNK7android13IAudioFlinger29getAAudioHardwareBurstMinUsecEv"
     },
     {
      "is_pure" : true,
@@ -84139,11 +84288,11 @@
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN7android13IAudioFlinger24getSupportedLatencyModesEiPNSt3__16vectorI20audio_latency_mode_tNS1_9allocatorIS3_EEEE"
+     "mangled_component_name" : "_ZNK7android13IAudioFlinger24getSupportedLatencyModesEiPNSt3__16vectorI20audio_latency_mode_tNS1_9allocatorIS3_EEEE"
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN7android13IAudioFlinger21getSoundDoseInterfaceERKNS_2spINS_5media18ISoundDoseCallbackEEEPNS1_INS2_10ISoundDoseEEE"
+     "mangled_component_name" : "_ZNK7android13IAudioFlinger21getSoundDoseInterfaceERKNS_2spINS_5media18ISoundDoseCallbackEEEPNS1_INS2_10ISoundDoseEEE"
     },
     {
      "is_pure" : true,
@@ -84155,15 +84304,19 @@
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN7android13IAudioFlinger33isBluetoothVariableLatencyEnabledEPb"
+     "mangled_component_name" : "_ZNK7android13IAudioFlinger33isBluetoothVariableLatencyEnabledEPb"
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN7android13IAudioFlinger32supportsBluetoothVariableLatencyEPb"
+     "mangled_component_name" : "_ZNK7android13IAudioFlinger32supportsBluetoothVariableLatencyEPb"
     },
     {
      "is_pure" : true,
      "mangled_component_name" : "_ZN7android13IAudioFlinger20getAudioPolicyConfigEPNS_5media17AudioPolicyConfigE"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android13IAudioFlinger15getAudioMixPortEPK13audio_port_v7PS1_"
     },
     {
      "kind" : "vcall_offset"
@@ -87105,16 +87258,6 @@
      "mangled_component_name" : "_ZN7android7RefBase13onLastWeakRefEPKv"
     }
    ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android16FlattenableUtilsE",
-   "name" : "android::FlattenableUtils",
-   "record_kind" : "class",
-   "referenced_type" : "_ZTIN7android16FlattenableUtilsE",
-   "self_type" : "_ZTIN7android16FlattenableUtilsE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
   },
   {
    "alignment" : 4,
@@ -91141,16 +91284,16 @@
      "mangled_component_name" : "_ZN7android25AudioFlingerClientAdapter12loadHwModuleEPKc"
     },
     {
-     "mangled_component_name" : "_ZN7android25AudioFlingerClientAdapter28getPrimaryOutputSamplingRateEv"
+     "mangled_component_name" : "_ZNK7android25AudioFlingerClientAdapter28getPrimaryOutputSamplingRateEv"
     },
     {
-     "mangled_component_name" : "_ZN7android25AudioFlingerClientAdapter26getPrimaryOutputFrameCountEv"
+     "mangled_component_name" : "_ZNK7android25AudioFlingerClientAdapter26getPrimaryOutputFrameCountEv"
     },
     {
      "mangled_component_name" : "_ZN7android25AudioFlingerClientAdapter15setLowRamDeviceEbx"
     },
     {
-     "mangled_component_name" : "_ZN7android25AudioFlingerClientAdapter12getAudioPortEP13audio_port_v7"
+     "mangled_component_name" : "_ZNK7android25AudioFlingerClientAdapter12getAudioPortEP13audio_port_v7"
     },
     {
      "mangled_component_name" : "_ZN7android25AudioFlingerClientAdapter16createAudioPatchEPK11audio_patchPi"
@@ -91159,7 +91302,7 @@
      "mangled_component_name" : "_ZN7android25AudioFlingerClientAdapter17releaseAudioPatchEi"
     },
     {
-     "mangled_component_name" : "_ZN7android25AudioFlingerClientAdapter16listAudioPatchesEPjP11audio_patch"
+     "mangled_component_name" : "_ZNK7android25AudioFlingerClientAdapter16listAudioPatchesEPjP11audio_patch"
     },
     {
      "mangled_component_name" : "_ZN7android25AudioFlingerClientAdapter18setAudioPortConfigEPK17audio_port_config"
@@ -91177,7 +91320,7 @@
      "mangled_component_name" : "_ZNK7android25AudioFlingerClientAdapter13frameCountHALEi"
     },
     {
-     "mangled_component_name" : "_ZN7android25AudioFlingerClientAdapter14getMicrophonesEPNSt3__16vectorINS_5media16MicrophoneInfoFwENS1_9allocatorIS4_EEEE"
+     "mangled_component_name" : "_ZNK7android25AudioFlingerClientAdapter14getMicrophonesEPNSt3__16vectorINS_5media16MicrophoneInfoFwENS1_9allocatorIS4_EEEE"
     },
     {
      "mangled_component_name" : "_ZN7android25AudioFlingerClientAdapter15setAudioHalPidsERKNSt3__16vectorIiNS1_9allocatorIiEEEE"
@@ -91192,10 +91335,10 @@
      "mangled_component_name" : "_ZN7android25AudioFlingerClientAdapter18getMmapPolicyInfosENS_5media5audio6common19AudioMMapPolicyTypeEPNSt3__16vectorINS3_19AudioMMapPolicyInfoENS5_9allocatorIS7_EEEE"
     },
     {
-     "mangled_component_name" : "_ZN7android25AudioFlingerClientAdapter24getAAudioMixerBurstCountEv"
+     "mangled_component_name" : "_ZNK7android25AudioFlingerClientAdapter24getAAudioMixerBurstCountEv"
     },
     {
-     "mangled_component_name" : "_ZN7android25AudioFlingerClientAdapter29getAAudioHardwareBurstMinUsecEv"
+     "mangled_component_name" : "_ZNK7android25AudioFlingerClientAdapter29getAAudioHardwareBurstMinUsecEv"
     },
     {
      "mangled_component_name" : "_ZN7android25AudioFlingerClientAdapter23setDeviceConnectedStateEPK13audio_port_v7NS_5media20DeviceConnectedStateE"
@@ -91207,10 +91350,10 @@
      "mangled_component_name" : "_ZN7android25AudioFlingerClientAdapter23setRequestedLatencyModeEi20audio_latency_mode_t"
     },
     {
-     "mangled_component_name" : "_ZN7android25AudioFlingerClientAdapter24getSupportedLatencyModesEiPNSt3__16vectorI20audio_latency_mode_tNS1_9allocatorIS3_EEEE"
+     "mangled_component_name" : "_ZNK7android25AudioFlingerClientAdapter24getSupportedLatencyModesEiPNSt3__16vectorI20audio_latency_mode_tNS1_9allocatorIS3_EEEE"
     },
     {
-     "mangled_component_name" : "_ZN7android25AudioFlingerClientAdapter21getSoundDoseInterfaceERKNS_2spINS_5media18ISoundDoseCallbackEEEPNS1_INS2_10ISoundDoseEEE"
+     "mangled_component_name" : "_ZNK7android25AudioFlingerClientAdapter21getSoundDoseInterfaceERKNS_2spINS_5media18ISoundDoseCallbackEEEPNS1_INS2_10ISoundDoseEEE"
     },
     {
      "mangled_component_name" : "_ZN7android25AudioFlingerClientAdapter16invalidateTracksERKNSt3__16vectorIiNS1_9allocatorIiEEEE"
@@ -91219,13 +91362,16 @@
      "mangled_component_name" : "_ZN7android25AudioFlingerClientAdapter34setBluetoothVariableLatencyEnabledEb"
     },
     {
-     "mangled_component_name" : "_ZN7android25AudioFlingerClientAdapter33isBluetoothVariableLatencyEnabledEPb"
+     "mangled_component_name" : "_ZNK7android25AudioFlingerClientAdapter33isBluetoothVariableLatencyEnabledEPb"
     },
     {
-     "mangled_component_name" : "_ZN7android25AudioFlingerClientAdapter32supportsBluetoothVariableLatencyEPb"
+     "mangled_component_name" : "_ZNK7android25AudioFlingerClientAdapter32supportsBluetoothVariableLatencyEPb"
     },
     {
      "mangled_component_name" : "_ZN7android25AudioFlingerClientAdapter20getAudioPolicyConfigEPNS_5media17AudioPolicyConfigE"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android25AudioFlingerClientAdapter15getAudioMixPortEPK13audio_port_v7PS1_"
     },
     {
      "kind" : "vcall_offset"
@@ -91487,11 +91633,11 @@
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN7android13IAudioFlinger28getPrimaryOutputSamplingRateEv"
+     "mangled_component_name" : "_ZNK7android13IAudioFlinger28getPrimaryOutputSamplingRateEv"
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN7android13IAudioFlinger26getPrimaryOutputFrameCountEv"
+     "mangled_component_name" : "_ZNK7android13IAudioFlinger26getPrimaryOutputFrameCountEv"
     },
     {
      "is_pure" : true,
@@ -91499,7 +91645,7 @@
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN7android13IAudioFlinger12getAudioPortEP13audio_port_v7"
+     "mangled_component_name" : "_ZNK7android13IAudioFlinger12getAudioPortEP13audio_port_v7"
     },
     {
      "is_pure" : true,
@@ -91511,7 +91657,7 @@
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN7android13IAudioFlinger16listAudioPatchesEPjP11audio_patch"
+     "mangled_component_name" : "_ZNK7android13IAudioFlinger16listAudioPatchesEPjP11audio_patch"
     },
     {
      "is_pure" : true,
@@ -91535,7 +91681,7 @@
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN7android13IAudioFlinger14getMicrophonesEPNSt3__16vectorINS_5media16MicrophoneInfoFwENS1_9allocatorIS4_EEEE"
+     "mangled_component_name" : "_ZNK7android13IAudioFlinger14getMicrophonesEPNSt3__16vectorINS_5media16MicrophoneInfoFwENS1_9allocatorIS4_EEEE"
     },
     {
      "is_pure" : true,
@@ -91555,11 +91701,11 @@
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN7android13IAudioFlinger24getAAudioMixerBurstCountEv"
+     "mangled_component_name" : "_ZNK7android13IAudioFlinger24getAAudioMixerBurstCountEv"
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN7android13IAudioFlinger29getAAudioHardwareBurstMinUsecEv"
+     "mangled_component_name" : "_ZNK7android13IAudioFlinger29getAAudioHardwareBurstMinUsecEv"
     },
     {
      "is_pure" : true,
@@ -91575,11 +91721,11 @@
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN7android13IAudioFlinger24getSupportedLatencyModesEiPNSt3__16vectorI20audio_latency_mode_tNS1_9allocatorIS3_EEEE"
+     "mangled_component_name" : "_ZNK7android13IAudioFlinger24getSupportedLatencyModesEiPNSt3__16vectorI20audio_latency_mode_tNS1_9allocatorIS3_EEEE"
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN7android13IAudioFlinger21getSoundDoseInterfaceERKNS_2spINS_5media18ISoundDoseCallbackEEEPNS1_INS2_10ISoundDoseEEE"
+     "mangled_component_name" : "_ZNK7android13IAudioFlinger21getSoundDoseInterfaceERKNS_2spINS_5media18ISoundDoseCallbackEEEPNS1_INS2_10ISoundDoseEEE"
     },
     {
      "is_pure" : true,
@@ -91591,15 +91737,19 @@
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN7android13IAudioFlinger33isBluetoothVariableLatencyEnabledEPb"
+     "mangled_component_name" : "_ZNK7android13IAudioFlinger33isBluetoothVariableLatencyEnabledEPb"
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN7android13IAudioFlinger32supportsBluetoothVariableLatencyEPb"
+     "mangled_component_name" : "_ZNK7android13IAudioFlinger32supportsBluetoothVariableLatencyEPb"
     },
     {
      "is_pure" : true,
      "mangled_component_name" : "_ZN7android13IAudioFlinger20getAudioPolicyConfigEPNS_5media17AudioPolicyConfigE"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android13IAudioFlinger15getAudioMixPortEPK13audio_port_v7PS1_"
     },
     {
      "mangled_component_name" : "_ZN7android25AudioFlingerServerAdapter8Delegate17onTransactWrapperENS1_15TransactionCodeERKNS_6ParcelEjRKNSt3__18functionIFivEEE"
@@ -91922,6 +92072,9 @@
     },
     {
      "mangled_component_name" : "_ZN7android25AudioFlingerServerAdapter20getAudioPolicyConfigEPNS_5media17AudioPolicyConfigE"
+    },
+    {
+     "mangled_component_name" : "_ZN7android25AudioFlingerServerAdapter15getAudioMixPortERKNS_5media11AudioPortFwES4_PS2_"
     },
     {
      "mangled_component_name" : "_ZN7android11BnInterfaceINS_5media20IAudioFlingerServiceEE19queryLocalInterfaceERKNS_8String16E"
@@ -94116,6 +94269,67 @@
    "base_specifiers" :
    [
     {
+     "referenced_type" : "_ZTIN7android10ParcelableE"
+    }
+   ],
+   "fields" :
+   [
+    {
+     "field_name" : "address",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+     "field_name" : "internalAudioType",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "csdCompatible",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android5media10ISoundDose19AudioDeviceCategoryE",
+   "name" : "android::media::ISoundDose::AudioDeviceCategory",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android5media10ISoundDose19AudioDeviceCategoryE",
+   "self_type" : "_ZTIN7android5media10ISoundDose19AudioDeviceCategoryE",
+   "size" : 24,
+   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/audioflinger-aidl-cpp-source/gen/include/android/media/ISoundDose.h",
+   "vtable_components" :
+   [
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android5media10ISoundDose19AudioDeviceCategoryE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android5media10ISoundDose19AudioDeviceCategoryD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android5media10ISoundDose19AudioDeviceCategoryD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android5media10ISoundDose19AudioDeviceCategory13writeToParcelEPNS_6ParcelE"
+    },
+    {
+     "mangled_component_name" : "_ZN7android5media10ISoundDose19AudioDeviceCategory14readFromParcelEPKNS_6ParcelE"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android10Parcelable12getStabilityEv"
+    }
+   ]
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
      "referenced_type" : "_ZTIN7android10IInterfaceE"
     }
    ],
@@ -94169,6 +94383,14 @@
     {
      "is_pure" : true,
      "mangled_component_name" : "_ZN7android5media10ISoundDose13setCsdEnabledEb"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android5media10ISoundDose31initCachedAudioDeviceCategoriesERKNSt3__16vectorINS1_19AudioDeviceCategoryENS2_9allocatorIS4_EEEE"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android5media10ISoundDose22setAudioDeviceCategoryERKNS1_19AudioDeviceCategoryE"
     },
     {
      "is_pure" : true,
@@ -94262,7 +94484,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN7android5media11AudioClientE",
    "self_type" : "_ZTIN7android5media11AudioClientE",
-   "size" : 84,
+   "size" : 88,
    "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/audioclient-types-aidl-cpp-source/gen/include/android/media/AudioClient.h",
    "vtable_components" :
    [
@@ -94405,6 +94627,14 @@
     {
      "is_pure" : true,
      "mangled_component_name" : "_ZN7android5media10ISoundDose13setCsdEnabledEb"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android5media10ISoundDose31initCachedAudioDeviceCategoriesERKNSt3__16vectorINS1_19AudioDeviceCategoryENS2_9allocatorIS4_EEEE"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android5media10ISoundDose22setAudioDeviceCategoryERKNS1_19AudioDeviceCategoryE"
     },
     {
      "is_pure" : true,
@@ -95706,7 +95936,7 @@
    "referenced_type" : "_ZTIN7android5media14IPlayerDefaultE",
    "self_type" : "_ZTIN7android5media14IPlayerDefaultE",
    "size" : 12,
-   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/libaudioclient/android_x86_silvermont_static_cfi/gen/aidl/android/media/IPlayer.h",
+   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/libaudioclient/android_x86_silvermont_static_cfi/e560d7b19ebf7276b3e850d3d346dec8/gen/aidl/android/media/IPlayer.h",
    "vtable_components" :
    [
     {
@@ -96211,7 +96441,7 @@
    "referenced_type" : "_ZTIN7android5media16IPlayerDelegatorE",
    "self_type" : "_ZTIN7android5media16IPlayerDelegatorE",
    "size" : 28,
-   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/libaudioclient/android_x86_silvermont_static_cfi/gen/aidl/android/media/BnPlayer.h",
+   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/libaudioclient/android_x86_silvermont_static_cfi/e560d7b19ebf7276b3e850d3d346dec8/gen/aidl/android/media/BnPlayer.h",
    "vtable_components" :
    [
     {
@@ -97056,6 +97286,12 @@
      "mangled_component_name" : "_ZN7android5media17ISoundDoseDefault13setCsdEnabledEb"
     },
     {
+     "mangled_component_name" : "_ZN7android5media17ISoundDoseDefault31initCachedAudioDeviceCategoriesERKNSt3__16vectorINS0_10ISoundDose19AudioDeviceCategoryENS2_9allocatorIS5_EEEE"
+    },
+    {
+     "mangled_component_name" : "_ZN7android5media17ISoundDoseDefault22setAudioDeviceCategoryERKNS0_10ISoundDose19AudioDeviceCategoryE"
+    },
+    {
      "mangled_component_name" : "_ZN7android5media17ISoundDoseDefault22getOutputRs2UpperBoundEPf"
     },
     {
@@ -97443,52 +97679,52 @@
     },
     {
      "field_name" : "sharedBuffer",
-     "field_offset" : 2080,
+     "field_offset" : 2112,
      "referenced_type" : "_ZTINSt3__18optionalIN7android5media16SharedFileRegionEEE"
     },
     {
      "field_name" : "notificationsPerBuffer",
-     "field_offset" : 2368,
+     "field_offset" : 2400,
      "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "speed",
-     "field_offset" : 2400,
+     "field_offset" : 2432,
      "referenced_type" : "_ZTIf"
     },
     {
      "field_name" : "audioTrackCallback",
-     "field_offset" : 2432,
+     "field_offset" : 2464,
      "referenced_type" : "_ZTIN7android2spINS_5media19IAudioTrackCallbackEEE"
     },
     {
      "field_name" : "opPackageName",
-     "field_offset" : 2464,
+     "field_offset" : 2496,
      "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
     },
     {
      "field_name" : "flags",
-     "field_offset" : 2560,
+     "field_offset" : 2592,
      "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "frameCount",
-     "field_offset" : 2592,
+     "field_offset" : 2624,
      "referenced_type" : "_ZTIx"
     },
     {
      "field_name" : "notificationFrameCount",
-     "field_offset" : 2656,
+     "field_offset" : 2688,
      "referenced_type" : "_ZTIx"
     },
     {
      "field_name" : "selectedDeviceId",
-     "field_offset" : 2720,
+     "field_offset" : 2752,
      "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "sessionId",
-     "field_offset" : 2752,
+     "field_offset" : 2784,
      "referenced_type" : "_ZTIi"
     }
    ],
@@ -97497,7 +97733,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN7android5media18CreateTrackRequestE",
    "self_type" : "_ZTIN7android5media18CreateTrackRequestE",
-   "size" : 348,
+   "size" : 352,
    "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/audioflinger-aidl-cpp-source/gen/include/android/media/CreateTrackRequest.h",
    "vtable_components" :
    [
@@ -98112,12 +98348,12 @@
     },
     {
      "field_name" : "probe",
-     "field_offset" : 1984,
+     "field_offset" : 2016,
      "referenced_type" : "_ZTIb"
     },
     {
      "field_name" : "notifyFramesProcessed",
-     "field_offset" : 1992,
+     "field_offset" : 2024,
      "referenced_type" : "_ZTIb"
     }
    ],
@@ -98126,7 +98362,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN7android5media19CreateEffectRequestE",
    "self_type" : "_ZTIN7android5media19CreateEffectRequestE",
-   "size" : 252,
+   "size" : 256,
    "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/audioflinger-aidl-cpp-source/gen/include/android/media/CreateEffectRequest.h",
    "vtable_components" :
    [
@@ -98183,37 +98419,37 @@
     },
     {
      "field_name" : "riid",
-     "field_offset" : 1280,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "maxSharedAudioHistoryMs",
      "field_offset" : 1312,
      "referenced_type" : "_ZTIi"
     },
     {
-     "field_name" : "flags",
+     "field_name" : "maxSharedAudioHistoryMs",
      "field_offset" : 1344,
      "referenced_type" : "_ZTIi"
     },
     {
-     "field_name" : "frameCount",
+     "field_name" : "flags",
      "field_offset" : 1376,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "frameCount",
+     "field_offset" : 1408,
      "referenced_type" : "_ZTIx"
     },
     {
      "field_name" : "notificationFrameCount",
-     "field_offset" : 1440,
+     "field_offset" : 1472,
      "referenced_type" : "_ZTIx"
     },
     {
      "field_name" : "selectedDeviceId",
-     "field_offset" : 1504,
+     "field_offset" : 1536,
      "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "sessionId",
-     "field_offset" : 1536,
+     "field_offset" : 1568,
      "referenced_type" : "_ZTIi"
     }
    ],
@@ -98222,7 +98458,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN7android5media19CreateRecordRequestE",
    "self_type" : "_ZTIN7android5media19CreateRecordRequestE",
-   "size" : 196,
+   "size" : 200,
    "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/audioflinger-aidl-cpp-source/gen/include/android/media/CreateRecordRequest.h",
    "vtable_components" :
    [
@@ -98323,18 +98559,23 @@
      "referenced_type" : "_ZTIi"
     },
     {
-     "field_name" : "outputId",
+     "field_name" : "afTrackFlags",
      "field_offset" : 704,
      "referenced_type" : "_ZTIi"
     },
     {
-     "field_name" : "portId",
+     "field_name" : "outputId",
      "field_offset" : 736,
      "referenced_type" : "_ZTIi"
     },
     {
-     "field_name" : "audioTrack",
+     "field_name" : "portId",
      "field_offset" : 768,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "audioTrack",
+     "field_offset" : 800,
      "referenced_type" : "_ZTIN7android2spINS_5media11IAudioTrackEEE"
     }
    ],
@@ -98343,7 +98584,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN7android5media19CreateTrackResponseE",
    "self_type" : "_ZTIN7android5media19CreateTrackResponseE",
-   "size" : 100,
+   "size" : 104,
    "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/audioflinger-aidl-cpp-source/gen/include/android/media/CreateTrackResponse.h",
    "vtable_components" :
    [
@@ -98731,6 +98972,12 @@
     },
     {
      "mangled_component_name" : "_ZN7android5media19ISoundDoseDelegator13setCsdEnabledEb"
+    },
+    {
+     "mangled_component_name" : "_ZN7android5media19ISoundDoseDelegator31initCachedAudioDeviceCategoriesERKNSt3__16vectorINS0_10ISoundDose19AudioDeviceCategoryENS2_9allocatorIS5_EEEE"
+    },
+    {
+     "mangled_component_name" : "_ZN7android5media19ISoundDoseDelegator22setAudioDeviceCategoryERKNS0_10ISoundDose19AudioDeviceCategoryE"
     },
     {
      "mangled_component_name" : "_ZN7android5media19ISoundDoseDelegator22getOutputRs2UpperBoundEPf"
@@ -100028,6 +100275,10 @@
      "mangled_component_name" : "_ZN7android5media20IAudioFlingerService20getAudioPolicyConfigEPNS0_17AudioPolicyConfigE"
     },
     {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android5media20IAudioFlingerService15getAudioMixPortERKNS0_11AudioPortFwES4_PS2_"
+    },
+    {
      "kind" : "vcall_offset"
     },
     {
@@ -100559,6 +100810,10 @@
      "mangled_component_name" : "_ZN7android5media20IAudioFlingerService20getAudioPolicyConfigEPNS0_17AudioPolicyConfigE"
     },
     {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android5media20IAudioFlingerService15getAudioMixPortERKNS0_11AudioPortFwES4_PS2_"
+    },
+    {
      "mangled_component_name" : "_ZN7android11BnInterfaceINS_5media20IAudioFlingerServiceEE19queryLocalInterfaceERKNS_8String16E"
     },
     {
@@ -100937,6 +101192,9 @@
      "mangled_component_name" : "_ZN7android5media21BpAudioFlingerService20getAudioPolicyConfigEPNS0_17AudioPolicyConfigE"
     },
     {
+     "mangled_component_name" : "_ZN7android5media21BpAudioFlingerService15getAudioMixPortERKNS0_11AudioPortFwES4_PS2_"
+    },
+    {
      "component_value" : 16,
      "kind" : "vbase_offset"
     },
@@ -101088,16 +101346,16 @@
     {
      "field_name" : "position",
      "field_offset" : 32,
-     "referenced_type" : "_ZTIi"
+     "referenced_type" : "_ZTIx"
     },
     {
      "field_name" : "sec",
-     "field_offset" : 64,
+     "field_offset" : 96,
      "referenced_type" : "_ZTIx"
     },
     {
      "field_name" : "nsec",
-     "field_offset" : 128,
+     "field_offset" : 160,
      "referenced_type" : "_ZTIi"
     }
    ],
@@ -101106,7 +101364,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN7android5media22AudioTimestampInternalE",
    "self_type" : "_ZTIN7android5media22AudioTimestampInternalE",
-   "size" : 20,
+   "size" : 24,
    "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/audioclient-types-aidl-cpp-source/gen/include/android/media/AudioTimestampInternal.h",
    "vtable_components" :
    [
@@ -102385,6 +102643,9 @@
      "mangled_component_name" : "_ZN7android5media27IAudioFlingerServiceDefault20getAudioPolicyConfigEPNS0_17AudioPolicyConfigE"
     },
     {
+     "mangled_component_name" : "_ZN7android5media27IAudioFlingerServiceDefault15getAudioMixPortERKNS0_11AudioPortFwES4_PS2_"
+    },
+    {
      "kind" : "vcall_offset"
     },
     {
@@ -103218,6 +103479,9 @@
     },
     {
      "mangled_component_name" : "_ZN7android5media29IAudioFlingerServiceDelegator20getAudioPolicyConfigEPNS0_17AudioPolicyConfigE"
+    },
+    {
+     "mangled_component_name" : "_ZN7android5media29IAudioFlingerServiceDelegator15getAudioMixPortERKNS0_11AudioPortFwES4_PS2_"
     },
     {
      "mangled_component_name" : "_ZN7android11BnInterfaceINS_5media20IAudioFlingerServiceEE19queryLocalInterfaceERKNS_8String16E"
@@ -106494,7 +106758,7 @@
    "referenced_type" : "_ZTIN7android5media7IPlayerE",
    "self_type" : "_ZTIN7android5media7IPlayerE",
    "size" : 12,
-   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/libaudioclient/android_x86_silvermont_static_cfi/gen/aidl/android/media/IPlayer.h",
+   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/libaudioclient/android_x86_silvermont_static_cfi/e560d7b19ebf7276b3e850d3d346dec8/gen/aidl/android/media/IPlayer.h",
    "vtable_components" :
    [
     {
@@ -106611,7 +106875,7 @@
    "referenced_type" : "_ZTIN7android5media8BnPlayerE",
    "self_type" : "_ZTIN7android5media8BnPlayerE",
    "size" : 24,
-   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/libaudioclient/android_x86_silvermont_static_cfi/gen/aidl/android/media/BnPlayer.h",
+   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/libaudioclient/android_x86_silvermont_static_cfi/e560d7b19ebf7276b3e850d3d346dec8/gen/aidl/android/media/BnPlayer.h",
    "vtable_components" :
    [
     {
@@ -107146,6 +107410,12 @@
      "access" : "private",
      "field_name" : "mEnforceNoDataAvail",
      "field_offset" : 400,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mServiceFuzzing",
+     "field_offset" : 408,
      "referenced_type" : "_ZTIb"
     },
     {
@@ -108434,28 +108704,33 @@
      "referenced_type" : "_ZTIi"
     },
     {
-     "field_name" : "packageName",
+     "field_name" : "deviceId",
      "field_offset" : 96,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "packageName",
+     "field_offset" : 128,
      "referenced_type" : "_ZTINSt3__18optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEE"
     },
     {
      "field_name" : "attributionTag",
-     "field_offset" : 224,
+     "field_offset" : 256,
      "referenced_type" : "_ZTINSt3__18optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEE"
     },
     {
      "field_name" : "token",
-     "field_offset" : 352,
+     "field_offset" : 384,
      "referenced_type" : "_ZTIN7android2spINS_7IBinderEEE"
     },
     {
      "field_name" : "renouncedPermissions",
-     "field_offset" : 384,
+     "field_offset" : 416,
      "referenced_type" : "_ZTINSt3__18optionalINS_6vectorINS0_INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEEEE"
     },
     {
      "field_name" : "next",
-     "field_offset" : 512,
+     "field_offset" : 544,
      "referenced_type" : "_ZTINSt3__16vectorIN7android7content22AttributionSourceStateENS_9allocatorIS3_EEEE"
     }
    ],
@@ -108464,7 +108739,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN7android7content22AttributionSourceStateE",
    "self_type" : "_ZTIN7android7content22AttributionSourceStateE",
-   "size" : 76,
+   "size" : 80,
    "source_file" : "out/soong/.intermediates/frameworks/native/libs/permission/framework-permission-aidl-cpp-source/gen/include/android/content/AttributionSourceState.h",
    "vtable_components" :
    [

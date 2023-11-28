@@ -547,6 +547,129 @@
    "name" : "AParcel_writeUint64Array"
   },
   {
+   "name" : "APersistableBundle_delete"
+  },
+  {
+   "name" : "APersistableBundle_dup"
+  },
+  {
+   "name" : "APersistableBundle_erase"
+  },
+  {
+   "name" : "APersistableBundle_getBoolean"
+  },
+  {
+   "name" : "APersistableBundle_getBooleanKeys"
+  },
+  {
+   "name" : "APersistableBundle_getBooleanVector"
+  },
+  {
+   "name" : "APersistableBundle_getBooleanVectorKeys"
+  },
+  {
+   "name" : "APersistableBundle_getDouble"
+  },
+  {
+   "name" : "APersistableBundle_getDoubleKeys"
+  },
+  {
+   "name" : "APersistableBundle_getDoubleVector"
+  },
+  {
+   "name" : "APersistableBundle_getDoubleVectorKeys"
+  },
+  {
+   "name" : "APersistableBundle_getInt"
+  },
+  {
+   "name" : "APersistableBundle_getIntKeys"
+  },
+  {
+   "name" : "APersistableBundle_getIntVector"
+  },
+  {
+   "name" : "APersistableBundle_getIntVectorKeys"
+  },
+  {
+   "name" : "APersistableBundle_getLong"
+  },
+  {
+   "name" : "APersistableBundle_getLongKeys"
+  },
+  {
+   "name" : "APersistableBundle_getLongVector"
+  },
+  {
+   "name" : "APersistableBundle_getLongVectorKeys"
+  },
+  {
+   "name" : "APersistableBundle_getPersistableBundle"
+  },
+  {
+   "name" : "APersistableBundle_getPersistableBundleKeys"
+  },
+  {
+   "name" : "APersistableBundle_getString"
+  },
+  {
+   "name" : "APersistableBundle_getStringKeys"
+  },
+  {
+   "name" : "APersistableBundle_getStringVector"
+  },
+  {
+   "name" : "APersistableBundle_getStringVectorKeys"
+  },
+  {
+   "name" : "APersistableBundle_isEqual"
+  },
+  {
+   "name" : "APersistableBundle_new"
+  },
+  {
+   "name" : "APersistableBundle_putBoolean"
+  },
+  {
+   "name" : "APersistableBundle_putBooleanVector"
+  },
+  {
+   "name" : "APersistableBundle_putDouble"
+  },
+  {
+   "name" : "APersistableBundle_putDoubleVector"
+  },
+  {
+   "name" : "APersistableBundle_putInt"
+  },
+  {
+   "name" : "APersistableBundle_putIntVector"
+  },
+  {
+   "name" : "APersistableBundle_putLong"
+  },
+  {
+   "name" : "APersistableBundle_putLongVector"
+  },
+  {
+   "name" : "APersistableBundle_putPersistableBundle"
+  },
+  {
+   "name" : "APersistableBundle_putString"
+  },
+  {
+   "name" : "APersistableBundle_putStringVector"
+  },
+  {
+   "name" : "APersistableBundle_readFromParcel"
+  },
+  {
+   "name" : "APersistableBundle_size"
+  },
+  {
+   "name" : "APersistableBundle_writeToParcel"
+  },
+  {
    "name" : "AServiceManager_NotificationRegistration_delete"
   },
   {
@@ -1808,6 +1931,24 @@
    "return_type" : "_ZTIPa",
    "self_type" : "_ZTIFPaP7_JNIEnvP11_jbyteArrayPhE",
    "source_file" : "libnativehelper/include_jni/jni.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFPciPvE",
+   "name" : "char *(int, void *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "referenced_type" : "_ZTIFPciPvE",
+   "return_type" : "_ZTIPc",
+   "self_type" : "_ZTIFPciPvE",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
   },
   {
    "alignment" : 4,
@@ -7954,6 +8095,810 @@
    "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
+   "function_name" : "APersistableBundle_delete",
+   "linker_set_key" : "APersistableBundle_delete",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP18APersistableBundle"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_dup",
+   "linker_set_key" : "APersistableBundle_dup",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK18APersistableBundle"
+    }
+   ],
+   "return_type" : "_ZTIP18APersistableBundle",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_erase",
+   "linker_set_key" : "APersistableBundle_erase",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_getBoolean",
+   "linker_set_key" : "APersistableBundle_getBoolean",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPb"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_getBooleanKeys",
+   "linker_set_key" : "APersistableBundle_getBooleanKeys",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPPc"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPFPciPvE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_getBooleanVector",
+   "linker_set_key" : "APersistableBundle_getBooleanVector",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPb"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_getBooleanVectorKeys",
+   "linker_set_key" : "APersistableBundle_getBooleanVectorKeys",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPPc"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPFPciPvE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_getDouble",
+   "linker_set_key" : "APersistableBundle_getDouble",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPd"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_getDoubleKeys",
+   "linker_set_key" : "APersistableBundle_getDoubleKeys",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPPc"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPFPciPvE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_getDoubleVector",
+   "linker_set_key" : "APersistableBundle_getDoubleVector",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPd"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_getDoubleVectorKeys",
+   "linker_set_key" : "APersistableBundle_getDoubleVectorKeys",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPPc"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPFPciPvE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_getInt",
+   "linker_set_key" : "APersistableBundle_getInt",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_getIntKeys",
+   "linker_set_key" : "APersistableBundle_getIntKeys",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPPc"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPFPciPvE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_getIntVector",
+   "linker_set_key" : "APersistableBundle_getIntVector",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_getIntVectorKeys",
+   "linker_set_key" : "APersistableBundle_getIntVectorKeys",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPPc"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPFPciPvE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_getLong",
+   "linker_set_key" : "APersistableBundle_getLong",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPl"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_getLongKeys",
+   "linker_set_key" : "APersistableBundle_getLongKeys",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPPc"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPFPciPvE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_getLongVector",
+   "linker_set_key" : "APersistableBundle_getLongVector",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPl"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_getLongVectorKeys",
+   "linker_set_key" : "APersistableBundle_getLongVectorKeys",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPPc"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPFPciPvE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_getPersistableBundle",
+   "linker_set_key" : "APersistableBundle_getPersistableBundle",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPP18APersistableBundle"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_getPersistableBundleKeys",
+   "linker_set_key" : "APersistableBundle_getPersistableBundleKeys",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPPc"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPFPciPvE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_getString",
+   "linker_set_key" : "APersistableBundle_getString",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPPc"
+    },
+    {
+     "referenced_type" : "_ZTIPFPciPvE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_getStringKeys",
+   "linker_set_key" : "APersistableBundle_getStringKeys",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPPc"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPFPciPvE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_getStringVector",
+   "linker_set_key" : "APersistableBundle_getStringVector",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPPc"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPFPciPvE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_getStringVectorKeys",
+   "linker_set_key" : "APersistableBundle_getStringVectorKeys",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPPc"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPFPciPvE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_isEqual",
+   "linker_set_key" : "APersistableBundle_isEqual",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPK18APersistableBundle"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_new",
+   "linker_set_key" : "APersistableBundle_new",
+   "return_type" : "_ZTIP18APersistableBundle",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_putBoolean",
+   "linker_set_key" : "APersistableBundle_putBoolean",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_putBooleanVector",
+   "linker_set_key" : "APersistableBundle_putBooleanVector",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPKb"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_putDouble",
+   "linker_set_key" : "APersistableBundle_putDouble",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTId"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_putDoubleVector",
+   "linker_set_key" : "APersistableBundle_putDoubleVector",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPKd"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_putInt",
+   "linker_set_key" : "APersistableBundle_putInt",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_putIntVector",
+   "linker_set_key" : "APersistableBundle_putIntVector",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_putLong",
+   "linker_set_key" : "APersistableBundle_putLong",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_putLongVector",
+   "linker_set_key" : "APersistableBundle_putLongVector",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPKl"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_putPersistableBundle",
+   "linker_set_key" : "APersistableBundle_putPersistableBundle",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPK18APersistableBundle"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_putString",
+   "linker_set_key" : "APersistableBundle_putString",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_putStringVector",
+   "linker_set_key" : "APersistableBundle_putStringVector",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPKPKc"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_readFromParcel",
+   "linker_set_key" : "APersistableBundle_readFromParcel",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK7AParcel"
+    },
+    {
+     "referenced_type" : "_ZTIPP18APersistableBundle"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_size",
+   "linker_set_key" : "APersistableBundle_size",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP18APersistableBundle"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "function_name" : "APersistableBundle_writeToParcel",
+   "linker_set_key" : "APersistableBundle_writeToParcel",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK18APersistableBundle"
+    },
+    {
+     "referenced_type" : "_ZTIP7AParcel"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
    "function_name" : "AServiceManager_NotificationRegistration_delete",
    "linker_set_key" : "AServiceManager_NotificationRegistration_delete",
    "parameters" :
@@ -8526,6 +9471,15 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIP18APersistableBundle",
+   "name" : "APersistableBundle *",
+   "referenced_type" : "_ZTI18APersistableBundle",
+   "self_type" : "_ZTIP18APersistableBundle",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP23AIBinder_DeathRecipient",
    "name" : "AIBinder_DeathRecipient *",
    "referenced_type" : "_ZTI23AIBinder_DeathRecipient",
@@ -9018,6 +9972,15 @@
    "self_type" : "_ZTIPFPaP7_JNIEnvP11_jbyteArrayPhE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPFPciPvE",
+   "name" : "char *(*)(int, void *)",
+   "referenced_type" : "_ZTIFPciPvE",
+   "self_type" : "_ZTIPFPciPvE",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
   },
   {
    "alignment" : 8,
@@ -10830,6 +11793,15 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIPK18APersistableBundle",
+   "name" : "const APersistableBundle *",
+   "referenced_type" : "_ZTIK18APersistableBundle",
+   "self_type" : "_ZTIPK18APersistableBundle",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK18JNIInvokeInterface",
    "name" : "const JNIInvokeInterface *",
    "referenced_type" : "_ZTIK18JNIInvokeInterface",
@@ -10902,12 +11874,30 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIPKPKc",
+   "name" : "const char *const *",
+   "referenced_type" : "_ZTIKPKc",
+   "self_type" : "_ZTIPKPKc",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPKa",
    "name" : "const signed char *",
    "referenced_type" : "_ZTIKa",
    "self_type" : "_ZTIPKa",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKb",
+   "name" : "const bool *",
+   "referenced_type" : "_ZTIKb",
+   "self_type" : "_ZTIPKb",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
   },
   {
    "alignment" : 8,
@@ -11016,6 +12006,15 @@
    "self_type" : "_ZTIPN7android6ParcelE",
    "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_libbinder.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPP18APersistableBundle",
+   "name" : "APersistableBundle **",
+   "referenced_type" : "_ZTIP18APersistableBundle",
+   "self_type" : "_ZTIPP18APersistableBundle",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
   },
   {
    "alignment" : 8,
@@ -11314,6 +12313,16 @@
   {
    "alignment" : 8,
    "is_const" : true,
+   "linker_set_key" : "_ZTIK18APersistableBundle",
+   "name" : "const APersistableBundle",
+   "referenced_type" : "_ZTI18APersistableBundle",
+   "self_type" : "_ZTIK18APersistableBundle",
+   "size" : 272,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
    "linker_set_key" : "_ZTIK18JNIInvokeInterface",
    "name" : "const JNIInvokeInterface",
    "referenced_type" : "_ZTI18JNIInvokeInterface",
@@ -11412,6 +12421,16 @@
    "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_libbinder.h"
   },
   {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKPKc",
+   "name" : "const char *const",
+   "referenced_type" : "_ZTIPKc",
+   "self_type" : "_ZTIKPKc",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+  },
+  {
    "alignment" : 1,
    "is_const" : true,
    "linker_set_key" : "_ZTIKa",
@@ -11420,6 +12439,16 @@
    "self_type" : "_ZTIKa",
    "size" : 1,
    "source_file" : "libnativehelper/include_jni/jni.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKb",
+   "name" : "const bool",
+   "referenced_type" : "_ZTIb",
+   "self_type" : "_ZTIKb",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
   },
   {
    "alignment" : 1,

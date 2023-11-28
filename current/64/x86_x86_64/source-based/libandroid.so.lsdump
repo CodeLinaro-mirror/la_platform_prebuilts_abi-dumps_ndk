@@ -800,6 +800,9 @@
    "name" : "APerformanceHint_setIHintManagerForTesting"
   },
   {
+   "name" : "APerformanceHint_setPreferPowerEfficiency"
+  },
+  {
    "name" : "APerformanceHint_setThreads"
   },
   {
@@ -2434,6 +2437,60 @@
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h",
    "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_CATEGORY_DEFAULT"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_CATEGORY_NO_PREFERENCE"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_CATEGORY_LOW"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_CATEGORY_NORMAL"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_CATEGORY_HIGH"
+    }
+   ],
+   "linker_set_key" : "_ZTI42$ANATIVEWINDOW_FRAME_RATE_CATEGORY_DEFAULT",
+   "name" : "(unnamed)",
+   "referenced_type" : "_ZTI42$ANATIVEWINDOW_FRAME_RATE_CATEGORY_DEFAULT",
+   "self_type" : "_ZTI42$ANATIVEWINDOW_FRAME_RATE_CATEGORY_DEFAULT",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_SELF"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_OVERRIDE_CHILDREN"
+    }
+   ],
+   "linker_set_key" : "_ZTI62$ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_OVERRIDE_CHILDREN",
+   "name" : "(unnamed)",
+   "referenced_type" : "_ZTI62$ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_OVERRIDE_CHILDREN",
+   "self_type" : "_ZTI62$ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_OVERRIDE_CHILDREN",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h",
+   "underlying_type" : "_ZTIj"
   }
  ],
  "function_types" :
@@ -3099,6 +3156,15 @@
  "global_vars" : [],
  "lvalue_reference_types" :
  [
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN4aidl7android8hardware12NativeWindowE",
+   "name" : "const aidl::android::hardware::NativeWindow &",
+   "referenced_type" : "_ZTIKN4aidl7android8hardware12NativeWindowE",
+   "self_type" : "_ZTIRKN4aidl7android8hardware12NativeWindowE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/nativewindow/include/android/native_window_aidl.h"
+  },
   {
    "alignment" : 4,
    "linker_set_key" : "_ZTIRKN4aidl7android8hardware14HardwareBufferE",
@@ -4122,6 +4188,52 @@
    "self_type" : "_ZTI22AHdrMetadata_smpte2086",
    "size" : 40,
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hdr_metadata.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "frameNumber",
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "frameTimelineVsyncId",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIx"
+    },
+    {
+     "field_name" : "inputEventId",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "startTimeNanos",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTIx"
+    },
+    {
+     "field_name" : "useForRefreshRateSelection",
+     "field_offset" : 224,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "skippedFrameVsyncId",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTIx"
+    },
+    {
+     "field_name" : "skippedFrameStartTimeNanos",
+     "field_offset" : 320,
+     "referenced_type" : "_ZTIx"
+    }
+   ],
+   "linker_set_key" : "_ZTI30ANativeWindowFrameTimelineInfo",
+   "name" : "ANativeWindowFrameTimelineInfo",
+   "referenced_type" : "_ZTI30ANativeWindowFrameTimelineInfo",
+   "self_type" : "_ZTI30ANativeWindowFrameTimelineInfo",
+   "size" : 48,
+   "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h"
   },
   {
    "alignment" : 4,

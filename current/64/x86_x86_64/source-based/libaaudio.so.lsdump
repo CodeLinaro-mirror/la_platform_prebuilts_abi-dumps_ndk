@@ -209,6 +209,15 @@
   },
   {
    "alignment" : 2,
+   "linker_set_key" : "_ZTIA45_Ds",
+   "name" : "char16_t[45]",
+   "referenced_type" : "_ZTIDs",
+   "self_type" : "_ZTIA45_Ds",
+   "size" : 90,
+   "source_file" : "system/core/libutils/include/utils/String16.h"
+  },
+  {
+   "alignment" : 2,
    "linker_set_key" : "_ZTIA46_Ds",
    "name" : "char16_t[46]",
    "referenced_type" : "_ZTIDs",
@@ -2221,6 +2230,14 @@
     {
      "enum_field_value" : 10,
      "name" : "AAUDIO_INPUT_PRESET_VOICE_PERFORMANCE"
+    },
+    {
+     "enum_field_value" : 1997,
+     "name" : "AAUDIO_INPUT_PRESET_SYSTEM_ECHO_REFERENCE"
+    },
+    {
+     "enum_field_value" : 1999,
+     "name" : "AAUDIO_INPUT_PRESET_SYSTEM_HOTWORD"
     }
    ],
    "linker_set_key" : "_ZTI30$AAUDIO_INPUT_PRESET_CAMCORDER",
@@ -13973,6 +13990,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRA45_KDs",
+   "name" : "const char16_t (&)[45]",
+   "referenced_type" : "_ZTIA45_KDs",
+   "self_type" : "_ZTIRA45_KDs",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/String16.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRA46_KDs",
    "name" : "const char16_t (&)[46]",
    "referenced_type" : "_ZTIA46_KDs",
@@ -15197,6 +15223,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN7android8String1610StaticDataILj45EEE",
+   "name" : "const android::String16::StaticData<45> &",
+   "referenced_type" : "_ZTIKN7android8String1610StaticDataILj45EEE",
+   "self_type" : "_ZTIRKN7android8String1610StaticDataILj45EEE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/String16.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRKN7android8String1610StaticDataILj46EEE",
    "name" : "const android::String16::StaticData<46> &",
    "referenced_type" : "_ZTIKN7android8String1610StaticDataILj46EEE",
@@ -15995,33 +16030,6 @@
    "self_type" : "_ZTIRNSt3__15mutexE",
    "size" : 4,
    "source_file" : "system/libbase/include/android-base/thread_annotations.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRPKv",
-   "name" : "const void *&",
-   "referenced_type" : "_ZTIPKv",
-   "self_type" : "_ZTIRPKv",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRPv",
-   "name" : "void *&",
-   "referenced_type" : "_ZTIPv",
-   "self_type" : "_ZTIRPv",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRj",
-   "name" : "unsigned int &",
-   "referenced_type" : "_ZTIj",
-   "self_type" : "_ZTIRj",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
   }
  ],
  "pointer_types" :
@@ -17441,6 +17449,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android14StaticString16ILj45EEE",
+   "name" : "android::StaticString16<45> *",
+   "referenced_type" : "_ZTIN7android14StaticString16ILj45EEE",
+   "self_type" : "_ZTIPN7android14StaticString16ILj45EEE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/String16.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPN7android14StaticString16ILj46EEE",
    "name" : "android::StaticString16<46> *",
    "referenced_type" : "_ZTIN7android14StaticString16ILj46EEE",
@@ -18269,6 +18286,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android8String1610StaticDataILj45EEE",
+   "name" : "android::String16::StaticData<45> *",
+   "referenced_type" : "_ZTIN7android8String1610StaticDataILj45EEE",
+   "self_type" : "_ZTIPN7android8String1610StaticDataILj45EEE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/String16.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPN7android8String1610StaticDataILj46EEE",
    "name" : "android::String16::StaticData<46> *",
    "referenced_type" : "_ZTIN7android8String1610StaticDataILj46EEE",
@@ -18745,6 +18771,16 @@
   {
    "alignment" : 2,
    "is_const" : true,
+   "linker_set_key" : "_ZTIA45_KDs",
+   "name" : "const char16_t[45]",
+   "referenced_type" : "_ZTIA45_Ds",
+   "self_type" : "_ZTIA45_KDs",
+   "size" : 90,
+   "source_file" : "system/core/libutils/include/utils/String16.h"
+  },
+  {
+   "alignment" : 2,
+   "is_const" : true,
    "linker_set_key" : "_ZTIA46_KDs",
    "name" : "const char16_t[46]",
    "referenced_type" : "_ZTIA46_Ds",
@@ -18939,7 +18975,7 @@
    "name" : "const aaudio::StreamRequest",
    "referenced_type" : "_ZTIN6aaudio13StreamRequestE",
    "self_type" : "_ZTIKN6aaudio13StreamRequestE",
-   "size" : 192,
+   "size" : 196,
    "source_file" : "out/soong/.intermediates/frameworks/av/media/libaaudio/src/aaudio-aidl-cpp-source/gen/include/aaudio/StreamRequest.h"
   },
   {
@@ -20509,7 +20545,7 @@
    "name" : "const android::content::AttributionSourceState",
    "referenced_type" : "_ZTIN7android7content22AttributionSourceStateE",
    "self_type" : "_ZTIKN7android7content22AttributionSourceStateE",
-   "size" : 76,
+   "size" : 80,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
@@ -20720,6 +20756,16 @@
    "referenced_type" : "_ZTIN7android8String1610StaticDataILj43EEE",
    "self_type" : "_ZTIKN7android8String1610StaticDataILj43EEE",
    "size" : 92,
+   "source_file" : "system/core/libutils/include/utils/String16.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android8String1610StaticDataILj45EEE",
+   "name" : "const android::String16::StaticData<45>",
+   "referenced_type" : "_ZTIN7android8String1610StaticDataILj45EEE",
+   "self_type" : "_ZTIKN7android8String1610StaticDataILj45EEE",
+   "size" : 96,
    "source_file" : "system/core/libutils/include/utils/String16.h"
   },
   {
@@ -22350,12 +22396,12 @@
     },
     {
      "field_name" : "sharingModeMatchRequired",
-     "field_offset" : 1504,
+     "field_offset" : 1536,
      "referenced_type" : "_ZTIb"
     },
     {
      "field_name" : "inService",
-     "field_offset" : 1512,
+     "field_offset" : 1544,
      "referenced_type" : "_ZTIb"
     }
    ],
@@ -22364,7 +22410,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN6aaudio13StreamRequestE",
    "self_type" : "_ZTIN6aaudio13StreamRequestE",
-   "size" : 192,
+   "size" : 196,
    "source_file" : "out/soong/.intermediates/frameworks/av/media/libaaudio/src/aaudio-aidl-cpp-source/gen/include/aaudio/StreamRequest.h",
    "vtable_components" :
    [
@@ -24340,6 +24386,31 @@
      "access" : "private",
      "field_name" : "mData",
      "field_offset" : 32,
+     "referenced_type" : "_ZTIKN7android8String1610StaticDataILj45EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android14StaticString16ILj45EEE",
+   "name" : "android::StaticString16<45>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android14StaticString16ILj45EEE",
+   "self_type" : "_ZTIN7android14StaticString16ILj45EEE",
+   "size" : 100,
+   "source_file" : "system/core/libutils/include/utils/String16.h"
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTIN7android8String16E"
+    }
+   ],
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mData",
+     "field_offset" : 32,
      "referenced_type" : "_ZTIKN7android8String1610StaticDataILj46EEE"
     }
    ],
@@ -24919,16 +24990,6 @@
      "mangled_component_name" : "_ZN7android7RefBase13onLastWeakRefEPKv"
     }
    ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android16FlattenableUtilsE",
-   "name" : "android::FlattenableUtils",
-   "record_kind" : "class",
-   "referenced_type" : "_ZTIN7android16FlattenableUtilsE",
-   "self_type" : "_ZTIN7android16FlattenableUtilsE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/Flattenable.h"
   },
   {
    "alignment" : 4,
@@ -30768,6 +30829,12 @@
     },
     {
      "access" : "private",
+     "field_name" : "mServiceFuzzing",
+     "field_offset" : 408,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "access" : "private",
      "field_name" : "mOwner",
      "field_offset" : 416,
      "referenced_type" : "_ZTIPFvPKhjPKyjE"
@@ -31562,28 +31629,33 @@
      "referenced_type" : "_ZTIi"
     },
     {
-     "field_name" : "packageName",
+     "field_name" : "deviceId",
      "field_offset" : 96,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "packageName",
+     "field_offset" : 128,
      "referenced_type" : "_ZTINSt3__18optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEE"
     },
     {
      "field_name" : "attributionTag",
-     "field_offset" : 224,
+     "field_offset" : 256,
      "referenced_type" : "_ZTINSt3__18optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEE"
     },
     {
      "field_name" : "token",
-     "field_offset" : 352,
+     "field_offset" : 384,
      "referenced_type" : "_ZTIN7android2spINS_7IBinderEEE"
     },
     {
      "field_name" : "renouncedPermissions",
-     "field_offset" : 384,
+     "field_offset" : 416,
      "referenced_type" : "_ZTINSt3__18optionalINS_6vectorINS0_INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEEEE"
     },
     {
      "field_name" : "next",
-     "field_offset" : 512,
+     "field_offset" : 544,
      "referenced_type" : "_ZTINSt3__16vectorIN7android7content22AttributionSourceStateENS_9allocatorIS3_EEEE"
     }
    ],
@@ -31592,7 +31664,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN7android7content22AttributionSourceStateE",
    "self_type" : "_ZTIN7android7content22AttributionSourceStateE",
-   "size" : 76,
+   "size" : 80,
    "source_file" : "out/soong/.intermediates/frameworks/native/libs/permission/framework-permission-aidl-cpp-source/gen/include/android/content/AttributionSourceState.h",
    "vtable_components" :
    [
@@ -32061,6 +32133,27 @@
    "referenced_type" : "_ZTIN7android8String1610StaticDataILj43EEE",
    "self_type" : "_ZTIN7android8String1610StaticDataILj43EEE",
    "size" : 92,
+   "source_file" : "system/core/libutils/include/utils/String16.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "size",
+     "referenced_type" : "_ZTIKj"
+    },
+    {
+     "field_name" : "data",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIA45_Ds"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8String1610StaticDataILj45EEE",
+   "name" : "android::String16::StaticData<45>",
+   "referenced_type" : "_ZTIN7android8String1610StaticDataILj45EEE",
+   "self_type" : "_ZTIN7android8String1610StaticDataILj45EEE",
+   "size" : 96,
    "source_file" : "system/core/libutils/include/utils/String16.h"
   },
   {

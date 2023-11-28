@@ -11,11 +11,20 @@
   },
   {
    "alignment" : 1,
-   "linker_set_key" : "_ZTIA1024_c",
-   "name" : "char[1024]",
+   "linker_set_key" : "_ZTIA128_c",
+   "name" : "char[128]",
    "referenced_type" : "_ZTIc",
-   "self_type" : "_ZTIA1024_c",
-   "size" : 1024,
+   "self_type" : "_ZTIA128_c",
+   "size" : 128,
+   "source_file" : "bionic/libc/system_properties/include/system_properties/properties_filename.h"
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIA288_c",
+   "name" : "char[288]",
+   "referenced_type" : "_ZTIc",
+   "self_type" : "_ZTIA288_c",
+   "size" : 288,
    "source_file" : "bionic/libc/system_properties/include/system_properties/system_properties.h"
   },
   {
@@ -29,12 +38,12 @@
   },
   {
    "alignment" : 1,
-   "linker_set_key" : "_ZTIA32_c",
-   "name" : "char[32]",
+   "linker_set_key" : "_ZTIA34_c",
+   "name" : "char[34]",
    "referenced_type" : "_ZTIc",
-   "self_type" : "_ZTIA32_c",
-   "size" : 32,
-   "source_file" : "bionic/libc/system_properties/include/system_properties/system_properties.h"
+   "self_type" : "_ZTIA34_c",
+   "size" : 34,
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 1,
@@ -943,6 +952,9 @@
    "name" : "__system_properties_init"
   },
   {
+   "name" : "__system_properties_zygote_reload"
+  },
+  {
    "name" : "__system_property_add"
   },
   {
@@ -1506,6 +1518,12 @@
   },
   {
    "name" : "epoll_pwait"
+  },
+  {
+   "name" : "epoll_pwait2"
+  },
+  {
+   "name" : "epoll_pwait2_64"
   },
   {
    "name" : "epoll_pwait64"
@@ -4092,6 +4110,9 @@
    "name" : "strerror_r"
   },
   {
+   "name" : "strerrorname_np"
+  },
+  {
    "name" : "strftime"
   },
   {
@@ -4287,6 +4308,9 @@
    "name" : "tcgetsid"
   },
   {
+   "name" : "tcgetwinsize"
+  },
+  {
    "name" : "tcsendbreak"
   },
   {
@@ -4294,6 +4318,9 @@
   },
   {
    "name" : "tcsetpgrp"
+  },
+  {
+   "name" : "tcsetwinsize"
   },
   {
    "name" : "tdelete"
@@ -5156,6 +5183,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIP14prop_trie_node",
+   "name" : "prop_trie_node *",
+   "referenced_type" : "_ZTI14prop_trie_node",
+   "self_type" : "_ZTIP14prop_trie_node",
+   "size" : 4,
+   "source_file" : "bionic/libc/system_properties/include/system_properties/prop_area.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIP15ContextListNode",
    "name" : "ContextListNode *",
    "referenced_type" : "_ZTI15ContextListNode",
@@ -5192,12 +5228,12 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIP7prop_bt",
-   "name" : "prop_bt *",
-   "referenced_type" : "_ZTI7prop_bt",
-   "self_type" : "_ZTIP7prop_bt",
+   "linker_set_key" : "_ZTIP18PropertiesFilename",
+   "name" : "PropertiesFilename *",
+   "referenced_type" : "_ZTI18PropertiesFilename",
+   "self_type" : "_ZTIP18PropertiesFilename",
    "size" : 4,
-   "source_file" : "bionic/libc/system_properties/include/system_properties/prop_area.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/properties_filename.h"
   },
   {
    "alignment" : 4,
@@ -5455,6 +5491,16 @@
    "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIA34_Kc",
+   "name" : "const char[34]",
+   "referenced_type" : "_ZTIA34_c",
+   "self_type" : "_ZTIA34_Kc",
+   "size" : 34,
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+  },
+  {
    "alignment" : 4,
    "is_const" : true,
    "linker_set_key" : "_ZTIK11ContextNode",
@@ -5565,10 +5611,10 @@
   {
    "alignment" : 4,
    "is_const" : true,
-   "linker_set_key" : "_ZTIKP7prop_bt",
-   "name" : "prop_bt *const",
-   "referenced_type" : "_ZTIP7prop_bt",
-   "self_type" : "_ZTIKP7prop_bt",
+   "linker_set_key" : "_ZTIKP14prop_trie_node",
+   "name" : "prop_trie_node *const",
+   "referenced_type" : "_ZTIP14prop_trie_node",
+   "self_type" : "_ZTIKP14prop_trie_node",
    "size" : 4,
    "source_file" : "bionic/libc/system_properties/include/system_properties/prop_area.h"
   },
@@ -5600,7 +5646,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIKi",
    "size" : 4,
-   "source_file" : "bionic/libc/system_properties/include/system_properties/system_properties.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/prop_area.h"
   },
   {
    "alignment" : 4,
@@ -5717,7 +5763,7 @@
      "mangled_component_name" : "_ZN13ContextsSplitD0Ev"
     },
     {
-     "mangled_component_name" : "_ZN13ContextsSplit10InitializeEbPKcPb"
+     "mangled_component_name" : "_ZN13ContextsSplit10InitializeEbPKcPbb"
     },
     {
      "mangled_component_name" : "_ZN13ContextsSplit18GetPropAreaForNameEPKc"
@@ -5735,6 +5781,47 @@
      "mangled_component_name" : "_ZN13ContextsSplit12FreeAndUnmapEv"
     }
    ]
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "namelen",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "prop",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIU7_Atomicj"
+    },
+    {
+     "field_name" : "left",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIU7_Atomicj"
+    },
+    {
+     "field_name" : "right",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIU7_Atomicj"
+    },
+    {
+     "field_name" : "children",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIU7_Atomicj"
+    },
+    {
+     "field_name" : "name",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTIA0_c"
+    }
+   ],
+   "linker_set_key" : "_ZTI14prop_trie_node",
+   "name" : "prop_trie_node",
+   "referenced_type" : "_ZTI14prop_trie_node",
+   "self_type" : "_ZTI14prop_trie_node",
+   "size" : 20,
+   "source_file" : "bionic/libc/system_properties/include/system_properties/prop_area.h"
   },
   {
    "alignment" : 4,
@@ -5778,7 +5865,7 @@
      "mangled_component_name" : "_ZN16ContextsPreSplitD0Ev"
     },
     {
-     "mangled_component_name" : "_ZN16ContextsPreSplit10InitializeEbPKcPb"
+     "mangled_component_name" : "_ZN16ContextsPreSplit10InitializeEbPKcPbb"
     },
     {
      "mangled_component_name" : "_ZN16ContextsPreSplit18GetPropAreaForNameEPKc"
@@ -5804,25 +5891,43 @@
     {
      "access" : "private",
      "field_name" : "contexts_data_",
-     "referenced_type" : "_ZTIA32_c"
+     "referenced_type" : "_ZTIA288_c"
+    },
+    {
+     "access" : "private",
+     "field_name" : "appcompat_override_contexts_data_",
+     "field_offset" : 2304,
+     "referenced_type" : "_ZTIA288_c"
     },
     {
      "access" : "private",
      "field_name" : "contexts_",
-     "field_offset" : 256,
+     "field_offset" : 4608,
+     "referenced_type" : "_ZTIP8Contexts"
+    },
+    {
+     "access" : "private",
+     "field_name" : "appcompat_override_contexts_",
+     "field_offset" : 4640,
      "referenced_type" : "_ZTIP8Contexts"
     },
     {
      "access" : "private",
      "field_name" : "initialized_",
-     "field_offset" : 288,
+     "field_offset" : 4672,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "private",
-     "field_name" : "property_filename_",
-     "field_offset" : 296,
-     "referenced_type" : "_ZTIA1024_c"
+     "field_name" : "properties_filename_",
+     "field_offset" : 4680,
+     "referenced_type" : "_ZTI18PropertiesFilename"
+    },
+    {
+     "access" : "private",
+     "field_name" : "appcompat_filename_",
+     "field_offset" : 5704,
+     "referenced_type" : "_ZTI18PropertiesFilename"
     }
    ],
    "linker_set_key" : "_ZTI16SystemProperties",
@@ -5830,7 +5935,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTI16SystemProperties",
    "self_type" : "_ZTI16SystemProperties",
-   "size" : 1064,
+   "size" : 844,
    "source_file" : "bionic/libc/system_properties/include/system_properties/system_properties.h"
   },
   {
@@ -5845,38 +5950,50 @@
    [
     {
      "access" : "private",
-     "field_name" : "filename_",
+     "field_name" : "dirname_",
      "field_offset" : 32,
      "referenced_type" : "_ZTIPKc"
     },
     {
      "access" : "private",
-     "field_name" : "property_info_area_file_",
+     "field_name" : "tree_filename_",
      "field_offset" : 64,
+     "referenced_type" : "_ZTI18PropertiesFilename"
+    },
+    {
+     "access" : "private",
+     "field_name" : "serial_filename_",
+     "field_offset" : 1088,
+     "referenced_type" : "_ZTI18PropertiesFilename"
+    },
+    {
+     "access" : "private",
+     "field_name" : "property_info_area_file_",
+     "field_offset" : 2112,
      "referenced_type" : "_ZTIN7android10properties20PropertyInfoAreaFileE"
     },
     {
      "access" : "private",
      "field_name" : "context_nodes_",
-     "field_offset" : 128,
+     "field_offset" : 2176,
      "referenced_type" : "_ZTIP11ContextNode"
     },
     {
      "access" : "private",
      "field_name" : "num_context_nodes_",
-     "field_offset" : 160,
+     "field_offset" : 2208,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "private",
      "field_name" : "context_nodes_mmap_size_",
-     "field_offset" : 192,
+     "field_offset" : 2240,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "private",
      "field_name" : "serial_prop_area_",
-     "field_offset" : 224,
+     "field_offset" : 2272,
      "referenced_type" : "_ZTIP9prop_area"
     }
    ],
@@ -5885,7 +6002,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTI18ContextsSerialized",
    "self_type" : "_ZTI18ContextsSerialized",
-   "size" : 32,
+   "size" : 288,
    "source_file" : "bionic/libc/system_properties/include/system_properties/contexts_serialized.h",
    "vtable_components" :
    [
@@ -5905,7 +6022,7 @@
      "mangled_component_name" : "_ZN18ContextsSerializedD0Ev"
     },
     {
-     "mangled_component_name" : "_ZN18ContextsSerialized10InitializeEbPKcPb"
+     "mangled_component_name" : "_ZN18ContextsSerialized10InitializeEbPKcPbb"
     },
     {
      "mangled_component_name" : "_ZN18ContextsSerialized18GetPropAreaForNameEPKc"
@@ -5923,6 +6040,24 @@
      "mangled_component_name" : "_ZN18ContextsSerialized12FreeAndUnmapEv"
     }
    ]
+  },
+  {
+   "alignment" : 1,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "filename_",
+     "referenced_type" : "_ZTIA128_c"
+    }
+   ],
+   "linker_set_key" : "_ZTI18PropertiesFilename",
+   "name" : "PropertiesFilename",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTI18PropertiesFilename",
+   "self_type" : "_ZTI18PropertiesFilename",
+   "size" : 128,
+   "source_file" : "bionic/libc/system_properties/include/system_properties/properties_filename.h"
   },
   {
    "alignment" : 4,
@@ -5972,47 +6107,6 @@
   },
   {
    "alignment" : 4,
-   "fields" :
-   [
-    {
-     "field_name" : "namelen",
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "prop",
-     "field_offset" : 32,
-     "referenced_type" : "_ZTIU7_Atomicj"
-    },
-    {
-     "field_name" : "left",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTIU7_Atomicj"
-    },
-    {
-     "field_name" : "right",
-     "field_offset" : 96,
-     "referenced_type" : "_ZTIU7_Atomicj"
-    },
-    {
-     "field_name" : "children",
-     "field_offset" : 128,
-     "referenced_type" : "_ZTIU7_Atomicj"
-    },
-    {
-     "field_name" : "name",
-     "field_offset" : 160,
-     "referenced_type" : "_ZTIA0_c"
-    }
-   ],
-   "linker_set_key" : "_ZTI7prop_bt",
-   "name" : "prop_bt",
-   "referenced_type" : "_ZTI7prop_bt",
-   "self_type" : "_ZTI7prop_bt",
-   "size" : 20,
-   "source_file" : "bionic/libc/system_properties/include/system_properties/prop_area.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTI8Contexts",
    "name" : "Contexts",
    "record_kind" : "class",
@@ -6039,7 +6133,7 @@
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN8Contexts10InitializeEbPKcPb"
+     "mangled_component_name" : "_ZN8Contexts10InitializeEbPKcPbb"
     },
     {
      "is_pure" : true,

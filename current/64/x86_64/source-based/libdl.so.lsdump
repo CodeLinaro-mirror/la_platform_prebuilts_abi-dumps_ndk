@@ -3370,6 +3370,27 @@
    "source_file" : "bionic/libc/kernel/uapi/asm-generic/posix_types.h"
   },
   {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "off",
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "len",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIy"
+    }
+   ],
+   "linker_set_key" : "_ZTI15cachestat_range",
+   "name" : "cachestat_range",
+   "referenced_type" : "_ZTI15cachestat_range",
+   "self_type" : "_ZTI15cachestat_range",
+   "size" : 16,
+   "source_file" : "bionic/libc/kernel/uapi/linux/mman.h"
+  },
+  {
    "alignment" : 4,
    "fields" :
    [
@@ -4590,6 +4611,42 @@
    "self_type" : "_ZTI9Elf64_Lib",
    "size" : 20,
    "source_file" : "bionic/libc/include/elf.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "nr_cache",
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "nr_dirty",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "nr_writeback",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "nr_evicted",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "nr_recently_evicted",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTIy"
+    }
+   ],
+   "linker_set_key" : "_ZTI9cachestat",
+   "name" : "cachestat",
+   "referenced_type" : "_ZTI9cachestat",
+   "self_type" : "_ZTI9cachestat",
+   "size" : 40,
+   "source_file" : "bionic/libc/kernel/uapi/linux/mman.h"
   },
   {
    "alignment" : 4,
