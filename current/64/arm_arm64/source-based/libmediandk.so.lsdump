@@ -1756,115 +1756,115 @@
     },
     {
      "enum_field_value" : 4128768,
-     "name" : "STANDARD_MASK"
+     "name" : "ADATASPACE_STANDARD_MASK"
     },
     {
      "enum_field_value" : 0,
-     "name" : "STANDARD_UNSPECIFIED"
+     "name" : "ADATASPACE_STANDARD_UNSPECIFIED"
     },
     {
      "enum_field_value" : 65536,
-     "name" : "STANDARD_BT709"
+     "name" : "ADATASPACE_STANDARD_BT709"
     },
     {
      "enum_field_value" : 131072,
-     "name" : "STANDARD_BT601_625"
+     "name" : "ADATASPACE_STANDARD_BT601_625"
     },
     {
      "enum_field_value" : 196608,
-     "name" : "STANDARD_BT601_625_UNADJUSTED"
+     "name" : "ADATASPACE_STANDARD_BT601_625_UNADJUSTED"
     },
     {
      "enum_field_value" : 262144,
-     "name" : "STANDARD_BT601_525"
+     "name" : "ADATASPACE_STANDARD_BT601_525"
     },
     {
      "enum_field_value" : 327680,
-     "name" : "STANDARD_BT601_525_UNADJUSTED"
+     "name" : "ADATASPACE_STANDARD_BT601_525_UNADJUSTED"
     },
     {
      "enum_field_value" : 393216,
-     "name" : "STANDARD_BT2020"
+     "name" : "ADATASPACE_STANDARD_BT2020"
     },
     {
      "enum_field_value" : 458752,
-     "name" : "STANDARD_BT2020_CONSTANT_LUMINANCE"
+     "name" : "ADATASPACE_STANDARD_BT2020_CONSTANT_LUMINANCE"
     },
     {
      "enum_field_value" : 524288,
-     "name" : "STANDARD_BT470M"
+     "name" : "ADATASPACE_STANDARD_BT470M"
     },
     {
      "enum_field_value" : 589824,
-     "name" : "STANDARD_FILM"
+     "name" : "ADATASPACE_STANDARD_FILM"
     },
     {
      "enum_field_value" : 655360,
-     "name" : "STANDARD_DCI_P3"
+     "name" : "ADATASPACE_STANDARD_DCI_P3"
     },
     {
      "enum_field_value" : 720896,
-     "name" : "STANDARD_ADOBE_RGB"
+     "name" : "ADATASPACE_STANDARD_ADOBE_RGB"
     },
     {
      "enum_field_value" : 130023424,
-     "name" : "TRANSFER_MASK"
+     "name" : "ADATASPACE_TRANSFER_MASK"
     },
     {
      "enum_field_value" : 0,
-     "name" : "TRANSFER_UNSPECIFIED"
+     "name" : "ADATASPACE_TRANSFER_UNSPECIFIED"
     },
     {
      "enum_field_value" : 4194304,
-     "name" : "TRANSFER_LINEAR"
+     "name" : "ADATASPACE_TRANSFER_LINEAR"
     },
     {
      "enum_field_value" : 8388608,
-     "name" : "TRANSFER_SRGB"
+     "name" : "ADATASPACE_TRANSFER_SRGB"
     },
     {
      "enum_field_value" : 12582912,
-     "name" : "TRANSFER_SMPTE_170M"
+     "name" : "ADATASPACE_TRANSFER_SMPTE_170M"
     },
     {
      "enum_field_value" : 16777216,
-     "name" : "TRANSFER_GAMMA2_2"
+     "name" : "ADATASPACE_TRANSFER_GAMMA2_2"
     },
     {
      "enum_field_value" : 20971520,
-     "name" : "TRANSFER_GAMMA2_6"
+     "name" : "ADATASPACE_TRANSFER_GAMMA2_6"
     },
     {
      "enum_field_value" : 25165824,
-     "name" : "TRANSFER_GAMMA2_8"
+     "name" : "ADATASPACE_TRANSFER_GAMMA2_8"
     },
     {
      "enum_field_value" : 29360128,
-     "name" : "TRANSFER_ST2084"
+     "name" : "ADATASPACE_TRANSFER_ST2084"
     },
     {
      "enum_field_value" : 33554432,
-     "name" : "TRANSFER_HLG"
+     "name" : "ADATASPACE_TRANSFER_HLG"
     },
     {
      "enum_field_value" : 939524096,
-     "name" : "RANGE_MASK"
+     "name" : "ADATASPACE_RANGE_MASK"
     },
     {
      "enum_field_value" : 0,
-     "name" : "RANGE_UNSPECIFIED"
+     "name" : "ADATASPACE_RANGE_UNSPECIFIED"
     },
     {
      "enum_field_value" : 134217728,
-     "name" : "RANGE_FULL"
+     "name" : "ADATASPACE_RANGE_FULL"
     },
     {
      "enum_field_value" : 268435456,
-     "name" : "RANGE_LIMITED"
+     "name" : "ADATASPACE_RANGE_LIMITED"
     },
     {
      "enum_field_value" : 402653184,
-     "name" : "RANGE_EXTENDED"
+     "name" : "ADATASPACE_RANGE_EXTENDED"
     },
     {
      "enum_field_value" : 406913024,
@@ -1945,7 +1945,7 @@
    "self_type" : "_ZTI10ADataSpace",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/android/data_space.h",
-   "underlying_type" : "_ZTIj"
+   "underlying_type" : "_ZTIi"
   },
   {
    "alignment" : 4,
@@ -4273,7 +4273,7 @@
      "name" : "AUDIO_LATENCY_MODE_INVALID"
     },
     {
-     "enum_field_value" : 2,
+     "enum_field_value" : 4,
      "name" : "AUDIO_LATENCY_MODE_CNT"
     }
    ],
@@ -5181,6 +5181,39 @@
    [
     {
      "enum_field_value" : 0,
+     "name" : "AHARDWAREBUFFER_STATUS_OK"
+    },
+    {
+     "enum_field_value" : -12,
+     "name" : "AHARDWAREBUFFER_STATUS_NO_MEMORY"
+    },
+    {
+     "enum_field_value" : -22,
+     "name" : "AHARDWAREBUFFER_STATUS_BAD_VALUE"
+    },
+    {
+     "enum_field_value" : -38,
+     "name" : "AHARDWAREBUFFER_STATUS_UNSUPPORTED"
+    },
+    {
+     "enum_field_value" : -2147483648,
+     "name" : "AHARDWAREBUFFER_STATUS_UNKNOWN_ERROR"
+    }
+   ],
+   "linker_set_key" : "_ZTI21AHardwareBufferStatus",
+   "name" : "AHardwareBufferStatus",
+   "referenced_type" : "_ZTI21AHardwareBufferStatus",
+   "self_type" : "_ZTI21AHardwareBufferStatus",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
      "name" : "AUDIO_UNIQUE_ID_USE_UNSPECIFIED"
     },
     {
@@ -5499,6 +5532,27 @@
    "self_type" : "_ZTI22ANativeWindowTransform",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/android/native_window.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 2,
+     "name" : "AHARDWAREBUFFER_CREATE_FROM_HANDLE_METHOD_REGISTER"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "AHARDWAREBUFFER_CREATE_FROM_HANDLE_METHOD_CLONE"
+    }
+   ],
+   "linker_set_key" : "_ZTI22CreateFromHandleMethod",
+   "name" : "CreateFromHandleMethod",
+   "referenced_type" : "_ZTI22CreateFromHandleMethod",
+   "self_type" : "_ZTI22CreateFromHandleMethod",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -7057,6 +7111,10 @@
     {
      "enum_field_value" : 102,
      "name" : "ANATIVEWINDOW_FRAME_RATE_MIN"
+    },
+    {
+     "enum_field_value" : 103,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_GTE"
     }
    ],
    "linker_set_key" : "_ZTI31$ANATIVEWINDOW_FRAME_RATE_EXACT",
@@ -7401,6 +7459,31 @@
    "enum_fields" :
    [
     {
+     "enum_field_value" : 131072,
+     "name" : "AHARDWAREBUFFER_USAGE_CAMERA_WRITE"
+    },
+    {
+     "enum_field_value" : 262144,
+     "name" : "AHARDWAREBUFFER_USAGE_CAMERA_READ"
+    },
+    {
+     "enum_field_value" : 393216,
+     "name" : "AHARDWAREBUFFER_USAGE_CAMERA_MASK"
+    }
+   ],
+   "linker_set_key" : "_ZTI34$AHARDWAREBUFFER_USAGE_CAMERA_MASK",
+   "name" : "(unnamed)",
+   "referenced_type" : "_ZTI34$AHARDWAREBUFFER_USAGE_CAMERA_MASK",
+   "self_type" : "_ZTI34$AHARDWAREBUFFER_USAGE_CAMERA_MASK",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
      "enum_field_value" : 1,
      "name" : "AMEDIACODEC_CONFIGURE_FLAG_ENCODE"
     },
@@ -7609,6 +7692,67 @@
    "enum_fields" :
    [
     {
+     "enum_field_value" : 5,
+     "name" : "AHARDWAREBUFFER_FORMAT_B8G8R8A8_UNORM"
+    },
+    {
+     "enum_field_value" : 842094169,
+     "name" : "AHARDWAREBUFFER_FORMAT_YV12"
+    },
+    {
+     "enum_field_value" : 538982489,
+     "name" : "AHARDWAREBUFFER_FORMAT_Y8"
+    },
+    {
+     "enum_field_value" : 540422489,
+     "name" : "AHARDWAREBUFFER_FORMAT_Y16"
+    },
+    {
+     "enum_field_value" : 32,
+     "name" : "AHARDWAREBUFFER_FORMAT_RAW16"
+    },
+    {
+     "enum_field_value" : 37,
+     "name" : "AHARDWAREBUFFER_FORMAT_RAW10"
+    },
+    {
+     "enum_field_value" : 38,
+     "name" : "AHARDWAREBUFFER_FORMAT_RAW12"
+    },
+    {
+     "enum_field_value" : 36,
+     "name" : "AHARDWAREBUFFER_FORMAT_RAW_OPAQUE"
+    },
+    {
+     "enum_field_value" : 34,
+     "name" : "AHARDWAREBUFFER_FORMAT_IMPLEMENTATION_DEFINED"
+    },
+    {
+     "enum_field_value" : 16,
+     "name" : "AHARDWAREBUFFER_FORMAT_YCbCr_422_SP"
+    },
+    {
+     "enum_field_value" : 17,
+     "name" : "AHARDWAREBUFFER_FORMAT_YCrCb_420_SP"
+    },
+    {
+     "enum_field_value" : 20,
+     "name" : "AHARDWAREBUFFER_FORMAT_YCbCr_422_I"
+    }
+   ],
+   "linker_set_key" : "_ZTI38$AHARDWAREBUFFER_FORMAT_B8G8R8A8_UNORM",
+   "name" : "(unnamed)",
+   "referenced_type" : "_ZTI38$AHARDWAREBUFFER_FORMAT_B8G8R8A8_UNORM",
+   "self_type" : "_ZTI38$AHARDWAREBUFFER_FORMAT_B8G8R8A8_UNORM",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
      "enum_field_value" : 1,
      "name" : "AMEDIAEXTRACTOR_SAMPLE_FLAG_SYNC"
     },
@@ -7705,11 +7849,15 @@
    [
     {
      "enum_field_value" : 0,
-     "name" : "ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_SELF"
+     "name" : "ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_PROPAGATE"
     },
     {
      "enum_field_value" : 1,
      "name" : "ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_OVERRIDE_CHILDREN"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_SELF"
     }
    ],
    "linker_set_key" : "_ZTI62$ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_OVERRIDE_CHILDREN",
@@ -8534,6 +8682,23 @@
    "enum_fields" :
    [
     {
+     "enum_field_value" : 0,
+     "name" : "android::trait_pointer<std::basic_string<char>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android13trait_pointerINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE6$valueE",
+   "name" : "android::trait_pointer<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>::(unnamed)",
+   "referenced_type" : "_ZTIN7android13trait_pointerINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE6$valueE",
+   "self_type" : "_ZTIN7android13trait_pointerINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE6$valueE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
      "enum_field_value" : 1,
      "name" : "android::trait_pointer<android::MediaProfiles::AudioDecoderCap *>::value"
     }
@@ -9199,6 +9364,23 @@
    [
     {
      "enum_field_value" : 0,
+     "name" : "android::trait_trivial_copy<std::basic_string<char>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE6$valueE",
+   "name" : "android::trait_trivial_copy<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>::(unnamed)",
+   "referenced_type" : "_ZTIN7android18trait_trivial_copyINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE6$valueE",
+   "self_type" : "_ZTIN7android18trait_trivial_copyINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE6$valueE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
      "name" : "android::trait_trivial_copy<android::MediaProfiles::AudioDecoderCap *>::value"
     }
    ],
@@ -9692,6 +9874,23 @@
    [
     {
      "enum_field_value" : 0,
+     "name" : "android::trait_trivial_ctor<std::basic_string<char>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE6$valueE",
+   "name" : "android::trait_trivial_ctor<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>::(unnamed)",
+   "referenced_type" : "_ZTIN7android18trait_trivial_ctorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE6$valueE",
+   "self_type" : "_ZTIN7android18trait_trivial_ctorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE6$valueE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
      "name" : "android::trait_trivial_ctor<android::MediaProfiles::AudioDecoderCap *>::value"
     }
    ],
@@ -10175,6 +10374,23 @@
    "name" : "android::trait_trivial_dtor<android::String8>::(unnamed)",
    "referenced_type" : "_ZTIN7android18trait_trivial_dtorINS_7String8EE6$valueE",
    "self_type" : "_ZTIN7android18trait_trivial_dtorINS_7String8EE6$valueE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::trait_trivial_dtor<std::basic_string<char>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE6$valueE",
+   "name" : "android::trait_trivial_dtor<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>::(unnamed)",
+   "referenced_type" : "_ZTIN7android18trait_trivial_dtorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE6$valueE",
+   "self_type" : "_ZTIN7android18trait_trivial_dtorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE6$valueE",
    "size" : 4,
    "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
    "underlying_type" : "_ZTIj"
@@ -10687,6 +10903,23 @@
    "self_type" : "_ZTIN7android18trait_trivial_moveINS_8String16EE6$valueE",
    "size" : 4,
    "source_file" : "system/core/libutils/include/utils/String16.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::trait_trivial_move<std::basic_string<char>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE6$valueE",
+   "name" : "android::trait_trivial_move<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>::(unnamed)",
+   "referenced_type" : "_ZTIN7android18trait_trivial_moveINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE6$valueE",
+   "self_type" : "_ZTIN7android18trait_trivial_moveINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE6$valueE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -11786,6 +12019,39 @@
    "name" : "android::traits<android::String8>::(unnamed)",
    "referenced_type" : "_ZTIN7android6traitsINS_7String8EE17$has_trivial_copyE",
    "self_type" : "_ZTIN7android6traitsINS_7String8EE17$has_trivial_copyE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::traits<std::basic_string<char>>::is_pointer"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "android::traits<std::basic_string<char>>::has_trivial_ctor"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "android::traits<std::basic_string<char>>::has_trivial_dtor"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "android::traits<std::basic_string<char>>::has_trivial_copy"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "android::traits<std::basic_string<char>>::has_trivial_move"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android6traitsINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE17$has_trivial_copyE",
+   "name" : "android::traits<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>::(unnamed)",
+   "referenced_type" : "_ZTIN7android6traitsINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE17$has_trivial_copyE",
+   "self_type" : "_ZTIN7android6traitsINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE17$has_trivial_copyE",
    "size" : 4,
    "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
    "underlying_type" : "_ZTIj"
@@ -32117,6 +32383,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRN7android22GraphicBufferAllocatorE",
+   "name" : "android::GraphicBufferAllocator &",
+   "referenced_type" : "_ZTIN7android22GraphicBufferAllocatorE",
+   "self_type" : "_ZTIRN7android22GraphicBufferAllocatorE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/Singleton.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRN7android22IGraphicBufferProducer17QueueBufferOutputE",
    "name" : "android::IGraphicBufferProducer::QueueBufferOutput &",
    "referenced_type" : "_ZTIN7android22IGraphicBufferProducer17QueueBufferOutputE",
@@ -38474,6 +38749,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android6VectorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "name" : "const android::Vector<std::basic_string<char, std::char_traits<char>, std::allocator<char>>> *",
+   "referenced_type" : "_ZTIKN7android6VectorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "self_type" : "_ZTIPKN7android6VectorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/Vector.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPKN7android6VectorIPNS_13MediaProfiles15AudioDecoderCapEEE",
    "name" : "const android::Vector<android::MediaProfiles::AudioDecoderCap *> *",
    "referenced_type" : "_ZTIKN7android6VectorIPNS_13MediaProfiles15AudioDecoderCapEEE",
@@ -38852,6 +39136,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIPKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char>> *",
+   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "self_type" : "_ZTIPKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPKNSt3__14hashIN7android4RectEEE",
    "name" : "const std::hash<android::Rect> *",
    "referenced_type" : "_ZTIKNSt3__14hashIN7android4RectEEE",
@@ -39082,7 +39375,7 @@
    "referenced_type" : "_ZTIN3com7android8graphics6libgui5flags23flag_provider_interfaceE",
    "self_type" : "_ZTIPN3com7android8graphics6libgui5flags23flag_provider_interfaceE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/native/libs/gui/libguiflags/android_arm_armv8-2a_cortex-a9_static_lto-none/gen/include/com_android_graphics_libgui_flags.h"
+   "source_file" : "out/soong/.intermediates/frameworks/native/libs/gui/libguiflags/android_arm_armv8-2a_cortex-a9_static/gen/include/com_android_graphics_libgui_flags.h"
   },
   {
    "alignment" : 4,
@@ -40064,6 +40357,24 @@
    "self_type" : "_ZTIPN7android22FrameEventHistoryDeltaE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/gui/include/gui/FrameTimestamps.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android22GraphicBufferAllocator16AllocationResultE",
+   "name" : "android::GraphicBufferAllocator::AllocationResult *",
+   "referenced_type" : "_ZTIN7android22GraphicBufferAllocator16AllocationResultE",
+   "self_type" : "_ZTIPN7android22GraphicBufferAllocator16AllocationResultE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/ui/include/ui/GraphicBufferAllocator.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android22GraphicBufferAllocatorE",
+   "name" : "android::GraphicBufferAllocator *",
+   "referenced_type" : "_ZTIN7android22GraphicBufferAllocatorE",
+   "self_type" : "_ZTIPN7android22GraphicBufferAllocatorE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/Singleton.h"
   },
   {
    "alignment" : 4,
@@ -41174,6 +41485,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android6VectorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "name" : "android::Vector<std::basic_string<char, std::char_traits<char>, std::allocator<char>>> *",
+   "referenced_type" : "_ZTIN7android6VectorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "self_type" : "_ZTIPN7android6VectorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/Vector.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPN7android6VectorIPNS_13MediaProfiles15AudioDecoderCapEEE",
    "name" : "android::Vector<android::MediaProfiles::AudioDecoderCap *> *",
    "referenced_type" : "_ZTIN7android6VectorIPNS_13MediaProfiles15AudioDecoderCapEEE",
@@ -41917,7 +42237,7 @@
    "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "self_type" : "_ZTIPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "size" : 4,
-   "source_file" : "frameworks/native/libs/binder/include/binder/Parcel.h"
+   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h"
   },
   {
    "alignment" : 4,
@@ -44822,6 +45142,16 @@
   {
    "alignment" : 4,
    "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android6VectorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "name" : "const android::Vector<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>",
+   "referenced_type" : "_ZTIN7android6VectorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "self_type" : "_ZTIKN7android6VectorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "size" : 20,
+   "source_file" : "system/core/libutils/include/utils/Vector.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
    "linker_set_key" : "_ZTIKN7android6VectorIPNS_13MediaProfiles15AudioDecoderCapEEE",
    "name" : "const android::Vector<android::MediaProfiles::AudioDecoderCap *>",
    "referenced_type" : "_ZTIN7android6VectorIPNS_13MediaProfiles15AudioDecoderCapEEE",
@@ -45755,7 +46085,7 @@
    "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "self_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "size" : 12,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
+   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h"
   },
   {
    "alignment" : 1,
@@ -51526,6 +51856,27 @@
    "source_file" : "system/media/audio/include/system/audio.h"
   },
   {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "name",
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "field_name" : "value",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIx"
+    }
+   ],
+   "linker_set_key" : "_ZTI26AHardwareBufferLongOptions",
+   "name" : "AHardwareBufferLongOptions",
+   "referenced_type" : "_ZTI26AHardwareBufferLongOptions",
+   "self_type" : "_ZTI26AHardwareBufferLongOptions",
+   "size" : 16,
+   "source_file" : "frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h"
+  },
+  {
    "alignment" : 4,
    "fields" :
    [
@@ -52381,7 +52732,7 @@
    "referenced_type" : "_ZTIN3com7android8graphics6libgui5flags23flag_provider_interfaceE",
    "self_type" : "_ZTIN3com7android8graphics6libgui5flags23flag_provider_interfaceE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/native/libs/gui/libguiflags/android_arm_armv8-2a_cortex-a9_static_lto-none/gen/include/com_android_graphics_libgui_flags.h",
+   "source_file" : "out/soong/.intermediates/frameworks/native/libs/gui/libguiflags/android_arm_armv8-2a_cortex-a9_static/gen/include/com_android_graphics_libgui_flags.h",
    "vtable_components" :
    [
     {
@@ -52402,6 +52753,10 @@
     {
      "is_pure" : true,
      "mangled_component_name" : "_ZN3com7android8graphics6libgui5flags23flag_provider_interface15bq_setframerateEv"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN3com7android8graphics6libgui5flags23flag_provider_interface31frametimestamps_previousreleaseEv"
     }
    ]
   },
@@ -54882,6 +55237,9 @@
      "mangled_component_name" : "_ZN7android16ConsumerListener24addAndGetFrameTimestampsEPKNS_19NewFrameEventsEntryEPNS_22FrameEventHistoryDeltaE"
     },
     {
+     "mangled_component_name" : "_ZN7android16ConsumerListener14onSetFrameRateEfaa"
+    },
+    {
      "mangled_component_name" : "_ZNK7android11BnInterfaceINS_17IConsumerListenerEE22getInterfaceDescriptorEv"
     },
     {
@@ -56153,6 +56511,9 @@
      "mangled_component_name" : "_ZN7android22IGraphicBufferProducer18setAutoPrerotationEb"
     },
     {
+     "mangled_component_name" : "_ZN7android22IGraphicBufferProducer12setFrameRateEfaa"
+    },
+    {
      "mangled_component_name" : "_ZN7android22IGraphicBufferProducer14requestBuffersERKNSt3__16vectorIiNS1_9allocatorIiEEEEPNS2_INS0_19RequestBufferOutputENS3_IS8_EEEE"
     },
     {
@@ -56733,6 +57094,9 @@
      "mangled_component_name" : "_ZN7android11BufferQueue21ProxyConsumerListener24addAndGetFrameTimestampsEPKNS_19NewFrameEventsEntryEPNS_22FrameEventHistoryDeltaE"
     },
     {
+     "mangled_component_name" : "_ZN7android11BufferQueue21ProxyConsumerListener14onSetFrameRateEfaa"
+    },
+    {
      "mangled_component_name" : "_ZNK7android11BnInterfaceINS_17IConsumerListenerEE22getInterfaceDescriptorEv"
     },
     {
@@ -57120,6 +57484,9 @@
     },
     {
      "mangled_component_name" : "_ZN7android16ConsumerListener24addAndGetFrameTimestampsEPKNS_19NewFrameEventsEntryEPNS_22FrameEventHistoryDeltaE"
+    },
+    {
+     "mangled_component_name" : "_ZN7android16ConsumerListener14onSetFrameRateEfaa"
     },
     {
      "mangled_component_name" : "_ZN7android12ConsumerBase15onLastStrongRefEPKv"
@@ -58088,6 +58455,9 @@
      "mangled_component_name" : "_ZN7android16ConsumerListener24addAndGetFrameTimestampsEPKNS_19NewFrameEventsEntryEPNS_22FrameEventHistoryDeltaE"
     },
     {
+     "mangled_component_name" : "_ZN7android16ConsumerListener14onSetFrameRateEfaa"
+    },
+    {
      "mangled_component_name" : "_ZN7android12ConsumerBase15onLastStrongRefEPKv"
     },
     {
@@ -58980,6 +59350,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android13trait_pointerINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "name" : "android::trait_pointer<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>",
+   "referenced_type" : "_ZTIN7android13trait_pointerINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "self_type" : "_ZTIN7android13trait_pointerINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "size" : 1,
+   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android13trait_pointerIPNS_13MediaProfiles15AudioDecoderCapEEE",
    "name" : "android::trait_pointer<android::MediaProfiles::AudioDecoderCap *>",
    "referenced_type" : "_ZTIN7android13trait_pointerIPNS_13MediaProfiles15AudioDecoderCapEEE",
@@ -59754,6 +60137,9 @@
      "mangled_component_name" : "_ZN7android16ConsumerListener24addAndGetFrameTimestampsEPKNS_19NewFrameEventsEntryEPNS_22FrameEventHistoryDeltaE"
     },
     {
+     "mangled_component_name" : "_ZN7android16ConsumerListener14onSetFrameRateEfaa"
+    },
+    {
      "mangled_component_name" : "_ZNK7android11BnInterfaceINS_17IConsumerListenerEE22getInterfaceDescriptorEv"
     },
     {
@@ -60306,6 +60692,9 @@
     },
     {
      "mangled_component_name" : "_ZN7android16ConsumerListener24addAndGetFrameTimestampsEPKNS_19NewFrameEventsEntryEPNS_22FrameEventHistoryDeltaE"
+    },
+    {
+     "mangled_component_name" : "_ZN7android16ConsumerListener14onSetFrameRateEfaa"
     },
     {
      "kind" : "vcall_offset"
@@ -61108,6 +61497,25 @@
    "base_specifiers" :
    [
     {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android16use_trivial_moveINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "name" : "android::use_trivial_move<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>",
+   "referenced_type" : "_ZTIN7android16use_trivial_moveINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "self_type" : "_ZTIN7android16use_trivial_moveINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "size" : 1,
+   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
     }
    ],
@@ -61480,6 +61888,9 @@
      "mangled_component_name" : "_ZN7android16ConsumerListener24addAndGetFrameTimestampsEPKNS_19NewFrameEventsEntryEPNS_22FrameEventHistoryDeltaE"
     },
     {
+     "mangled_component_name" : "_ZN7android16ConsumerListener14onSetFrameRateEfaa"
+    },
+    {
      "mangled_component_name" : "_ZNK7android17IConsumerListener22getInterfaceDescriptorEv"
     },
     {
@@ -61747,6 +62158,9 @@
     },
     {
      "mangled_component_name" : "_ZN7android16ConsumerListener24addAndGetFrameTimestampsEPKNS_19NewFrameEventsEntryEPNS_22FrameEventHistoryDeltaE"
+    },
+    {
+     "mangled_component_name" : "_ZN7android16ConsumerListener14onSetFrameRateEfaa"
     },
     {
      "mangled_component_name" : "_ZNK7android11BnInterfaceINS_17IConsumerListenerEE22getInterfaceDescriptorEv"
@@ -62249,6 +62663,9 @@
     },
     {
      "mangled_component_name" : "_ZN7android16ConsumerListener24addAndGetFrameTimestampsEPKNS_19NewFrameEventsEntryEPNS_22FrameEventHistoryDeltaE"
+    },
+    {
+     "mangled_component_name" : "_ZN7android16ConsumerListener14onSetFrameRateEfaa"
     },
     {
      "mangled_component_name" : "_ZN7android12ConsumerBase15onLastStrongRefEPKv"
@@ -62809,6 +63226,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "name" : "android::trait_trivial_copy<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>",
+   "referenced_type" : "_ZTIN7android18trait_trivial_copyINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "self_type" : "_ZTIN7android18trait_trivial_copyINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "size" : 1,
+   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android18trait_trivial_copyIPNS_13MediaProfiles15AudioDecoderCapEEE",
    "name" : "android::trait_trivial_copy<android::MediaProfiles::AudioDecoderCap *>",
    "referenced_type" : "_ZTIN7android18trait_trivial_copyIPNS_13MediaProfiles15AudioDecoderCapEEE",
@@ -63186,6 +63616,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "name" : "android::trait_trivial_ctor<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>",
+   "referenced_type" : "_ZTIN7android18trait_trivial_ctorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "self_type" : "_ZTIN7android18trait_trivial_ctorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "size" : 1,
+   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIPNS_13MediaProfiles15AudioDecoderCapEEE",
    "name" : "android::trait_trivial_ctor<android::MediaProfiles::AudioDecoderCap *>",
    "referenced_type" : "_ZTIN7android18trait_trivial_ctorIPNS_13MediaProfiles15AudioDecoderCapEEE",
@@ -63559,6 +64002,19 @@
    "template_args" :
    [
     "_ZTIN7android7String8E"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "name" : "android::trait_trivial_dtor<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>",
+   "referenced_type" : "_ZTIN7android18trait_trivial_dtorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "self_type" : "_ZTIN7android18trait_trivial_dtorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "size" : 1,
+   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
    ]
   },
   {
@@ -63949,6 +64405,19 @@
    "template_args" :
    [
     "_ZTIN7android8String16E"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "name" : "android::trait_trivial_move<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>",
+   "referenced_type" : "_ZTIN7android18trait_trivial_moveINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "self_type" : "_ZTIN7android18trait_trivial_moveINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "size" : 1,
+   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
    ]
   },
   {
@@ -64616,6 +65085,186 @@
    "source_file" : "frameworks/native/libs/gui/include/gui/FrameTimestamps.h"
   },
   {
+   "access" : "protected",
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "width",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "height",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "stride",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "format",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "layerCount",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "usage",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "size",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "requestorName",
+     "field_offset" : 288,
+     "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android22GraphicBufferAllocator11alloc_rec_tE",
+   "name" : "android::GraphicBufferAllocator::alloc_rec_t",
+   "referenced_type" : "_ZTIN7android22GraphicBufferAllocator11alloc_rec_tE",
+   "self_type" : "_ZTIN7android22GraphicBufferAllocator11alloc_rec_tE",
+   "size" : 48,
+   "source_file" : "frameworks/native/libs/ui/include/ui/GraphicBufferAllocator.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "status",
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "handle",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPK13native_handle"
+    },
+    {
+     "field_name" : "stride",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android22GraphicBufferAllocator16AllocationResultE",
+   "name" : "android::GraphicBufferAllocator::AllocationResult",
+   "referenced_type" : "_ZTIN7android22GraphicBufferAllocator16AllocationResultE",
+   "self_type" : "_ZTIN7android22GraphicBufferAllocator16AllocationResultE",
+   "size" : 12,
+   "source_file" : "frameworks/native/libs/ui/include/ui/GraphicBufferAllocator.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "name",
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "field_name" : "value",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIx"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android22GraphicBufferAllocator17AdditionalOptionsE",
+   "name" : "android::GraphicBufferAllocator::AdditionalOptions",
+   "referenced_type" : "_ZTIN7android22GraphicBufferAllocator17AdditionalOptionsE",
+   "self_type" : "_ZTIN7android22GraphicBufferAllocator17AdditionalOptionsE",
+   "size" : 16,
+   "source_file" : "frameworks/native/libs/ui/include/ui/GraphicBufferAllocator.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "importBuffer",
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "field_name" : "width",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "height",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "format",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "layerCount",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "usage",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "requestorName",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+     "field_name" : "extras",
+     "field_offset" : 352,
+     "referenced_type" : "_ZTINSt3__16vectorIN7android22GraphicBufferAllocator17AdditionalOptionsENS_9allocatorIS3_EEEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android22GraphicBufferAllocator17AllocationRequestE",
+   "name" : "android::GraphicBufferAllocator::AllocationRequest",
+   "referenced_type" : "_ZTIN7android22GraphicBufferAllocator17AllocationRequestE",
+   "self_type" : "_ZTIN7android22GraphicBufferAllocator17AllocationRequestE",
+   "size" : 56,
+   "source_file" : "frameworks/native/libs/ui/include/ui/GraphicBufferAllocator.h"
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTIN7android9SingletonINS_22GraphicBufferAllocatorEEE"
+    }
+   ],
+   "fields" :
+   [
+    {
+     "access" : "protected",
+     "field_name" : "mMapper",
+     "referenced_type" : "_ZTIRN7android19GraphicBufferMapperE"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "mAllocator",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTINSt3__110unique_ptrIKN7android16GrallocAllocatorENS_14default_deleteIS3_EEEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android22GraphicBufferAllocatorE",
+   "name" : "android::GraphicBufferAllocator",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android22GraphicBufferAllocatorE",
+   "self_type" : "_ZTIN7android22GraphicBufferAllocatorE",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/ui/include/ui/GraphicBufferAllocator.h"
+  },
+  {
    "alignment" : 4,
    "base_specifiers" :
    [
@@ -65266,6 +65915,9 @@
      "mangled_component_name" : "_ZN7android22IGraphicBufferProducer18setAutoPrerotationEb"
     },
     {
+     "mangled_component_name" : "_ZN7android22IGraphicBufferProducer12setFrameRateEfaa"
+    },
+    {
      "mangled_component_name" : "_ZN7android22IGraphicBufferProducer14requestBuffersERKNSt3__16vectorIiNS1_9allocatorIiEEEEPNS2_INS0_19RequestBufferOutputENS3_IS8_EEEE"
     },
     {
@@ -65722,6 +66374,9 @@
     },
     {
      "mangled_component_name" : "_ZN7android22IGraphicBufferProducer18setAutoPrerotationEb"
+    },
+    {
+     "mangled_component_name" : "_ZN7android22IGraphicBufferProducer12setFrameRateEfaa"
     },
     {
      "mangled_component_name" : "_ZN7android22IGraphicBufferProducer14requestBuffersERKNSt3__16vectorIiNS1_9allocatorIiEEEEPNS2_INS0_19RequestBufferOutputENS3_IS8_EEEE"
@@ -70604,6 +71259,63 @@
      "referenced_type" : "_ZTIN7android10VectorImplE"
     }
    ],
+   "linker_set_key" : "_ZTIN7android6VectorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "name" : "android::Vector<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android6VectorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "self_type" : "_ZTIN7android6VectorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "size" : 20,
+   "source_file" : "system/core/libutils/include/utils/Vector.h",
+   "template_args" :
+   [
+    "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+   ],
+   "vtable_components" :
+   [
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android6VectorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android6VectorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEED1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android6VectorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEED0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE12do_constructEPvj"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE10do_destroyEPvj"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE7do_copyEPvPKvj"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE8do_splatEPvPKvj"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE15do_move_forwardEPvPKvj"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE16do_move_backwardEPvPKvj"
+    }
+   ]
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "access" : "private",
+     "referenced_type" : "_ZTIN7android10VectorImplE"
+    }
+   ],
    "linker_set_key" : "_ZTIN7android6VectorIPNS_13MediaProfiles15AudioDecoderCapEEE",
    "name" : "android::Vector<android::MediaProfiles::AudioDecoderCap *>",
    "record_kind" : "class",
@@ -71227,6 +71939,19 @@
    "template_args" :
    [
     "_ZTIN7android7String8E"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android6traitsINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "name" : "android::traits<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>",
+   "referenced_type" : "_ZTIN7android6traitsINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "self_type" : "_ZTIN7android6traitsINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE",
+   "size" : 1,
+   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
    ]
   },
   {
@@ -82552,6 +83277,20 @@
    "template_args" :
    [
     "_ZTIN7android19GraphicBufferMapperE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android9SingletonINS_22GraphicBufferAllocatorEEE",
+   "name" : "android::Singleton<android::GraphicBufferAllocator>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android9SingletonINS_22GraphicBufferAllocatorEEE",
+   "self_type" : "_ZTIN7android9SingletonINS_22GraphicBufferAllocatorEEE",
+   "size" : 1,
+   "source_file" : "system/core/libutils/include/utils/Singleton.h",
+   "template_args" :
+   [
+    "_ZTIN7android22GraphicBufferAllocatorE"
    ]
   },
   {

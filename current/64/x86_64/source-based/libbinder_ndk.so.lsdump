@@ -3,16 +3,6 @@
  "builtin_types" :
  [
   {
-   "alignment" : 4,
-   "is_integral" : true,
-   "is_unsigned" : true,
-   "linker_set_key" : "_ZTIDi",
-   "name" : "char32_t",
-   "referenced_type" : "_ZTIDi",
-   "self_type" : "_ZTIDi",
-   "size" : 4
-  },
-  {
    "alignment" : 8,
    "linker_set_key" : "_ZTIDn",
    "name" : "std::nullptr_t",
@@ -29,6 +19,16 @@
    "referenced_type" : "_ZTIDs",
    "self_type" : "_ZTIDs",
    "size" : 2
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIDu",
+   "name" : "char8_t",
+   "referenced_type" : "_ZTIDu",
+   "self_type" : "_ZTIDu",
+   "size" : 1
   },
   {
    "alignment" : 1,
@@ -906,23 +906,6 @@
    "name" : "(unnamed)",
    "referenced_type" : "_ZTI19$FLAG_PRIVATE_LOCAL",
    "self_type" : "_ZTI19$FLAG_PRIVATE_LOCAL",
-   "size" : 4,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_stability.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 268435456,
-     "name" : "FLAG_PRIVATE_VENDOR"
-    }
-   ],
-   "linker_set_key" : "_ZTI20$FLAG_PRIVATE_VENDOR",
-   "name" : "(unnamed)",
-   "referenced_type" : "_ZTI20$FLAG_PRIVATE_VENDOR",
-   "self_type" : "_ZTI20$FLAG_PRIVATE_VENDOR",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_stability.h",
    "underlying_type" : "_ZTIj"
@@ -12515,7 +12498,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIKj",
    "size" : 4,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_stability.h"
   },
   {
    "alignment" : 8,

@@ -4426,7 +4426,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common10AudioUsageE",
    "self_type" : "_ZTIN7android5media5audio6common10AudioUsageE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioUsage.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioUsage.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -4503,7 +4503,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common11AudioSourceE",
    "self_type" : "_ZTIN7android5media5audio6common11AudioSourceE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioSource.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioSource.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -4524,7 +4524,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common12AudioIoFlags3TagE",
    "self_type" : "_ZTIN7android5media5audio6common12AudioIoFlags3TagE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioIoFlags.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioIoFlags.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -4553,8 +4553,79 @@
    "referenced_type" : "_ZTIN7android5media5audio6common12AudioPortExt3TagE",
    "self_type" : "_ZTIN7android5media5audio6common12AudioPortExt3TagE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioPortExt.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioPortExt.h",
    "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::media::audio::common::HeadTracking::SensorData::Tag::headToStage"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android5media5audio6common12HeadTracking10SensorData3TagE",
+   "name" : "android::media::audio::common::HeadTracking::SensorData::Tag",
+   "referenced_type" : "_ZTIN7android5media5audio6common12HeadTracking10SensorData3TagE",
+   "self_type" : "_ZTIN7android5media5audio6common12HeadTracking10SensorData3TagE",
+   "size" : 4,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/HeadTracking.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 1,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::media::audio::common::HeadTracking::ConnectionMode::FRAMEWORK_PROCESSED"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "android::media::audio::common::HeadTracking::ConnectionMode::DIRECT_TO_SENSOR_SW"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "android::media::audio::common::HeadTracking::ConnectionMode::DIRECT_TO_SENSOR_TUNNEL"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android5media5audio6common12HeadTracking14ConnectionModeE",
+   "name" : "android::media::audio::common::HeadTracking::ConnectionMode",
+   "referenced_type" : "_ZTIN7android5media5audio6common12HeadTracking14ConnectionModeE",
+   "self_type" : "_ZTIN7android5media5audio6common12HeadTracking14ConnectionModeE",
+   "size" : 1,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/HeadTracking.h",
+   "underlying_type" : "_ZTIa"
+  },
+  {
+   "alignment" : 1,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::media::audio::common::HeadTracking::Mode::OTHER"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "android::media::audio::common::HeadTracking::Mode::DISABLED"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "android::media::audio::common::HeadTracking::Mode::RELATIVE_WORLD"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "android::media::audio::common::HeadTracking::Mode::RELATIVE_SCREEN"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android5media5audio6common12HeadTracking4ModeE",
+   "name" : "android::media::audio::common::HeadTracking::Mode",
+   "referenced_type" : "_ZTIN7android5media5audio6common12HeadTracking4ModeE",
+   "self_type" : "_ZTIN7android5media5audio6common12HeadTracking4ModeE",
+   "size" : 1,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/HeadTracking.h",
+   "underlying_type" : "_ZTIa"
   },
   {
    "alignment" : 4,
@@ -4582,7 +4653,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common13AudioStandardE",
    "self_type" : "_ZTIN7android5media5audio6common13AudioStandardE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioStandard.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioStandard.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -4599,7 +4670,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common14MicrophoneInfo14$GROUP_UNKNOWNE",
    "self_type" : "_ZTIN7android5media5audio6common14MicrophoneInfo14$GROUP_UNKNOWNE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -4636,7 +4707,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common14MicrophoneInfo14DirectionalityE",
    "self_type" : "_ZTIN7android5media5audio6common14MicrophoneInfo14DirectionalityE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -4653,7 +4724,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common14MicrophoneInfo27$INDEX_IN_THE_GROUP_UNKNOWNE",
    "self_type" : "_ZTIN7android5media5audio6common14MicrophoneInfo27$INDEX_IN_THE_GROUP_UNKNOWNE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -4682,8 +4753,54 @@
    "referenced_type" : "_ZTIN7android5media5audio6common14MicrophoneInfo8LocationE",
    "self_type" : "_ZTIN7android5media5audio6common14MicrophoneInfo8LocationE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h",
    "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 1,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::media::audio::common::Spatialization::Mode::BINAURAL"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "android::media::audio::common::Spatialization::Mode::TRANSAURAL"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android5media5audio6common14Spatialization4ModeE",
+   "name" : "android::media::audio::common::Spatialization::Mode",
+   "referenced_type" : "_ZTIN7android5media5audio6common14Spatialization4ModeE",
+   "self_type" : "_ZTIN7android5media5audio6common14Spatialization4ModeE",
+   "size" : 1,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/Spatialization.h",
+   "underlying_type" : "_ZTIa"
+  },
+  {
+   "alignment" : 1,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::media::audio::common::Spatialization::Level::NONE"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "android::media::audio::common::Spatialization::Level::MULTICHANNEL"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "android::media::audio::common::Spatialization::Level::BED_PLUS_OBJECTS"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android5media5audio6common14Spatialization5LevelE",
+   "name" : "android::media::audio::common::Spatialization::Level",
+   "referenced_type" : "_ZTIN7android5media5audio6common14Spatialization5LevelE",
+   "self_type" : "_ZTIN7android5media5audio6common14Spatialization5LevelE",
+   "size" : 1,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/Spatialization.h",
+   "underlying_type" : "_ZTIa"
   },
   {
    "alignment" : 4,
@@ -4748,6 +4865,10 @@
     {
      "enum_field_value" : 14,
      "name" : "android::media::audio::common::AudioDeviceType::IN_DOCK"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "android::media::audio::common::AudioDeviceType::IN_BUS"
     },
     {
      "enum_field_value" : 129,
@@ -4820,6 +4941,10 @@
     {
      "enum_field_value" : 146,
      "name" : "android::media::audio::common::AudioDeviceType::OUT_BROADCAST"
+    },
+    {
+     "enum_field_value" : 133,
+     "name" : "android::media::audio::common::AudioDeviceType::OUT_BUS"
     }
    ],
    "linker_set_key" : "_ZTIN7android5media5audio6common15AudioDeviceTypeE",
@@ -4827,7 +4952,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common15AudioDeviceTypeE",
    "self_type" : "_ZTIN7android5media5audio6common15AudioDeviceTypeE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioDeviceType.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioDeviceType.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -4856,7 +4981,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common15AudioFormatTypeE",
    "self_type" : "_ZTIN7android5media5audio6common15AudioFormatTypeE",
    "size" : 1,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioFormatType.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioFormatType.h",
    "underlying_type" : "_ZTIa"
   },
   {
@@ -4885,7 +5010,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common15AudioMMapPolicyE",
    "self_type" : "_ZTIN7android5media5audio6common15AudioMMapPolicyE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioMMapPolicy.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioMMapPolicy.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -4966,7 +5091,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common15AudioStreamTypeE",
    "self_type" : "_ZTIN7android5media5audio6common15AudioStreamTypeE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioStreamType.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioStreamType.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5003,7 +5128,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common16AudioContentTypeE",
    "self_type" : "_ZTIN7android5media5audio6common16AudioContentTypeE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioContentType.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioContentType.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5032,7 +5157,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common16AudioLatencyModeE",
    "self_type" : "_ZTIN7android5media5audio6common16AudioLatencyModeE",
    "size" : 1,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioLatencyMode.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioLatencyMode.h",
    "underlying_type" : "_ZTIa"
   },
   {
@@ -5049,7 +5174,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout11$LAYOUT_TRIE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout11$LAYOUT_TRIE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5066,7 +5191,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout12$LAYOUT_MONOE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout12$LAYOUT_MONOE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5083,7 +5208,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout12$LAYOUT_QUADE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout12$LAYOUT_QUADE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5100,7 +5225,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout13$INDEX_MASK_1E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout13$INDEX_MASK_1E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5117,7 +5242,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout13$INDEX_MASK_2E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout13$INDEX_MASK_2E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5134,7 +5259,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout13$INDEX_MASK_3E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout13$INDEX_MASK_3E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5151,7 +5276,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout13$INDEX_MASK_4E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout13$INDEX_MASK_4E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5168,7 +5293,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout13$INDEX_MASK_5E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout13$INDEX_MASK_5E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5185,7 +5310,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout13$INDEX_MASK_6E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout13$INDEX_MASK_6E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5202,7 +5327,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout13$INDEX_MASK_7E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout13$INDEX_MASK_7E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5219,7 +5344,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout13$INDEX_MASK_8E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout13$INDEX_MASK_8E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5236,7 +5361,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout13$INDEX_MASK_9E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout13$INDEX_MASK_9E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5253,7 +5378,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout13$LAYOUT_PENTAE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout13$LAYOUT_PENTAE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5270,7 +5395,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_10E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_10E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5287,7 +5412,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_11E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_11E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5304,7 +5429,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_12E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_12E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5321,7 +5446,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_13E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_13E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5338,7 +5463,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_14E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_14E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5355,7 +5480,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_15E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_15E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5372,7 +5497,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_16E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_16E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5389,7 +5514,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_17E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_17E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5406,7 +5531,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_18E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_18E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5423,7 +5548,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_19E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_19E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5440,7 +5565,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_20E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_20E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5457,7 +5582,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_21E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_21E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5474,7 +5599,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_22E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_22E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5491,7 +5616,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_23E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_23E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5508,7 +5633,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_24E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$INDEX_MASK_24E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5525,7 +5650,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$LAYOUT_STEREOE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout14$LAYOUT_STEREOE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5542,7 +5667,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout15$LAYOUT_2POINT1E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout15$LAYOUT_2POINT1E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5559,7 +5684,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout15$LAYOUT_3POINT1E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout15$LAYOUT_3POINT1E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5576,7 +5701,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout15$LAYOUT_5POINT1E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout15$LAYOUT_5POINT1E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5593,7 +5718,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout15$LAYOUT_6POINT1E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout15$LAYOUT_6POINT1E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5610,7 +5735,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout15$LAYOUT_7POINT1E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout15$LAYOUT_7POINT1E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5627,7 +5752,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout16$INTERLEAVE_LEFTE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout16$INTERLEAVE_LEFTE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5644,7 +5769,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout16$LAYOUT_22POINT2E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout16$LAYOUT_22POINT2E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5661,7 +5786,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout16$LAYOUT_SURROUNDE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout16$LAYOUT_SURROUNDE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5678,7 +5803,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout16$LAYOUT_TRI_BACKE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout16$LAYOUT_TRI_BACKE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5695,7 +5820,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout16$VOICE_CALL_MONOE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout16$VOICE_CALL_MONOE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5712,7 +5837,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout17$CHANNEL_HAPTIC_AE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout17$CHANNEL_HAPTIC_AE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5729,7 +5854,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout17$CHANNEL_HAPTIC_BE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout17$CHANNEL_HAPTIC_BE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5746,7 +5871,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout17$INTERLEAVE_RIGHTE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout17$INTERLEAVE_RIGHTE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5763,7 +5888,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout17$LAYOUT_HAPTIC_ABE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout17$LAYOUT_HAPTIC_ABE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5780,7 +5905,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout17$LAYOUT_QUAD_SIDEE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout17$LAYOUT_QUAD_SIDEE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5797,7 +5922,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout18$CHANNEL_BACK_LEFTE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout18$CHANNEL_BACK_LEFTE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5814,7 +5939,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout18$CHANNEL_SIDE_LEFTE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout18$CHANNEL_SIDE_LEFTE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5831,7 +5956,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout18$LAYOUT_FRONT_BACKE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout18$LAYOUT_FRONT_BACKE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5848,7 +5973,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout18$VOICE_DNLINK_MONOE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout18$VOICE_DNLINK_MONOE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5865,7 +5990,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout18$VOICE_UPLINK_MONOE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout18$VOICE_UPLINK_MONOE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5882,7 +6007,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout19$CHANNEL_BACK_RIGHTE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout19$CHANNEL_BACK_RIGHTE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5899,7 +6024,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout19$CHANNEL_FRONT_LEFTE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout19$CHANNEL_FRONT_LEFTE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5916,7 +6041,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout19$CHANNEL_SIDE_RIGHTE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout19$CHANNEL_SIDE_RIGHTE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5933,7 +6058,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout19$CHANNEL_TOP_CENTERE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout19$CHANNEL_TOP_CENTERE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5950,7 +6075,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout20$CHANNEL_BACK_CENTERE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout20$CHANNEL_BACK_CENTERE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5967,7 +6092,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout20$CHANNEL_FRONT_RIGHTE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout20$CHANNEL_FRONT_RIGHTE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -5984,7 +6109,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout20$LAYOUT_5POINT1_SIDEE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout20$LAYOUT_5POINT1_SIDEE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6001,7 +6126,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$CHANNEL_FRONT_CENTERE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$CHANNEL_FRONT_CENTERE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6018,7 +6143,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$CHANNEL_VOICE_DNLINKE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$CHANNEL_VOICE_DNLINKE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6035,7 +6160,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$CHANNEL_VOICE_UPLINKE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$CHANNEL_VOICE_UPLINKE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6052,7 +6177,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$LAYOUT_13POINT_360RAE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$LAYOUT_13POINT_360RAE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6069,7 +6194,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$LAYOUT_2POINT0POINT2E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$LAYOUT_2POINT0POINT2E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6086,7 +6211,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$LAYOUT_2POINT1POINT2E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$LAYOUT_2POINT1POINT2E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6103,7 +6228,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$LAYOUT_3POINT0POINT2E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$LAYOUT_3POINT0POINT2E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6120,7 +6245,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$LAYOUT_3POINT1POINT2E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$LAYOUT_3POINT1POINT2E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6137,7 +6262,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$LAYOUT_5POINT1POINT2E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$LAYOUT_5POINT1POINT2E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6154,7 +6279,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$LAYOUT_5POINT1POINT4E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$LAYOUT_5POINT1POINT4E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6171,7 +6296,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$LAYOUT_7POINT1POINT2E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$LAYOUT_7POINT1POINT2E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6188,7 +6313,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$LAYOUT_7POINT1POINT4E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$LAYOUT_7POINT1POINT4E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6205,7 +6330,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$LAYOUT_9POINT1POINT4E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$LAYOUT_9POINT1POINT4E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6222,7 +6347,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$LAYOUT_9POINT1POINT6E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$LAYOUT_9POINT1POINT6E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6239,7 +6364,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$LAYOUT_MONO_HAPTIC_AE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout21$LAYOUT_MONO_HAPTIC_AE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6256,7 +6381,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout22$CHANNEL_LOW_FREQUENCYE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout22$CHANNEL_LOW_FREQUENCYE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6273,7 +6398,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout22$CHANNEL_TOP_BACK_LEFTE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout22$CHANNEL_TOP_BACK_LEFTE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6290,7 +6415,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout22$CHANNEL_TOP_SIDE_LEFTE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout22$CHANNEL_TOP_SIDE_LEFTE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6307,7 +6432,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout22$LAYOUT_MONO_HAPTIC_ABE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout22$LAYOUT_MONO_HAPTIC_ABE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6324,7 +6449,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout23$CHANNEL_TOP_BACK_RIGHTE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout23$CHANNEL_TOP_BACK_RIGHTE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6341,7 +6466,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout23$CHANNEL_TOP_FRONT_LEFTE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout23$CHANNEL_TOP_FRONT_LEFTE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6358,7 +6483,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout23$CHANNEL_TOP_SIDE_RIGHTE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout23$CHANNEL_TOP_SIDE_RIGHTE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6375,7 +6500,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout23$LAYOUT_STEREO_HAPTIC_AE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout23$LAYOUT_STEREO_HAPTIC_AE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6392,7 +6517,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout24$CHANNEL_FRONT_WIDE_LEFTE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout24$CHANNEL_FRONT_WIDE_LEFTE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6409,7 +6534,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout24$CHANNEL_LOW_FREQUENCY_2E",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout24$CHANNEL_LOW_FREQUENCY_2E",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6426,7 +6551,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout24$CHANNEL_TOP_BACK_CENTERE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout24$CHANNEL_TOP_BACK_CENTERE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6443,7 +6568,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout24$CHANNEL_TOP_FRONT_RIGHTE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout24$CHANNEL_TOP_FRONT_RIGHTE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6460,7 +6585,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout24$LAYOUT_STEREO_HAPTIC_ABE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout24$LAYOUT_STEREO_HAPTIC_ABE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6477,7 +6602,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout25$CHANNEL_FRONT_WIDE_RIGHTE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout25$CHANNEL_FRONT_WIDE_RIGHTE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6494,7 +6619,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout25$CHANNEL_TOP_FRONT_CENTERE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout25$CHANNEL_TOP_FRONT_CENTERE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6511,7 +6636,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout26$CHANNEL_BOTTOM_FRONT_LEFTE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout26$CHANNEL_BOTTOM_FRONT_LEFTE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6528,7 +6653,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout27$CHANNEL_BOTTOM_FRONT_RIGHTE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout27$CHANNEL_BOTTOM_FRONT_RIGHTE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6545,7 +6670,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout28$CHANNEL_BOTTOM_FRONT_CENTERE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout28$CHANNEL_BOTTOM_FRONT_CENTERE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6562,7 +6687,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout29$CHANNEL_FRONT_LEFT_OF_CENTERE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout29$CHANNEL_FRONT_LEFT_OF_CENTERE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6579,7 +6704,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout30$CHANNEL_FRONT_RIGHT_OF_CENTERE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout30$CHANNEL_FRONT_RIGHT_OF_CENTERE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6612,7 +6737,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout3TagE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout3TagE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6645,7 +6770,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioDeviceAddress3TagE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioDeviceAddress3TagE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioDeviceAddress.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioDeviceAddress.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6662,7 +6787,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioPortDeviceExt26$FLAG_INDEX_DEFAULT_DEVICEE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioPortDeviceExt26$FLAG_INDEX_DEFAULT_DEVICEE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioPortDeviceExt.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioPortDeviceExt.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6679,7 +6804,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common19AudioHalVolumeCurve10CurvePoint10$MAX_INDEXE",
    "self_type" : "_ZTIN7android5media5audio6common19AudioHalVolumeCurve10CurvePoint10$MAX_INDEXE",
    "size" : 1,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalVolumeCurve.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalVolumeCurve.h",
    "underlying_type" : "_ZTIa"
   },
   {
@@ -6696,7 +6821,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common19AudioHalVolumeCurve10CurvePoint10$MIN_INDEXE",
    "self_type" : "_ZTIN7android5media5audio6common19AudioHalVolumeCurve10CurvePoint10$MIN_INDEXE",
    "size" : 1,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalVolumeCurve.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalVolumeCurve.h",
    "underlying_type" : "_ZTIa"
   },
   {
@@ -6729,7 +6854,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common19AudioHalVolumeCurve14DeviceCategoryE",
    "self_type" : "_ZTIN7android5media5audio6common19AudioHalVolumeCurve14DeviceCategoryE",
    "size" : 1,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalVolumeCurve.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalVolumeCurve.h",
    "underlying_type" : "_ZTIa"
   },
   {
@@ -6746,7 +6871,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common19AudioHalVolumeGroup32$INDEX_DEFERRED_TO_AUDIO_SERVICEE",
    "self_type" : "_ZTIN7android5media5audio6common19AudioHalVolumeGroup32$INDEX_DEFERRED_TO_AUDIO_SERVICEE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalVolumeGroup.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalVolumeGroup.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6767,7 +6892,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common19AudioMMapPolicyTypeE",
    "self_type" : "_ZTIN7android5media5audio6common19AudioMMapPolicyTypeE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioMMapPolicyType.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioMMapPolicyType.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6792,7 +6917,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common21MicrophoneDynamicInfo14ChannelMappingE",
    "self_type" : "_ZTIN7android5media5audio6common21MicrophoneDynamicInfo14ChannelMappingE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/MicrophoneDynamicInfo.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/MicrophoneDynamicInfo.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6817,7 +6942,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common22AudioEncapsulationTypeE",
    "self_type" : "_ZTIN7android5media5audio6common22AudioEncapsulationTypeE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioEncapsulationType.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioEncapsulationType.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6842,7 +6967,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common22AudioPortMixExtUseCase3TagE",
    "self_type" : "_ZTIN7android5media5audio6common22AudioPortMixExtUseCase3TagE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioPortMixExtUseCase.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioPortMixExtUseCase.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6859,7 +6984,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common23AudioHalProductStrategy25$VENDOR_STRATEGY_ID_STARTE",
    "self_type" : "_ZTIN7android5media5audio6common23AudioHalProductStrategy25$VENDOR_STRATEGY_ID_STARTE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalProductStrategy.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalProductStrategy.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -6916,7 +7041,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common24AudioProductStrategyTypeE",
    "self_type" : "_ZTIN7android5media5audio6common24AudioProductStrategyTypeE",
    "size" : 1,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioProductStrategyType.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioProductStrategyType.h",
    "underlying_type" : "_ZTIa"
   },
   {
@@ -6957,7 +7082,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common7PcmTypeE",
    "self_type" : "_ZTIN7android5media5audio6common7PcmTypeE",
    "size" : 1,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/PcmType.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/PcmType.h",
    "underlying_type" : "_ZTIa"
   },
   {
@@ -7038,7 +7163,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common9AudioFlagE",
    "self_type" : "_ZTIN7android5media5audio6common9AudioFlagE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioFlag.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioFlag.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -7087,7 +7212,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common9AudioModeE",
    "self_type" : "_ZTIN7android5media5audio6common9AudioModeE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioMode.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioMode.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -7552,6 +7677,23 @@
    "self_type" : "_ZTIN7android7RefBase21$OBJECT_LIFETIME_MASKE",
    "size" : 4,
    "source_file" : "system/core/libutils/include/utils/RefBase.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::internal::details::IsIterable<std::array<float, 6>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details10IsIterableINSt3__15arrayIfLj6EEEE6$valueE",
+   "name" : "android::internal::details::IsIterable<std::array<float, 6>>::(unnamed)",
+   "referenced_type" : "_ZTIN7android8internal7details10IsIterableINSt3__15arrayIfLj6EEEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details10IsIterableINSt3__15arrayIfLj6EEEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -9352,6 +9494,23 @@
    "name" : "android::internal::details::IsPointerLike<android::content::AttributionSourceState>::(unnamed)",
    "referenced_type" : "_ZTIN7android8internal7details13IsPointerLikeINS_7content22AttributionSourceStateEE6$valueE",
    "self_type" : "_ZTIN7android8internal7details13IsPointerLikeINS_7content22AttributionSourceStateEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::internal::details::IsPointerLike<std::array<float, 6>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__15arrayIfLj6EEEE6$valueE",
+   "name" : "android::internal::details::IsPointerLike<std::array<float, 6>>::(unnamed)",
+   "referenced_type" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__15arrayIfLj6EEEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__15arrayIfLj6EEEE6$valueE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
    "underlying_type" : "_ZTIj"
@@ -11334,6 +11493,23 @@
    [
     {
      "enum_field_value" : 0,
+     "name" : "android::internal::details::HasToStringMethod<std::array<float, 6>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__15arrayIfLj6EEEE6$valueE",
+   "name" : "android::internal::details::HasToStringMethod<std::array<float, 6>>::(unnamed)",
+   "referenced_type" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__15arrayIfLj6EEEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__15arrayIfLj6EEEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
      "name" : "android::internal::details::HasToStringMethod<std::vector<std::basic_string<char>>>::value"
     }
    ],
@@ -12191,6 +12367,23 @@
    "name" : "android::internal::details::HasToStringFunction<android::media::audio::common::AudioMode>::(unnamed)",
    "referenced_type" : "_ZTIN7android8internal7details19HasToStringFunctionINS_5media5audio6common9AudioModeEE6$valueE",
    "self_type" : "_ZTIN7android8internal7details19HasToStringFunctionINS_5media5audio6common9AudioModeEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::internal::details::HasToStringFunction<std::array<float, 6>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__15arrayIfLj6EEEE6$valueE",
+   "name" : "android::internal::details::HasToStringFunction<std::array<float, 6>>::(unnamed)",
+   "referenced_type" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__15arrayIfLj6EEEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__15arrayIfLj6EEEE6$valueE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
    "underlying_type" : "_ZTIj"
@@ -14593,6 +14786,24 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN7android5media5audio6common12HeadTracking10SensorDataE",
+   "name" : "const android::media::audio::common::HeadTracking::SensorData &",
+   "referenced_type" : "_ZTIKN7android5media5audio6common12HeadTracking10SensorDataE",
+   "self_type" : "_ZTIRKN7android5media5audio6common12HeadTracking10SensorDataE",
+   "size" : 4,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/HeadTracking.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN7android5media5audio6common12HeadTrackingE",
+   "name" : "const android::media::audio::common::HeadTracking &",
+   "referenced_type" : "_ZTIKN7android5media5audio6common12HeadTrackingE",
+   "self_type" : "_ZTIRKN7android5media5audio6common12HeadTrackingE",
+   "size" : 4,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/HeadTracking.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRKN7android5media5audio6common13AudioStandardE",
    "name" : "const android::media::audio::common::AudioStandard &",
    "referenced_type" : "_ZTIKN7android5media5audio6common13AudioStandardE",
@@ -14656,6 +14867,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN7android5media5audio6common14SpatializationE",
+   "name" : "const android::media::audio::common::Spatialization &",
+   "referenced_type" : "_ZTIKN7android5media5audio6common14SpatializationE",
+   "self_type" : "_ZTIRKN7android5media5audio6common14SpatializationE",
+   "size" : 4,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/Spatialization.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRKN7android5media5audio6common15AudioAttributesE",
    "name" : "const android::media::audio::common::AudioAttributes &",
    "referenced_type" : "_ZTIKN7android5media5audio6common15AudioAttributesE",
@@ -14670,7 +14890,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common15AudioConfigBaseE",
    "self_type" : "_ZTIRKN7android5media5audio6common15AudioConfigBaseE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioConfigBase.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioConfigBase.h"
   },
   {
    "alignment" : 4,
@@ -14814,7 +15034,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common19AudioMMapPolicyInfoE",
    "self_type" : "_ZTIRKN7android5media5audio6common19AudioMMapPolicyInfoE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioMMapPolicyInfo.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioMMapPolicyInfo.h"
   },
   {
    "alignment" : 4,
@@ -15362,6 +15582,15 @@
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char>> &",
    "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKNSt3__15arrayIfLj6EEE",
+   "name" : "const std::array<float, 6> &",
+   "referenced_type" : "_ZTIKNSt3__15arrayIfLj6EEE",
+   "self_type" : "_ZTIRKNSt3__15arrayIfLj6EEE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
@@ -16599,7 +16828,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common11AudioDeviceE",
    "self_type" : "_ZTIPKN7android5media5audio6common11AudioDeviceE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioDevice.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioDevice.h"
   },
   {
    "alignment" : 4,
@@ -16608,7 +16837,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common12AudioIoFlagsE",
    "self_type" : "_ZTIPKN7android5media5audio6common12AudioIoFlagsE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioIoFlags.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioIoFlags.h"
   },
   {
    "alignment" : 4,
@@ -16617,7 +16846,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common12AudioPortExtE",
    "self_type" : "_ZTIPKN7android5media5audio6common12AudioPortExtE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioPortExt.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioPortExt.h"
   },
   {
    "alignment" : 4,
@@ -16626,7 +16855,25 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common12AudioProfileE",
    "self_type" : "_ZTIPKN7android5media5audio6common12AudioProfileE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioProfile.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioProfile.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android5media5audio6common12HeadTracking10SensorDataE",
+   "name" : "const android::media::audio::common::HeadTracking::SensorData *",
+   "referenced_type" : "_ZTIKN7android5media5audio6common12HeadTracking10SensorDataE",
+   "self_type" : "_ZTIPKN7android5media5audio6common12HeadTracking10SensorDataE",
+   "size" : 4,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/HeadTracking.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android5media5audio6common12HeadTrackingE",
+   "name" : "const android::media::audio::common::HeadTracking *",
+   "referenced_type" : "_ZTIKN7android5media5audio6common12HeadTrackingE",
+   "self_type" : "_ZTIPKN7android5media5audio6common12HeadTrackingE",
+   "size" : 4,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/HeadTracking.h"
   },
   {
    "alignment" : 4,
@@ -16635,7 +16882,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common14MicrophoneInfo10CoordinateE",
    "self_type" : "_ZTIPKN7android5media5audio6common14MicrophoneInfo10CoordinateE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h"
   },
   {
    "alignment" : 4,
@@ -16644,7 +16891,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common14MicrophoneInfo11SensitivityE",
    "self_type" : "_ZTIPKN7android5media5audio6common14MicrophoneInfo11SensitivityE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h"
   },
   {
    "alignment" : 4,
@@ -16653,7 +16900,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common14MicrophoneInfo22FrequencyResponsePointE",
    "self_type" : "_ZTIPKN7android5media5audio6common14MicrophoneInfo22FrequencyResponsePointE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h"
   },
   {
    "alignment" : 4,
@@ -16662,7 +16909,16 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common14MicrophoneInfoE",
    "self_type" : "_ZTIPKN7android5media5audio6common14MicrophoneInfoE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android5media5audio6common14SpatializationE",
+   "name" : "const android::media::audio::common::Spatialization *",
+   "referenced_type" : "_ZTIKN7android5media5audio6common14SpatializationE",
+   "self_type" : "_ZTIPKN7android5media5audio6common14SpatializationE",
+   "size" : 4,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/Spatialization.h"
   },
   {
    "alignment" : 4,
@@ -16671,7 +16927,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common15AudioAttributesE",
    "self_type" : "_ZTIPKN7android5media5audio6common15AudioAttributesE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioAttributes.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioAttributes.h"
   },
   {
    "alignment" : 4,
@@ -16680,7 +16936,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common15AudioConfigBaseE",
    "self_type" : "_ZTIPKN7android5media5audio6common15AudioConfigBaseE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioConfigBase.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioConfigBase.h"
   },
   {
    "alignment" : 4,
@@ -16689,7 +16945,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common15AudioGainConfigE",
    "self_type" : "_ZTIPKN7android5media5audio6common15AudioGainConfigE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioGainConfig.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioGainConfig.h"
   },
   {
    "alignment" : 4,
@@ -16698,7 +16954,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common15AudioPortConfigE",
    "self_type" : "_ZTIPKN7android5media5audio6common15AudioPortConfigE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioPortConfig.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioPortConfig.h"
   },
   {
    "alignment" : 4,
@@ -16707,7 +16963,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common15AudioPortMixExtE",
    "self_type" : "_ZTIPKN7android5media5audio6common15AudioPortMixExtE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioPortMixExt.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioPortMixExt.h"
   },
   {
    "alignment" : 4,
@@ -16716,7 +16972,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common18AudioChannelLayoutE",
    "self_type" : "_ZTIPKN7android5media5audio6common18AudioChannelLayoutE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h"
   },
   {
    "alignment" : 4,
@@ -16725,7 +16981,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common18AudioDeviceAddressE",
    "self_type" : "_ZTIPKN7android5media5audio6common18AudioDeviceAddressE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioDeviceAddress.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioDeviceAddress.h"
   },
   {
    "alignment" : 4,
@@ -16734,7 +16990,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common18AudioPortDeviceExtE",
    "self_type" : "_ZTIPKN7android5media5audio6common18AudioPortDeviceExtE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioPortDeviceExt.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioPortDeviceExt.h"
   },
   {
    "alignment" : 4,
@@ -16743,7 +16999,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common19AudioHalVolumeCurve10CurvePointE",
    "self_type" : "_ZTIPKN7android5media5audio6common19AudioHalVolumeCurve10CurvePointE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalVolumeCurve.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalVolumeCurve.h"
   },
   {
    "alignment" : 4,
@@ -16752,7 +17008,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common19AudioHalVolumeCurveE",
    "self_type" : "_ZTIPKN7android5media5audio6common19AudioHalVolumeCurveE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalVolumeCurve.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalVolumeCurve.h"
   },
   {
    "alignment" : 4,
@@ -16761,7 +17017,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common19AudioHalVolumeGroupE",
    "self_type" : "_ZTIPKN7android5media5audio6common19AudioHalVolumeGroupE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalVolumeGroup.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalVolumeGroup.h"
   },
   {
    "alignment" : 4,
@@ -16770,7 +17026,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common19AudioMMapPolicyInfoE",
    "self_type" : "_ZTIPKN7android5media5audio6common19AudioMMapPolicyInfoE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioMMapPolicyInfo.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioMMapPolicyInfo.h"
   },
   {
    "alignment" : 4,
@@ -16779,7 +17035,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common20AudioHalCapCriterionE",
    "self_type" : "_ZTIPKN7android5media5audio6common20AudioHalCapCriterionE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalCapCriterion.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalCapCriterion.h"
   },
   {
    "alignment" : 4,
@@ -16788,7 +17044,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common20AudioHalEngineConfig17CapSpecificConfigE",
    "self_type" : "_ZTIPKN7android5media5audio6common20AudioHalEngineConfig17CapSpecificConfigE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalEngineConfig.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalEngineConfig.h"
   },
   {
    "alignment" : 4,
@@ -16797,7 +17053,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common20AudioHalEngineConfigE",
    "self_type" : "_ZTIPKN7android5media5audio6common20AudioHalEngineConfigE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalEngineConfig.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalEngineConfig.h"
   },
   {
    "alignment" : 4,
@@ -16806,7 +17062,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common20ExtraAudioDescriptorE",
    "self_type" : "_ZTIPKN7android5media5audio6common20ExtraAudioDescriptorE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/ExtraAudioDescriptor.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/ExtraAudioDescriptor.h"
   },
   {
    "alignment" : 4,
@@ -16815,7 +17071,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common21MicrophoneDynamicInfoE",
    "self_type" : "_ZTIPKN7android5media5audio6common21MicrophoneDynamicInfoE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/MicrophoneDynamicInfo.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/MicrophoneDynamicInfo.h"
   },
   {
    "alignment" : 4,
@@ -16824,7 +17080,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common22AudioDeviceDescriptionE",
    "self_type" : "_ZTIPKN7android5media5audio6common22AudioDeviceDescriptionE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioDeviceDescription.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioDeviceDescription.h"
   },
   {
    "alignment" : 4,
@@ -16833,7 +17089,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common22AudioFormatDescriptionE",
    "self_type" : "_ZTIPKN7android5media5audio6common22AudioFormatDescriptionE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioFormatDescription.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioFormatDescription.h"
   },
   {
    "alignment" : 4,
@@ -16842,7 +17098,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common22AudioPortMixExtUseCaseE",
    "self_type" : "_ZTIPKN7android5media5audio6common22AudioPortMixExtUseCaseE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioPortMixExtUseCase.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioPortMixExtUseCase.h"
   },
   {
    "alignment" : 4,
@@ -16851,7 +17107,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common23AudioHalAttributesGroupE",
    "self_type" : "_ZTIPKN7android5media5audio6common23AudioHalAttributesGroupE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalAttributesGroup.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalAttributesGroup.h"
   },
   {
    "alignment" : 4,
@@ -16860,7 +17116,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common23AudioHalProductStrategyE",
    "self_type" : "_ZTIPKN7android5media5audio6common23AudioHalProductStrategyE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalProductStrategy.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalProductStrategy.h"
   },
   {
    "alignment" : 4,
@@ -16869,7 +17125,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common24AudioHalCapCriterionTypeE",
    "self_type" : "_ZTIPKN7android5media5audio6common24AudioHalCapCriterionTypeE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalCapCriterionType.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalCapCriterionType.h"
   },
   {
    "alignment" : 4,
@@ -16878,7 +17134,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common3IntE",
    "self_type" : "_ZTIPKN7android5media5audio6common3IntE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/Int.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/Int.h"
   },
   {
    "alignment" : 4,
@@ -16887,7 +17143,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common9AudioGainE",
    "self_type" : "_ZTIPKN7android5media5audio6common9AudioGainE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioGain.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioGain.h"
   },
   {
    "alignment" : 4,
@@ -16896,7 +17152,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common9AudioPortE",
    "self_type" : "_ZTIPKN7android5media5audio6common9AudioPortE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioPort.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioPort.h"
   },
   {
    "alignment" : 4,
@@ -16905,7 +17161,7 @@
    "referenced_type" : "_ZTIKN7android5media5audio6common9AudioUuidE",
    "self_type" : "_ZTIPKN7android5media5audio6common9AudioUuidE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioUuid.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioUuid.h"
   },
   {
    "alignment" : 4,
@@ -17904,7 +18160,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common12AudioIoFlagsE",
    "self_type" : "_ZTIPN7android5media5audio6common12AudioIoFlagsE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioIoFlags.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioIoFlags.h"
   },
   {
    "alignment" : 4,
@@ -17913,7 +18169,16 @@
    "referenced_type" : "_ZTIN7android5media5audio6common12AudioPortExtE",
    "self_type" : "_ZTIPN7android5media5audio6common12AudioPortExtE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioPortExt.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioPortExt.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android5media5audio6common12HeadTracking10SensorDataE",
+   "name" : "android::media::audio::common::HeadTracking::SensorData *",
+   "referenced_type" : "_ZTIN7android5media5audio6common12HeadTracking10SensorDataE",
+   "self_type" : "_ZTIPN7android5media5audio6common12HeadTracking10SensorDataE",
+   "size" : 4,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/HeadTracking.h"
   },
   {
    "alignment" : 4,
@@ -17922,7 +18187,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayoutE",
    "self_type" : "_ZTIPN7android5media5audio6common18AudioChannelLayoutE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h"
   },
   {
    "alignment" : 4,
@@ -17931,7 +18196,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioDeviceAddressE",
    "self_type" : "_ZTIPN7android5media5audio6common18AudioDeviceAddressE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioDeviceAddress.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioDeviceAddress.h"
   },
   {
    "alignment" : 4,
@@ -17940,7 +18205,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common22AudioPortMixExtUseCaseE",
    "self_type" : "_ZTIPN7android5media5audio6common22AudioPortMixExtUseCaseE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioPortMixExtUseCase.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioPortMixExtUseCase.h"
   },
   {
    "alignment" : 4,
@@ -19186,7 +19451,7 @@
    "referenced_type" : "_ZTIN7android14StaticString16ILj31EEE",
    "self_type" : "_ZTIKN7android14StaticString16ILj31EEE",
    "size" : 72,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/Int.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/Int.h"
   },
   {
    "alignment" : 4,
@@ -19236,7 +19501,7 @@
    "referenced_type" : "_ZTIN7android14StaticString16ILj37EEE",
    "self_type" : "_ZTIKN7android14StaticString16ILj37EEE",
    "size" : 84,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioGain.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioGain.h"
   },
   {
    "alignment" : 4,
@@ -19246,7 +19511,7 @@
    "referenced_type" : "_ZTIN7android14StaticString16ILj39EEE",
    "self_type" : "_ZTIKN7android14StaticString16ILj39EEE",
    "size" : 88,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioDevice.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioDevice.h"
   },
   {
    "alignment" : 4,
@@ -19256,7 +19521,7 @@
    "referenced_type" : "_ZTIN7android14StaticString16ILj40EEE",
    "self_type" : "_ZTIKN7android14StaticString16ILj40EEE",
    "size" : 88,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioIoFlags.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioIoFlags.h"
   },
   {
    "alignment" : 4,
@@ -19266,7 +19531,7 @@
    "referenced_type" : "_ZTIN7android14StaticString16ILj42EEE",
    "self_type" : "_ZTIKN7android14StaticString16ILj42EEE",
    "size" : 92,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/Spatialization.h"
   },
   {
    "alignment" : 4,
@@ -19276,7 +19541,7 @@
    "referenced_type" : "_ZTIN7android14StaticString16ILj43EEE",
    "self_type" : "_ZTIKN7android14StaticString16ILj43EEE",
    "size" : 96,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioPortMixExt.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioPortMixExt.h"
   },
   {
    "alignment" : 4,
@@ -19286,7 +19551,7 @@
    "referenced_type" : "_ZTIN7android14StaticString16ILj46EEE",
    "self_type" : "_ZTIKN7android14StaticString16ILj46EEE",
    "size" : 100,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioDeviceAddress.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioDeviceAddress.h"
   },
   {
    "alignment" : 4,
@@ -19296,7 +19561,7 @@
    "referenced_type" : "_ZTIN7android14StaticString16ILj47EEE",
    "self_type" : "_ZTIKN7android14StaticString16ILj47EEE",
    "size" : 104,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioMMapPolicyInfo.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioMMapPolicyInfo.h"
   },
   {
    "alignment" : 4,
@@ -19306,7 +19571,7 @@
    "referenced_type" : "_ZTIN7android14StaticString16ILj48EEE",
    "self_type" : "_ZTIKN7android14StaticString16ILj48EEE",
    "size" : 104,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/ExtraAudioDescriptor.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/ExtraAudioDescriptor.h"
   },
   {
    "alignment" : 4,
@@ -19316,7 +19581,7 @@
    "referenced_type" : "_ZTIN7android14StaticString16ILj49EEE",
    "self_type" : "_ZTIKN7android14StaticString16ILj49EEE",
    "size" : 108,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/MicrophoneDynamicInfo.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/MicrophoneDynamicInfo.h"
   },
   {
    "alignment" : 4,
@@ -19326,7 +19591,7 @@
    "referenced_type" : "_ZTIN7android14StaticString16ILj50EEE",
    "self_type" : "_ZTIKN7android14StaticString16ILj50EEE",
    "size" : 108,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioDeviceDescription.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioDeviceDescription.h"
   },
   {
    "alignment" : 4,
@@ -19336,7 +19601,7 @@
    "referenced_type" : "_ZTIN7android14StaticString16ILj51EEE",
    "self_type" : "_ZTIKN7android14StaticString16ILj51EEE",
    "size" : 112,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalAttributesGroup.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalAttributesGroup.h"
   },
   {
    "alignment" : 4,
@@ -19346,7 +19611,7 @@
    "referenced_type" : "_ZTIN7android14StaticString16ILj52EEE",
    "self_type" : "_ZTIKN7android14StaticString16ILj52EEE",
    "size" : 112,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalCapCriterionType.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalCapCriterionType.h"
   },
   {
    "alignment" : 4,
@@ -19356,7 +19621,7 @@
    "referenced_type" : "_ZTIN7android14StaticString16ILj53EEE",
    "self_type" : "_ZTIKN7android14StaticString16ILj53EEE",
    "size" : 116,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h"
   },
   {
    "alignment" : 4,
@@ -19366,7 +19631,7 @@
    "referenced_type" : "_ZTIN7android14StaticString16ILj54EEE",
    "self_type" : "_ZTIKN7android14StaticString16ILj54EEE",
    "size" : 116,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h"
   },
   {
    "alignment" : 4,
@@ -19386,7 +19651,7 @@
    "referenced_type" : "_ZTIN7android14StaticString16ILj58EEE",
    "self_type" : "_ZTIKN7android14StaticString16ILj58EEE",
    "size" : 124,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalVolumeCurve.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalVolumeCurve.h"
   },
   {
    "alignment" : 4,
@@ -19396,7 +19661,7 @@
    "referenced_type" : "_ZTIN7android14StaticString16ILj65EEE",
    "self_type" : "_ZTIKN7android14StaticString16ILj65EEE",
    "size" : 140,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h"
   },
   {
    "alignment" : 4,
@@ -19406,7 +19671,7 @@
    "referenced_type" : "_ZTIN7android14StaticString16ILj66EEE",
    "self_type" : "_ZTIKN7android14StaticString16ILj66EEE",
    "size" : 140,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalEngineConfig.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalEngineConfig.h"
   },
   {
    "alignment" : 4,
@@ -19906,7 +20171,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common12AudioIoFlags3TagE",
    "self_type" : "_ZTIKN7android5media5audio6common12AudioIoFlags3TagE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioIoFlags.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioIoFlags.h"
   },
   {
    "alignment" : 4,
@@ -19926,7 +20191,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common12AudioPortExt3TagE",
    "self_type" : "_ZTIKN7android5media5audio6common12AudioPortExt3TagE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioPortExt.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioPortExt.h"
   },
   {
    "alignment" : 4,
@@ -19947,6 +20212,36 @@
    "self_type" : "_ZTIKN7android5media5audio6common12AudioProfileE",
    "size" : 64,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android5media5audio6common12HeadTracking10SensorData3TagE",
+   "name" : "const android::media::audio::common::HeadTracking::SensorData::Tag",
+   "referenced_type" : "_ZTIN7android5media5audio6common12HeadTracking10SensorData3TagE",
+   "self_type" : "_ZTIKN7android5media5audio6common12HeadTracking10SensorData3TagE",
+   "size" : 4,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/HeadTracking.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android5media5audio6common12HeadTracking10SensorDataE",
+   "name" : "const android::media::audio::common::HeadTracking::SensorData",
+   "referenced_type" : "_ZTIN7android5media5audio6common12HeadTracking10SensorDataE",
+   "self_type" : "_ZTIKN7android5media5audio6common12HeadTracking10SensorDataE",
+   "size" : 32,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/HeadTracking.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android5media5audio6common12HeadTrackingE",
+   "name" : "const android::media::audio::common::HeadTracking",
+   "referenced_type" : "_ZTIN7android5media5audio6common12HeadTrackingE",
+   "self_type" : "_ZTIKN7android5media5audio6common12HeadTrackingE",
+   "size" : 4,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/HeadTracking.h"
   },
   {
    "alignment" : 4,
@@ -20021,6 +20316,16 @@
   {
    "alignment" : 4,
    "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android5media5audio6common14SpatializationE",
+   "name" : "const android::media::audio::common::Spatialization",
+   "referenced_type" : "_ZTIN7android5media5audio6common14SpatializationE",
+   "self_type" : "_ZTIKN7android5media5audio6common14SpatializationE",
+   "size" : 4,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/Spatialization.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
    "linker_set_key" : "_ZTIKN7android5media5audio6common15AudioAttributesE",
    "name" : "const android::media::audio::common::AudioAttributes",
    "referenced_type" : "_ZTIN7android5media5audio6common15AudioAttributesE",
@@ -20036,7 +20341,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common15AudioConfigBaseE",
    "self_type" : "_ZTIKN7android5media5audio6common15AudioConfigBaseE",
    "size" : 40,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioConfigBase.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioConfigBase.h"
   },
   {
    "alignment" : 4,
@@ -20126,7 +20431,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayout3TagE",
    "self_type" : "_ZTIKN7android5media5audio6common18AudioChannelLayout3TagE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h"
   },
   {
    "alignment" : 4,
@@ -20146,7 +20451,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioDeviceAddress3TagE",
    "self_type" : "_ZTIKN7android5media5audio6common18AudioDeviceAddress3TagE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioDeviceAddress.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioDeviceAddress.h"
   },
   {
    "alignment" : 4,
@@ -20216,7 +20521,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common19AudioMMapPolicyInfoE",
    "self_type" : "_ZTIKN7android5media5audio6common19AudioMMapPolicyInfoE",
    "size" : 52,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioMMapPolicyInfo.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioMMapPolicyInfo.h"
   },
   {
    "alignment" : 4,
@@ -20316,7 +20621,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common22AudioPortMixExtUseCase3TagE",
    "self_type" : "_ZTIKN7android5media5audio6common22AudioPortMixExtUseCase3TagE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioPortMixExtUseCase.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioPortMixExtUseCase.h"
   },
   {
    "alignment" : 4,
@@ -20986,7 +21291,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common10AudioUsageELj23EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common10AudioUsageELj23EEE",
    "size" : 92,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioUsage.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioUsage.h"
   },
   {
    "alignment" : 4,
@@ -20996,7 +21301,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common11AudioSourceELj16EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common11AudioSourceELj16EEE",
    "size" : 64,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioSource.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioSource.h"
   },
   {
    "alignment" : 4,
@@ -21006,7 +21311,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common12AudioIoFlags3TagELj2EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common12AudioIoFlags3TagELj2EEE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioIoFlags.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioIoFlags.h"
   },
   {
    "alignment" : 4,
@@ -21016,7 +21321,37 @@
    "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common12AudioPortExt3TagELj4EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common12AudioPortExt3TagELj4EEE",
    "size" : 16,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioPortExt.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioPortExt.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__15arrayIN7android5media5audio6common12HeadTracking10SensorData3TagELj1EEE",
+   "name" : "const std::array<android::media::audio::common::HeadTracking::SensorData::Tag, 1>",
+   "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common12HeadTracking10SensorData3TagELj1EEE",
+   "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common12HeadTracking10SensorData3TagELj1EEE",
+   "size" : 4,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/HeadTracking.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__15arrayIN7android5media5audio6common12HeadTracking14ConnectionModeELj3EEE",
+   "name" : "const std::array<android::media::audio::common::HeadTracking::ConnectionMode, 3>",
+   "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common12HeadTracking14ConnectionModeELj3EEE",
+   "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common12HeadTracking14ConnectionModeELj3EEE",
+   "size" : 3,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/HeadTracking.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__15arrayIN7android5media5audio6common12HeadTracking4ModeELj4EEE",
+   "name" : "const std::array<android::media::audio::common::HeadTracking::Mode, 4>",
+   "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common12HeadTracking4ModeELj4EEE",
+   "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common12HeadTracking4ModeELj4EEE",
+   "size" : 4,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/HeadTracking.h"
   },
   {
    "alignment" : 4,
@@ -21026,7 +21361,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common13AudioStandardELj4EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common13AudioStandardELj4EEE",
    "size" : 16,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioStandard.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioStandard.h"
   },
   {
    "alignment" : 4,
@@ -21036,7 +21371,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common14MicrophoneInfo14DirectionalityELj6EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common14MicrophoneInfo14DirectionalityELj6EEE",
    "size" : 24,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h"
   },
   {
    "alignment" : 4,
@@ -21046,17 +21381,37 @@
    "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common14MicrophoneInfo8LocationELj4EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common14MicrophoneInfo8LocationELj4EEE",
    "size" : 16,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__15arrayIN7android5media5audio6common14Spatialization4ModeELj2EEE",
+   "name" : "const std::array<android::media::audio::common::Spatialization::Mode, 2>",
+   "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common14Spatialization4ModeELj2EEE",
+   "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common14Spatialization4ModeELj2EEE",
+   "size" : 2,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/Spatialization.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__15arrayIN7android5media5audio6common14Spatialization5LevelELj3EEE",
+   "name" : "const std::array<android::media::audio::common::Spatialization::Level, 3>",
+   "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common14Spatialization5LevelELj3EEE",
+   "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common14Spatialization5LevelELj3EEE",
+   "size" : 3,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/Spatialization.h"
   },
   {
    "alignment" : 4,
    "is_const" : true,
-   "linker_set_key" : "_ZTIKNSt3__15arrayIN7android5media5audio6common15AudioDeviceTypeELj33EEE",
-   "name" : "const std::array<android::media::audio::common::AudioDeviceType, 33>",
-   "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common15AudioDeviceTypeELj33EEE",
-   "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common15AudioDeviceTypeELj33EEE",
-   "size" : 132,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioDeviceType.h"
+   "linker_set_key" : "_ZTIKNSt3__15arrayIN7android5media5audio6common15AudioDeviceTypeELj35EEE",
+   "name" : "const std::array<android::media::audio::common::AudioDeviceType, 35>",
+   "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common15AudioDeviceTypeELj35EEE",
+   "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common15AudioDeviceTypeELj35EEE",
+   "size" : 140,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioDeviceType.h"
   },
   {
    "alignment" : 1,
@@ -21066,7 +21421,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common15AudioFormatTypeELj4EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common15AudioFormatTypeELj4EEE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioFormatType.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioFormatType.h"
   },
   {
    "alignment" : 4,
@@ -21076,7 +21431,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common15AudioMMapPolicyELj4EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common15AudioMMapPolicyELj4EEE",
    "size" : 16,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioMMapPolicy.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioMMapPolicy.h"
   },
   {
    "alignment" : 4,
@@ -21086,7 +21441,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common15AudioStreamTypeELj17EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common15AudioStreamTypeELj17EEE",
    "size" : 68,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioStreamType.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioStreamType.h"
   },
   {
    "alignment" : 4,
@@ -21096,7 +21451,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common16AudioContentTypeELj6EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common16AudioContentTypeELj6EEE",
    "size" : 24,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioContentType.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioContentType.h"
   },
   {
    "alignment" : 1,
@@ -21106,7 +21461,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common16AudioLatencyModeELj4EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common16AudioLatencyModeELj4EEE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioLatencyMode.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioLatencyMode.h"
   },
   {
    "alignment" : 4,
@@ -21116,7 +21471,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common18AudioChannelLayout3TagELj5EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common18AudioChannelLayout3TagELj5EEE",
    "size" : 20,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h"
   },
   {
    "alignment" : 4,
@@ -21126,7 +21481,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common18AudioDeviceAddress3TagELj5EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common18AudioDeviceAddress3TagELj5EEE",
    "size" : 20,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioDeviceAddress.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioDeviceAddress.h"
   },
   {
    "alignment" : 1,
@@ -21136,7 +21491,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common19AudioHalVolumeCurve14DeviceCategoryELj5EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common19AudioHalVolumeCurve14DeviceCategoryELj5EEE",
    "size" : 5,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalVolumeCurve.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalVolumeCurve.h"
   },
   {
    "alignment" : 4,
@@ -21146,7 +21501,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common19AudioMMapPolicyTypeELj2EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common19AudioMMapPolicyTypeELj2EEE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioMMapPolicyType.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioMMapPolicyType.h"
   },
   {
    "alignment" : 4,
@@ -21156,7 +21511,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common21MicrophoneDynamicInfo14ChannelMappingELj3EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common21MicrophoneDynamicInfo14ChannelMappingELj3EEE",
    "size" : 12,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/MicrophoneDynamicInfo.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/MicrophoneDynamicInfo.h"
   },
   {
    "alignment" : 4,
@@ -21166,7 +21521,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common22AudioEncapsulationTypeELj3EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common22AudioEncapsulationTypeELj3EEE",
    "size" : 12,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioEncapsulationType.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioEncapsulationType.h"
   },
   {
    "alignment" : 4,
@@ -21176,7 +21531,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common22AudioPortMixExtUseCase3TagELj3EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common22AudioPortMixExtUseCase3TagELj3EEE",
    "size" : 12,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioPortMixExtUseCase.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioPortMixExtUseCase.h"
   },
   {
    "alignment" : 1,
@@ -21186,7 +21541,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common24AudioProductStrategyTypeELj11EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common24AudioProductStrategyTypeELj11EEE",
    "size" : 11,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioProductStrategyType.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioProductStrategyType.h"
   },
   {
    "alignment" : 1,
@@ -21196,7 +21551,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common7PcmTypeELj7EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common7PcmTypeELj7EEE",
    "size" : 7,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/PcmType.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/PcmType.h"
   },
   {
    "alignment" : 4,
@@ -21206,7 +21561,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common9AudioFlagELj17EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common9AudioFlagELj17EEE",
    "size" : 68,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioFlag.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioFlag.h"
   },
   {
    "alignment" : 4,
@@ -21216,7 +21571,17 @@
    "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common9AudioModeELj9EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN7android5media5audio6common9AudioModeELj9EEE",
    "size" : 36,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioMode.h"
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioMode.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__15arrayIfLj6EEE",
+   "name" : "const std::array<float, 6>",
+   "referenced_type" : "_ZTINSt3__15arrayIfLj6EEE",
+   "self_type" : "_ZTIKNSt3__15arrayIfLj6EEE",
+   "size" : 24,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
    "alignment" : 4,
@@ -28297,7 +28662,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common11AudioDeviceE",
    "self_type" : "_ZTIN7android5media5audio6common11AudioDeviceE",
    "size" : 44,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioDevice.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioDevice.h",
    "vtable_components" :
    [
     {
@@ -28349,7 +28714,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common12AudioIoFlagsE",
    "self_type" : "_ZTIN7android5media5audio6common12AudioIoFlagsE",
    "size" : 12,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioIoFlags.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioIoFlags.h",
    "vtable_components" :
    [
     {
@@ -28401,7 +28766,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common12AudioPortExtE",
    "self_type" : "_ZTIN7android5media5audio6common12AudioPortExtE",
    "size" : 80,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioPortExt.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioPortExt.h",
    "vtable_components" :
    [
     {
@@ -28472,7 +28837,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common12AudioProfileE",
    "self_type" : "_ZTIN7android5media5audio6common12AudioProfileE",
    "size" : 64,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioProfile.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioProfile.h",
    "vtable_components" :
    [
     {
@@ -28512,6 +28877,101 @@
    "fields" :
    [
     {
+     "access" : "private",
+     "field_name" : "_value",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTINSt3__17variantIJNS_5arrayIfLj6EEEEEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android5media5audio6common12HeadTracking10SensorDataE",
+   "name" : "android::media::audio::common::HeadTracking::SensorData",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android5media5audio6common12HeadTracking10SensorDataE",
+   "self_type" : "_ZTIN7android5media5audio6common12HeadTracking10SensorDataE",
+   "size" : 32,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/HeadTracking.h",
+   "vtable_components" :
+   [
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android5media5audio6common12HeadTracking10SensorDataE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android5media5audio6common12HeadTracking10SensorDataD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android5media5audio6common12HeadTracking10SensorDataD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android5media5audio6common12HeadTracking10SensorData13writeToParcelEPNS_6ParcelE"
+    },
+    {
+     "mangled_component_name" : "_ZN7android5media5audio6common12HeadTracking10SensorData14readFromParcelEPKNS_6ParcelE"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android5media5audio6common12HeadTracking10SensorData12getStabilityEv"
+    }
+   ]
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTIN7android10ParcelableE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android5media5audio6common12HeadTrackingE",
+   "name" : "android::media::audio::common::HeadTracking",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android5media5audio6common12HeadTrackingE",
+   "self_type" : "_ZTIN7android5media5audio6common12HeadTrackingE",
+   "size" : 4,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/HeadTracking.h",
+   "vtable_components" :
+   [
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android5media5audio6common12HeadTrackingE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android5media5audio6common12HeadTrackingD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android5media5audio6common12HeadTrackingD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android5media5audio6common12HeadTracking13writeToParcelEPNS_6ParcelE"
+    },
+    {
+     "mangled_component_name" : "_ZN7android5media5audio6common12HeadTracking14readFromParcelEPKNS_6ParcelE"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android5media5audio6common12HeadTracking12getStabilityEv"
+    }
+   ]
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTIN7android10ParcelableE"
+    }
+   ],
+   "fields" :
+   [
+    {
      "field_name" : "x",
      "field_offset" : 32,
      "referenced_type" : "_ZTIf"
@@ -28533,7 +28993,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common14MicrophoneInfo10CoordinateE",
    "self_type" : "_ZTIN7android5media5audio6common14MicrophoneInfo10CoordinateE",
    "size" : 16,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h",
    "vtable_components" :
    [
     {
@@ -28594,7 +29054,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common14MicrophoneInfo11SensitivityE",
    "self_type" : "_ZTIN7android5media5audio6common14MicrophoneInfo11SensitivityE",
    "size" : 16,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h",
    "vtable_components" :
    [
     {
@@ -28650,7 +29110,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common14MicrophoneInfo22FrequencyResponsePointE",
    "self_type" : "_ZTIN7android5media5audio6common14MicrophoneInfo22FrequencyResponsePointE",
    "size" : 12,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h",
    "vtable_components" :
    [
     {
@@ -28746,7 +29206,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common14MicrophoneInfoE",
    "self_type" : "_ZTIN7android5media5audio6common14MicrophoneInfoE",
    "size" : 148,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/MicrophoneInfo.h",
    "vtable_components" :
    [
     {
@@ -28772,6 +29232,49 @@
     },
     {
      "mangled_component_name" : "_ZNK7android5media5audio6common14MicrophoneInfo12getStabilityEv"
+    }
+   ]
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTIN7android10ParcelableE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android5media5audio6common14SpatializationE",
+   "name" : "android::media::audio::common::Spatialization",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android5media5audio6common14SpatializationE",
+   "self_type" : "_ZTIN7android5media5audio6common14SpatializationE",
+   "size" : 4,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/Spatialization.h",
+   "vtable_components" :
+   [
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android5media5audio6common14SpatializationE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android5media5audio6common14SpatializationD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android5media5audio6common14SpatializationD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android5media5audio6common14Spatialization13writeToParcelEPNS_6ParcelE"
+    },
+    {
+     "mangled_component_name" : "_ZN7android5media5audio6common14Spatialization14readFromParcelEPKNS_6ParcelE"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android5media5audio6common14Spatialization12getStabilityEv"
     }
    ]
   },
@@ -28817,7 +29320,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common15AudioAttributesE",
    "self_type" : "_ZTIN7android5media5audio6common15AudioAttributesE",
    "size" : 32,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioAttributes.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioAttributes.h",
    "vtable_components" :
    [
     {
@@ -28878,7 +29381,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common15AudioConfigBaseE",
    "self_type" : "_ZTIN7android5media5audio6common15AudioConfigBaseE",
    "size" : 40,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioConfigBase.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioConfigBase.h",
    "vtable_components" :
    [
     {
@@ -28949,7 +29452,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common15AudioGainConfigE",
    "self_type" : "_ZTIN7android5media5audio6common15AudioGainConfigE",
    "size" : 40,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioGainConfig.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioGainConfig.h",
    "vtable_components" :
    [
     {
@@ -29035,7 +29538,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common15AudioPortConfigE",
    "self_type" : "_ZTIN7android5media5audio6common15AudioPortConfigE",
    "size" : 204,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioPortConfig.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioPortConfig.h",
    "vtable_components" :
    [
     {
@@ -29106,7 +29609,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common15AudioPortMixExtE",
    "self_type" : "_ZTIN7android5media5audio6common15AudioPortMixExtE",
    "size" : 32,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioPortMixExt.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioPortMixExt.h",
    "vtable_components" :
    [
     {
@@ -29158,7 +29661,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioChannelLayoutE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioChannelLayoutE",
    "size" : 12,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioChannelLayout.h",
    "vtable_components" :
    [
     {
@@ -29210,7 +29713,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioDeviceAddressE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioDeviceAddressE",
    "size" : 20,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioDeviceAddress.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioDeviceAddress.h",
    "vtable_components" :
    [
     {
@@ -29281,7 +29784,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioPortDeviceExtE",
    "self_type" : "_ZTIN7android5media5audio6common18AudioPortDeviceExtE",
    "size" : 72,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioPortDeviceExt.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioPortDeviceExt.h",
    "vtable_components" :
    [
     {
@@ -29337,7 +29840,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common19AudioHalVolumeCurve10CurvePointE",
    "self_type" : "_ZTIN7android5media5audio6common19AudioHalVolumeCurve10CurvePointE",
    "size" : 12,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalVolumeCurve.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalVolumeCurve.h",
    "vtable_components" :
    [
     {
@@ -29393,7 +29896,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common19AudioHalVolumeCurveE",
    "self_type" : "_ZTIN7android5media5audio6common19AudioHalVolumeCurveE",
    "size" : 20,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalVolumeCurve.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalVolumeCurve.h",
    "vtable_components" :
    [
     {
@@ -29459,7 +29962,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common19AudioHalVolumeGroupE",
    "self_type" : "_ZTIN7android5media5audio6common19AudioHalVolumeGroupE",
    "size" : 36,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalVolumeGroup.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalVolumeGroup.h",
    "vtable_components" :
    [
     {
@@ -29515,7 +30018,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common19AudioMMapPolicyInfoE",
    "self_type" : "_ZTIN7android5media5audio6common19AudioMMapPolicyInfoE",
    "size" : 52,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioMMapPolicyInfo.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioMMapPolicyInfo.h",
    "vtable_components" :
    [
     {
@@ -29576,7 +30079,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common20AudioHalCapCriterionE",
    "self_type" : "_ZTIN7android5media5audio6common20AudioHalCapCriterionE",
    "size" : 40,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalCapCriterion.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalCapCriterion.h",
    "vtable_components" :
    [
     {
@@ -29632,7 +30135,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common20AudioHalEngineConfig17CapSpecificConfigE",
    "self_type" : "_ZTIN7android5media5audio6common20AudioHalEngineConfig17CapSpecificConfigE",
    "size" : 28,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalEngineConfig.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalEngineConfig.h",
    "vtable_components" :
    [
     {
@@ -29698,7 +30201,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common20AudioHalEngineConfigE",
    "self_type" : "_ZTIN7android5media5audio6common20AudioHalEngineConfigE",
    "size" : 64,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalEngineConfig.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalEngineConfig.h",
    "vtable_components" :
    [
     {
@@ -29759,7 +30262,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common20ExtraAudioDescriptorE",
    "self_type" : "_ZTIN7android5media5audio6common20ExtraAudioDescriptorE",
    "size" : 24,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/ExtraAudioDescriptor.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/ExtraAudioDescriptor.h",
    "vtable_components" :
    [
     {
@@ -29815,7 +30318,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common21MicrophoneDynamicInfoE",
    "self_type" : "_ZTIN7android5media5audio6common21MicrophoneDynamicInfoE",
    "size" : 28,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/MicrophoneDynamicInfo.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/MicrophoneDynamicInfo.h",
    "vtable_components" :
    [
     {
@@ -29871,7 +30374,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common22AudioDeviceDescriptionE",
    "self_type" : "_ZTIN7android5media5audio6common22AudioDeviceDescriptionE",
    "size" : 20,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioDeviceDescription.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioDeviceDescription.h",
    "vtable_components" :
    [
     {
@@ -29932,7 +30435,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common22AudioFormatDescriptionE",
    "self_type" : "_ZTIN7android5media5audio6common22AudioFormatDescriptionE",
    "size" : 20,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioFormatDescription.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioFormatDescription.h",
    "vtable_components" :
    [
     {
@@ -29984,7 +30487,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common22AudioPortMixExtUseCaseE",
    "self_type" : "_ZTIN7android5media5audio6common22AudioPortMixExtUseCaseE",
    "size" : 12,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioPortMixExtUseCase.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioPortMixExtUseCase.h",
    "vtable_components" :
    [
     {
@@ -30045,7 +30548,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common23AudioHalAttributesGroupE",
    "self_type" : "_ZTIN7android5media5audio6common23AudioHalAttributesGroupE",
    "size" : 32,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalAttributesGroup.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalAttributesGroup.h",
    "vtable_components" :
    [
     {
@@ -30101,7 +30604,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common23AudioHalProductStrategyE",
    "self_type" : "_ZTIN7android5media5audio6common23AudioHalProductStrategyE",
    "size" : 20,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalProductStrategy.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalProductStrategy.h",
    "vtable_components" :
    [
     {
@@ -30162,7 +30665,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common24AudioHalCapCriterionTypeE",
    "self_type" : "_ZTIN7android5media5audio6common24AudioHalCapCriterionTypeE",
    "size" : 32,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioHalCapCriterionType.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioHalCapCriterionType.h",
    "vtable_components" :
    [
     {
@@ -30213,7 +30716,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common3IntE",
    "self_type" : "_ZTIN7android5media5audio6common3IntE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/Int.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/Int.h",
    "vtable_components" :
    [
     {
@@ -30304,7 +30807,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common9AudioGainE",
    "self_type" : "_ZTIN7android5media5audio6common9AudioGainE",
    "size" : 48,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioGain.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioGain.h",
    "vtable_components" :
    [
     {
@@ -30385,7 +30888,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common9AudioPortE",
    "self_type" : "_ZTIN7android5media5audio6common9AudioPortE",
    "size" : 148,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioPort.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioPort.h",
    "vtable_components" :
    [
     {
@@ -30456,7 +30959,7 @@
    "referenced_type" : "_ZTIN7android5media5audio6common9AudioUuidE",
    "self_type" : "_ZTIN7android5media5audio6common9AudioUuidE",
    "size" : 32,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V2-cpp-source/gen/include/android/media/audio/common/AudioUuid.h",
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V3-cpp-source/gen/include/android/media/audio/common/AudioUuid.h",
    "vtable_components" :
    [
     {
@@ -32467,6 +32970,20 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details10IsIterableINSt3__15arrayIfLj6EEEEE",
+   "name" : "android::internal::details::IsIterable<std::array<float, 6>>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details10IsIterableINSt3__15arrayIfLj6EEEEE",
+   "self_type" : "_ZTIN7android8internal7details10IsIterableINSt3__15arrayIfLj6EEEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__15arrayIfLj6EEE"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEENS8_ISA_EEEEEE",
    "name" : "android::internal::details::IsIterable<std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>>>",
    "record_kind" : "class",
@@ -33947,6 +34464,20 @@
    "template_args" :
    [
     "_ZTIN7android7content22AttributionSourceStateE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__15arrayIfLj6EEEEE",
+   "name" : "android::internal::details::IsPointerLike<std::array<float, 6>>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__15arrayIfLj6EEEEE",
+   "self_type" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__15arrayIfLj6EEEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__15arrayIfLj6EEE"
    ]
   },
   {
@@ -35571,6 +36102,20 @@
    "template_args" :
    [
     "_ZTIN7android7content22AttributionSourceStateE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__15arrayIfLj6EEEEE",
+   "name" : "android::internal::details::HasToStringMethod<std::array<float, 6>>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__15arrayIfLj6EEEEE",
+   "self_type" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__15arrayIfLj6EEEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__15arrayIfLj6EEE"
    ]
   },
   {
@@ -41653,6 +42198,82 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__15arrayIfLj6EEENS3_10shared_ptrEEE",
+   "name" : "android::internal::details::IsInstantiationOf<std::array<float, 6>, std::shared_ptr>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__15arrayIfLj6EEENS3_10shared_ptrEEE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__15arrayIfLj6EEENS3_10shared_ptrEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__15arrayIfLj6EEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__15arrayIfLj6EEENS3_10unique_ptrEEE",
+   "name" : "android::internal::details::IsInstantiationOf<std::array<float, 6>, std::unique_ptr>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__15arrayIfLj6EEENS3_10unique_ptrEEE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__15arrayIfLj6EEENS3_10unique_ptrEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__15arrayIfLj6EEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__15arrayIfLj6EEENS3_8optionalEEE",
+   "name" : "android::internal::details::IsInstantiationOf<std::array<float, 6>, std::optional>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__15arrayIfLj6EEENS3_8optionalEEE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__15arrayIfLj6EEENS3_8optionalEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__15arrayIfLj6EEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__15arrayIfLj6EEENS_2spEEE",
+   "name" : "android::internal::details::IsInstantiationOf<std::array<float, 6>, android::sp>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__15arrayIfLj6EEENS_2spEEE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__15arrayIfLj6EEENS_2spEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__15arrayIfLj6EEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
    "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEENS8_ISA_EEEENS3_10shared_ptrEEE",
    "name" : "android::internal::details::IsInstantiationOf<std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>>, std::shared_ptr>",
    "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEENS8_ISA_EEEENS3_10shared_ptrEEE",
@@ -45177,6 +45798,20 @@
    "template_args" :
    [
     "_ZTIN7android5media5audio6common9AudioModeE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__15arrayIfLj6EEEEE",
+   "name" : "android::internal::details::HasToStringFunction<std::array<float, 6>>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__15arrayIfLj6EEEEE",
+   "self_type" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__15arrayIfLj6EEEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__15arrayIfLj6EEE"
    ]
   },
   {
