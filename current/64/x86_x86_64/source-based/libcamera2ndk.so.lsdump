@@ -401,115 +401,115 @@
     },
     {
      "enum_field_value" : 4128768,
-     "name" : "STANDARD_MASK"
+     "name" : "ADATASPACE_STANDARD_MASK"
     },
     {
      "enum_field_value" : 0,
-     "name" : "STANDARD_UNSPECIFIED"
+     "name" : "ADATASPACE_STANDARD_UNSPECIFIED"
     },
     {
      "enum_field_value" : 65536,
-     "name" : "STANDARD_BT709"
+     "name" : "ADATASPACE_STANDARD_BT709"
     },
     {
      "enum_field_value" : 131072,
-     "name" : "STANDARD_BT601_625"
+     "name" : "ADATASPACE_STANDARD_BT601_625"
     },
     {
      "enum_field_value" : 196608,
-     "name" : "STANDARD_BT601_625_UNADJUSTED"
+     "name" : "ADATASPACE_STANDARD_BT601_625_UNADJUSTED"
     },
     {
      "enum_field_value" : 262144,
-     "name" : "STANDARD_BT601_525"
+     "name" : "ADATASPACE_STANDARD_BT601_525"
     },
     {
      "enum_field_value" : 327680,
-     "name" : "STANDARD_BT601_525_UNADJUSTED"
+     "name" : "ADATASPACE_STANDARD_BT601_525_UNADJUSTED"
     },
     {
      "enum_field_value" : 393216,
-     "name" : "STANDARD_BT2020"
+     "name" : "ADATASPACE_STANDARD_BT2020"
     },
     {
      "enum_field_value" : 458752,
-     "name" : "STANDARD_BT2020_CONSTANT_LUMINANCE"
+     "name" : "ADATASPACE_STANDARD_BT2020_CONSTANT_LUMINANCE"
     },
     {
      "enum_field_value" : 524288,
-     "name" : "STANDARD_BT470M"
+     "name" : "ADATASPACE_STANDARD_BT470M"
     },
     {
      "enum_field_value" : 589824,
-     "name" : "STANDARD_FILM"
+     "name" : "ADATASPACE_STANDARD_FILM"
     },
     {
      "enum_field_value" : 655360,
-     "name" : "STANDARD_DCI_P3"
+     "name" : "ADATASPACE_STANDARD_DCI_P3"
     },
     {
      "enum_field_value" : 720896,
-     "name" : "STANDARD_ADOBE_RGB"
+     "name" : "ADATASPACE_STANDARD_ADOBE_RGB"
     },
     {
      "enum_field_value" : 130023424,
-     "name" : "TRANSFER_MASK"
+     "name" : "ADATASPACE_TRANSFER_MASK"
     },
     {
      "enum_field_value" : 0,
-     "name" : "TRANSFER_UNSPECIFIED"
+     "name" : "ADATASPACE_TRANSFER_UNSPECIFIED"
     },
     {
      "enum_field_value" : 4194304,
-     "name" : "TRANSFER_LINEAR"
+     "name" : "ADATASPACE_TRANSFER_LINEAR"
     },
     {
      "enum_field_value" : 8388608,
-     "name" : "TRANSFER_SRGB"
+     "name" : "ADATASPACE_TRANSFER_SRGB"
     },
     {
      "enum_field_value" : 12582912,
-     "name" : "TRANSFER_SMPTE_170M"
+     "name" : "ADATASPACE_TRANSFER_SMPTE_170M"
     },
     {
      "enum_field_value" : 16777216,
-     "name" : "TRANSFER_GAMMA2_2"
+     "name" : "ADATASPACE_TRANSFER_GAMMA2_2"
     },
     {
      "enum_field_value" : 20971520,
-     "name" : "TRANSFER_GAMMA2_6"
+     "name" : "ADATASPACE_TRANSFER_GAMMA2_6"
     },
     {
      "enum_field_value" : 25165824,
-     "name" : "TRANSFER_GAMMA2_8"
+     "name" : "ADATASPACE_TRANSFER_GAMMA2_8"
     },
     {
      "enum_field_value" : 29360128,
-     "name" : "TRANSFER_ST2084"
+     "name" : "ADATASPACE_TRANSFER_ST2084"
     },
     {
      "enum_field_value" : 33554432,
-     "name" : "TRANSFER_HLG"
+     "name" : "ADATASPACE_TRANSFER_HLG"
     },
     {
      "enum_field_value" : 939524096,
-     "name" : "RANGE_MASK"
+     "name" : "ADATASPACE_RANGE_MASK"
     },
     {
      "enum_field_value" : 0,
-     "name" : "RANGE_UNSPECIFIED"
+     "name" : "ADATASPACE_RANGE_UNSPECIFIED"
     },
     {
      "enum_field_value" : 134217728,
-     "name" : "RANGE_FULL"
+     "name" : "ADATASPACE_RANGE_FULL"
     },
     {
      "enum_field_value" : 268435456,
-     "name" : "RANGE_LIMITED"
+     "name" : "ADATASPACE_RANGE_LIMITED"
     },
     {
      "enum_field_value" : 402653184,
-     "name" : "RANGE_EXTENDED"
+     "name" : "ADATASPACE_RANGE_EXTENDED"
     },
     {
      "enum_field_value" : 406913024,
@@ -582,6 +582,114 @@
     {
      "enum_field_value" : 4098,
      "name" : "ADATASPACE_DYNAMIC_DEPTH"
+    },
+    {
+     "enum_field_value" : 4128768,
+     "name" : "STANDARD_MASK"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "STANDARD_UNSPECIFIED"
+    },
+    {
+     "enum_field_value" : 65536,
+     "name" : "STANDARD_BT709"
+    },
+    {
+     "enum_field_value" : 131072,
+     "name" : "STANDARD_BT601_625"
+    },
+    {
+     "enum_field_value" : 196608,
+     "name" : "STANDARD_BT601_625_UNADJUSTED"
+    },
+    {
+     "enum_field_value" : 262144,
+     "name" : "STANDARD_BT601_525"
+    },
+    {
+     "enum_field_value" : 327680,
+     "name" : "STANDARD_BT601_525_UNADJUSTED"
+    },
+    {
+     "enum_field_value" : 524288,
+     "name" : "STANDARD_BT470M"
+    },
+    {
+     "enum_field_value" : 393216,
+     "name" : "STANDARD_BT2020"
+    },
+    {
+     "enum_field_value" : 589824,
+     "name" : "STANDARD_FILM"
+    },
+    {
+     "enum_field_value" : 655360,
+     "name" : "STANDARD_DCI_P3"
+    },
+    {
+     "enum_field_value" : 720896,
+     "name" : "STANDARD_ADOBE_RGB"
+    },
+    {
+     "enum_field_value" : 130023424,
+     "name" : "TRANSFER_MASK"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "TRANSFER_UNSPECIFIED"
+    },
+    {
+     "enum_field_value" : 4194304,
+     "name" : "TRANSFER_LINEAR"
+    },
+    {
+     "enum_field_value" : 12582912,
+     "name" : "TRANSFER_SMPTE_170M"
+    },
+    {
+     "enum_field_value" : 16777216,
+     "name" : "TRANSFER_GAMMA2_2"
+    },
+    {
+     "enum_field_value" : 20971520,
+     "name" : "TRANSFER_GAMMA2_6"
+    },
+    {
+     "enum_field_value" : 25165824,
+     "name" : "TRANSFER_GAMMA2_8"
+    },
+    {
+     "enum_field_value" : 8388608,
+     "name" : "TRANSFER_SRGB"
+    },
+    {
+     "enum_field_value" : 29360128,
+     "name" : "TRANSFER_ST2084"
+    },
+    {
+     "enum_field_value" : 33554432,
+     "name" : "TRANSFER_HLG"
+    },
+    {
+     "enum_field_value" : 939524096,
+     "name" : "RANGE_MASK"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "RANGE_UNSPECIFIED"
+    },
+    {
+     "enum_field_value" : 134217728,
+     "name" : "RANGE_FULL"
+    },
+    {
+     "enum_field_value" : 268435456,
+     "name" : "RANGE_LIMITED"
+    },
+    {
+     "enum_field_value" : 402653184,
+     "name" : "RANGE_EXTENDED"
     }
    ],
    "linker_set_key" : "_ZTI10ADataSpace",
@@ -590,7 +698,7 @@
    "self_type" : "_ZTI10ADataSpace",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/android/data_space.h",
-   "underlying_type" : "_ZTIj"
+   "underlying_type" : "_ZTIi"
   },
   {
    "alignment" : 4,
@@ -1051,6 +1159,14 @@
     },
     {
      "enum_field_value" : 65591,
+     "name" : "ACAMERA_CONTROL_LOW_LIGHT_BOOST_INFO_LUMINANCE_RANGE"
+    },
+    {
+     "enum_field_value" : 65592,
+     "name" : "ACAMERA_CONTROL_LOW_LIGHT_BOOST_STATE"
+    },
+    {
+     "enum_field_value" : 65593,
      "name" : "ACAMERA_CONTROL_END"
     },
     {
@@ -1651,6 +1767,14 @@
     },
     {
      "enum_field_value" : 1114133,
+     "name" : "ACAMERA_STATISTICS_LENS_INTRINSIC_TIMESTAMPS"
+    },
+    {
+     "enum_field_value" : 1114134,
+     "name" : "ACAMERA_STATISTICS_LENS_INTRINSIC_SAMPLES"
+    },
+    {
+     "enum_field_value" : 1114135,
      "name" : "ACAMERA_STATISTICS_END"
     },
     {
@@ -1823,6 +1947,10 @@
     },
     {
      "enum_field_value" : 1703939,
+     "name" : "ACAMERA_LOGICAL_MULTI_CAMERA_ACTIVE_PHYSICAL_SENSOR_CROP_REGION"
+    },
+    {
+     "enum_field_value" : 1703940,
      "name" : "ACAMERA_LOGICAL_MULTI_CAMERA_END"
     },
     {
@@ -2789,6 +2917,10 @@
     {
      "enum_field_value" : 102,
      "name" : "ANATIVEWINDOW_FRAME_RATE_MIN"
+    },
+    {
+     "enum_field_value" : 103,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_GTE"
     }
    ],
    "linker_set_key" : "_ZTI31$ANATIVEWINDOW_FRAME_RATE_EXACT",
@@ -3442,6 +3574,10 @@
     {
      "enum_field_value" : 5,
      "name" : "ACAMERA_CONTROL_AE_MODE_ON_EXTERNAL_FLASH"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "ACAMERA_CONTROL_AE_MODE_ON_LOW_LIGHT_BOOST_BRIGHTNESS_PRIORITY"
     }
    ],
    "linker_set_key" : "_ZTI45acamera_metadata_enum_acamera_control_ae_mode",
@@ -4788,6 +4924,27 @@
    [
     {
      "enum_field_value" : 0,
+     "name" : "ACAMERA_CONTROL_LOW_LIGHT_BOOST_STATE_INACTIVE"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ACAMERA_CONTROL_LOW_LIGHT_BOOST_STATE_ACTIVE"
+    }
+   ],
+   "linker_set_key" : "_ZTI59acamera_metadata_enum_acamera_control_low_light_boost_state",
+   "name" : "acamera_metadata_enum_acamera_control_low_light_boost_state",
+   "referenced_type" : "_ZTI59acamera_metadata_enum_acamera_control_low_light_boost_state",
+   "self_type" : "_ZTI59acamera_metadata_enum_acamera_control_low_light_boost_state",
+   "size" : 4,
+   "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
      "name" : "ACAMERA_INFO_SUPPORTED_HARDWARE_LEVEL_LIMITED"
     },
     {
@@ -4953,11 +5110,15 @@
    [
     {
      "enum_field_value" : 0,
-     "name" : "ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_SELF"
+     "name" : "ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_PROPAGATE"
     },
     {
      "enum_field_value" : 1,
      "name" : "ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_OVERRIDE_CHILDREN"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_SELF"
     }
    ],
    "linker_set_key" : "_ZTI62$ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_OVERRIDE_CHILDREN",
