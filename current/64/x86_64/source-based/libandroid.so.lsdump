@@ -78,6 +78,15 @@
    "size" : 1
   },
   {
+   "alignment" : 1,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIc",
+   "name" : "char",
+   "referenced_type" : "_ZTIc",
+   "self_type" : "_ZTIc",
+   "size" : 1
+  },
+  {
    "alignment" : 4,
    "linker_set_key" : "_ZTIf",
    "name" : "float",
@@ -785,6 +794,9 @@
    "name" : "APerformanceHint_reportActualWorkDuration"
   },
   {
+   "name" : "APerformanceHint_reportActualWorkDuration2"
+  },
+  {
    "name" : "APerformanceHint_sendHint"
   },
   {
@@ -1091,10 +1103,16 @@
    "name" : "AThermal_getThermalHeadroom"
   },
   {
+   "name" : "AThermal_getThermalHeadroomThresholds"
+  },
+  {
    "name" : "AThermal_registerThermalStatusListener"
   },
   {
    "name" : "AThermal_releaseManager"
+  },
+  {
+   "name" : "AThermal_setIThermalServiceForTesting"
   },
   {
    "name" : "AThermal_unregisterThermalStatusListener"
@@ -1116,6 +1134,24 @@
   },
   {
    "name" : "ATrace_setCounter"
+  },
+  {
+   "name" : "AWorkDuration_create"
+  },
+  {
+   "name" : "AWorkDuration_release"
+  },
+  {
+   "name" : "AWorkDuration_setActualCpuDurationNanos"
+  },
+  {
+   "name" : "AWorkDuration_setActualGpuDurationNanos"
+  },
+  {
+   "name" : "AWorkDuration_setActualTotalDurationNanos"
+  },
+  {
+   "name" : "AWorkDuration_setWorkPeriodStartTimestampNanos"
   },
   {
    "name" : "android_getaddrinfofornetwork"
@@ -1170,115 +1206,115 @@
     },
     {
      "enum_field_value" : 4128768,
-     "name" : "STANDARD_MASK"
+     "name" : "ADATASPACE_STANDARD_MASK"
     },
     {
      "enum_field_value" : 0,
-     "name" : "STANDARD_UNSPECIFIED"
+     "name" : "ADATASPACE_STANDARD_UNSPECIFIED"
     },
     {
      "enum_field_value" : 65536,
-     "name" : "STANDARD_BT709"
+     "name" : "ADATASPACE_STANDARD_BT709"
     },
     {
      "enum_field_value" : 131072,
-     "name" : "STANDARD_BT601_625"
+     "name" : "ADATASPACE_STANDARD_BT601_625"
     },
     {
      "enum_field_value" : 196608,
-     "name" : "STANDARD_BT601_625_UNADJUSTED"
+     "name" : "ADATASPACE_STANDARD_BT601_625_UNADJUSTED"
     },
     {
      "enum_field_value" : 262144,
-     "name" : "STANDARD_BT601_525"
+     "name" : "ADATASPACE_STANDARD_BT601_525"
     },
     {
      "enum_field_value" : 327680,
-     "name" : "STANDARD_BT601_525_UNADJUSTED"
+     "name" : "ADATASPACE_STANDARD_BT601_525_UNADJUSTED"
     },
     {
      "enum_field_value" : 393216,
-     "name" : "STANDARD_BT2020"
+     "name" : "ADATASPACE_STANDARD_BT2020"
     },
     {
      "enum_field_value" : 458752,
-     "name" : "STANDARD_BT2020_CONSTANT_LUMINANCE"
+     "name" : "ADATASPACE_STANDARD_BT2020_CONSTANT_LUMINANCE"
     },
     {
      "enum_field_value" : 524288,
-     "name" : "STANDARD_BT470M"
+     "name" : "ADATASPACE_STANDARD_BT470M"
     },
     {
      "enum_field_value" : 589824,
-     "name" : "STANDARD_FILM"
+     "name" : "ADATASPACE_STANDARD_FILM"
     },
     {
      "enum_field_value" : 655360,
-     "name" : "STANDARD_DCI_P3"
+     "name" : "ADATASPACE_STANDARD_DCI_P3"
     },
     {
      "enum_field_value" : 720896,
-     "name" : "STANDARD_ADOBE_RGB"
+     "name" : "ADATASPACE_STANDARD_ADOBE_RGB"
     },
     {
      "enum_field_value" : 130023424,
-     "name" : "TRANSFER_MASK"
+     "name" : "ADATASPACE_TRANSFER_MASK"
     },
     {
      "enum_field_value" : 0,
-     "name" : "TRANSFER_UNSPECIFIED"
+     "name" : "ADATASPACE_TRANSFER_UNSPECIFIED"
     },
     {
      "enum_field_value" : 4194304,
-     "name" : "TRANSFER_LINEAR"
+     "name" : "ADATASPACE_TRANSFER_LINEAR"
     },
     {
      "enum_field_value" : 8388608,
-     "name" : "TRANSFER_SRGB"
+     "name" : "ADATASPACE_TRANSFER_SRGB"
     },
     {
      "enum_field_value" : 12582912,
-     "name" : "TRANSFER_SMPTE_170M"
+     "name" : "ADATASPACE_TRANSFER_SMPTE_170M"
     },
     {
      "enum_field_value" : 16777216,
-     "name" : "TRANSFER_GAMMA2_2"
+     "name" : "ADATASPACE_TRANSFER_GAMMA2_2"
     },
     {
      "enum_field_value" : 20971520,
-     "name" : "TRANSFER_GAMMA2_6"
+     "name" : "ADATASPACE_TRANSFER_GAMMA2_6"
     },
     {
      "enum_field_value" : 25165824,
-     "name" : "TRANSFER_GAMMA2_8"
+     "name" : "ADATASPACE_TRANSFER_GAMMA2_8"
     },
     {
      "enum_field_value" : 29360128,
-     "name" : "TRANSFER_ST2084"
+     "name" : "ADATASPACE_TRANSFER_ST2084"
     },
     {
      "enum_field_value" : 33554432,
-     "name" : "TRANSFER_HLG"
+     "name" : "ADATASPACE_TRANSFER_HLG"
     },
     {
      "enum_field_value" : 939524096,
-     "name" : "RANGE_MASK"
+     "name" : "ADATASPACE_RANGE_MASK"
     },
     {
      "enum_field_value" : 0,
-     "name" : "RANGE_UNSPECIFIED"
+     "name" : "ADATASPACE_RANGE_UNSPECIFIED"
     },
     {
      "enum_field_value" : 134217728,
-     "name" : "RANGE_FULL"
+     "name" : "ADATASPACE_RANGE_FULL"
     },
     {
      "enum_field_value" : 268435456,
-     "name" : "RANGE_LIMITED"
+     "name" : "ADATASPACE_RANGE_LIMITED"
     },
     {
      "enum_field_value" : 402653184,
-     "name" : "RANGE_EXTENDED"
+     "name" : "ADATASPACE_RANGE_EXTENDED"
     },
     {
      "enum_field_value" : 406913024,
@@ -1359,7 +1395,7 @@
    "self_type" : "_ZTI10ADataSpace",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/android/data_space.h",
-   "underlying_type" : "_ZTIj"
+   "underlying_type" : "_ZTIi"
   },
   {
    "alignment" : 4,
@@ -1463,6 +1499,39 @@
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/apex/window.h",
    "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "AHARDWAREBUFFER_STATUS_OK"
+    },
+    {
+     "enum_field_value" : -12,
+     "name" : "AHARDWAREBUFFER_STATUS_NO_MEMORY"
+    },
+    {
+     "enum_field_value" : -22,
+     "name" : "AHARDWAREBUFFER_STATUS_BAD_VALUE"
+    },
+    {
+     "enum_field_value" : -38,
+     "name" : "AHARDWAREBUFFER_STATUS_UNSUPPORTED"
+    },
+    {
+     "enum_field_value" : -2147483648,
+     "name" : "AHARDWAREBUFFER_STATUS_UNKNOWN_ERROR"
+    }
+   ],
+   "linker_set_key" : "_ZTI21AHardwareBufferStatus",
+   "name" : "AHardwareBufferStatus",
+   "referenced_type" : "_ZTI21AHardwareBufferStatus",
+   "self_type" : "_ZTI21AHardwareBufferStatus",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h",
+   "underlying_type" : "_ZTIi"
   },
   {
    "alignment" : 4,
@@ -1971,6 +2040,10 @@
     {
      "enum_field_value" : 102,
      "name" : "ANATIVEWINDOW_FRAME_RATE_MIN"
+    },
+    {
+     "enum_field_value" : 103,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_GTE"
     }
    ],
    "linker_set_key" : "_ZTI31$ANATIVEWINDOW_FRAME_RATE_EXACT",
@@ -2468,11 +2541,15 @@
    [
     {
      "enum_field_value" : 0,
-     "name" : "ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_SELF"
+     "name" : "ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_PROPAGATE"
     },
     {
      "enum_field_value" : 1,
      "name" : "ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_OVERRIDE_CHILDREN"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_SELF"
     }
    ],
    "linker_set_key" : "_ZTI62$ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_OVERRIDE_CHILDREN",
@@ -3449,6 +3526,15 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIPK26AHardwareBufferLongOptions",
+   "name" : "const AHardwareBufferLongOptions *",
+   "referenced_type" : "_ZTIK26AHardwareBufferLongOptions",
+   "self_type" : "_ZTIPK26AHardwareBufferLongOptions",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK5ARect",
    "name" : "const ARect *",
    "referenced_type" : "_ZTIK5ARect",
@@ -3491,6 +3577,15 @@
    "self_type" : "_ZTIPKN7android13GraphicBufferE",
    "size" : 8,
    "source_file" : "frameworks/native/libs/nativewindow/include-private/private/android/AHardwareBufferHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKc",
+   "name" : "const char *",
+   "referenced_type" : "_ZTIKc",
+   "self_type" : "_ZTIPKc",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h"
   },
   {
    "alignment" : 8,
@@ -3661,6 +3756,16 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK26AHardwareBufferLongOptions",
+   "name" : "const AHardwareBufferLongOptions",
+   "referenced_type" : "_ZTI26AHardwareBufferLongOptions",
+   "self_type" : "_ZTIK26AHardwareBufferLongOptions",
+   "size" : 16,
+   "source_file" : "frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h"
+  },
+  {
    "alignment" : 4,
    "is_const" : true,
    "linker_set_key" : "_ZTIK5ARect",
@@ -3707,6 +3812,16 @@
    "self_type" : "_ZTIKN7android13GraphicBufferE",
    "size" : 256,
    "source_file" : "frameworks/native/libs/nativewindow/include-private/private/android/AHardwareBufferHelpers.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKc",
+   "name" : "const char",
+   "referenced_type" : "_ZTIc",
+   "self_type" : "_ZTIKc",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h"
   },
   {
    "alignment" : 4,
@@ -4188,6 +4303,27 @@
    "self_type" : "_ZTI22AHdrMetadata_smpte2086",
    "size" : 40,
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hdr_metadata.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "name",
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "field_name" : "value",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIl"
+    }
+   ],
+   "linker_set_key" : "_ZTI26AHardwareBufferLongOptions",
+   "name" : "AHardwareBufferLongOptions",
+   "referenced_type" : "_ZTI26AHardwareBufferLongOptions",
+   "self_type" : "_ZTI26AHardwareBufferLongOptions",
+   "size" : 16,
+   "source_file" : "frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h"
   },
   {
    "alignment" : 8,
