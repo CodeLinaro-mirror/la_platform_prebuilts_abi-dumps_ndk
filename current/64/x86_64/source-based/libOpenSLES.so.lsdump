@@ -53506,7 +53506,7 @@
    "referenced_type" : "_ZTIN7android5media14IPlayerDefaultE",
    "self_type" : "_ZTIPN7android5media14IPlayerDefaultE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/libaudioclient/android_x86_64_silvermont_static_cfi/c8d34641185f6d08c8fdcfaa6cb93a5e/gen/aidl/android/media/IPlayer.h"
+   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/libaudioclient/android_x86_64_silvermont_static_cfi/a7ec4cedd350a9f16160166d32d1dd66/gen/aidl/android/media/IPlayer.h"
   },
   {
    "alignment" : 8,
@@ -53542,7 +53542,7 @@
    "referenced_type" : "_ZTIN7android5media16IPlayerDelegatorE",
    "self_type" : "_ZTIPN7android5media16IPlayerDelegatorE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/libaudioclient/android_x86_64_silvermont_static_cfi/c8d34641185f6d08c8fdcfaa6cb93a5e/gen/aidl/android/media/BnPlayer.h"
+   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/libaudioclient/android_x86_64_silvermont_static_cfi/a7ec4cedd350a9f16160166d32d1dd66/gen/aidl/android/media/BnPlayer.h"
   },
   {
    "alignment" : 8,
@@ -96458,7 +96458,7 @@
    "referenced_type" : "_ZTIN7android5media14IPlayerDefaultE",
    "self_type" : "_ZTIN7android5media14IPlayerDefaultE",
    "size" : 24,
-   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/libaudioclient/android_x86_64_silvermont_static_cfi/c8d34641185f6d08c8fdcfaa6cb93a5e/gen/aidl/android/media/IPlayer.h",
+   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/libaudioclient/android_x86_64_silvermont_static_cfi/a7ec4cedd350a9f16160166d32d1dd66/gen/aidl/android/media/IPlayer.h",
    "vtable_components" :
    [
     {
@@ -96963,7 +96963,7 @@
    "referenced_type" : "_ZTIN7android5media16IPlayerDelegatorE",
    "self_type" : "_ZTIN7android5media16IPlayerDelegatorE",
    "size" : 56,
-   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/libaudioclient/android_x86_64_silvermont_static_cfi/c8d34641185f6d08c8fdcfaa6cb93a5e/gen/aidl/android/media/BnPlayer.h",
+   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/libaudioclient/android_x86_64_silvermont_static_cfi/a7ec4cedd350a9f16160166d32d1dd66/gen/aidl/android/media/BnPlayer.h",
    "vtable_components" :
    [
     {
@@ -107418,7 +107418,7 @@
    "referenced_type" : "_ZTIN7android5media7IPlayerE",
    "self_type" : "_ZTIN7android5media7IPlayerE",
    "size" : 24,
-   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/libaudioclient/android_x86_64_silvermont_static_cfi/c8d34641185f6d08c8fdcfaa6cb93a5e/gen/aidl/android/media/IPlayer.h",
+   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/libaudioclient/android_x86_64_silvermont_static_cfi/a7ec4cedd350a9f16160166d32d1dd66/gen/aidl/android/media/IPlayer.h",
    "vtable_components" :
    [
     {
@@ -107535,7 +107535,7 @@
    "referenced_type" : "_ZTIN7android5media8BnPlayerE",
    "self_type" : "_ZTIN7android5media8BnPlayerE",
    "size" : 48,
-   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/libaudioclient/android_x86_64_silvermont_static_cfi/c8d34641185f6d08c8fdcfaa6cb93a5e/gen/aidl/android/media/BnPlayer.h",
+   "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/libaudioclient/android_x86_64_silvermont_static_cfi/a7ec4cedd350a9f16160166d32d1dd66/gen/aidl/android/media/BnPlayer.h",
    "vtable_components" :
    [
     {

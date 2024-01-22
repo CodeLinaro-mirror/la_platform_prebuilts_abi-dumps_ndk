@@ -3181,63 +3181,68 @@
      "referenced_type" : "_ZTIA573_h"
     },
     {
-     "field_name" : "sym_buf",
+     "field_name" : "d_buf",
      "field_offset" : 47744,
+     "referenced_type" : "_ZTIPt"
+    },
+    {
+     "field_name" : "l_buf",
+     "field_offset" : 47808,
      "referenced_type" : "_ZTIPh"
     },
     {
      "field_name" : "lit_bufsize",
-     "field_offset" : 47808,
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "sym_next",
-     "field_offset" : 47840,
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "sym_end",
      "field_offset" : 47872,
      "referenced_type" : "_ZTIj"
     },
     {
-     "field_name" : "opt_len",
-     "field_offset" : 47936,
-     "referenced_type" : "_ZTIm"
+     "field_name" : "sym_next",
+     "field_offset" : 47904,
+     "referenced_type" : "_ZTIj"
     },
     {
-     "field_name" : "static_len",
+     "field_name" : "sym_end",
+     "field_offset" : 47936,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "opt_len",
      "field_offset" : 48000,
      "referenced_type" : "_ZTIm"
     },
     {
-     "field_name" : "matches",
+     "field_name" : "static_len",
      "field_offset" : 48064,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "field_name" : "matches",
+     "field_offset" : 48128,
      "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "insert",
-     "field_offset" : 48096,
+     "field_offset" : 48160,
      "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "bi_buf",
-     "field_offset" : 48128,
+     "field_offset" : 48192,
      "referenced_type" : "_ZTIt"
     },
     {
      "field_name" : "bi_valid",
-     "field_offset" : 48160,
+     "field_offset" : 48224,
      "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "high_water",
-     "field_offset" : 48192,
+     "field_offset" : 48256,
      "referenced_type" : "_ZTIm"
     },
     {
      "field_name" : "chromium_zlib_hash",
-     "field_offset" : 48256,
+     "field_offset" : 48320,
      "referenced_type" : "_ZTIj"
     }
    ],
@@ -3245,7 +3250,7 @@
    "name" : "internal_state",
    "referenced_type" : "_ZTI14internal_state",
    "self_type" : "_ZTI14internal_state",
-   "size" : 6040,
+   "size" : 6048,
    "source_file" : "external/zlib/deflate.h"
   },
   {
