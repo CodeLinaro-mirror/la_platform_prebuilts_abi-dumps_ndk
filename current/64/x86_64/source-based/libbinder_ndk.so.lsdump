@@ -1036,6 +1036,27 @@
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_manager.h",
    "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : -1,
+     "name" : "APERSISTABLEBUNDLE_KEY_NOT_FOUND"
+    },
+    {
+     "enum_field_value" : -2,
+     "name" : "APERSISTABLEBUNDLE_ALLOCATOR_FAILED"
+    }
+   ],
+   "linker_set_key" : "_ZTI36$APERSISTABLEBUNDLE_ALLOCATOR_FAILED",
+   "name" : "(unnamed)",
+   "referenced_type" : "_ZTI36$APERSISTABLEBUNDLE_ALLOCATOR_FAILED",
+   "self_type" : "_ZTI36$APERSISTABLEBUNDLE_ALLOCATOR_FAILED",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h",
+   "underlying_type" : "_ZTIi"
   }
  ],
  "function_types" :
@@ -8858,7 +8879,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP18APersistableBundle"
+     "referenced_type" : "_ZTIPK18APersistableBundle"
     }
    ],
    "return_type" : "_ZTIi",
