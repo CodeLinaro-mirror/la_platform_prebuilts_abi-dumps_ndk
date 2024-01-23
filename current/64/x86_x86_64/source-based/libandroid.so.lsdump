@@ -2524,6 +2524,10 @@
     },
     {
      "enum_field_value" : 4,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_CATEGORY_HIGH_HINT"
+    },
+    {
+     "enum_field_value" : 5,
      "name" : "ANATIVEWINDOW_FRAME_RATE_CATEGORY_HIGH"
     }
    ],
