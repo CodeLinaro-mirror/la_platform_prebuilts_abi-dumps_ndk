@@ -11567,7 +11567,7 @@
    "referenced_type" : "_ZTIN7android3gui10FrameEventE",
    "self_type" : "_ZTIN7android3gui10FrameEventE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/frameworks/native/libs/gui/libgui_aidl_static/android_x86_64_silvermont_static/c8d34641185f6d08c8fdcfaa6cb93a5e/gen/aidl_library/android/gui/FrameEvent.h",
+   "source_file" : "out/soong/.intermediates/frameworks/native/libs/gui/libgui_aidl_static/android_x86_64_silvermont_static/a7ec4cedd350a9f16160166d32d1dd66/gen/aidl_library/android/gui/FrameEvent.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -11584,7 +11584,7 @@
    "referenced_type" : "_ZTIN7android3gui17FrameTimelineInfo17$INVALID_VSYNC_IDE",
    "self_type" : "_ZTIN7android3gui17FrameTimelineInfo17$INVALID_VSYNC_IDE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/frameworks/native/libs/gui/libgui_aidl_static/android_x86_64_silvermont_static/c8d34641185f6d08c8fdcfaa6cb93a5e/gen/aidl_library/android/gui/FrameTimelineInfo.h",
+   "source_file" : "out/soong/.intermediates/frameworks/native/libs/gui/libgui_aidl_static/android_x86_64_silvermont_static/a7ec4cedd350a9f16160166d32d1dd66/gen/aidl_library/android/gui/FrameTimelineInfo.h",
    "underlying_type" : "_ZTIl"
   },
   {
@@ -18761,7 +18761,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     },
     {
-     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump"
+     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump"
     }
    ],
    "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_P10_jmethodIDPK6jvalueE",
@@ -18926,7 +18926,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     },
     {
-     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump"
+     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump"
     }
    ],
    "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_S_P10_jmethodIDPK6jvalueE",
@@ -19340,7 +19340,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     },
     {
-     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump"
+     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump"
     }
    ],
    "referenced_type" : "_ZTIFaPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
@@ -19436,7 +19436,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     },
     {
-     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump"
+     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump"
     }
    ],
    "referenced_type" : "_ZTIFaPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
@@ -19766,7 +19766,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     },
     {
-     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump"
+     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump"
     }
    ],
    "referenced_type" : "_ZTIFdPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
@@ -19862,7 +19862,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     },
     {
-     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump"
+     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump"
     }
    ],
    "referenced_type" : "_ZTIFdPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
@@ -20192,7 +20192,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     },
     {
-     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump"
+     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump"
     }
    ],
    "referenced_type" : "_ZTIFfPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
@@ -20288,7 +20288,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     },
     {
-     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump"
+     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump"
     }
    ],
    "referenced_type" : "_ZTIFfPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
@@ -20711,7 +20711,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     },
     {
-     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump"
+     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump"
     }
    ],
    "referenced_type" : "_ZTIFhPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
@@ -20828,7 +20828,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     },
     {
-     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump"
+     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump"
     }
    ],
    "referenced_type" : "_ZTIFhPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
@@ -22226,7 +22226,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     },
     {
-     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump"
+     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump"
     }
    ],
    "referenced_type" : "_ZTIFiPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
@@ -22367,7 +22367,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     },
     {
-     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump"
+     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump"
     }
    ],
    "referenced_type" : "_ZTIFiPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
@@ -22766,7 +22766,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     },
     {
-     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump"
+     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump"
     }
    ],
    "referenced_type" : "_ZTIFlPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
@@ -22862,7 +22862,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     },
     {
-     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump"
+     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump"
     }
    ],
    "referenced_type" : "_ZTIFlPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
@@ -23249,7 +23249,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     },
     {
-     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump"
+     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump"
     }
    ],
    "referenced_type" : "_ZTIFsPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
@@ -23345,7 +23345,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     },
     {
-     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump"
+     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump"
     }
    ],
    "referenced_type" : "_ZTIFsPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
@@ -23675,7 +23675,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     },
     {
-     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump"
+     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump"
     }
    ],
    "referenced_type" : "_ZTIFtPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
@@ -23771,7 +23771,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     },
     {
-     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump"
+     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump"
     }
    ],
    "referenced_type" : "_ZTIFtPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
@@ -25637,7 +25637,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     },
     {
-     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump"
+     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump"
     }
    ],
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
@@ -26162,7 +26162,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     },
     {
-     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump"
+     "referenced_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump"
     }
    ],
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
@@ -31184,7 +31184,7 @@
    "referenced_type" : "_ZTIKN7android3gui17FrameTimelineInfoE",
    "self_type" : "_ZTIRKN7android3gui17FrameTimelineInfoE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/frameworks/native/libs/gui/libgui_aidl_static/android_x86_64_silvermont_static/c8d34641185f6d08c8fdcfaa6cb93a5e/gen/aidl_library/android/gui/FrameTimelineInfo.h"
+   "source_file" : "out/soong/.intermediates/frameworks/native/libs/gui/libgui_aidl_static/android_x86_64_silvermont_static/a7ec4cedd350a9f16160166d32d1dd66/gen/aidl_library/android/gui/FrameTimelineInfo.h"
   },
   {
    "alignment" : 8,
@@ -37491,8 +37491,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIPK18JNIInvokeInterface",
    "name" : "const JNIInvokeInterface *",
-   "referenced_type" : "_ZTIK18JNIInvokeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump",
-   "self_type" : "_ZTIPK18JNIInvokeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump",
+   "referenced_type" : "_ZTIK18JNIInvokeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump",
+   "self_type" : "_ZTIPK18JNIInvokeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -37509,8 +37509,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIPK18JNINativeInterface",
    "name" : "const JNINativeInterface *",
-   "referenced_type" : "_ZTIK18JNINativeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump",
-   "self_type" : "_ZTIPK18JNINativeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump",
+   "referenced_type" : "_ZTIK18JNINativeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump",
+   "self_type" : "_ZTIPK18JNINativeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -37563,8 +37563,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIPK6jvalue",
    "name" : "const jvalue *",
-   "referenced_type" : "_ZTIK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump",
-   "self_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump",
+   "referenced_type" : "_ZTIK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump",
+   "self_type" : "_ZTIPK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -38547,7 +38547,7 @@
    "referenced_type" : "_ZTIKN7android3gui17FrameTimelineInfoE",
    "self_type" : "_ZTIPKN7android3gui17FrameTimelineInfoE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/frameworks/native/libs/gui/libgui_aidl_static/android_x86_64_silvermont_static/c8d34641185f6d08c8fdcfaa6cb93a5e/gen/aidl_library/android/gui/FrameTimelineInfo.h"
+   "source_file" : "out/soong/.intermediates/frameworks/native/libs/gui/libgui_aidl_static/android_x86_64_silvermont_static/a7ec4cedd350a9f16160166d32d1dd66/gen/aidl_library/android/gui/FrameTimelineInfo.h"
   },
   {
    "alignment" : 8,
@@ -39411,7 +39411,7 @@
    "referenced_type" : "_ZTIN3com7android8graphics6libgui5flags23flag_provider_interfaceE",
    "self_type" : "_ZTIPN3com7android8graphics6libgui5flags23flag_provider_interfaceE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/frameworks/native/libs/gui/libguiflags/android_x86_64_silvermont_static/0e7aadb4ccf134e3003f27a606ef3a68/gen/include/com_android_graphics_libgui_flags.h"
+   "source_file" : "out/soong/.intermediates/frameworks/native/libs/gui/libguiflags/android_x86_64_silvermont_static/582736703e6423fcea154bd3703d3915/gen/include/com_android_graphics_libgui_flags.h"
   },
   {
    "alignment" : 8,
@@ -42540,7 +42540,7 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIPPK18JNIInvokeInterface",
    "name" : "const JNIInvokeInterface **",
-   "referenced_type" : "_ZTIPK18JNIInvokeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump",
+   "referenced_type" : "_ZTIPK18JNIInvokeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump",
    "self_type" : "_ZTIPPK18JNIInvokeInterface",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
@@ -42549,7 +42549,7 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIPPK18JNINativeInterface",
    "name" : "const JNINativeInterface **",
-   "referenced_type" : "_ZTIPK18JNINativeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump",
+   "referenced_type" : "_ZTIPK18JNINativeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump",
    "self_type" : "_ZTIPPK18JNINativeInterface",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
@@ -43265,8 +43265,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIK18JNIInvokeInterface",
    "name" : "const JNIInvokeInterface",
-   "referenced_type" : "_ZTI18JNIInvokeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump",
-   "self_type" : "_ZTIK18JNIInvokeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump",
+   "referenced_type" : "_ZTI18JNIInvokeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump",
+   "self_type" : "_ZTIK18JNIInvokeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump",
    "size" : 64,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -43285,8 +43285,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIK18JNINativeInterface",
    "name" : "const JNINativeInterface",
-   "referenced_type" : "_ZTI18JNINativeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump",
-   "self_type" : "_ZTIK18JNINativeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump",
+   "referenced_type" : "_ZTI18JNINativeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump",
+   "self_type" : "_ZTIK18JNINativeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump",
    "size" : 1864,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -43435,8 +43435,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIK6jvalue",
    "name" : "const jvalue",
-   "referenced_type" : "_ZTI6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump",
-   "self_type" : "_ZTIK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump",
+   "referenced_type" : "_ZTI6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump",
+   "self_type" : "_ZTIK6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -44032,7 +44032,7 @@
    "referenced_type" : "_ZTIN7android14StaticString16ILm30EEE",
    "self_type" : "_ZTIKN7android14StaticString16ILm30EEE",
    "size" : 72,
-   "source_file" : "out/soong/.intermediates/frameworks/native/libs/gui/libgui_aidl_static/android_x86_64_silvermont_static/c8d34641185f6d08c8fdcfaa6cb93a5e/gen/aidl_library/android/gui/FrameTimelineInfo.h"
+   "source_file" : "out/soong/.intermediates/frameworks/native/libs/gui/libgui_aidl_static/android_x86_64_silvermont_static/a7ec4cedd350a9f16160166d32d1dd66/gen/aidl_library/android/gui/FrameTimelineInfo.h"
   },
   {
    "alignment" : 8,
@@ -44762,7 +44762,7 @@
    "referenced_type" : "_ZTIN7android3gui17FrameTimelineInfoE",
    "self_type" : "_ZTIKN7android3gui17FrameTimelineInfoE",
    "size" : 56,
-   "source_file" : "out/soong/.intermediates/frameworks/native/libs/gui/libgui_aidl_static/android_x86_64_silvermont_static/c8d34641185f6d08c8fdcfaa6cb93a5e/gen/aidl_library/android/gui/FrameTimelineInfo.h"
+   "source_file" : "out/soong/.intermediates/frameworks/native/libs/gui/libgui_aidl_static/android_x86_64_silvermont_static/a7ec4cedd350a9f16160166d32d1dd66/gen/aidl_library/android/gui/FrameTimelineInfo.h"
   },
   {
    "alignment" : 8,
@@ -46220,7 +46220,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN7android3gui10FrameEventELm11EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN7android3gui10FrameEventELm11EEE",
    "size" : 44,
-   "source_file" : "out/soong/.intermediates/frameworks/native/libs/gui/libgui_aidl_static/android_x86_64_silvermont_static/c8d34641185f6d08c8fdcfaa6cb93a5e/gen/aidl_library/android/gui/FrameEvent.h"
+   "source_file" : "out/soong/.intermediates/frameworks/native/libs/gui/libgui_aidl_static/android_x86_64_silvermont_static/a7ec4cedd350a9f16160166d32d1dd66/gen/aidl_library/android/gui/FrameEvent.h"
   },
   {
    "alignment" : 4,
@@ -48093,8 +48093,8 @@
    ],
    "linker_set_key" : "_ZTI16JavaVMAttachArgs",
    "name" : "JavaVMAttachArgs",
-   "referenced_type" : "_ZTI16JavaVMAttachArgs#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump",
-   "self_type" : "_ZTI16JavaVMAttachArgs#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump",
+   "referenced_type" : "_ZTI16JavaVMAttachArgs#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump",
+   "self_type" : "_ZTI16JavaVMAttachArgs#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump",
    "size" : 24,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -48488,8 +48488,8 @@
    ],
    "linker_set_key" : "_ZTI18JNIInvokeInterface",
    "name" : "JNIInvokeInterface",
-   "referenced_type" : "_ZTI18JNIInvokeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump",
-   "self_type" : "_ZTI18JNIInvokeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump",
+   "referenced_type" : "_ZTI18JNIInvokeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump",
+   "self_type" : "_ZTI18JNIInvokeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump",
    "size" : 64,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -50840,8 +50840,8 @@
    ],
    "linker_set_key" : "_ZTI18JNINativeInterface",
    "name" : "JNINativeInterface",
-   "referenced_type" : "_ZTI18JNINativeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump",
-   "self_type" : "_ZTI18JNINativeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump",
+   "referenced_type" : "_ZTI18JNINativeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump",
+   "self_type" : "_ZTI18JNINativeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump",
    "size" : 1864,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -52464,8 +52464,8 @@
    "linker_set_key" : "_ZTI6jvalue",
    "name" : "jvalue",
    "record_kind" : "union",
-   "referenced_type" : "_ZTI6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump",
-   "self_type" : "_ZTI6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump",
+   "referenced_type" : "_ZTI6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump",
+   "self_type" : "_ZTI6jvalue#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -52491,13 +52491,13 @@
    [
     {
      "field_name" : "functions",
-     "referenced_type" : "_ZTIPK18JNINativeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump"
+     "referenced_type" : "_ZTIPK18JNINativeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump"
     }
    ],
    "linker_set_key" : "_ZTI7_JNIEnv",
    "name" : "_JNIEnv",
-   "referenced_type" : "_ZTI7_JNIEnv#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump",
-   "self_type" : "_ZTI7_JNIEnv#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump",
+   "referenced_type" : "_ZTI7_JNIEnv#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump",
+   "self_type" : "_ZTI7_JNIEnv#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -52523,13 +52523,13 @@
    [
     {
      "field_name" : "functions",
-     "referenced_type" : "_ZTIPK18JNIInvokeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump"
+     "referenced_type" : "_ZTIPK18JNIInvokeInterface#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump"
     }
    ],
    "linker_set_key" : "_ZTI7_JavaVM",
    "name" : "_JavaVM",
-   "referenced_type" : "_ZTI7_JavaVM#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump",
-   "self_type" : "_ZTI7_JavaVM#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/0e7aadb4ccf134e3003f27a606ef3a68/obj/libnativehelper/libnativehelper_lazy.sdump",
+   "referenced_type" : "_ZTI7_JavaVM#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump",
+   "self_type" : "_ZTI7_JavaVM#ODR:out/soong/.intermediates/libnativehelper/libnativehelper_lazy/android_x86_64_silvermont_static_cfi/582736703e6423fcea154bd3703d3915/obj/libnativehelper/libnativehelper_lazy.sdump",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -52787,7 +52787,7 @@
    "referenced_type" : "_ZTIN3com7android8graphics6libgui5flags23flag_provider_interfaceE",
    "self_type" : "_ZTIN3com7android8graphics6libgui5flags23flag_provider_interfaceE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/frameworks/native/libs/gui/libguiflags/android_x86_64_silvermont_static/0e7aadb4ccf134e3003f27a606ef3a68/gen/include/com_android_graphics_libgui_flags.h",
+   "source_file" : "out/soong/.intermediates/frameworks/native/libs/gui/libguiflags/android_x86_64_silvermont_static/582736703e6423fcea154bd3703d3915/gen/include/com_android_graphics_libgui_flags.h",
    "vtable_components" :
    [
     {
@@ -69057,7 +69057,7 @@
    "referenced_type" : "_ZTIN7android3gui17FrameTimelineInfoE",
    "self_type" : "_ZTIN7android3gui17FrameTimelineInfoE",
    "size" : 56,
-   "source_file" : "out/soong/.intermediates/frameworks/native/libs/gui/libgui_aidl_static/android_x86_64_silvermont_static/c8d34641185f6d08c8fdcfaa6cb93a5e/gen/aidl_library/android/gui/FrameTimelineInfo.h",
+   "source_file" : "out/soong/.intermediates/frameworks/native/libs/gui/libgui_aidl_static/android_x86_64_silvermont_static/a7ec4cedd350a9f16160166d32d1dd66/gen/aidl_library/android/gui/FrameTimelineInfo.h",
    "vtable_components" :
    [
     {
@@ -69314,7 +69314,7 @@
    [
     {
      "field_name" : "mpNode",
-     "referenced_type" : "_ZTIPN7android4ListIP6AImageE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_x86_64_silvermont_shared_cfi/f473644ae17bda57594dc410130c74f7/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
+     "referenced_type" : "_ZTIPN7android4ListIP6AImageE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_x86_64_silvermont_shared_cfi/6052055a8affaa2803a9706a1451eb82/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
     }
    ],
    "linker_set_key" : "_ZTIN7android4ListIP6AImageE13_ListIteratorIS2_NS3_18NON_CONST_ITERATOREEE",
@@ -69356,13 +69356,13 @@
      "access" : "private",
      "field_name" : "mpPrev",
      "field_offset" : 64,
-     "referenced_type" : "_ZTIPN7android4ListIP6AImageE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_x86_64_silvermont_shared_cfi/f473644ae17bda57594dc410130c74f7/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
+     "referenced_type" : "_ZTIPN7android4ListIP6AImageE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_x86_64_silvermont_shared_cfi/6052055a8affaa2803a9706a1451eb82/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
     },
     {
      "access" : "private",
      "field_name" : "mpNext",
      "field_offset" : 128,
-     "referenced_type" : "_ZTIPN7android4ListIP6AImageE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_x86_64_silvermont_shared_cfi/f473644ae17bda57594dc410130c74f7/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
+     "referenced_type" : "_ZTIPN7android4ListIP6AImageE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_x86_64_silvermont_shared_cfi/6052055a8affaa2803a9706a1451eb82/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
     }
    ],
    "linker_set_key" : "_ZTIN7android4ListIP6AImageE5_NodeE",
@@ -69420,7 +69420,7 @@
    [
     {
      "field_name" : "mpNode",
-     "referenced_type" : "_ZTIPN7android4ListIPNS_10BufferItemEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_x86_64_silvermont_shared_cfi/f473644ae17bda57594dc410130c74f7/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
+     "referenced_type" : "_ZTIPN7android4ListIPNS_10BufferItemEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_x86_64_silvermont_shared_cfi/6052055a8affaa2803a9706a1451eb82/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
     }
    ],
    "linker_set_key" : "_ZTIN7android4ListIPNS_10BufferItemEE13_ListIteratorIS2_NS3_18NON_CONST_ITERATOREEE",
@@ -69462,13 +69462,13 @@
      "access" : "private",
      "field_name" : "mpPrev",
      "field_offset" : 64,
-     "referenced_type" : "_ZTIPN7android4ListIPNS_10BufferItemEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_x86_64_silvermont_shared_cfi/f473644ae17bda57594dc410130c74f7/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
+     "referenced_type" : "_ZTIPN7android4ListIPNS_10BufferItemEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_x86_64_silvermont_shared_cfi/6052055a8affaa2803a9706a1451eb82/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
     },
     {
      "access" : "private",
      "field_name" : "mpNext",
      "field_offset" : 128,
-     "referenced_type" : "_ZTIPN7android4ListIPNS_10BufferItemEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_x86_64_silvermont_shared_cfi/f473644ae17bda57594dc410130c74f7/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
+     "referenced_type" : "_ZTIPN7android4ListIPNS_10BufferItemEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_x86_64_silvermont_shared_cfi/6052055a8affaa2803a9706a1451eb82/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
     }
    ],
    "linker_set_key" : "_ZTIN7android4ListIPNS_10BufferItemEE5_NodeE",
