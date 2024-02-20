@@ -700,6 +700,9 @@
    "name" : "AServiceManager_isUpdatableViaApex"
   },
   {
+   "name" : "AServiceManager_openDeclaredPassthroughHal"
+  },
+  {
    "name" : "AServiceManager_reRegister"
   },
   {
@@ -9041,6 +9044,24 @@
     }
    ],
    "return_type" : "_ZTIb",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_manager.h"
+  },
+  {
+   "function_name" : "AServiceManager_openDeclaredPassthroughHal",
+   "linker_set_key" : "AServiceManager_openDeclaredPassthroughHal",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIPv",
    "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_manager.h"
   },
   {

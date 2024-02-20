@@ -1156,15 +1156,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIP7dynamic",
-   "name" : "dynamic *",
-   "referenced_type" : "_ZTI7dynamic",
-   "self_type" : "_ZTIP7dynamic",
-   "size" : 4,
-   "source_file" : "bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIP7siginfo",
    "name" : "siginfo *",
    "referenced_type" : "_ZTI7siginfo",
@@ -1189,6 +1180,15 @@
    "self_type" : "_ZTIP8ucontext",
    "size" : 4,
    "source_file" : "bionic/libc/include/sys/ucontext.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP9Elf32_Dyn",
+   "name" : "Elf32_Dyn *",
+   "referenced_type" : "_ZTI9Elf32_Dyn",
+   "self_type" : "_ZTIP9Elf32_Dyn",
+   "size" : 4,
+   "source_file" : "bionic/libc/include/link.h"
   },
   {
    "alignment" : 4,
@@ -4141,27 +4141,6 @@
    "fields" :
    [
     {
-     "field_name" : "d_tag",
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "d_un",
-     "field_offset" : 32,
-     "referenced_type" : "_ZTIN7dynamicUt_E"
-    }
-   ],
-   "linker_set_key" : "_ZTI7dynamic",
-   "name" : "dynamic",
-   "referenced_type" : "_ZTI7dynamic",
-   "self_type" : "_ZTI7dynamic",
-   "size" : 8,
-   "source_file" : "bionic/libc/kernel/uapi/linux/elf.h"
-  },
-  {
-   "alignment" : 4,
-   "fields" :
-   [
-    {
      "field_name" : "quot",
      "referenced_type" : "_ZTIx"
     },
@@ -4266,7 +4245,7 @@
     {
      "field_name" : "l_ld",
      "field_offset" : 64,
-     "referenced_type" : "_ZTIP7dynamic"
+     "referenced_type" : "_ZTIP9Elf32_Dyn"
     },
     {
      "field_name" : "l_next",
@@ -4469,6 +4448,27 @@
    "self_type" : "_ZTI9CFIShadow",
    "size" : 1,
    "source_file" : "bionic/libc/private/CFIShadow.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "d_tag",
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "d_un",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIN9Elf32_DynUt_E"
+    }
+   ],
+   "linker_set_key" : "_ZTI9Elf32_Dyn",
+   "name" : "Elf32_Dyn",
+   "referenced_type" : "_ZTI9Elf32_Dyn",
+   "self_type" : "_ZTI9Elf32_Dyn",
+   "size" : 8,
+   "source_file" : "bionic/libc/kernel/uapi/linux/elf.h"
   },
   {
    "alignment" : 4,
@@ -5446,28 +5446,6 @@
    "fields" :
    [
     {
-     "field_name" : "d_val",
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "d_ptr",
-     "referenced_type" : "_ZTIj"
-    }
-   ],
-   "is_anonymous" : true,
-   "linker_set_key" : "_ZTIN7dynamicUt_E",
-   "name" : "dynamic::(unnamed)",
-   "record_kind" : "union",
-   "referenced_type" : "_ZTIN7dynamicUt_E",
-   "self_type" : "_ZTIN7dynamicUt_E",
-   "size" : 4,
-   "source_file" : "bionic/libc/kernel/uapi/linux/elf.h"
-  },
-  {
-   "alignment" : 4,
-   "fields" :
-   [
-    {
      "referenced_type" : "_ZTIN7siginfoUt_Ut_E"
     },
     {
@@ -5606,6 +5584,28 @@
    "self_type" : "_ZTIN8ucontextUt_Ut_E",
    "size" : 8,
    "source_file" : "bionic/libc/include/sys/ucontext.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "d_val",
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "d_ptr",
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "is_anonymous" : true,
+   "linker_set_key" : "_ZTIN9Elf32_DynUt_E",
+   "name" : "Elf32_Dyn::(unnamed)",
+   "record_kind" : "union",
+   "referenced_type" : "_ZTIN9Elf32_DynUt_E",
+   "self_type" : "_ZTIN9Elf32_DynUt_E",
+   "size" : 4,
+   "source_file" : "bionic/libc/kernel/uapi/linux/elf.h"
   },
   {
    "alignment" : 4,
