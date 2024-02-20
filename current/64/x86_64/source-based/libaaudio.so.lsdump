@@ -1311,27 +1311,6 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : -1000,
-     "name" : "AAUDIO_INTERNAL_ERROR_BASE"
-    },
-    {
-     "enum_field_value" : -999,
-     "name" : "AAUDIO_ERROR_STANDBY"
-    }
-   ],
-   "linker_set_key" : "_ZTI21$AAUDIO_ERROR_STANDBY",
-   "name" : "(unnamed)",
-   "referenced_type" : "_ZTI21$AAUDIO_ERROR_STANDBY",
-   "self_type" : "_ZTI21$AAUDIO_ERROR_STANDBY",
-   "size" : 4,
-   "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudioTesting.h",
-   "underlying_type" : "_ZTIi"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
      "enum_field_value" : 1,
      "name" : "AAUDIO_POLICY_NEVER"
     },

@@ -56262,6 +56262,16 @@
   {
    "alignment" : 4,
    "is_const" : true,
+   "linker_set_key" : "_ZTIK18audio_flags_mask_t",
+   "name" : "const audio_flags_mask_t",
+   "referenced_type" : "_ZTI18audio_flags_mask_t",
+   "self_type" : "_ZTIK18audio_flags_mask_t",
+   "size" : 4,
+   "source_file" : "system/media/audio/include/system/audio.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
    "linker_set_key" : "_ZTIK19ANativeWindowBuffer",
    "name" : "const ANativeWindowBuffer",
    "referenced_type" : "_ZTI19ANativeWindowBuffer",
