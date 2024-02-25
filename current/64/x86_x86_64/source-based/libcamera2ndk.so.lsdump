@@ -2314,6 +2314,10 @@
     },
     {
      "enum_field_value" : 34,
+     "name" : "ACAMERA_EFV"
+    },
+    {
+     "enum_field_value" : 35,
      "name" : "ACAMERA_SECTION_COUNT"
     },
     {
@@ -2888,6 +2892,10 @@
     {
      "enum_field_value" : 2162688,
      "name" : "ACAMERA_JPEGR_START"
+    },
+    {
+     "enum_field_value" : 2228224,
+     "name" : "ACAMERA_EFV_START"
     },
     {
      "enum_field_value" : -2147483648,

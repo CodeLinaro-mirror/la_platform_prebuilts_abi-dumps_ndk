@@ -1187,6 +1187,9 @@
    "name" : "android_net_res_stats_get_usable_servers"
   },
   {
+   "name" : "android_register_crash_detail"
+  },
+  {
    "name" : "android_reset_stack_guards"
   },
   {
@@ -1194,6 +1197,9 @@
   },
   {
    "name" : "android_set_abort_message"
+  },
+  {
+   "name" : "android_unregister_crash_detail"
   },
   {
    "name" : "android_unsafe_frame_pointer_chase"

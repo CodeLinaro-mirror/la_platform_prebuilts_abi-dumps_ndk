@@ -512,6 +512,9 @@
    "name" : "AInputEvent_release"
   },
   {
+   "name" : "AInputEvent_toJava"
+  },
+  {
    "name" : "AInputQueue_attachLooper"
   },
   {
@@ -1038,6 +1041,9 @@
   },
   {
    "name" : "ASurfaceTransaction_setDamageRegion"
+  },
+  {
+   "name" : "ASurfaceTransaction_setDesiredHdrHeadroom"
   },
   {
    "name" : "ASurfaceTransaction_setDesiredPresentTime"
