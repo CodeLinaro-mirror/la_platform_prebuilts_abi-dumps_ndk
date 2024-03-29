@@ -8463,23 +8463,6 @@
    [
     {
      "enum_field_value" : 0,
-     "name" : "android::trait_pointer<android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android13trait_pointerINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEE6$valueE",
-   "name" : "android::trait_pointer<android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>>::(unnamed)",
-   "referenced_type" : "_ZTIN7android13trait_pointerINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEE6$valueE",
-   "self_type" : "_ZTIN7android13trait_pointerINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEE6$valueE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
      "name" : "android::trait_pointer<android::key_value_pair_t<unsigned int, unsigned int>>::value"
     }
    ],
@@ -8497,57 +8480,6 @@
    [
     {
      "enum_field_value" : 0,
-     "name" : "android::trait_pointer<android::sp<android::AudioSystem::AudioPortCallback>>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android13trait_pointerINS_2spINS_11AudioSystem17AudioPortCallbackEEEE6$valueE",
-   "name" : "android::trait_pointer<android::sp<android::AudioSystem::AudioPortCallback>>::(unnamed)",
-   "referenced_type" : "_ZTIN7android13trait_pointerINS_2spINS_11AudioSystem17AudioPortCallbackEEEE6$valueE",
-   "self_type" : "_ZTIN7android13trait_pointerINS_2spINS_11AudioSystem17AudioPortCallbackEEEE6$valueE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "android::trait_pointer<android::sp<android::AudioSystem::AudioVolumeGroupCallback>>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android13trait_pointerINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEE6$valueE",
-   "name" : "android::trait_pointer<android::sp<android::AudioSystem::AudioVolumeGroupCallback>>::(unnamed)",
-   "referenced_type" : "_ZTIN7android13trait_pointerINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEE6$valueE",
-   "self_type" : "_ZTIN7android13trait_pointerINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEE6$valueE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "android::trait_pointer<android::sp<android::AudioIoDescriptor>>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android13trait_pointerINS_2spINS_17AudioIoDescriptorEEEE6$valueE",
-   "name" : "android::trait_pointer<android::sp<android::AudioIoDescriptor>>::(unnamed)",
-   "referenced_type" : "_ZTIN7android13trait_pointerINS_2spINS_17AudioIoDescriptorEEEE6$valueE",
-   "self_type" : "_ZTIN7android13trait_pointerINS_2spINS_17AudioIoDescriptorEEEE6$valueE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
      "name" : "android::trait_pointer<android::String8>::value"
     }
    ],
@@ -8555,23 +8487,6 @@
    "name" : "android::trait_pointer<android::String8>::(unnamed)",
    "referenced_type" : "_ZTIN7android13trait_pointerINS_7String8EE6$valueE",
    "self_type" : "_ZTIN7android13trait_pointerINS_7String8EE6$valueE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "android::trait_pointer<int>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android13trait_pointerIiE6$valueE",
-   "name" : "android::trait_pointer<int>::(unnamed)",
-   "referenced_type" : "_ZTIN7android13trait_pointerIiE6$valueE",
-   "self_type" : "_ZTIN7android13trait_pointerIiE6$valueE",
    "size" : 4,
    "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
    "underlying_type" : "_ZTIj"
@@ -9315,39 +9230,6 @@
    [
     {
      "enum_field_value" : 0,
-     "name" : "android::aggregate_traits<int, android::sp<android::AudioIoDescriptor>>::is_pointer"
-    },
-    {
-     "enum_field_value" : 0,
-     "name" : "android::aggregate_traits<int, android::sp<android::AudioIoDescriptor>>::has_trivial_ctor"
-    },
-    {
-     "enum_field_value" : 0,
-     "name" : "android::aggregate_traits<int, android::sp<android::AudioIoDescriptor>>::has_trivial_dtor"
-    },
-    {
-     "enum_field_value" : 0,
-     "name" : "android::aggregate_traits<int, android::sp<android::AudioIoDescriptor>>::has_trivial_copy"
-    },
-    {
-     "enum_field_value" : 0,
-     "name" : "android::aggregate_traits<int, android::sp<android::AudioIoDescriptor>>::has_trivial_move"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android16aggregate_traitsIiNS_2spINS_17AudioIoDescriptorEEEE17$has_trivial_copyE",
-   "name" : "android::aggregate_traits<int, android::sp<android::AudioIoDescriptor>>::(unnamed)",
-   "referenced_type" : "_ZTIN7android16aggregate_traitsIiNS_2spINS_17AudioIoDescriptorEEEE17$has_trivial_copyE",
-   "self_type" : "_ZTIN7android16aggregate_traitsIiNS_2spINS_17AudioIoDescriptorEEEE17$has_trivial_copyE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
      "name" : "android::aggregate_traits<unsigned int, unsigned int>::is_pointer"
     },
     {
@@ -9664,23 +9546,6 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : 0,
-     "name" : "android::trait_trivial_copy<android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android18trait_trivial_copyINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEE6$valueE",
-   "name" : "android::trait_trivial_copy<android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>>::(unnamed)",
-   "referenced_type" : "_ZTIN7android18trait_trivial_copyINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEE6$valueE",
-   "self_type" : "_ZTIN7android18trait_trivial_copyINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEE6$valueE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
      "enum_field_value" : 1,
      "name" : "android::trait_trivial_copy<android::key_value_pair_t<unsigned int, unsigned int>>::value"
     }
@@ -9689,57 +9554,6 @@
    "name" : "android::trait_trivial_copy<android::key_value_pair_t<unsigned int, unsigned int>>::(unnamed)",
    "referenced_type" : "_ZTIN7android18trait_trivial_copyINS_16key_value_pair_tIjjEEE6$valueE",
    "self_type" : "_ZTIN7android18trait_trivial_copyINS_16key_value_pair_tIjjEEE6$valueE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "android::trait_trivial_copy<android::sp<android::AudioSystem::AudioPortCallback>>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android18trait_trivial_copyINS_2spINS_11AudioSystem17AudioPortCallbackEEEE6$valueE",
-   "name" : "android::trait_trivial_copy<android::sp<android::AudioSystem::AudioPortCallback>>::(unnamed)",
-   "referenced_type" : "_ZTIN7android18trait_trivial_copyINS_2spINS_11AudioSystem17AudioPortCallbackEEEE6$valueE",
-   "self_type" : "_ZTIN7android18trait_trivial_copyINS_2spINS_11AudioSystem17AudioPortCallbackEEEE6$valueE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "android::trait_trivial_copy<android::sp<android::AudioSystem::AudioVolumeGroupCallback>>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android18trait_trivial_copyINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEE6$valueE",
-   "name" : "android::trait_trivial_copy<android::sp<android::AudioSystem::AudioVolumeGroupCallback>>::(unnamed)",
-   "referenced_type" : "_ZTIN7android18trait_trivial_copyINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEE6$valueE",
-   "self_type" : "_ZTIN7android18trait_trivial_copyINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEE6$valueE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "android::trait_trivial_copy<android::sp<android::AudioIoDescriptor>>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android18trait_trivial_copyINS_2spINS_17AudioIoDescriptorEEEE6$valueE",
-   "name" : "android::trait_trivial_copy<android::sp<android::AudioIoDescriptor>>::(unnamed)",
-   "referenced_type" : "_ZTIN7android18trait_trivial_copyINS_2spINS_17AudioIoDescriptorEEEE6$valueE",
-   "self_type" : "_ZTIN7android18trait_trivial_copyINS_2spINS_17AudioIoDescriptorEEEE6$valueE",
    "size" : 4,
    "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
    "underlying_type" : "_ZTIj"
@@ -10021,23 +9835,6 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : 0,
-     "name" : "android::trait_trivial_ctor<android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEE6$valueE",
-   "name" : "android::trait_trivial_ctor<android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>>::(unnamed)",
-   "referenced_type" : "_ZTIN7android18trait_trivial_ctorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEE6$valueE",
-   "self_type" : "_ZTIN7android18trait_trivial_ctorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEE6$valueE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
      "enum_field_value" : 1,
      "name" : "android::trait_trivial_ctor<android::key_value_pair_t<unsigned int, unsigned int>>::value"
     }
@@ -10046,57 +9843,6 @@
    "name" : "android::trait_trivial_ctor<android::key_value_pair_t<unsigned int, unsigned int>>::(unnamed)",
    "referenced_type" : "_ZTIN7android18trait_trivial_ctorINS_16key_value_pair_tIjjEEE6$valueE",
    "self_type" : "_ZTIN7android18trait_trivial_ctorINS_16key_value_pair_tIjjEEE6$valueE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "android::trait_trivial_ctor<android::sp<android::AudioSystem::AudioPortCallback>>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorINS_2spINS_11AudioSystem17AudioPortCallbackEEEE6$valueE",
-   "name" : "android::trait_trivial_ctor<android::sp<android::AudioSystem::AudioPortCallback>>::(unnamed)",
-   "referenced_type" : "_ZTIN7android18trait_trivial_ctorINS_2spINS_11AudioSystem17AudioPortCallbackEEEE6$valueE",
-   "self_type" : "_ZTIN7android18trait_trivial_ctorINS_2spINS_11AudioSystem17AudioPortCallbackEEEE6$valueE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "android::trait_trivial_ctor<android::sp<android::AudioSystem::AudioVolumeGroupCallback>>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEE6$valueE",
-   "name" : "android::trait_trivial_ctor<android::sp<android::AudioSystem::AudioVolumeGroupCallback>>::(unnamed)",
-   "referenced_type" : "_ZTIN7android18trait_trivial_ctorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEE6$valueE",
-   "self_type" : "_ZTIN7android18trait_trivial_ctorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEE6$valueE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "android::trait_trivial_ctor<android::sp<android::AudioIoDescriptor>>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorINS_2spINS_17AudioIoDescriptorEEEE6$valueE",
-   "name" : "android::trait_trivial_ctor<android::sp<android::AudioIoDescriptor>>::(unnamed)",
-   "referenced_type" : "_ZTIN7android18trait_trivial_ctorINS_2spINS_17AudioIoDescriptorEEEE6$valueE",
-   "self_type" : "_ZTIN7android18trait_trivial_ctorINS_2spINS_17AudioIoDescriptorEEEE6$valueE",
    "size" : 4,
    "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
    "underlying_type" : "_ZTIj"
@@ -10378,23 +10124,6 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : 0,
-     "name" : "android::trait_trivial_dtor<android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEE6$valueE",
-   "name" : "android::trait_trivial_dtor<android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>>::(unnamed)",
-   "referenced_type" : "_ZTIN7android18trait_trivial_dtorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEE6$valueE",
-   "self_type" : "_ZTIN7android18trait_trivial_dtorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEE6$valueE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
      "enum_field_value" : 1,
      "name" : "android::trait_trivial_dtor<android::key_value_pair_t<unsigned int, unsigned int>>::value"
     }
@@ -10403,57 +10132,6 @@
    "name" : "android::trait_trivial_dtor<android::key_value_pair_t<unsigned int, unsigned int>>::(unnamed)",
    "referenced_type" : "_ZTIN7android18trait_trivial_dtorINS_16key_value_pair_tIjjEEE6$valueE",
    "self_type" : "_ZTIN7android18trait_trivial_dtorINS_16key_value_pair_tIjjEEE6$valueE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "android::trait_trivial_dtor<android::sp<android::AudioSystem::AudioPortCallback>>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorINS_2spINS_11AudioSystem17AudioPortCallbackEEEE6$valueE",
-   "name" : "android::trait_trivial_dtor<android::sp<android::AudioSystem::AudioPortCallback>>::(unnamed)",
-   "referenced_type" : "_ZTIN7android18trait_trivial_dtorINS_2spINS_11AudioSystem17AudioPortCallbackEEEE6$valueE",
-   "self_type" : "_ZTIN7android18trait_trivial_dtorINS_2spINS_11AudioSystem17AudioPortCallbackEEEE6$valueE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "android::trait_trivial_dtor<android::sp<android::AudioSystem::AudioVolumeGroupCallback>>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEE6$valueE",
-   "name" : "android::trait_trivial_dtor<android::sp<android::AudioSystem::AudioVolumeGroupCallback>>::(unnamed)",
-   "referenced_type" : "_ZTIN7android18trait_trivial_dtorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEE6$valueE",
-   "self_type" : "_ZTIN7android18trait_trivial_dtorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEE6$valueE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "android::trait_trivial_dtor<android::sp<android::AudioIoDescriptor>>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorINS_2spINS_17AudioIoDescriptorEEEE6$valueE",
-   "name" : "android::trait_trivial_dtor<android::sp<android::AudioIoDescriptor>>::(unnamed)",
-   "referenced_type" : "_ZTIN7android18trait_trivial_dtorINS_2spINS_17AudioIoDescriptorEEEE6$valueE",
-   "self_type" : "_ZTIN7android18trait_trivial_dtorINS_2spINS_17AudioIoDescriptorEEEE6$valueE",
    "size" : 4,
    "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
    "underlying_type" : "_ZTIj"
@@ -10735,23 +10413,6 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : 0,
-     "name" : "android::trait_trivial_move<android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android18trait_trivial_moveINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEE6$valueE",
-   "name" : "android::trait_trivial_move<android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>>::(unnamed)",
-   "referenced_type" : "_ZTIN7android18trait_trivial_moveINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEE6$valueE",
-   "self_type" : "_ZTIN7android18trait_trivial_moveINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEE6$valueE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
      "enum_field_value" : 1,
      "name" : "android::trait_trivial_move<android::key_value_pair_t<unsigned int, unsigned int>>::value"
     }
@@ -10760,57 +10421,6 @@
    "name" : "android::trait_trivial_move<android::key_value_pair_t<unsigned int, unsigned int>>::(unnamed)",
    "referenced_type" : "_ZTIN7android18trait_trivial_moveINS_16key_value_pair_tIjjEEE6$valueE",
    "self_type" : "_ZTIN7android18trait_trivial_moveINS_16key_value_pair_tIjjEEE6$valueE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "android::trait_trivial_move<android::sp<android::AudioSystem::AudioPortCallback>>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android18trait_trivial_moveINS_2spINS_11AudioSystem17AudioPortCallbackEEEE6$valueE",
-   "name" : "android::trait_trivial_move<android::sp<android::AudioSystem::AudioPortCallback>>::(unnamed)",
-   "referenced_type" : "_ZTIN7android18trait_trivial_moveINS_2spINS_11AudioSystem17AudioPortCallbackEEEE6$valueE",
-   "self_type" : "_ZTIN7android18trait_trivial_moveINS_2spINS_11AudioSystem17AudioPortCallbackEEEE6$valueE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "android::trait_trivial_move<android::sp<android::AudioSystem::AudioVolumeGroupCallback>>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android18trait_trivial_moveINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEE6$valueE",
-   "name" : "android::trait_trivial_move<android::sp<android::AudioSystem::AudioVolumeGroupCallback>>::(unnamed)",
-   "referenced_type" : "_ZTIN7android18trait_trivial_moveINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEE6$valueE",
-   "self_type" : "_ZTIN7android18trait_trivial_moveINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEE6$valueE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "android::trait_trivial_move<android::sp<android::AudioIoDescriptor>>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android18trait_trivial_moveINS_2spINS_17AudioIoDescriptorEEEE6$valueE",
-   "name" : "android::trait_trivial_move<android::sp<android::AudioIoDescriptor>>::(unnamed)",
-   "referenced_type" : "_ZTIN7android18trait_trivial_moveINS_2spINS_17AudioIoDescriptorEEEE6$valueE",
-   "self_type" : "_ZTIN7android18trait_trivial_moveINS_2spINS_17AudioIoDescriptorEEEE6$valueE",
    "size" : 4,
    "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
    "underlying_type" : "_ZTIj"
@@ -16221,39 +15831,6 @@
    [
     {
      "enum_field_value" : 0,
-     "name" : "android::traits<android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>>::is_pointer"
-    },
-    {
-     "enum_field_value" : 0,
-     "name" : "android::traits<android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>>::has_trivial_ctor"
-    },
-    {
-     "enum_field_value" : 0,
-     "name" : "android::traits<android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>>::has_trivial_dtor"
-    },
-    {
-     "enum_field_value" : 0,
-     "name" : "android::traits<android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>>::has_trivial_copy"
-    },
-    {
-     "enum_field_value" : 0,
-     "name" : "android::traits<android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>>::has_trivial_move"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android6traitsINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEE17$has_trivial_copyE",
-   "name" : "android::traits<android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>>::(unnamed)",
-   "referenced_type" : "_ZTIN7android6traitsINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEE17$has_trivial_copyE",
-   "self_type" : "_ZTIN7android6traitsINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEE17$has_trivial_copyE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
      "name" : "android::traits<android::key_value_pair_t<unsigned int, unsigned int>>::is_pointer"
     },
     {
@@ -16287,105 +15864,6 @@
    [
     {
      "enum_field_value" : 0,
-     "name" : "android::traits<android::sp<android::AudioSystem::AudioPortCallback>>::is_pointer"
-    },
-    {
-     "enum_field_value" : 0,
-     "name" : "android::traits<android::sp<android::AudioSystem::AudioPortCallback>>::has_trivial_ctor"
-    },
-    {
-     "enum_field_value" : 0,
-     "name" : "android::traits<android::sp<android::AudioSystem::AudioPortCallback>>::has_trivial_dtor"
-    },
-    {
-     "enum_field_value" : 0,
-     "name" : "android::traits<android::sp<android::AudioSystem::AudioPortCallback>>::has_trivial_copy"
-    },
-    {
-     "enum_field_value" : 0,
-     "name" : "android::traits<android::sp<android::AudioSystem::AudioPortCallback>>::has_trivial_move"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android6traitsINS_2spINS_11AudioSystem17AudioPortCallbackEEEE17$has_trivial_copyE",
-   "name" : "android::traits<android::sp<android::AudioSystem::AudioPortCallback>>::(unnamed)",
-   "referenced_type" : "_ZTIN7android6traitsINS_2spINS_11AudioSystem17AudioPortCallbackEEEE17$has_trivial_copyE",
-   "self_type" : "_ZTIN7android6traitsINS_2spINS_11AudioSystem17AudioPortCallbackEEEE17$has_trivial_copyE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "android::traits<android::sp<android::AudioSystem::AudioVolumeGroupCallback>>::is_pointer"
-    },
-    {
-     "enum_field_value" : 0,
-     "name" : "android::traits<android::sp<android::AudioSystem::AudioVolumeGroupCallback>>::has_trivial_ctor"
-    },
-    {
-     "enum_field_value" : 0,
-     "name" : "android::traits<android::sp<android::AudioSystem::AudioVolumeGroupCallback>>::has_trivial_dtor"
-    },
-    {
-     "enum_field_value" : 0,
-     "name" : "android::traits<android::sp<android::AudioSystem::AudioVolumeGroupCallback>>::has_trivial_copy"
-    },
-    {
-     "enum_field_value" : 0,
-     "name" : "android::traits<android::sp<android::AudioSystem::AudioVolumeGroupCallback>>::has_trivial_move"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android6traitsINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEE17$has_trivial_copyE",
-   "name" : "android::traits<android::sp<android::AudioSystem::AudioVolumeGroupCallback>>::(unnamed)",
-   "referenced_type" : "_ZTIN7android6traitsINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEE17$has_trivial_copyE",
-   "self_type" : "_ZTIN7android6traitsINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEE17$has_trivial_copyE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "android::traits<android::sp<android::AudioIoDescriptor>>::is_pointer"
-    },
-    {
-     "enum_field_value" : 0,
-     "name" : "android::traits<android::sp<android::AudioIoDescriptor>>::has_trivial_ctor"
-    },
-    {
-     "enum_field_value" : 0,
-     "name" : "android::traits<android::sp<android::AudioIoDescriptor>>::has_trivial_dtor"
-    },
-    {
-     "enum_field_value" : 0,
-     "name" : "android::traits<android::sp<android::AudioIoDescriptor>>::has_trivial_copy"
-    },
-    {
-     "enum_field_value" : 0,
-     "name" : "android::traits<android::sp<android::AudioIoDescriptor>>::has_trivial_move"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android6traitsINS_2spINS_17AudioIoDescriptorEEEE17$has_trivial_copyE",
-   "name" : "android::traits<android::sp<android::AudioIoDescriptor>>::(unnamed)",
-   "referenced_type" : "_ZTIN7android6traitsINS_2spINS_17AudioIoDescriptorEEEE17$has_trivial_copyE",
-   "self_type" : "_ZTIN7android6traitsINS_2spINS_17AudioIoDescriptorEEEE17$has_trivial_copyE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
      "name" : "android::traits<android::String8>::is_pointer"
     },
     {
@@ -16409,39 +15887,6 @@
    "name" : "android::traits<android::String8>::(unnamed)",
    "referenced_type" : "_ZTIN7android6traitsINS_7String8EE17$has_trivial_copyE",
    "self_type" : "_ZTIN7android6traitsINS_7String8EE17$has_trivial_copyE",
-   "size" : 4,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "android::traits<int>::is_pointer"
-    },
-    {
-     "enum_field_value" : 1,
-     "name" : "android::traits<int>::has_trivial_ctor"
-    },
-    {
-     "enum_field_value" : 1,
-     "name" : "android::traits<int>::has_trivial_dtor"
-    },
-    {
-     "enum_field_value" : 1,
-     "name" : "android::traits<int>::has_trivial_copy"
-    },
-    {
-     "enum_field_value" : 1,
-     "name" : "android::traits<int>::has_trivial_move"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android6traitsIiE17$has_trivial_copyE",
-   "name" : "android::traits<int>::(unnamed)",
-   "referenced_type" : "_ZTIN7android6traitsIiE17$has_trivial_copyE",
-   "self_type" : "_ZTIN7android6traitsIiE17$has_trivial_copyE",
    "size" : 4,
    "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
    "underlying_type" : "_ZTIj"
@@ -37964,15 +37409,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIRKN7android16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "name" : "const android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>> &",
-   "referenced_type" : "_ZTIKN7android16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "self_type" : "_ZTIRKN7android16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIRKN7android16key_value_pair_tIjjEE",
    "name" : "const android::key_value_pair_t<unsigned int, unsigned int> &",
    "referenced_type" : "_ZTIKN7android16key_value_pair_tIjjEE",
@@ -38027,24 +37463,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIRKN7android2spINS_11AudioSystem17AudioPortCallbackEEE",
-   "name" : "const android::sp<android::AudioSystem::AudioPortCallback> &",
-   "referenced_type" : "_ZTIKN7android2spINS_11AudioSystem17AudioPortCallbackEEE",
-   "self_type" : "_ZTIRKN7android2spINS_11AudioSystem17AudioPortCallbackEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRKN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE",
-   "name" : "const android::sp<android::AudioSystem::AudioVolumeGroupCallback> &",
-   "referenced_type" : "_ZTIKN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE",
-   "self_type" : "_ZTIRKN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIRKN7android2spINS_11IMemoryHeapEEE",
    "name" : "const android::sp<android::IMemoryHeap> &",
    "referenced_type" : "_ZTIKN7android2spINS_11IMemoryHeapEEE",
@@ -38060,15 +37478,6 @@
    "self_type" : "_ZTIRKN7android2spINS_12AudioProfileEEE",
    "size" : 8,
    "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRKN7android2spINS_17AudioIoDescriptorEEE",
-   "name" : "const android::sp<android::AudioIoDescriptor> &",
-   "referenced_type" : "_ZTIKN7android2spINS_17AudioIoDescriptorEEE",
-   "self_type" : "_ZTIRKN7android2spINS_17AudioIoDescriptorEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/KeyedVector.h"
   },
   {
    "alignment" : 8,
@@ -40628,15 +40037,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIRN7android16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "name" : "android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>> &",
-   "referenced_type" : "_ZTIN7android16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "self_type" : "_ZTIRN7android16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIRN7android16key_value_pair_tIjjEE",
    "name" : "android::key_value_pair_t<unsigned int, unsigned int> &",
    "referenced_type" : "_ZTIN7android16key_value_pair_tIjjEE",
@@ -40673,37 +40073,10 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIRN7android2spINS_11AudioSystem17AudioPortCallbackEEE",
-   "name" : "android::sp<android::AudioSystem::AudioPortCallback> &",
-   "referenced_type" : "_ZTIN7android2spINS_11AudioSystem17AudioPortCallbackEEE",
-   "self_type" : "_ZTIRN7android2spINS_11AudioSystem17AudioPortCallbackEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE",
-   "name" : "android::sp<android::AudioSystem::AudioVolumeGroupCallback> &",
-   "referenced_type" : "_ZTIN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE",
-   "self_type" : "_ZTIRN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIRN7android2spINS_12AudioProfileEEE",
    "name" : "android::sp<android::AudioProfile> &",
    "referenced_type" : "_ZTIN7android2spINS_12AudioProfileEEE",
    "self_type" : "_ZTIRN7android2spINS_12AudioProfileEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRN7android2spINS_17AudioIoDescriptorEEE",
-   "name" : "android::sp<android::AudioIoDescriptor> &",
-   "referenced_type" : "_ZTIN7android2spINS_17AudioIoDescriptorEEE",
-   "self_type" : "_ZTIRN7android2spINS_17AudioIoDescriptorEEE",
    "size" : 8,
    "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -49253,15 +48626,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPKN7android12SortedVectorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "name" : "const android::SortedVector<android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>> *",
-   "referenced_type" : "_ZTIKN7android12SortedVectorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "self_type" : "_ZTIPKN7android12SortedVectorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/SortedVector.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPKN7android12SortedVectorINS_16key_value_pair_tIjjEEEE",
    "name" : "const android::SortedVector<android::key_value_pair_t<unsigned int, unsigned int>> *",
    "referenced_type" : "_ZTIKN7android12SortedVectorINS_16key_value_pair_tIjjEEEE",
@@ -49347,15 +48711,6 @@
    "name" : "const android::key_value_pair_t<android::String8, android::String8> *",
    "referenced_type" : "_ZTIKN7android16key_value_pair_tINS_7String8ES1_EE",
    "self_type" : "_ZTIPKN7android16key_value_pair_tINS_7String8ES1_EE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPKN7android16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "name" : "const android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>> *",
-   "referenced_type" : "_ZTIKN7android16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "self_type" : "_ZTIPKN7android16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEE",
    "size" : 8,
    "source_file" : "system/core/libutils/include/utils/TypeHelpers.h"
   },
@@ -49457,24 +48812,6 @@
    "self_type" : "_ZTIPKN7android2spINS_11AudioEffectEEE",
    "size" : 8,
    "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPKN7android2spINS_11AudioSystem17AudioPortCallbackEEE",
-   "name" : "const android::sp<android::AudioSystem::AudioPortCallback> *",
-   "referenced_type" : "_ZTIKN7android2spINS_11AudioSystem17AudioPortCallbackEEE",
-   "self_type" : "_ZTIPKN7android2spINS_11AudioSystem17AudioPortCallbackEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPKN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE",
-   "name" : "const android::sp<android::AudioSystem::AudioVolumeGroupCallback> *",
-   "referenced_type" : "_ZTIKN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE",
-   "self_type" : "_ZTIPKN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h"
   },
   {
    "alignment" : 8,
@@ -50510,24 +49847,6 @@
    "self_type" : "_ZTIPKN7android6ParcelE",
    "size" : 8,
    "source_file" : "frameworks/native/libs/binder/include/binder/Parcel.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPKN7android6VectorINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "name" : "const android::Vector<android::sp<android::AudioSystem::AudioPortCallback>> *",
-   "referenced_type" : "_ZTIKN7android6VectorINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "self_type" : "_ZTIPKN7android6VectorINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/Vector.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPKN7android6VectorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "name" : "const android::Vector<android::sp<android::AudioSystem::AudioVolumeGroupCallback>> *",
-   "referenced_type" : "_ZTIKN7android6VectorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "self_type" : "_ZTIPKN7android6VectorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/Vector.h"
   },
   {
    "alignment" : 8,
@@ -51940,7 +51259,7 @@
    "referenced_type" : "_ZTIN7android11AudioSystem17AudioPortCallbackE",
    "self_type" : "_ZTIPN7android11AudioSystem17AudioPortCallbackE",
    "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+   "source_file" : "frameworks/av/media/libaudioclient/include/media/AudioSystem.h"
   },
   {
    "alignment" : 8,
@@ -51985,7 +51304,7 @@
    "referenced_type" : "_ZTIN7android11AudioSystem24AudioVolumeGroupCallbackE",
    "self_type" : "_ZTIPN7android11AudioSystem24AudioVolumeGroupCallbackE",
    "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+   "source_file" : "frameworks/av/media/libaudioclient/include/media/AudioSystem.h"
   },
   {
    "alignment" : 8,
@@ -51994,7 +51313,7 @@
    "referenced_type" : "_ZTIN7android11AudioSystem29SupportedLatencyModesCallbackE",
    "self_type" : "_ZTIPN7android11AudioSystem29SupportedLatencyModesCallbackE",
    "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/RefBase.h"
+   "source_file" : "frameworks/av/media/libaudioclient/include/media/AudioSystem.h"
   },
   {
    "alignment" : 8,
@@ -52088,15 +51407,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPN7android11KeyedVectorIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "name" : "android::KeyedVector<int, android::sp<android::AudioIoDescriptor>> *",
-   "referenced_type" : "_ZTIN7android11KeyedVectorIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "self_type" : "_ZTIPN7android11KeyedVectorIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/KeyedVector.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPN7android11KeyedVectorIjjEE",
    "name" : "android::KeyedVector<unsigned int, unsigned int> *",
    "referenced_type" : "_ZTIN7android11KeyedVectorIjjEE",
@@ -52155,15 +51465,6 @@
    "name" : "android::SortedVector<android::key_value_pair_t<android::String8, android::String8>> *",
    "referenced_type" : "_ZTIN7android12SortedVectorINS_16key_value_pair_tINS_7String8ES2_EEEE",
    "self_type" : "_ZTIPN7android12SortedVectorINS_16key_value_pair_tINS_7String8ES2_EEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/SortedVector.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPN7android12SortedVectorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "name" : "android::SortedVector<android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>> *",
-   "referenced_type" : "_ZTIN7android12SortedVectorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "self_type" : "_ZTIPN7android12SortedVectorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
    "size" : 8,
    "source_file" : "system/core/libutils/include/utils/SortedVector.h"
   },
@@ -52646,15 +51947,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPN7android16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "name" : "android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>> *",
-   "referenced_type" : "_ZTIN7android16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "self_type" : "_ZTIPN7android16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPN7android16key_value_pair_tIjjEE",
    "name" : "android::key_value_pair_t<unsigned int, unsigned int> *",
    "referenced_type" : "_ZTIN7android16key_value_pair_tIjjEE",
@@ -52669,7 +51961,7 @@
    "referenced_type" : "_ZTIN7android17AudioIoDescriptorE",
    "self_type" : "_ZTIPN7android17AudioIoDescriptorE",
    "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+   "source_file" : "frameworks/av/media/libaudioclient/include/media/AudioIoDescriptor.h"
   },
   {
    "alignment" : 8,
@@ -52715,15 +52007,6 @@
    "self_type" : "_ZTIPN7android18AudioProfileVectorE",
    "size" : 8,
    "source_file" : "frameworks/av/media/libaudiofoundation/include/media/AudioProfile.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPN7android18DefaultKeyedVectorIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "name" : "android::DefaultKeyedVector<int, android::sp<android::AudioIoDescriptor>> *",
-   "referenced_type" : "_ZTIN7android18DefaultKeyedVectorIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "self_type" : "_ZTIPN7android18DefaultKeyedVectorIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/KeyedVector.h"
   },
   {
    "alignment" : 8,
@@ -52943,24 +52226,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPN7android2spINS_11AudioSystem17AudioPortCallbackEEE",
-   "name" : "android::sp<android::AudioSystem::AudioPortCallback> *",
-   "referenced_type" : "_ZTIN7android2spINS_11AudioSystem17AudioPortCallbackEEE",
-   "self_type" : "_ZTIPN7android2spINS_11AudioSystem17AudioPortCallbackEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE",
-   "name" : "android::sp<android::AudioSystem::AudioVolumeGroupCallback> *",
-   "referenced_type" : "_ZTIN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE",
-   "self_type" : "_ZTIPN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPN7android2spINS_11IMemoryHeapEEE",
    "name" : "android::sp<android::IMemoryHeap> *",
    "referenced_type" : "_ZTIN7android2spINS_11IMemoryHeapEEE",
@@ -52974,15 +52239,6 @@
    "name" : "android::sp<android::AudioProfile> *",
    "referenced_type" : "_ZTIN7android2spINS_12AudioProfileEEE",
    "self_type" : "_ZTIPN7android2spINS_12AudioProfileEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPN7android2spINS_17AudioIoDescriptorEEE",
-   "name" : "android::sp<android::AudioIoDescriptor> *",
-   "referenced_type" : "_ZTIN7android2spINS_17AudioIoDescriptorEEE",
-   "self_type" : "_ZTIPN7android2spINS_17AudioIoDescriptorEEE",
    "size" : 8,
    "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -53190,24 +52446,6 @@
    "name" : "android::wp<android::AudioRecord> *",
    "referenced_type" : "_ZTIN7android2wpINS_11AudioRecordEEE",
    "self_type" : "_ZTIPN7android2wpINS_11AudioRecordEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/RefBase.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPN7android2wpINS_11AudioSystem19AudioDeviceCallbackEEE",
-   "name" : "android::wp<android::AudioSystem::AudioDeviceCallback> *",
-   "referenced_type" : "_ZTIN7android2wpINS_11AudioSystem19AudioDeviceCallbackEEE",
-   "self_type" : "_ZTIPN7android2wpINS_11AudioSystem19AudioDeviceCallbackEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/RefBase.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPN7android2wpINS_11AudioSystem29SupportedLatencyModesCallbackEEE",
-   "name" : "android::wp<android::AudioSystem::SupportedLatencyModesCallback> *",
-   "referenced_type" : "_ZTIN7android2wpINS_11AudioSystem29SupportedLatencyModesCallbackEEE",
-   "self_type" : "_ZTIPN7android2wpINS_11AudioSystem29SupportedLatencyModesCallbackEEE",
    "size" : 8,
    "source_file" : "system/core/libutils/include/utils/RefBase.h"
   },
@@ -53939,24 +53177,6 @@
    "self_type" : "_ZTIPN7android6ThreadE",
    "size" : 8,
    "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPN7android6VectorINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "name" : "android::Vector<android::sp<android::AudioSystem::AudioPortCallback>> *",
-   "referenced_type" : "_ZTIN7android6VectorINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "self_type" : "_ZTIPN7android6VectorINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/Vector.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPN7android6VectorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "name" : "android::Vector<android::sp<android::AudioSystem::AudioVolumeGroupCallback>> *",
-   "referenced_type" : "_ZTIN7android6VectorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "self_type" : "_ZTIPN7android6VectorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/Vector.h"
   },
   {
    "alignment" : 8,
@@ -57092,7 +56312,7 @@
    "name" : "const android::AudioSystem::AudioPolicyServiceClient",
    "referenced_type" : "_ZTIN7android11AudioSystem24AudioPolicyServiceClientE",
    "self_type" : "_ZTIKN7android11AudioSystem24AudioPolicyServiceClientE",
-   "size" : 176,
+   "size" : 144,
    "source_file" : "frameworks/av/media/libaudioclient/include/media/AudioSystem.h"
   },
   {
@@ -57222,16 +56442,6 @@
    "name" : "const android::SortedVector<android::key_value_pair_t<android::String8, android::String8>>",
    "referenced_type" : "_ZTIN7android12SortedVectorINS_16key_value_pair_tINS_7String8ES2_EEEE",
    "self_type" : "_ZTIKN7android12SortedVectorINS_16key_value_pair_tINS_7String8ES2_EEEE",
-   "size" : 40,
-   "source_file" : "system/core/libutils/include/utils/SortedVector.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKN7android12SortedVectorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "name" : "const android::SortedVector<android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>>",
-   "referenced_type" : "_ZTIN7android12SortedVectorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "self_type" : "_ZTIKN7android12SortedVectorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
    "size" : 40,
    "source_file" : "system/core/libutils/include/utils/SortedVector.h"
   },
@@ -57676,16 +56886,6 @@
    "source_file" : "system/core/libutils/include/utils/TypeHelpers.h"
   },
   {
-   "alignment" : 8,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKN7android16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "name" : "const android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>",
-   "referenced_type" : "_ZTIN7android16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "self_type" : "_ZTIKN7android16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "size" : 16,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h"
-  },
-  {
    "alignment" : 4,
    "is_const" : true,
    "linker_set_key" : "_ZTIKN7android16key_value_pair_tIjjEE",
@@ -57838,26 +57038,6 @@
   {
    "alignment" : 8,
    "is_const" : true,
-   "linker_set_key" : "_ZTIKN7android2spINS_11AudioSystem17AudioPortCallbackEEE",
-   "name" : "const android::sp<android::AudioSystem::AudioPortCallback>",
-   "referenced_type" : "_ZTIN7android2spINS_11AudioSystem17AudioPortCallbackEEE",
-   "self_type" : "_ZTIKN7android2spINS_11AudioSystem17AudioPortCallbackEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE",
-   "name" : "const android::sp<android::AudioSystem::AudioVolumeGroupCallback>",
-   "referenced_type" : "_ZTIN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE",
-   "self_type" : "_ZTIKN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
    "linker_set_key" : "_ZTIKN7android2spINS_11IMemoryHeapEEE",
    "name" : "const android::sp<android::IMemoryHeap>",
    "referenced_type" : "_ZTIN7android2spINS_11IMemoryHeapEEE",
@@ -57874,16 +57054,6 @@
    "self_type" : "_ZTIKN7android2spINS_12AudioProfileEEE",
    "size" : 8,
    "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKN7android2spINS_17AudioIoDescriptorEEE",
-   "name" : "const android::sp<android::AudioIoDescriptor>",
-   "referenced_type" : "_ZTIN7android2spINS_17AudioIoDescriptorEEE",
-   "self_type" : "_ZTIKN7android2spINS_17AudioIoDescriptorEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/KeyedVector.h"
   },
   {
    "alignment" : 8,
@@ -59450,26 +58620,6 @@
    "self_type" : "_ZTIKN7android6ParcelE",
    "size" : 120,
    "source_file" : "frameworks/native/libs/binder/include/binder/Parcel.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKN7android6VectorINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "name" : "const android::Vector<android::sp<android::AudioSystem::AudioPortCallback>>",
-   "referenced_type" : "_ZTIN7android6VectorINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "self_type" : "_ZTIKN7android6VectorINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "size" : 40,
-   "source_file" : "system/core/libutils/include/utils/Vector.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKN7android6VectorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "name" : "const android::Vector<android::sp<android::AudioSystem::AudioVolumeGroupCallback>>",
-   "referenced_type" : "_ZTIN7android6VectorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "self_type" : "_ZTIKN7android6VectorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "size" : 40,
-   "source_file" : "system/core/libutils/include/utils/Vector.h"
   },
   {
    "is_const" : true,
@@ -76955,7 +76105,6 @@
    ]
   },
   {
-   "access" : "private",
    "alignment" : 8,
    "base_specifiers" :
    [
@@ -76970,50 +76119,50 @@
    [
     {
      "access" : "private",
-     "field_name" : "mLock",
+     "field_name" : "mMutex",
      "field_offset" : 320,
-     "referenced_type" : "_ZTIN7android5MutexE"
+     "referenced_type" : "_ZTINSt3__15mutexE"
     },
     {
      "access" : "private",
      "field_name" : "mIoDescriptors",
      "field_offset" : 640,
-     "referenced_type" : "_ZTIN7android18DefaultKeyedVectorIiNS_2spINS_17AudioIoDescriptorEEEEE"
+     "referenced_type" : "_ZTINSt3__13mapIiN7android2spINS1_17AudioIoDescriptorEEENS_4lessIiEENS_9allocatorINS_4pairIKiS4_EEEEEE"
     },
     {
      "access" : "private",
      "field_name" : "mAudioDeviceCallbacks",
-     "field_offset" : 1024,
+     "field_offset" : 832,
      "referenced_type" : "_ZTINSt3__13mapIiNS0_IiN7android2wpINS1_11AudioSystem19AudioDeviceCallbackEEENS_4lessIiEENS_9allocatorINS_4pairIKiS5_EEEEEES7_NS8_INS9_ISA_SD_EEEEEE"
     },
     {
      "access" : "private",
      "field_name" : "mSupportedLatencyModesCallbacks",
-     "field_offset" : 1216,
+     "field_offset" : 1024,
      "referenced_type" : "_ZTINSt3__16vectorIN7android2wpINS1_11AudioSystem29SupportedLatencyModesCallbackEEENS_9allocatorIS5_EEEE"
     },
     {
      "access" : "private",
      "field_name" : "mInBuffSize",
-     "field_offset" : 1408,
+     "field_offset" : 1216,
      "referenced_type" : "_ZTIm"
     },
     {
      "access" : "private",
      "field_name" : "mInSamplingRate",
-     "field_offset" : 1472,
+     "field_offset" : 1280,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "private",
      "field_name" : "mInFormat",
-     "field_offset" : 1504,
+     "field_offset" : 1312,
      "referenced_type" : "_ZTI14audio_format_t"
     },
     {
      "access" : "private",
      "field_name" : "mInChannelMask",
-     "field_offset" : 1536,
+     "field_offset" : 1344,
      "referenced_type" : "_ZTI20audio_channel_mask_t"
     }
    ],
@@ -77022,12 +76171,12 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN7android11AudioSystem18AudioFlingerClientE",
    "self_type" : "_ZTIN7android11AudioSystem18AudioFlingerClientE",
-   "size" : 216,
+   "size" : 192,
    "source_file" : "frameworks/av/media/libaudioclient/include/media/AudioSystem.h",
    "vtable_components" :
    [
     {
-     "component_value" : 200,
+     "component_value" : 176,
      "kind" : "vbase_offset"
     },
     {
@@ -77055,7 +76204,7 @@
      "mangled_component_name" : "_ZN7android11AudioSystem18AudioFlingerClient30onSupportedLatencyModesChangedEiRKNSt3__16vectorINS_5media5audio6common16AudioLatencyModeENS2_9allocatorIS7_EEEE"
     },
     {
-     "component_value" : 192,
+     "component_value" : 168,
      "kind" : "vbase_offset"
     },
     {
@@ -77093,7 +76242,7 @@
      "mangled_component_name" : "_ZN7android5media20BnAudioFlingerClient10onTransactEjRKNS_6ParcelEPS2_j"
     },
     {
-     "component_value" : 184,
+     "component_value" : 160,
      "kind" : "vbase_offset"
     },
     {
@@ -77170,11 +76319,11 @@
      "kind" : "vcall_offset"
     },
     {
-     "component_value" : -200,
+     "component_value" : -176,
      "kind" : "vcall_offset"
     },
     {
-     "component_value" : -200,
+     "component_value" : -176,
      "kind" : "offset_to_top"
     },
     {
@@ -77382,7 +76531,6 @@
    ]
   },
   {
-   "access" : "private",
    "alignment" : 8,
    "base_specifiers" :
    [
@@ -77397,21 +76545,21 @@
    [
     {
      "access" : "private",
-     "field_name" : "mLock",
+     "field_name" : "mMutex",
      "field_offset" : 320,
-     "referenced_type" : "_ZTIN7android5MutexE"
+     "referenced_type" : "_ZTINSt3__15mutexE"
     },
     {
      "access" : "private",
      "field_name" : "mAudioPortCallbacks",
      "field_offset" : 640,
-     "referenced_type" : "_ZTIN7android6VectorINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE"
+     "referenced_type" : "_ZTINSt3__13setIN7android2spINS1_11AudioSystem17AudioPortCallbackEEENS_4lessIS5_EENS_9allocatorIS5_EEEE"
     },
     {
      "access" : "private",
-     "field_name" : "mAudioVolumeGroupCallback",
-     "field_offset" : 960,
-     "referenced_type" : "_ZTIN7android6VectorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE"
+     "field_name" : "mAudioVolumeGroupCallbacks",
+     "field_offset" : 832,
+     "referenced_type" : "_ZTINSt3__13setIN7android2spINS1_11AudioSystem24AudioVolumeGroupCallbackEEENS_4lessIS5_EENS_9allocatorIS5_EEEE"
     }
    ],
    "linker_set_key" : "_ZTIN7android11AudioSystem24AudioPolicyServiceClientE",
@@ -77419,12 +76567,12 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN7android11AudioSystem24AudioPolicyServiceClientE",
    "self_type" : "_ZTIN7android11AudioSystem24AudioPolicyServiceClientE",
-   "size" : 176,
+   "size" : 144,
    "source_file" : "frameworks/av/media/libaudioclient/include/media/AudioSystem.h",
    "vtable_components" :
    [
     {
-     "component_value" : 160,
+     "component_value" : 128,
      "kind" : "vbase_offset"
     },
     {
@@ -77467,7 +76615,7 @@
      "mangled_component_name" : "_ZN7android11AudioSystem24AudioPolicyServiceClient24onVolumeRangeInitRequestEv"
     },
     {
-     "component_value" : 152,
+     "component_value" : 120,
      "kind" : "vbase_offset"
     },
     {
@@ -77520,7 +76668,7 @@
      "mangled_component_name" : "_ZN7android5media26BnAudioPolicyServiceClient10onTransactEjRKNS_6ParcelEPS2_j"
     },
     {
-     "component_value" : 144,
+     "component_value" : 112,
      "kind" : "vbase_offset"
     },
     {
@@ -77597,11 +76745,11 @@
      "kind" : "vcall_offset"
     },
     {
-     "component_value" : -160,
+     "component_value" : -128,
      "kind" : "vcall_offset"
     },
     {
-     "component_value" : -160,
+     "component_value" : -128,
      "kind" : "offset_to_top"
     },
     {
@@ -81878,29 +81026,6 @@
     {
      "access" : "private",
      "field_name" : "mVector",
-     "referenced_type" : "_ZTIN7android12SortedVectorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android11KeyedVectorIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "name" : "android::KeyedVector<int, android::sp<android::AudioIoDescriptor>>",
-   "record_kind" : "class",
-   "referenced_type" : "_ZTIN7android11KeyedVectorIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "self_type" : "_ZTIN7android11KeyedVectorIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "size" : 40,
-   "source_file" : "system/core/libutils/include/utils/KeyedVector.h",
-   "template_args" :
-   [
-    "_ZTIi",
-    "_ZTIN7android2spINS_17AudioIoDescriptorEEE"
-   ]
-  },
-  {
-   "alignment" : 8,
-   "fields" :
-   [
-    {
-     "access" : "private",
-     "field_name" : "mVector",
      "referenced_type" : "_ZTIN7android12SortedVectorINS_16key_value_pair_tIjjEEEE"
     }
    ],
@@ -83113,66 +82238,6 @@
     },
     {
      "mangled_component_name" : "_ZNK7android12SortedVectorINS_16key_value_pair_tINS_7String8ES2_EEE10do_compareEPKvS6_"
-    }
-   ]
-  },
-  {
-   "alignment" : 8,
-   "base_specifiers" :
-   [
-    {
-     "access" : "private",
-     "referenced_type" : "_ZTIN7android16SortedVectorImplE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android12SortedVectorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "name" : "android::SortedVector<android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>>",
-   "record_kind" : "class",
-   "referenced_type" : "_ZTIN7android12SortedVectorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "self_type" : "_ZTIN7android12SortedVectorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "size" : 40,
-   "source_file" : "system/core/libutils/include/utils/SortedVector.h",
-   "template_args" :
-   [
-    "_ZTIN7android16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEE"
-   ],
-   "vtable_components" :
-   [
-    {
-     "kind" : "offset_to_top"
-    },
-    {
-     "kind" : "rtti",
-     "mangled_component_name" : "_ZTIN7android12SortedVectorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE"
-    },
-    {
-     "kind" : "complete_dtor_pointer",
-     "mangled_component_name" : "_ZN7android12SortedVectorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEED1Ev"
-    },
-    {
-     "kind" : "deleting_dtor_pointer",
-     "mangled_component_name" : "_ZN7android12SortedVectorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEED0Ev"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android12SortedVectorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEE12do_constructEPvm"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android12SortedVectorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEE10do_destroyEPvm"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android12SortedVectorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEE7do_copyEPvPKvm"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android12SortedVectorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEE8do_splatEPvPKvm"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android12SortedVectorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEE15do_move_forwardEPvPKvm"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android12SortedVectorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEE16do_move_backwardEPvPKvm"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android12SortedVectorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEE10do_compareEPKvS8_"
     }
    ]
   },
@@ -85403,19 +84468,6 @@
   },
   {
    "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android13trait_pointerINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "name" : "android::trait_pointer<android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>>",
-   "referenced_type" : "_ZTIN7android13trait_pointerINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "self_type" : "_ZTIN7android13trait_pointerINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIN7android16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android13trait_pointerINS_16key_value_pair_tIjjEEEE",
    "name" : "android::trait_pointer<android::key_value_pair_t<unsigned int, unsigned int>>",
    "referenced_type" : "_ZTIN7android13trait_pointerINS_16key_value_pair_tIjjEEEE",
@@ -85429,45 +84481,6 @@
   },
   {
    "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android13trait_pointerINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "name" : "android::trait_pointer<android::sp<android::AudioSystem::AudioPortCallback>>",
-   "referenced_type" : "_ZTIN7android13trait_pointerINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "self_type" : "_ZTIN7android13trait_pointerINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIN7android2spINS_11AudioSystem17AudioPortCallbackEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android13trait_pointerINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "name" : "android::trait_pointer<android::sp<android::AudioSystem::AudioVolumeGroupCallback>>",
-   "referenced_type" : "_ZTIN7android13trait_pointerINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "self_type" : "_ZTIN7android13trait_pointerINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android13trait_pointerINS_2spINS_17AudioIoDescriptorEEEEE",
-   "name" : "android::trait_pointer<android::sp<android::AudioIoDescriptor>>",
-   "referenced_type" : "_ZTIN7android13trait_pointerINS_2spINS_17AudioIoDescriptorEEEEE",
-   "self_type" : "_ZTIN7android13trait_pointerINS_2spINS_17AudioIoDescriptorEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIN7android2spINS_17AudioIoDescriptorEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android13trait_pointerINS_7String8EEE",
    "name" : "android::trait_pointer<android::String8>",
    "referenced_type" : "_ZTIN7android13trait_pointerINS_7String8EEE",
@@ -85477,19 +84490,6 @@
    "template_args" :
    [
     "_ZTIN7android7String8E"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android13trait_pointerIiEE",
-   "name" : "android::trait_pointer<int>",
-   "referenced_type" : "_ZTIN7android13trait_pointerIiEE",
-   "self_type" : "_ZTIN7android13trait_pointerIiEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIi"
    ]
   },
   {
@@ -87831,20 +86831,6 @@
   },
   {
    "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android16aggregate_traitsIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "name" : "android::aggregate_traits<int, android::sp<android::AudioIoDescriptor>>",
-   "referenced_type" : "_ZTIN7android16aggregate_traitsIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "self_type" : "_ZTIN7android16aggregate_traitsIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIi",
-    "_ZTIN7android2spINS_17AudioIoDescriptorEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android16aggregate_traitsIjjEE",
    "name" : "android::aggregate_traits<unsigned int, unsigned int>",
    "referenced_type" : "_ZTIN7android16aggregate_traitsIjjEE",
@@ -87881,32 +86867,6 @@
    [
     "_ZTIN7android7String8E",
     "_ZTIN7android7String8E"
-   ]
-  },
-  {
-   "alignment" : 8,
-   "fields" :
-   [
-    {
-     "field_name" : "key",
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "value",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTIN7android2spINS_17AudioIoDescriptorEEE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "name" : "android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>",
-   "referenced_type" : "_ZTIN7android16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "self_type" : "_ZTIN7android16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "size" : 16,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIi",
-    "_ZTIN7android2spINS_17AudioIoDescriptorEEE"
    ]
   },
   {
@@ -87959,25 +86919,6 @@
    "base_specifiers" :
    [
     {
-     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android16use_trivial_moveINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "name" : "android::use_trivial_move<android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>>",
-   "referenced_type" : "_ZTIN7android16use_trivial_moveINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "self_type" : "_ZTIN7android16use_trivial_moveINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIN7android16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "base_specifiers" :
-   [
-    {
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
     }
    ],
@@ -87990,44 +86931,6 @@
    "template_args" :
    [
     "_ZTIN7android16key_value_pair_tIjjEE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "base_specifiers" :
-   [
-    {
-     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android16use_trivial_moveINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "name" : "android::use_trivial_move<android::sp<android::AudioSystem::AudioPortCallback>>",
-   "referenced_type" : "_ZTIN7android16use_trivial_moveINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "self_type" : "_ZTIN7android16use_trivial_moveINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIN7android2spINS_11AudioSystem17AudioPortCallbackEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "base_specifiers" :
-   [
-    {
-     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android16use_trivial_moveINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "name" : "android::use_trivial_move<android::sp<android::AudioSystem::AudioVolumeGroupCallback>>",
-   "referenced_type" : "_ZTIN7android16use_trivial_moveINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "self_type" : "_ZTIN7android16use_trivial_moveINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE"
    ]
   },
   {
@@ -88306,36 +87209,6 @@
    "base_specifiers" :
    [
     {
-     "referenced_type" : "_ZTIN7android11KeyedVectorIiNS_2spINS_17AudioIoDescriptorEEEEE"
-    }
-   ],
-   "fields" :
-   [
-    {
-     "access" : "private",
-     "field_name" : "mDefault",
-     "field_offset" : 320,
-     "referenced_type" : "_ZTIN7android2spINS_17AudioIoDescriptorEEE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android18DefaultKeyedVectorIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "name" : "android::DefaultKeyedVector<int, android::sp<android::AudioIoDescriptor>>",
-   "record_kind" : "class",
-   "referenced_type" : "_ZTIN7android18DefaultKeyedVectorIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "self_type" : "_ZTIN7android18DefaultKeyedVectorIiNS_2spINS_17AudioIoDescriptorEEEEE",
-   "size" : 48,
-   "source_file" : "system/core/libutils/include/utils/KeyedVector.h",
-   "template_args" :
-   [
-    "_ZTIi",
-    "_ZTIN7android2spINS_17AudioIoDescriptorEEE"
-   ]
-  },
-  {
-   "alignment" : 8,
-   "base_specifiers" :
-   [
-    {
      "referenced_type" : "_ZTIN7android10IInterfaceE"
     }
    ],
@@ -88510,19 +87383,6 @@
   },
   {
    "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android18trait_trivial_copyINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "name" : "android::trait_trivial_copy<android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>>",
-   "referenced_type" : "_ZTIN7android18trait_trivial_copyINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "self_type" : "_ZTIN7android18trait_trivial_copyINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIN7android16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android18trait_trivial_copyINS_16key_value_pair_tIjjEEEE",
    "name" : "android::trait_trivial_copy<android::key_value_pair_t<unsigned int, unsigned int>>",
    "referenced_type" : "_ZTIN7android18trait_trivial_copyINS_16key_value_pair_tIjjEEEE",
@@ -88532,45 +87392,6 @@
    "template_args" :
    [
     "_ZTIN7android16key_value_pair_tIjjEE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android18trait_trivial_copyINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "name" : "android::trait_trivial_copy<android::sp<android::AudioSystem::AudioPortCallback>>",
-   "referenced_type" : "_ZTIN7android18trait_trivial_copyINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "self_type" : "_ZTIN7android18trait_trivial_copyINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIN7android2spINS_11AudioSystem17AudioPortCallbackEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android18trait_trivial_copyINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "name" : "android::trait_trivial_copy<android::sp<android::AudioSystem::AudioVolumeGroupCallback>>",
-   "referenced_type" : "_ZTIN7android18trait_trivial_copyINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "self_type" : "_ZTIN7android18trait_trivial_copyINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android18trait_trivial_copyINS_2spINS_17AudioIoDescriptorEEEEE",
-   "name" : "android::trait_trivial_copy<android::sp<android::AudioIoDescriptor>>",
-   "referenced_type" : "_ZTIN7android18trait_trivial_copyINS_2spINS_17AudioIoDescriptorEEEEE",
-   "self_type" : "_ZTIN7android18trait_trivial_copyINS_2spINS_17AudioIoDescriptorEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIN7android2spINS_17AudioIoDescriptorEEE"
    ]
   },
   {
@@ -88783,19 +87604,6 @@
   },
   {
    "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "name" : "android::trait_trivial_ctor<android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>>",
-   "referenced_type" : "_ZTIN7android18trait_trivial_ctorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "self_type" : "_ZTIN7android18trait_trivial_ctorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIN7android16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android18trait_trivial_ctorINS_16key_value_pair_tIjjEEEE",
    "name" : "android::trait_trivial_ctor<android::key_value_pair_t<unsigned int, unsigned int>>",
    "referenced_type" : "_ZTIN7android18trait_trivial_ctorINS_16key_value_pair_tIjjEEEE",
@@ -88805,45 +87613,6 @@
    "template_args" :
    [
     "_ZTIN7android16key_value_pair_tIjjEE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "name" : "android::trait_trivial_ctor<android::sp<android::AudioSystem::AudioPortCallback>>",
-   "referenced_type" : "_ZTIN7android18trait_trivial_ctorINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "self_type" : "_ZTIN7android18trait_trivial_ctorINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIN7android2spINS_11AudioSystem17AudioPortCallbackEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "name" : "android::trait_trivial_ctor<android::sp<android::AudioSystem::AudioVolumeGroupCallback>>",
-   "referenced_type" : "_ZTIN7android18trait_trivial_ctorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "self_type" : "_ZTIN7android18trait_trivial_ctorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorINS_2spINS_17AudioIoDescriptorEEEEE",
-   "name" : "android::trait_trivial_ctor<android::sp<android::AudioIoDescriptor>>",
-   "referenced_type" : "_ZTIN7android18trait_trivial_ctorINS_2spINS_17AudioIoDescriptorEEEEE",
-   "self_type" : "_ZTIN7android18trait_trivial_ctorINS_2spINS_17AudioIoDescriptorEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIN7android2spINS_17AudioIoDescriptorEEE"
    ]
   },
   {
@@ -89056,19 +87825,6 @@
   },
   {
    "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "name" : "android::trait_trivial_dtor<android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>>",
-   "referenced_type" : "_ZTIN7android18trait_trivial_dtorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "self_type" : "_ZTIN7android18trait_trivial_dtorINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIN7android16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android18trait_trivial_dtorINS_16key_value_pair_tIjjEEEE",
    "name" : "android::trait_trivial_dtor<android::key_value_pair_t<unsigned int, unsigned int>>",
    "referenced_type" : "_ZTIN7android18trait_trivial_dtorINS_16key_value_pair_tIjjEEEE",
@@ -89078,45 +87834,6 @@
    "template_args" :
    [
     "_ZTIN7android16key_value_pair_tIjjEE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "name" : "android::trait_trivial_dtor<android::sp<android::AudioSystem::AudioPortCallback>>",
-   "referenced_type" : "_ZTIN7android18trait_trivial_dtorINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "self_type" : "_ZTIN7android18trait_trivial_dtorINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIN7android2spINS_11AudioSystem17AudioPortCallbackEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "name" : "android::trait_trivial_dtor<android::sp<android::AudioSystem::AudioVolumeGroupCallback>>",
-   "referenced_type" : "_ZTIN7android18trait_trivial_dtorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "self_type" : "_ZTIN7android18trait_trivial_dtorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorINS_2spINS_17AudioIoDescriptorEEEEE",
-   "name" : "android::trait_trivial_dtor<android::sp<android::AudioIoDescriptor>>",
-   "referenced_type" : "_ZTIN7android18trait_trivial_dtorINS_2spINS_17AudioIoDescriptorEEEEE",
-   "self_type" : "_ZTIN7android18trait_trivial_dtorINS_2spINS_17AudioIoDescriptorEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIN7android2spINS_17AudioIoDescriptorEEE"
    ]
   },
   {
@@ -89329,19 +88046,6 @@
   },
   {
    "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android18trait_trivial_moveINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "name" : "android::trait_trivial_move<android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>>",
-   "referenced_type" : "_ZTIN7android18trait_trivial_moveINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "self_type" : "_ZTIN7android18trait_trivial_moveINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIN7android16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android18trait_trivial_moveINS_16key_value_pair_tIjjEEEE",
    "name" : "android::trait_trivial_move<android::key_value_pair_t<unsigned int, unsigned int>>",
    "referenced_type" : "_ZTIN7android18trait_trivial_moveINS_16key_value_pair_tIjjEEEE",
@@ -89351,45 +88055,6 @@
    "template_args" :
    [
     "_ZTIN7android16key_value_pair_tIjjEE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android18trait_trivial_moveINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "name" : "android::trait_trivial_move<android::sp<android::AudioSystem::AudioPortCallback>>",
-   "referenced_type" : "_ZTIN7android18trait_trivial_moveINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "self_type" : "_ZTIN7android18trait_trivial_moveINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIN7android2spINS_11AudioSystem17AudioPortCallbackEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android18trait_trivial_moveINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "name" : "android::trait_trivial_move<android::sp<android::AudioSystem::AudioVolumeGroupCallback>>",
-   "referenced_type" : "_ZTIN7android18trait_trivial_moveINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "self_type" : "_ZTIN7android18trait_trivial_moveINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android18trait_trivial_moveINS_2spINS_17AudioIoDescriptorEEEEE",
-   "name" : "android::trait_trivial_move<android::sp<android::AudioIoDescriptor>>",
-   "referenced_type" : "_ZTIN7android18trait_trivial_moveINS_2spINS_17AudioIoDescriptorEEEEE",
-   "self_type" : "_ZTIN7android18trait_trivial_moveINS_2spINS_17AudioIoDescriptorEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIN7android2spINS_17AudioIoDescriptorEEE"
    ]
   },
   {
@@ -93099,72 +91764,6 @@
     {
      "access" : "private",
      "field_name" : "m_ptr",
-     "referenced_type" : "_ZTIPN7android11AudioSystem17AudioPortCallbackE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android2spINS_11AudioSystem17AudioPortCallbackEEE",
-   "name" : "android::sp<android::AudioSystem::AudioPortCallback>",
-   "record_kind" : "class",
-   "referenced_type" : "_ZTIN7android2spINS_11AudioSystem17AudioPortCallbackEEE",
-   "self_type" : "_ZTIN7android2spINS_11AudioSystem17AudioPortCallbackEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/StrongPointer.h",
-   "template_args" :
-   [
-    "_ZTIN7android11AudioSystem17AudioPortCallbackE"
-   ]
-  },
-  {
-   "alignment" : 8,
-   "fields" :
-   [
-    {
-     "access" : "private",
-     "field_name" : "m_ptr",
-     "referenced_type" : "_ZTIPN7android11AudioSystem19AudioDeviceCallbackE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android2spINS_11AudioSystem19AudioDeviceCallbackEEE",
-   "name" : "android::sp<android::AudioSystem::AudioDeviceCallback>",
-   "record_kind" : "class",
-   "referenced_type" : "_ZTIN7android2spINS_11AudioSystem19AudioDeviceCallbackEEE",
-   "self_type" : "_ZTIN7android2spINS_11AudioSystem19AudioDeviceCallbackEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/StrongPointer.h",
-   "template_args" :
-   [
-    "_ZTIN7android11AudioSystem19AudioDeviceCallbackE"
-   ]
-  },
-  {
-   "alignment" : 8,
-   "fields" :
-   [
-    {
-     "access" : "private",
-     "field_name" : "m_ptr",
-     "referenced_type" : "_ZTIPN7android11AudioSystem24AudioVolumeGroupCallbackE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE",
-   "name" : "android::sp<android::AudioSystem::AudioVolumeGroupCallback>",
-   "record_kind" : "class",
-   "referenced_type" : "_ZTIN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE",
-   "self_type" : "_ZTIN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/StrongPointer.h",
-   "template_args" :
-   [
-    "_ZTIN7android11AudioSystem24AudioVolumeGroupCallbackE"
-   ]
-  },
-  {
-   "alignment" : 8,
-   "fields" :
-   [
-    {
-     "access" : "private",
-     "field_name" : "m_ptr",
      "referenced_type" : "_ZTIPN7android11IMemoryHeapE"
     }
    ],
@@ -93332,28 +91931,6 @@
    "template_args" :
    [
     "_ZTIN7android15TrackPlayerBaseE"
-   ]
-  },
-  {
-   "alignment" : 8,
-   "fields" :
-   [
-    {
-     "access" : "private",
-     "field_name" : "m_ptr",
-     "referenced_type" : "_ZTIPN7android17AudioIoDescriptorE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android2spINS_17AudioIoDescriptorEEE",
-   "name" : "android::sp<android::AudioIoDescriptor>",
-   "record_kind" : "class",
-   "referenced_type" : "_ZTIN7android2spINS_17AudioIoDescriptorEEE",
-   "self_type" : "_ZTIN7android2spINS_17AudioIoDescriptorEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/StrongPointer.h",
-   "template_args" :
-   [
-    "_ZTIN7android17AudioIoDescriptorE"
    ]
   },
   {
@@ -94342,34 +92919,6 @@
    "template_args" :
    [
     "_ZTIN7android11AudioSystem19AudioDeviceCallbackE"
-   ]
-  },
-  {
-   "alignment" : 8,
-   "fields" :
-   [
-    {
-     "access" : "private",
-     "field_name" : "m_ptr",
-     "referenced_type" : "_ZTIPN7android11AudioSystem29SupportedLatencyModesCallbackE"
-    },
-    {
-     "access" : "private",
-     "field_name" : "m_refs",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTIPN7android7RefBase12weakref_typeE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android2wpINS_11AudioSystem29SupportedLatencyModesCallbackEEE",
-   "name" : "android::wp<android::AudioSystem::SupportedLatencyModesCallback>",
-   "record_kind" : "class",
-   "referenced_type" : "_ZTIN7android2wpINS_11AudioSystem29SupportedLatencyModesCallbackEEE",
-   "self_type" : "_ZTIN7android2wpINS_11AudioSystem29SupportedLatencyModesCallbackEEE",
-   "size" : 16,
-   "source_file" : "system/core/libutils/include/utils/RefBase.h",
-   "template_args" :
-   [
-    "_ZTIN7android11AudioSystem29SupportedLatencyModesCallbackE"
    ]
   },
   {
@@ -108267,120 +106816,6 @@
   },
   {
    "alignment" : 8,
-   "base_specifiers" :
-   [
-    {
-     "access" : "private",
-     "referenced_type" : "_ZTIN7android10VectorImplE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android6VectorINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "name" : "android::Vector<android::sp<android::AudioSystem::AudioPortCallback>>",
-   "record_kind" : "class",
-   "referenced_type" : "_ZTIN7android6VectorINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "self_type" : "_ZTIN7android6VectorINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "size" : 40,
-   "source_file" : "system/core/libutils/include/utils/Vector.h",
-   "template_args" :
-   [
-    "_ZTIN7android2spINS_11AudioSystem17AudioPortCallbackEEE"
-   ],
-   "vtable_components" :
-   [
-    {
-     "kind" : "offset_to_top"
-    },
-    {
-     "kind" : "rtti",
-     "mangled_component_name" : "_ZTIN7android6VectorINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE"
-    },
-    {
-     "kind" : "complete_dtor_pointer",
-     "mangled_component_name" : "_ZN7android6VectorINS_2spINS_11AudioSystem17AudioPortCallbackEEEED1Ev"
-    },
-    {
-     "kind" : "deleting_dtor_pointer",
-     "mangled_component_name" : "_ZN7android6VectorINS_2spINS_11AudioSystem17AudioPortCallbackEEEED0Ev"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_2spINS_11AudioSystem17AudioPortCallbackEEEE12do_constructEPvm"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_2spINS_11AudioSystem17AudioPortCallbackEEEE10do_destroyEPvm"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_2spINS_11AudioSystem17AudioPortCallbackEEEE7do_copyEPvPKvm"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_2spINS_11AudioSystem17AudioPortCallbackEEEE8do_splatEPvPKvm"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_2spINS_11AudioSystem17AudioPortCallbackEEEE15do_move_forwardEPvPKvm"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_2spINS_11AudioSystem17AudioPortCallbackEEEE16do_move_backwardEPvPKvm"
-    }
-   ]
-  },
-  {
-   "alignment" : 8,
-   "base_specifiers" :
-   [
-    {
-     "access" : "private",
-     "referenced_type" : "_ZTIN7android10VectorImplE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android6VectorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "name" : "android::Vector<android::sp<android::AudioSystem::AudioVolumeGroupCallback>>",
-   "record_kind" : "class",
-   "referenced_type" : "_ZTIN7android6VectorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "self_type" : "_ZTIN7android6VectorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "size" : 40,
-   "source_file" : "system/core/libutils/include/utils/Vector.h",
-   "template_args" :
-   [
-    "_ZTIN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE"
-   ],
-   "vtable_components" :
-   [
-    {
-     "kind" : "offset_to_top"
-    },
-    {
-     "kind" : "rtti",
-     "mangled_component_name" : "_ZTIN7android6VectorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE"
-    },
-    {
-     "kind" : "complete_dtor_pointer",
-     "mangled_component_name" : "_ZN7android6VectorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEED1Ev"
-    },
-    {
-     "kind" : "deleting_dtor_pointer",
-     "mangled_component_name" : "_ZN7android6VectorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEED0Ev"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEE12do_constructEPvm"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEE10do_destroyEPvm"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEE7do_copyEPvPKvm"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEE8do_splatEPvPKvm"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEE15do_move_forwardEPvPKvm"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEE16do_move_backwardEPvPKvm"
-    }
-   ]
-  },
-  {
-   "alignment" : 8,
    "fields" :
    [
     {
@@ -108442,19 +106877,6 @@
   },
   {
    "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android6traitsINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "name" : "android::traits<android::key_value_pair_t<int, android::sp<android::AudioIoDescriptor>>>",
-   "referenced_type" : "_ZTIN7android6traitsINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "self_type" : "_ZTIN7android6traitsINS_16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIN7android16key_value_pair_tIiNS_2spINS_17AudioIoDescriptorEEEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android6traitsINS_16key_value_pair_tIjjEEEE",
    "name" : "android::traits<android::key_value_pair_t<unsigned int, unsigned int>>",
    "referenced_type" : "_ZTIN7android6traitsINS_16key_value_pair_tIjjEEEE",
@@ -108468,45 +106890,6 @@
   },
   {
    "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android6traitsINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "name" : "android::traits<android::sp<android::AudioSystem::AudioPortCallback>>",
-   "referenced_type" : "_ZTIN7android6traitsINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "self_type" : "_ZTIN7android6traitsINS_2spINS_11AudioSystem17AudioPortCallbackEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIN7android2spINS_11AudioSystem17AudioPortCallbackEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android6traitsINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "name" : "android::traits<android::sp<android::AudioSystem::AudioVolumeGroupCallback>>",
-   "referenced_type" : "_ZTIN7android6traitsINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "self_type" : "_ZTIN7android6traitsINS_2spINS_11AudioSystem24AudioVolumeGroupCallbackEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android6traitsINS_2spINS_17AudioIoDescriptorEEEEE",
-   "name" : "android::traits<android::sp<android::AudioIoDescriptor>>",
-   "referenced_type" : "_ZTIN7android6traitsINS_2spINS_17AudioIoDescriptorEEEEE",
-   "self_type" : "_ZTIN7android6traitsINS_2spINS_17AudioIoDescriptorEEEEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIN7android2spINS_17AudioIoDescriptorEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android6traitsINS_7String8EEE",
    "name" : "android::traits<android::String8>",
    "referenced_type" : "_ZTIN7android6traitsINS_7String8EEE",
@@ -108516,19 +106899,6 @@
    "template_args" :
    [
     "_ZTIN7android7String8E"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android6traitsIiEE",
-   "name" : "android::traits<int>",
-   "referenced_type" : "_ZTIN7android6traitsIiEE",
-   "self_type" : "_ZTIN7android6traitsIiEE",
-   "size" : 1,
-   "source_file" : "system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" :
-   [
-    "_ZTIi"
    ]
   },
   {
@@ -109673,13 +108043,18 @@
      "referenced_type" : "_ZTIj"
     },
     {
+     "field_name" : "mToken",
+     "field_offset" : 1152,
+     "referenced_type" : "_ZTIN7android2spINS_7IBinderEEE"
+    },
+    {
      "field_name" : "mAllowPrivilegedMediaPlaybackCapture",
-     "field_offset" : 1120,
+     "field_offset" : 1216,
      "referenced_type" : "_ZTIb"
     },
     {
      "field_name" : "mVoiceCommunicationCaptureAllowed",
-     "field_offset" : 1128,
+     "field_offset" : 1224,
      "referenced_type" : "_ZTIb"
     }
    ],
@@ -109688,7 +108063,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN7android8AudioMixE",
    "self_type" : "_ZTIN7android8AudioMixE",
-   "size" : 144,
+   "size" : 160,
    "source_file" : "frameworks/av/media/libaudioclient/include/media/AudioPolicy.h"
   },
   {
@@ -126904,110 +125279,6 @@
    "template_args" :
    [
     "_ZTIN7android5media5audio6common22AudioFormatDescriptionE"
-   ]
-  },
-  {
-   "alignment" : 8,
-   "base_specifiers" :
-   [
-    {
-     "referenced_type" : "_ZTIN7android16ReferenceRenamerE"
-    }
-   ],
-   "fields" :
-   [
-    {
-     "access" : "private",
-     "field_name" : "d_",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTIPN7android2spINS_11AudioSystem17AudioPortCallbackEEE"
-    },
-    {
-     "access" : "private",
-     "field_name" : "s_",
-     "field_offset" : 128,
-     "referenced_type" : "_ZTIPKN7android2spINS_11AudioSystem17AudioPortCallbackEEE"
-    }
-   ],
-   "linker_set_key" : "_ZTIZN7android14ReferenceMover15move_referencesINS_11AudioSystem17AudioPortCallbackEEEvPNS_2spIT_EEPKS6_mE7Renamer",
-   "name" : "Renamer",
-   "record_kind" : "class",
-   "referenced_type" : "_ZTIZN7android14ReferenceMover15move_referencesINS_11AudioSystem17AudioPortCallbackEEEvPNS_2spIT_EEPKS6_mE7Renamer",
-   "self_type" : "_ZTIZN7android14ReferenceMover15move_referencesINS_11AudioSystem17AudioPortCallbackEEEvPNS_2spIT_EEPKS6_mE7Renamer",
-   "size" : 24,
-   "source_file" : "system/core/libutils/include/utils/RefBase.h",
-   "vtable_components" :
-   [
-    {
-     "kind" : "offset_to_top"
-    },
-    {
-     "kind" : "rtti",
-     "mangled_component_name" : "_ZTIZN7android14ReferenceMover15move_referencesINS_11AudioSystem17AudioPortCallbackEEEvPNS_2spIT_EEPKS6_mE7Renamer"
-    },
-    {
-     "mangled_component_name" : "_ZZN7android14ReferenceMover15move_referencesINS_11AudioSystem17AudioPortCallbackEEEvPNS_2spIT_EEPKS6_mENK7RenamerclEm"
-    },
-    {
-     "kind" : "complete_dtor_pointer",
-     "mangled_component_name" : "_ZZN7android14ReferenceMover15move_referencesINS_11AudioSystem17AudioPortCallbackEEEvPNS_2spIT_EEPKS6_mEN7RenamerD1Ev"
-    },
-    {
-     "kind" : "deleting_dtor_pointer",
-     "mangled_component_name" : "_ZZN7android14ReferenceMover15move_referencesINS_11AudioSystem17AudioPortCallbackEEEvPNS_2spIT_EEPKS6_mEN7RenamerD0Ev"
-    }
-   ]
-  },
-  {
-   "alignment" : 8,
-   "base_specifiers" :
-   [
-    {
-     "referenced_type" : "_ZTIN7android16ReferenceRenamerE"
-    }
-   ],
-   "fields" :
-   [
-    {
-     "access" : "private",
-     "field_name" : "d_",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTIPN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE"
-    },
-    {
-     "access" : "private",
-     "field_name" : "s_",
-     "field_offset" : 128,
-     "referenced_type" : "_ZTIPKN7android2spINS_11AudioSystem24AudioVolumeGroupCallbackEEE"
-    }
-   ],
-   "linker_set_key" : "_ZTIZN7android14ReferenceMover15move_referencesINS_11AudioSystem24AudioVolumeGroupCallbackEEEvPNS_2spIT_EEPKS6_mE7Renamer",
-   "name" : "Renamer",
-   "record_kind" : "class",
-   "referenced_type" : "_ZTIZN7android14ReferenceMover15move_referencesINS_11AudioSystem24AudioVolumeGroupCallbackEEEvPNS_2spIT_EEPKS6_mE7Renamer",
-   "self_type" : "_ZTIZN7android14ReferenceMover15move_referencesINS_11AudioSystem24AudioVolumeGroupCallbackEEEvPNS_2spIT_EEPKS6_mE7Renamer",
-   "size" : 24,
-   "source_file" : "system/core/libutils/include/utils/RefBase.h",
-   "vtable_components" :
-   [
-    {
-     "kind" : "offset_to_top"
-    },
-    {
-     "kind" : "rtti",
-     "mangled_component_name" : "_ZTIZN7android14ReferenceMover15move_referencesINS_11AudioSystem24AudioVolumeGroupCallbackEEEvPNS_2spIT_EEPKS6_mE7Renamer"
-    },
-    {
-     "mangled_component_name" : "_ZZN7android14ReferenceMover15move_referencesINS_11AudioSystem24AudioVolumeGroupCallbackEEEvPNS_2spIT_EEPKS6_mENK7RenamerclEm"
-    },
-    {
-     "kind" : "complete_dtor_pointer",
-     "mangled_component_name" : "_ZZN7android14ReferenceMover15move_referencesINS_11AudioSystem24AudioVolumeGroupCallbackEEEvPNS_2spIT_EEPKS6_mEN7RenamerD1Ev"
-    },
-    {
-     "kind" : "deleting_dtor_pointer",
-     "mangled_component_name" : "_ZZN7android14ReferenceMover15move_referencesINS_11AudioSystem24AudioVolumeGroupCallbackEEEvPNS_2spIT_EEPKS6_mEN7RenamerD0Ev"
-    }
    ]
   },
   {
