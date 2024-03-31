@@ -536,6 +536,15 @@
    "name" : "AInputQueue_preDispatchEvent"
   },
   {
+   "name" : "AInputTransferToken_fromJava"
+  },
+  {
+   "name" : "AInputTransferToken_release"
+  },
+  {
+   "name" : "AInputTransferToken_toJava"
+  },
+  {
    "name" : "AKeyEvent_fromJava"
   },
   {

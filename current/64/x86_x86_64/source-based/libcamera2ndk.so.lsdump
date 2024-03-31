@@ -262,6 +262,9 @@
    "name" : "ACameraMetadata_getConstEntry"
   },
   {
+   "name" : "ACameraMetadata_getTagFromName"
+  },
+  {
    "name" : "ACameraMetadata_isLogicalMultiCamera"
   },
   {
@@ -362,9 +365,6 @@
   },
   {
    "name" : "ACaptureSessionSharedOutput_remove"
-  },
-  {
-   "name" : "__cfi_check"
   }
  ],
  "elf_objects" : [],
@@ -1138,35 +1138,35 @@
      "name" : "ACAMERA_CONTROL_ZOOM_RATIO"
     },
     {
-     "enum_field_value" : 65585,
+     "enum_field_value" : 65588,
      "name" : "ACAMERA_CONTROL_SETTINGS_OVERRIDE"
     },
     {
-     "enum_field_value" : 65586,
+     "enum_field_value" : 65589,
      "name" : "ACAMERA_CONTROL_AVAILABLE_SETTINGS_OVERRIDES"
     },
     {
-     "enum_field_value" : 65588,
+     "enum_field_value" : 65591,
      "name" : "ACAMERA_CONTROL_AUTOFRAMING"
     },
     {
-     "enum_field_value" : 65589,
+     "enum_field_value" : 65592,
      "name" : "ACAMERA_CONTROL_AUTOFRAMING_AVAILABLE"
     },
     {
-     "enum_field_value" : 65590,
+     "enum_field_value" : 65593,
      "name" : "ACAMERA_CONTROL_AUTOFRAMING_STATE"
     },
     {
-     "enum_field_value" : 65591,
+     "enum_field_value" : 65594,
      "name" : "ACAMERA_CONTROL_LOW_LIGHT_BOOST_INFO_LUMINANCE_RANGE"
     },
     {
-     "enum_field_value" : 65592,
+     "enum_field_value" : 65595,
      "name" : "ACAMERA_CONTROL_LOW_LIGHT_BOOST_STATE"
     },
     {
-     "enum_field_value" : 65593,
+     "enum_field_value" : 65596,
      "name" : "ACAMERA_CONTROL_END"
     },
     {
@@ -1510,15 +1510,15 @@
      "name" : "ACAMERA_SCALER_MULTI_RESOLUTION_STREAM_SUPPORTED"
     },
     {
-     "enum_field_value" : 851993,
+     "enum_field_value" : 851994,
      "name" : "ACAMERA_SCALER_AVAILABLE_STREAM_USE_CASES"
     },
     {
-     "enum_field_value" : 851994,
+     "enum_field_value" : 851995,
      "name" : "ACAMERA_SCALER_RAW_CROP_REGION"
     },
     {
-     "enum_field_value" : 851995,
+     "enum_field_value" : 851996,
      "name" : "ACAMERA_SCALER_END"
     },
     {
@@ -6893,6 +6893,24 @@
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
   {
+   "function_name" : "ACameraMetadata_getTagFromName",
+   "linker_set_key" : "ACameraMetadata_getTagFromName",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK15ACameraMetadata"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "return_type" : "_ZTI15camera_status_t",
+   "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
+  },
+  {
    "function_name" : "ACameraMetadata_isLogicalMultiCamera",
    "linker_set_key" : "ACameraMetadata_isLogicalMultiCamera",
    "parameters" :
@@ -8366,7 +8384,7 @@
    "name" : "const ACameraMetadata",
    "referenced_type" : "_ZTI15ACameraMetadata",
    "self_type" : "_ZTIK15ACameraMetadata",
-   "size" : 68,
+   "size" : 72,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
   {

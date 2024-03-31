@@ -10440,6 +10440,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIR11SkAlphaType",
+   "name" : "SkAlphaType &",
+   "referenced_type" : "_ZTI11SkAlphaType",
+   "self_type" : "_ZTIR11SkAlphaType",
+   "size" : 4,
+   "source_file" : "external/libcxx/include/type_traits"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIR11SkColorInfo",
    "name" : "SkColorInfo &",
    "referenced_type" : "_ZTI11SkColorInfo",
@@ -10689,6 +10698,15 @@
    "self_type" : "_ZTIRK10SkYUVAInfo",
    "size" : 4,
    "source_file" : "external/skia/include/core/SkYUVAInfo.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRK11SkAlphaType",
+   "name" : "const SkAlphaType &",
+   "referenced_type" : "_ZTIK11SkAlphaType",
+   "self_type" : "_ZTIRK11SkAlphaType",
+   "size" : 4,
+   "source_file" : "external/libcxx/include/type_traits"
   },
   {
    "alignment" : 4,
@@ -11577,6 +11595,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRKNSt3__18optionalI11SkAlphaTypeEE",
+   "name" : "const std::optional<SkAlphaType> &",
+   "referenced_type" : "_ZTIKNSt3__18optionalI11SkAlphaTypeEE",
+   "self_type" : "_ZTIRKNSt3__18optionalI11SkAlphaTypeEE",
+   "size" : 4,
+   "source_file" : "external/libcxx/include/optional"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRKNSt3__18optionalI15SkEncodedOriginEE",
    "name" : "const std::optional<SkEncodedOrigin> &",
    "referenced_type" : "_ZTIKNSt3__18optionalI15SkEncodedOriginEE",
@@ -11637,6 +11664,15 @@
    "self_type" : "_ZTIRKNSt3__19allocatorIwEE",
    "size" : 4,
    "source_file" : "external/libcxx/include/memory"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKNSt3__19nullopt_tE",
+   "name" : "const std::nullopt_t &",
+   "referenced_type" : "_ZTIKNSt3__19nullopt_tE",
+   "self_type" : "_ZTIRKNSt3__19nullopt_tE",
+   "size" : 4,
+   "source_file" : "external/libcxx/include/type_traits"
   },
   {
    "alignment" : 4,
@@ -12393,6 +12429,15 @@
    "self_type" : "_ZTIRNSt3__15tupleIJEEE",
    "size" : 4,
    "source_file" : "external/libcxx/include/tuple"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRNSt3__18optionalI11SkAlphaTypeEE",
+   "name" : "std::optional<SkAlphaType> &",
+   "referenced_type" : "_ZTINSt3__18optionalI11SkAlphaTypeEE",
+   "self_type" : "_ZTIRNSt3__18optionalI11SkAlphaTypeEE",
+   "size" : 4,
+   "source_file" : "external/libcxx/include/optional"
   },
   {
    "alignment" : 4,
@@ -18159,6 +18204,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIPNSt3__124__optional_destruct_baseI11SkAlphaTypeLb1EEE",
+   "name" : "std::__optional_destruct_base<SkAlphaType> *",
+   "referenced_type" : "_ZTINSt3__124__optional_destruct_baseI11SkAlphaTypeLb1EEE",
+   "self_type" : "_ZTIPNSt3__124__optional_destruct_baseI11SkAlphaTypeLb1EEE",
+   "size" : 4,
+   "source_file" : "external/libcxx/include/optional"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPNSt3__15tupleIJEEE",
    "name" : "std::tuple<> *",
    "referenced_type" : "_ZTINSt3__15tupleIJEEE",
@@ -18219,6 +18273,15 @@
    "self_type" : "_ZTIPNSt3__18__bitsetILj1ELj16EEE",
    "size" : 4,
    "source_file" : "external/libcxx/include/bitset"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPNSt3__18optionalI11SkAlphaTypeEE",
+   "name" : "std::optional<SkAlphaType> *",
+   "referenced_type" : "_ZTINSt3__18optionalI11SkAlphaTypeEE",
+   "self_type" : "_ZTIPNSt3__18optionalI11SkAlphaTypeEE",
+   "size" : 4,
+   "source_file" : "external/libcxx/include/optional"
   },
   {
    "alignment" : 4,
@@ -18765,6 +18828,16 @@
    "self_type" : "_ZTIK10SkYUVAInfo",
    "size" : 32,
    "source_file" : "external/skia/include/core/SkYUVAInfo.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK11SkAlphaType",
+   "name" : "const SkAlphaType",
+   "referenced_type" : "_ZTI11SkAlphaType",
+   "self_type" : "_ZTIK11SkAlphaType",
+   "size" : 4,
+   "source_file" : "external/libcxx/include/type_traits"
   },
   {
    "alignment" : 4,
@@ -20835,6 +20908,16 @@
   {
    "alignment" : 4,
    "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__18optionalI11SkAlphaTypeEE",
+   "name" : "const std::optional<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__18optionalI11SkAlphaTypeEE",
+   "self_type" : "_ZTIKNSt3__18optionalI11SkAlphaTypeEE",
+   "size" : 8,
+   "source_file" : "external/libcxx/include/optional"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__18optionalI15SkEncodedOriginEE",
    "name" : "const std::optional<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__18optionalI15SkEncodedOriginEE",
@@ -20910,7 +20993,7 @@
    "referenced_type" : "_ZTINSt3__19nullopt_tE",
    "self_type" : "_ZTIKNSt3__19nullopt_tE",
    "size" : 1,
-   "source_file" : "external/libcxx/include/optional"
+   "source_file" : "external/libcxx/include/type_traits"
   },
   {
    "alignment" : 4,
@@ -22420,6 +22503,9 @@
      "mangled_component_name" : "_ZN8SkStream13getMemoryBaseEv"
     },
     {
+     "mangled_component_name" : "_ZNK8SkStream7getDataEv"
+    },
+    {
      "mangled_component_name" : "_ZNK12SkFILEStream11onDuplicateEv"
     },
     {
@@ -22737,6 +22823,9 @@
     },
     {
      "mangled_component_name" : "_ZN8SkStream13getMemoryBaseEv"
+    },
+    {
+     "mangled_component_name" : "_ZNK8SkStream7getDataEv"
     },
     {
      "is_pure" : true,
@@ -23472,6 +23561,9 @@
      "mangled_component_name" : "_ZN14SkMemoryStream13getMemoryBaseEv"
     },
     {
+     "mangled_component_name" : "_ZNK14SkMemoryStream7getDataEv"
+    },
+    {
      "mangled_component_name" : "_ZNK14SkMemoryStream11onDuplicateEv"
     },
     {
@@ -23554,6 +23646,9 @@
     {
      "is_pure" : true,
      "mangled_component_name" : "_ZN14SkStreamMemory13getMemoryBaseEv"
+    },
+    {
+     "mangled_component_name" : "_ZNK8SkStream7getDataEv"
     },
     {
      "is_pure" : true,
@@ -23949,6 +24044,9 @@
     },
     {
      "mangled_component_name" : "_ZN8SkStream13getMemoryBaseEv"
+    },
+    {
+     "mangled_component_name" : "_ZNK8SkStream7getDataEv"
     },
     {
      "is_pure" : true,
@@ -25620,6 +25718,9 @@
      "mangled_component_name" : "_ZN8SkStream13getMemoryBaseEv"
     },
     {
+     "mangled_component_name" : "_ZNK8SkStream7getDataEv"
+    },
+    {
      "is_pure" : true,
      "mangled_component_name" : "_ZNK18SkStreamRewindable11onDuplicateEv"
     },
@@ -25850,6 +25951,9 @@
     },
     {
      "mangled_component_name" : "_ZN19AAssetStreamAdaptor13getMemoryBaseEv"
+    },
+    {
+     "mangled_component_name" : "_ZNK8SkStream7getDataEv"
     },
     {
      "mangled_component_name" : "_ZNK19AAssetStreamAdaptor11onDuplicateEv"
@@ -27397,6 +27501,9 @@
      "mangled_component_name" : "_ZN7SkCodecD0Ev"
     },
     {
+     "mangled_component_name" : "_ZNK7SkCodec14refEncodedDataEv"
+    },
+    {
      "mangled_component_name" : "_ZN7SkCodec16onGetGainmapInfoEP13SkGainmapInfoPNSt3__110unique_ptrI8SkStreamNS2_14default_deleteIS4_EEEE"
     },
     {
@@ -28027,6 +28134,9 @@
     },
     {
      "mangled_component_name" : "_ZN8SkStream13getMemoryBaseEv"
+    },
+    {
+     "mangled_component_name" : "_ZNK8SkStream7getDataEv"
     },
     {
      "mangled_component_name" : "_ZNK8SkStream11onDuplicateEv"
@@ -29976,6 +30086,25 @@
    "base_specifiers" :
    [
     {
+     "referenced_type" : "_ZTINSt3__119__libcpp_is_pointerI11SkAlphaTypeEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__110is_pointerI11SkAlphaTypeEE",
+   "name" : "std::is_pointer<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__110is_pointerI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__110is_pointerI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
      "referenced_type" : "_ZTINSt3__119__libcpp_is_pointerI15SkEncodedOriginEE"
     }
    ],
@@ -30648,6 +30777,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__111__add_constI11SkAlphaTypeLb0EEE",
+   "name" : "std::__add_const<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__111__add_constI11SkAlphaTypeLb0EEE",
+   "self_type" : "_ZTINSt3__111__add_constI11SkAlphaTypeLb0EEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__111__add_constI15SkEncodedOriginLb0EEE",
    "name" : "std::__add_const<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__111__add_constI15SkEncodedOriginLb0EEE",
@@ -30811,6 +30953,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__111add_pointerI11SkAlphaTypeEE",
+   "name" : "std::add_pointer<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__111add_pointerI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__111add_pointerI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__111add_pointerI15SkEncodedOriginEE",
    "name" : "std::add_pointer<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__111add_pointerI15SkEncodedOriginEE",
@@ -30846,6 +31001,19 @@
    "template_args" :
    [
     "_ZTIDn"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__111add_pointerIK11SkAlphaTypeEE",
+   "name" : "std::add_pointer<const SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__111add_pointerIK11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__111add_pointerIK11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIK11SkAlphaType"
    ]
   },
   {
@@ -33636,6 +33804,20 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__111conditionalILb1ENS_8optionalI11SkAlphaTypeE29_CheckOptionalArgsConstructorENS_30__check_tuple_constructor_failEEE",
+   "name" : "std::conditional<true, std::optional<SkAlphaType>::_CheckOptionalArgsConstructor, std::__check_tuple_constructor_fail>",
+   "referenced_type" : "_ZTINSt3__111conditionalILb1ENS_8optionalI11SkAlphaTypeE29_CheckOptionalArgsConstructorENS_30__check_tuple_constructor_failEEE",
+   "self_type" : "_ZTINSt3__111conditionalILb1ENS_8optionalI11SkAlphaTypeE29_CheckOptionalArgsConstructorENS_30__check_tuple_constructor_failEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTINSt3__18optionalI11SkAlphaTypeE29_CheckOptionalArgsConstructorE",
+    "_ZTINSt3__130__check_tuple_constructor_failE"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__111conditionalILb1EPKjPjEE",
    "name" : "std::conditional<true, const unsigned int *, unsigned int *>",
    "referenced_type" : "_ZTINSt3__111conditionalILb1EPKjPjEE",
@@ -33646,6 +33828,25 @@
    [
     "_ZTIPKj",
     "_ZTIPj"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__111is_abstractI11SkAlphaTypeEE",
+   "name" : "std::is_abstract<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__111is_abstractI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__111is_abstractI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
    ]
   },
   {
@@ -34197,6 +34398,25 @@
    "template_args" :
    [
     "_ZTIPN13SkEncodedInfo10ICCProfileE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__120__libcpp_is_functionI11SkAlphaTypeLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__111is_functionI11SkAlphaTypeEE",
+   "name" : "std::is_function<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__111is_functionI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__111is_functionI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
    ]
   },
   {
@@ -36256,6 +36476,25 @@
    "base_specifiers" :
    [
     {
+     "referenced_type" : "_ZTINSt3__120__libcpp_is_integralI11SkAlphaTypeEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__111is_integralI11SkAlphaTypeEE",
+   "name" : "std::is_integral<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__111is_integralI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__111is_integralI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
      "referenced_type" : "_ZTINSt3__120__libcpp_is_integralI15SkEncodedOriginEE"
     }
    ],
@@ -36679,6 +36918,20 @@
    "self_type" : "_ZTINSt3__112__second_tagE",
    "size" : 1,
    "source_file" : "external/libcxx/include/memory"
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__112__select_2ndIR11SkAlphaTypeNS_17integral_constantIbLb1EEEEE",
+   "name" : "std::__select_2nd<SkAlphaType &, std::integral_constant<bool, true>>",
+   "referenced_type" : "_ZTINSt3__112__select_2ndIR11SkAlphaTypeNS_17integral_constantIbLb1EEEEE",
+   "self_type" : "_ZTINSt3__112__select_2ndIR11SkAlphaTypeNS_17integral_constantIbLb1EEEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIR11SkAlphaType",
+    "_ZTINSt3__117integral_constantIbLb1EEE"
+   ]
   },
   {
    "alignment" : 1,
@@ -38045,6 +38298,25 @@
     "_ZTIw",
     "_ZTINSt3__111char_traitsIwEE",
     "_ZTINSt3__19allocatorIwEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__112is_referenceI11SkAlphaTypeEE",
+   "name" : "std::is_reference<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__112is_referenceI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__112is_referenceI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
    ]
   },
   {
@@ -40318,6 +40590,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__112remove_constI11SkAlphaTypeEE",
+   "name" : "std::remove_const<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__112remove_constI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__112remove_constI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__112remove_constI11SkImageInfoEE",
    "name" : "std::remove_const<SkImageInfo>",
    "referenced_type" : "_ZTINSt3__112remove_constI11SkImageInfoEE",
@@ -40535,6 +40820,19 @@
    "template_args" :
    [
     "_ZTIDu"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__112remove_constIK11SkAlphaTypeEE",
+   "name" : "std::remove_const<const SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__112remove_constIK11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__112remove_constIK11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIK11SkAlphaType"
    ]
   },
   {
@@ -41163,6 +41461,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__112remove_constIKNS_9nullopt_tEEE",
+   "name" : "std::remove_const<const std::nullopt_t>",
+   "referenced_type" : "_ZTINSt3__112remove_constIKNS_9nullopt_tEEE",
+   "self_type" : "_ZTINSt3__112remove_constIKNS_9nullopt_tEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIKNSt3__19nullopt_tE"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__112remove_constIN13SkEncodedInfo10ICCProfileEEE",
    "name" : "std::remove_const<SkEncodedInfo::ICCProfile>",
    "referenced_type" : "_ZTINSt3__112remove_constIN13SkEncodedInfo10ICCProfileEEE",
@@ -41761,6 +42072,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__112remove_constIO11SkAlphaTypeEE",
+   "name" : "std::remove_const<SkAlphaType &&>",
+   "referenced_type" : "_ZTINSt3__112remove_constIO11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__112remove_constIO11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIO11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__112remove_constIO15SkEncodedOriginEE",
    "name" : "std::remove_const<SkEncodedOrigin &&>",
    "referenced_type" : "_ZTINSt3__112remove_constIO15SkEncodedOriginEE",
@@ -41995,6 +42319,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__112remove_constIR11SkAlphaTypeEE",
+   "name" : "std::remove_const<SkAlphaType &>",
+   "referenced_type" : "_ZTINSt3__112remove_constIR11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__112remove_constIR11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIR11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__112remove_constIR15SkEncodedOriginEE",
    "name" : "std::remove_const<SkEncodedOrigin &>",
    "referenced_type" : "_ZTINSt3__112remove_constIR15SkEncodedOriginEE",
@@ -42017,6 +42354,19 @@
    "template_args" :
    [
     "_ZTIR7SkIRect"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__112remove_constIRK11SkAlphaTypeEE",
+   "name" : "std::remove_const<const SkAlphaType &>",
+   "referenced_type" : "_ZTINSt3__112remove_constIRK11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__112remove_constIRK11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIRK11SkAlphaType"
    ]
   },
   {
@@ -42748,6 +43098,25 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
+   "linker_set_key" : "_ZTINSt3__113is_arithmeticI11SkAlphaTypeEE",
+   "name" : "std::is_arithmetic<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__113is_arithmeticI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__113is_arithmeticI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
    "linker_set_key" : "_ZTINSt3__113is_arithmeticI15SkEncodedOriginEE",
    "name" : "std::is_arithmetic<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__113is_arithmeticI15SkEncodedOriginEE",
@@ -42890,6 +43259,46 @@
    "template_args" :
    [
     "_ZTIy"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__119__is_assignable_impIR11SkAlphaTypeOS1_Lb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__113is_assignableIR11SkAlphaTypeOS1_EE",
+   "name" : "std::is_assignable<SkAlphaType &, SkAlphaType &&>",
+   "referenced_type" : "_ZTINSt3__113is_assignableIR11SkAlphaTypeOS1_EE",
+   "self_type" : "_ZTINSt3__113is_assignableIR11SkAlphaTypeOS1_EE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIR11SkAlphaType",
+    "_ZTIO11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__119__is_assignable_impIR11SkAlphaTypeRKS1_Lb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__113is_assignableIR11SkAlphaTypeRKS1_EE",
+   "name" : "std::is_assignable<SkAlphaType &, const SkAlphaType &>",
+   "referenced_type" : "_ZTINSt3__113is_assignableIR11SkAlphaTypeRKS1_EE",
+   "self_type" : "_ZTINSt3__113is_assignableIR11SkAlphaTypeRKS1_EE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIR11SkAlphaType",
+    "_ZTIRK11SkAlphaType"
    ]
   },
   {
@@ -44578,6 +44987,25 @@
    "self_type" : "_ZTINSt3__114__is_construct5__natE",
    "size" : 1,
    "source_file" : "external/libcxx/include/type_traits"
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__119__is_nullptr_t_implI11SkAlphaTypeEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__114__is_nullptr_tI11SkAlphaTypeEE",
+   "name" : "std::__is_nullptr_t<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__114__is_nullptr_tI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__114__is_nullptr_tI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
   },
   {
    "alignment" : 1,
@@ -47723,6 +48151,26 @@
    "base_specifiers" :
    [
     {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__114is_convertibleIRKNS_9nullopt_tE11SkAlphaTypeEE",
+   "name" : "std::is_convertible<const std::nullopt_t &, SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__114is_convertibleIRKNS_9nullopt_tE11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__114is_convertibleIRKNS_9nullopt_tE11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIRKNSt3__19nullopt_tE",
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
     }
    ],
@@ -48862,6 +49310,25 @@
    "base_specifiers" :
    [
     {
+     "referenced_type" : "_ZTINSt3__120__destructible_falseI11SkAlphaTypeLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__115is_destructibleI11SkAlphaTypeEE",
+   "name" : "std::is_destructible<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__115is_destructibleI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__115is_destructibleI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
      "referenced_type" : "_ZTINSt3__120__destructible_falseI15SkEncodedOriginLb0EEE"
     }
    ],
@@ -48912,6 +49379,19 @@
    "template_args" :
    [
     "_ZTIv"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__115remove_volatileI11SkAlphaTypeEE",
+   "name" : "std::remove_volatile<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__115remove_volatileI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__115remove_volatileI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
    ]
   },
   {
@@ -49878,6 +50358,32 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__115remove_volatileINS_9nullopt_tEEE",
+   "name" : "std::remove_volatile<std::nullopt_t>",
+   "referenced_type" : "_ZTINSt3__115remove_volatileINS_9nullopt_tEEE",
+   "self_type" : "_ZTINSt3__115remove_volatileINS_9nullopt_tEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTINSt3__19nullopt_tE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__115remove_volatileIO11SkAlphaTypeEE",
+   "name" : "std::remove_volatile<SkAlphaType &&>",
+   "referenced_type" : "_ZTINSt3__115remove_volatileIO11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__115remove_volatileIO11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIO11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__115remove_volatileIO15SkEncodedOriginEE",
    "name" : "std::remove_volatile<SkEncodedOrigin &&>",
    "referenced_type" : "_ZTINSt3__115remove_volatileIO15SkEncodedOriginEE",
@@ -50112,6 +50618,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__115remove_volatileIR11SkAlphaTypeEE",
+   "name" : "std::remove_volatile<SkAlphaType &>",
+   "referenced_type" : "_ZTINSt3__115remove_volatileIR11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__115remove_volatileIR11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIR11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__115remove_volatileIR15SkEncodedOriginEE",
    "name" : "std::remove_volatile<SkEncodedOrigin &>",
    "referenced_type" : "_ZTINSt3__115remove_volatileIR15SkEncodedOriginEE",
@@ -50134,6 +50653,19 @@
    "template_args" :
    [
     "_ZTIR7SkIRect"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__115remove_volatileIRK11SkAlphaTypeEE",
+   "name" : "std::remove_volatile<const SkAlphaType &>",
+   "referenced_type" : "_ZTINSt3__115remove_volatileIRK11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__115remove_volatileIRK11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIRK11SkAlphaType"
    ]
   },
   {
@@ -51186,6 +51718,25 @@
    "template_args" :
    [
     "_ZTINSt3__19__promoteIffvEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__116__libcpp_is_voidI11SkAlphaTypeEE",
+   "name" : "std::__libcpp_is_void<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__116__libcpp_is_voidI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__116__libcpp_is_voidI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
    ]
   },
   {
@@ -52469,6 +53020,25 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
+   "linker_set_key" : "_ZTINSt3__116__libcpp_is_voidIO11SkAlphaTypeEE",
+   "name" : "std::__libcpp_is_void<SkAlphaType &&>",
+   "referenced_type" : "_ZTINSt3__116__libcpp_is_voidIO11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__116__libcpp_is_voidIO11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIO11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
    "linker_set_key" : "_ZTINSt3__116__libcpp_is_voidIO15SkEncodedOriginEE",
    "name" : "std::__libcpp_is_void<SkEncodedOrigin &&>",
    "referenced_type" : "_ZTINSt3__116__libcpp_is_voidIO15SkEncodedOriginEE",
@@ -52811,6 +53381,25 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
+   "linker_set_key" : "_ZTINSt3__116__libcpp_is_voidIR11SkAlphaTypeEE",
+   "name" : "std::__libcpp_is_void<SkAlphaType &>",
+   "referenced_type" : "_ZTINSt3__116__libcpp_is_voidIR11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__116__libcpp_is_voidIR11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIR11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
    "linker_set_key" : "_ZTINSt3__116__libcpp_is_voidIR15SkEncodedOriginEE",
    "name" : "std::__libcpp_is_void<SkEncodedOrigin &>",
    "referenced_type" : "_ZTINSt3__116__libcpp_is_voidIR15SkEncodedOriginEE",
@@ -52839,6 +53428,25 @@
    "template_args" :
    [
     "_ZTIR7SkIRect"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__116__libcpp_is_voidIRK11SkAlphaTypeEE",
+   "name" : "std::__libcpp_is_void<const SkAlphaType &>",
+   "referenced_type" : "_ZTINSt3__116__libcpp_is_voidIRK11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__116__libcpp_is_voidIRK11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIRK11SkAlphaType"
    ]
   },
   {
@@ -53148,6 +53756,63 @@
    "template_args" :
    [
     "_ZTINSt3__19allocatorIwEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__116is_constructibleI11SkAlphaTypeJOS1_EEE",
+   "name" : "std::is_constructible<SkAlphaType, SkAlphaType &&>",
+   "referenced_type" : "_ZTINSt3__116is_constructibleI11SkAlphaTypeJOS1_EEE",
+   "self_type" : "_ZTINSt3__116is_constructibleI11SkAlphaTypeJOS1_EEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__116is_constructibleI11SkAlphaTypeJRKNS_9nullopt_tEEEE",
+   "name" : "std::is_constructible<SkAlphaType, const nullopt_t &>",
+   "referenced_type" : "_ZTINSt3__116is_constructibleI11SkAlphaTypeJRKNS_9nullopt_tEEEE",
+   "self_type" : "_ZTINSt3__116is_constructibleI11SkAlphaTypeJRKNS_9nullopt_tEEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__116is_constructibleI11SkAlphaTypeJRKS1_EEE",
+   "name" : "std::is_constructible<SkAlphaType, const SkAlphaType &>",
+   "referenced_type" : "_ZTINSt3__116is_constructibleI11SkAlphaTypeJRKS1_EEE",
+   "self_type" : "_ZTINSt3__116is_constructibleI11SkAlphaTypeJRKS1_EEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
    ]
   },
   {
@@ -53665,6 +54330,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__116remove_referenceI11SkAlphaTypeEE",
+   "name" : "std::remove_reference<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__116remove_referenceI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__116remove_referenceI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__116remove_referenceI15SkEncodedOriginEE",
    "name" : "std::remove_reference<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__116remove_referenceI15SkEncodedOriginEE",
@@ -53700,6 +54378,19 @@
    "template_args" :
    [
     "_ZTIDn"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__116remove_referenceIK11SkAlphaTypeEE",
+   "name" : "std::remove_reference<const SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__116remove_referenceIK11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__116remove_referenceIK11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIK11SkAlphaType"
    ]
   },
   {
@@ -55784,6 +56475,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__116remove_referenceIRKNS_9nullopt_tEEE",
+   "name" : "std::remove_reference<const std::nullopt_t &>",
+   "referenced_type" : "_ZTINSt3__116remove_referenceIRKNS_9nullopt_tEEE",
+   "self_type" : "_ZTINSt3__116remove_referenceIRKNS_9nullopt_tEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIRKNSt3__19nullopt_tE"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__116remove_referenceIRN13SkEncodedInfo10ICCProfileEEE",
    "name" : "std::remove_reference<SkEncodedInfo::ICCProfile &>",
    "referenced_type" : "_ZTINSt3__116remove_referenceIRN13SkEncodedInfo10ICCProfileEEE",
@@ -57489,6 +58193,25 @@
    "base_specifiers" :
    [
     {
+     "referenced_type" : "_ZTINSt3__126__libcpp_is_floating_pointI11SkAlphaTypeEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__117is_floating_pointI11SkAlphaTypeEE",
+   "name" : "std::is_floating_point<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__117is_floating_pointI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__117is_floating_pointI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
      "referenced_type" : "_ZTINSt3__126__libcpp_is_floating_pointI15SkEncodedOriginEE"
     }
    ],
@@ -57641,6 +58364,25 @@
    "base_specifiers" :
    [
     {
+     "referenced_type" : "_ZTINSt3__126__libcpp_is_member_pointerI11SkAlphaTypeEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__117is_member_pointerI11SkAlphaTypeEE",
+   "name" : "std::is_member_pointer<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__117is_member_pointerI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__117is_member_pointerI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
      "referenced_type" : "_ZTINSt3__126__libcpp_is_member_pointerI15SkEncodedOriginEE"
     }
    ],
@@ -57672,6 +58414,19 @@
    "template_args" :
    [
     "_ZTI7SkIRect"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__118__add_pointer_implI11SkAlphaTypeLb1EEE",
+   "name" : "std::__add_pointer_impl<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__118__add_pointer_implI11SkAlphaTypeLb1EEE",
+   "self_type" : "_ZTINSt3__118__add_pointer_implI11SkAlphaTypeLb1EEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
    ]
   },
   {
@@ -57711,6 +58466,19 @@
    "template_args" :
    [
     "_ZTIDn"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__118__add_pointer_implIK11SkAlphaTypeLb1EEE",
+   "name" : "std::__add_pointer_impl<const SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__118__add_pointer_implIK11SkAlphaTypeLb1EEE",
+   "self_type" : "_ZTINSt3__118__add_pointer_implIK11SkAlphaTypeLb1EEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIK11SkAlphaType"
    ]
   },
   {
@@ -58956,6 +59724,25 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
     }
    ],
+   "linker_set_key" : "_ZTINSt3__118__destructible_impI11SkAlphaTypeLb0EEE",
+   "name" : "std::__destructible_imp<SkAlphaType, false>",
+   "referenced_type" : "_ZTINSt3__118__destructible_impI11SkAlphaTypeLb0EEE",
+   "self_type" : "_ZTINSt3__118__destructible_impI11SkAlphaTypeLb0EEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
    "linker_set_key" : "_ZTINSt3__118__destructible_impI15SkEncodedOriginLb0EEE",
    "name" : "std::__destructible_imp<SkEncodedOrigin, false>",
    "referenced_type" : "_ZTINSt3__118__destructible_impI15SkEncodedOriginLb0EEE",
@@ -59466,6 +60253,25 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
     }
    ],
+   "linker_set_key" : "_ZTINSt3__118__is_referenceableI11SkAlphaTypeEE",
+   "name" : "std::__is_referenceable<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__118__is_referenceableI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__118__is_referenceableI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
    "linker_set_key" : "_ZTINSt3__118__is_referenceableI12SkFILEStreamEE",
    "name" : "std::__is_referenceable<SkFILEStream>",
    "referenced_type" : "_ZTINSt3__118__is_referenceableI12SkFILEStreamEE",
@@ -59722,6 +60528,25 @@
    "template_args" :
    [
     "_ZTIDn"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__118__is_referenceableIK11SkAlphaTypeEE",
+   "name" : "std::__is_referenceable<const SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__118__is_referenceableIK11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__118__is_referenceableIK11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIK11SkAlphaType"
    ]
   },
   {
@@ -61963,6 +62788,25 @@
    "base_specifiers" :
    [
     {
+     "referenced_type" : "_ZTINSt3__113is_assignableIR11SkAlphaTypeRKS1_EE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__118is_copy_assignableI11SkAlphaTypeEE",
+   "name" : "std::is_copy_assignable<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__118is_copy_assignableI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__118is_copy_assignableI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
      "referenced_type" : "_ZTINSt3__113is_assignableIR15SkEncodedOriginRKS1_EE"
     }
    ],
@@ -62013,6 +62857,25 @@
    "template_args" :
    [
     "_ZTIi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__113is_assignableIR11SkAlphaTypeOS1_EE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__118is_move_assignableI11SkAlphaTypeEE",
+   "name" : "std::is_move_assignable<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__118is_move_assignableI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__118is_move_assignableI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
    ]
   },
   {
@@ -62188,6 +63051,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__118remove_all_extentsI11SkAlphaTypeEE",
+   "name" : "std::remove_all_extents<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__118remove_all_extentsI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__118remove_all_extentsI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__118remove_all_extentsI15SkEncodedOriginEE",
    "name" : "std::remove_all_extents<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__118remove_all_extentsI15SkEncodedOriginEE",
@@ -62310,6 +63186,46 @@
    [
     "_ZTINSt3__19allocatorIwEE",
     "_ZTIv"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__119__is_assignable_impIR11SkAlphaTypeOS1_Lb0EEE",
+   "name" : "std::__is_assignable_imp<SkAlphaType &, SkAlphaType &&>",
+   "referenced_type" : "_ZTINSt3__119__is_assignable_impIR11SkAlphaTypeOS1_Lb0EEE",
+   "self_type" : "_ZTINSt3__119__is_assignable_impIR11SkAlphaTypeOS1_Lb0EEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIR11SkAlphaType",
+    "_ZTIO11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__119__is_assignable_impIR11SkAlphaTypeRKS1_Lb0EEE",
+   "name" : "std::__is_assignable_imp<SkAlphaType &, const SkAlphaType &>",
+   "referenced_type" : "_ZTINSt3__119__is_assignable_impIR11SkAlphaTypeRKS1_Lb0EEE",
+   "self_type" : "_ZTINSt3__119__is_assignable_impIR11SkAlphaTypeRKS1_Lb0EEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIR11SkAlphaType",
+    "_ZTIRK11SkAlphaType"
    ]
   },
   {
@@ -62510,6 +63426,25 @@
    [
     "_ZTIRi",
     "_ZTIRKi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__119__is_nullptr_t_implI11SkAlphaTypeEE",
+   "name" : "std::__is_nullptr_t_impl<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__119__is_nullptr_t_implI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__119__is_nullptr_t_implI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
    ]
   },
   {
@@ -63995,6 +64930,25 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
+   "linker_set_key" : "_ZTINSt3__119__libcpp_is_pointerI11SkAlphaTypeEE",
+   "name" : "std::__libcpp_is_pointer<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__119__libcpp_is_pointerI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__119__libcpp_is_pointerI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
    "linker_set_key" : "_ZTINSt3__119__libcpp_is_pointerI15SkEncodedOriginEE",
    "name" : "std::__libcpp_is_pointer<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__119__libcpp_is_pointerI15SkEncodedOriginEE",
@@ -64591,6 +65545,25 @@
    "base_specifiers" :
    [
     {
+     "referenced_type" : "_ZTINSt3__118__destructible_impI11SkAlphaTypeLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__120__destructible_falseI11SkAlphaTypeLb0EEE",
+   "name" : "std::__destructible_false<SkAlphaType, false>",
+   "referenced_type" : "_ZTINSt3__120__destructible_falseI11SkAlphaTypeLb0EEE",
+   "self_type" : "_ZTINSt3__120__destructible_falseI11SkAlphaTypeLb0EEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
      "referenced_type" : "_ZTINSt3__118__destructible_impI15SkEncodedOriginLb0EEE"
     }
    ],
@@ -64648,6 +65621,25 @@
    "template_args" :
    [
     "_ZTIj"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__120__libcpp_is_functionI11SkAlphaTypeLb0EEE",
+   "name" : "std::__libcpp_is_function<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__120__libcpp_is_functionI11SkAlphaTypeLb0EEE",
+   "self_type" : "_ZTINSt3__120__libcpp_is_functionI11SkAlphaTypeLb0EEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
    ]
   },
   {
@@ -66710,6 +67702,25 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
+   "linker_set_key" : "_ZTINSt3__120__libcpp_is_integralI11SkAlphaTypeEE",
+   "name" : "std::__libcpp_is_integral<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__120__libcpp_is_integralI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__120__libcpp_is_integralI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
    "linker_set_key" : "_ZTINSt3__120__libcpp_is_integralI15SkEncodedOriginEE",
    "name" : "std::__libcpp_is_integral<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__120__libcpp_is_integralI15SkEncodedOriginEE",
@@ -67181,6 +68192,25 @@
    "base_specifiers" :
    [
     {
+     "referenced_type" : "_ZTINSt3__123__optional_storage_baseI11SkAlphaTypeLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__120__optional_copy_baseI11SkAlphaTypeLb1EEE",
+   "name" : "std::__optional_copy_base<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__120__optional_copy_baseI11SkAlphaTypeLb1EEE",
+   "self_type" : "_ZTINSt3__120__optional_copy_baseI11SkAlphaTypeLb1EEE",
+   "size" : 8,
+   "source_file" : "external/libcxx/include/optional",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
      "referenced_type" : "_ZTINSt3__123__optional_storage_baseI15SkEncodedOriginLb0EEE"
     }
    ],
@@ -67212,6 +68242,25 @@
    "template_args" :
    [
     "_ZTI7SkIRect"
+   ]
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__120__optional_copy_baseI11SkAlphaTypeLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__120__optional_move_baseI11SkAlphaTypeLb1EEE",
+   "name" : "std::__optional_move_base<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__120__optional_move_baseI11SkAlphaTypeLb1EEE",
+   "self_type" : "_ZTINSt3__120__optional_move_baseI11SkAlphaTypeLb1EEE",
+   "size" : 8,
+   "source_file" : "external/libcxx/include/optional",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
    ]
   },
   {
@@ -67297,6 +68346,19 @@
    "self_type" : "_ZTINSt3__120__vector_base_commonILb1EEE",
    "size" : 1,
    "source_file" : "external/libcxx/include/vector"
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__120add_lvalue_referenceI11SkAlphaTypeEE",
+   "name" : "std::add_lvalue_reference<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__120add_lvalue_referenceI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__120add_lvalue_referenceI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
   },
   {
    "alignment" : 1,
@@ -67469,6 +68531,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__120add_lvalue_referenceIK11SkAlphaTypeEE",
+   "name" : "std::add_lvalue_reference<const SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__120add_lvalue_referenceIK11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__120add_lvalue_referenceIK11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIK11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__120add_lvalue_referenceIK15SkEncodedOriginEE",
    "name" : "std::add_lvalue_reference<const SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__120add_lvalue_referenceIK15SkEncodedOriginEE",
@@ -67543,6 +68618,19 @@
    "template_args" :
    [
     "_ZTIi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__120add_rvalue_referenceI11SkAlphaTypeEE",
+   "name" : "std::add_rvalue_reference<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__120add_rvalue_referenceI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__120add_rvalue_referenceI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
    ]
   },
   {
@@ -67946,6 +69034,25 @@
    "base_specifiers" :
    [
     {
+     "referenced_type" : "_ZTINSt3__116is_constructibleI11SkAlphaTypeJRKS1_EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__121is_copy_constructibleI11SkAlphaTypeEE",
+   "name" : "std::is_copy_constructible<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__121is_copy_constructibleI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__121is_copy_constructibleI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
      "referenced_type" : "_ZTINSt3__116is_constructibleI15SkEncodedOriginJRKS1_EEE"
     }
    ],
@@ -67977,6 +69084,25 @@
    "template_args" :
    [
     "_ZTI7SkIRect"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__116is_constructibleI11SkAlphaTypeJOS1_EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__121is_move_constructibleI11SkAlphaTypeEE",
+   "name" : "std::is_move_constructible<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__121is_move_constructibleI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__121is_move_constructibleI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
    ]
   },
   {
@@ -69069,6 +70195,25 @@
    "base_specifiers" :
    [
     {
+     "referenced_type" : "_ZTINSt3__124__optional_destruct_baseI11SkAlphaTypeLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__123__optional_storage_baseI11SkAlphaTypeLb0EEE",
+   "name" : "std::__optional_storage_base<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__123__optional_storage_baseI11SkAlphaTypeLb0EEE",
+   "self_type" : "_ZTINSt3__123__optional_storage_baseI11SkAlphaTypeLb0EEE",
+   "size" : 8,
+   "source_file" : "external/libcxx/include/optional",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
      "referenced_type" : "_ZTINSt3__124__optional_destruct_baseI15SkEncodedOriginLb1EEE"
     }
    ],
@@ -69100,6 +70245,46 @@
    "template_args" :
    [
     "_ZTI7SkIRect"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__123is_trivially_assignableIR11SkAlphaTypeOS1_EE",
+   "name" : "std::is_trivially_assignable<SkAlphaType &, SkAlphaType &&>",
+   "referenced_type" : "_ZTINSt3__123is_trivially_assignableIR11SkAlphaTypeOS1_EE",
+   "self_type" : "_ZTINSt3__123is_trivially_assignableIR11SkAlphaTypeOS1_EE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIR11SkAlphaType",
+    "_ZTIO11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__123is_trivially_assignableIR11SkAlphaTypeRKS1_EE",
+   "name" : "std::is_trivially_assignable<SkAlphaType &, const SkAlphaType &>",
+   "referenced_type" : "_ZTINSt3__123is_trivially_assignableIR11SkAlphaTypeRKS1_EE",
+   "self_type" : "_ZTINSt3__123is_trivially_assignableIR11SkAlphaTypeRKS1_EE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIR11SkAlphaType",
+    "_ZTIRK11SkAlphaType"
    ]
   },
   {
@@ -69290,6 +70475,52 @@
    "self_type" : "_ZTINSt3__124__libcpp_is_function_imp12__dummy_typeE",
    "size" : 1,
    "source_file" : "external/libcxx/include/type_traits"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__124__optional_destruct_baseI11SkAlphaTypeLb1EEUt_E"
+    },
+    {
+     "field_name" : "__engaged_",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__124__optional_destruct_baseI11SkAlphaTypeLb1EEE",
+   "name" : "std::__optional_destruct_base<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__124__optional_destruct_baseI11SkAlphaTypeLb1EEE",
+   "self_type" : "_ZTINSt3__124__optional_destruct_baseI11SkAlphaTypeLb1EEE",
+   "size" : 8,
+   "source_file" : "external/libcxx/include/optional",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "__null_state_",
+     "referenced_type" : "_ZTIc"
+    },
+    {
+     "field_name" : "__val_",
+     "referenced_type" : "_ZTI11SkAlphaType"
+    }
+   ],
+   "is_anonymous" : true,
+   "linker_set_key" : "_ZTINSt3__124__optional_destruct_baseI11SkAlphaTypeLb1EEUt_E",
+   "name" : "std::__optional_destruct_base<SkAlphaType>::(anonymous)",
+   "record_kind" : "union",
+   "referenced_type" : "_ZTINSt3__124__optional_destruct_baseI11SkAlphaTypeLb1EEUt_E",
+   "self_type" : "_ZTINSt3__124__optional_destruct_baseI11SkAlphaTypeLb1EEUt_E",
+   "size" : 4,
+   "source_file" : "external/libcxx/include/optional"
   },
   {
    "alignment" : 4,
@@ -69940,6 +71171,25 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
     }
    ],
+   "linker_set_key" : "_ZTINSt3__125is_trivially_destructibleI11SkAlphaTypeEE",
+   "name" : "std::is_trivially_destructible<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__125is_trivially_destructibleI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__125is_trivially_destructibleI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
    "linker_set_key" : "_ZTINSt3__125is_trivially_destructibleI15SkEncodedOriginEE",
    "name" : "std::is_trivially_destructible<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__125is_trivially_destructibleI15SkEncodedOriginEE",
@@ -69972,6 +71222,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__126__is_destructor_wellformedI11SkAlphaTypeEE",
+   "name" : "std::__is_destructor_wellformed<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__126__is_destructor_wellformedI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__126__is_destructor_wellformedI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__126__is_destructor_wellformedI15SkEncodedOriginEE",
    "name" : "std::__is_destructor_wellformed<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__126__is_destructor_wellformedI15SkEncodedOriginEE",
@@ -69994,6 +71257,25 @@
    "template_args" :
    [
     "_ZTI7SkIRect"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__126__libcpp_is_floating_pointI11SkAlphaTypeEE",
+   "name" : "std::__libcpp_is_floating_point<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__126__libcpp_is_floating_pointI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__126__libcpp_is_floating_pointI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
    ]
   },
   {
@@ -70175,6 +71457,25 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
+   "linker_set_key" : "_ZTINSt3__126__libcpp_is_member_pointerI11SkAlphaTypeEE",
+   "name" : "std::__libcpp_is_member_pointer<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__126__libcpp_is_member_pointerI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__126__libcpp_is_member_pointerI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
    "linker_set_key" : "_ZTINSt3__126__libcpp_is_member_pointerI15SkEncodedOriginEE",
    "name" : "std::__libcpp_is_member_pointer<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__126__libcpp_is_member_pointerI15SkEncodedOriginEE",
@@ -70285,6 +71586,44 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
     }
    ],
+   "linker_set_key" : "_ZTINSt3__126is_trivially_constructibleI11SkAlphaTypeJOS1_EEE",
+   "name" : "std::is_trivially_constructible<SkAlphaType, SkAlphaType &&>",
+   "referenced_type" : "_ZTINSt3__126is_trivially_constructibleI11SkAlphaTypeJOS1_EEE",
+   "self_type" : "_ZTINSt3__126is_trivially_constructibleI11SkAlphaTypeJOS1_EEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__126is_trivially_constructibleI11SkAlphaTypeJRKS1_EEE",
+   "name" : "std::is_trivially_constructible<SkAlphaType, const SkAlphaType &>",
+   "referenced_type" : "_ZTINSt3__126is_trivially_constructibleI11SkAlphaTypeJRKS1_EEE",
+   "self_type" : "_ZTINSt3__126is_trivially_constructibleI11SkAlphaTypeJRKS1_EEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
    "linker_set_key" : "_ZTINSt3__126is_trivially_constructibleI15SkEncodedOriginJOS1_EEE",
    "name" : "std::is_trivially_constructible<SkEncodedOrigin, SkEncodedOrigin &&>",
    "referenced_type" : "_ZTINSt3__126is_trivially_constructibleI15SkEncodedOriginJOS1_EEE",
@@ -70367,6 +71706,19 @@
    "self_type" : "_ZTINSt3__126random_access_iterator_tagE",
    "size" : 1,
    "source_file" : "external/libcxx/include/iterator"
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__127__add_lvalue_reference_implI11SkAlphaTypeLb1EEE",
+   "name" : "std::__add_lvalue_reference_impl<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__127__add_lvalue_reference_implI11SkAlphaTypeLb1EEE",
+   "self_type" : "_ZTINSt3__127__add_lvalue_reference_implI11SkAlphaTypeLb1EEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
   },
   {
    "alignment" : 1,
@@ -70539,6 +71891,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__127__add_lvalue_reference_implIK11SkAlphaTypeLb1EEE",
+   "name" : "std::__add_lvalue_reference_impl<const SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__127__add_lvalue_reference_implIK11SkAlphaTypeLb1EEE",
+   "self_type" : "_ZTINSt3__127__add_lvalue_reference_implIK11SkAlphaTypeLb1EEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIK11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__127__add_lvalue_reference_implIK15SkEncodedOriginLb1EEE",
    "name" : "std::__add_lvalue_reference_impl<const SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__127__add_lvalue_reference_implIK15SkEncodedOriginLb1EEE",
@@ -70613,6 +71978,19 @@
    "template_args" :
    [
     "_ZTIi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__127__add_rvalue_reference_implI11SkAlphaTypeLb1EEE",
+   "name" : "std::__add_rvalue_reference_impl<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__127__add_rvalue_reference_implI11SkAlphaTypeLb1EEE",
+   "self_type" : "_ZTINSt3__127__add_rvalue_reference_implI11SkAlphaTypeLb1EEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
    ]
   },
   {
@@ -70704,6 +72082,25 @@
    "base_specifiers" :
    [
     {
+     "referenced_type" : "_ZTINSt3__120__optional_move_baseI11SkAlphaTypeLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__127__optional_copy_assign_baseI11SkAlphaTypeLb1EEE",
+   "name" : "std::__optional_copy_assign_base<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__127__optional_copy_assign_baseI11SkAlphaTypeLb1EEE",
+   "self_type" : "_ZTINSt3__127__optional_copy_assign_baseI11SkAlphaTypeLb1EEE",
+   "size" : 8,
+   "source_file" : "external/libcxx/include/optional",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
      "referenced_type" : "_ZTINSt3__120__optional_move_baseI15SkEncodedOriginLb1EEE"
     }
    ],
@@ -70735,6 +72132,25 @@
    "template_args" :
    [
     "_ZTI7SkIRect"
+   ]
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__127__optional_copy_assign_baseI11SkAlphaTypeLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__127__optional_move_assign_baseI11SkAlphaTypeLb1EEE",
+   "name" : "std::__optional_move_assign_base<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__127__optional_move_assign_baseI11SkAlphaTypeLb1EEE",
+   "self_type" : "_ZTINSt3__127__optional_move_assign_baseI11SkAlphaTypeLb1EEE",
+   "size" : 8,
+   "source_file" : "external/libcxx/include/optional",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
    ]
   },
   {
@@ -70793,6 +72209,25 @@
    "base_specifiers" :
    [
     {
+     "referenced_type" : "_ZTINSt3__123is_trivially_assignableIR11SkAlphaTypeRKS1_EE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__128is_trivially_copy_assignableI11SkAlphaTypeEE",
+   "name" : "std::is_trivially_copy_assignable<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__128is_trivially_copy_assignableI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__128is_trivially_copy_assignableI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
      "referenced_type" : "_ZTINSt3__123is_trivially_assignableIR15SkEncodedOriginRKS1_EE"
     }
    ],
@@ -70824,6 +72259,25 @@
    "template_args" :
    [
     "_ZTI7SkIRect"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__123is_trivially_assignableIR11SkAlphaTypeOS1_EE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__128is_trivially_move_assignableI11SkAlphaTypeEE",
+   "name" : "std::is_trivially_move_assignable<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__128is_trivially_move_assignableI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__128is_trivially_move_assignableI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
    ]
   },
   {
@@ -71091,6 +72545,25 @@
    "base_specifiers" :
    [
     {
+     "referenced_type" : "_ZTINSt3__126is_trivially_constructibleI11SkAlphaTypeJRKS1_EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__131is_trivially_copy_constructibleI11SkAlphaTypeEE",
+   "name" : "std::is_trivially_copy_constructible<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__131is_trivially_copy_constructibleI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__131is_trivially_copy_constructibleI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
      "referenced_type" : "_ZTINSt3__126is_trivially_constructibleI15SkEncodedOriginJRKS1_EEE"
     }
    ],
@@ -71122,6 +72595,25 @@
    "template_args" :
    [
     "_ZTI7SkIRect"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__126is_trivially_constructibleI11SkAlphaTypeJOS1_EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__131is_trivially_move_constructibleI11SkAlphaTypeEE",
+   "name" : "std::is_trivially_move_constructible<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__131is_trivially_move_constructibleI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__131is_trivially_move_constructibleI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
    ]
   },
   {
@@ -75039,6 +76531,25 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
     }
    ],
+   "linker_set_key" : "_ZTINSt3__17is_enumI11SkAlphaTypeEE",
+   "name" : "std::is_enum<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__17is_enumI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__17is_enumI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
    "linker_set_key" : "_ZTINSt3__17is_enumI15SkEncodedOriginEE",
    "name" : "std::is_enum<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__17is_enumI15SkEncodedOriginEE",
@@ -75124,6 +76635,66 @@
    "template_args" :
    [
     "_ZTIy"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__17is_sameI11SkAlphaTypeNS_10in_place_tEEE",
+   "name" : "std::is_same<SkAlphaType, std::in_place_t>",
+   "referenced_type" : "_ZTINSt3__17is_sameI11SkAlphaTypeNS_10in_place_tEEE",
+   "self_type" : "_ZTINSt3__17is_sameI11SkAlphaTypeNS_10in_place_tEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType",
+    "_ZTINSt3__110in_place_tE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__17is_sameI11SkAlphaTypeNS_9nullopt_tEEE",
+   "name" : "std::is_same<SkAlphaType, std::nullopt_t>",
+   "referenced_type" : "_ZTINSt3__17is_sameI11SkAlphaTypeNS_9nullopt_tEEE",
+   "self_type" : "_ZTINSt3__17is_sameI11SkAlphaTypeNS_9nullopt_tEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType",
+    "_ZTINSt3__19nullopt_tE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__17is_sameI11SkAlphaTypevEE",
+   "name" : "std::is_same<SkAlphaType, void>",
+   "referenced_type" : "_ZTINSt3__17is_sameI11SkAlphaTypevEE",
+   "self_type" : "_ZTINSt3__17is_sameI11SkAlphaTypevEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType",
+    "_ZTIv"
    ]
   },
   {
@@ -77974,6 +79545,46 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
+   "linker_set_key" : "_ZTINSt3__17is_sameINS_9nullopt_tENS_10in_place_tEEE",
+   "name" : "std::is_same<std::nullopt_t, std::in_place_t>",
+   "referenced_type" : "_ZTINSt3__17is_sameINS_9nullopt_tENS_10in_place_tEEE",
+   "self_type" : "_ZTINSt3__17is_sameINS_9nullopt_tENS_10in_place_tEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTINSt3__19nullopt_tE",
+    "_ZTINSt3__110in_place_tE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__17is_sameINS_9nullopt_tENS_8optionalI11SkAlphaTypeEEEE",
+   "name" : "std::is_same<std::nullopt_t, std::optional<SkAlphaType>>",
+   "referenced_type" : "_ZTINSt3__17is_sameINS_9nullopt_tENS_8optionalI11SkAlphaTypeEEEE",
+   "self_type" : "_ZTINSt3__17is_sameINS_9nullopt_tENS_8optionalI11SkAlphaTypeEEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTINSt3__19nullopt_tE",
+    "_ZTINSt3__18optionalI11SkAlphaTypeEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
    "linker_set_key" : "_ZTINSt3__17is_sameIP12SkFILEStreamNS_14default_deleteIS1_EEEE",
    "name" : "std::is_same<SkFILEStream *, std::default_delete<SkFILEStream>>",
    "referenced_type" : "_ZTINSt3__17is_sameIP12SkFILEStreamNS_14default_deleteIS1_EEEE",
@@ -78594,6 +80205,26 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
+   "linker_set_key" : "_ZTINSt3__17is_sameIR11SkAlphaTypeNS_5__twoEEE",
+   "name" : "std::is_same<SkAlphaType &, std::__two>",
+   "referenced_type" : "_ZTINSt3__17is_sameIR11SkAlphaTypeNS_5__twoEEE",
+   "self_type" : "_ZTINSt3__17is_sameIR11SkAlphaTypeNS_5__twoEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIR11SkAlphaType",
+    "_ZTINSt3__15__twoE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
    "linker_set_key" : "_ZTINSt3__17is_sameIR12SkFILEStreamNS_5__twoEEE",
    "name" : "std::is_same<SkFILEStream &, std::__two>",
    "referenced_type" : "_ZTINSt3__17is_sameIR12SkFILEStreamNS_5__twoEEE",
@@ -78863,6 +80494,26 @@
    "template_args" :
    [
     "_ZTIRDn",
+    "_ZTINSt3__15__twoE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__17is_sameIRK11SkAlphaTypeNS_5__twoEEE",
+   "name" : "std::is_same<const SkAlphaType &, std::__two>",
+   "referenced_type" : "_ZTINSt3__17is_sameIRK11SkAlphaTypeNS_5__twoEEE",
+   "self_type" : "_ZTINSt3__17is_sameIRK11SkAlphaTypeNS_5__twoEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIRK11SkAlphaType",
     "_ZTINSt3__15__twoE"
    ]
   },
@@ -80951,6 +82602,25 @@
    "base_specifiers" :
    [
     {
+     "referenced_type" : "_ZTINSt3__116__libcpp_is_voidI11SkAlphaTypeEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__17is_voidI11SkAlphaTypeEE",
+   "name" : "std::is_void<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__17is_voidI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__17is_voidI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
      "referenced_type" : "_ZTINSt3__116__libcpp_is_voidI12SkFILEStreamEE"
     }
    ],
@@ -82832,6 +84502,25 @@
    "base_specifiers" :
    [
     {
+     "referenced_type" : "_ZTINSt3__116__libcpp_is_voidIO11SkAlphaTypeEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__17is_voidIO11SkAlphaTypeEE",
+   "name" : "std::is_void<SkAlphaType &&>",
+   "referenced_type" : "_ZTINSt3__17is_voidIO11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__17is_voidIO11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIO11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
      "referenced_type" : "_ZTINSt3__116__libcpp_is_voidIO15SkEncodedOriginEE"
     }
    ],
@@ -83174,6 +84863,25 @@
    "base_specifiers" :
    [
     {
+     "referenced_type" : "_ZTINSt3__116__libcpp_is_voidIR11SkAlphaTypeEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__17is_voidIR11SkAlphaTypeEE",
+   "name" : "std::is_void<SkAlphaType &>",
+   "referenced_type" : "_ZTINSt3__17is_voidIR11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__17is_voidIR11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIR11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
      "referenced_type" : "_ZTINSt3__116__libcpp_is_voidIR15SkEncodedOriginEE"
     }
    ],
@@ -83205,6 +84913,25 @@
    "template_args" :
    [
     "_ZTIR7SkIRect"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__116__libcpp_is_voidIRK11SkAlphaTypeEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__17is_voidIRK11SkAlphaTypeEE",
+   "name" : "std::is_void<const SkAlphaType &>",
+   "referenced_type" : "_ZTINSt3__17is_voidIRK11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__17is_voidIRK11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIRK11SkAlphaType"
    ]
   },
   {
@@ -83783,6 +85510,25 @@
    "template_args" :
    [
     "_ZTIFN7SkCodec6ResultERK11SkImageInfoPvjRKNS_7OptionsEiE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__18is_arrayI11SkAlphaTypeEE",
+   "name" : "std::is_array<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__18is_arrayI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__18is_arrayI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
    ]
   },
   {
@@ -85835,6 +87581,25 @@
    "template_args" :
    [
     "_ZTIw"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__18is_classI11SkAlphaTypeEE",
+   "name" : "std::is_class<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__18is_classI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__18is_classI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
    ]
   },
   {
@@ -87897,6 +89662,25 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
+   "linker_set_key" : "_ZTINSt3__18is_constI11SkAlphaTypeEE",
+   "name" : "std::is_const<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__18is_constI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__18is_constI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
    "linker_set_key" : "_ZTINSt3__18is_constI15SkEncodedOriginEE",
    "name" : "std::is_const<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__18is_constI15SkEncodedOriginEE",
@@ -88571,6 +90355,25 @@
    "template_args" :
    [
     "_ZTIi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__18is_unionI11SkAlphaTypeEE",
+   "name" : "std::is_union<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__18is_unionI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__18is_unionI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
    ]
   },
   {
@@ -90643,6 +92446,45 @@
    ]
   },
   {
+   "access" : "private",
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__18optionalI11SkAlphaTypeE29_CheckOptionalArgsConstructorE",
+   "name" : "std::optional<SkAlphaType>::_CheckOptionalArgsConstructor",
+   "referenced_type" : "_ZTINSt3__18optionalI11SkAlphaTypeE29_CheckOptionalArgsConstructorE",
+   "self_type" : "_ZTINSt3__18optionalI11SkAlphaTypeE29_CheckOptionalArgsConstructorE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/optional"
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "access" : "private",
+     "referenced_type" : "_ZTINSt3__127__optional_move_assign_baseI11SkAlphaTypeLb1EEE"
+    },
+    {
+     "access" : "private",
+     "referenced_type" : "_ZTINSt3__118__sfinae_ctor_baseILb1ELb1EEE"
+    },
+    {
+     "access" : "private",
+     "referenced_type" : "_ZTINSt3__120__sfinae_assign_baseILb1ELb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__18optionalI11SkAlphaTypeEE",
+   "name" : "std::optional<SkAlphaType>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTINSt3__18optionalI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__18optionalI11SkAlphaTypeEE",
+   "size" : 8,
+   "source_file" : "external/libcxx/include/optional",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
    "alignment" : 4,
    "base_specifiers" :
    [
@@ -90746,6 +92588,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__19__uncvrefI11SkAlphaTypeEE",
+   "name" : "std::__uncvref<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__19__uncvrefI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__19__uncvrefI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__19__uncvrefI15SkEncodedOriginEE",
    "name" : "std::__uncvref<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__19__uncvrefI15SkEncodedOriginEE",
@@ -90833,6 +92688,32 @@
    "template_args" :
    [
     "_ZTIRKNSt3__112__tuple_leafILj1EiLb0EEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__19__uncvrefIRKNS_9nullopt_tEEE",
+   "name" : "std::__uncvref<const std::nullopt_t &>",
+   "referenced_type" : "_ZTINSt3__19__uncvrefIRKNS_9nullopt_tEEE",
+   "self_type" : "_ZTINSt3__19__uncvrefIRKNS_9nullopt_tEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIRKNSt3__19nullopt_tE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__19add_constI11SkAlphaTypeEE",
+   "name" : "std::add_const<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__19add_constI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__19add_constI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
    ]
   },
   {
@@ -91111,6 +92992,25 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
     }
    ],
+   "linker_set_key" : "_ZTINSt3__19is_objectI11SkAlphaTypeEE",
+   "name" : "std::is_object<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__19is_objectI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__19is_objectI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
    "linker_set_key" : "_ZTINSt3__19is_objectI15SkEncodedOriginEE",
    "name" : "std::is_object<SkEncodedOrigin>",
    "referenced_type" : "_ZTINSt3__19is_objectI15SkEncodedOriginEE",
@@ -91139,6 +93039,25 @@
    "template_args" :
    [
     "_ZTI7SkIRect"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTINSt3__19is_scalarI11SkAlphaTypeEE",
+   "name" : "std::is_scalar<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__19is_scalarI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__19is_scalarI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
    ]
   },
   {
@@ -91272,6 +93191,19 @@
    "self_type" : "_ZTINSt3__19nullopt_tE",
    "size" : 1,
    "source_file" : "external/libcxx/include/optional"
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__19remove_cvI11SkAlphaTypeEE",
+   "name" : "std::remove_cv<SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__19remove_cvI11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__19remove_cvI11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTI11SkAlphaType"
+   ]
   },
   {
    "alignment" : 1,
@@ -91492,6 +93424,19 @@
    "template_args" :
    [
     "_ZTIDu"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__19remove_cvIK11SkAlphaTypeEE",
+   "name" : "std::remove_cv<const SkAlphaType>",
+   "referenced_type" : "_ZTINSt3__19remove_cvIK11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__19remove_cvIK11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIK11SkAlphaType"
    ]
   },
   {
@@ -92120,6 +94065,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__19remove_cvIKNS_9nullopt_tEEE",
+   "name" : "std::remove_cv<const std::nullopt_t>",
+   "referenced_type" : "_ZTINSt3__19remove_cvIKNS_9nullopt_tEEE",
+   "self_type" : "_ZTINSt3__19remove_cvIKNS_9nullopt_tEEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIKNSt3__19nullopt_tE"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__19remove_cvIN13SkEncodedInfo10ICCProfileEEE",
    "name" : "std::remove_cv<SkEncodedInfo::ICCProfile>",
    "referenced_type" : "_ZTINSt3__19remove_cvIN13SkEncodedInfo10ICCProfileEEE",
@@ -92718,6 +94676,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__19remove_cvIO11SkAlphaTypeEE",
+   "name" : "std::remove_cv<SkAlphaType &&>",
+   "referenced_type" : "_ZTINSt3__19remove_cvIO11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__19remove_cvIO11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIO11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__19remove_cvIO15SkEncodedOriginEE",
    "name" : "std::remove_cv<SkEncodedOrigin &&>",
    "referenced_type" : "_ZTINSt3__19remove_cvIO15SkEncodedOriginEE",
@@ -92952,6 +94923,19 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__19remove_cvIR11SkAlphaTypeEE",
+   "name" : "std::remove_cv<SkAlphaType &>",
+   "referenced_type" : "_ZTINSt3__19remove_cvIR11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__19remove_cvIR11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIR11SkAlphaType"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__19remove_cvIR15SkEncodedOriginEE",
    "name" : "std::remove_cv<SkEncodedOrigin &>",
    "referenced_type" : "_ZTINSt3__19remove_cvIR15SkEncodedOriginEE",
@@ -92974,6 +94958,19 @@
    "template_args" :
    [
     "_ZTIR7SkIRect"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTINSt3__19remove_cvIRK11SkAlphaTypeEE",
+   "name" : "std::remove_cv<const SkAlphaType &>",
+   "referenced_type" : "_ZTINSt3__19remove_cvIRK11SkAlphaTypeEE",
+   "self_type" : "_ZTINSt3__19remove_cvIRK11SkAlphaTypeEE",
+   "size" : 1,
+   "source_file" : "external/libcxx/include/type_traits",
+   "template_args" :
+   [
+    "_ZTIRK11SkAlphaType"
    ]
   },
   {
@@ -94101,6 +96098,15 @@
  [
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIO11SkAlphaType",
+   "name" : "SkAlphaType &&",
+   "referenced_type" : "_ZTI11SkAlphaType",
+   "self_type" : "_ZTIO11SkAlphaType",
+   "size" : 4,
+   "source_file" : "external/libcxx/include/type_traits"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIO11SkColorInfo",
    "name" : "SkColorInfo &&",
    "referenced_type" : "_ZTI11SkColorInfo",
@@ -94377,6 +96383,15 @@
    "self_type" : "_ZTIONSt3__15tupleIJiiEEE",
    "size" : 4,
    "source_file" : "external/libcxx/include/tuple"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIONSt3__18optionalI11SkAlphaTypeEE",
+   "name" : "std::optional<SkAlphaType> &&",
+   "referenced_type" : "_ZTINSt3__18optionalI11SkAlphaTypeEE",
+   "self_type" : "_ZTIONSt3__18optionalI11SkAlphaTypeEE",
+   "size" : 4,
+   "source_file" : "external/libcxx/include/optional"
   },
   {
    "alignment" : 4,
