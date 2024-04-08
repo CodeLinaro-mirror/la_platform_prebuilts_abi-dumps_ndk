@@ -11520,6 +11520,43 @@
    [
     {
      "enum_field_value" : 0,
+     "name" : "android::ui::ErrorCode::None"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "android::ui::ErrorCode::BadDescriptor"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "android::ui::ErrorCode::BadBuffer"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "android::ui::ErrorCode::BadValue"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "android::ui::ErrorCode::NoResources"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "android::ui::ErrorCode::Unsupported"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android2ui9ErrorCodeE",
+   "name" : "android::ui::ErrorCode",
+   "referenced_type" : "_ZTIN7android2ui9ErrorCodeE",
+   "self_type" : "_ZTIN7android2ui9ErrorCodeE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/ui/include/ui/Result.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
      "name" : "android::gui::FrameEvent::POSTED"
     },
     {
@@ -31826,6 +31863,15 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIRKNSt3__117basic_string_viewIcNS_11char_traitsIcEEEE",
+   "name" : "const std::basic_string_view<char, std::char_traits<char>> &",
+   "referenced_type" : "_ZTIKNSt3__117basic_string_viewIcNS_11char_traitsIcEEEE",
+   "self_type" : "_ZTIRKNSt3__117basic_string_viewIcNS_11char_traitsIcEEEE",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/ui/include/ui/Result.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__15arrayIhLm16EEE",
    "name" : "const std::array<unsigned char, 16> &",
    "referenced_type" : "_ZTIKNSt3__15arrayIhLm16EEE",
@@ -38507,6 +38553,15 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIPKN7android2ui5ErrorE",
+   "name" : "const android::ui::Error *",
+   "referenced_type" : "_ZTIKN7android2ui5ErrorE",
+   "self_type" : "_ZTIPKN7android2ui5ErrorE",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/ui/include/ui/Result.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPKN7android2wpI12AImageReaderEE",
    "name" : "const android::wp<AImageReader> *",
    "referenced_type" : "_ZTIKN7android2wpI12AImageReaderEE",
@@ -41072,6 +41127,15 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIPN7android2ui5ErrorE",
+   "name" : "android::ui::Error *",
+   "referenced_type" : "_ZTIN7android2ui5ErrorE",
+   "self_type" : "_ZTIPN7android2ui5ErrorE",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/ui/include/ui/Result.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN7android2wpI12AImageReaderEE",
    "name" : "android::wp<AImageReader> *",
    "referenced_type" : "_ZTIN7android2wpI12AImageReaderEE",
@@ -41267,6 +41331,15 @@
    "self_type" : "_ZTIPN7android4RectE",
    "size" : 8,
    "source_file" : "frameworks/native/libs/ui/include/ui/Rect.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN7android4base10unexpect_tE",
+   "name" : "android::base::unexpect_t *",
+   "referenced_type" : "_ZTIN7android4base10unexpect_tE",
+   "self_type" : "_ZTIPN7android4base10unexpect_tE",
+   "size" : 8,
+   "source_file" : "system/libbase/include/android-base/expected.h"
   },
   {
    "alignment" : 8,
@@ -42203,6 +42276,15 @@
    "self_type" : "_ZTIPN7android8hardware8graphics11bufferqueue4V2_022IGraphicBufferProducerE",
    "size" : 8,
    "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN7android8hardware8graphics6common4V1_29DataspaceE",
+   "name" : "android::hardware::graphics::common::V1_2::Dataspace *",
+   "referenced_type" : "_ZTIN7android8hardware8graphics6common4V1_29DataspaceE",
+   "self_type" : "_ZTIPN7android8hardware8graphics6common4V1_29DataspaceE",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/ui/include/ui/GraphicBuffer.h"
   },
   {
    "alignment" : 8,
@@ -44707,6 +44789,16 @@
    "source_file" : "frameworks/native/libs/ui/include/ui/Size.h"
   },
   {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android2ui5ErrorE",
+   "name" : "const android::ui::Error",
+   "referenced_type" : "_ZTIN7android2ui5ErrorE",
+   "self_type" : "_ZTIKN7android2ui5ErrorE",
+   "size" : 32,
+   "source_file" : "frameworks/native/libs/ui/include/ui/Result.h"
+  },
+  {
    "alignment" : 4,
    "is_const" : true,
    "linker_set_key" : "_ZTIKN7android2ui8RotationE",
@@ -44715,6 +44807,16 @@
    "self_type" : "_ZTIKN7android2ui8RotationE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/ui/include/ui/Rotation.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android2ui9ErrorCodeE",
+   "name" : "const android::ui::ErrorCode",
+   "referenced_type" : "_ZTIN7android2ui9ErrorCodeE",
+   "self_type" : "_ZTIKN7android2ui9ErrorCodeE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/ui/include/ui/Result.h"
   },
   {
    "alignment" : 8,
@@ -44865,6 +44967,16 @@
    "self_type" : "_ZTIKN7android4RectE",
    "size" : 16,
    "source_file" : "frameworks/native/libs/ui/include/ui/Rect.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android4base10unexpect_tE",
+   "name" : "const android::base::unexpect_t",
+   "referenced_type" : "_ZTIN7android4base10unexpect_tE",
+   "self_type" : "_ZTIKN7android4base10unexpect_tE",
+   "size" : 1,
+   "source_file" : "system/libbase/include/android-base/expected.h"
   },
   {
    "alignment" : 4,
@@ -45323,7 +45435,7 @@
    "name" : "const android::Surface",
    "referenced_type" : "_ZTIN7android7SurfaceE",
    "self_type" : "_ZTIKN7android7SurfaceE",
-   "size" : 8240,
+   "size" : 8264,
    "source_file" : "frameworks/native/libs/gui/include/gui/Surface.h"
   },
   {
@@ -46133,6 +46245,16 @@
    "self_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "size" : 24,
    "source_file" : "system/core/libutils/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__117basic_string_viewIcNS_11char_traitsIcEEEE",
+   "name" : "const std::basic_string_view<char, std::char_traits<char>>",
+   "referenced_type" : "_ZTINSt3__117basic_string_viewIcNS_11char_traitsIcEEEE",
+   "self_type" : "_ZTIKNSt3__117basic_string_viewIcNS_11char_traitsIcEEEE",
+   "size" : 16,
+   "source_file" : "frameworks/native/libs/ui/include/ui/Result.h"
   },
   {
    "alignment" : 1,
@@ -64763,6 +64885,32 @@
   },
   {
    "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "address",
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "field_name" : "bytesPerPixel",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "bytesPerStride",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android19GraphicBufferMapper10LockResultE",
+   "name" : "android::GraphicBufferMapper::LockResult",
+   "referenced_type" : "_ZTIN7android19GraphicBufferMapper10LockResultE",
+   "self_type" : "_ZTIN7android19GraphicBufferMapper10LockResultE",
+   "size" : 16,
+   "source_file" : "frameworks/native/libs/ui/include/ui/GraphicBufferMapper.h"
+  },
+  {
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -68684,6 +68832,30 @@
    [
     {
      "access" : "private",
+     "field_name" : "mCode",
+     "referenced_type" : "_ZTIN7android2ui9ErrorCodeE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mMessage",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android2ui5ErrorE",
+   "name" : "android::ui::Error",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android2ui5ErrorE",
+   "self_type" : "_ZTIN7android2ui5ErrorE",
+   "size" : 32,
+   "source_file" : "frameworks/native/libs/ui/include/ui/Result.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "access" : "private",
      "field_name" : "m_ptr",
      "referenced_type" : "_ZTIP12AImageReader"
     },
@@ -69316,7 +69488,7 @@
    [
     {
      "field_name" : "mpNode",
-     "referenced_type" : "_ZTIPN7android4ListIP6AImageE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm64_armv8-a-branchprot_shared_cfi/d7c53269f769ca5870b4181bee6effcb/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
+     "referenced_type" : "_ZTIPN7android4ListIP6AImageE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm64_armv8-a-branchprot_shared_cfi/6515a2490246f153ba7433636c85b1c3/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
     }
    ],
    "linker_set_key" : "_ZTIN7android4ListIP6AImageE13_ListIteratorIS2_NS3_18NON_CONST_ITERATOREEE",
@@ -69358,13 +69530,13 @@
      "access" : "private",
      "field_name" : "mpPrev",
      "field_offset" : 64,
-     "referenced_type" : "_ZTIPN7android4ListIP6AImageE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm64_armv8-a-branchprot_shared_cfi/d7c53269f769ca5870b4181bee6effcb/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
+     "referenced_type" : "_ZTIPN7android4ListIP6AImageE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm64_armv8-a-branchprot_shared_cfi/6515a2490246f153ba7433636c85b1c3/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
     },
     {
      "access" : "private",
      "field_name" : "mpNext",
      "field_offset" : 128,
-     "referenced_type" : "_ZTIPN7android4ListIP6AImageE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm64_armv8-a-branchprot_shared_cfi/d7c53269f769ca5870b4181bee6effcb/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
+     "referenced_type" : "_ZTIPN7android4ListIP6AImageE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm64_armv8-a-branchprot_shared_cfi/6515a2490246f153ba7433636c85b1c3/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
     }
    ],
    "linker_set_key" : "_ZTIN7android4ListIP6AImageE5_NodeE",
@@ -69422,7 +69594,7 @@
    [
     {
      "field_name" : "mpNode",
-     "referenced_type" : "_ZTIPN7android4ListIPNS_10BufferItemEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm64_armv8-a-branchprot_shared_cfi/d7c53269f769ca5870b4181bee6effcb/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
+     "referenced_type" : "_ZTIPN7android4ListIPNS_10BufferItemEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm64_armv8-a-branchprot_shared_cfi/6515a2490246f153ba7433636c85b1c3/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
     }
    ],
    "linker_set_key" : "_ZTIN7android4ListIPNS_10BufferItemEE13_ListIteratorIS2_NS3_18NON_CONST_ITERATOREEE",
@@ -69464,13 +69636,13 @@
      "access" : "private",
      "field_name" : "mpPrev",
      "field_offset" : 64,
-     "referenced_type" : "_ZTIPN7android4ListIPNS_10BufferItemEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm64_armv8-a-branchprot_shared_cfi/d7c53269f769ca5870b4181bee6effcb/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
+     "referenced_type" : "_ZTIPN7android4ListIPNS_10BufferItemEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm64_armv8-a-branchprot_shared_cfi/6515a2490246f153ba7433636c85b1c3/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
     },
     {
      "access" : "private",
      "field_name" : "mpNext",
      "field_offset" : 128,
-     "referenced_type" : "_ZTIPN7android4ListIPNS_10BufferItemEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm64_armv8-a-branchprot_shared_cfi/d7c53269f769ca5870b4181bee6effcb/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
+     "referenced_type" : "_ZTIPN7android4ListIPNS_10BufferItemEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm64_armv8-a-branchprot_shared_cfi/6515a2490246f153ba7433636c85b1c3/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
     }
    ],
    "linker_set_key" : "_ZTIN7android4ListIPNS_10BufferItemEE5_NodeE",
@@ -69540,6 +69712,15 @@
    "self_type" : "_ZTIN7android4RectE",
    "size" : 16,
    "source_file" : "frameworks/native/libs/ui/include/ui/Rect.h"
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android4base10unexpect_tE",
+   "name" : "android::base::unexpect_t",
+   "referenced_type" : "_ZTIN7android4base10unexpect_tE",
+   "self_type" : "_ZTIN7android4base10unexpect_tE",
+   "size" : 1,
+   "source_file" : "system/libbase/include/android-base/expected.h"
   },
   {
    "alignment" : 4,
@@ -72974,380 +73155,392 @@
    [
     {
      "access" : "private",
-     "field_name" : "mNameMutex",
+     "field_name" : "mQtiSurfaceExtn",
      "field_offset" : 1664,
+     "referenced_type" : "_ZTINSt3__110shared_ptrIN7android15libguiextension19QtiSurfaceExtensionEEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mEnableOptimalRefreshRate",
+     "field_offset" : 1792,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mNameMutex",
+     "field_offset" : 1824,
      "referenced_type" : "_ZTINSt3__15mutexE"
     },
     {
      "access" : "private",
      "field_name" : "mName",
-     "field_offset" : 1984,
+     "field_offset" : 2176,
      "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
     },
     {
      "access" : "protected",
      "field_name" : "mGraphicBufferProducer",
-     "field_offset" : 2176,
+     "field_offset" : 2368,
      "referenced_type" : "_ZTIN7android2spINS_22IGraphicBufferProducerEEE"
     },
     {
      "access" : "protected",
      "field_name" : "mSlots",
-     "field_offset" : 2240,
+     "field_offset" : 2432,
      "referenced_type" : "_ZTIA64_N7android7Surface10BufferSlotE"
     },
     {
      "access" : "protected",
      "field_name" : "mReqWidth",
-     "field_offset" : 59584,
+     "field_offset" : 59776,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "protected",
      "field_name" : "mReqHeight",
-     "field_offset" : 59616,
+     "field_offset" : 59808,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "protected",
      "field_name" : "mReqFormat",
-     "field_offset" : 59648,
+     "field_offset" : 59840,
      "referenced_type" : "_ZTIi"
     },
     {
      "access" : "protected",
      "field_name" : "mReqUsage",
-     "field_offset" : 59712,
+     "field_offset" : 59904,
      "referenced_type" : "_ZTIm"
     },
     {
      "access" : "protected",
      "field_name" : "mTimestamp",
-     "field_offset" : 59776,
+     "field_offset" : 59968,
      "referenced_type" : "_ZTIl"
     },
     {
      "access" : "protected",
      "field_name" : "mDataSpace",
-     "field_offset" : 59840,
+     "field_offset" : 60032,
      "referenced_type" : "_ZTIN7android8hardware8graphics6common4V1_29DataspaceE"
     },
     {
      "access" : "protected",
      "field_name" : "mHdrMetadata",
-     "field_offset" : 59904,
+     "field_offset" : 60096,
      "referenced_type" : "_ZTIN7android11HdrMetadataE"
     },
     {
      "access" : "protected",
      "field_name" : "mHdrMetadataIsSet",
-     "field_offset" : 60544,
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "mCrop",
-     "field_offset" : 60576,
-     "referenced_type" : "_ZTIN7android4RectE"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "mScalingMode",
-     "field_offset" : 60704,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "mTransform",
      "field_offset" : 60736,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "protected",
-     "field_name" : "mStickyTransform",
+     "field_name" : "mCrop",
      "field_offset" : 60768,
-     "referenced_type" : "_ZTIj"
+     "referenced_type" : "_ZTIN7android4RectE"
     },
     {
      "access" : "protected",
-     "field_name" : "mDefaultWidth",
-     "field_offset" : 60800,
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "mDefaultHeight",
-     "field_offset" : 60832,
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "mUserWidth",
-     "field_offset" : 60864,
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "mUserHeight",
+     "field_name" : "mScalingMode",
      "field_offset" : 60896,
-     "referenced_type" : "_ZTIj"
+     "referenced_type" : "_ZTIi"
     },
     {
      "access" : "protected",
-     "field_name" : "mTransformHint",
+     "field_name" : "mTransform",
      "field_offset" : 60928,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "protected",
-     "field_name" : "mProducerControlledByApp",
+     "field_name" : "mStickyTransform",
      "field_offset" : 60960,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "mDefaultWidth",
+     "field_offset" : 60992,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "mDefaultHeight",
+     "field_offset" : 61024,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "mUserWidth",
+     "field_offset" : 61056,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "mUserHeight",
+     "field_offset" : 61088,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "mTransformHint",
+     "field_offset" : 61120,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "mProducerControlledByApp",
+     "field_offset" : 61152,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "protected",
      "field_name" : "mSwapIntervalZero",
-     "field_offset" : 60968,
+     "field_offset" : 61160,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "protected",
      "field_name" : "mConsumerRunningBehind",
-     "field_offset" : 60976,
+     "field_offset" : 61168,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "protected",
      "field_name" : "mMutex",
-     "field_offset" : 60992,
+     "field_offset" : 61184,
      "referenced_type" : "_ZTIN7android5MutexE"
     },
     {
      "access" : "protected",
      "field_name" : "mInterceptorMutex",
-     "field_offset" : 61312,
+     "field_offset" : 61504,
      "referenced_type" : "_ZTINSt3__112shared_mutexE"
     },
     {
      "access" : "protected",
      "field_name" : "mCancelInterceptor",
-     "field_offset" : 62464,
+     "field_offset" : 62656,
      "referenced_type" : "_ZTIPFiP13ANativeWindowPFiS0_P19ANativeWindowBufferiEPvS2_iE"
     },
     {
      "access" : "protected",
      "field_name" : "mCancelInterceptorData",
-     "field_offset" : 62528,
+     "field_offset" : 62720,
      "referenced_type" : "_ZTIPv"
     },
     {
      "access" : "protected",
      "field_name" : "mDequeueInterceptor",
-     "field_offset" : 62592,
+     "field_offset" : 62784,
      "referenced_type" : "_ZTIPFiP13ANativeWindowPFiS0_PP19ANativeWindowBufferPiEPvS3_S4_E"
     },
     {
      "access" : "protected",
      "field_name" : "mDequeueInterceptorData",
-     "field_offset" : 62656,
+     "field_offset" : 62848,
      "referenced_type" : "_ZTIPv"
     },
     {
      "access" : "protected",
      "field_name" : "mPerformInterceptor",
-     "field_offset" : 62720,
+     "field_offset" : 62912,
      "referenced_type" : "_ZTIPFiP13ANativeWindowPFiS0_iSt9__va_listEPviS1_E"
     },
     {
      "access" : "protected",
      "field_name" : "mPerformInterceptorData",
-     "field_offset" : 62784,
+     "field_offset" : 62976,
      "referenced_type" : "_ZTIPv"
     },
     {
      "access" : "protected",
      "field_name" : "mQueueInterceptor",
-     "field_offset" : 62848,
+     "field_offset" : 63040,
      "referenced_type" : "_ZTIPFiP13ANativeWindowPFiS0_P19ANativeWindowBufferiEPvS2_iE"
     },
     {
      "access" : "protected",
      "field_name" : "mQueueInterceptorData",
-     "field_offset" : 62912,
+     "field_offset" : 63104,
      "referenced_type" : "_ZTIPv"
     },
     {
      "access" : "protected",
      "field_name" : "mQueryInterceptor",
-     "field_offset" : 62976,
+     "field_offset" : 63168,
      "referenced_type" : "_ZTIPFiPK13ANativeWindowPFiS1_iPiEPviS2_E"
     },
     {
      "access" : "protected",
      "field_name" : "mQueryInterceptorData",
-     "field_offset" : 63040,
+     "field_offset" : 63232,
      "referenced_type" : "_ZTIPv"
     },
     {
      "access" : "protected",
      "field_name" : "mLockedBuffer",
-     "field_offset" : 63104,
+     "field_offset" : 63296,
      "referenced_type" : "_ZTIN7android2spINS_13GraphicBufferEEE"
     },
     {
      "access" : "protected",
      "field_name" : "mPostedBuffer",
-     "field_offset" : 63168,
+     "field_offset" : 63360,
      "referenced_type" : "_ZTIN7android2spINS_13GraphicBufferEEE"
     },
     {
      "access" : "protected",
      "field_name" : "mConnectedToCpu",
-     "field_offset" : 63232,
+     "field_offset" : 63424,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "protected",
      "field_name" : "mDirtyRegion",
-     "field_offset" : 63296,
+     "field_offset" : 63488,
      "referenced_type" : "_ZTIN7android6RegionE"
     },
     {
      "access" : "protected",
      "field_name" : "mBufferAge",
-     "field_offset" : 64128,
+     "field_offset" : 64320,
      "referenced_type" : "_ZTIm"
     },
     {
      "access" : "protected",
      "field_name" : "mGenerationNumber",
-     "field_offset" : 64192,
+     "field_offset" : 64384,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "protected",
      "field_name" : "mSharedBufferMode",
-     "field_offset" : 64224,
+     "field_offset" : 64416,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "protected",
      "field_name" : "mAutoRefresh",
-     "field_offset" : 64232,
+     "field_offset" : 64424,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "protected",
      "field_name" : "mAutoPrerotation",
-     "field_offset" : 64240,
+     "field_offset" : 64432,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "protected",
      "field_name" : "mSharedBufferSlot",
-     "field_offset" : 64256,
+     "field_offset" : 64448,
      "referenced_type" : "_ZTIi"
     },
     {
      "access" : "protected",
      "field_name" : "mSharedBufferHasBeenQueued",
-     "field_offset" : 64288,
+     "field_offset" : 64480,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "protected",
      "field_name" : "mLastDequeueDuration",
-     "field_offset" : 64320,
+     "field_offset" : 64512,
      "referenced_type" : "_ZTIl"
     },
     {
      "access" : "protected",
      "field_name" : "mLastQueueDuration",
-     "field_offset" : 64384,
+     "field_offset" : 64576,
      "referenced_type" : "_ZTIl"
     },
     {
      "access" : "protected",
      "field_name" : "mLastDequeueStartTime",
-     "field_offset" : 64448,
+     "field_offset" : 64640,
      "referenced_type" : "_ZTIl"
     },
     {
      "access" : "protected",
      "field_name" : "mQueueBufferCondition",
-     "field_offset" : 64512,
+     "field_offset" : 64704,
      "referenced_type" : "_ZTIN7android9ConditionE"
     },
     {
      "access" : "protected",
      "field_name" : "mNextFrameNumber",
-     "field_offset" : 64896,
+     "field_offset" : 65088,
      "referenced_type" : "_ZTIm"
     },
     {
      "access" : "protected",
      "field_name" : "mLastFrameNumber",
-     "field_offset" : 64960,
+     "field_offset" : 65152,
      "referenced_type" : "_ZTIm"
     },
     {
      "access" : "protected",
      "field_name" : "mQueriedSupportedTimestamps",
-     "field_offset" : 65024,
-     "referenced_type" : "_ZTIb"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "mFrameTimestampsSupportsPresent",
-     "field_offset" : 65032,
-     "referenced_type" : "_ZTIb"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "mEnableFrameTimestamps",
-     "field_offset" : 65040,
-     "referenced_type" : "_ZTIb"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "mFrameEventHistory",
-     "field_offset" : 65088,
-     "referenced_type" : "_ZTINSt3__110unique_ptrIN7android25ProducerFrameEventHistoryENS_14default_deleteIS2_EEEE"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "mSurfaceControlHandle",
-     "field_offset" : 65152,
-     "referenced_type" : "_ZTIN7android2spINS_7IBinderEEE"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "mReportRemovedBuffers",
      "field_offset" : 65216,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "protected",
-     "field_name" : "mRemovedBuffers",
+     "field_name" : "mFrameTimestampsSupportsPresent",
+     "field_offset" : 65224,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "mEnableFrameTimestamps",
+     "field_offset" : 65232,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "mFrameEventHistory",
      "field_offset" : 65280,
+     "referenced_type" : "_ZTINSt3__110unique_ptrIN7android25ProducerFrameEventHistoryENS_14default_deleteIS2_EEEE"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "mSurfaceControlHandle",
+     "field_offset" : 65344,
+     "referenced_type" : "_ZTIN7android2spINS_7IBinderEEE"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "mReportRemovedBuffers",
+     "field_offset" : 65408,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "mRemovedBuffers",
+     "field_offset" : 65472,
      "referenced_type" : "_ZTINSt3__16vectorIN7android2spINS1_13GraphicBufferEEENS_9allocatorIS4_EEEE"
     },
     {
      "access" : "protected",
      "field_name" : "mMaxBufferCount",
-     "field_offset" : 65472,
+     "field_offset" : 65664,
      "referenced_type" : "_ZTIi"
     },
     {
      "access" : "protected",
      "field_name" : "mListenerProxy",
-     "field_offset" : 65536,
+     "field_offset" : 65728,
      "referenced_type" : "_ZTIN7android2spINS_17IProducerListenerEEE"
     },
     {
      "access" : "protected",
      "field_name" : "mDequeuedSlots",
-     "field_offset" : 65600,
+     "field_offset" : 65792,
      "referenced_type" : "_ZTINSt3__113unordered_setIiNS_4hashIiEENS_8equal_toIiEENS_9allocatorIiEEEE"
     }
    ],
@@ -73356,7 +73549,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN7android7SurfaceE",
    "self_type" : "_ZTIN7android7SurfaceE",
-   "size" : 8240,
+   "size" : 8264,
    "source_file" : "frameworks/native/libs/gui/include/gui/Surface.h",
    "vtable_components" :
    [
@@ -83773,6 +83966,15 @@
    "self_type" : "_ZTION7android9FenceTime8SnapshotE",
    "size" : 8,
    "source_file" : "frameworks/native/libs/ui/include/ui/FenceTime.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIONSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "name" : "std::basic_string<char, std::char_traits<char>, std::allocator<char>> &&",
+   "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "self_type" : "_ZTIONSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/ui/include/ui/Result.h"
   }
  ]
 }

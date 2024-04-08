@@ -238,6 +238,9 @@
    "name" : "_Exit"
   },
   {
+   "name" : "_Fork"
+  },
+  {
    "name" : "_Unwind_Backtrace"
   },
   {
@@ -1110,6 +1113,18 @@
    "name" : "alphasort64"
   },
   {
+   "name" : "android_crash_detail_register"
+  },
+  {
+   "name" : "android_crash_detail_replace_data"
+  },
+  {
+   "name" : "android_crash_detail_replace_name"
+  },
+  {
+   "name" : "android_crash_detail_unregister"
+  },
+  {
    "binding" : "weak",
    "name" : "android_fdsan_close_with_tag"
   },
@@ -1187,9 +1202,6 @@
    "name" : "android_net_res_stats_get_usable_servers"
   },
   {
-   "name" : "android_register_crash_detail"
-  },
-  {
    "name" : "android_reset_stack_guards"
   },
   {
@@ -1197,9 +1209,6 @@
   },
   {
    "name" : "android_set_abort_message"
-  },
-  {
-   "name" : "android_unregister_crash_detail"
   },
   {
    "name" : "android_unsafe_frame_pointer_chase"
