@@ -7,16 +7,12 @@
    "is_integral" : true,
    "linker_set_key" : "_ZTIc",
    "name" : "char",
-   "referenced_type" : "_ZTIc",
-   "self_type" : "_ZTIc",
    "size" : 1
   },
   {
    "alignment" : 4,
    "linker_set_key" : "_ZTIf",
    "name" : "float",
-   "referenced_type" : "_ZTIf",
-   "self_type" : "_ZTIf",
    "size" : 4
   },
   {
@@ -25,8 +21,6 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIh",
    "name" : "unsigned char",
-   "referenced_type" : "_ZTIh",
-   "self_type" : "_ZTIh",
    "size" : 1
   },
   {
@@ -34,8 +28,6 @@
    "is_integral" : true,
    "linker_set_key" : "_ZTIi",
    "name" : "int",
-   "referenced_type" : "_ZTIi",
-   "self_type" : "_ZTIi",
    "size" : 4
   },
   {
@@ -44,8 +36,6 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIj",
    "name" : "unsigned int",
-   "referenced_type" : "_ZTIj",
-   "self_type" : "_ZTIj",
    "size" : 4
   },
   {
@@ -53,8 +43,6 @@
    "is_integral" : true,
    "linker_set_key" : "_ZTIl",
    "name" : "long",
-   "referenced_type" : "_ZTIl",
-   "self_type" : "_ZTIl",
    "size" : 8
   },
   {
@@ -63,8 +51,6 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIm",
    "name" : "unsigned long",
-   "referenced_type" : "_ZTIm",
-   "self_type" : "_ZTIm",
    "size" : 8
   },
   {
@@ -72,15 +58,11 @@
    "is_integral" : true,
    "linker_set_key" : "_ZTIs",
    "name" : "short",
-   "referenced_type" : "_ZTIs",
-   "self_type" : "_ZTIs",
    "size" : 2
   },
   {
    "linker_set_key" : "_ZTIv",
-   "name" : "void",
-   "referenced_type" : "_ZTIv",
-   "self_type" : "_ZTIv"
+   "name" : "void"
   }
  ],
  "elf_functions" :
@@ -942,8 +924,6 @@
    ],
    "linker_set_key" : "_ZTI22khronos_boolean_enum_t",
    "name" : "khronos_boolean_enum_t",
-   "referenced_type" : "_ZTI22khronos_boolean_enum_t",
-   "self_type" : "_ZTI22khronos_boolean_enum_t",
    "size" : 4,
    "source_file" : "frameworks/native/opengl/include/KHR/khrplatform.h",
    "underlying_type" : "_ZTIj"
@@ -5573,7 +5553,6 @@
    "linker_set_key" : "_ZTIP8__GLsync",
    "name" : "__GLsync *",
    "referenced_type" : "_ZTI8__GLsync",
-   "self_type" : "_ZTIP8__GLsync",
    "size" : 8,
    "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
   },
@@ -5582,7 +5561,6 @@
    "linker_set_key" : "_ZTIPKPKv",
    "name" : "const void *const *",
    "referenced_type" : "_ZTIKPKv",
-   "self_type" : "_ZTIPKPKv",
    "size" : 8,
    "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
   },
@@ -5591,7 +5569,6 @@
    "linker_set_key" : "_ZTIPKc",
    "name" : "const char *",
    "referenced_type" : "_ZTIKc",
-   "self_type" : "_ZTIPKc",
    "size" : 8,
    "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
   },
@@ -5600,7 +5577,6 @@
    "linker_set_key" : "_ZTIPKf",
    "name" : "const float *",
    "referenced_type" : "_ZTIKf",
-   "self_type" : "_ZTIPKf",
    "size" : 8,
    "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
   },
@@ -5609,7 +5585,6 @@
    "linker_set_key" : "_ZTIPKh",
    "name" : "const unsigned char *",
    "referenced_type" : "_ZTIKh",
-   "self_type" : "_ZTIPKh",
    "size" : 8,
    "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
   },
@@ -5618,7 +5593,6 @@
    "linker_set_key" : "_ZTIPKi",
    "name" : "const int *",
    "referenced_type" : "_ZTIKi",
-   "self_type" : "_ZTIPKi",
    "size" : 8,
    "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
   },
@@ -5627,7 +5601,6 @@
    "linker_set_key" : "_ZTIPKj",
    "name" : "const unsigned int *",
    "referenced_type" : "_ZTIKj",
-   "self_type" : "_ZTIPKj",
    "size" : 8,
    "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
   },
@@ -5636,7 +5609,6 @@
    "linker_set_key" : "_ZTIPKs",
    "name" : "const short *",
    "referenced_type" : "_ZTIKs",
-   "self_type" : "_ZTIPKs",
    "size" : 8,
    "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
   },
@@ -5645,7 +5617,6 @@
    "linker_set_key" : "_ZTIPKv",
    "name" : "const void *",
    "referenced_type" : "_ZTIKv",
-   "self_type" : "_ZTIPKv",
    "size" : 8,
    "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
   },
@@ -5654,7 +5625,6 @@
    "linker_set_key" : "_ZTIPPv",
    "name" : "void **",
    "referenced_type" : "_ZTIPv",
-   "self_type" : "_ZTIPPv",
    "size" : 8,
    "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
   },
@@ -5663,7 +5633,6 @@
    "linker_set_key" : "_ZTIPc",
    "name" : "char *",
    "referenced_type" : "_ZTIc",
-   "self_type" : "_ZTIPc",
    "size" : 8,
    "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
   },
@@ -5672,7 +5641,6 @@
    "linker_set_key" : "_ZTIPf",
    "name" : "float *",
    "referenced_type" : "_ZTIf",
-   "self_type" : "_ZTIPf",
    "size" : 8,
    "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
   },
@@ -5681,7 +5649,6 @@
    "linker_set_key" : "_ZTIPh",
    "name" : "unsigned char *",
    "referenced_type" : "_ZTIh",
-   "self_type" : "_ZTIPh",
    "size" : 8,
    "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
   },
@@ -5690,7 +5657,6 @@
    "linker_set_key" : "_ZTIPi",
    "name" : "int *",
    "referenced_type" : "_ZTIi",
-   "self_type" : "_ZTIPi",
    "size" : 8,
    "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
   },
@@ -5699,7 +5665,6 @@
    "linker_set_key" : "_ZTIPj",
    "name" : "unsigned int *",
    "referenced_type" : "_ZTIj",
-   "self_type" : "_ZTIPj",
    "size" : 8,
    "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
   },
@@ -5708,7 +5673,6 @@
    "linker_set_key" : "_ZTIPl",
    "name" : "long *",
    "referenced_type" : "_ZTIl",
-   "self_type" : "_ZTIPl",
    "size" : 8,
    "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
   },
@@ -5717,7 +5681,6 @@
    "linker_set_key" : "_ZTIPv",
    "name" : "void *",
    "referenced_type" : "_ZTIv",
-   "self_type" : "_ZTIPv",
    "size" : 8,
    "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
   }
@@ -5730,7 +5693,6 @@
    "linker_set_key" : "_ZTIKPKv",
    "name" : "const void *const",
    "referenced_type" : "_ZTIPKv",
-   "self_type" : "_ZTIKPKv",
    "size" : 8,
    "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
   },
@@ -5740,7 +5702,6 @@
    "linker_set_key" : "_ZTIKc",
    "name" : "const char",
    "referenced_type" : "_ZTIc",
-   "self_type" : "_ZTIKc",
    "size" : 1,
    "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
   },
@@ -5750,7 +5711,6 @@
    "linker_set_key" : "_ZTIKf",
    "name" : "const float",
    "referenced_type" : "_ZTIf",
-   "self_type" : "_ZTIKf",
    "size" : 4,
    "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
   },
@@ -5760,7 +5720,6 @@
    "linker_set_key" : "_ZTIKh",
    "name" : "const unsigned char",
    "referenced_type" : "_ZTIh",
-   "self_type" : "_ZTIKh",
    "size" : 1,
    "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
   },
@@ -5770,7 +5729,6 @@
    "linker_set_key" : "_ZTIKi",
    "name" : "const int",
    "referenced_type" : "_ZTIi",
-   "self_type" : "_ZTIKi",
    "size" : 4,
    "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
   },
@@ -5780,7 +5738,6 @@
    "linker_set_key" : "_ZTIKj",
    "name" : "const unsigned int",
    "referenced_type" : "_ZTIj",
-   "self_type" : "_ZTIKj",
    "size" : 4,
    "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
   },
@@ -5790,7 +5747,6 @@
    "linker_set_key" : "_ZTIKs",
    "name" : "const short",
    "referenced_type" : "_ZTIs",
-   "self_type" : "_ZTIKs",
    "size" : 2,
    "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
   },
@@ -5799,7 +5755,6 @@
    "linker_set_key" : "_ZTIKv",
    "name" : "const void",
    "referenced_type" : "_ZTIv",
-   "self_type" : "_ZTIKv",
    "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
   }
  ],
@@ -5831,8 +5786,6 @@
    ],
    "linker_set_key" : "_ZTI17EGLClientPixmapHI",
    "name" : "EGLClientPixmapHI",
-   "referenced_type" : "_ZTI17EGLClientPixmapHI",
-   "self_type" : "_ZTI17EGLClientPixmapHI",
    "size" : 24,
    "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
   }

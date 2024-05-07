@@ -6,7 +6,6 @@
    "linker_set_key" : "_ZTIA1_Pv",
    "name" : "void *[1]",
    "referenced_type" : "_ZTIPv",
-   "self_type" : "_ZTIA1_Pv",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -15,7 +14,6 @@
    "linker_set_key" : "_ZTIA4_21AHardwareBuffer_Plane",
    "name" : "AHardwareBuffer_Plane[4]",
    "referenced_type" : "_ZTI21AHardwareBuffer_Plane",
-   "self_type" : "_ZTIA4_21AHardwareBuffer_Plane",
    "size" : 48,
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
@@ -24,7 +22,6 @@
    "linker_set_key" : "_ZTIA4_Pv",
    "name" : "void *[4]",
    "referenced_type" : "_ZTIPv",
-   "self_type" : "_ZTIA4_Pv",
    "size" : 16,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraManager.h"
   },
@@ -33,7 +30,6 @@
    "linker_set_key" : "_ZTIA4_i",
    "name" : "int[4]",
    "referenced_type" : "_ZTIi",
-   "self_type" : "_ZTIA4_i",
    "size" : 16,
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -42,7 +38,6 @@
    "linker_set_key" : "_ZTIA6_Pv",
    "name" : "void *[6]",
    "referenced_type" : "_ZTIPv",
-   "self_type" : "_ZTIA6_Pv",
    "size" : 24,
    "source_file" : "frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -51,7 +46,6 @@
    "linker_set_key" : "_ZTIA6_j",
    "name" : "unsigned int[6]",
    "referenced_type" : "_ZTIj",
-   "self_type" : "_ZTIA6_j",
    "size" : 24,
    "source_file" : "frameworks/native/libs/nativewindow/include/android/native_window.h"
   }
@@ -64,8 +58,6 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIb",
    "name" : "bool",
-   "referenced_type" : "_ZTIb",
-   "self_type" : "_ZTIb",
    "size" : 1
   },
   {
@@ -73,24 +65,18 @@
    "is_integral" : true,
    "linker_set_key" : "_ZTIc",
    "name" : "char",
-   "referenced_type" : "_ZTIc",
-   "self_type" : "_ZTIc",
    "size" : 1
   },
   {
    "alignment" : 4,
    "linker_set_key" : "_ZTId",
    "name" : "double",
-   "referenced_type" : "_ZTId",
-   "self_type" : "_ZTId",
    "size" : 8
   },
   {
    "alignment" : 4,
    "linker_set_key" : "_ZTIf",
    "name" : "float",
-   "referenced_type" : "_ZTIf",
-   "self_type" : "_ZTIf",
    "size" : 4
   },
   {
@@ -99,8 +85,6 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIh",
    "name" : "unsigned char",
-   "referenced_type" : "_ZTIh",
-   "self_type" : "_ZTIh",
    "size" : 1
   },
   {
@@ -108,8 +92,6 @@
    "is_integral" : true,
    "linker_set_key" : "_ZTIi",
    "name" : "int",
-   "referenced_type" : "_ZTIi",
-   "self_type" : "_ZTIi",
    "size" : 4
   },
   {
@@ -118,23 +100,17 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIj",
    "name" : "unsigned int",
-   "referenced_type" : "_ZTIj",
-   "self_type" : "_ZTIj",
    "size" : 4
   },
   {
    "linker_set_key" : "_ZTIv",
-   "name" : "void",
-   "referenced_type" : "_ZTIv",
-   "self_type" : "_ZTIv"
+   "name" : "void"
   },
   {
    "alignment" : 4,
    "is_integral" : true,
    "linker_set_key" : "_ZTIx",
    "name" : "long long",
-   "referenced_type" : "_ZTIx",
-   "self_type" : "_ZTIx",
    "size" : 8
   },
   {
@@ -143,8 +119,6 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIy",
    "name" : "unsigned long long",
-   "referenced_type" : "_ZTIy",
-   "self_type" : "_ZTIy",
    "size" : 8
   }
  ],
@@ -385,8 +359,6 @@
    ],
    "linker_set_key" : "_ZTI100acamera_metadata_enum_acamera_depth_available_dynamic_depth_stream_configurations_maximum_resolution",
    "name" : "acamera_metadata_enum_acamera_depth_available_dynamic_depth_stream_configurations_maximum_resolution",
-   "referenced_type" : "_ZTI100acamera_metadata_enum_acamera_depth_available_dynamic_depth_stream_configurations_maximum_resolution",
-   "self_type" : "_ZTI100acamera_metadata_enum_acamera_depth_available_dynamic_depth_stream_configurations_maximum_resolution",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -694,8 +666,6 @@
    ],
    "linker_set_key" : "_ZTI10ADataSpace",
    "name" : "ADataSpace",
-   "referenced_type" : "_ZTI10ADataSpace",
-   "self_type" : "_ZTI10ADataSpace",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/android/data_space.h",
    "underlying_type" : "_ZTIi"
@@ -775,8 +745,6 @@
    ],
    "linker_set_key" : "_ZTI15camera_status_t",
    "name" : "camera_status_t",
-   "referenced_type" : "_ZTI15camera_status_t",
-   "self_type" : "_ZTI15camera_status_t",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraError.h",
    "underlying_type" : "_ZTIi"
@@ -816,8 +784,6 @@
    ],
    "linker_set_key" : "_ZTI18$ACAMERA_NUM_TYPES",
    "name" : "(unnamed)",
-   "referenced_type" : "_ZTI18$ACAMERA_NUM_TYPES",
-   "self_type" : "_ZTI18$ACAMERA_NUM_TYPES",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h",
    "underlying_type" : "_ZTIj"
@@ -865,8 +831,6 @@
    ],
    "linker_set_key" : "_ZTI18ANativeWindowQuery",
    "name" : "ANativeWindowQuery",
-   "referenced_type" : "_ZTI18ANativeWindowQuery",
-   "self_type" : "_ZTI18ANativeWindowQuery",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/vndk/window.h",
    "underlying_type" : "_ZTIj"
@@ -898,8 +862,6 @@
    ],
    "linker_set_key" : "_ZTI20$ERROR_CAMERA_DEVICE",
    "name" : "(unnamed)",
-   "referenced_type" : "_ZTI20$ERROR_CAMERA_DEVICE",
-   "self_type" : "_ZTI20$ERROR_CAMERA_DEVICE",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h",
    "underlying_type" : "_ZTIj"
@@ -927,8 +889,6 @@
    ],
    "linker_set_key" : "_ZTI20ANativeWindowPerform",
    "name" : "ANativeWindowPerform",
-   "referenced_type" : "_ZTI20ANativeWindowPerform",
-   "self_type" : "_ZTI20ANativeWindowPerform",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/apex/window.h",
    "underlying_type" : "_ZTIj"
@@ -2040,11 +2000,40 @@
    ],
    "linker_set_key" : "_ZTI20acamera_metadata_tag",
    "name" : "acamera_metadata_tag",
-   "referenced_type" : "_ZTI20acamera_metadata_tag",
-   "self_type" : "_ZTI20acamera_metadata_tag",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "AHARDWAREBUFFER_STATUS_OK"
+    },
+    {
+     "enum_field_value" : -12,
+     "name" : "AHARDWAREBUFFER_STATUS_NO_MEMORY"
+    },
+    {
+     "enum_field_value" : -22,
+     "name" : "AHARDWAREBUFFER_STATUS_BAD_VALUE"
+    },
+    {
+     "enum_field_value" : -38,
+     "name" : "AHARDWAREBUFFER_STATUS_UNSUPPORTED"
+    },
+    {
+     "enum_field_value" : -2147483648,
+     "name" : "AHARDWAREBUFFER_STATUS_UNKNOWN_ERROR"
+    }
+   ],
+   "linker_set_key" : "_ZTI21AHardwareBufferStatus",
+   "name" : "AHardwareBufferStatus",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h",
+   "underlying_type" : "_ZTIi"
   },
   {
    "alignment" : 4,
@@ -2129,8 +2118,6 @@
    ],
    "linker_set_key" : "_ZTI22AHardwareBuffer_Format",
    "name" : "AHardwareBuffer_Format",
-   "referenced_type" : "_ZTI22AHardwareBuffer_Format",
-   "self_type" : "_ZTI22AHardwareBuffer_Format",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h",
    "underlying_type" : "_ZTIj"
@@ -2166,10 +2153,27 @@
    ],
    "linker_set_key" : "_ZTI22ANativeWindowTransform",
    "name" : "ANativeWindowTransform",
-   "referenced_type" : "_ZTI22ANativeWindowTransform",
-   "self_type" : "_ZTI22ANativeWindowTransform",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/android/native_window.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 2,
+     "name" : "AHARDWAREBUFFER_CREATE_FROM_HANDLE_METHOD_REGISTER"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "AHARDWAREBUFFER_CREATE_FROM_HANDLE_METHOD_CLONE"
+    }
+   ],
+   "linker_set_key" : "_ZTI22CreateFromHandleMethod",
+   "name" : "CreateFromHandleMethod",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -2327,8 +2331,6 @@
    ],
    "linker_set_key" : "_ZTI24acamera_metadata_section",
    "name" : "acamera_metadata_section",
-   "referenced_type" : "_ZTI24acamera_metadata_section",
-   "self_type" : "_ZTI24acamera_metadata_section",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -2344,8 +2346,6 @@
    ],
    "linker_set_key" : "_ZTI25$CAPTURE_SEQUENCE_ID_NONE",
    "name" : "(unnamed)",
-   "referenced_type" : "_ZTI25$CAPTURE_SEQUENCE_ID_NONE",
-   "self_type" : "_ZTI25$CAPTURE_SEQUENCE_ID_NONE",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h",
    "underlying_type" : "_ZTIi"
@@ -2373,8 +2373,6 @@
    ],
    "linker_set_key" : "_ZTI25$NATIVE_WINDOW_API_CAMERA",
    "name" : "(unnamed)",
-   "referenced_type" : "_ZTI25$NATIVE_WINDOW_API_CAMERA",
-   "self_type" : "_ZTI25$NATIVE_WINDOW_API_CAMERA",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h",
    "underlying_type" : "_ZTIj"
@@ -2474,8 +2472,6 @@
    ],
    "linker_set_key" : "_ZTI25$NATIVE_WINDOW_BUFFER_AGE",
    "name" : "(unnamed)",
-   "referenced_type" : "_ZTI25$NATIVE_WINDOW_BUFFER_AGE",
-   "self_type" : "_ZTI25$NATIVE_WINDOW_BUFFER_AGE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h",
    "underlying_type" : "_ZTIj"
@@ -2495,8 +2491,6 @@
    ],
    "linker_set_key" : "_ZTI26$NATIVE_WINDOW_FRAMEBUFFER",
    "name" : "(unnamed)",
-   "referenced_type" : "_ZTI26$NATIVE_WINDOW_FRAMEBUFFER",
-   "self_type" : "_ZTI26$NATIVE_WINDOW_FRAMEBUFFER",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h",
    "underlying_type" : "_ZTIj"
@@ -2664,8 +2658,6 @@
    ],
    "linker_set_key" : "_ZTI26AHardwareBuffer_UsageFlags",
    "name" : "AHardwareBuffer_UsageFlags",
-   "referenced_type" : "_ZTI26AHardwareBuffer_UsageFlags",
-   "self_type" : "_ZTI26AHardwareBuffer_UsageFlags",
    "size" : 8,
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h",
    "underlying_type" : "_ZTIy"
@@ -2689,8 +2681,6 @@
    ],
    "linker_set_key" : "_ZTI26ANativeWindow_LegacyFormat",
    "name" : "ANativeWindow_LegacyFormat",
-   "referenced_type" : "_ZTI26ANativeWindow_LegacyFormat",
-   "self_type" : "_ZTI26ANativeWindow_LegacyFormat",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/android/native_window.h",
    "underlying_type" : "_ZTIj"
@@ -2710,8 +2700,6 @@
    ],
    "linker_set_key" : "_ZTI29$CAPTURE_FAILURE_REASON_ERROR",
    "name" : "(unnamed)",
-   "referenced_type" : "_ZTI29$CAPTURE_FAILURE_REASON_ERROR",
-   "self_type" : "_ZTI29$CAPTURE_FAILURE_REASON_ERROR",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h",
    "underlying_type" : "_ZTIj"
@@ -2747,8 +2735,6 @@
    ],
    "linker_set_key" : "_ZTI30ACameraDevice_request_template",
    "name" : "ACameraDevice_request_template",
-   "referenced_type" : "_ZTI30ACameraDevice_request_template",
-   "self_type" : "_ZTI30ACameraDevice_request_template",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h",
    "underlying_type" : "_ZTIj"
@@ -2904,8 +2890,6 @@
    ],
    "linker_set_key" : "_ZTI30acamera_metadata_section_start",
    "name" : "acamera_metadata_section_start",
-   "referenced_type" : "_ZTI30acamera_metadata_section_start",
-   "self_type" : "_ZTI30acamera_metadata_section_start",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIi"
@@ -2933,8 +2917,6 @@
    ],
    "linker_set_key" : "_ZTI31$ANATIVEWINDOW_FRAME_RATE_EXACT",
    "name" : "(unnamed)",
-   "referenced_type" : "_ZTI31$ANATIVEWINDOW_FRAME_RATE_EXACT",
-   "self_type" : "_ZTI31$ANATIVEWINDOW_FRAME_RATE_EXACT",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h",
    "underlying_type" : "_ZTIj"
@@ -3134,12 +3116,14 @@
     {
      "enum_field_value" : 49,
      "name" : "NATIVE_WINDOW_GET_LAST_QUEUED_BUFFER2"
+    },
+    {
+     "enum_field_value" : 50,
+     "name" : "NATIVE_WINDOW_SET_BUFFERS_ADDITIONAL_OPTIONS"
     }
    ],
    "linker_set_key" : "_ZTI31$NATIVE_WINDOW_ALLOCATE_BUFFERS",
    "name" : "(unnamed)",
-   "referenced_type" : "_ZTI31$NATIVE_WINDOW_ALLOCATE_BUFFERS",
-   "self_type" : "_ZTI31$NATIVE_WINDOW_ALLOCATE_BUFFERS",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h",
    "underlying_type" : "_ZTIj"
@@ -3175,10 +3159,31 @@
    ],
    "linker_set_key" : "_ZTI31$NATIVE_WINDOW_TRANSFORM_FLIP_H",
    "name" : "(unnamed)",
-   "referenced_type" : "_ZTI31$NATIVE_WINDOW_TRANSFORM_FLIP_H",
-   "self_type" : "_ZTI31$NATIVE_WINDOW_TRANSFORM_FLIP_H",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 131072,
+     "name" : "AHARDWAREBUFFER_USAGE_CAMERA_WRITE"
+    },
+    {
+     "enum_field_value" : 262144,
+     "name" : "AHARDWAREBUFFER_USAGE_CAMERA_READ"
+    },
+    {
+     "enum_field_value" : 393216,
+     "name" : "AHARDWAREBUFFER_USAGE_CAMERA_MASK"
+    }
+   ],
+   "linker_set_key" : "_ZTI34$AHARDWAREBUFFER_USAGE_CAMERA_MASK",
+   "name" : "(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -3204,8 +3209,6 @@
    ],
    "linker_set_key" : "_ZTI34$NATIVE_WINDOW_SCALING_MODE_FREEZE",
    "name" : "(unnamed)",
-   "referenced_type" : "_ZTI34$NATIVE_WINDOW_SCALING_MODE_FREEZE",
-   "self_type" : "_ZTI34$NATIVE_WINDOW_SCALING_MODE_FREEZE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h",
    "underlying_type" : "_ZTIj"
@@ -3225,8 +3228,6 @@
    ],
    "linker_set_key" : "_ZTI36ANativeWindow_FrameRateCompatibility",
    "name" : "ANativeWindow_FrameRateCompatibility",
-   "referenced_type" : "_ZTI36ANativeWindow_FrameRateCompatibility",
-   "self_type" : "_ZTI36ANativeWindow_FrameRateCompatibility",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/android/native_window.h",
    "underlying_type" : "_ZTIj"
@@ -3246,10 +3247,67 @@
    ],
    "linker_set_key" : "_ZTI37ANativeWindow_ChangeFrameRateStrategy",
    "name" : "ANativeWindow_ChangeFrameRateStrategy",
-   "referenced_type" : "_ZTI37ANativeWindow_ChangeFrameRateStrategy",
-   "self_type" : "_ZTI37ANativeWindow_ChangeFrameRateStrategy",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/android/native_window.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 5,
+     "name" : "AHARDWAREBUFFER_FORMAT_B8G8R8A8_UNORM"
+    },
+    {
+     "enum_field_value" : 842094169,
+     "name" : "AHARDWAREBUFFER_FORMAT_YV12"
+    },
+    {
+     "enum_field_value" : 538982489,
+     "name" : "AHARDWAREBUFFER_FORMAT_Y8"
+    },
+    {
+     "enum_field_value" : 540422489,
+     "name" : "AHARDWAREBUFFER_FORMAT_Y16"
+    },
+    {
+     "enum_field_value" : 32,
+     "name" : "AHARDWAREBUFFER_FORMAT_RAW16"
+    },
+    {
+     "enum_field_value" : 37,
+     "name" : "AHARDWAREBUFFER_FORMAT_RAW10"
+    },
+    {
+     "enum_field_value" : 38,
+     "name" : "AHARDWAREBUFFER_FORMAT_RAW12"
+    },
+    {
+     "enum_field_value" : 36,
+     "name" : "AHARDWAREBUFFER_FORMAT_RAW_OPAQUE"
+    },
+    {
+     "enum_field_value" : 34,
+     "name" : "AHARDWAREBUFFER_FORMAT_IMPLEMENTATION_DEFINED"
+    },
+    {
+     "enum_field_value" : 16,
+     "name" : "AHARDWAREBUFFER_FORMAT_YCbCr_422_SP"
+    },
+    {
+     "enum_field_value" : 17,
+     "name" : "AHARDWAREBUFFER_FORMAT_YCrCb_420_SP"
+    },
+    {
+     "enum_field_value" : 20,
+     "name" : "AHARDWAREBUFFER_FORMAT_YCbCr_422_I"
+    }
+   ],
+   "linker_set_key" : "_ZTI38$AHARDWAREBUFFER_FORMAT_B8G8R8A8_UNORM",
+   "name" : "(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -3275,8 +3333,6 @@
    ],
    "linker_set_key" : "_ZTI39acamera_metadata_enum_acamera_edge_mode",
    "name" : "acamera_metadata_enum_acamera_edge_mode",
-   "referenced_type" : "_ZTI39acamera_metadata_enum_acamera_edge_mode",
-   "self_type" : "_ZTI39acamera_metadata_enum_acamera_edge_mode",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -3300,8 +3356,6 @@
    ],
    "linker_set_key" : "_ZTI40acamera_metadata_enum_acamera_flash_mode",
    "name" : "acamera_metadata_enum_acamera_flash_mode",
-   "referenced_type" : "_ZTI40acamera_metadata_enum_acamera_flash_mode",
-   "self_type" : "_ZTI40acamera_metadata_enum_acamera_flash_mode",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -3321,8 +3375,6 @@
    ],
    "linker_set_key" : "_ZTI40acamera_metadata_enum_acamera_lens_state",
    "name" : "acamera_metadata_enum_acamera_lens_state",
-   "referenced_type" : "_ZTI40acamera_metadata_enum_acamera_lens_state",
-   "self_type" : "_ZTI40acamera_metadata_enum_acamera_lens_state",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -3354,8 +3406,6 @@
    ],
    "linker_set_key" : "_ZTI41acamera_metadata_enum_acamera_flash_state",
    "name" : "acamera_metadata_enum_acamera_flash_state",
-   "referenced_type" : "_ZTI41acamera_metadata_enum_acamera_flash_state",
-   "self_type" : "_ZTI41acamera_metadata_enum_acamera_flash_state",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -3379,8 +3429,6 @@
    ],
    "linker_set_key" : "_ZTI41acamera_metadata_enum_acamera_lens_facing",
    "name" : "acamera_metadata_enum_acamera_lens_facing",
-   "referenced_type" : "_ZTI41acamera_metadata_enum_acamera_lens_facing",
-   "self_type" : "_ZTI41acamera_metadata_enum_acamera_lens_facing",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -3416,8 +3464,6 @@
    ],
    "linker_set_key" : "_ZTI42$ANATIVEWINDOW_FRAME_RATE_CATEGORY_DEFAULT",
    "name" : "(unnamed)",
-   "referenced_type" : "_ZTI42$ANATIVEWINDOW_FRAME_RATE_CATEGORY_DEFAULT",
-   "self_type" : "_ZTI42$ANATIVEWINDOW_FRAME_RATE_CATEGORY_DEFAULT",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h",
    "underlying_type" : "_ZTIj"
@@ -3449,8 +3495,6 @@
    ],
    "linker_set_key" : "_ZTI42acamera_metadata_enum_acamera_control_mode",
    "name" : "acamera_metadata_enum_acamera_control_mode",
-   "referenced_type" : "_ZTI42acamera_metadata_enum_acamera_control_mode",
-   "self_type" : "_ZTI42acamera_metadata_enum_acamera_control_mode",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -3474,8 +3518,6 @@
    ],
    "linker_set_key" : "_ZTI42acamera_metadata_enum_acamera_shading_mode",
    "name" : "acamera_metadata_enum_acamera_shading_mode",
-   "referenced_type" : "_ZTI42acamera_metadata_enum_acamera_shading_mode",
-   "self_type" : "_ZTI42acamera_metadata_enum_acamera_shading_mode",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -3507,8 +3549,6 @@
    ],
    "linker_set_key" : "_ZTI42acamera_metadata_enum_acamera_tonemap_mode",
    "name" : "acamera_metadata_enum_acamera_tonemap_mode",
-   "referenced_type" : "_ZTI42acamera_metadata_enum_acamera_tonemap_mode",
-   "self_type" : "_ZTI42acamera_metadata_enum_acamera_tonemap_mode",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -3532,8 +3572,6 @@
    ],
    "linker_set_key" : "_ZTI44acamera_metadata_enum_acamera_hot_pixel_mode",
    "name" : "acamera_metadata_enum_acamera_hot_pixel_mode",
-   "referenced_type" : "_ZTI44acamera_metadata_enum_acamera_hot_pixel_mode",
-   "self_type" : "_ZTI44acamera_metadata_enum_acamera_hot_pixel_mode",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -3553,8 +3591,6 @@
    ],
    "linker_set_key" : "_ZTI45acamera_metadata_enum_acamera_control_ae_lock",
    "name" : "acamera_metadata_enum_acamera_control_ae_lock",
-   "referenced_type" : "_ZTI45acamera_metadata_enum_acamera_control_ae_lock",
-   "self_type" : "_ZTI45acamera_metadata_enum_acamera_control_ae_lock",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -3594,8 +3630,6 @@
    ],
    "linker_set_key" : "_ZTI45acamera_metadata_enum_acamera_control_ae_mode",
    "name" : "acamera_metadata_enum_acamera_control_ae_mode",
-   "referenced_type" : "_ZTI45acamera_metadata_enum_acamera_control_ae_mode",
-   "self_type" : "_ZTI45acamera_metadata_enum_acamera_control_ae_mode",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -3631,8 +3665,6 @@
    ],
    "linker_set_key" : "_ZTI45acamera_metadata_enum_acamera_control_af_mode",
    "name" : "acamera_metadata_enum_acamera_control_af_mode",
-   "referenced_type" : "_ZTI45acamera_metadata_enum_acamera_control_af_mode",
-   "self_type" : "_ZTI45acamera_metadata_enum_acamera_control_af_mode",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -3652,8 +3684,6 @@
    ],
    "linker_set_key" : "_ZTI46acamera_metadata_enum_acamera_black_level_lock",
    "name" : "acamera_metadata_enum_acamera_black_level_lock",
-   "referenced_type" : "_ZTI46acamera_metadata_enum_acamera_black_level_lock",
-   "self_type" : "_ZTI46acamera_metadata_enum_acamera_black_level_lock",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -3689,8 +3719,6 @@
    ],
    "linker_set_key" : "_ZTI46acamera_metadata_enum_acamera_control_ae_state",
    "name" : "acamera_metadata_enum_acamera_control_ae_state",
-   "referenced_type" : "_ZTI46acamera_metadata_enum_acamera_control_ae_state",
-   "self_type" : "_ZTI46acamera_metadata_enum_acamera_control_ae_state",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -3730,8 +3758,6 @@
    ],
    "linker_set_key" : "_ZTI46acamera_metadata_enum_acamera_control_af_state",
    "name" : "acamera_metadata_enum_acamera_control_af_state",
-   "referenced_type" : "_ZTI46acamera_metadata_enum_acamera_control_af_state",
-   "self_type" : "_ZTI46acamera_metadata_enum_acamera_control_af_state",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -3751,8 +3777,6 @@
    ],
    "linker_set_key" : "_ZTI46acamera_metadata_enum_acamera_control_awb_lock",
    "name" : "acamera_metadata_enum_acamera_control_awb_lock",
-   "referenced_type" : "_ZTI46acamera_metadata_enum_acamera_control_awb_lock",
-   "self_type" : "_ZTI46acamera_metadata_enum_acamera_control_awb_lock",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -3800,8 +3824,6 @@
    ],
    "linker_set_key" : "_ZTI46acamera_metadata_enum_acamera_control_awb_mode",
    "name" : "acamera_metadata_enum_acamera_control_awb_mode",
-   "referenced_type" : "_ZTI46acamera_metadata_enum_acamera_control_awb_mode",
-   "self_type" : "_ZTI46acamera_metadata_enum_acamera_control_awb_mode",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -3821,8 +3843,6 @@
    ],
    "linker_set_key" : "_ZTI46acamera_metadata_enum_acamera_sync_max_latency",
    "name" : "acamera_metadata_enum_acamera_sync_max_latency",
-   "referenced_type" : "_ZTI46acamera_metadata_enum_acamera_sync_max_latency",
-   "self_type" : "_ZTI46acamera_metadata_enum_acamera_sync_max_latency",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIi"
@@ -3850,8 +3870,6 @@
    ],
    "linker_set_key" : "_ZTI47acamera_metadata_enum_acamera_control_awb_state",
    "name" : "acamera_metadata_enum_acamera_control_awb_state",
-   "referenced_type" : "_ZTI47acamera_metadata_enum_acamera_control_awb_state",
-   "self_type" : "_ZTI47acamera_metadata_enum_acamera_control_awb_state",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -3871,8 +3889,6 @@
    ],
    "linker_set_key" : "_ZTI47acamera_metadata_enum_acamera_sensor_pixel_mode",
    "name" : "acamera_metadata_enum_acamera_sensor_pixel_mode",
-   "referenced_type" : "_ZTI47acamera_metadata_enum_acamera_sensor_pixel_mode",
-   "self_type" : "_ZTI47acamera_metadata_enum_acamera_sensor_pixel_mode",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -3892,8 +3908,6 @@
    ],
    "linker_set_key" : "_ZTI47acamera_metadata_enum_acamera_sync_frame_number",
    "name" : "acamera_metadata_enum_acamera_sync_frame_number",
-   "referenced_type" : "_ZTI47acamera_metadata_enum_acamera_sync_frame_number",
-   "self_type" : "_ZTI47acamera_metadata_enum_acamera_sync_frame_number",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIi"
@@ -3917,8 +3931,6 @@
    ],
    "linker_set_key" : "_ZTI48acamera_metadata_enum_acamera_control_af_trigger",
    "name" : "acamera_metadata_enum_acamera_control_af_trigger",
-   "referenced_type" : "_ZTI48acamera_metadata_enum_acamera_control_af_trigger",
-   "self_type" : "_ZTI48acamera_metadata_enum_acamera_control_af_trigger",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -3938,8 +3950,6 @@
    ],
    "linker_set_key" : "_ZTI48acamera_metadata_enum_acamera_control_enable_zsl",
    "name" : "acamera_metadata_enum_acamera_control_enable_zsl",
-   "referenced_type" : "_ZTI48acamera_metadata_enum_acamera_control_enable_zsl",
-   "self_type" : "_ZTI48acamera_metadata_enum_acamera_control_enable_zsl",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4023,8 +4033,6 @@
    ],
    "linker_set_key" : "_ZTI48acamera_metadata_enum_acamera_control_scene_mode",
    "name" : "acamera_metadata_enum_acamera_control_scene_mode",
-   "referenced_type" : "_ZTI48acamera_metadata_enum_acamera_control_scene_mode",
-   "self_type" : "_ZTI48acamera_metadata_enum_acamera_control_scene_mode",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4080,8 +4088,6 @@
    ],
    "linker_set_key" : "_ZTI49acamera_metadata_enum_acamera_automotive_location",
    "name" : "acamera_metadata_enum_acamera_automotive_location",
-   "referenced_type" : "_ZTI49acamera_metadata_enum_acamera_automotive_location",
-   "self_type" : "_ZTI49acamera_metadata_enum_acamera_automotive_location",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4101,8 +4107,6 @@
    ],
    "linker_set_key" : "_ZTI49acamera_metadata_enum_acamera_control_autoframing",
    "name" : "acamera_metadata_enum_acamera_control_autoframing",
-   "referenced_type" : "_ZTI49acamera_metadata_enum_acamera_control_autoframing",
-   "self_type" : "_ZTI49acamera_metadata_enum_acamera_control_autoframing",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4150,8 +4154,6 @@
    ],
    "linker_set_key" : "_ZTI49acamera_metadata_enum_acamera_control_effect_mode",
    "name" : "acamera_metadata_enum_acamera_control_effect_mode",
-   "referenced_type" : "_ZTI49acamera_metadata_enum_acamera_control_effect_mode",
-   "self_type" : "_ZTI49acamera_metadata_enum_acamera_control_effect_mode",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4179,8 +4181,6 @@
    ],
    "linker_set_key" : "_ZTI49acamera_metadata_enum_acamera_lens_pose_reference",
    "name" : "acamera_metadata_enum_acamera_lens_pose_reference",
-   "referenced_type" : "_ZTI49acamera_metadata_enum_acamera_lens_pose_reference",
-   "self_type" : "_ZTI49acamera_metadata_enum_acamera_lens_pose_reference",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4200,8 +4200,6 @@
    ],
    "linker_set_key" : "_ZTI50acamera_metadata_enum_acamera_flash_info_available",
    "name" : "acamera_metadata_enum_acamera_flash_info_available",
-   "referenced_type" : "_ZTI50acamera_metadata_enum_acamera_flash_info_available",
-   "self_type" : "_ZTI50acamera_metadata_enum_acamera_flash_info_available",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4233,8 +4231,6 @@
    ],
    "linker_set_key" : "_ZTI50acamera_metadata_enum_acamera_noise_reduction_mode",
    "name" : "acamera_metadata_enum_acamera_noise_reduction_mode",
-   "referenced_type" : "_ZTI50acamera_metadata_enum_acamera_noise_reduction_mode",
-   "self_type" : "_ZTI50acamera_metadata_enum_acamera_noise_reduction_mode",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4254,8 +4250,6 @@
    ],
    "linker_set_key" : "_ZTI50acamera_metadata_enum_acamera_scaler_cropping_type",
    "name" : "acamera_metadata_enum_acamera_scaler_cropping_type",
-   "referenced_type" : "_ZTI50acamera_metadata_enum_acamera_scaler_cropping_type",
-   "self_type" : "_ZTI50acamera_metadata_enum_acamera_scaler_cropping_type",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4275,8 +4269,6 @@
    ],
    "linker_set_key" : "_ZTI50acamera_metadata_enum_acamera_tonemap_preset_curve",
    "name" : "acamera_metadata_enum_acamera_tonemap_preset_curve",
-   "referenced_type" : "_ZTI50acamera_metadata_enum_acamera_tonemap_preset_curve",
-   "self_type" : "_ZTI50acamera_metadata_enum_acamera_tonemap_preset_curve",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4300,8 +4292,6 @@
    ],
    "linker_set_key" : "_ZTI51acamera_metadata_enum_acamera_color_correction_mode",
    "name" : "acamera_metadata_enum_acamera_color_correction_mode",
-   "referenced_type" : "_ZTI51acamera_metadata_enum_acamera_color_correction_mode",
-   "self_type" : "_ZTI51acamera_metadata_enum_acamera_color_correction_mode",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4373,8 +4363,6 @@
    ],
    "linker_set_key" : "_ZTI52acamera_metadata_enum_acamera_automotive_lens_facing",
    "name" : "acamera_metadata_enum_acamera_automotive_lens_facing",
-   "referenced_type" : "_ZTI52acamera_metadata_enum_acamera_automotive_lens_facing",
-   "self_type" : "_ZTI52acamera_metadata_enum_acamera_automotive_lens_facing",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4418,8 +4406,6 @@
    ],
    "linker_set_key" : "_ZTI52acamera_metadata_enum_acamera_control_capture_intent",
    "name" : "acamera_metadata_enum_acamera_control_capture_intent",
-   "referenced_type" : "_ZTI52acamera_metadata_enum_acamera_control_capture_intent",
-   "self_type" : "_ZTI52acamera_metadata_enum_acamera_control_capture_intent",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4451,8 +4437,6 @@
    ],
    "linker_set_key" : "_ZTI52acamera_metadata_enum_acamera_scaler_rotate_and_crop",
    "name" : "acamera_metadata_enum_acamera_scaler_rotate_and_crop",
-   "referenced_type" : "_ZTI52acamera_metadata_enum_acamera_scaler_rotate_and_crop",
-   "self_type" : "_ZTI52acamera_metadata_enum_acamera_scaler_rotate_and_crop",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4472,8 +4456,6 @@
    ],
    "linker_set_key" : "_ZTI53acamera_metadata_enum_acamera_control_af_scene_change",
    "name" : "acamera_metadata_enum_acamera_control_af_scene_change",
-   "referenced_type" : "_ZTI53acamera_metadata_enum_acamera_control_af_scene_change",
-   "self_type" : "_ZTI53acamera_metadata_enum_acamera_control_af_scene_change",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4493,8 +4475,6 @@
    ],
    "linker_set_key" : "_ZTI54acamera_metadata_enum_acamera_depth_depth_is_exclusive",
    "name" : "acamera_metadata_enum_acamera_depth_depth_is_exclusive",
-   "referenced_type" : "_ZTI54acamera_metadata_enum_acamera_depth_depth_is_exclusive",
-   "self_type" : "_ZTI54acamera_metadata_enum_acamera_depth_depth_is_exclusive",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4530,8 +4510,6 @@
    ],
    "linker_set_key" : "_ZTI54acamera_metadata_enum_acamera_sensor_test_pattern_mode",
    "name" : "acamera_metadata_enum_acamera_sensor_test_pattern_mode",
-   "referenced_type" : "_ZTI54acamera_metadata_enum_acamera_sensor_test_pattern_mode",
-   "self_type" : "_ZTI54acamera_metadata_enum_acamera_sensor_test_pattern_mode",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4551,8 +4529,6 @@
    ],
    "linker_set_key" : "_ZTI54acamera_metadata_enum_acamera_statistics_ois_data_mode",
    "name" : "acamera_metadata_enum_acamera_statistics_ois_data_mode",
-   "referenced_type" : "_ZTI54acamera_metadata_enum_acamera_statistics_ois_data_mode",
-   "self_type" : "_ZTI54acamera_metadata_enum_acamera_statistics_ois_data_mode",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4576,8 +4552,6 @@
    ],
    "linker_set_key" : "_ZTI54acamera_metadata_enum_acamera_statistics_scene_flicker",
    "name" : "acamera_metadata_enum_acamera_statistics_scene_flicker",
-   "referenced_type" : "_ZTI54acamera_metadata_enum_acamera_statistics_scene_flicker",
-   "self_type" : "_ZTI54acamera_metadata_enum_acamera_statistics_scene_flicker",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4597,8 +4571,6 @@
    ],
    "linker_set_key" : "_ZTI55acamera_metadata_enum_acamera_control_ae_lock_available",
    "name" : "acamera_metadata_enum_acamera_control_ae_lock_available",
-   "referenced_type" : "_ZTI55acamera_metadata_enum_acamera_control_ae_lock_available",
-   "self_type" : "_ZTI55acamera_metadata_enum_acamera_control_ae_lock_available",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4622,8 +4594,6 @@
    ],
    "linker_set_key" : "_ZTI55acamera_metadata_enum_acamera_control_autoframing_state",
    "name" : "acamera_metadata_enum_acamera_control_autoframing_state",
-   "referenced_type" : "_ZTI55acamera_metadata_enum_acamera_control_autoframing_state",
-   "self_type" : "_ZTI55acamera_metadata_enum_acamera_control_autoframing_state",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4643,8 +4613,6 @@
    ],
    "linker_set_key" : "_ZTI55acamera_metadata_enum_acamera_control_settings_override",
    "name" : "acamera_metadata_enum_acamera_control_settings_override",
-   "referenced_type" : "_ZTI55acamera_metadata_enum_acamera_control_settings_override",
-   "self_type" : "_ZTI55acamera_metadata_enum_acamera_control_settings_override",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4664,8 +4632,6 @@
    ],
    "linker_set_key" : "_ZTI56acamera_metadata_enum_acamera_control_awb_lock_available",
    "name" : "acamera_metadata_enum_acamera_control_awb_lock_available",
-   "referenced_type" : "_ZTI56acamera_metadata_enum_acamera_control_awb_lock_available",
-   "self_type" : "_ZTI56acamera_metadata_enum_acamera_control_awb_lock_available",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4689,8 +4655,6 @@
    ],
    "linker_set_key" : "_ZTI56acamera_metadata_enum_acamera_distortion_correction_mode",
    "name" : "acamera_metadata_enum_acamera_distortion_correction_mode",
-   "referenced_type" : "_ZTI56acamera_metadata_enum_acamera_distortion_correction_mode",
-   "self_type" : "_ZTI56acamera_metadata_enum_acamera_distortion_correction_mode",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4718,8 +4682,6 @@
    ],
    "linker_set_key" : "_ZTI57acamera_metadata_enum_acamera_control_ae_antibanding_mode",
    "name" : "acamera_metadata_enum_acamera_control_ae_antibanding_mode",
-   "referenced_type" : "_ZTI57acamera_metadata_enum_acamera_control_ae_antibanding_mode",
-   "self_type" : "_ZTI57acamera_metadata_enum_acamera_control_ae_antibanding_mode",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4743,8 +4705,6 @@
    ],
    "linker_set_key" : "_ZTI57acamera_metadata_enum_acamera_control_extended_scene_mode",
    "name" : "acamera_metadata_enum_acamera_control_extended_scene_mode",
-   "referenced_type" : "_ZTI57acamera_metadata_enum_acamera_control_extended_scene_mode",
-   "self_type" : "_ZTI57acamera_metadata_enum_acamera_control_extended_scene_mode",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4768,8 +4728,6 @@
    ],
    "linker_set_key" : "_ZTI57acamera_metadata_enum_acamera_statistics_face_detect_mode",
    "name" : "acamera_metadata_enum_acamera_statistics_face_detect_mode",
-   "referenced_type" : "_ZTI57acamera_metadata_enum_acamera_statistics_face_detect_mode",
-   "self_type" : "_ZTI57acamera_metadata_enum_acamera_statistics_face_detect_mode",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4789,8 +4747,6 @@
    ],
    "linker_set_key" : "_ZTI58acamera_metadata_enum_acamera_sensor_info_timestamp_source",
    "name" : "acamera_metadata_enum_acamera_sensor_info_timestamp_source",
-   "referenced_type" : "_ZTI58acamera_metadata_enum_acamera_sensor_info_timestamp_source",
-   "self_type" : "_ZTI58acamera_metadata_enum_acamera_sensor_info_timestamp_source",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4878,8 +4834,6 @@
    ],
    "linker_set_key" : "_ZTI58acamera_metadata_enum_acamera_sensor_reference_illuminant1",
    "name" : "acamera_metadata_enum_acamera_sensor_reference_illuminant1",
-   "referenced_type" : "_ZTI58acamera_metadata_enum_acamera_sensor_reference_illuminant1",
-   "self_type" : "_ZTI58acamera_metadata_enum_acamera_sensor_reference_illuminant1",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4903,8 +4857,6 @@
    ],
    "linker_set_key" : "_ZTI59acamera_metadata_enum_acamera_control_ae_precapture_trigger",
    "name" : "acamera_metadata_enum_acamera_control_ae_precapture_trigger",
-   "referenced_type" : "_ZTI59acamera_metadata_enum_acamera_control_ae_precapture_trigger",
-   "self_type" : "_ZTI59acamera_metadata_enum_acamera_control_ae_precapture_trigger",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4924,8 +4876,6 @@
    ],
    "linker_set_key" : "_ZTI59acamera_metadata_enum_acamera_control_autoframing_available",
    "name" : "acamera_metadata_enum_acamera_control_autoframing_available",
-   "referenced_type" : "_ZTI59acamera_metadata_enum_acamera_control_autoframing_available",
-   "self_type" : "_ZTI59acamera_metadata_enum_acamera_control_autoframing_available",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4945,8 +4895,6 @@
    ],
    "linker_set_key" : "_ZTI59acamera_metadata_enum_acamera_control_low_light_boost_state",
    "name" : "acamera_metadata_enum_acamera_control_low_light_boost_state",
-   "referenced_type" : "_ZTI59acamera_metadata_enum_acamera_control_low_light_boost_state",
-   "self_type" : "_ZTI59acamera_metadata_enum_acamera_control_low_light_boost_state",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4978,8 +4926,6 @@
    ],
    "linker_set_key" : "_ZTI59acamera_metadata_enum_acamera_info_supported_hardware_level",
    "name" : "acamera_metadata_enum_acamera_info_supported_hardware_level",
-   "referenced_type" : "_ZTI59acamera_metadata_enum_acamera_info_supported_hardware_level",
-   "self_type" : "_ZTI59acamera_metadata_enum_acamera_info_supported_hardware_level",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -4999,8 +4945,6 @@
    ],
    "linker_set_key" : "_ZTI59acamera_metadata_enum_acamera_statistics_hot_pixel_map_mode",
    "name" : "acamera_metadata_enum_acamera_statistics_hot_pixel_map_mode",
-   "referenced_type" : "_ZTI59acamera_metadata_enum_acamera_statistics_hot_pixel_map_mode",
-   "self_type" : "_ZTI59acamera_metadata_enum_acamera_statistics_hot_pixel_map_mode",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5068,8 +5012,6 @@
    ],
    "linker_set_key" : "_ZTI60acamera_metadata_enum_acamera_request_available_capabilities",
    "name" : "acamera_metadata_enum_acamera_request_available_capabilities",
-   "referenced_type" : "_ZTI60acamera_metadata_enum_acamera_request_available_capabilities",
-   "self_type" : "_ZTI60acamera_metadata_enum_acamera_request_available_capabilities",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5089,8 +5031,6 @@
    ],
    "linker_set_key" : "_ZTI60acamera_metadata_enum_acamera_sensor_raw_binning_factor_used",
    "name" : "acamera_metadata_enum_acamera_sensor_raw_binning_factor_used",
-   "referenced_type" : "_ZTI60acamera_metadata_enum_acamera_sensor_raw_binning_factor_used",
-   "self_type" : "_ZTI60acamera_metadata_enum_acamera_sensor_raw_binning_factor_used",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5110,8 +5050,6 @@
    ],
    "linker_set_key" : "_ZTI61acamera_metadata_enum_acamera_lens_optical_stabilization_mode",
    "name" : "acamera_metadata_enum_acamera_lens_optical_stabilization_mode",
-   "referenced_type" : "_ZTI61acamera_metadata_enum_acamera_lens_optical_stabilization_mode",
-   "self_type" : "_ZTI61acamera_metadata_enum_acamera_lens_optical_stabilization_mode",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5135,8 +5073,6 @@
    ],
    "linker_set_key" : "_ZTI62$ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_OVERRIDE_CHILDREN",
    "name" : "(unnamed)",
-   "referenced_type" : "_ZTI62$ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_OVERRIDE_CHILDREN",
-   "self_type" : "_ZTI62$ANATIVEWINDOW_FRAME_RATE_SELECTION_STRATEGY_OVERRIDE_CHILDREN",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h",
    "underlying_type" : "_ZTIj"
@@ -5160,8 +5096,6 @@
    ],
    "linker_set_key" : "_ZTI62acamera_metadata_enum_acamera_color_correction_aberration_mode",
    "name" : "acamera_metadata_enum_acamera_color_correction_aberration_mode",
-   "referenced_type" : "_ZTI62acamera_metadata_enum_acamera_color_correction_aberration_mode",
-   "self_type" : "_ZTI62acamera_metadata_enum_acamera_color_correction_aberration_mode",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5185,8 +5119,6 @@
    ],
    "linker_set_key" : "_ZTI62acamera_metadata_enum_acamera_control_video_stabilization_mode",
    "name" : "acamera_metadata_enum_acamera_control_video_stabilization_mode",
-   "referenced_type" : "_ZTI62acamera_metadata_enum_acamera_control_video_stabilization_mode",
-   "self_type" : "_ZTI62acamera_metadata_enum_acamera_control_video_stabilization_mode",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5206,8 +5138,6 @@
    ],
    "linker_set_key" : "_ZTI62acamera_metadata_enum_acamera_sensor_info_lens_shading_applied",
    "name" : "acamera_metadata_enum_acamera_sensor_info_lens_shading_applied",
-   "referenced_type" : "_ZTI62acamera_metadata_enum_acamera_sensor_info_lens_shading_applied",
-   "self_type" : "_ZTI62acamera_metadata_enum_acamera_sensor_info_lens_shading_applied",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5227,8 +5157,6 @@
    ],
    "linker_set_key" : "_ZTI62acamera_metadata_enum_acamera_statistics_lens_shading_map_mode",
    "name" : "acamera_metadata_enum_acamera_statistics_lens_shading_map_mode",
-   "referenced_type" : "_ZTI62acamera_metadata_enum_acamera_statistics_lens_shading_map_mode",
-   "self_type" : "_ZTI62acamera_metadata_enum_acamera_statistics_lens_shading_map_mode",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5268,8 +5196,6 @@
    ],
    "linker_set_key" : "_ZTI63acamera_metadata_enum_acamera_scaler_available_stream_use_cases",
    "name" : "acamera_metadata_enum_acamera_scaler_available_stream_use_cases",
-   "referenced_type" : "_ZTI63acamera_metadata_enum_acamera_scaler_available_stream_use_cases",
-   "self_type" : "_ZTI63acamera_metadata_enum_acamera_scaler_available_stream_use_cases",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5293,8 +5219,6 @@
    ],
    "linker_set_key" : "_ZTI66acamera_metadata_enum_acamera_lens_info_focus_distance_calibration",
    "name" : "acamera_metadata_enum_acamera_lens_info_focus_distance_calibration",
-   "referenced_type" : "_ZTI66acamera_metadata_enum_acamera_lens_info_focus_distance_calibration",
-   "self_type" : "_ZTI66acamera_metadata_enum_acamera_lens_info_focus_distance_calibration",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5334,8 +5258,6 @@
    ],
    "linker_set_key" : "_ZTI66acamera_metadata_enum_acamera_sensor_info_color_filter_arrangement",
    "name" : "acamera_metadata_enum_acamera_sensor_info_color_filter_arrangement",
-   "referenced_type" : "_ZTI66acamera_metadata_enum_acamera_sensor_info_color_filter_arrangement",
-   "self_type" : "_ZTI66acamera_metadata_enum_acamera_sensor_info_color_filter_arrangement",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5355,8 +5277,6 @@
    ],
    "linker_set_key" : "_ZTI67acamera_metadata_enum_acamera_logical_multi_camera_sensor_sync_type",
    "name" : "acamera_metadata_enum_acamera_logical_multi_camera_sensor_sync_type",
-   "referenced_type" : "_ZTI67acamera_metadata_enum_acamera_logical_multi_camera_sensor_sync_type",
-   "self_type" : "_ZTI67acamera_metadata_enum_acamera_logical_multi_camera_sensor_sync_type",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5376,8 +5296,6 @@
    ],
    "linker_set_key" : "_ZTI68acamera_metadata_enum_acamera_scaler_available_stream_configurations",
    "name" : "acamera_metadata_enum_acamera_scaler_available_stream_configurations",
-   "referenced_type" : "_ZTI68acamera_metadata_enum_acamera_scaler_available_stream_configurations",
-   "self_type" : "_ZTI68acamera_metadata_enum_acamera_scaler_available_stream_configurations",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5397,8 +5315,6 @@
    ],
    "linker_set_key" : "_ZTI70acamera_metadata_enum_acamera_scaler_multi_resolution_stream_supported",
    "name" : "acamera_metadata_enum_acamera_scaler_multi_resolution_stream_supported",
-   "referenced_type" : "_ZTI70acamera_metadata_enum_acamera_scaler_multi_resolution_stream_supported",
-   "self_type" : "_ZTI70acamera_metadata_enum_acamera_scaler_multi_resolution_stream_supported",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5418,8 +5334,6 @@
    ],
    "linker_set_key" : "_ZTI71acamera_metadata_enum_acamera_heic_available_heic_stream_configurations",
    "name" : "acamera_metadata_enum_acamera_heic_available_heic_stream_configurations",
-   "referenced_type" : "_ZTI71acamera_metadata_enum_acamera_heic_available_heic_stream_configurations",
-   "self_type" : "_ZTI71acamera_metadata_enum_acamera_heic_available_heic_stream_configurations",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5447,8 +5361,6 @@
    ],
    "linker_set_key" : "_ZTI72acamera_metadata_enum_acamera_request_available_color_space_profiles_map",
    "name" : "acamera_metadata_enum_acamera_request_available_color_space_profiles_map",
-   "referenced_type" : "_ZTI72acamera_metadata_enum_acamera_request_available_color_space_profiles_map",
-   "self_type" : "_ZTI72acamera_metadata_enum_acamera_request_available_color_space_profiles_map",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIi"
@@ -5468,8 +5380,6 @@
    ],
    "linker_set_key" : "_ZTI73acamera_metadata_enum_acamera_depth_available_depth_stream_configurations",
    "name" : "acamera_metadata_enum_acamera_depth_available_depth_stream_configurations",
-   "referenced_type" : "_ZTI73acamera_metadata_enum_acamera_depth_available_depth_stream_configurations",
-   "self_type" : "_ZTI73acamera_metadata_enum_acamera_depth_available_depth_stream_configurations",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5489,8 +5399,6 @@
    ],
    "linker_set_key" : "_ZTI74acamera_metadata_enum_acamera_jpegr_available_jpeg_r_stream_configurations",
    "name" : "acamera_metadata_enum_acamera_jpegr_available_jpeg_r_stream_configurations",
-   "referenced_type" : "_ZTI74acamera_metadata_enum_acamera_jpegr_available_jpeg_r_stream_configurations",
-   "self_type" : "_ZTI74acamera_metadata_enum_acamera_jpegr_available_jpeg_r_stream_configurations",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5554,8 +5462,6 @@
    ],
    "linker_set_key" : "_ZTI74acamera_metadata_enum_acamera_request_available_dynamic_range_profiles_map",
    "name" : "acamera_metadata_enum_acamera_request_available_dynamic_range_profiles_map",
-   "referenced_type" : "_ZTI74acamera_metadata_enum_acamera_request_available_dynamic_range_profiles_map",
-   "self_type" : "_ZTI74acamera_metadata_enum_acamera_request_available_dynamic_range_profiles_map",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5611,8 +5517,6 @@
    ],
    "linker_set_key" : "_ZTI80acamera_metadata_enum_acamera_scaler_available_recommended_stream_configurations",
    "name" : "acamera_metadata_enum_acamera_scaler_available_recommended_stream_configurations",
-   "referenced_type" : "_ZTI80acamera_metadata_enum_acamera_scaler_available_recommended_stream_configurations",
-   "self_type" : "_ZTI80acamera_metadata_enum_acamera_scaler_available_recommended_stream_configurations",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5632,8 +5536,6 @@
    ],
    "linker_set_key" : "_ZTI81acamera_metadata_enum_acamera_depth_available_dynamic_depth_stream_configurations",
    "name" : "acamera_metadata_enum_acamera_depth_available_dynamic_depth_stream_configurations",
-   "referenced_type" : "_ZTI81acamera_metadata_enum_acamera_depth_available_dynamic_depth_stream_configurations",
-   "self_type" : "_ZTI81acamera_metadata_enum_acamera_depth_available_dynamic_depth_stream_configurations",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5653,8 +5555,6 @@
    ],
    "linker_set_key" : "_ZTI87acamera_metadata_enum_acamera_scaler_available_stream_configurations_maximum_resolution",
    "name" : "acamera_metadata_enum_acamera_scaler_available_stream_configurations_maximum_resolution",
-   "referenced_type" : "_ZTI87acamera_metadata_enum_acamera_scaler_available_stream_configurations_maximum_resolution",
-   "self_type" : "_ZTI87acamera_metadata_enum_acamera_scaler_available_stream_configurations_maximum_resolution",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5674,8 +5574,6 @@
    ],
    "linker_set_key" : "_ZTI90acamera_metadata_enum_acamera_heic_available_heic_stream_configurations_maximum_resolution",
    "name" : "acamera_metadata_enum_acamera_heic_available_heic_stream_configurations_maximum_resolution",
-   "referenced_type" : "_ZTI90acamera_metadata_enum_acamera_heic_available_heic_stream_configurations_maximum_resolution",
-   "self_type" : "_ZTI90acamera_metadata_enum_acamera_heic_available_heic_stream_configurations_maximum_resolution",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5695,8 +5593,6 @@
    ],
    "linker_set_key" : "_ZTI91acamera_metadata_enum_acamera_scaler_physical_camera_multi_resolution_stream_configurations",
    "name" : "acamera_metadata_enum_acamera_scaler_physical_camera_multi_resolution_stream_configurations",
-   "referenced_type" : "_ZTI91acamera_metadata_enum_acamera_scaler_physical_camera_multi_resolution_stream_configurations",
-   "self_type" : "_ZTI91acamera_metadata_enum_acamera_scaler_physical_camera_multi_resolution_stream_configurations",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5716,8 +5612,6 @@
    ],
    "linker_set_key" : "_ZTI92acamera_metadata_enum_acamera_depth_available_depth_stream_configurations_maximum_resolution",
    "name" : "acamera_metadata_enum_acamera_depth_available_depth_stream_configurations_maximum_resolution",
-   "referenced_type" : "_ZTI92acamera_metadata_enum_acamera_depth_available_depth_stream_configurations_maximum_resolution",
-   "self_type" : "_ZTI92acamera_metadata_enum_acamera_depth_available_depth_stream_configurations_maximum_resolution",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5737,8 +5631,6 @@
    ],
    "linker_set_key" : "_ZTI93acamera_metadata_enum_acamera_jpegr_available_jpeg_r_stream_configurations_maximum_resolution",
    "name" : "acamera_metadata_enum_acamera_jpegr_available_jpeg_r_stream_configurations_maximum_resolution",
-   "referenced_type" : "_ZTI93acamera_metadata_enum_acamera_jpegr_available_jpeg_r_stream_configurations_maximum_resolution",
-   "self_type" : "_ZTI93acamera_metadata_enum_acamera_jpegr_available_jpeg_r_stream_configurations_maximum_resolution",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIj"
@@ -5759,9 +5651,7 @@
      "referenced_type" : "_ZTIP19ANativeWindowBuffer"
     }
    ],
-   "referenced_type" : "_ZTIFiP13ANativeWindowP19ANativeWindowBufferE",
    "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiP13ANativeWindowP19ANativeWindowBufferE",
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h"
   },
   {
@@ -5780,9 +5670,7 @@
      "referenced_type" : "_ZTIi"
     }
    ],
-   "referenced_type" : "_ZTIFiP13ANativeWindowP19ANativeWindowBufferiE",
    "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiP13ANativeWindowP19ANativeWindowBufferiE",
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h"
   },
   {
@@ -5798,9 +5686,7 @@
      "referenced_type" : "_ZTIPP19ANativeWindowBuffer"
     }
    ],
-   "referenced_type" : "_ZTIFiP13ANativeWindowPP19ANativeWindowBufferE",
    "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiP13ANativeWindowPP19ANativeWindowBufferE",
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h"
   },
   {
@@ -5819,9 +5705,7 @@
      "referenced_type" : "_ZTIPi"
     }
    ],
-   "referenced_type" : "_ZTIFiP13ANativeWindowPP19ANativeWindowBufferPiE",
    "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiP13ANativeWindowPP19ANativeWindowBufferPiE",
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h"
   },
   {
@@ -5837,9 +5721,7 @@
      "referenced_type" : "_ZTIi"
     }
    ],
-   "referenced_type" : "_ZTIFiP13ANativeWindowiE",
    "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiP13ANativeWindowiE",
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h"
   },
   {
@@ -5855,9 +5737,7 @@
      "referenced_type" : "_ZTIi"
     }
    ],
-   "referenced_type" : "_ZTIFiP13ANativeWindowizE",
    "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiP13ANativeWindowizE",
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h"
   },
   {
@@ -5876,9 +5756,7 @@
      "referenced_type" : "_ZTIPi"
     }
    ],
-   "referenced_type" : "_ZTIFiPK13ANativeWindowiPiE",
    "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiPK13ANativeWindowiPiE",
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h"
   },
   {
@@ -5891,9 +5769,7 @@
      "referenced_type" : "_ZTIP21android_native_base_t"
     }
    ],
-   "referenced_type" : "_ZTIFvP21android_native_base_tE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvP21android_native_base_tE",
    "source_file" : "frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
   {
@@ -5906,9 +5782,7 @@
      "referenced_type" : "_ZTIPv"
     }
    ],
-   "referenced_type" : "_ZTIFvPvE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPvE",
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraManager.h"
   },
   {
@@ -5924,9 +5798,7 @@
      "referenced_type" : "_ZTIP13ACameraDevice"
     }
    ],
-   "referenced_type" : "_ZTIFvPvP13ACameraDeviceE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPvP13ACameraDeviceE",
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
   },
   {
@@ -5945,9 +5817,7 @@
      "referenced_type" : "_ZTIi"
     }
    ],
-   "referenced_type" : "_ZTIFvPvP13ACameraDeviceiE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPvP13ACameraDeviceiE",
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
   },
   {
@@ -5966,9 +5836,7 @@
      "referenced_type" : "_ZTIP21ACameraCaptureSession"
     }
    ],
-   "referenced_type" : "_ZTIFvPvP13ANativeWindowP21ACameraCaptureSessionE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPvP13ANativeWindowP21ACameraCaptureSessionE",
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
   {
@@ -5984,9 +5852,7 @@
      "referenced_type" : "_ZTIP21ACameraCaptureSession"
     }
    ],
-   "referenced_type" : "_ZTIFvPvP21ACameraCaptureSessionE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPvP21ACameraCaptureSessionE",
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
   {
@@ -6011,9 +5877,7 @@
      "referenced_type" : "_ZTIx"
     }
    ],
-   "referenced_type" : "_ZTIFvPvP21ACameraCaptureSessionP15ACaptureRequestP13ANativeWindowxE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPvP21ACameraCaptureSessionP15ACaptureRequestP13ANativeWindowxE",
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
   {
@@ -6035,9 +5899,7 @@
      "referenced_type" : "_ZTIP21ACameraCaptureFailure"
     }
    ],
-   "referenced_type" : "_ZTIFvPvP21ACameraCaptureSessionP15ACaptureRequestP21ACameraCaptureFailureE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPvP21ACameraCaptureSessionP15ACaptureRequestP21ACameraCaptureFailureE",
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
   {
@@ -6059,9 +5921,7 @@
      "referenced_type" : "_ZTIP28ALogicalCameraCaptureFailure"
     }
    ],
-   "referenced_type" : "_ZTIFvPvP21ACameraCaptureSessionP15ACaptureRequestP28ALogicalCameraCaptureFailureE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPvP21ACameraCaptureSessionP15ACaptureRequestP28ALogicalCameraCaptureFailureE",
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
   {
@@ -6083,9 +5943,7 @@
      "referenced_type" : "_ZTIPK15ACameraMetadata"
     }
    ],
-   "referenced_type" : "_ZTIFvPvP21ACameraCaptureSessionP15ACaptureRequestPK15ACameraMetadataE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPvP21ACameraCaptureSessionP15ACaptureRequestPK15ACameraMetadataE",
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
   {
@@ -6116,9 +5974,7 @@
      "referenced_type" : "_ZTIPPK15ACameraMetadata"
     }
    ],
-   "referenced_type" : "_ZTIFvPvP21ACameraCaptureSessionP15ACaptureRequestPK15ACameraMetadatajPPKcPS6_E",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPvP21ACameraCaptureSessionP15ACaptureRequestPK15ACameraMetadatajPPKcPS6_E",
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
   {
@@ -6140,9 +5996,7 @@
      "referenced_type" : "_ZTIx"
     }
    ],
-   "referenced_type" : "_ZTIFvPvP21ACameraCaptureSessionPK15ACaptureRequestxE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPvP21ACameraCaptureSessionPK15ACaptureRequestxE",
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
   {
@@ -6167,9 +6021,7 @@
      "referenced_type" : "_ZTIx"
     }
    ],
-   "referenced_type" : "_ZTIFvPvP21ACameraCaptureSessionPK15ACaptureRequestxxE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPvP21ACameraCaptureSessionPK15ACaptureRequestxxE",
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
   {
@@ -6188,9 +6040,7 @@
      "referenced_type" : "_ZTIi"
     }
    ],
-   "referenced_type" : "_ZTIFvPvP21ACameraCaptureSessioniE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPvP21ACameraCaptureSessioniE",
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
   {
@@ -6212,9 +6062,7 @@
      "referenced_type" : "_ZTIx"
     }
    ],
-   "referenced_type" : "_ZTIFvPvP21ACameraCaptureSessionixE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPvP21ACameraCaptureSessionixE",
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
   {
@@ -6230,9 +6078,7 @@
      "referenced_type" : "_ZTIPKc"
     }
    ],
-   "referenced_type" : "_ZTIFvPvPKcE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPvPKcE",
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraManager.h"
   },
   {
@@ -6251,9 +6097,7 @@
      "referenced_type" : "_ZTIPKc"
     }
    ],
-   "referenced_type" : "_ZTIFvPvPKcS1_E",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPvPKcS1_E",
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraManager.h"
   }
  ],
@@ -7520,7 +7364,6 @@
    "linker_set_key" : "_ZTIP13ACameraDevice",
    "name" : "ACameraDevice *",
    "referenced_type" : "_ZTI13ACameraDevice",
-   "self_type" : "_ZTIP13ACameraDevice",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
   },
@@ -7529,7 +7372,6 @@
    "linker_set_key" : "_ZTIP13ACameraIdList",
    "name" : "ACameraIdList *",
    "referenced_type" : "_ZTI13ACameraIdList",
-   "self_type" : "_ZTIP13ACameraIdList",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraManager.h"
   },
@@ -7538,7 +7380,6 @@
    "linker_set_key" : "_ZTIP13ANativeWindow",
    "name" : "ANativeWindow *",
    "referenced_type" : "_ZTI13ANativeWindow",
-   "self_type" : "_ZTIP13ANativeWindow",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/android/native_window.h"
   },
@@ -7547,7 +7388,6 @@
    "linker_set_key" : "_ZTIP14ACameraManager",
    "name" : "ACameraManager *",
    "referenced_type" : "_ZTI14ACameraManager",
-   "self_type" : "_ZTIP14ACameraManager",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraManager.h"
   },
@@ -7556,7 +7396,6 @@
    "linker_set_key" : "_ZTIP15ACameraMetadata",
    "name" : "ACameraMetadata *",
    "referenced_type" : "_ZTI15ACameraMetadata",
-   "self_type" : "_ZTIP15ACameraMetadata",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraManager.h"
   },
@@ -7565,7 +7404,6 @@
    "linker_set_key" : "_ZTIP15ACaptureRequest",
    "name" : "ACaptureRequest *",
    "referenced_type" : "_ZTI15ACaptureRequest",
-   "self_type" : "_ZTIP15ACaptureRequest",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -7574,7 +7412,6 @@
    "linker_set_key" : "_ZTIP19ACameraOutputTarget",
    "name" : "ACameraOutputTarget *",
    "referenced_type" : "_ZTI19ACameraOutputTarget",
-   "self_type" : "_ZTIP19ACameraOutputTarget",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCaptureRequest.h"
   },
@@ -7583,7 +7420,6 @@
    "linker_set_key" : "_ZTIP19ANativeWindowBuffer",
    "name" : "ANativeWindowBuffer *",
    "referenced_type" : "_ZTI19ANativeWindowBuffer",
-   "self_type" : "_ZTIP19ANativeWindowBuffer",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -7592,7 +7428,6 @@
    "linker_set_key" : "_ZTIP21ACameraCaptureFailure",
    "name" : "ACameraCaptureFailure *",
    "referenced_type" : "_ZTI21ACameraCaptureFailure",
-   "self_type" : "_ZTIP21ACameraCaptureFailure",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -7601,7 +7436,6 @@
    "linker_set_key" : "_ZTIP21ACameraCaptureSession",
    "name" : "ACameraCaptureSession *",
    "referenced_type" : "_ZTI21ACameraCaptureSession",
-   "self_type" : "_ZTIP21ACameraCaptureSession",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -7610,7 +7444,6 @@
    "linker_set_key" : "_ZTIP21ACaptureSessionOutput",
    "name" : "ACaptureSessionOutput *",
    "referenced_type" : "_ZTI21ACaptureSessionOutput",
-   "self_type" : "_ZTIP21ACaptureSessionOutput",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
   },
@@ -7619,7 +7452,6 @@
    "linker_set_key" : "_ZTIP21android_native_base_t",
    "name" : "android_native_base_t *",
    "referenced_type" : "_ZTI21android_native_base_t",
-   "self_type" : "_ZTIP21android_native_base_t",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -7628,7 +7460,6 @@
    "linker_set_key" : "_ZTIP24ACameraMetadata_rational",
    "name" : "ACameraMetadata_rational *",
    "referenced_type" : "_ZTI24ACameraMetadata_rational",
-   "self_type" : "_ZTIP24ACameraMetadata_rational",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -7637,7 +7468,6 @@
    "linker_set_key" : "_ZTIP27ACameraMetadata_const_entry",
    "name" : "ACameraMetadata_const_entry *",
    "referenced_type" : "_ZTI27ACameraMetadata_const_entry",
-   "self_type" : "_ZTIP27ACameraMetadata_const_entry",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -7646,7 +7476,6 @@
    "linker_set_key" : "_ZTIP28ACameraDevice_StateCallbacks",
    "name" : "ACameraDevice_StateCallbacks *",
    "referenced_type" : "_ZTI28ACameraDevice_StateCallbacks",
-   "self_type" : "_ZTIP28ACameraDevice_StateCallbacks",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraManager.h"
   },
@@ -7655,7 +7484,6 @@
    "linker_set_key" : "_ZTIP28ALogicalCameraCaptureFailure",
    "name" : "ALogicalCameraCaptureFailure *",
    "referenced_type" : "_ZTI28ALogicalCameraCaptureFailure",
-   "self_type" : "_ZTIP28ALogicalCameraCaptureFailure",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -7664,7 +7492,6 @@
    "linker_set_key" : "_ZTIP30ACaptureSessionOutputContainer",
    "name" : "ACaptureSessionOutputContainer *",
    "referenced_type" : "_ZTI30ACaptureSessionOutputContainer",
-   "self_type" : "_ZTIP30ACaptureSessionOutputContainer",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
   },
@@ -7673,7 +7500,6 @@
    "linker_set_key" : "_ZTIP38ACameraCaptureSession_captureCallbacks",
    "name" : "ACameraCaptureSession_captureCallbacks *",
    "referenced_type" : "_ZTI38ACameraCaptureSession_captureCallbacks",
-   "self_type" : "_ZTIP38ACameraCaptureSession_captureCallbacks",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -7682,7 +7508,6 @@
    "linker_set_key" : "_ZTIP40ACameraCaptureSession_captureCallbacksV2",
    "name" : "ACameraCaptureSession_captureCallbacksV2 *",
    "referenced_type" : "_ZTI40ACameraCaptureSession_captureCallbacksV2",
-   "self_type" : "_ZTIP40ACameraCaptureSession_captureCallbacksV2",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -7691,7 +7516,6 @@
    "linker_set_key" : "_ZTIP52ACameraCaptureSession_logicalCamera_captureCallbacks",
    "name" : "ACameraCaptureSession_logicalCamera_captureCallbacks *",
    "referenced_type" : "_ZTI52ACameraCaptureSession_logicalCamera_captureCallbacks",
-   "self_type" : "_ZTIP52ACameraCaptureSession_logicalCamera_captureCallbacks",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -7700,7 +7524,6 @@
    "linker_set_key" : "_ZTIP54ACameraCaptureSession_logicalCamera_captureCallbacksV2",
    "name" : "ACameraCaptureSession_logicalCamera_captureCallbacksV2 *",
    "referenced_type" : "_ZTI54ACameraCaptureSession_logicalCamera_captureCallbacksV2",
-   "self_type" : "_ZTIP54ACameraCaptureSession_logicalCamera_captureCallbacksV2",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -7709,7 +7532,6 @@
    "linker_set_key" : "_ZTIP7_JNIEnv",
    "name" : "_JNIEnv *",
    "referenced_type" : "_ZTI7_JNIEnv",
-   "self_type" : "_ZTIP7_JNIEnv",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -7718,7 +7540,6 @@
    "linker_set_key" : "_ZTIP8_jobject",
    "name" : "_jobject *",
    "referenced_type" : "_ZTI8_jobject",
-   "self_type" : "_ZTIP8_jobject",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -7727,7 +7548,6 @@
    "linker_set_key" : "_ZTIPFiP13ANativeWindowP19ANativeWindowBufferE",
    "name" : "int (*)(ANativeWindow *, ANativeWindowBuffer *)",
    "referenced_type" : "_ZTIFiP13ANativeWindowP19ANativeWindowBufferE",
-   "self_type" : "_ZTIPFiP13ANativeWindowP19ANativeWindowBufferE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -7736,7 +7556,6 @@
    "linker_set_key" : "_ZTIPFiP13ANativeWindowP19ANativeWindowBufferiE",
    "name" : "int (*)(ANativeWindow *, ANativeWindowBuffer *, int)",
    "referenced_type" : "_ZTIFiP13ANativeWindowP19ANativeWindowBufferiE",
-   "self_type" : "_ZTIPFiP13ANativeWindowP19ANativeWindowBufferiE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -7745,7 +7564,6 @@
    "linker_set_key" : "_ZTIPFiP13ANativeWindowPP19ANativeWindowBufferE",
    "name" : "int (*)(ANativeWindow *, ANativeWindowBuffer **)",
    "referenced_type" : "_ZTIFiP13ANativeWindowPP19ANativeWindowBufferE",
-   "self_type" : "_ZTIPFiP13ANativeWindowPP19ANativeWindowBufferE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -7754,7 +7572,6 @@
    "linker_set_key" : "_ZTIPFiP13ANativeWindowPP19ANativeWindowBufferPiE",
    "name" : "int (*)(ANativeWindow *, ANativeWindowBuffer **, int *)",
    "referenced_type" : "_ZTIFiP13ANativeWindowPP19ANativeWindowBufferPiE",
-   "self_type" : "_ZTIPFiP13ANativeWindowPP19ANativeWindowBufferPiE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -7763,7 +7580,6 @@
    "linker_set_key" : "_ZTIPFiP13ANativeWindowiE",
    "name" : "int (*)(ANativeWindow *, int)",
    "referenced_type" : "_ZTIFiP13ANativeWindowiE",
-   "self_type" : "_ZTIPFiP13ANativeWindowiE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -7772,7 +7588,6 @@
    "linker_set_key" : "_ZTIPFiP13ANativeWindowizE",
    "name" : "int (*)(ANativeWindow *, int, ...)",
    "referenced_type" : "_ZTIFiP13ANativeWindowizE",
-   "self_type" : "_ZTIPFiP13ANativeWindowizE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -7781,7 +7596,6 @@
    "linker_set_key" : "_ZTIPFiPK13ANativeWindowiPiE",
    "name" : "int (*)(const ANativeWindow *, int, int *)",
    "referenced_type" : "_ZTIFiPK13ANativeWindowiPiE",
-   "self_type" : "_ZTIPFiPK13ANativeWindowiPiE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -7790,7 +7604,6 @@
    "linker_set_key" : "_ZTIPFvP21android_native_base_tE",
    "name" : "void (*)(android_native_base_t *)",
    "referenced_type" : "_ZTIFvP21android_native_base_tE",
-   "self_type" : "_ZTIPFvP21android_native_base_tE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -7799,7 +7612,6 @@
    "linker_set_key" : "_ZTIPFvPvE",
    "name" : "void (*)(void *)",
    "referenced_type" : "_ZTIFvPvE",
-   "self_type" : "_ZTIPFvPvE",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraManager.h"
   },
@@ -7808,7 +7620,6 @@
    "linker_set_key" : "_ZTIPFvPvP13ACameraDeviceE",
    "name" : "void (*)(void *, ACameraDevice *)",
    "referenced_type" : "_ZTIFvPvP13ACameraDeviceE",
-   "self_type" : "_ZTIPFvPvP13ACameraDeviceE",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
   },
@@ -7817,7 +7628,6 @@
    "linker_set_key" : "_ZTIPFvPvP13ACameraDeviceiE",
    "name" : "void (*)(void *, ACameraDevice *, int)",
    "referenced_type" : "_ZTIFvPvP13ACameraDeviceiE",
-   "self_type" : "_ZTIPFvPvP13ACameraDeviceiE",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
   },
@@ -7826,7 +7636,6 @@
    "linker_set_key" : "_ZTIPFvPvP13ANativeWindowP21ACameraCaptureSessionE",
    "name" : "void (*)(void *, ANativeWindow *, ACameraCaptureSession *)",
    "referenced_type" : "_ZTIFvPvP13ANativeWindowP21ACameraCaptureSessionE",
-   "self_type" : "_ZTIPFvPvP13ANativeWindowP21ACameraCaptureSessionE",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -7835,7 +7644,6 @@
    "linker_set_key" : "_ZTIPFvPvP21ACameraCaptureSessionE",
    "name" : "void (*)(void *, ACameraCaptureSession *)",
    "referenced_type" : "_ZTIFvPvP21ACameraCaptureSessionE",
-   "self_type" : "_ZTIPFvPvP21ACameraCaptureSessionE",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -7844,7 +7652,6 @@
    "linker_set_key" : "_ZTIPFvPvP21ACameraCaptureSessionP15ACaptureRequestP13ANativeWindowxE",
    "name" : "void (*)(void *, ACameraCaptureSession *, ACaptureRequest *, ANativeWindow *, long long)",
    "referenced_type" : "_ZTIFvPvP21ACameraCaptureSessionP15ACaptureRequestP13ANativeWindowxE",
-   "self_type" : "_ZTIPFvPvP21ACameraCaptureSessionP15ACaptureRequestP13ANativeWindowxE",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -7853,7 +7660,6 @@
    "linker_set_key" : "_ZTIPFvPvP21ACameraCaptureSessionP15ACaptureRequestP21ACameraCaptureFailureE",
    "name" : "void (*)(void *, ACameraCaptureSession *, ACaptureRequest *, ACameraCaptureFailure *)",
    "referenced_type" : "_ZTIFvPvP21ACameraCaptureSessionP15ACaptureRequestP21ACameraCaptureFailureE",
-   "self_type" : "_ZTIPFvPvP21ACameraCaptureSessionP15ACaptureRequestP21ACameraCaptureFailureE",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -7862,7 +7668,6 @@
    "linker_set_key" : "_ZTIPFvPvP21ACameraCaptureSessionP15ACaptureRequestP28ALogicalCameraCaptureFailureE",
    "name" : "void (*)(void *, ACameraCaptureSession *, ACaptureRequest *, ALogicalCameraCaptureFailure *)",
    "referenced_type" : "_ZTIFvPvP21ACameraCaptureSessionP15ACaptureRequestP28ALogicalCameraCaptureFailureE",
-   "self_type" : "_ZTIPFvPvP21ACameraCaptureSessionP15ACaptureRequestP28ALogicalCameraCaptureFailureE",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -7871,7 +7676,6 @@
    "linker_set_key" : "_ZTIPFvPvP21ACameraCaptureSessionP15ACaptureRequestPK15ACameraMetadataE",
    "name" : "void (*)(void *, ACameraCaptureSession *, ACaptureRequest *, const ACameraMetadata *)",
    "referenced_type" : "_ZTIFvPvP21ACameraCaptureSessionP15ACaptureRequestPK15ACameraMetadataE",
-   "self_type" : "_ZTIPFvPvP21ACameraCaptureSessionP15ACaptureRequestPK15ACameraMetadataE",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -7880,7 +7684,6 @@
    "linker_set_key" : "_ZTIPFvPvP21ACameraCaptureSessionP15ACaptureRequestPK15ACameraMetadatajPPKcPS6_E",
    "name" : "void (*)(void *, ACameraCaptureSession *, ACaptureRequest *, const ACameraMetadata *, unsigned int, const char **, const ACameraMetadata **)",
    "referenced_type" : "_ZTIFvPvP21ACameraCaptureSessionP15ACaptureRequestPK15ACameraMetadatajPPKcPS6_E",
-   "self_type" : "_ZTIPFvPvP21ACameraCaptureSessionP15ACaptureRequestPK15ACameraMetadatajPPKcPS6_E",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -7889,7 +7692,6 @@
    "linker_set_key" : "_ZTIPFvPvP21ACameraCaptureSessionPK15ACaptureRequestxE",
    "name" : "void (*)(void *, ACameraCaptureSession *, const ACaptureRequest *, long long)",
    "referenced_type" : "_ZTIFvPvP21ACameraCaptureSessionPK15ACaptureRequestxE",
-   "self_type" : "_ZTIPFvPvP21ACameraCaptureSessionPK15ACaptureRequestxE",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -7898,7 +7700,6 @@
    "linker_set_key" : "_ZTIPFvPvP21ACameraCaptureSessionPK15ACaptureRequestxxE",
    "name" : "void (*)(void *, ACameraCaptureSession *, const ACaptureRequest *, long long, long long)",
    "referenced_type" : "_ZTIFvPvP21ACameraCaptureSessionPK15ACaptureRequestxxE",
-   "self_type" : "_ZTIPFvPvP21ACameraCaptureSessionPK15ACaptureRequestxxE",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -7907,7 +7708,6 @@
    "linker_set_key" : "_ZTIPFvPvP21ACameraCaptureSessioniE",
    "name" : "void (*)(void *, ACameraCaptureSession *, int)",
    "referenced_type" : "_ZTIFvPvP21ACameraCaptureSessioniE",
-   "self_type" : "_ZTIPFvPvP21ACameraCaptureSessioniE",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -7916,7 +7716,6 @@
    "linker_set_key" : "_ZTIPFvPvP21ACameraCaptureSessionixE",
    "name" : "void (*)(void *, ACameraCaptureSession *, int, long long)",
    "referenced_type" : "_ZTIFvPvP21ACameraCaptureSessionixE",
-   "self_type" : "_ZTIPFvPvP21ACameraCaptureSessionixE",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -7925,7 +7724,6 @@
    "linker_set_key" : "_ZTIPFvPvPKcE",
    "name" : "void (*)(void *, const char *)",
    "referenced_type" : "_ZTIFvPvPKcE",
-   "self_type" : "_ZTIPFvPvPKcE",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraManager.h"
   },
@@ -7934,7 +7732,6 @@
    "linker_set_key" : "_ZTIPFvPvPKcS1_E",
    "name" : "void (*)(void *, const char *, const char *)",
    "referenced_type" : "_ZTIFvPvPKcS1_E",
-   "self_type" : "_ZTIPFvPvPKcS1_E",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraManager.h"
   },
@@ -7943,7 +7740,6 @@
    "linker_set_key" : "_ZTIPK13ACameraDevice",
    "name" : "const ACameraDevice *",
    "referenced_type" : "_ZTIK13ACameraDevice",
-   "self_type" : "_ZTIPK13ACameraDevice",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
   },
@@ -7952,7 +7748,6 @@
    "linker_set_key" : "_ZTIPK13ACameraIdList",
    "name" : "const ACameraIdList *",
    "referenced_type" : "_ZTIK13ACameraIdList",
-   "self_type" : "_ZTIPK13ACameraIdList",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
   },
@@ -7961,7 +7756,6 @@
    "linker_set_key" : "_ZTIPK13ANativeWindow",
    "name" : "const ANativeWindow *",
    "referenced_type" : "_ZTIK13ANativeWindow",
-   "self_type" : "_ZTIPK13ANativeWindow",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -7970,7 +7764,6 @@
    "linker_set_key" : "_ZTIPK13native_handle",
    "name" : "const native_handle *",
    "referenced_type" : "_ZTIK13native_handle",
-   "self_type" : "_ZTIPK13native_handle",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -7979,7 +7772,6 @@
    "linker_set_key" : "_ZTIPK15ACameraMetadata",
    "name" : "const ACameraMetadata *",
    "referenced_type" : "_ZTIK15ACameraMetadata",
-   "self_type" : "_ZTIPK15ACameraMetadata",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -7988,7 +7780,6 @@
    "linker_set_key" : "_ZTIPK15ACaptureRequest",
    "name" : "const ACaptureRequest *",
    "referenced_type" : "_ZTIK15ACaptureRequest",
-   "self_type" : "_ZTIPK15ACaptureRequest",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -7997,7 +7788,6 @@
    "linker_set_key" : "_ZTIPK19ACameraOutputTarget",
    "name" : "const ACameraOutputTarget *",
    "referenced_type" : "_ZTIK19ACameraOutputTarget",
-   "self_type" : "_ZTIPK19ACameraOutputTarget",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCaptureRequest.h"
   },
@@ -8006,7 +7796,6 @@
    "linker_set_key" : "_ZTIPK19ANativeWindowBuffer",
    "name" : "const ANativeWindowBuffer *",
    "referenced_type" : "_ZTIK19ANativeWindowBuffer",
-   "self_type" : "_ZTIPK19ANativeWindowBuffer",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -8015,7 +7804,6 @@
    "linker_set_key" : "_ZTIPK21ACaptureSessionOutput",
    "name" : "const ACaptureSessionOutput *",
    "referenced_type" : "_ZTIK21ACaptureSessionOutput",
-   "self_type" : "_ZTIPK21ACaptureSessionOutput",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
   },
@@ -8024,7 +7812,6 @@
    "linker_set_key" : "_ZTIPK24ACameraMetadata_rational",
    "name" : "const ACameraMetadata_rational *",
    "referenced_type" : "_ZTIK24ACameraMetadata_rational",
-   "self_type" : "_ZTIPK24ACameraMetadata_rational",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -8033,7 +7820,6 @@
    "linker_set_key" : "_ZTIPK30ACaptureSessionOutputContainer",
    "name" : "const ACaptureSessionOutputContainer *",
    "referenced_type" : "_ZTIK30ACaptureSessionOutputContainer",
-   "self_type" : "_ZTIPK30ACaptureSessionOutputContainer",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
   },
@@ -8042,7 +7828,6 @@
    "linker_set_key" : "_ZTIPK35ACameraManager_AvailabilityListener",
    "name" : "const ACameraManager_AvailabilityListener *",
    "referenced_type" : "_ZTIK35ACameraManager_AvailabilityListener",
-   "self_type" : "_ZTIPK35ACameraManager_AvailabilityListener",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraManager.h"
   },
@@ -8051,7 +7836,6 @@
    "linker_set_key" : "_ZTIPK36ACameraCaptureSession_stateCallbacks",
    "name" : "const ACameraCaptureSession_stateCallbacks *",
    "referenced_type" : "_ZTIK36ACameraCaptureSession_stateCallbacks",
-   "self_type" : "_ZTIPK36ACameraCaptureSession_stateCallbacks",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
   },
@@ -8060,7 +7844,6 @@
    "linker_set_key" : "_ZTIPK43ACameraManager_ExtendedAvailabilityListener",
    "name" : "const ACameraManager_ExtendedAvailabilityListener *",
    "referenced_type" : "_ZTIK43ACameraManager_ExtendedAvailabilityListener",
-   "self_type" : "_ZTIPK43ACameraManager_ExtendedAvailabilityListener",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraManager.h"
   },
@@ -8069,7 +7852,6 @@
    "linker_set_key" : "_ZTIPKPKc",
    "name" : "const char *const *",
    "referenced_type" : "_ZTIKPKc",
-   "self_type" : "_ZTIPKPKc",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -8078,7 +7860,6 @@
    "linker_set_key" : "_ZTIPKc",
    "name" : "const char *",
    "referenced_type" : "_ZTIKc",
-   "self_type" : "_ZTIPKc",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -8087,7 +7868,6 @@
    "linker_set_key" : "_ZTIPKd",
    "name" : "const double *",
    "referenced_type" : "_ZTIKd",
-   "self_type" : "_ZTIPKd",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -8096,7 +7876,6 @@
    "linker_set_key" : "_ZTIPKf",
    "name" : "const float *",
    "referenced_type" : "_ZTIKf",
-   "self_type" : "_ZTIPKf",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -8105,7 +7884,6 @@
    "linker_set_key" : "_ZTIPKh",
    "name" : "const unsigned char *",
    "referenced_type" : "_ZTIKh",
-   "self_type" : "_ZTIPKh",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -8114,7 +7892,6 @@
    "linker_set_key" : "_ZTIPKi",
    "name" : "const int *",
    "referenced_type" : "_ZTIKi",
-   "self_type" : "_ZTIPKi",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -8123,7 +7900,6 @@
    "linker_set_key" : "_ZTIPKj",
    "name" : "const unsigned int *",
    "referenced_type" : "_ZTIKj",
-   "self_type" : "_ZTIPKj",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -8132,7 +7908,6 @@
    "linker_set_key" : "_ZTIPKv",
    "name" : "const void *",
    "referenced_type" : "_ZTIKv",
-   "self_type" : "_ZTIPKv",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -8141,7 +7916,6 @@
    "linker_set_key" : "_ZTIPKx",
    "name" : "const long long *",
    "referenced_type" : "_ZTIKx",
-   "self_type" : "_ZTIPKx",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -8150,7 +7924,6 @@
    "linker_set_key" : "_ZTIPP13ACameraDevice",
    "name" : "ACameraDevice **",
    "referenced_type" : "_ZTIP13ACameraDevice",
-   "self_type" : "_ZTIPP13ACameraDevice",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraManager.h"
   },
@@ -8159,7 +7932,6 @@
    "linker_set_key" : "_ZTIPP13ACameraIdList",
    "name" : "ACameraIdList **",
    "referenced_type" : "_ZTIP13ACameraIdList",
-   "self_type" : "_ZTIPP13ACameraIdList",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraManager.h"
   },
@@ -8168,7 +7940,6 @@
    "linker_set_key" : "_ZTIPP15ACameraMetadata",
    "name" : "ACameraMetadata **",
    "referenced_type" : "_ZTIP15ACameraMetadata",
-   "self_type" : "_ZTIPP15ACameraMetadata",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraManager.h"
   },
@@ -8177,7 +7948,6 @@
    "linker_set_key" : "_ZTIPP15ACaptureRequest",
    "name" : "ACaptureRequest **",
    "referenced_type" : "_ZTIP15ACaptureRequest",
-   "self_type" : "_ZTIPP15ACaptureRequest",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
   },
@@ -8186,7 +7956,6 @@
    "linker_set_key" : "_ZTIPP19ACameraOutputTarget",
    "name" : "ACameraOutputTarget **",
    "referenced_type" : "_ZTIP19ACameraOutputTarget",
-   "self_type" : "_ZTIPP19ACameraOutputTarget",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCaptureRequest.h"
   },
@@ -8195,7 +7964,6 @@
    "linker_set_key" : "_ZTIPP19ANativeWindowBuffer",
    "name" : "ANativeWindowBuffer **",
    "referenced_type" : "_ZTIP19ANativeWindowBuffer",
-   "self_type" : "_ZTIPP19ANativeWindowBuffer",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -8204,7 +7972,6 @@
    "linker_set_key" : "_ZTIPP21ACameraCaptureSession",
    "name" : "ACameraCaptureSession **",
    "referenced_type" : "_ZTIP21ACameraCaptureSession",
-   "self_type" : "_ZTIPP21ACameraCaptureSession",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
   },
@@ -8213,7 +7980,6 @@
    "linker_set_key" : "_ZTIPP21ACaptureSessionOutput",
    "name" : "ACaptureSessionOutput **",
    "referenced_type" : "_ZTIP21ACaptureSessionOutput",
-   "self_type" : "_ZTIPP21ACaptureSessionOutput",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
   },
@@ -8222,7 +7988,6 @@
    "linker_set_key" : "_ZTIPP30ACaptureSessionOutputContainer",
    "name" : "ACaptureSessionOutputContainer **",
    "referenced_type" : "_ZTIP30ACaptureSessionOutputContainer",
-   "self_type" : "_ZTIPP30ACaptureSessionOutputContainer",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
   },
@@ -8231,7 +7996,6 @@
    "linker_set_key" : "_ZTIPPK15ACameraMetadata",
    "name" : "const ACameraMetadata **",
    "referenced_type" : "_ZTIPK15ACameraMetadata",
-   "self_type" : "_ZTIPPK15ACameraMetadata",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -8240,7 +8004,6 @@
    "linker_set_key" : "_ZTIPPKPKc",
    "name" : "const char *const **",
    "referenced_type" : "_ZTIPKPKc",
-   "self_type" : "_ZTIPPKPKc",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -8249,7 +8012,6 @@
    "linker_set_key" : "_ZTIPPKc",
    "name" : "const char **",
    "referenced_type" : "_ZTIPKc",
-   "self_type" : "_ZTIPPKc",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -8258,7 +8020,6 @@
    "linker_set_key" : "_ZTIPPKj",
    "name" : "const unsigned int **",
    "referenced_type" : "_ZTIPKj",
-   "self_type" : "_ZTIPPKj",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -8267,7 +8028,6 @@
    "linker_set_key" : "_ZTIPPv",
    "name" : "void **",
    "referenced_type" : "_ZTIPv",
-   "self_type" : "_ZTIPPv",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCaptureRequest.h"
   },
@@ -8276,7 +8036,6 @@
    "linker_set_key" : "_ZTIPd",
    "name" : "double *",
    "referenced_type" : "_ZTId",
-   "self_type" : "_ZTIPd",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -8285,7 +8044,6 @@
    "linker_set_key" : "_ZTIPf",
    "name" : "float *",
    "referenced_type" : "_ZTIf",
-   "self_type" : "_ZTIPf",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -8294,7 +8052,6 @@
    "linker_set_key" : "_ZTIPh",
    "name" : "unsigned char *",
    "referenced_type" : "_ZTIh",
-   "self_type" : "_ZTIPh",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -8303,7 +8060,6 @@
    "linker_set_key" : "_ZTIPi",
    "name" : "int *",
    "referenced_type" : "_ZTIi",
-   "self_type" : "_ZTIPi",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -8312,7 +8068,6 @@
    "linker_set_key" : "_ZTIPj",
    "name" : "unsigned int *",
    "referenced_type" : "_ZTIj",
-   "self_type" : "_ZTIPj",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -8321,7 +8076,6 @@
    "linker_set_key" : "_ZTIPv",
    "name" : "void *",
    "referenced_type" : "_ZTIv",
-   "self_type" : "_ZTIPv",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
@@ -8330,7 +8084,6 @@
    "linker_set_key" : "_ZTIPx",
    "name" : "long long *",
    "referenced_type" : "_ZTIx",
-   "self_type" : "_ZTIPx",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   }
@@ -8343,7 +8096,6 @@
    "linker_set_key" : "_ZTIK13ACameraDevice",
    "name" : "const ACameraDevice",
    "referenced_type" : "_ZTI13ACameraDevice",
-   "self_type" : "_ZTIK13ACameraDevice",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
   },
@@ -8353,7 +8105,6 @@
    "linker_set_key" : "_ZTIK13ACameraIdList",
    "name" : "const ACameraIdList",
    "referenced_type" : "_ZTI13ACameraIdList",
-   "self_type" : "_ZTIK13ACameraIdList",
    "size" : 8,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
   },
@@ -8363,7 +8114,6 @@
    "linker_set_key" : "_ZTIK13ANativeWindow",
    "name" : "const ANativeWindow",
    "referenced_type" : "_ZTI13ANativeWindow",
-   "self_type" : "_ZTIK13ANativeWindow",
    "size" : 108,
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -8373,7 +8123,6 @@
    "linker_set_key" : "_ZTIK13native_handle",
    "name" : "const native_handle",
    "referenced_type" : "_ZTI13native_handle",
-   "self_type" : "_ZTIK13native_handle",
    "size" : 12,
    "source_file" : "frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -8383,7 +8132,6 @@
    "linker_set_key" : "_ZTIK15ACameraMetadata",
    "name" : "const ACameraMetadata",
    "referenced_type" : "_ZTI15ACameraMetadata",
-   "self_type" : "_ZTIK15ACameraMetadata",
    "size" : 72,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -8392,7 +8140,6 @@
    "linker_set_key" : "_ZTIK15ACaptureRequest",
    "name" : "const ACaptureRequest",
    "referenced_type" : "_ZTI15ACaptureRequest",
-   "self_type" : "_ZTIK15ACaptureRequest",
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
   {
@@ -8401,7 +8148,6 @@
    "linker_set_key" : "_ZTIK19ACameraOutputTarget",
    "name" : "const ACameraOutputTarget",
    "referenced_type" : "_ZTI19ACameraOutputTarget",
-   "self_type" : "_ZTIK19ACameraOutputTarget",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCaptureRequest.h"
   },
@@ -8411,7 +8157,6 @@
    "linker_set_key" : "_ZTIK19ANativeWindowBuffer",
    "name" : "const ANativeWindowBuffer",
    "referenced_type" : "_ZTI19ANativeWindowBuffer",
-   "self_type" : "_ZTIK19ANativeWindowBuffer",
    "size" : 96,
    "source_file" : "frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -8421,7 +8166,6 @@
    "linker_set_key" : "_ZTIK21ACaptureSessionOutput",
    "name" : "const ACaptureSessionOutput",
    "referenced_type" : "_ZTI21ACaptureSessionOutput",
-   "self_type" : "_ZTIK21ACaptureSessionOutput",
    "size" : 36,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
   },
@@ -8431,7 +8175,6 @@
    "linker_set_key" : "_ZTIK24ACameraMetadata_rational",
    "name" : "const ACameraMetadata_rational",
    "referenced_type" : "_ZTI24ACameraMetadata_rational",
-   "self_type" : "_ZTIK24ACameraMetadata_rational",
    "size" : 8,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -8441,7 +8184,6 @@
    "linker_set_key" : "_ZTIK30ACaptureSessionOutputContainer",
    "name" : "const ACaptureSessionOutputContainer",
    "referenced_type" : "_ZTI30ACaptureSessionOutputContainer",
-   "self_type" : "_ZTIK30ACaptureSessionOutputContainer",
    "size" : 12,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
   },
@@ -8451,7 +8193,6 @@
    "linker_set_key" : "_ZTIK35ACameraManager_AvailabilityListener",
    "name" : "const ACameraManager_AvailabilityListener",
    "referenced_type" : "_ZTI35ACameraManager_AvailabilityListener",
-   "self_type" : "_ZTIK35ACameraManager_AvailabilityListener",
    "size" : 12,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraManager.h"
   },
@@ -8461,7 +8202,6 @@
    "linker_set_key" : "_ZTIK36ACameraCaptureSession_stateCallbacks",
    "name" : "const ACameraCaptureSession_stateCallbacks",
    "referenced_type" : "_ZTI36ACameraCaptureSession_stateCallbacks",
-   "self_type" : "_ZTIK36ACameraCaptureSession_stateCallbacks",
    "size" : 16,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
   },
@@ -8471,7 +8211,6 @@
    "linker_set_key" : "_ZTIK43ACameraManager_ExtendedAvailabilityListener",
    "name" : "const ACameraManager_ExtendedAvailabilityListener",
    "referenced_type" : "_ZTI43ACameraManager_ExtendedAvailabilityListener",
-   "self_type" : "_ZTIK43ACameraManager_ExtendedAvailabilityListener",
    "size" : 40,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraManager.h"
   },
@@ -8481,7 +8220,6 @@
    "linker_set_key" : "_ZTIKPKc",
    "name" : "const char *const",
    "referenced_type" : "_ZTIPKc",
-   "self_type" : "_ZTIKPKc",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -8491,7 +8229,6 @@
    "linker_set_key" : "_ZTIKc",
    "name" : "const char",
    "referenced_type" : "_ZTIc",
-   "self_type" : "_ZTIKc",
    "size" : 1,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -8501,7 +8238,6 @@
    "linker_set_key" : "_ZTIKd",
    "name" : "const double",
    "referenced_type" : "_ZTId",
-   "self_type" : "_ZTIKd",
    "size" : 8,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -8511,7 +8247,6 @@
    "linker_set_key" : "_ZTIKf",
    "name" : "const float",
    "referenced_type" : "_ZTIf",
-   "self_type" : "_ZTIKf",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -8521,7 +8256,6 @@
    "linker_set_key" : "_ZTIKh",
    "name" : "const unsigned char",
    "referenced_type" : "_ZTIh",
-   "self_type" : "_ZTIKh",
    "size" : 1,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -8531,7 +8265,6 @@
    "linker_set_key" : "_ZTIKi",
    "name" : "const int",
    "referenced_type" : "_ZTIi",
-   "self_type" : "_ZTIKi",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -8541,7 +8274,6 @@
    "linker_set_key" : "_ZTIKj",
    "name" : "const unsigned int",
    "referenced_type" : "_ZTIj",
-   "self_type" : "_ZTIKj",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -8550,7 +8282,6 @@
    "linker_set_key" : "_ZTIKv",
    "name" : "const void",
    "referenced_type" : "_ZTIv",
-   "self_type" : "_ZTIKv",
    "source_file" : "frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
   {
@@ -8559,7 +8290,6 @@
    "linker_set_key" : "_ZTIKx",
    "name" : "const long long",
    "referenced_type" : "_ZTIx",
-   "self_type" : "_ZTIKx",
    "size" : 8,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   }
@@ -8582,8 +8312,6 @@
    ],
    "linker_set_key" : "_ZTI13ACameraIdList",
    "name" : "ACameraIdList",
-   "referenced_type" : "_ZTI13ACameraIdList",
-   "self_type" : "_ZTI13ACameraIdList",
    "size" : 8,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
   },
@@ -8678,8 +8406,6 @@
    ],
    "linker_set_key" : "_ZTI13ANativeWindow",
    "name" : "ANativeWindow",
-   "referenced_type" : "_ZTI13ANativeWindow",
-   "self_type" : "_ZTI13ANativeWindow",
    "size" : 108,
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -8744,8 +8470,6 @@
    ],
    "linker_set_key" : "_ZTI19ANativeWindowBuffer",
    "name" : "ANativeWindowBuffer",
-   "referenced_type" : "_ZTI19ANativeWindowBuffer",
-   "self_type" : "_ZTI19ANativeWindowBuffer",
    "size" : 96,
    "source_file" : "frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -8795,8 +8519,6 @@
    ],
    "linker_set_key" : "_ZTI20AHardwareBuffer_Desc",
    "name" : "AHardwareBuffer_Desc",
-   "referenced_type" : "_ZTI20AHardwareBuffer_Desc",
-   "self_type" : "_ZTI20AHardwareBuffer_Desc",
    "size" : 40,
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
@@ -8836,8 +8558,6 @@
    ],
    "linker_set_key" : "_ZTI20ANativeWindow_Buffer",
    "name" : "ANativeWindow_Buffer",
-   "referenced_type" : "_ZTI20ANativeWindow_Buffer",
-   "self_type" : "_ZTI20ANativeWindow_Buffer",
    "size" : 44,
    "source_file" : "frameworks/native/libs/nativewindow/include/android/native_window.h"
   },
@@ -8867,8 +8587,6 @@
    ],
    "linker_set_key" : "_ZTI21ACameraCaptureFailure",
    "name" : "ACameraCaptureFailure",
-   "referenced_type" : "_ZTI21ACameraCaptureFailure",
-   "self_type" : "_ZTI21ACameraCaptureFailure",
    "size" : 20,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -8898,8 +8616,6 @@
    ],
    "linker_set_key" : "_ZTI21ACameraMetadata_entry",
    "name" : "ACameraMetadata_entry",
-   "referenced_type" : "_ZTI21ACameraMetadata_entry",
-   "self_type" : "_ZTI21ACameraMetadata_entry",
    "size" : 16,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -8924,8 +8640,6 @@
    ],
    "linker_set_key" : "_ZTI21AHardwareBuffer_Plane",
    "name" : "AHardwareBuffer_Plane",
-   "referenced_type" : "_ZTI21AHardwareBuffer_Plane",
-   "self_type" : "_ZTI21AHardwareBuffer_Plane",
    "size" : 12,
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
@@ -8960,8 +8674,6 @@
    ],
    "linker_set_key" : "_ZTI21android_native_base_t",
    "name" : "android_native_base_t",
-   "referenced_type" : "_ZTI21android_native_base_t",
-   "self_type" : "_ZTI21android_native_base_t",
    "size" : 32,
    "source_file" : "frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -8991,8 +8703,6 @@
    ],
    "linker_set_key" : "_ZTI21android_native_rect_t",
    "name" : "android_native_rect_t",
-   "referenced_type" : "_ZTI21android_native_rect_t",
-   "self_type" : "_ZTI21android_native_rect_t",
    "size" : 16,
    "source_file" : "frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -9012,8 +8722,6 @@
    ],
    "linker_set_key" : "_ZTI22AHardwareBuffer_Planes",
    "name" : "AHardwareBuffer_Planes",
-   "referenced_type" : "_ZTI22AHardwareBuffer_Planes",
-   "self_type" : "_ZTI22AHardwareBuffer_Planes",
    "size" : 52,
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
@@ -9033,10 +8741,27 @@
    ],
    "linker_set_key" : "_ZTI24ACameraMetadata_rational",
    "name" : "ACameraMetadata_rational",
-   "referenced_type" : "_ZTI24ACameraMetadata_rational",
-   "self_type" : "_ZTI24ACameraMetadata_rational",
    "size" : 8,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "name",
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "field_name" : "value",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIx"
+    }
+   ],
+   "linker_set_key" : "_ZTI26AHardwareBufferLongOptions",
+   "name" : "AHardwareBufferLongOptions",
+   "size" : 12,
+   "source_file" : "frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h"
   },
   {
    "alignment" : 4,
@@ -9064,8 +8789,6 @@
    ],
    "linker_set_key" : "_ZTI27ACameraMetadata_const_entry",
    "name" : "ACameraMetadata_const_entry",
-   "referenced_type" : "_ZTI27ACameraMetadata_const_entry",
-   "self_type" : "_ZTI27ACameraMetadata_const_entry",
    "size" : 16,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -9090,8 +8813,6 @@
    ],
    "linker_set_key" : "_ZTI28ACameraDevice_StateCallbacks",
    "name" : "ACameraDevice_StateCallbacks",
-   "referenced_type" : "_ZTI28ACameraDevice_StateCallbacks",
-   "self_type" : "_ZTI28ACameraDevice_StateCallbacks",
    "size" : 12,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
   },
@@ -9111,8 +8832,6 @@
    ],
    "linker_set_key" : "_ZTI28ALogicalCameraCaptureFailure",
    "name" : "ALogicalCameraCaptureFailure",
-   "referenced_type" : "_ZTI28ALogicalCameraCaptureFailure",
-   "self_type" : "_ZTI28ALogicalCameraCaptureFailure",
    "size" : 24,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -9157,8 +8876,6 @@
    ],
    "linker_set_key" : "_ZTI30ANativeWindowFrameTimelineInfo",
    "name" : "ANativeWindowFrameTimelineInfo",
-   "referenced_type" : "_ZTI30ANativeWindowFrameTimelineInfo",
-   "self_type" : "_ZTI30ANativeWindowFrameTimelineInfo",
    "size" : 48,
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -9183,8 +8900,6 @@
    ],
    "linker_set_key" : "_ZTI35ACameraManager_AvailabilityListener",
    "name" : "ACameraManager_AvailabilityListener",
-   "referenced_type" : "_ZTI35ACameraManager_AvailabilityListener",
-   "self_type" : "_ZTI35ACameraManager_AvailabilityListener",
    "size" : 12,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraManager.h"
   },
@@ -9214,8 +8929,6 @@
    ],
    "linker_set_key" : "_ZTI36ACameraCaptureSession_stateCallbacks",
    "name" : "ACameraCaptureSession_stateCallbacks",
-   "referenced_type" : "_ZTI36ACameraCaptureSession_stateCallbacks",
-   "self_type" : "_ZTI36ACameraCaptureSession_stateCallbacks",
    "size" : 16,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -9265,8 +8978,6 @@
    ],
    "linker_set_key" : "_ZTI38ACameraCaptureSession_captureCallbacks",
    "name" : "ACameraCaptureSession_captureCallbacks",
-   "referenced_type" : "_ZTI38ACameraCaptureSession_captureCallbacks",
-   "self_type" : "_ZTI38ACameraCaptureSession_captureCallbacks",
    "size" : 32,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -9316,8 +9027,6 @@
    ],
    "linker_set_key" : "_ZTI40ACameraCaptureSession_captureCallbacksV2",
    "name" : "ACameraCaptureSession_captureCallbacksV2",
-   "referenced_type" : "_ZTI40ACameraCaptureSession_captureCallbacksV2",
-   "self_type" : "_ZTI40ACameraCaptureSession_captureCallbacksV2",
    "size" : 32,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -9352,8 +9061,6 @@
    ],
    "linker_set_key" : "_ZTI43ACameraManager_ExtendedAvailabilityListener",
    "name" : "ACameraManager_ExtendedAvailabilityListener",
-   "referenced_type" : "_ZTI43ACameraManager_ExtendedAvailabilityListener",
-   "self_type" : "_ZTI43ACameraManager_ExtendedAvailabilityListener",
    "size" : 40,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraManager.h"
   },
@@ -9403,8 +9110,6 @@
    ],
    "linker_set_key" : "_ZTI52ACameraCaptureSession_logicalCamera_captureCallbacks",
    "name" : "ACameraCaptureSession_logicalCamera_captureCallbacks",
-   "referenced_type" : "_ZTI52ACameraCaptureSession_logicalCamera_captureCallbacks",
-   "self_type" : "_ZTI52ACameraCaptureSession_logicalCamera_captureCallbacks",
    "size" : 32,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -9454,8 +9159,6 @@
    ],
    "linker_set_key" : "_ZTI54ACameraCaptureSession_logicalCamera_captureCallbacksV2",
    "name" : "ACameraCaptureSession_logicalCamera_captureCallbacksV2",
-   "referenced_type" : "_ZTI54ACameraCaptureSession_logicalCamera_captureCallbacksV2",
-   "self_type" : "_ZTI54ACameraCaptureSession_logicalCamera_captureCallbacksV2",
    "size" : 32,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -9485,8 +9188,6 @@
    ],
    "linker_set_key" : "_ZTI5ARect",
    "name" : "ARect",
-   "referenced_type" : "_ZTI5ARect",
-   "self_type" : "_ZTI5ARect",
    "size" : 16,
    "source_file" : "frameworks/native/libs/arect/include/android/rect.h"
   },
@@ -9523,8 +9224,6 @@
    "linker_set_key" : "_ZTIN21ACameraMetadata_entryUt_E",
    "name" : "ACameraMetadata_entry::(unnamed)",
    "record_kind" : "union",
-   "referenced_type" : "_ZTIN21ACameraMetadata_entryUt_E",
-   "self_type" : "_ZTIN21ACameraMetadata_entryUt_E",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
@@ -9561,8 +9260,6 @@
    "linker_set_key" : "_ZTIN27ACameraMetadata_const_entryUt_E",
    "name" : "ACameraMetadata_const_entry::(unnamed)",
    "record_kind" : "union",
-   "referenced_type" : "_ZTIN27ACameraMetadata_const_entryUt_E",
-   "self_type" : "_ZTIN27ACameraMetadata_const_entryUt_E",
    "size" : 4,
    "source_file" : "frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   }

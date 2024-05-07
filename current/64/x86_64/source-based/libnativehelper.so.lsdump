@@ -7,8 +7,6 @@
    "is_integral" : true,
    "linker_set_key" : "_ZTIa",
    "name" : "signed char",
-   "referenced_type" : "_ZTIa",
-   "self_type" : "_ZTIa",
    "size" : 1
   },
   {
@@ -17,8 +15,6 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIb",
    "name" : "bool",
-   "referenced_type" : "_ZTIb",
-   "self_type" : "_ZTIb",
    "size" : 1
   },
   {
@@ -26,24 +22,18 @@
    "is_integral" : true,
    "linker_set_key" : "_ZTIc",
    "name" : "char",
-   "referenced_type" : "_ZTIc",
-   "self_type" : "_ZTIc",
    "size" : 1
   },
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTId",
    "name" : "double",
-   "referenced_type" : "_ZTId",
-   "self_type" : "_ZTId",
    "size" : 8
   },
   {
    "alignment" : 4,
    "linker_set_key" : "_ZTIf",
    "name" : "float",
-   "referenced_type" : "_ZTIf",
-   "self_type" : "_ZTIf",
    "size" : 4
   },
   {
@@ -52,8 +42,6 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIh",
    "name" : "unsigned char",
-   "referenced_type" : "_ZTIh",
-   "self_type" : "_ZTIh",
    "size" : 1
   },
   {
@@ -61,8 +49,6 @@
    "is_integral" : true,
    "linker_set_key" : "_ZTIi",
    "name" : "int",
-   "referenced_type" : "_ZTIi",
-   "self_type" : "_ZTIi",
    "size" : 4
   },
   {
@@ -71,8 +57,6 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIj",
    "name" : "unsigned int",
-   "referenced_type" : "_ZTIj",
-   "self_type" : "_ZTIj",
    "size" : 4
   },
   {
@@ -80,8 +64,6 @@
    "is_integral" : true,
    "linker_set_key" : "_ZTIl",
    "name" : "long",
-   "referenced_type" : "_ZTIl",
-   "self_type" : "_ZTIl",
    "size" : 8
   },
   {
@@ -90,8 +72,6 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIm",
    "name" : "unsigned long",
-   "referenced_type" : "_ZTIm",
-   "self_type" : "_ZTIm",
    "size" : 8
   },
   {
@@ -99,8 +79,6 @@
    "is_integral" : true,
    "linker_set_key" : "_ZTIs",
    "name" : "short",
-   "referenced_type" : "_ZTIs",
-   "self_type" : "_ZTIs",
    "size" : 2
   },
   {
@@ -109,15 +87,11 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIt",
    "name" : "unsigned short",
-   "referenced_type" : "_ZTIt",
-   "self_type" : "_ZTIt",
    "size" : 2
   },
   {
    "linker_set_key" : "_ZTIv",
-   "name" : "void",
-   "referenced_type" : "_ZTIv",
-   "self_type" : "_ZTIv"
+   "name" : "void"
   }
  ],
  "elf_functions" :
@@ -194,8 +168,6 @@
    ],
    "linker_set_key" : "_ZTI14jobjectRefType",
    "name" : "jobjectRefType",
-   "referenced_type" : "_ZTI14jobjectRefType",
-   "self_type" : "_ZTI14jobjectRefType",
    "size" : 4,
    "source_file" : "libnativehelper/include_jni/jni.h",
    "underlying_type" : "_ZTIj"
@@ -243,8 +215,6 @@
    ],
    "linker_set_key" : "_ZTI19android_LogPriority",
    "name" : "android_LogPriority",
-   "referenced_type" : "_ZTI19android_LogPriority",
-   "self_type" : "_ZTI19android_LogPriority",
    "size" : 4,
    "source_file" : "system/logging/liblog/include/android/log.h",
    "underlying_type" : "_ZTIj"
@@ -300,8 +270,6 @@
    ],
    "linker_set_key" : "_ZTI6log_id",
    "name" : "log_id",
-   "referenced_type" : "_ZTI6log_id",
-   "self_type" : "_ZTI6log_id",
    "size" : 4,
    "source_file" : "system/logging/liblog/include/android/log.h",
    "underlying_type" : "_ZTIj"
@@ -322,9 +290,7 @@
      "referenced_type" : "_ZTIPv"
     }
    ],
-   "referenced_type" : "_ZTIF14jobjectRefTypePPK18JNINativeInterfacePvE",
    "return_type" : "_ZTI14jobjectRefType",
-   "self_type" : "_ZTIF14jobjectRefTypePPK18JNINativeInterfacePvE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -340,9 +306,7 @@
      "referenced_type" : "_ZTIPv"
     }
    ],
-   "referenced_type" : "_ZTIFP10_jmethodIDPPK18JNINativeInterfacePvE",
    "return_type" : "_ZTIP10_jmethodID",
-   "self_type" : "_ZTIFP10_jmethodIDPPK18JNINativeInterfacePvE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -364,9 +328,7 @@
      "referenced_type" : "_ZTIPKc"
     }
    ],
-   "referenced_type" : "_ZTIFP10_jmethodIDPPK18JNINativeInterfacePvPKcS7_E",
    "return_type" : "_ZTIP10_jmethodID",
-   "self_type" : "_ZTIFP10_jmethodIDPPK18JNINativeInterfacePvPKcS7_E",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -382,9 +344,7 @@
      "referenced_type" : "_ZTIPv"
     }
    ],
-   "referenced_type" : "_ZTIFP9_jfieldIDPPK18JNINativeInterfacePvE",
    "return_type" : "_ZTIP9_jfieldID",
-   "self_type" : "_ZTIFP9_jfieldIDPPK18JNINativeInterfacePvE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -406,9 +366,7 @@
      "referenced_type" : "_ZTIPKc"
     }
    ],
-   "referenced_type" : "_ZTIFP9_jfieldIDPPK18JNINativeInterfacePvPKcS7_E",
    "return_type" : "_ZTIP9_jfieldID",
-   "self_type" : "_ZTIFP9_jfieldIDPPK18JNINativeInterfacePvPKcS7_E",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -427,9 +385,7 @@
      "referenced_type" : "_ZTIPh"
     }
    ],
-   "referenced_type" : "_ZTIFPKcPPK18JNINativeInterfacePvPhE",
    "return_type" : "_ZTIPKc",
-   "self_type" : "_ZTIFPKcPPK18JNINativeInterfacePvPhE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -448,9 +404,7 @@
      "referenced_type" : "_ZTIPh"
     }
    ],
-   "referenced_type" : "_ZTIFPKtPPK18JNINativeInterfacePvPhE",
    "return_type" : "_ZTIPKt",
-   "self_type" : "_ZTIFPKtPPK18JNINativeInterfacePvPhE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -469,9 +423,7 @@
      "referenced_type" : "_ZTIPh"
     }
    ],
-   "referenced_type" : "_ZTIFPaPPK18JNINativeInterfacePvPhE",
    "return_type" : "_ZTIPa",
-   "self_type" : "_ZTIFPaPPK18JNINativeInterfacePvPhE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -490,9 +442,7 @@
      "referenced_type" : "_ZTIPh"
     }
    ],
-   "referenced_type" : "_ZTIFPdPPK18JNINativeInterfacePvPhE",
    "return_type" : "_ZTIPd",
-   "self_type" : "_ZTIFPdPPK18JNINativeInterfacePvPhE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -511,9 +461,7 @@
      "referenced_type" : "_ZTIPh"
     }
    ],
-   "referenced_type" : "_ZTIFPfPPK18JNINativeInterfacePvPhE",
    "return_type" : "_ZTIPf",
-   "self_type" : "_ZTIFPfPPK18JNINativeInterfacePvPhE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -532,9 +480,7 @@
      "referenced_type" : "_ZTIPh"
     }
    ],
-   "referenced_type" : "_ZTIFPhPPK18JNINativeInterfacePvS_E",
    "return_type" : "_ZTIPh",
-   "self_type" : "_ZTIFPhPPK18JNINativeInterfacePvS_E",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -553,9 +499,7 @@
      "referenced_type" : "_ZTIPh"
     }
    ],
-   "referenced_type" : "_ZTIFPiPPK18JNINativeInterfacePvPhE",
    "return_type" : "_ZTIPi",
-   "self_type" : "_ZTIFPiPPK18JNINativeInterfacePvPhE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -574,9 +518,7 @@
      "referenced_type" : "_ZTIPh"
     }
    ],
-   "referenced_type" : "_ZTIFPlPPK18JNINativeInterfacePvPhE",
    "return_type" : "_ZTIPl",
-   "self_type" : "_ZTIFPlPPK18JNINativeInterfacePvPhE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -595,9 +537,7 @@
      "referenced_type" : "_ZTIPh"
     }
    ],
-   "referenced_type" : "_ZTIFPsPPK18JNINativeInterfacePvPhE",
    "return_type" : "_ZTIPs",
-   "self_type" : "_ZTIFPsPPK18JNINativeInterfacePvPhE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -616,9 +556,7 @@
      "referenced_type" : "_ZTIPh"
     }
    ],
-   "referenced_type" : "_ZTIFPtPPK18JNINativeInterfacePvPhE",
    "return_type" : "_ZTIPt",
-   "self_type" : "_ZTIFPtPPK18JNINativeInterfacePvPhE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -631,9 +569,7 @@
      "referenced_type" : "_ZTIPPK18JNINativeInterface"
     }
    ],
-   "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceE",
    "return_type" : "_ZTIPv",
-   "self_type" : "_ZTIFPvPPK18JNINativeInterfaceE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -649,9 +585,7 @@
      "referenced_type" : "_ZTIPKc"
     }
    ],
-   "referenced_type" : "_ZTIFPvPPK18JNINativeInterfacePKcE",
    "return_type" : "_ZTIPv",
-   "self_type" : "_ZTIFPvPPK18JNINativeInterfacePKcE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -676,9 +610,7 @@
      "referenced_type" : "_ZTIi"
     }
    ],
-   "referenced_type" : "_ZTIFPvPPK18JNINativeInterfacePKcS_PKaiE",
    "return_type" : "_ZTIPv",
-   "self_type" : "_ZTIFPvPPK18JNINativeInterfacePKcS_PKaiE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -697,9 +629,7 @@
      "referenced_type" : "_ZTIi"
     }
    ],
-   "referenced_type" : "_ZTIFPvPPK18JNINativeInterfacePKtiE",
    "return_type" : "_ZTIPv",
-   "self_type" : "_ZTIFPvPPK18JNINativeInterfacePKtiE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -715,9 +645,7 @@
      "referenced_type" : "_ZTIPv"
     }
    ],
-   "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_E",
    "return_type" : "_ZTIPv",
-   "self_type" : "_ZTIFPvPPK18JNINativeInterfaceS_E",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -739,9 +667,7 @@
      "referenced_type" : "_ZTIP13__va_list_tag"
     }
    ],
-   "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_P10_jmethodIDP13__va_list_tagE",
    "return_type" : "_ZTIPv",
-   "self_type" : "_ZTIFPvPPK18JNINativeInterfaceS_P10_jmethodIDP13__va_list_tagE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -763,9 +689,7 @@
      "referenced_type" : "_ZTIPK6jvalue"
     }
    ],
-   "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_P10_jmethodIDPK6jvalueE",
    "return_type" : "_ZTIPv",
-   "self_type" : "_ZTIFPvPPK18JNINativeInterfaceS_P10_jmethodIDPK6jvalueE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -787,9 +711,7 @@
      "referenced_type" : "_ZTIh"
     }
    ],
-   "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_P10_jmethodIDhE",
    "return_type" : "_ZTIPv",
-   "self_type" : "_ZTIFPvPPK18JNINativeInterfaceS_P10_jmethodIDhE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -808,9 +730,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     }
    ],
-   "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_P10_jmethodIDzE",
    "return_type" : "_ZTIPv",
-   "self_type" : "_ZTIFPvPPK18JNINativeInterfaceS_P10_jmethodIDzE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -829,9 +749,7 @@
      "referenced_type" : "_ZTIP9_jfieldID"
     }
    ],
-   "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_P9_jfieldIDE",
    "return_type" : "_ZTIPv",
-   "self_type" : "_ZTIFPvPPK18JNINativeInterfaceS_P9_jfieldIDE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -853,9 +771,7 @@
      "referenced_type" : "_ZTIh"
     }
    ],
-   "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_P9_jfieldIDhE",
    "return_type" : "_ZTIPv",
-   "self_type" : "_ZTIFPvPPK18JNINativeInterfaceS_P9_jfieldIDhE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -874,9 +790,7 @@
      "referenced_type" : "_ZTIPh"
     }
    ],
-   "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_PhE",
    "return_type" : "_ZTIPv",
-   "self_type" : "_ZTIFPvPPK18JNINativeInterfaceS_PhE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -901,9 +815,7 @@
      "referenced_type" : "_ZTIP13__va_list_tag"
     }
    ],
-   "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_S_P10_jmethodIDP13__va_list_tagE",
    "return_type" : "_ZTIPv",
-   "self_type" : "_ZTIFPvPPK18JNINativeInterfaceS_S_P10_jmethodIDP13__va_list_tagE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -928,9 +840,7 @@
      "referenced_type" : "_ZTIPK6jvalue"
     }
    ],
-   "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_S_P10_jmethodIDPK6jvalueE",
    "return_type" : "_ZTIPv",
-   "self_type" : "_ZTIFPvPPK18JNINativeInterfaceS_S_P10_jmethodIDPK6jvalueE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -952,9 +862,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     }
    ],
-   "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_S_P10_jmethodIDzE",
    "return_type" : "_ZTIPv",
-   "self_type" : "_ZTIFPvPPK18JNINativeInterfaceS_S_P10_jmethodIDzE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -973,9 +881,7 @@
      "referenced_type" : "_ZTIi"
     }
    ],
-   "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_iE",
    "return_type" : "_ZTIPv",
-   "self_type" : "_ZTIFPvPPK18JNINativeInterfaceS_iE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -994,9 +900,7 @@
      "referenced_type" : "_ZTIl"
     }
    ],
-   "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_lE",
    "return_type" : "_ZTIPv",
-   "self_type" : "_ZTIFPvPPK18JNINativeInterfaceS_lE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1012,9 +916,7 @@
      "referenced_type" : "_ZTIi"
     }
    ],
-   "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceiE",
    "return_type" : "_ZTIPv",
-   "self_type" : "_ZTIFPvPPK18JNINativeInterfaceiE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1036,9 +938,7 @@
      "referenced_type" : "_ZTIPv"
     }
    ],
-   "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceiS_S_E",
    "return_type" : "_ZTIPv",
-   "self_type" : "_ZTIFPvPPK18JNINativeInterfaceiS_S_E",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1060,9 +960,7 @@
      "referenced_type" : "_ZTIP13__va_list_tag"
     }
    ],
-   "referenced_type" : "_ZTIFaPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "return_type" : "_ZTIa",
-   "self_type" : "_ZTIFaPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1084,9 +982,7 @@
      "referenced_type" : "_ZTIPK6jvalue"
     }
    ],
-   "referenced_type" : "_ZTIFaPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "return_type" : "_ZTIa",
-   "self_type" : "_ZTIFaPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1105,9 +1001,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     }
    ],
-   "referenced_type" : "_ZTIFaPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "return_type" : "_ZTIa",
-   "self_type" : "_ZTIFaPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1126,9 +1020,7 @@
      "referenced_type" : "_ZTIP9_jfieldID"
     }
    ],
-   "referenced_type" : "_ZTIFaPPK18JNINativeInterfacePvP9_jfieldIDE",
    "return_type" : "_ZTIa",
-   "self_type" : "_ZTIFaPPK18JNINativeInterfacePvP9_jfieldIDE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1153,9 +1045,7 @@
      "referenced_type" : "_ZTIP13__va_list_tag"
     }
    ],
-   "referenced_type" : "_ZTIFaPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "return_type" : "_ZTIa",
-   "self_type" : "_ZTIFaPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1180,9 +1070,7 @@
      "referenced_type" : "_ZTIPK6jvalue"
     }
    ],
-   "referenced_type" : "_ZTIFaPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "return_type" : "_ZTIa",
-   "self_type" : "_ZTIFaPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1204,9 +1092,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     }
    ],
-   "referenced_type" : "_ZTIFaPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "return_type" : "_ZTIa",
-   "self_type" : "_ZTIFaPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1228,9 +1114,7 @@
      "referenced_type" : "_ZTIP13__va_list_tag"
     }
    ],
-   "referenced_type" : "_ZTIFdPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "return_type" : "_ZTId",
-   "self_type" : "_ZTIFdPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1252,9 +1136,7 @@
      "referenced_type" : "_ZTIPK6jvalue"
     }
    ],
-   "referenced_type" : "_ZTIFdPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "return_type" : "_ZTId",
-   "self_type" : "_ZTIFdPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1273,9 +1155,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     }
    ],
-   "referenced_type" : "_ZTIFdPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "return_type" : "_ZTId",
-   "self_type" : "_ZTIFdPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1294,9 +1174,7 @@
      "referenced_type" : "_ZTIP9_jfieldID"
     }
    ],
-   "referenced_type" : "_ZTIFdPPK18JNINativeInterfacePvP9_jfieldIDE",
    "return_type" : "_ZTId",
-   "self_type" : "_ZTIFdPPK18JNINativeInterfacePvP9_jfieldIDE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1321,9 +1199,7 @@
      "referenced_type" : "_ZTIP13__va_list_tag"
     }
    ],
-   "referenced_type" : "_ZTIFdPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "return_type" : "_ZTId",
-   "self_type" : "_ZTIFdPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1348,9 +1224,7 @@
      "referenced_type" : "_ZTIPK6jvalue"
     }
    ],
-   "referenced_type" : "_ZTIFdPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "return_type" : "_ZTId",
-   "self_type" : "_ZTIFdPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1372,9 +1246,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     }
    ],
-   "referenced_type" : "_ZTIFdPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "return_type" : "_ZTId",
-   "self_type" : "_ZTIFdPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1396,9 +1268,7 @@
      "referenced_type" : "_ZTIP13__va_list_tag"
     }
    ],
-   "referenced_type" : "_ZTIFfPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "return_type" : "_ZTIf",
-   "self_type" : "_ZTIFfPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1420,9 +1290,7 @@
      "referenced_type" : "_ZTIPK6jvalue"
     }
    ],
-   "referenced_type" : "_ZTIFfPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "return_type" : "_ZTIf",
-   "self_type" : "_ZTIFfPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1441,9 +1309,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     }
    ],
-   "referenced_type" : "_ZTIFfPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "return_type" : "_ZTIf",
-   "self_type" : "_ZTIFfPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1462,9 +1328,7 @@
      "referenced_type" : "_ZTIP9_jfieldID"
     }
    ],
-   "referenced_type" : "_ZTIFfPPK18JNINativeInterfacePvP9_jfieldIDE",
    "return_type" : "_ZTIf",
-   "self_type" : "_ZTIFfPPK18JNINativeInterfacePvP9_jfieldIDE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1489,9 +1353,7 @@
      "referenced_type" : "_ZTIP13__va_list_tag"
     }
    ],
-   "referenced_type" : "_ZTIFfPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "return_type" : "_ZTIf",
-   "self_type" : "_ZTIFfPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1516,9 +1378,7 @@
      "referenced_type" : "_ZTIPK6jvalue"
     }
    ],
-   "referenced_type" : "_ZTIFfPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "return_type" : "_ZTIf",
-   "self_type" : "_ZTIFfPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1540,9 +1400,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     }
    ],
-   "referenced_type" : "_ZTIFfPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "return_type" : "_ZTIf",
-   "self_type" : "_ZTIFfPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1555,9 +1413,7 @@
      "referenced_type" : "_ZTIPPK18JNINativeInterface"
     }
    ],
-   "referenced_type" : "_ZTIFhPPK18JNINativeInterfaceE",
    "return_type" : "_ZTIh",
-   "self_type" : "_ZTIFhPPK18JNINativeInterfaceE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1579,9 +1435,7 @@
      "referenced_type" : "_ZTIP13__va_list_tag"
     }
    ],
-   "referenced_type" : "_ZTIFhPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "return_type" : "_ZTIh",
-   "self_type" : "_ZTIFhPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1603,9 +1457,7 @@
      "referenced_type" : "_ZTIPK6jvalue"
     }
    ],
-   "referenced_type" : "_ZTIFhPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "return_type" : "_ZTIh",
-   "self_type" : "_ZTIFhPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1624,9 +1476,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     }
    ],
-   "referenced_type" : "_ZTIFhPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "return_type" : "_ZTIh",
-   "self_type" : "_ZTIFhPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1645,9 +1495,7 @@
      "referenced_type" : "_ZTIP9_jfieldID"
     }
    ],
-   "referenced_type" : "_ZTIFhPPK18JNINativeInterfacePvP9_jfieldIDE",
    "return_type" : "_ZTIh",
-   "self_type" : "_ZTIFhPPK18JNINativeInterfacePvP9_jfieldIDE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1666,9 +1514,7 @@
      "referenced_type" : "_ZTIPv"
     }
    ],
-   "referenced_type" : "_ZTIFhPPK18JNINativeInterfacePvS3_E",
    "return_type" : "_ZTIh",
-   "self_type" : "_ZTIFhPPK18JNINativeInterfacePvS3_E",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1693,9 +1539,7 @@
      "referenced_type" : "_ZTIP13__va_list_tag"
     }
    ],
-   "referenced_type" : "_ZTIFhPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "return_type" : "_ZTIh",
-   "self_type" : "_ZTIFhPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1720,9 +1564,7 @@
      "referenced_type" : "_ZTIPK6jvalue"
     }
    ],
-   "referenced_type" : "_ZTIFhPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "return_type" : "_ZTIh",
-   "self_type" : "_ZTIFhPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1744,9 +1586,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     }
    ],
-   "referenced_type" : "_ZTIFhPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "return_type" : "_ZTIh",
-   "self_type" : "_ZTIFhPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1759,9 +1599,7 @@
      "referenced_type" : "_ZTIPPK18JNIInvokeInterface"
     }
    ],
-   "referenced_type" : "_ZTIFiPPK18JNIInvokeInterfaceE",
    "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiPPK18JNIInvokeInterfaceE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1780,9 +1618,7 @@
      "referenced_type" : "_ZTIPv"
     }
    ],
-   "referenced_type" : "_ZTIFiPPK18JNIInvokeInterfacePPPK18JNINativeInterfacePvE",
    "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiPPK18JNIInvokeInterfacePPPK18JNINativeInterfacePvE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1801,9 +1637,7 @@
      "referenced_type" : "_ZTIi"
     }
    ],
-   "referenced_type" : "_ZTIFiPPK18JNIInvokeInterfacePPviE",
    "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiPPK18JNIInvokeInterfacePPviE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1816,9 +1650,7 @@
      "referenced_type" : "_ZTIPPK18JNINativeInterface"
     }
    ],
-   "referenced_type" : "_ZTIFiPPK18JNINativeInterfaceE",
    "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiPPK18JNINativeInterfaceE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1834,9 +1666,7 @@
      "referenced_type" : "_ZTIPPPK18JNIInvokeInterface"
     }
    ],
-   "referenced_type" : "_ZTIFiPPK18JNINativeInterfacePPPK18JNIInvokeInterfaceE",
    "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiPPK18JNINativeInterfacePPPK18JNIInvokeInterfaceE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1852,9 +1682,7 @@
      "referenced_type" : "_ZTIPv"
     }
    ],
-   "referenced_type" : "_ZTIFiPPK18JNINativeInterfacePvE",
    "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiPPK18JNINativeInterfacePvE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1876,9 +1704,7 @@
      "referenced_type" : "_ZTIP13__va_list_tag"
     }
    ],
-   "referenced_type" : "_ZTIFiPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1900,9 +1726,7 @@
      "referenced_type" : "_ZTIPK6jvalue"
     }
    ],
-   "referenced_type" : "_ZTIFiPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1921,9 +1745,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     }
    ],
-   "referenced_type" : "_ZTIFiPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1942,9 +1764,7 @@
      "referenced_type" : "_ZTIP9_jfieldID"
     }
    ],
-   "referenced_type" : "_ZTIFiPPK18JNINativeInterfacePvP9_jfieldIDE",
    "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiPPK18JNINativeInterfacePvP9_jfieldIDE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1966,9 +1786,7 @@
      "referenced_type" : "_ZTIi"
     }
    ],
-   "referenced_type" : "_ZTIFiPPK18JNINativeInterfacePvPK15JNINativeMethodiE",
    "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiPPK18JNINativeInterfacePvPK15JNINativeMethodiE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -1987,9 +1805,7 @@
      "referenced_type" : "_ZTIPKc"
     }
    ],
-   "referenced_type" : "_ZTIFiPPK18JNINativeInterfacePvPKcE",
    "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiPPK18JNINativeInterfacePvPKcE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2014,9 +1830,7 @@
      "referenced_type" : "_ZTIP13__va_list_tag"
     }
    ],
-   "referenced_type" : "_ZTIFiPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2041,9 +1855,7 @@
      "referenced_type" : "_ZTIPK6jvalue"
     }
    ],
-   "referenced_type" : "_ZTIFiPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2065,9 +1877,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     }
    ],
-   "referenced_type" : "_ZTIFiPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2083,9 +1893,7 @@
      "referenced_type" : "_ZTIi"
     }
    ],
-   "referenced_type" : "_ZTIFiPPK18JNINativeInterfaceiE",
    "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiPPK18JNINativeInterfaceiE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2101,9 +1909,7 @@
      "referenced_type" : "_ZTIPv"
     }
    ],
-   "referenced_type" : "_ZTIFlPPK18JNINativeInterfacePvE",
    "return_type" : "_ZTIl",
-   "self_type" : "_ZTIFlPPK18JNINativeInterfacePvE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2125,9 +1931,7 @@
      "referenced_type" : "_ZTIP13__va_list_tag"
     }
    ],
-   "referenced_type" : "_ZTIFlPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "return_type" : "_ZTIl",
-   "self_type" : "_ZTIFlPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2149,9 +1953,7 @@
      "referenced_type" : "_ZTIPK6jvalue"
     }
    ],
-   "referenced_type" : "_ZTIFlPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "return_type" : "_ZTIl",
-   "self_type" : "_ZTIFlPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2170,9 +1972,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     }
    ],
-   "referenced_type" : "_ZTIFlPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "return_type" : "_ZTIl",
-   "self_type" : "_ZTIFlPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2191,9 +1991,7 @@
      "referenced_type" : "_ZTIP9_jfieldID"
     }
    ],
-   "referenced_type" : "_ZTIFlPPK18JNINativeInterfacePvP9_jfieldIDE",
    "return_type" : "_ZTIl",
-   "self_type" : "_ZTIFlPPK18JNINativeInterfacePvP9_jfieldIDE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2218,9 +2016,7 @@
      "referenced_type" : "_ZTIP13__va_list_tag"
     }
    ],
-   "referenced_type" : "_ZTIFlPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "return_type" : "_ZTIl",
-   "self_type" : "_ZTIFlPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2245,9 +2041,7 @@
      "referenced_type" : "_ZTIPK6jvalue"
     }
    ],
-   "referenced_type" : "_ZTIFlPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "return_type" : "_ZTIl",
-   "self_type" : "_ZTIFlPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2269,9 +2063,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     }
    ],
-   "referenced_type" : "_ZTIFlPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "return_type" : "_ZTIl",
-   "self_type" : "_ZTIFlPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2293,9 +2085,7 @@
      "referenced_type" : "_ZTIP13__va_list_tag"
     }
    ],
-   "referenced_type" : "_ZTIFsPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "return_type" : "_ZTIs",
-   "self_type" : "_ZTIFsPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2317,9 +2107,7 @@
      "referenced_type" : "_ZTIPK6jvalue"
     }
    ],
-   "referenced_type" : "_ZTIFsPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "return_type" : "_ZTIs",
-   "self_type" : "_ZTIFsPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2338,9 +2126,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     }
    ],
-   "referenced_type" : "_ZTIFsPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "return_type" : "_ZTIs",
-   "self_type" : "_ZTIFsPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2359,9 +2145,7 @@
      "referenced_type" : "_ZTIP9_jfieldID"
     }
    ],
-   "referenced_type" : "_ZTIFsPPK18JNINativeInterfacePvP9_jfieldIDE",
    "return_type" : "_ZTIs",
-   "self_type" : "_ZTIFsPPK18JNINativeInterfacePvP9_jfieldIDE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2386,9 +2170,7 @@
      "referenced_type" : "_ZTIP13__va_list_tag"
     }
    ],
-   "referenced_type" : "_ZTIFsPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "return_type" : "_ZTIs",
-   "self_type" : "_ZTIFsPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2413,9 +2195,7 @@
      "referenced_type" : "_ZTIPK6jvalue"
     }
    ],
-   "referenced_type" : "_ZTIFsPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "return_type" : "_ZTIs",
-   "self_type" : "_ZTIFsPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2437,9 +2217,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     }
    ],
-   "referenced_type" : "_ZTIFsPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "return_type" : "_ZTIs",
-   "self_type" : "_ZTIFsPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2461,9 +2239,7 @@
      "referenced_type" : "_ZTIP13__va_list_tag"
     }
    ],
-   "referenced_type" : "_ZTIFtPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "return_type" : "_ZTIt",
-   "self_type" : "_ZTIFtPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2485,9 +2261,7 @@
      "referenced_type" : "_ZTIPK6jvalue"
     }
    ],
-   "referenced_type" : "_ZTIFtPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "return_type" : "_ZTIt",
-   "self_type" : "_ZTIFtPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2506,9 +2280,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     }
    ],
-   "referenced_type" : "_ZTIFtPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "return_type" : "_ZTIt",
-   "self_type" : "_ZTIFtPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2527,9 +2299,7 @@
      "referenced_type" : "_ZTIP9_jfieldID"
     }
    ],
-   "referenced_type" : "_ZTIFtPPK18JNINativeInterfacePvP9_jfieldIDE",
    "return_type" : "_ZTIt",
-   "self_type" : "_ZTIFtPPK18JNINativeInterfacePvP9_jfieldIDE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2554,9 +2324,7 @@
      "referenced_type" : "_ZTIP13__va_list_tag"
     }
    ],
-   "referenced_type" : "_ZTIFtPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "return_type" : "_ZTIt",
-   "self_type" : "_ZTIFtPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2581,9 +2349,7 @@
      "referenced_type" : "_ZTIPK6jvalue"
     }
    ],
-   "referenced_type" : "_ZTIFtPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "return_type" : "_ZTIt",
-   "self_type" : "_ZTIFtPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2605,9 +2371,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     }
    ],
-   "referenced_type" : "_ZTIFtPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "return_type" : "_ZTIt",
-   "self_type" : "_ZTIFtPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2620,9 +2384,7 @@
      "referenced_type" : "_ZTIPPK18JNINativeInterface"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfaceE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfaceE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2638,9 +2400,7 @@
      "referenced_type" : "_ZTIPKc"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePKcE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePKcE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2656,9 +2416,7 @@
      "referenced_type" : "_ZTIPv"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePvE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2680,9 +2438,7 @@
      "referenced_type" : "_ZTIP13__va_list_tag"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2704,9 +2460,7 @@
      "referenced_type" : "_ZTIPK6jvalue"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2725,9 +2479,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2749,9 +2501,7 @@
      "referenced_type" : "_ZTIPv"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvP9_jfieldIDS3_E",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePvP9_jfieldIDS3_E",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2773,9 +2523,7 @@
      "referenced_type" : "_ZTIa"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvP9_jfieldIDaE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePvP9_jfieldIDaE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2797,9 +2545,7 @@
      "referenced_type" : "_ZTId"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvP9_jfieldIDdE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePvP9_jfieldIDdE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2821,9 +2567,7 @@
      "referenced_type" : "_ZTIf"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvP9_jfieldIDfE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePvP9_jfieldIDfE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2845,9 +2589,7 @@
      "referenced_type" : "_ZTIh"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvP9_jfieldIDhE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePvP9_jfieldIDhE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2869,9 +2611,7 @@
      "referenced_type" : "_ZTIi"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvP9_jfieldIDiE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePvP9_jfieldIDiE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2893,9 +2633,7 @@
      "referenced_type" : "_ZTIl"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvP9_jfieldIDlE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePvP9_jfieldIDlE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2917,9 +2655,7 @@
      "referenced_type" : "_ZTIs"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvP9_jfieldIDsE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePvP9_jfieldIDsE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2941,9 +2677,7 @@
      "referenced_type" : "_ZTIt"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvP9_jfieldIDtE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePvP9_jfieldIDtE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2962,9 +2696,7 @@
      "referenced_type" : "_ZTIPKc"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvPKcE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePvPKcE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -2983,9 +2715,7 @@
      "referenced_type" : "_ZTIPKt"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvPKtE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePvPKtE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3007,9 +2737,7 @@
      "referenced_type" : "_ZTIi"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvPaiE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePvPaiE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3031,9 +2759,7 @@
      "referenced_type" : "_ZTIi"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvPdiE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePvPdiE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3055,9 +2781,7 @@
      "referenced_type" : "_ZTIi"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvPfiE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePvPfiE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3079,9 +2803,7 @@
      "referenced_type" : "_ZTIi"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvPhiE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePvPhiE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3103,9 +2825,7 @@
      "referenced_type" : "_ZTIi"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvPiiE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePvPiiE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3127,9 +2847,7 @@
      "referenced_type" : "_ZTIi"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvPliE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePvPliE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3151,9 +2869,7 @@
      "referenced_type" : "_ZTIi"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvPsiE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePvPsiE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3175,9 +2891,7 @@
      "referenced_type" : "_ZTIi"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvPtiE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePvPtiE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3202,9 +2916,7 @@
      "referenced_type" : "_ZTIP13__va_list_tag"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3229,9 +2941,7 @@
      "referenced_type" : "_ZTIPK6jvalue"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3253,9 +2963,7 @@
      "referenced_type" : "_ZTIP10_jmethodID"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3277,9 +2985,7 @@
      "referenced_type" : "_ZTIi"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvS3_iE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePvS3_iE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3301,9 +3007,7 @@
      "referenced_type" : "_ZTIPv"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviS3_E",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePviS3_E",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3328,9 +3032,7 @@
      "referenced_type" : "_ZTIPKa"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPKaE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePviiPKaE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3355,9 +3057,7 @@
      "referenced_type" : "_ZTIPKd"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPKdE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePviiPKdE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3382,9 +3082,7 @@
      "referenced_type" : "_ZTIPKf"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPKfE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePviiPKfE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3409,9 +3107,7 @@
      "referenced_type" : "_ZTIPKh"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPKhE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePviiPKhE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3436,9 +3132,7 @@
      "referenced_type" : "_ZTIPKi"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPKiE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePviiPKiE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3463,9 +3157,7 @@
      "referenced_type" : "_ZTIPKl"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPKlE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePviiPKlE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3490,9 +3182,7 @@
      "referenced_type" : "_ZTIPKs"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPKsE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePviiPKsE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3517,9 +3207,7 @@
      "referenced_type" : "_ZTIPKt"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPKtE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePviiPKtE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3544,9 +3232,7 @@
      "referenced_type" : "_ZTIPa"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPaE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePviiPaE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3571,9 +3257,7 @@
      "referenced_type" : "_ZTIPc"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPcE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePviiPcE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3598,9 +3282,7 @@
      "referenced_type" : "_ZTIPd"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPdE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePviiPdE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3625,9 +3307,7 @@
      "referenced_type" : "_ZTIPf"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPfE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePviiPfE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3652,9 +3332,7 @@
      "referenced_type" : "_ZTIPh"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPhE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePviiPhE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3679,9 +3357,7 @@
      "referenced_type" : "_ZTIPi"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPiE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePviiPiE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3706,9 +3382,7 @@
      "referenced_type" : "_ZTIPl"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPlE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePviiPlE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3733,9 +3407,7 @@
      "referenced_type" : "_ZTIPs"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPsE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePviiPsE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
   {
@@ -3760,9 +3432,7 @@
      "referenced_type" : "_ZTIPt"
     }
    ],
-   "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPtE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPPK18JNINativeInterfacePviiPtE",
    "source_file" : "libnativehelper/include_jni/jni.h"
   }
  ],
@@ -3988,7 +3658,6 @@
    "linker_set_key" : "_ZTIP10_jmethodID",
    "name" : "_jmethodID *",
    "referenced_type" : "_ZTI10_jmethodID",
-   "self_type" : "_ZTIP10_jmethodID",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -3997,7 +3666,6 @@
    "linker_set_key" : "_ZTIP12JavaVMOption",
    "name" : "JavaVMOption *",
    "referenced_type" : "_ZTI12JavaVMOption",
-   "self_type" : "_ZTIP12JavaVMOption",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4006,7 +3674,6 @@
    "linker_set_key" : "_ZTIP13__va_list_tag",
    "name" : "__va_list_tag *",
    "referenced_type" : "_ZTI13__va_list_tag",
-   "self_type" : "_ZTIP13__va_list_tag",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4015,7 +3682,6 @@
    "linker_set_key" : "_ZTIP17JniInvocationImpl",
    "name" : "JniInvocationImpl *",
    "referenced_type" : "_ZTI17JniInvocationImpl",
-   "self_type" : "_ZTIP17JniInvocationImpl",
    "size" : 8,
    "source_file" : "libnativehelper/include_platform/nativehelper/JniInvocation.h"
   },
@@ -4024,7 +3690,6 @@
    "linker_set_key" : "_ZTIP9_jfieldID",
    "name" : "_jfieldID *",
    "referenced_type" : "_ZTI9_jfieldID",
-   "self_type" : "_ZTIP9_jfieldID",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4033,7 +3698,6 @@
    "linker_set_key" : "_ZTIPF14jobjectRefTypePPK18JNINativeInterfacePvE",
    "name" : "jobjectRefType (*)(const JNINativeInterface **, void *)",
    "referenced_type" : "_ZTIF14jobjectRefTypePPK18JNINativeInterfacePvE",
-   "self_type" : "_ZTIPF14jobjectRefTypePPK18JNINativeInterfacePvE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4042,7 +3706,6 @@
    "linker_set_key" : "_ZTIPFP10_jmethodIDPPK18JNINativeInterfacePvE",
    "name" : "_jmethodID *(*)(const JNINativeInterface **, void *)",
    "referenced_type" : "_ZTIFP10_jmethodIDPPK18JNINativeInterfacePvE",
-   "self_type" : "_ZTIPFP10_jmethodIDPPK18JNINativeInterfacePvE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4051,7 +3714,6 @@
    "linker_set_key" : "_ZTIPFP10_jmethodIDPPK18JNINativeInterfacePvPKcS7_E",
    "name" : "_jmethodID *(*)(const JNINativeInterface **, void *, const char *, const char *)",
    "referenced_type" : "_ZTIFP10_jmethodIDPPK18JNINativeInterfacePvPKcS7_E",
-   "self_type" : "_ZTIPFP10_jmethodIDPPK18JNINativeInterfacePvPKcS7_E",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4060,7 +3722,6 @@
    "linker_set_key" : "_ZTIPFP9_jfieldIDPPK18JNINativeInterfacePvE",
    "name" : "_jfieldID *(*)(const JNINativeInterface **, void *)",
    "referenced_type" : "_ZTIFP9_jfieldIDPPK18JNINativeInterfacePvE",
-   "self_type" : "_ZTIPFP9_jfieldIDPPK18JNINativeInterfacePvE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4069,7 +3730,6 @@
    "linker_set_key" : "_ZTIPFP9_jfieldIDPPK18JNINativeInterfacePvPKcS7_E",
    "name" : "_jfieldID *(*)(const JNINativeInterface **, void *, const char *, const char *)",
    "referenced_type" : "_ZTIFP9_jfieldIDPPK18JNINativeInterfacePvPKcS7_E",
-   "self_type" : "_ZTIPFP9_jfieldIDPPK18JNINativeInterfacePvPKcS7_E",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4078,7 +3738,6 @@
    "linker_set_key" : "_ZTIPFPKcPPK18JNINativeInterfacePvPhE",
    "name" : "const char *(*)(const JNINativeInterface **, void *, unsigned char *)",
    "referenced_type" : "_ZTIFPKcPPK18JNINativeInterfacePvPhE",
-   "self_type" : "_ZTIPFPKcPPK18JNINativeInterfacePvPhE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4087,7 +3746,6 @@
    "linker_set_key" : "_ZTIPFPKtPPK18JNINativeInterfacePvPhE",
    "name" : "const unsigned short *(*)(const JNINativeInterface **, void *, unsigned char *)",
    "referenced_type" : "_ZTIFPKtPPK18JNINativeInterfacePvPhE",
-   "self_type" : "_ZTIPFPKtPPK18JNINativeInterfacePvPhE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4096,7 +3754,6 @@
    "linker_set_key" : "_ZTIPFPaPPK18JNINativeInterfacePvPhE",
    "name" : "signed char *(*)(const JNINativeInterface **, void *, unsigned char *)",
    "referenced_type" : "_ZTIFPaPPK18JNINativeInterfacePvPhE",
-   "self_type" : "_ZTIPFPaPPK18JNINativeInterfacePvPhE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4105,7 +3762,6 @@
    "linker_set_key" : "_ZTIPFPdPPK18JNINativeInterfacePvPhE",
    "name" : "double *(*)(const JNINativeInterface **, void *, unsigned char *)",
    "referenced_type" : "_ZTIFPdPPK18JNINativeInterfacePvPhE",
-   "self_type" : "_ZTIPFPdPPK18JNINativeInterfacePvPhE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4114,7 +3770,6 @@
    "linker_set_key" : "_ZTIPFPfPPK18JNINativeInterfacePvPhE",
    "name" : "float *(*)(const JNINativeInterface **, void *, unsigned char *)",
    "referenced_type" : "_ZTIFPfPPK18JNINativeInterfacePvPhE",
-   "self_type" : "_ZTIPFPfPPK18JNINativeInterfacePvPhE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4123,7 +3778,6 @@
    "linker_set_key" : "_ZTIPFPhPPK18JNINativeInterfacePvS_E",
    "name" : "unsigned char *(*)(const JNINativeInterface **, void *, unsigned char *)",
    "referenced_type" : "_ZTIFPhPPK18JNINativeInterfacePvS_E",
-   "self_type" : "_ZTIPFPhPPK18JNINativeInterfacePvS_E",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4132,7 +3786,6 @@
    "linker_set_key" : "_ZTIPFPiPPK18JNINativeInterfacePvPhE",
    "name" : "int *(*)(const JNINativeInterface **, void *, unsigned char *)",
    "referenced_type" : "_ZTIFPiPPK18JNINativeInterfacePvPhE",
-   "self_type" : "_ZTIPFPiPPK18JNINativeInterfacePvPhE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4141,7 +3794,6 @@
    "linker_set_key" : "_ZTIPFPlPPK18JNINativeInterfacePvPhE",
    "name" : "long *(*)(const JNINativeInterface **, void *, unsigned char *)",
    "referenced_type" : "_ZTIFPlPPK18JNINativeInterfacePvPhE",
-   "self_type" : "_ZTIPFPlPPK18JNINativeInterfacePvPhE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4150,7 +3802,6 @@
    "linker_set_key" : "_ZTIPFPsPPK18JNINativeInterfacePvPhE",
    "name" : "short *(*)(const JNINativeInterface **, void *, unsigned char *)",
    "referenced_type" : "_ZTIFPsPPK18JNINativeInterfacePvPhE",
-   "self_type" : "_ZTIPFPsPPK18JNINativeInterfacePvPhE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4159,7 +3810,6 @@
    "linker_set_key" : "_ZTIPFPtPPK18JNINativeInterfacePvPhE",
    "name" : "unsigned short *(*)(const JNINativeInterface **, void *, unsigned char *)",
    "referenced_type" : "_ZTIFPtPPK18JNINativeInterfacePvPhE",
-   "self_type" : "_ZTIPFPtPPK18JNINativeInterfacePvPhE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4168,7 +3818,6 @@
    "linker_set_key" : "_ZTIPFPvPPK18JNINativeInterfaceE",
    "name" : "void *(*)(const JNINativeInterface **)",
    "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceE",
-   "self_type" : "_ZTIPFPvPPK18JNINativeInterfaceE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4177,7 +3826,6 @@
    "linker_set_key" : "_ZTIPFPvPPK18JNINativeInterfacePKcE",
    "name" : "void *(*)(const JNINativeInterface **, const char *)",
    "referenced_type" : "_ZTIFPvPPK18JNINativeInterfacePKcE",
-   "self_type" : "_ZTIPFPvPPK18JNINativeInterfacePKcE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4186,7 +3834,6 @@
    "linker_set_key" : "_ZTIPFPvPPK18JNINativeInterfacePKcS_PKaiE",
    "name" : "void *(*)(const JNINativeInterface **, const char *, void *, const signed char *, int)",
    "referenced_type" : "_ZTIFPvPPK18JNINativeInterfacePKcS_PKaiE",
-   "self_type" : "_ZTIPFPvPPK18JNINativeInterfacePKcS_PKaiE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4195,7 +3842,6 @@
    "linker_set_key" : "_ZTIPFPvPPK18JNINativeInterfacePKtiE",
    "name" : "void *(*)(const JNINativeInterface **, const unsigned short *, int)",
    "referenced_type" : "_ZTIFPvPPK18JNINativeInterfacePKtiE",
-   "self_type" : "_ZTIPFPvPPK18JNINativeInterfacePKtiE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4204,7 +3850,6 @@
    "linker_set_key" : "_ZTIPFPvPPK18JNINativeInterfaceS_E",
    "name" : "void *(*)(const JNINativeInterface **, void *)",
    "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_E",
-   "self_type" : "_ZTIPFPvPPK18JNINativeInterfaceS_E",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4213,7 +3858,6 @@
    "linker_set_key" : "_ZTIPFPvPPK18JNINativeInterfaceS_P10_jmethodIDP13__va_list_tagE",
    "name" : "void *(*)(const JNINativeInterface **, void *, _jmethodID *, __va_list_tag *)",
    "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_P10_jmethodIDP13__va_list_tagE",
-   "self_type" : "_ZTIPFPvPPK18JNINativeInterfaceS_P10_jmethodIDP13__va_list_tagE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4222,7 +3866,6 @@
    "linker_set_key" : "_ZTIPFPvPPK18JNINativeInterfaceS_P10_jmethodIDPK6jvalueE",
    "name" : "void *(*)(const JNINativeInterface **, void *, _jmethodID *, const jvalue *)",
    "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_P10_jmethodIDPK6jvalueE",
-   "self_type" : "_ZTIPFPvPPK18JNINativeInterfaceS_P10_jmethodIDPK6jvalueE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4231,7 +3874,6 @@
    "linker_set_key" : "_ZTIPFPvPPK18JNINativeInterfaceS_P10_jmethodIDhE",
    "name" : "void *(*)(const JNINativeInterface **, void *, _jmethodID *, unsigned char)",
    "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_P10_jmethodIDhE",
-   "self_type" : "_ZTIPFPvPPK18JNINativeInterfaceS_P10_jmethodIDhE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4240,7 +3882,6 @@
    "linker_set_key" : "_ZTIPFPvPPK18JNINativeInterfaceS_P10_jmethodIDzE",
    "name" : "void *(*)(const JNINativeInterface **, void *, _jmethodID *, ...)",
    "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_P10_jmethodIDzE",
-   "self_type" : "_ZTIPFPvPPK18JNINativeInterfaceS_P10_jmethodIDzE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4249,7 +3890,6 @@
    "linker_set_key" : "_ZTIPFPvPPK18JNINativeInterfaceS_P9_jfieldIDE",
    "name" : "void *(*)(const JNINativeInterface **, void *, _jfieldID *)",
    "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_P9_jfieldIDE",
-   "self_type" : "_ZTIPFPvPPK18JNINativeInterfaceS_P9_jfieldIDE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4258,7 +3898,6 @@
    "linker_set_key" : "_ZTIPFPvPPK18JNINativeInterfaceS_P9_jfieldIDhE",
    "name" : "void *(*)(const JNINativeInterface **, void *, _jfieldID *, unsigned char)",
    "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_P9_jfieldIDhE",
-   "self_type" : "_ZTIPFPvPPK18JNINativeInterfaceS_P9_jfieldIDhE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4267,7 +3906,6 @@
    "linker_set_key" : "_ZTIPFPvPPK18JNINativeInterfaceS_PhE",
    "name" : "void *(*)(const JNINativeInterface **, void *, unsigned char *)",
    "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_PhE",
-   "self_type" : "_ZTIPFPvPPK18JNINativeInterfaceS_PhE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4276,7 +3914,6 @@
    "linker_set_key" : "_ZTIPFPvPPK18JNINativeInterfaceS_S_P10_jmethodIDP13__va_list_tagE",
    "name" : "void *(*)(const JNINativeInterface **, void *, void *, _jmethodID *, __va_list_tag *)",
    "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_S_P10_jmethodIDP13__va_list_tagE",
-   "self_type" : "_ZTIPFPvPPK18JNINativeInterfaceS_S_P10_jmethodIDP13__va_list_tagE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4285,7 +3922,6 @@
    "linker_set_key" : "_ZTIPFPvPPK18JNINativeInterfaceS_S_P10_jmethodIDPK6jvalueE",
    "name" : "void *(*)(const JNINativeInterface **, void *, void *, _jmethodID *, const jvalue *)",
    "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_S_P10_jmethodIDPK6jvalueE",
-   "self_type" : "_ZTIPFPvPPK18JNINativeInterfaceS_S_P10_jmethodIDPK6jvalueE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4294,7 +3930,6 @@
    "linker_set_key" : "_ZTIPFPvPPK18JNINativeInterfaceS_S_P10_jmethodIDzE",
    "name" : "void *(*)(const JNINativeInterface **, void *, void *, _jmethodID *, ...)",
    "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_S_P10_jmethodIDzE",
-   "self_type" : "_ZTIPFPvPPK18JNINativeInterfaceS_S_P10_jmethodIDzE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4303,7 +3938,6 @@
    "linker_set_key" : "_ZTIPFPvPPK18JNINativeInterfaceS_iE",
    "name" : "void *(*)(const JNINativeInterface **, void *, int)",
    "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_iE",
-   "self_type" : "_ZTIPFPvPPK18JNINativeInterfaceS_iE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4312,7 +3946,6 @@
    "linker_set_key" : "_ZTIPFPvPPK18JNINativeInterfaceS_lE",
    "name" : "void *(*)(const JNINativeInterface **, void *, long)",
    "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceS_lE",
-   "self_type" : "_ZTIPFPvPPK18JNINativeInterfaceS_lE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4321,7 +3954,6 @@
    "linker_set_key" : "_ZTIPFPvPPK18JNINativeInterfaceiE",
    "name" : "void *(*)(const JNINativeInterface **, int)",
    "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceiE",
-   "self_type" : "_ZTIPFPvPPK18JNINativeInterfaceiE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4330,7 +3962,6 @@
    "linker_set_key" : "_ZTIPFPvPPK18JNINativeInterfaceiS_S_E",
    "name" : "void *(*)(const JNINativeInterface **, int, void *, void *)",
    "referenced_type" : "_ZTIFPvPPK18JNINativeInterfaceiS_S_E",
-   "self_type" : "_ZTIPFPvPPK18JNINativeInterfaceiS_S_E",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4339,7 +3970,6 @@
    "linker_set_key" : "_ZTIPFaPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "name" : "signed char (*)(const JNINativeInterface **, void *, _jmethodID *, __va_list_tag *)",
    "referenced_type" : "_ZTIFaPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
-   "self_type" : "_ZTIPFaPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4348,7 +3978,6 @@
    "linker_set_key" : "_ZTIPFaPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "name" : "signed char (*)(const JNINativeInterface **, void *, _jmethodID *, const jvalue *)",
    "referenced_type" : "_ZTIFaPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
-   "self_type" : "_ZTIPFaPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4357,7 +3986,6 @@
    "linker_set_key" : "_ZTIPFaPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "name" : "signed char (*)(const JNINativeInterface **, void *, _jmethodID *, ...)",
    "referenced_type" : "_ZTIFaPPK18JNINativeInterfacePvP10_jmethodIDzE",
-   "self_type" : "_ZTIPFaPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4366,7 +3994,6 @@
    "linker_set_key" : "_ZTIPFaPPK18JNINativeInterfacePvP9_jfieldIDE",
    "name" : "signed char (*)(const JNINativeInterface **, void *, _jfieldID *)",
    "referenced_type" : "_ZTIFaPPK18JNINativeInterfacePvP9_jfieldIDE",
-   "self_type" : "_ZTIPFaPPK18JNINativeInterfacePvP9_jfieldIDE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4375,7 +4002,6 @@
    "linker_set_key" : "_ZTIPFaPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "name" : "signed char (*)(const JNINativeInterface **, void *, void *, _jmethodID *, __va_list_tag *)",
    "referenced_type" : "_ZTIFaPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
-   "self_type" : "_ZTIPFaPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4384,7 +4010,6 @@
    "linker_set_key" : "_ZTIPFaPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "name" : "signed char (*)(const JNINativeInterface **, void *, void *, _jmethodID *, const jvalue *)",
    "referenced_type" : "_ZTIFaPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
-   "self_type" : "_ZTIPFaPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4393,7 +4018,6 @@
    "linker_set_key" : "_ZTIPFaPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "name" : "signed char (*)(const JNINativeInterface **, void *, void *, _jmethodID *, ...)",
    "referenced_type" : "_ZTIFaPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
-   "self_type" : "_ZTIPFaPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4402,7 +4026,6 @@
    "linker_set_key" : "_ZTIPFdPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "name" : "double (*)(const JNINativeInterface **, void *, _jmethodID *, __va_list_tag *)",
    "referenced_type" : "_ZTIFdPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
-   "self_type" : "_ZTIPFdPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4411,7 +4034,6 @@
    "linker_set_key" : "_ZTIPFdPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "name" : "double (*)(const JNINativeInterface **, void *, _jmethodID *, const jvalue *)",
    "referenced_type" : "_ZTIFdPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
-   "self_type" : "_ZTIPFdPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4420,7 +4042,6 @@
    "linker_set_key" : "_ZTIPFdPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "name" : "double (*)(const JNINativeInterface **, void *, _jmethodID *, ...)",
    "referenced_type" : "_ZTIFdPPK18JNINativeInterfacePvP10_jmethodIDzE",
-   "self_type" : "_ZTIPFdPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4429,7 +4050,6 @@
    "linker_set_key" : "_ZTIPFdPPK18JNINativeInterfacePvP9_jfieldIDE",
    "name" : "double (*)(const JNINativeInterface **, void *, _jfieldID *)",
    "referenced_type" : "_ZTIFdPPK18JNINativeInterfacePvP9_jfieldIDE",
-   "self_type" : "_ZTIPFdPPK18JNINativeInterfacePvP9_jfieldIDE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4438,7 +4058,6 @@
    "linker_set_key" : "_ZTIPFdPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "name" : "double (*)(const JNINativeInterface **, void *, void *, _jmethodID *, __va_list_tag *)",
    "referenced_type" : "_ZTIFdPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
-   "self_type" : "_ZTIPFdPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4447,7 +4066,6 @@
    "linker_set_key" : "_ZTIPFdPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "name" : "double (*)(const JNINativeInterface **, void *, void *, _jmethodID *, const jvalue *)",
    "referenced_type" : "_ZTIFdPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
-   "self_type" : "_ZTIPFdPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4456,7 +4074,6 @@
    "linker_set_key" : "_ZTIPFdPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "name" : "double (*)(const JNINativeInterface **, void *, void *, _jmethodID *, ...)",
    "referenced_type" : "_ZTIFdPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
-   "self_type" : "_ZTIPFdPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4465,7 +4082,6 @@
    "linker_set_key" : "_ZTIPFfPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "name" : "float (*)(const JNINativeInterface **, void *, _jmethodID *, __va_list_tag *)",
    "referenced_type" : "_ZTIFfPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
-   "self_type" : "_ZTIPFfPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4474,7 +4090,6 @@
    "linker_set_key" : "_ZTIPFfPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "name" : "float (*)(const JNINativeInterface **, void *, _jmethodID *, const jvalue *)",
    "referenced_type" : "_ZTIFfPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
-   "self_type" : "_ZTIPFfPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4483,7 +4098,6 @@
    "linker_set_key" : "_ZTIPFfPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "name" : "float (*)(const JNINativeInterface **, void *, _jmethodID *, ...)",
    "referenced_type" : "_ZTIFfPPK18JNINativeInterfacePvP10_jmethodIDzE",
-   "self_type" : "_ZTIPFfPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4492,7 +4106,6 @@
    "linker_set_key" : "_ZTIPFfPPK18JNINativeInterfacePvP9_jfieldIDE",
    "name" : "float (*)(const JNINativeInterface **, void *, _jfieldID *)",
    "referenced_type" : "_ZTIFfPPK18JNINativeInterfacePvP9_jfieldIDE",
-   "self_type" : "_ZTIPFfPPK18JNINativeInterfacePvP9_jfieldIDE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4501,7 +4114,6 @@
    "linker_set_key" : "_ZTIPFfPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "name" : "float (*)(const JNINativeInterface **, void *, void *, _jmethodID *, __va_list_tag *)",
    "referenced_type" : "_ZTIFfPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
-   "self_type" : "_ZTIPFfPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4510,7 +4122,6 @@
    "linker_set_key" : "_ZTIPFfPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "name" : "float (*)(const JNINativeInterface **, void *, void *, _jmethodID *, const jvalue *)",
    "referenced_type" : "_ZTIFfPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
-   "self_type" : "_ZTIPFfPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4519,7 +4130,6 @@
    "linker_set_key" : "_ZTIPFfPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "name" : "float (*)(const JNINativeInterface **, void *, void *, _jmethodID *, ...)",
    "referenced_type" : "_ZTIFfPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
-   "self_type" : "_ZTIPFfPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4528,7 +4138,6 @@
    "linker_set_key" : "_ZTIPFhPPK18JNINativeInterfaceE",
    "name" : "unsigned char (*)(const JNINativeInterface **)",
    "referenced_type" : "_ZTIFhPPK18JNINativeInterfaceE",
-   "self_type" : "_ZTIPFhPPK18JNINativeInterfaceE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4537,7 +4146,6 @@
    "linker_set_key" : "_ZTIPFhPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "name" : "unsigned char (*)(const JNINativeInterface **, void *, _jmethodID *, __va_list_tag *)",
    "referenced_type" : "_ZTIFhPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
-   "self_type" : "_ZTIPFhPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4546,7 +4154,6 @@
    "linker_set_key" : "_ZTIPFhPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "name" : "unsigned char (*)(const JNINativeInterface **, void *, _jmethodID *, const jvalue *)",
    "referenced_type" : "_ZTIFhPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
-   "self_type" : "_ZTIPFhPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4555,7 +4162,6 @@
    "linker_set_key" : "_ZTIPFhPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "name" : "unsigned char (*)(const JNINativeInterface **, void *, _jmethodID *, ...)",
    "referenced_type" : "_ZTIFhPPK18JNINativeInterfacePvP10_jmethodIDzE",
-   "self_type" : "_ZTIPFhPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4564,7 +4170,6 @@
    "linker_set_key" : "_ZTIPFhPPK18JNINativeInterfacePvP9_jfieldIDE",
    "name" : "unsigned char (*)(const JNINativeInterface **, void *, _jfieldID *)",
    "referenced_type" : "_ZTIFhPPK18JNINativeInterfacePvP9_jfieldIDE",
-   "self_type" : "_ZTIPFhPPK18JNINativeInterfacePvP9_jfieldIDE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4573,7 +4178,6 @@
    "linker_set_key" : "_ZTIPFhPPK18JNINativeInterfacePvS3_E",
    "name" : "unsigned char (*)(const JNINativeInterface **, void *, void *)",
    "referenced_type" : "_ZTIFhPPK18JNINativeInterfacePvS3_E",
-   "self_type" : "_ZTIPFhPPK18JNINativeInterfacePvS3_E",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4582,7 +4186,6 @@
    "linker_set_key" : "_ZTIPFhPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "name" : "unsigned char (*)(const JNINativeInterface **, void *, void *, _jmethodID *, __va_list_tag *)",
    "referenced_type" : "_ZTIFhPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
-   "self_type" : "_ZTIPFhPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4591,7 +4194,6 @@
    "linker_set_key" : "_ZTIPFhPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "name" : "unsigned char (*)(const JNINativeInterface **, void *, void *, _jmethodID *, const jvalue *)",
    "referenced_type" : "_ZTIFhPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
-   "self_type" : "_ZTIPFhPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4600,7 +4202,6 @@
    "linker_set_key" : "_ZTIPFhPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "name" : "unsigned char (*)(const JNINativeInterface **, void *, void *, _jmethodID *, ...)",
    "referenced_type" : "_ZTIFhPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
-   "self_type" : "_ZTIPFhPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4609,7 +4210,6 @@
    "linker_set_key" : "_ZTIPFiPPK18JNIInvokeInterfaceE",
    "name" : "int (*)(const JNIInvokeInterface **)",
    "referenced_type" : "_ZTIFiPPK18JNIInvokeInterfaceE",
-   "self_type" : "_ZTIPFiPPK18JNIInvokeInterfaceE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4618,7 +4218,6 @@
    "linker_set_key" : "_ZTIPFiPPK18JNIInvokeInterfacePPPK18JNINativeInterfacePvE",
    "name" : "int (*)(const JNIInvokeInterface **, const JNINativeInterface ***, void *)",
    "referenced_type" : "_ZTIFiPPK18JNIInvokeInterfacePPPK18JNINativeInterfacePvE",
-   "self_type" : "_ZTIPFiPPK18JNIInvokeInterfacePPPK18JNINativeInterfacePvE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4627,7 +4226,6 @@
    "linker_set_key" : "_ZTIPFiPPK18JNIInvokeInterfacePPviE",
    "name" : "int (*)(const JNIInvokeInterface **, void **, int)",
    "referenced_type" : "_ZTIFiPPK18JNIInvokeInterfacePPviE",
-   "self_type" : "_ZTIPFiPPK18JNIInvokeInterfacePPviE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4636,7 +4234,6 @@
    "linker_set_key" : "_ZTIPFiPPK18JNINativeInterfaceE",
    "name" : "int (*)(const JNINativeInterface **)",
    "referenced_type" : "_ZTIFiPPK18JNINativeInterfaceE",
-   "self_type" : "_ZTIPFiPPK18JNINativeInterfaceE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4645,7 +4242,6 @@
    "linker_set_key" : "_ZTIPFiPPK18JNINativeInterfacePPPK18JNIInvokeInterfaceE",
    "name" : "int (*)(const JNINativeInterface **, const JNIInvokeInterface ***)",
    "referenced_type" : "_ZTIFiPPK18JNINativeInterfacePPPK18JNIInvokeInterfaceE",
-   "self_type" : "_ZTIPFiPPK18JNINativeInterfacePPPK18JNIInvokeInterfaceE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4654,7 +4250,6 @@
    "linker_set_key" : "_ZTIPFiPPK18JNINativeInterfacePvE",
    "name" : "int (*)(const JNINativeInterface **, void *)",
    "referenced_type" : "_ZTIFiPPK18JNINativeInterfacePvE",
-   "self_type" : "_ZTIPFiPPK18JNINativeInterfacePvE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4663,7 +4258,6 @@
    "linker_set_key" : "_ZTIPFiPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "name" : "int (*)(const JNINativeInterface **, void *, _jmethodID *, __va_list_tag *)",
    "referenced_type" : "_ZTIFiPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
-   "self_type" : "_ZTIPFiPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4672,7 +4266,6 @@
    "linker_set_key" : "_ZTIPFiPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "name" : "int (*)(const JNINativeInterface **, void *, _jmethodID *, const jvalue *)",
    "referenced_type" : "_ZTIFiPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
-   "self_type" : "_ZTIPFiPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4681,7 +4274,6 @@
    "linker_set_key" : "_ZTIPFiPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "name" : "int (*)(const JNINativeInterface **, void *, _jmethodID *, ...)",
    "referenced_type" : "_ZTIFiPPK18JNINativeInterfacePvP10_jmethodIDzE",
-   "self_type" : "_ZTIPFiPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4690,7 +4282,6 @@
    "linker_set_key" : "_ZTIPFiPPK18JNINativeInterfacePvP9_jfieldIDE",
    "name" : "int (*)(const JNINativeInterface **, void *, _jfieldID *)",
    "referenced_type" : "_ZTIFiPPK18JNINativeInterfacePvP9_jfieldIDE",
-   "self_type" : "_ZTIPFiPPK18JNINativeInterfacePvP9_jfieldIDE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4699,7 +4290,6 @@
    "linker_set_key" : "_ZTIPFiPPK18JNINativeInterfacePvPK15JNINativeMethodiE",
    "name" : "int (*)(const JNINativeInterface **, void *, const JNINativeMethod *, int)",
    "referenced_type" : "_ZTIFiPPK18JNINativeInterfacePvPK15JNINativeMethodiE",
-   "self_type" : "_ZTIPFiPPK18JNINativeInterfacePvPK15JNINativeMethodiE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4708,7 +4298,6 @@
    "linker_set_key" : "_ZTIPFiPPK18JNINativeInterfacePvPKcE",
    "name" : "int (*)(const JNINativeInterface **, void *, const char *)",
    "referenced_type" : "_ZTIFiPPK18JNINativeInterfacePvPKcE",
-   "self_type" : "_ZTIPFiPPK18JNINativeInterfacePvPKcE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4717,7 +4306,6 @@
    "linker_set_key" : "_ZTIPFiPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "name" : "int (*)(const JNINativeInterface **, void *, void *, _jmethodID *, __va_list_tag *)",
    "referenced_type" : "_ZTIFiPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
-   "self_type" : "_ZTIPFiPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4726,7 +4314,6 @@
    "linker_set_key" : "_ZTIPFiPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "name" : "int (*)(const JNINativeInterface **, void *, void *, _jmethodID *, const jvalue *)",
    "referenced_type" : "_ZTIFiPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
-   "self_type" : "_ZTIPFiPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4735,7 +4322,6 @@
    "linker_set_key" : "_ZTIPFiPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "name" : "int (*)(const JNINativeInterface **, void *, void *, _jmethodID *, ...)",
    "referenced_type" : "_ZTIFiPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
-   "self_type" : "_ZTIPFiPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4744,7 +4330,6 @@
    "linker_set_key" : "_ZTIPFiPPK18JNINativeInterfaceiE",
    "name" : "int (*)(const JNINativeInterface **, int)",
    "referenced_type" : "_ZTIFiPPK18JNINativeInterfaceiE",
-   "self_type" : "_ZTIPFiPPK18JNINativeInterfaceiE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4753,7 +4338,6 @@
    "linker_set_key" : "_ZTIPFlPPK18JNINativeInterfacePvE",
    "name" : "long (*)(const JNINativeInterface **, void *)",
    "referenced_type" : "_ZTIFlPPK18JNINativeInterfacePvE",
-   "self_type" : "_ZTIPFlPPK18JNINativeInterfacePvE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4762,7 +4346,6 @@
    "linker_set_key" : "_ZTIPFlPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "name" : "long (*)(const JNINativeInterface **, void *, _jmethodID *, __va_list_tag *)",
    "referenced_type" : "_ZTIFlPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
-   "self_type" : "_ZTIPFlPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4771,7 +4354,6 @@
    "linker_set_key" : "_ZTIPFlPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "name" : "long (*)(const JNINativeInterface **, void *, _jmethodID *, const jvalue *)",
    "referenced_type" : "_ZTIFlPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
-   "self_type" : "_ZTIPFlPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4780,7 +4362,6 @@
    "linker_set_key" : "_ZTIPFlPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "name" : "long (*)(const JNINativeInterface **, void *, _jmethodID *, ...)",
    "referenced_type" : "_ZTIFlPPK18JNINativeInterfacePvP10_jmethodIDzE",
-   "self_type" : "_ZTIPFlPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4789,7 +4370,6 @@
    "linker_set_key" : "_ZTIPFlPPK18JNINativeInterfacePvP9_jfieldIDE",
    "name" : "long (*)(const JNINativeInterface **, void *, _jfieldID *)",
    "referenced_type" : "_ZTIFlPPK18JNINativeInterfacePvP9_jfieldIDE",
-   "self_type" : "_ZTIPFlPPK18JNINativeInterfacePvP9_jfieldIDE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4798,7 +4378,6 @@
    "linker_set_key" : "_ZTIPFlPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "name" : "long (*)(const JNINativeInterface **, void *, void *, _jmethodID *, __va_list_tag *)",
    "referenced_type" : "_ZTIFlPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
-   "self_type" : "_ZTIPFlPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4807,7 +4386,6 @@
    "linker_set_key" : "_ZTIPFlPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "name" : "long (*)(const JNINativeInterface **, void *, void *, _jmethodID *, const jvalue *)",
    "referenced_type" : "_ZTIFlPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
-   "self_type" : "_ZTIPFlPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4816,7 +4394,6 @@
    "linker_set_key" : "_ZTIPFlPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "name" : "long (*)(const JNINativeInterface **, void *, void *, _jmethodID *, ...)",
    "referenced_type" : "_ZTIFlPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
-   "self_type" : "_ZTIPFlPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4825,7 +4402,6 @@
    "linker_set_key" : "_ZTIPFsPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "name" : "short (*)(const JNINativeInterface **, void *, _jmethodID *, __va_list_tag *)",
    "referenced_type" : "_ZTIFsPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
-   "self_type" : "_ZTIPFsPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4834,7 +4410,6 @@
    "linker_set_key" : "_ZTIPFsPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "name" : "short (*)(const JNINativeInterface **, void *, _jmethodID *, const jvalue *)",
    "referenced_type" : "_ZTIFsPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
-   "self_type" : "_ZTIPFsPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4843,7 +4418,6 @@
    "linker_set_key" : "_ZTIPFsPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "name" : "short (*)(const JNINativeInterface **, void *, _jmethodID *, ...)",
    "referenced_type" : "_ZTIFsPPK18JNINativeInterfacePvP10_jmethodIDzE",
-   "self_type" : "_ZTIPFsPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4852,7 +4426,6 @@
    "linker_set_key" : "_ZTIPFsPPK18JNINativeInterfacePvP9_jfieldIDE",
    "name" : "short (*)(const JNINativeInterface **, void *, _jfieldID *)",
    "referenced_type" : "_ZTIFsPPK18JNINativeInterfacePvP9_jfieldIDE",
-   "self_type" : "_ZTIPFsPPK18JNINativeInterfacePvP9_jfieldIDE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4861,7 +4434,6 @@
    "linker_set_key" : "_ZTIPFsPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "name" : "short (*)(const JNINativeInterface **, void *, void *, _jmethodID *, __va_list_tag *)",
    "referenced_type" : "_ZTIFsPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
-   "self_type" : "_ZTIPFsPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4870,7 +4442,6 @@
    "linker_set_key" : "_ZTIPFsPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "name" : "short (*)(const JNINativeInterface **, void *, void *, _jmethodID *, const jvalue *)",
    "referenced_type" : "_ZTIFsPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
-   "self_type" : "_ZTIPFsPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4879,7 +4450,6 @@
    "linker_set_key" : "_ZTIPFsPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "name" : "short (*)(const JNINativeInterface **, void *, void *, _jmethodID *, ...)",
    "referenced_type" : "_ZTIFsPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
-   "self_type" : "_ZTIPFsPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4888,7 +4458,6 @@
    "linker_set_key" : "_ZTIPFtPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "name" : "unsigned short (*)(const JNINativeInterface **, void *, _jmethodID *, __va_list_tag *)",
    "referenced_type" : "_ZTIFtPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
-   "self_type" : "_ZTIPFtPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4897,7 +4466,6 @@
    "linker_set_key" : "_ZTIPFtPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "name" : "unsigned short (*)(const JNINativeInterface **, void *, _jmethodID *, const jvalue *)",
    "referenced_type" : "_ZTIFtPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
-   "self_type" : "_ZTIPFtPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4906,7 +4474,6 @@
    "linker_set_key" : "_ZTIPFtPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "name" : "unsigned short (*)(const JNINativeInterface **, void *, _jmethodID *, ...)",
    "referenced_type" : "_ZTIFtPPK18JNINativeInterfacePvP10_jmethodIDzE",
-   "self_type" : "_ZTIPFtPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4915,7 +4482,6 @@
    "linker_set_key" : "_ZTIPFtPPK18JNINativeInterfacePvP9_jfieldIDE",
    "name" : "unsigned short (*)(const JNINativeInterface **, void *, _jfieldID *)",
    "referenced_type" : "_ZTIFtPPK18JNINativeInterfacePvP9_jfieldIDE",
-   "self_type" : "_ZTIPFtPPK18JNINativeInterfacePvP9_jfieldIDE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4924,7 +4490,6 @@
    "linker_set_key" : "_ZTIPFtPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "name" : "unsigned short (*)(const JNINativeInterface **, void *, void *, _jmethodID *, __va_list_tag *)",
    "referenced_type" : "_ZTIFtPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
-   "self_type" : "_ZTIPFtPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4933,7 +4498,6 @@
    "linker_set_key" : "_ZTIPFtPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "name" : "unsigned short (*)(const JNINativeInterface **, void *, void *, _jmethodID *, const jvalue *)",
    "referenced_type" : "_ZTIFtPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
-   "self_type" : "_ZTIPFtPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4942,7 +4506,6 @@
    "linker_set_key" : "_ZTIPFtPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "name" : "unsigned short (*)(const JNINativeInterface **, void *, void *, _jmethodID *, ...)",
    "referenced_type" : "_ZTIFtPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
-   "self_type" : "_ZTIPFtPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4951,7 +4514,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfaceE",
    "name" : "void (*)(const JNINativeInterface **)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfaceE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfaceE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4960,7 +4522,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePKcE",
    "name" : "void (*)(const JNINativeInterface **, const char *)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePKcE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePKcE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4969,7 +4530,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePvE",
    "name" : "void (*)(const JNINativeInterface **, void *)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePvE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4978,7 +4538,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "name" : "void (*)(const JNINativeInterface **, void *, _jmethodID *, __va_list_tag *)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePvP10_jmethodIDP13__va_list_tagE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4987,7 +4546,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "name" : "void (*)(const JNINativeInterface **, void *, _jmethodID *, const jvalue *)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePvP10_jmethodIDPK6jvalueE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -4996,7 +4554,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "name" : "void (*)(const JNINativeInterface **, void *, _jmethodID *, ...)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvP10_jmethodIDzE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePvP10_jmethodIDzE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5005,7 +4562,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePvP9_jfieldIDS3_E",
    "name" : "void (*)(const JNINativeInterface **, void *, _jfieldID *, void *)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvP9_jfieldIDS3_E",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePvP9_jfieldIDS3_E",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5014,7 +4570,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePvP9_jfieldIDaE",
    "name" : "void (*)(const JNINativeInterface **, void *, _jfieldID *, signed char)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvP9_jfieldIDaE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePvP9_jfieldIDaE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5023,7 +4578,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePvP9_jfieldIDdE",
    "name" : "void (*)(const JNINativeInterface **, void *, _jfieldID *, double)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvP9_jfieldIDdE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePvP9_jfieldIDdE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5032,7 +4586,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePvP9_jfieldIDfE",
    "name" : "void (*)(const JNINativeInterface **, void *, _jfieldID *, float)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvP9_jfieldIDfE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePvP9_jfieldIDfE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5041,7 +4594,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePvP9_jfieldIDhE",
    "name" : "void (*)(const JNINativeInterface **, void *, _jfieldID *, unsigned char)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvP9_jfieldIDhE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePvP9_jfieldIDhE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5050,7 +4602,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePvP9_jfieldIDiE",
    "name" : "void (*)(const JNINativeInterface **, void *, _jfieldID *, int)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvP9_jfieldIDiE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePvP9_jfieldIDiE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5059,7 +4610,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePvP9_jfieldIDlE",
    "name" : "void (*)(const JNINativeInterface **, void *, _jfieldID *, long)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvP9_jfieldIDlE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePvP9_jfieldIDlE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5068,7 +4618,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePvP9_jfieldIDsE",
    "name" : "void (*)(const JNINativeInterface **, void *, _jfieldID *, short)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvP9_jfieldIDsE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePvP9_jfieldIDsE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5077,7 +4626,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePvP9_jfieldIDtE",
    "name" : "void (*)(const JNINativeInterface **, void *, _jfieldID *, unsigned short)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvP9_jfieldIDtE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePvP9_jfieldIDtE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5086,7 +4634,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePvPKcE",
    "name" : "void (*)(const JNINativeInterface **, void *, const char *)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvPKcE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePvPKcE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5095,7 +4642,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePvPKtE",
    "name" : "void (*)(const JNINativeInterface **, void *, const unsigned short *)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvPKtE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePvPKtE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5104,7 +4650,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePvPaiE",
    "name" : "void (*)(const JNINativeInterface **, void *, signed char *, int)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvPaiE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePvPaiE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5113,7 +4658,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePvPdiE",
    "name" : "void (*)(const JNINativeInterface **, void *, double *, int)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvPdiE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePvPdiE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5122,7 +4666,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePvPfiE",
    "name" : "void (*)(const JNINativeInterface **, void *, float *, int)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvPfiE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePvPfiE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5131,7 +4674,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePvPhiE",
    "name" : "void (*)(const JNINativeInterface **, void *, unsigned char *, int)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvPhiE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePvPhiE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5140,7 +4682,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePvPiiE",
    "name" : "void (*)(const JNINativeInterface **, void *, int *, int)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvPiiE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePvPiiE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5149,7 +4690,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePvPliE",
    "name" : "void (*)(const JNINativeInterface **, void *, long *, int)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvPliE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePvPliE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5158,7 +4698,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePvPsiE",
    "name" : "void (*)(const JNINativeInterface **, void *, short *, int)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvPsiE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePvPsiE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5167,7 +4706,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePvPtiE",
    "name" : "void (*)(const JNINativeInterface **, void *, unsigned short *, int)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvPtiE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePvPtiE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5176,7 +4714,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "name" : "void (*)(const JNINativeInterface **, void *, void *, _jmethodID *, __va_list_tag *)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePvS3_P10_jmethodIDP13__va_list_tagE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5185,7 +4722,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "name" : "void (*)(const JNINativeInterface **, void *, void *, _jmethodID *, const jvalue *)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePvS3_P10_jmethodIDPK6jvalueE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5194,7 +4730,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "name" : "void (*)(const JNINativeInterface **, void *, void *, _jmethodID *, ...)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePvS3_P10_jmethodIDzE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5203,7 +4738,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePvS3_iE",
    "name" : "void (*)(const JNINativeInterface **, void *, void *, int)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePvS3_iE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePvS3_iE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5212,7 +4746,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePviS3_E",
    "name" : "void (*)(const JNINativeInterface **, void *, int, void *)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviS3_E",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePviS3_E",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5221,7 +4754,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePviiPKaE",
    "name" : "void (*)(const JNINativeInterface **, void *, int, int, const signed char *)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPKaE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePviiPKaE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5230,7 +4762,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePviiPKdE",
    "name" : "void (*)(const JNINativeInterface **, void *, int, int, const double *)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPKdE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePviiPKdE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5239,7 +4770,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePviiPKfE",
    "name" : "void (*)(const JNINativeInterface **, void *, int, int, const float *)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPKfE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePviiPKfE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5248,7 +4778,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePviiPKhE",
    "name" : "void (*)(const JNINativeInterface **, void *, int, int, const unsigned char *)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPKhE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePviiPKhE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5257,7 +4786,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePviiPKiE",
    "name" : "void (*)(const JNINativeInterface **, void *, int, int, const int *)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPKiE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePviiPKiE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5266,7 +4794,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePviiPKlE",
    "name" : "void (*)(const JNINativeInterface **, void *, int, int, const long *)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPKlE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePviiPKlE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5275,7 +4802,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePviiPKsE",
    "name" : "void (*)(const JNINativeInterface **, void *, int, int, const short *)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPKsE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePviiPKsE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5284,7 +4810,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePviiPKtE",
    "name" : "void (*)(const JNINativeInterface **, void *, int, int, const unsigned short *)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPKtE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePviiPKtE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5293,7 +4818,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePviiPaE",
    "name" : "void (*)(const JNINativeInterface **, void *, int, int, signed char *)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPaE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePviiPaE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5302,7 +4826,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePviiPcE",
    "name" : "void (*)(const JNINativeInterface **, void *, int, int, char *)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPcE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePviiPcE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5311,7 +4834,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePviiPdE",
    "name" : "void (*)(const JNINativeInterface **, void *, int, int, double *)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPdE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePviiPdE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5320,7 +4842,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePviiPfE",
    "name" : "void (*)(const JNINativeInterface **, void *, int, int, float *)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPfE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePviiPfE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5329,7 +4850,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePviiPhE",
    "name" : "void (*)(const JNINativeInterface **, void *, int, int, unsigned char *)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPhE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePviiPhE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5338,7 +4858,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePviiPiE",
    "name" : "void (*)(const JNINativeInterface **, void *, int, int, int *)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPiE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePviiPiE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5347,7 +4866,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePviiPlE",
    "name" : "void (*)(const JNINativeInterface **, void *, int, int, long *)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPlE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePviiPlE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5356,7 +4874,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePviiPsE",
    "name" : "void (*)(const JNINativeInterface **, void *, int, int, short *)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPsE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePviiPsE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5365,7 +4882,6 @@
    "linker_set_key" : "_ZTIPFvPPK18JNINativeInterfacePviiPtE",
    "name" : "void (*)(const JNINativeInterface **, void *, int, int, unsigned short *)",
    "referenced_type" : "_ZTIFvPPK18JNINativeInterfacePviiPtE",
-   "self_type" : "_ZTIPFvPPK18JNINativeInterfacePviiPtE",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5374,7 +4890,6 @@
    "linker_set_key" : "_ZTIPK15JNINativeMethod",
    "name" : "const JNINativeMethod *",
    "referenced_type" : "_ZTIK15JNINativeMethod",
-   "self_type" : "_ZTIPK15JNINativeMethod",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5383,7 +4898,6 @@
    "linker_set_key" : "_ZTIPK18JNIInvokeInterface",
    "name" : "const JNIInvokeInterface *",
    "referenced_type" : "_ZTIK18JNIInvokeInterface",
-   "self_type" : "_ZTIPK18JNIInvokeInterface",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5392,7 +4906,6 @@
    "linker_set_key" : "_ZTIPK18JNINativeInterface",
    "name" : "const JNINativeInterface *",
    "referenced_type" : "_ZTIK18JNINativeInterface",
-   "self_type" : "_ZTIPK18JNINativeInterface",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5401,7 +4914,6 @@
    "linker_set_key" : "_ZTIPK6jvalue",
    "name" : "const jvalue *",
    "referenced_type" : "_ZTIK6jvalue",
-   "self_type" : "_ZTIPK6jvalue",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5410,7 +4922,6 @@
    "linker_set_key" : "_ZTIPKa",
    "name" : "const signed char *",
    "referenced_type" : "_ZTIKa",
-   "self_type" : "_ZTIPKa",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5419,7 +4930,6 @@
    "linker_set_key" : "_ZTIPKc",
    "name" : "const char *",
    "referenced_type" : "_ZTIKc",
-   "self_type" : "_ZTIPKc",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5428,7 +4938,6 @@
    "linker_set_key" : "_ZTIPKd",
    "name" : "const double *",
    "referenced_type" : "_ZTIKd",
-   "self_type" : "_ZTIPKd",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5437,7 +4946,6 @@
    "linker_set_key" : "_ZTIPKf",
    "name" : "const float *",
    "referenced_type" : "_ZTIKf",
-   "self_type" : "_ZTIPKf",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5446,7 +4954,6 @@
    "linker_set_key" : "_ZTIPKh",
    "name" : "const unsigned char *",
    "referenced_type" : "_ZTIKh",
-   "self_type" : "_ZTIPKh",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5455,7 +4962,6 @@
    "linker_set_key" : "_ZTIPKi",
    "name" : "const int *",
    "referenced_type" : "_ZTIKi",
-   "self_type" : "_ZTIPKi",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5464,7 +4970,6 @@
    "linker_set_key" : "_ZTIPKl",
    "name" : "const long *",
    "referenced_type" : "_ZTIKl",
-   "self_type" : "_ZTIPKl",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5473,7 +4978,6 @@
    "linker_set_key" : "_ZTIPKs",
    "name" : "const short *",
    "referenced_type" : "_ZTIKs",
-   "self_type" : "_ZTIPKs",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5482,7 +4986,6 @@
    "linker_set_key" : "_ZTIPKt",
    "name" : "const unsigned short *",
    "referenced_type" : "_ZTIKt",
-   "self_type" : "_ZTIPKt",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5491,7 +4994,6 @@
    "linker_set_key" : "_ZTIPPK18JNIInvokeInterface",
    "name" : "const JNIInvokeInterface **",
    "referenced_type" : "_ZTIPK18JNIInvokeInterface",
-   "self_type" : "_ZTIPPK18JNIInvokeInterface",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5500,7 +5002,6 @@
    "linker_set_key" : "_ZTIPPK18JNINativeInterface",
    "name" : "const JNINativeInterface **",
    "referenced_type" : "_ZTIPK18JNINativeInterface",
-   "self_type" : "_ZTIPPK18JNINativeInterface",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5509,7 +5010,6 @@
    "linker_set_key" : "_ZTIPPPK18JNIInvokeInterface",
    "name" : "const JNIInvokeInterface ***",
    "referenced_type" : "_ZTIPPK18JNIInvokeInterface",
-   "self_type" : "_ZTIPPPK18JNIInvokeInterface",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5518,7 +5018,6 @@
    "linker_set_key" : "_ZTIPPPK18JNINativeInterface",
    "name" : "const JNINativeInterface ***",
    "referenced_type" : "_ZTIPPK18JNINativeInterface",
-   "self_type" : "_ZTIPPPK18JNINativeInterface",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5527,7 +5026,6 @@
    "linker_set_key" : "_ZTIPPv",
    "name" : "void **",
    "referenced_type" : "_ZTIPv",
-   "self_type" : "_ZTIPPv",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5536,7 +5034,6 @@
    "linker_set_key" : "_ZTIPa",
    "name" : "signed char *",
    "referenced_type" : "_ZTIa",
-   "self_type" : "_ZTIPa",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5545,7 +5042,6 @@
    "linker_set_key" : "_ZTIPc",
    "name" : "char *",
    "referenced_type" : "_ZTIc",
-   "self_type" : "_ZTIPc",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5554,7 +5050,6 @@
    "linker_set_key" : "_ZTIPd",
    "name" : "double *",
    "referenced_type" : "_ZTId",
-   "self_type" : "_ZTIPd",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5563,7 +5058,6 @@
    "linker_set_key" : "_ZTIPf",
    "name" : "float *",
    "referenced_type" : "_ZTIf",
-   "self_type" : "_ZTIPf",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5572,7 +5066,6 @@
    "linker_set_key" : "_ZTIPh",
    "name" : "unsigned char *",
    "referenced_type" : "_ZTIh",
-   "self_type" : "_ZTIPh",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5581,7 +5074,6 @@
    "linker_set_key" : "_ZTIPi",
    "name" : "int *",
    "referenced_type" : "_ZTIi",
-   "self_type" : "_ZTIPi",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5590,7 +5082,6 @@
    "linker_set_key" : "_ZTIPl",
    "name" : "long *",
    "referenced_type" : "_ZTIl",
-   "self_type" : "_ZTIPl",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5599,7 +5090,6 @@
    "linker_set_key" : "_ZTIPs",
    "name" : "short *",
    "referenced_type" : "_ZTIs",
-   "self_type" : "_ZTIPs",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5608,7 +5098,6 @@
    "linker_set_key" : "_ZTIPt",
    "name" : "unsigned short *",
    "referenced_type" : "_ZTIt",
-   "self_type" : "_ZTIPt",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5617,7 +5106,6 @@
    "linker_set_key" : "_ZTIPv",
    "name" : "void *",
    "referenced_type" : "_ZTIv",
-   "self_type" : "_ZTIPv",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   }
@@ -5630,7 +5118,6 @@
    "linker_set_key" : "_ZTIK15JNINativeMethod",
    "name" : "const JNINativeMethod",
    "referenced_type" : "_ZTI15JNINativeMethod",
-   "self_type" : "_ZTIK15JNINativeMethod",
    "size" : 24,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5640,7 +5127,6 @@
    "linker_set_key" : "_ZTIK18JNIInvokeInterface",
    "name" : "const JNIInvokeInterface",
    "referenced_type" : "_ZTI18JNIInvokeInterface",
-   "self_type" : "_ZTIK18JNIInvokeInterface",
    "size" : 64,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5650,7 +5136,6 @@
    "linker_set_key" : "_ZTIK18JNINativeInterface",
    "name" : "const JNINativeInterface",
    "referenced_type" : "_ZTI18JNINativeInterface",
-   "self_type" : "_ZTIK18JNINativeInterface",
    "size" : 1864,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5660,7 +5145,6 @@
    "linker_set_key" : "_ZTIK6jvalue",
    "name" : "const jvalue",
    "referenced_type" : "_ZTI6jvalue",
-   "self_type" : "_ZTIK6jvalue",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5670,7 +5154,6 @@
    "linker_set_key" : "_ZTIKa",
    "name" : "const signed char",
    "referenced_type" : "_ZTIa",
-   "self_type" : "_ZTIKa",
    "size" : 1,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5680,7 +5163,6 @@
    "linker_set_key" : "_ZTIKc",
    "name" : "const char",
    "referenced_type" : "_ZTIc",
-   "self_type" : "_ZTIKc",
    "size" : 1,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5690,7 +5172,6 @@
    "linker_set_key" : "_ZTIKd",
    "name" : "const double",
    "referenced_type" : "_ZTId",
-   "self_type" : "_ZTIKd",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5700,7 +5181,6 @@
    "linker_set_key" : "_ZTIKf",
    "name" : "const float",
    "referenced_type" : "_ZTIf",
-   "self_type" : "_ZTIKf",
    "size" : 4,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5710,7 +5190,6 @@
    "linker_set_key" : "_ZTIKh",
    "name" : "const unsigned char",
    "referenced_type" : "_ZTIh",
-   "self_type" : "_ZTIKh",
    "size" : 1,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5720,7 +5199,6 @@
    "linker_set_key" : "_ZTIKi",
    "name" : "const int",
    "referenced_type" : "_ZTIi",
-   "self_type" : "_ZTIKi",
    "size" : 4,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5730,7 +5208,6 @@
    "linker_set_key" : "_ZTIKl",
    "name" : "const long",
    "referenced_type" : "_ZTIl",
-   "self_type" : "_ZTIKl",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5740,7 +5217,6 @@
    "linker_set_key" : "_ZTIKs",
    "name" : "const short",
    "referenced_type" : "_ZTIs",
-   "self_type" : "_ZTIKs",
    "size" : 2,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5750,7 +5226,6 @@
    "linker_set_key" : "_ZTIKt",
    "name" : "const unsigned short",
    "referenced_type" : "_ZTIt",
-   "self_type" : "_ZTIKt",
    "size" : 2,
    "source_file" : "libnativehelper/include_jni/jni.h"
   }
@@ -5773,8 +5248,6 @@
    ],
    "linker_set_key" : "_ZTI12JavaVMOption",
    "name" : "JavaVMOption",
-   "referenced_type" : "_ZTI12JavaVMOption",
-   "self_type" : "_ZTI12JavaVMOption",
    "size" : 16,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5804,8 +5277,6 @@
    ],
    "linker_set_key" : "_ZTI14JavaVMInitArgs",
    "name" : "JavaVMInitArgs",
-   "referenced_type" : "_ZTI14JavaVMInitArgs",
-   "self_type" : "_ZTI14JavaVMInitArgs",
    "size" : 24,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5830,8 +5301,6 @@
    ],
    "linker_set_key" : "_ZTI15JNINativeMethod",
    "name" : "JNINativeMethod",
-   "referenced_type" : "_ZTI15JNINativeMethod",
-   "self_type" : "_ZTI15JNINativeMethod",
    "size" : 24,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5856,8 +5325,6 @@
    ],
    "linker_set_key" : "_ZTI16JavaVMAttachArgs",
    "name" : "JavaVMAttachArgs",
-   "referenced_type" : "_ZTI16JavaVMAttachArgs",
-   "self_type" : "_ZTI16JavaVMAttachArgs",
    "size" : 24,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -5907,8 +5374,6 @@
    ],
    "linker_set_key" : "_ZTI18JNIInvokeInterface",
    "name" : "JNIInvokeInterface",
-   "referenced_type" : "_ZTI18JNIInvokeInterface",
-   "self_type" : "_ZTI18JNIInvokeInterface",
    "size" : 64,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -7083,8 +6548,6 @@
    ],
    "linker_set_key" : "_ZTI18JNINativeInterface",
    "name" : "JNINativeInterface",
-   "referenced_type" : "_ZTI18JNINativeInterface",
-   "self_type" : "_ZTI18JNINativeInterface",
    "size" : 1864,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -7129,8 +6592,6 @@
    ],
    "linker_set_key" : "_ZTI21__android_log_message",
    "name" : "__android_log_message",
-   "referenced_type" : "_ZTI21__android_log_message",
-   "self_type" : "_ZTI21__android_log_message",
    "size" : 48,
    "source_file" : "system/logging/liblog/include/android/log.h"
   },
@@ -7178,8 +6639,6 @@
    "linker_set_key" : "_ZTI6jvalue",
    "name" : "jvalue",
    "record_kind" : "union",
-   "referenced_type" : "_ZTI6jvalue",
-   "self_type" : "_ZTI6jvalue",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -7194,8 +6653,6 @@
    ],
    "linker_set_key" : "_ZTI7_JNIEnv",
    "name" : "_JNIEnv",
-   "referenced_type" : "_ZTI7_JNIEnv",
-   "self_type" : "_ZTI7_JNIEnv",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   },
@@ -7210,8 +6667,6 @@
    ],
    "linker_set_key" : "_ZTI7_JavaVM",
    "name" : "_JavaVM",
-   "referenced_type" : "_ZTI7_JavaVM",
-   "self_type" : "_ZTI7_JavaVM",
    "size" : 8,
    "source_file" : "libnativehelper/include_jni/jni.h"
   }

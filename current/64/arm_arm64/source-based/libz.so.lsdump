@@ -6,7 +6,6 @@
    "linker_set_key" : "_ZTIA10_PKc",
    "name" : "const char *[10]",
    "referenced_type" : "_ZTIPKc",
-   "self_type" : "_ZTIA10_PKc",
    "size" : 40,
    "source_file" : "external/zlib/zutil.h"
   },
@@ -15,7 +14,6 @@
    "linker_set_key" : "_ZTIA16_t",
    "name" : "unsigned short[16]",
    "referenced_type" : "_ZTIt",
-   "self_type" : "_ZTIA16_t",
    "size" : 32,
    "source_file" : "external/zlib/deflate.h"
   },
@@ -24,7 +22,6 @@
    "linker_set_key" : "_ZTIA1924_4code",
    "name" : "code[1924]",
    "referenced_type" : "_ZTI4code",
-   "self_type" : "_ZTIA1924_4code",
    "size" : 7696,
    "source_file" : "external/zlib/inflate.h"
   },
@@ -33,7 +30,6 @@
    "linker_set_key" : "_ZTIA20_j",
    "name" : "unsigned int[20]",
    "referenced_type" : "_ZTIj",
-   "self_type" : "_ZTIA20_j",
    "size" : 80,
    "source_file" : "external/zlib/deflate.h"
   },
@@ -42,7 +38,6 @@
    "linker_set_key" : "_ZTIA256_h",
    "name" : "unsigned char[256]",
    "referenced_type" : "_ZTIh",
-   "self_type" : "_ZTIA256_h",
    "size" : 256,
    "source_file" : "external/zlib/trees.h"
   },
@@ -51,7 +46,6 @@
    "linker_set_key" : "_ZTIA256_j",
    "name" : "unsigned int[256]",
    "referenced_type" : "_ZTIj",
-   "self_type" : "_ZTIA256_j",
    "size" : 1024,
    "source_file" : "external/zlib/crc32.h"
   },
@@ -60,7 +54,6 @@
    "linker_set_key" : "_ZTIA288_9ct_data_s",
    "name" : "ct_data_s[288]",
    "referenced_type" : "_ZTI9ct_data_s",
-   "self_type" : "_ZTIA288_9ct_data_s",
    "size" : 1152,
    "source_file" : "external/zlib/trees.h"
   },
@@ -69,7 +62,6 @@
    "linker_set_key" : "_ZTIA288_t",
    "name" : "unsigned short[288]",
    "referenced_type" : "_ZTIt",
-   "self_type" : "_ZTIA288_t",
    "size" : 576,
    "source_file" : "external/zlib/inflate.h"
   },
@@ -78,7 +70,6 @@
    "linker_set_key" : "_ZTIA29_i",
    "name" : "int[29]",
    "referenced_type" : "_ZTIi",
-   "self_type" : "_ZTIA29_i",
    "size" : 116,
    "source_file" : "external/zlib/trees.h"
   },
@@ -87,7 +78,6 @@
    "linker_set_key" : "_ZTIA30_9ct_data_s",
    "name" : "ct_data_s[30]",
    "referenced_type" : "_ZTI9ct_data_s",
-   "self_type" : "_ZTIA30_9ct_data_s",
    "size" : 120,
    "source_file" : "external/zlib/trees.h"
   },
@@ -96,7 +86,6 @@
    "linker_set_key" : "_ZTIA30_i",
    "name" : "int[30]",
    "referenced_type" : "_ZTIi",
-   "self_type" : "_ZTIA30_i",
    "size" : 120,
    "source_file" : "external/zlib/trees.h"
   },
@@ -105,7 +94,6 @@
    "linker_set_key" : "_ZTIA320_t",
    "name" : "unsigned short[320]",
    "referenced_type" : "_ZTIt",
-   "self_type" : "_ZTIA320_t",
    "size" : 640,
    "source_file" : "external/zlib/inflate.h"
   },
@@ -114,7 +102,6 @@
    "linker_set_key" : "_ZTIA32_j",
    "name" : "unsigned int[32]",
    "referenced_type" : "_ZTIj",
-   "self_type" : "_ZTIA32_j",
    "size" : 128,
    "source_file" : "external/zlib/crc32.h"
   },
@@ -123,7 +110,6 @@
    "linker_set_key" : "_ZTIA39_9ct_data_s",
    "name" : "ct_data_s[39]",
    "referenced_type" : "_ZTI9ct_data_s",
-   "self_type" : "_ZTIA39_9ct_data_s",
    "size" : 156,
    "source_file" : "external/zlib/deflate.h"
   },
@@ -132,7 +118,6 @@
    "linker_set_key" : "_ZTIA4_A256_j",
    "name" : "unsigned int[4][256]",
    "referenced_type" : "_ZTIA256_j",
-   "self_type" : "_ZTIA4_A256_j",
    "size" : 4096,
    "source_file" : "external/zlib/crc32.h"
   },
@@ -141,7 +126,6 @@
    "linker_set_key" : "_ZTIA512_h",
    "name" : "unsigned char[512]",
    "referenced_type" : "_ZTIh",
-   "self_type" : "_ZTIA512_h",
    "size" : 512,
    "source_file" : "external/zlib/trees.h"
   },
@@ -150,7 +134,6 @@
    "linker_set_key" : "_ZTIA573_9ct_data_s",
    "name" : "ct_data_s[573]",
    "referenced_type" : "_ZTI9ct_data_s",
-   "self_type" : "_ZTIA573_9ct_data_s",
    "size" : 2292,
    "source_file" : "external/zlib/deflate.h"
   },
@@ -159,7 +142,6 @@
    "linker_set_key" : "_ZTIA573_h",
    "name" : "unsigned char[573]",
    "referenced_type" : "_ZTIh",
-   "self_type" : "_ZTIA573_h",
    "size" : 573,
    "source_file" : "external/zlib/deflate.h"
   },
@@ -168,7 +150,6 @@
    "linker_set_key" : "_ZTIA573_i",
    "name" : "int[573]",
    "referenced_type" : "_ZTIi",
-   "self_type" : "_ZTIA573_i",
    "size" : 2292,
    "source_file" : "external/zlib/deflate.h"
   },
@@ -177,7 +158,6 @@
    "linker_set_key" : "_ZTIA61_9ct_data_s",
    "name" : "ct_data_s[61]",
    "referenced_type" : "_ZTI9ct_data_s",
-   "self_type" : "_ZTIA61_9ct_data_s",
    "size" : 244,
    "source_file" : "external/zlib/deflate.h"
   },
@@ -186,7 +166,6 @@
    "linker_set_key" : "_ZTIA_h",
    "name" : "unsigned char[]",
    "referenced_type" : "_ZTIh",
-   "self_type" : "_ZTIA_h",
    "source_file" : "external/zlib/deflate.h"
   }
  ],
@@ -198,8 +177,6 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIc",
    "name" : "char",
-   "referenced_type" : "_ZTIc",
-   "self_type" : "_ZTIc",
    "size" : 1
   },
   {
@@ -208,8 +185,6 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIh",
    "name" : "unsigned char",
-   "referenced_type" : "_ZTIh",
-   "self_type" : "_ZTIh",
    "size" : 1
   },
   {
@@ -217,8 +192,6 @@
    "is_integral" : true,
    "linker_set_key" : "_ZTIi",
    "name" : "int",
-   "referenced_type" : "_ZTIi",
-   "self_type" : "_ZTIi",
    "size" : 4
   },
   {
@@ -227,8 +200,6 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIj",
    "name" : "unsigned int",
-   "referenced_type" : "_ZTIj",
-   "self_type" : "_ZTIj",
    "size" : 4
   },
   {
@@ -236,8 +207,6 @@
    "is_integral" : true,
    "linker_set_key" : "_ZTIl",
    "name" : "long",
-   "referenced_type" : "_ZTIl",
-   "self_type" : "_ZTIl",
    "size" : 4
   },
   {
@@ -246,8 +215,6 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIm",
    "name" : "unsigned long",
-   "referenced_type" : "_ZTIm",
-   "self_type" : "_ZTIm",
    "size" : 4
   },
   {
@@ -256,15 +223,11 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIt",
    "name" : "unsigned short",
-   "referenced_type" : "_ZTIt",
-   "self_type" : "_ZTIt",
    "size" : 2
   },
   {
    "linker_set_key" : "_ZTIv",
-   "name" : "void",
-   "referenced_type" : "_ZTIv",
-   "self_type" : "_ZTIv"
+   "name" : "void"
   }
  ],
  "elf_functions" :
@@ -663,8 +626,6 @@
    ],
    "linker_set_key" : "_ZTI12inflate_mode",
    "name" : "inflate_mode",
-   "referenced_type" : "_ZTI12inflate_mode",
-   "self_type" : "_ZTI12inflate_mode",
    "size" : 4,
    "source_file" : "external/zlib/inflate.h",
    "underlying_type" : "_ZTIj"
@@ -688,8 +649,6 @@
    ],
    "linker_set_key" : "_ZTI8codetype",
    "name" : "codetype",
-   "referenced_type" : "_ZTI8codetype",
-   "self_type" : "_ZTI8codetype",
    "size" : 4,
    "source_file" : "external/zlib/inftrees.h",
    "underlying_type" : "_ZTIj"
@@ -713,9 +672,7 @@
      "referenced_type" : "_ZTIj"
     }
    ],
-   "referenced_type" : "_ZTIFPvS_jjE",
    "return_type" : "_ZTIPv",
-   "self_type" : "_ZTIFPvS_jjE",
    "source_file" : "external/zlib/zlib.h"
   },
   {
@@ -734,9 +691,7 @@
      "referenced_type" : "_ZTIj"
     }
    ],
-   "referenced_type" : "_ZTIFiPvPhjE",
    "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiPvPhjE",
    "source_file" : "external/zlib/zlib.h"
   },
   {
@@ -752,9 +707,7 @@
      "referenced_type" : "_ZTIPPKh"
     }
    ],
-   "referenced_type" : "_ZTIFjPvPPKhE",
    "return_type" : "_ZTIj",
-   "self_type" : "_ZTIFjPvPPKhE",
    "source_file" : "external/zlib/zlib.h"
   },
   {
@@ -770,9 +723,7 @@
      "referenced_type" : "_ZTIPv"
     }
    ],
-   "referenced_type" : "_ZTIFvPvS_E",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPvS_E",
    "source_file" : "external/zlib/zlib.h"
   }
  ],
@@ -2126,7 +2077,6 @@
    "linker_set_key" : "_ZTIP10z_stream_s",
    "name" : "z_stream_s *",
    "referenced_type" : "_ZTI10z_stream_s",
-   "self_type" : "_ZTIP10z_stream_s",
    "size" : 4,
    "source_file" : "external/zlib/deflate.h"
   },
@@ -2135,7 +2085,6 @@
    "linker_set_key" : "_ZTIP11gz_header_s",
    "name" : "gz_header_s *",
    "referenced_type" : "_ZTI11gz_header_s",
-   "self_type" : "_ZTIP11gz_header_s",
    "size" : 4,
    "source_file" : "external/zlib/deflate.h"
   },
@@ -2144,7 +2093,6 @@
    "linker_set_key" : "_ZTIP14internal_state",
    "name" : "internal_state *",
    "referenced_type" : "_ZTI14internal_state",
-   "self_type" : "_ZTIP14internal_state",
    "size" : 4,
    "source_file" : "external/zlib/zlib.h"
   },
@@ -2153,7 +2101,6 @@
    "linker_set_key" : "_ZTIP4code",
    "name" : "code *",
    "referenced_type" : "_ZTI4code",
-   "self_type" : "_ZTIP4code",
    "size" : 4,
    "source_file" : "external/zlib/inflate.h"
   },
@@ -2162,7 +2109,6 @@
    "linker_set_key" : "_ZTIP8gzFile_s",
    "name" : "gzFile_s *",
    "referenced_type" : "_ZTI8gzFile_s",
-   "self_type" : "_ZTIP8gzFile_s",
    "size" : 4,
    "source_file" : "external/zlib/zlib.h"
   },
@@ -2171,7 +2117,6 @@
    "linker_set_key" : "_ZTIP8gz_state",
    "name" : "gz_state *",
    "referenced_type" : "_ZTI8gz_state",
-   "self_type" : "_ZTIP8gz_state",
    "size" : 4,
    "source_file" : "external/zlib/gzguts.h"
   },
@@ -2180,7 +2125,6 @@
    "linker_set_key" : "_ZTIP9ct_data_s",
    "name" : "ct_data_s *",
    "referenced_type" : "_ZTI9ct_data_s",
-   "self_type" : "_ZTIP9ct_data_s",
    "size" : 4,
    "source_file" : "external/zlib/deflate.h"
   },
@@ -2189,7 +2133,6 @@
    "linker_set_key" : "_ZTIPFPvS_jjE",
    "name" : "void *(*)(void *, unsigned int, unsigned int)",
    "referenced_type" : "_ZTIFPvS_jjE",
-   "self_type" : "_ZTIPFPvS_jjE",
    "size" : 4,
    "source_file" : "external/zlib/zlib.h"
   },
@@ -2198,7 +2141,6 @@
    "linker_set_key" : "_ZTIPFiPvPhjE",
    "name" : "int (*)(void *, unsigned char *, unsigned int)",
    "referenced_type" : "_ZTIFiPvPhjE",
-   "self_type" : "_ZTIPFiPvPhjE",
    "size" : 4,
    "source_file" : "external/zlib/zlib.h"
   },
@@ -2207,7 +2149,6 @@
    "linker_set_key" : "_ZTIPFjPvPPKhE",
    "name" : "unsigned int (*)(void *, const unsigned char **)",
    "referenced_type" : "_ZTIFjPvPPKhE",
-   "self_type" : "_ZTIPFjPvPPKhE",
    "size" : 4,
    "source_file" : "external/zlib/zlib.h"
   },
@@ -2216,7 +2157,6 @@
    "linker_set_key" : "_ZTIPFvPvS_E",
    "name" : "void (*)(void *, void *)",
    "referenced_type" : "_ZTIFvPvS_E",
-   "self_type" : "_ZTIPFvPvS_E",
    "size" : 4,
    "source_file" : "external/zlib/zlib.h"
   },
@@ -2225,7 +2165,6 @@
    "linker_set_key" : "_ZTIPK18static_tree_desc_s",
    "name" : "const static_tree_desc_s *",
    "referenced_type" : "_ZTIK18static_tree_desc_s",
-   "self_type" : "_ZTIPK18static_tree_desc_s",
    "size" : 4,
    "source_file" : "external/zlib/deflate.h"
   },
@@ -2234,7 +2173,6 @@
    "linker_set_key" : "_ZTIPK4code",
    "name" : "const code *",
    "referenced_type" : "_ZTIK4code",
-   "self_type" : "_ZTIPK4code",
    "size" : 4,
    "source_file" : "external/zlib/inflate.h"
   },
@@ -2243,7 +2181,6 @@
    "linker_set_key" : "_ZTIPKc",
    "name" : "const char *",
    "referenced_type" : "_ZTIKc",
-   "self_type" : "_ZTIPKc",
    "size" : 4,
    "source_file" : "external/zlib/zlib.h"
   },
@@ -2252,7 +2189,6 @@
    "linker_set_key" : "_ZTIPKh",
    "name" : "const unsigned char *",
    "referenced_type" : "_ZTIKh",
-   "self_type" : "_ZTIPKh",
    "size" : 4,
    "source_file" : "external/zlib/zlib.h"
   },
@@ -2261,7 +2197,6 @@
    "linker_set_key" : "_ZTIPKj",
    "name" : "const unsigned int *",
    "referenced_type" : "_ZTIKj",
-   "self_type" : "_ZTIPKj",
    "size" : 4,
    "source_file" : "external/zlib/zlib.h"
   },
@@ -2270,7 +2205,6 @@
    "linker_set_key" : "_ZTIPKv",
    "name" : "const void *",
    "referenced_type" : "_ZTIKv",
-   "self_type" : "_ZTIPKv",
    "size" : 4,
    "source_file" : "external/zlib/zlib.h"
   },
@@ -2279,7 +2213,6 @@
    "linker_set_key" : "_ZTIPP4code",
    "name" : "code **",
    "referenced_type" : "_ZTIP4code",
-   "self_type" : "_ZTIPP4code",
    "size" : 4,
    "source_file" : "external/zlib/inftrees.h"
   },
@@ -2288,7 +2221,6 @@
    "linker_set_key" : "_ZTIPPKh",
    "name" : "const unsigned char **",
    "referenced_type" : "_ZTIPKh",
-   "self_type" : "_ZTIPPKh",
    "size" : 4,
    "source_file" : "external/zlib/zlib.h"
   },
@@ -2297,7 +2229,6 @@
    "linker_set_key" : "_ZTIPc",
    "name" : "char *",
    "referenced_type" : "_ZTIc",
-   "self_type" : "_ZTIPc",
    "size" : 4,
    "source_file" : "external/zlib/gzguts.h"
   },
@@ -2306,7 +2237,6 @@
    "linker_set_key" : "_ZTIPh",
    "name" : "unsigned char *",
    "referenced_type" : "_ZTIh",
-   "self_type" : "_ZTIPh",
    "size" : 4,
    "source_file" : "external/zlib/zlib.h"
   },
@@ -2315,7 +2245,6 @@
    "linker_set_key" : "_ZTIPi",
    "name" : "int *",
    "referenced_type" : "_ZTIi",
-   "self_type" : "_ZTIPi",
    "size" : 4,
    "source_file" : "external/zlib/zlib.h"
   },
@@ -2324,7 +2253,6 @@
    "linker_set_key" : "_ZTIPj",
    "name" : "unsigned int *",
    "referenced_type" : "_ZTIj",
-   "self_type" : "_ZTIPj",
    "size" : 4,
    "source_file" : "external/zlib/zlib.h"
   },
@@ -2333,7 +2261,6 @@
    "linker_set_key" : "_ZTIPm",
    "name" : "unsigned long *",
    "referenced_type" : "_ZTIm",
-   "self_type" : "_ZTIPm",
    "size" : 4,
    "source_file" : "external/zlib/zlib.h"
   },
@@ -2342,7 +2269,6 @@
    "linker_set_key" : "_ZTIPt",
    "name" : "unsigned short *",
    "referenced_type" : "_ZTIt",
-   "self_type" : "_ZTIPt",
    "size" : 4,
    "source_file" : "external/zlib/deflate.h"
   },
@@ -2351,7 +2277,6 @@
    "linker_set_key" : "_ZTIPv",
    "name" : "void *",
    "referenced_type" : "_ZTIv",
-   "self_type" : "_ZTIPv",
    "size" : 4,
    "source_file" : "external/zlib/zlib.h"
   }
@@ -2364,7 +2289,6 @@
    "linker_set_key" : "_ZTIA10_KPKc",
    "name" : "const char *const[10]",
    "referenced_type" : "_ZTIA10_PKc",
-   "self_type" : "_ZTIA10_KPKc",
    "size" : 40,
    "source_file" : "external/zlib/zutil.h"
   },
@@ -2374,7 +2298,6 @@
    "linker_set_key" : "_ZTIA256_Kh",
    "name" : "const unsigned char[256]",
    "referenced_type" : "_ZTIA256_h",
-   "self_type" : "_ZTIA256_Kh",
    "size" : 256,
    "source_file" : "external/zlib/trees.h"
   },
@@ -2384,7 +2307,6 @@
    "linker_set_key" : "_ZTIA256_Kj",
    "name" : "const unsigned int[256]",
    "referenced_type" : "_ZTIA256_j",
-   "self_type" : "_ZTIA256_Kj",
    "size" : 1024,
    "source_file" : "external/zlib/crc32.h"
   },
@@ -2394,7 +2316,6 @@
    "linker_set_key" : "_ZTIA288_K9ct_data_s",
    "name" : "const ct_data_s[288]",
    "referenced_type" : "_ZTIA288_9ct_data_s",
-   "self_type" : "_ZTIA288_K9ct_data_s",
    "size" : 1152,
    "source_file" : "external/zlib/trees.h"
   },
@@ -2404,7 +2325,6 @@
    "linker_set_key" : "_ZTIA29_Ki",
    "name" : "const int[29]",
    "referenced_type" : "_ZTIA29_i",
-   "self_type" : "_ZTIA29_Ki",
    "size" : 116,
    "source_file" : "external/zlib/trees.h"
   },
@@ -2414,7 +2334,6 @@
    "linker_set_key" : "_ZTIA30_K9ct_data_s",
    "name" : "const ct_data_s[30]",
    "referenced_type" : "_ZTIA30_9ct_data_s",
-   "self_type" : "_ZTIA30_K9ct_data_s",
    "size" : 120,
    "source_file" : "external/zlib/trees.h"
   },
@@ -2424,7 +2343,6 @@
    "linker_set_key" : "_ZTIA30_Ki",
    "name" : "const int[30]",
    "referenced_type" : "_ZTIA30_i",
-   "self_type" : "_ZTIA30_Ki",
    "size" : 120,
    "source_file" : "external/zlib/trees.h"
   },
@@ -2434,7 +2352,6 @@
    "linker_set_key" : "_ZTIA32_Kj",
    "name" : "const unsigned int[32]",
    "referenced_type" : "_ZTIA32_j",
-   "self_type" : "_ZTIA32_Kj",
    "size" : 128,
    "source_file" : "external/zlib/crc32.h"
   },
@@ -2444,7 +2361,6 @@
    "linker_set_key" : "_ZTIA4_A256_Kj",
    "name" : "const unsigned int[4][256]",
    "referenced_type" : "_ZTIA4_A256_j",
-   "self_type" : "_ZTIA4_A256_Kj",
    "size" : 4096,
    "source_file" : "external/zlib/crc32.h"
   },
@@ -2454,7 +2370,6 @@
    "linker_set_key" : "_ZTIA512_Kh",
    "name" : "const unsigned char[512]",
    "referenced_type" : "_ZTIA512_h",
-   "self_type" : "_ZTIA512_Kh",
    "size" : 512,
    "source_file" : "external/zlib/trees.h"
   },
@@ -2463,7 +2378,6 @@
    "linker_set_key" : "_ZTIA_Kh",
    "name" : "const unsigned char[]",
    "referenced_type" : "_ZTIA_h",
-   "self_type" : "_ZTIA_Kh",
    "source_file" : "external/zlib/deflate.h"
   },
   {
@@ -2471,7 +2385,6 @@
    "linker_set_key" : "_ZTIK18static_tree_desc_s",
    "name" : "const static_tree_desc_s",
    "referenced_type" : "_ZTI18static_tree_desc_s",
-   "self_type" : "_ZTIK18static_tree_desc_s",
    "source_file" : "external/zlib/deflate.h"
   },
   {
@@ -2480,7 +2393,6 @@
    "linker_set_key" : "_ZTIK4code",
    "name" : "const code",
    "referenced_type" : "_ZTI4code",
-   "self_type" : "_ZTIK4code",
    "size" : 4,
    "source_file" : "external/zlib/inflate.h"
   },
@@ -2490,7 +2402,6 @@
    "linker_set_key" : "_ZTIKc",
    "name" : "const char",
    "referenced_type" : "_ZTIc",
-   "self_type" : "_ZTIKc",
    "size" : 1,
    "source_file" : "external/zlib/zlib.h"
   },
@@ -2500,7 +2411,6 @@
    "linker_set_key" : "_ZTIKh",
    "name" : "const unsigned char",
    "referenced_type" : "_ZTIh",
-   "self_type" : "_ZTIKh",
    "size" : 1,
    "source_file" : "external/zlib/zlib.h"
   },
@@ -2510,7 +2420,6 @@
    "linker_set_key" : "_ZTIKj",
    "name" : "const unsigned int",
    "referenced_type" : "_ZTIj",
-   "self_type" : "_ZTIKj",
    "size" : 4,
    "source_file" : "external/zlib/zlib.h"
   },
@@ -2519,7 +2428,6 @@
    "linker_set_key" : "_ZTIKv",
    "name" : "const void",
    "referenced_type" : "_ZTIv",
-   "self_type" : "_ZTIKv",
    "source_file" : "external/zlib/zlib.h"
   }
  ],
@@ -2601,8 +2509,6 @@
    ],
    "linker_set_key" : "_ZTI10z_stream_s",
    "name" : "z_stream_s",
-   "referenced_type" : "_ZTI10z_stream_s",
-   "self_type" : "_ZTI10z_stream_s",
    "size" : 56,
    "source_file" : "external/zlib/zlib.h"
   },
@@ -2677,8 +2583,6 @@
    ],
    "linker_set_key" : "_ZTI11gz_header_s",
    "name" : "gz_header_s",
-   "referenced_type" : "_ZTI11gz_header_s",
-   "self_type" : "_ZTI11gz_header_s",
    "size" : 52,
    "source_file" : "external/zlib/zlib.h"
   },
@@ -2703,8 +2607,6 @@
    ],
    "linker_set_key" : "_ZTI11tree_desc_s",
    "name" : "tree_desc_s",
-   "referenced_type" : "_ZTI11tree_desc_s",
-   "self_type" : "_ZTI11tree_desc_s",
    "size" : 12,
    "source_file" : "external/zlib/deflate.h"
   },
@@ -2889,8 +2791,6 @@
    ],
    "linker_set_key" : "_ZTI13inflate_state",
    "name" : "inflate_state",
-   "referenced_type" : "_ZTI13inflate_state",
-   "self_type" : "_ZTI13inflate_state",
    "size" : 9040,
    "source_file" : "external/zlib/inflate.h"
   },
@@ -3210,8 +3110,6 @@
    ],
    "linker_set_key" : "_ZTI14internal_state",
    "name" : "internal_state",
-   "referenced_type" : "_ZTI14internal_state",
-   "self_type" : "_ZTI14internal_state",
    "size" : 5916,
    "source_file" : "external/zlib/deflate.h"
   },
@@ -3236,8 +3134,6 @@
    ],
    "linker_set_key" : "_ZTI4code",
    "name" : "code",
-   "referenced_type" : "_ZTI4code",
-   "self_type" : "_ZTI4code",
    "size" : 4,
    "source_file" : "external/zlib/inftrees.h"
   },
@@ -3262,8 +3158,6 @@
    ],
    "linker_set_key" : "_ZTI8gzFile_s",
    "name" : "gzFile_s",
-   "referenced_type" : "_ZTI8gzFile_s",
-   "self_type" : "_ZTI8gzFile_s",
    "size" : 12,
    "source_file" : "external/zlib/zlib.h"
   },
@@ -3378,8 +3272,6 @@
    ],
    "linker_set_key" : "_ZTI8gz_state",
    "name" : "gz_state",
-   "referenced_type" : "_ZTI8gz_state",
-   "self_type" : "_ZTI8gz_state",
    "size" : 144,
    "source_file" : "external/zlib/gzguts.h"
   },
@@ -3399,8 +3291,6 @@
    ],
    "linker_set_key" : "_ZTI9ct_data_s",
    "name" : "ct_data_s",
-   "referenced_type" : "_ZTI9ct_data_s",
-   "self_type" : "_ZTI9ct_data_s",
    "size" : 4,
    "source_file" : "external/zlib/deflate.h"
   },
@@ -3421,8 +3311,6 @@
    "linker_set_key" : "_ZTIN9ct_data_sUt_E",
    "name" : "ct_data_s::(unnamed)",
    "record_kind" : "union",
-   "referenced_type" : "_ZTIN9ct_data_sUt_E",
-   "self_type" : "_ZTIN9ct_data_sUt_E",
    "size" : 2,
    "source_file" : "external/zlib/deflate.h"
   }
